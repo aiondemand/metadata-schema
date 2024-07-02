@@ -1,0 +1,2663 @@
+@prefix : <http://aiod.eu/data/schemas/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://aiod.eu/data/schemas/> .
+
+<http://aiod.eu/data/schemas/> rdf:type owl:Ontology ;
+                                owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://aiod.eu/data/schemas/AIAndCopyright
+:AIAndCopyright rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AIAndEpistemology
+:AIAndEpistemology rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AIApplication
+:AIApplication rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AIBenchmark
+:AIBenchmark rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AICompetition
+:AICompetition rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AIServices
+:AIServices rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/AISoftwareToolkit
+:AISoftwareToolkit rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AITrustworthiness
+:AITrustworthiness rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AccomodationFood
+:AccomodationFood rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Accountability
+:Accountability rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AcousticMonitoring
+:AcousticMonitoring rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ActiveLearning
+:ActiveLearning rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ActivityAnalysis
+:ActivityAnalysis rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AdditiveManufacturing
+:AdditiveManufacturing rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/AdversarialAttacks
+:AdversarialAttacks rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AdversarialMachineLearning
+:AdversarialMachineLearning rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                           :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Agri-food
+:Agri-food rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Agriculture
+:Agriculture rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/AnalyticsPlatform
+:AnalyticsPlatform rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AnomalyDetection
+:AnomalyDetection rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Approach
+:Approach rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  http://aiod.eu/data/schemas/ArtificialGeneralIntelligence
+:ArtificialGeneralIntelligence rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ArtificialNeuralNets
+:ArtificialNeuralNets rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Arts
+:Arts rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#broader> :Recreation ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/AssemblyWorks
+:AssemblyWorks rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+               rdfs:comment "Problems related to assembly works, such as those involving vehicles, equipment, components, and robotics"@en .
+
+
+###  http://aiod.eu/data/schemas/AssistiveLiving
+:AssistiveLiving rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/AttacksAndDefence
+:AttacksAndDefence rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Audio-basedSentimentAnalysis
+:Audio-basedSentimentAnalysis rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AudioProcessing
+:AudioProcessing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Perception ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/AuditorySceneAnalysis
+:AuditorySceneAnalysis rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AugmentedReality
+:AugmentedReality rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AuthenticationOfICTUsers
+:AuthenticationOfICTUsers rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/AuthorisationOfICTUsers
+:AuthorisationOfICTUsers rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Autoencoders
+:Autoencoders rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AutomatedMachineLearning
+:AutomatedMachineLearning rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AutomatedPlanning
+:AutomatedPlanning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/AutomatedReasoning
+:AutomatedReasoning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/AutomatedScheduling
+:AutomatedScheduling rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/AutomaticLeadGeneration
+:AutomaticLeadGeneration rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/AutonomousSystems
+:AutonomousSystems rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/BayesianLearning
+:BayesianLearning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BehaviorControl
+:BehaviorControl rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BehaviorLearning
+:BehaviorLearning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BehaviorPrediction
+:BehaviorPrediction rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BehavioralGameTheory
+:BehavioralGameTheory rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BigData
+:BigData rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Bio-inspiredLearning
+:Bio-inspiredLearning rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Broadcasting
+:Broadcasting rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Buildings
+:Buildings rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Construction ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/BusinessForecasting
+:BusinessForecasting rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/BusinessFunction
+:BusinessFunction rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  http://aiod.eu/data/schemas/BusinessIntelligence
+:BusinessIntelligence rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BusinessProblem
+:BusinessProblem rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  http://aiod.eu/data/schemas/BusinessSector
+:BusinessSector rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  http://aiod.eu/data/schemas/CRMCommunication
+:CRMCommunication rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                  rdfs:comment "e.g. text, speech, video, other" .
+
+
+###  http://aiod.eu/data/schemas/Calibration
+:Calibration rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CandidatesPre-selectionScreening
+:CandidatesPre-selectionScreening rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/CarIndustry
+:CarIndustry rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Case-BasedReasoning
+:Case-BasedReasoning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CausalLearning
+:CausalLearning rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CentralProcessingUnit
+:CentralProcessingUnit rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ChurnPrevention
+:ChurnPrevention rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/CivilSecurity
+:CivilSecurity rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> :Security ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ClassicalPlanning
+:ClassicalPlanning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ClassificationAndRegression
+:ClassificationAndRegression rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ClassificationOfProducts
+:ClassificationOfProducts rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Clustering
+:Clustering rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CognitiveRobotics
+:CognitiveRobotics rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ColisionAvoidance
+:ColisionAvoidance rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CollaborativeRobotics
+:CollaborativeRobotics rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CommandLineInterface
+:CommandLineInterface rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CommonSenseReasoning
+:CommonSenseReasoning rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Communication
+:Communication rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/CommunicationProtocols
+:CommunicationProtocols rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CommunityMining
+:CommunityMining rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CompetitiveLandscapeMonitoring
+:CompetitiveLandscapeMonitoring rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ComputationalCreativity
+:ComputationalCreativity rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ComputationalNeuroscience
+:ComputationalNeuroscience rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ComputationalPhotography
+:ComputationalPhotography rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ComputationalSimulations
+:ComputationalSimulations rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ComputerProgramming
+:ComputerProgramming rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ComputerVision
+:ComputerVision rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> :Perception ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                               :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/ComputingInfrastructures
+:ComputingInfrastructures rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ConnectedAutomatedVehicles
+:ConnectedAutomatedVehicles rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> :IntegrationInteraction ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/ConstraintSatisfaction
+:ConstraintSatisfaction rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Construction
+:Construction rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Consulting
+:Consulting rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ContentProduction
+:ContentProduction rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/CooperativeGameTheory
+:CooperativeGameTheory rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CreativityPlanning
+:CreativityPlanning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Crowdsourcing
+:Crowdsourcing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/CultureCreativity
+:CultureCreativity rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/CustomerProfiling
+:CustomerProfiling rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/CustomerServiceAutomation
+:CustomerServiceAutomation rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/CustomerSupport
+:CustomerSupport rdf:type owl:NamedIndividual .
+
+
+###  http://aiod.eu/data/schemas/Cyber-AttackDetection
+:Cyber-AttackDetection rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Cyber-AttackPrevention
+:Cyber-AttackPrevention rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Cybersecurity
+:Cybersecurity rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> :Security ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/DataAnalytics
+:DataAnalytics rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DataStreams
+:DataStreams rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DecisionAnalytics
+:DecisionAnalytics rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DecisionSupport
+:DecisionSupport rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DeepGenerativeModels
+:DeepGenerativeModels rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DeepLearningTheory
+:DeepLearningTheory rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DeepNeuralArchitectures
+:DeepNeuralArchitectures rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DeepNeuralNetworkAlgorithms
+:DeepNeuralNetworkAlgorithms rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DefectDetection
+:DefectDetection rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Defence
+:Defence rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/DemandForecasting
+:DemandForecasting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/DeterministicPlanning
+:DeterministicPlanning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DialogueSystems
+:DialogueSystems rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DigitalEconomy
+:DigitalEconomy rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/DimensionalityReduction
+:DimensionalityReduction rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DistributedComputing
+:DistributedComputing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DistributedMachineLearning
+:DistributedMachineLearning rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DistributedPlanning
+:DistributedPlanning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Distribution
+:Distribution rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/DistributionAutomation
+:DistributionAutomation rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/DocumentAnalysisAndUnderstanding
+:DocumentAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/DomainAdaptation
+:DomainAdaptation rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/E-Discovery
+:E-Discovery rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/E-appointments
+:E-appointments rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Education
+:Education rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ElectricityGassupply
+:ElectricityGassupply rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ElectronicPersonhood
+:ElectronicPersonhood rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Electronics
+:Electronics rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/EmotionalIntelligence
+:EmotionalIntelligence rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Energy
+:Energy rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/EnergyRenewables
+:EnergyRenewables rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/EnsembleMethods
+:EnsembleMethods rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Equilibrium
+:Equilibrium rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/EthicsAndPhilosophy
+:EthicsAndPhilosophy rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/EvidenceReasoning
+:EvidenceReasoning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/EvolutionaryLearning
+:EvolutionaryLearning rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Explainability
+:Explainability rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ExtremeClassification
+:ExtremeClassification rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/FairDivision
+:FairDivision rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Fairness
+:Fairness rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/FeatureSelection
+:FeatureSelection rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/FederatedLearning
+:FederatedLearning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Few-shotLearning
+:Few-shotLearning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Learning from scarce data" .
+
+
+###  http://aiod.eu/data/schemas/FinanceInsurance
+:FinanceInsurance rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Fishing
+:Fishing rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Forestry
+:Forestry rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/FormalGrammar
+:FormalGrammar rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/FoundationModels
+:FoundationModels rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Fundraising
+:Fundraising rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/FuzzyTheory
+:FuzzyTheory rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GameTheory
+:GameTheory rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GenerativeModels
+:GenerativeModels rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GeneticAlgorithm
+:GeneticAlgorithm rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GeometricDeepLearning
+:GeometricDeepLearning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GrammarInduction
+:GrammarInduction rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GrammaticalEvolution
+:GrammaticalEvolution rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GrammaticalInference
+:GrammaticalInference rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Graph-basedMachineLearning
+:Graph-basedMachineLearning rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GraphMining
+:GraphMining rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GraphicalUserInterface
+:GraphicalUserInterface rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/GraphicsProcessingUnit
+:GraphicsProcessingUnit rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Health
+:Health rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/HeuristicProgramming
+:HeuristicProgramming rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-AIInteraction
+:Human-AIInteraction rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-AgentNegotiation
+:Human-AgentNegotiation rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-AwarePlanning
+:Human-AwarePlanning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-MachineInteraction
+:Human-MachineInteraction rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-MachineTeams
+:Human-MachineTeams rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-RobotInteraction
+:Human-RobotInteraction rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Human-in-the-Loop
+:Human-in-the-Loop rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/HumanComputation
+:HumanComputation rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/HumanFactors
+:HumanFactors rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/HumanHealth
+:HumanHealth rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/HumanResourcesManagementOrRecruiting
+:HumanResourcesManagementOrRecruiting rdf:type owl:NamedIndividual ,
+                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/HumanoidRobots
+:HumanoidRobots rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/HyperparameterTuning
+:HyperparameterTuning rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ICTSecurity
+:ICTSecurity rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/ImageAndVideoAnalysis
+:ImageAndVideoAnalysis rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageAndVideoGeneration
+:ImageAndVideoGeneration rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageAndVideoSynthesis
+:ImageAndVideoSynthesis rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageEnhancement
+:ImageEnhancement rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageIndexing
+:ImageIndexing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageRestoration
+:ImageRestoration rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageRetrieval
+:ImageRetrieval rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageSearch
+:ImageSearch rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageSegmentation
+:ImageSegmentation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageUnderstanding
+:ImageUnderstanding rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImitationLearning
+:ImitationLearning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImpactOfAI
+:ImpactOfAI rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImperfectInformation
+:ImperfectInformation rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Inclusiveness
+:Inclusiveness rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IncrementalLearning
+:IncrementalLearning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IndustrialRobots
+:IndustrialRobots rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InferenceEngines
+:InferenceEngines rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InformationCommunication
+:InformationCommunication rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/InformationRetrieval
+:InformationRetrieval rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InformationTechnology
+:InformationTechnology rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/InfrastructureAndTechnologyManagement
+:InfrastructureAndTechnologyManagement rdf:type owl:NamedIndividual ,
+                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/Infrastructures
+:Infrastructures rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Construction ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/InspectionOfTasks
+:InspectionOfTasks rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/IntegrationInteraction
+:IntegrationInteraction rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/IntelligenceSoftware
+:IntelligenceSoftware rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IntelligentControl
+:IntelligentControl rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IntelligentControlSystem
+:IntelligentControlSystem rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IntelligentHardwareDevelopment
+:IntelligentHardwareDevelopment rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IntelligentSoftwareDevelopment
+:IntelligentSoftwareDevelopment rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IntelligentUserInterface
+:IntelligentUserInterface rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InteractiveLearning
+:InteractiveLearning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InternalFraudDetection
+:InternalFraudDetection rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/InternalFraudPrevention
+:InternalFraudPrevention rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/InternetOfThings
+:InternetOfThings rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Interpretability
+:Interpretability rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InterventionalRepresentations
+:InterventionalRepresentations rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/InventoryManagement
+:InventoryManagement rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/InvestmentPlanning
+:InvestmentPlanning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/KernelMethods
+:KernelMethods rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/KnowledgeAcquisition
+:KnowledgeAcquisition rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/KnowledgeGraphs
+:KnowledgeGraphs rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/KnowledgeRepresantationLanguages
+:KnowledgeRepresantationLanguages rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/KnowledgeRepresentation
+:KnowledgeRepresentation rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                        :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/LanguageAcquisition
+:LanguageAcquisition rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LargeLanguageModels
+:LargeLanguageModels rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Learning
+:Learning rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/LearningOnTheEdge
+:LearningOnTheEdge rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LearningPreferences
+:LearningPreferences rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LearningTheory
+:LearningTheory rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LearningToQuantify
+:LearningToQuantify rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LegalComplianceOfAISystems
+:LegalComplianceOfAISystems rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LexicalSemantics
+:LexicalSemantics rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Liability
+:Liability rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LifelongAndContinualLearning
+:LifelongAndContinualLearning rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LinguisticInteraction
+:LinguisticInteraction rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/LinkedOpenData
+:LinkedOpenData rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Logistics
+:Logistics rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/LowLevelVision
+:LowLevelVision rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MachineLearning
+:MachineLearning rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Learning ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/MachineLearningFramework
+:MachineLearningFramework rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MachineLearningLibrary
+:MachineLearningLibrary rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MachineLearningPlatform
+:MachineLearningPlatform rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MachineTranslation
+:MachineTranslation rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ManagementOfEnterprise
+:ManagementOfEnterprise rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/ManifoldLearning
+:ManifoldLearning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Manipulation
+:Manipulation rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Manufacturing
+:Manufacturing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/MarketingSales
+:MarketingSales rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/Matchmaking
+:Matchmaking rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/MechanismDesign
+:MechanismDesign rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Mechatronics
+:Mechatronics rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MedicalAndBiologicalImaging
+:MedicalAndBiologicalImaging rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MetaLearning
+:MetaLearning rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MixedReality
+:MixedReality rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Model-basedPlanning
+:Model-basedPlanning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ModelCompression
+:ModelCompression rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MotionAndTracking
+:MotionAndTracking rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-RobotSystems
+:Multi-RobotSystems rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-TaskLearning
+:Multi-TaskLearning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-agentPlanning
+:Multi-agentPlanning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-agentSystems
+:Multi-agentSystems rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :IntegrationInteraction ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Multi-classLearning
+:Multi-classLearning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-instanceLearning
+:Multi-instanceLearning rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-labelLearning
+:Multi-labelLearning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-modalVision
+:Multi-modalVision rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Multi-viewLearning
+:Multi-viewLearning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MultimediaDataMining
+:MultimediaDataMining rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MultimodalDataMining
+:MultimodalDataMining rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MultimodalPerception
+:MultimodalPerception rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MusicCompositionandGeneration
+:MusicCompositionandGeneration rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MusicGenreRecognition
+:MusicGenreRecognition rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MusicSearch
+:MusicSearch rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MusicTranscription
+:MusicTranscription rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/NameEntityRecognition
+:NameEntityRecognition rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/NarrowArtificialIntelligence
+:NarrowArtificialIntelligence rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/NaturalLanguageGeneration
+:NaturalLanguageGeneration rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/NaturalLanguageProcessing
+:NaturalLanguageProcessing rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> :Communication ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                          :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/NaturalLanguageUnderstanding
+:NaturalLanguageUnderstanding rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Non-IterativeLearning
+:Non-IterativeLearning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ObjectCategorization
+:ObjectCategorization rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ObjectDetection
+:ObjectDetection rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/OilGas
+:OilGas rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/OnlineLearningAndBandits
+:OnlineLearningAndBandits rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Ontologies
+:Ontologies rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Optimisation
+:Optimisation rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Optimization
+:Optimization rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/OrganisationOfBusinessAdministrationProcesses
+:OrganisationOfBusinessAdministrationProcesses rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/Other
+:Other rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/OtherMotorVehicles
+:OtherMotorVehicles rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/OutlierDetection
+:OutlierDetection rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PatternMining
+:PatternMining rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Perception
+:Perception rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/PerformanceAnalytics
+:PerformanceAnalytics rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/PersonalAssistant
+:PersonalAssistant rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PersonalisedMarketingOffersAndRecommendations
+:PersonalisedMarketingOffersAndRecommendations rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Pharmaceuticals
+:Pharmaceuticals rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/PhilosophicalFoundationsOfAI
+:PhilosophicalFoundationsOfAI rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PhysicalComputing
+:PhysicalComputing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Physics-basedVision
+:Physics-basedVision rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Planning
+:Planning rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/PlanningAndScheduling
+:PlanningAndScheduling rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                      :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/PlatformAsAService
+:PlatformAsAService rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PrecisionOperations
+:PrecisionOperations rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     rdfs:comment "Βusiness problems related to precision operations, such as those in medicine, agriculture, and drilling" .
+
+
+###  http://aiod.eu/data/schemas/PredictiveΜaintenance
+:PredictiveΜaintenance rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/PriceOptimisation
+:PriceOptimisation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Privacy
+:Privacy rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Privacy-AwareML
+:Privacy-AwareML rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ProbabilisticMethods
+:ProbabilisticMethods rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ProbalisticPlanning
+:ProbalisticPlanning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ProceduralContentGeneration
+:ProceduralContentGeneration rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ProcessAutomation
+:ProcessAutomation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProcessOptimisation
+:ProcessOptimisation rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProductDesign
+:ProductDesign rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProductFeatureOptimisation
+:ProductFeatureOptimisation rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProductionProcesses
+:ProductionProcesses rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/ProductionSecurity
+:ProductionSecurity rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProductionSurveillance
+:ProductionSurveillance rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ProductionΜonitoring
+:ProductionΜonitoring rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                      rdfs:comment "Related to crop, assembly etc." .
+
+
+###  http://aiod.eu/data/schemas/ProstheticsAndExoskeletons
+:ProstheticsAndExoskeletons rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Prototype-basedModels
+:Prototype-basedModels rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PublicAdministration
+:PublicAdministration rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Services ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Publishing
+:Publishing rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/QuantumMachineLearning
+:QuantumMachineLearning rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/QuestionAnswering
+:QuestionAnswering rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Rankings
+:Rankings rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/RealEstate
+:RealEstate rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Reasoning
+:Reasoning rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/RecommenderSystems
+:RecommenderSystems rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Recreation
+:Recreation rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/RecruitingAutomation
+:RecruitingAutomation rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/RecursiveLearning
+:RecursiveLearning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/RefinementPlanning
+:RefinementPlanning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ReinforcementLearning
+:ReinforcementLearning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                      :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/RelationalLearning
+:RelationalLearning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/RepresentationLearning
+:RepresentationLearning rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Reproducibility
+:Reproducibility rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ResearchArea
+:ResearchArea rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  http://aiod.eu/data/schemas/Retail
+:Retail rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/RiskAssessment
+:RiskAssessment rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Robotics
+:Robotics rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/RoboticsAutomation
+:RoboticsAutomation rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :IntegrationInteraction ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Robustness
+:Robustness rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/RouteOptimisation
+:RouteOptimisation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Routing
+:Routing rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Rule-basedReasoning
+:Rule-basedReasoning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/RuleMining
+:RuleMining rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Safety
+:Safety rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SalesForecasting
+:SalesForecasting rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ScalabilityOfMLSystems
+:ScalabilityOfMLSystems rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SceneAnalysisAndUnderstanding
+:SceneAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SchedulingAlgorithm
+:SchedulingAlgorithm rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SchedulingUnderUncertainty
+:SchedulingUnderUncertainty rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Searching
+:Searching rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Security
+:Security rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Segmentation
+:Segmentation rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SemanticSimilarity
+:SemanticSimilarity rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SemanticWeb
+:SemanticWeb rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Semi-supervisedLearning
+:Semi-supervisedLearning rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                        :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/SensorFusion
+:SensorFusion rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SentimentAnalysis
+:SentimentAnalysis rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Services
+:Services rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Sewerage
+:Sewerage rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/ShippingAutomation
+:ShippingAutomation rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/SituationAwareness
+:SituationAwareness rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SmartBuildings
+:SmartBuildings rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/SocialNetworkAnalysis
+:SocialNetworkAnalysis rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SocialSecurity
+:SocialSecurity rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> :Services ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/SocialWork
+:SocialWork rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/SortingAutomation
+:SortingAutomation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/SoundGeneration
+:SoundGeneration rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SoundSearch
+:SoundSearch rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SoundSemantics
+:SoundSemantics rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SoundSimilarityAssessment
+:SoundSimilarityAssessment rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SoundUnderstanding
+:SoundUnderstanding rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Space
+:Space rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/SpatialDataMining
+:SpatialDataMining rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Spatio-TemporalDataMining
+:Spatio-TemporalDataMining rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SpeechProcessing
+:SpeechProcessing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :Communication ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                 :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/SpeechTransmition
+:SpeechTransmition rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SpokenLanguageProcessing
+:SpokenLanguageProcessing rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Sports
+:Sports rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Recreation ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/StateEstimation
+:StateEstimation rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/StatisticalLanguageModelling
+:StatisticalLanguageModelling rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/StorageOptimisation
+:StorageOptimisation rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Storytelling
+:Storytelling rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/StrongArtificialIntelligence
+:StrongArtificialIntelligence rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/StyleTransfer
+:StyleTransfer rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SupervisedLearning
+:SupervisedLearning rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                   :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Sustainability
+:Sustainability rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SymbolicRepresentation
+:SymbolicRepresentation rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TargetedAdvertising
+:TargetedAdvertising rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/TaskandMotionPlanning
+:TaskandMotionPlanning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TechnologyTrust
+:TechnologyTrust rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Telecommunications
+:Telecommunications rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/TemporalDataMining
+:TemporalDataMining rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TemporalPlanning
+:TemporalPlanning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TensorProcessingUnit
+:TensorProcessingUnit rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TestingAutomation
+:TestingAutomation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Textile
+:Textile rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Time-Series
+:Time-Series rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/TimelineBasedPlanning
+:TimelineBasedPlanning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Tourism
+:Tourism rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/TracingAutomation
+:TracingAutomation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/Trade
+:Trade rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Transcription
+:Transcription rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/TransferLearning
+:TransferLearning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                 :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/Translation
+:Translation rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/TranslationModel
+:TranslationModel rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Transparency
+:Transparency rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Transportation
+:Transportation rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/UncertaintyQuantification
+:UncertaintyQuantification rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/UnsupervisedLearning
+:UnsupervisedLearning rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
+                                                                     :ResearchArea .
+
+
+###  http://aiod.eu/data/schemas/VideoEnhancement
+:VideoEnhancement rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VideoIndexing
+:VideoIndexing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VideoRestoration
+:VideoRestoration rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VideoRetrieval
+:VideoRetrieval rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VideoSearch
+:VideoSearch rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VideoUnderstanding
+:VideoUnderstanding rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VirtualEnvironment
+:VirtualEnvironment rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VirtualPrototyping
+:VirtualPrototyping rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/VirtualReality
+:VirtualReality rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/VisualDataMining
+:VisualDataMining rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/WarehouseOrganisationAutomation
+:WarehouseOrganisationAutomation rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/WasteManagement
+:WasteManagement rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Water
+:Water rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/WaterSupply
+:WaterSupply rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/WeakArtificialIntelligence
+:WeakArtificialIntelligence rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Wellbeing
+:Wellbeing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Wholesale
+:Wholesale rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Zero-shotLearning
+:Zero-shotLearning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/investmentOptimisation
+:investmentOptimisation rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ΜarketΑnalysis
+:ΜarketΑnalysis rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/3DComputerVision
+<http://aiod.eu/data/schemas/3DComputerVision> rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ImageCoding/Compression
+<http://aiod.eu/data/schemas/ImageCoding/Compression> rdf:type owl:NamedIndividual ,
+                                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/R&DProcesses
+<http://aiod.eu/data/schemas/R&DProcesses> rdf:type owl:NamedIndividual ,
+                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
