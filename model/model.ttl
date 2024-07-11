@@ -7,7 +7,7 @@
 @base <http://aiod.eu/data/> .
 
 <http://aiod.eu/data/> rdf:type owl:Ontology ;
-                        <http://purl.org/dc/elements/1.1/creator> "Koukourikos Antonis, Spyrospoulos Constantinos, Tsigkou Marianna" ;
+                        <http://purl.org/dc/elements/1.1/creator> "Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou" ;
                         <http://purl.org/dc/elements/1.1/title> "AIoD Metadata Model" ;
                         <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en .
 
