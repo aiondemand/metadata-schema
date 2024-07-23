@@ -9,7 +9,8 @@
 <http://aiod.eu/data/> rdf:type owl:Ontology ;
                         <http://purl.org/dc/elements/1.1/creator> "Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou" ;
                         <http://purl.org/dc/elements/1.1/title> "AIoD Metadata Model" ;
-                        <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en .
+                        <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en ;
+                        owl:versionInfo "v3.0" .
 
 #################################################################
 #    Annotation properties
@@ -451,6 +452,12 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:comment "The postal address associated with the ContactDetails." .
 
 
+###  http://aiod.eu/data/addresses
+:addresses rdf:type owl:ObjectProperty ;
+           rdfs:domain :Solution ;
+           rdfs:range :Problem .
+
+
 ###  http://aiod.eu/data/aiod_entry
 :aiod_entry rdf:type owl:ObjectProperty ;
             rdfs:domain :AIResource ;
@@ -464,6 +471,13 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:comment "The Announcement in which the entity is disclosed." .
 
 
+###  http://aiod.eu/data/applies
+:applies rdf:type owl:ObjectProperty ;
+         rdfs:domain :AIAsset ;
+         rdfs:range :Solution ;
+         rdfs:comment "The AIAsset used to implement a Solution." .
+
+
 ###  http://aiod.eu/data/asset
 :asset rdf:type owl:ObjectProperty ;
        rdfs:domain [ rdf:type owl:Class ;
@@ -472,6 +486,13 @@ xsd:date rdf:type rdfs:Datatype .
                                  )
                    ] ;
        rdfs:range :AIAsset .
+
+
+###  http://aiod.eu/data/business_sector
+:business_sector rdf:type owl:ObjectProperty ;
+                 rdfs:domain :AIResource ;
+                 rdfs:range :BusinessSector ;
+                 rdfs:comment "An industrial sector where a resource is or can be of use (possibly in the context of a larger framework or initiative)." .
 
 
 ###  http://aiod.eu/data/category
@@ -556,11 +577,25 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:comment "The person responsible for maintaining the entry." .
 
 
+###  http://aiod.eu/data/entails
+:entails rdf:type owl:ObjectProperty ;
+         rdfs:domain :BusinessSector ;
+         rdfs:range :BusinessFunction ;
+         rdfs:comment "A Business Sector involves Business Function." .
+
+
 ###  http://aiod.eu/data/entails_step
 :entails_step rdf:type owl:ObjectProperty ;
               rdfs:domain :WorkflowExecution ;
               rdfs:range :WorkflowExecutionStep ;
               rdfs:comment "The Workflow Execution Step that is executed as part of the specific workflow run." .
+
+
+###  http://aiod.eu/data/faces
+:faces rdf:type owl:ObjectProperty ;
+       rdfs:domain :BusinessFunction ;
+       rdfs:range :BusinessProblem ;
+       rdfs:comment "The Business Function is challenged by a specific Business Problem." .
 
 
 ###  http://aiod.eu/data/follows
@@ -745,6 +780,13 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:comment "The previous Operation in the workflow execution step." .
 
 
+###  http://aiod.eu/data/prerequisite_knowledge
+:prerequisite_knowledge rdf:type owl:ObjectProperty ;
+                        rdfs:domain :EducationalAsset ;
+                        rdfs:range :ResearchArea ;
+                        rdfs:comment "The Research Area that learners should be familiar with before engaging with the Educational Asset." .
+
+
 ###  http://aiod.eu/data/produced
 :produced rdf:type owl:ObjectProperty ;
           rdfs:domain :Project ;
@@ -785,6 +827,19 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:domain :News ;
               rdfs:range :News ;
               rdfs:comment "Other News entities related to this entity." .
+
+
+###  http://aiod.eu/data/requires_solution_for
+:requires_solution_for rdf:type owl:ObjectProperty ;
+                       rdfs:domain :BusinessProblem ;
+                       rdfs:range :ResearchProblem .
+
+
+###  http://aiod.eu/data/research_area
+:research_area rdf:type owl:ObjectProperty ;
+               rdfs:domain :AIResource ;
+               rdfs:range :ResearchArea ;
+               rdfs:comment "A research area under which the research problems remedied by the resource fall." .
 
 
 ###  http://aiod.eu/data/sameAs
@@ -846,6 +901,13 @@ xsd:date rdf:type rdfs:Datatype .
       rdfs:domain :Project ;
       rdfs:range :AIAsset ;
       rdfs:comment "An AI asset used in the context of the project." .
+
+
+###  http://aiod.eu/data/uses
+:uses rdf:type owl:ObjectProperty ;
+      rdfs:domain :Solution ;
+      rdfs:range :Approach ;
+      rdfs:comment "A Solution utilizes a specific Approach to solve a problem." .
 
 
 ###  http://aiod.eu/data/uses_asset
@@ -2010,10 +2072,34 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:comment "An article containing official information or updates." .
 
 
+###  http://aiod.eu/data/Approach
+:Approach rdf:type owl:Class ;
+          rdfs:subClassOf :EcosystemResource ;
+          rdfs:comment "The specific point of view employed to implement a solution." .
+
+
 ###  http://aiod.eu/data/Audio
 :Audio rdf:type owl:Class ;
        rdfs:subClassOf :Multimedia ;
        rdfs:comment "A recorded sound." .
+
+
+###  http://aiod.eu/data/BusinessFunction
+:BusinessFunction rdf:type owl:Class ;
+                  rdfs:subClassOf :EcosystemResource ;
+                  rdfs:comment "The area of operations within a business." .
+
+
+###  http://aiod.eu/data/BusinessProblem
+:BusinessProblem rdf:type owl:Class ;
+                 rdfs:subClassOf :Problem ;
+                 rdfs:comment "The specific issue or challenge faced by a company." .
+
+
+###  http://aiod.eu/data/BusinessSector
+:BusinessSector rdf:type owl:Class ;
+                rdfs:subClassOf :Expertise ;
+                rdfs:comment "The distinct subset of the economy." .
 
 
 ###  http://aiod.eu/data/CPU
@@ -2197,6 +2283,12 @@ xsd:date rdf:type rdfs:Datatype .
              rdfs:comment "A team of experts who have no legal foundation and are assembled for a specific purpose." .
 
 
+###  http://aiod.eu/data/Expertise
+:Expertise rdf:type owl:Class ;
+           rdfs:subClassOf :EcosystemResource ;
+           rdfs:comment "The area of specialization and practical experience." .
+
+
 ###  http://aiod.eu/data/Expirement
 :Expirement rdf:type owl:Class ;
             rdfs:subClassOf :AIAsset ;
@@ -2331,6 +2423,12 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:comment "A structured format for communicating information." .
 
 
+###  http://aiod.eu/data/Problem
+:Problem rdf:type owl:Class ;
+         rdfs:subClassOf :EcosystemResource ;
+         rdfs:comment "The specific issue or challenge." .
+
+
 ###  http://aiod.eu/data/Project
 :Project rdf:type owl:Class ;
          rdfs:subClassOf :EcosystemResource ,
@@ -2351,6 +2449,18 @@ xsd:date rdf:type rdfs:Datatype .
 :Publication rdf:type owl:Class ;
              rdfs:subClassOf :KnowledgeAsset ;
              rdfs:comment "A scientific publication." .
+
+
+###  http://aiod.eu/data/ResearchArea
+:ResearchArea rdf:type owl:Class ;
+              rdfs:subClassOf :Expertise ;
+              rdfs:comment "A specific domain within the broader field of AI." .
+
+
+###  http://aiod.eu/data/ResearchProblem
+:ResearchProblem rdf:type owl:Class ;
+                 rdfs:subClassOf :Problem ;
+                 rdfs:comment "The specific issue or challenge faced in the context of research." .
 
 
 ###  http://aiod.eu/data/ResourceBundle
@@ -2381,7 +2491,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Service
 :Service rdf:type owl:Class ;
-         rdfs:subClassOf :AIResource ,
+         rdfs:subClassOf :AIAsset ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :provider ;
                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -2404,6 +2514,12 @@ xsd:date rdf:type rdfs:Datatype .
                         owl:onDataRange xsd:decimal
                       ] ;
       rdfs:comment "The extent of an entity relative to a specified unit." .
+
+
+###  http://aiod.eu/data/Solution
+:Solution rdf:type owl:Class ;
+          rdfs:subClassOf :EcosystemResource ;
+          rdfs:comment "The method for addressing a problem." .
 
 
 ###  http://aiod.eu/data/Storage
