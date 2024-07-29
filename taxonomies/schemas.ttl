@@ -118,16 +118,44 @@
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
 
 
+###  http://aiod.eu/data/schemas/AgriculturalBiotechnology
+:AgriculturalBiotechnology rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/AgriculturalSciences
+:AgriculturalSciences rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      rdfs:comment "Sciences dealing with food and fibre production and processing. They include the technologies of soil cultivation, crop cultivation and harvesting, animal production, and the processing of plant and animal products for human consumption and use." .
+
+
 ###  http://aiod.eu/data/schemas/Agriculture
 :Agriculture rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
 
 
+###  http://aiod.eu/data/schemas/AgricultureForestryAndFisheries
+:AgricultureForestryAndFisheries rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                 <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
+                                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/AnalyticsPlatform
 :AnalyticsPlatform rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/AnimalAndDairySciences
+:AnimalAndDairySciences rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/AnomalyDetection
@@ -156,8 +184,10 @@
 ###  http://aiod.eu/data/schemas/Arts
 :Arts rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
-      <http://www.w3.org/2004/02/skos/core#broader> :Recreation ;
-      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+      <http://www.w3.org/2004/02/skos/core#broader> :Humanities ,
+                                                    :Recreation ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
+                                                     :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/AssemblyWorks
@@ -261,6 +291,13 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
 
 
+###  http://aiod.eu/data/schemas/BasicMedicine
+:BasicMedicine rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/BayesianLearning
 :BayesianLearning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -301,6 +338,13 @@
 :Bio-inspiredLearning rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/BiologicalSciences
+:BiologicalSciences rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Broadcasting
@@ -388,6 +432,20 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/ChemicalEngineering
+:ChemicalEngineering rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/ChemicalSciences
+:ChemicalSciences rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/ChurnPrevention
 :ChurnPrevention rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -399,6 +457,13 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#broader> :Security ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/CivilΕngineering
+:CivilΕngineering rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/ClassicalPlanning
@@ -417,6 +482,13 @@
 :ClassificationOfProducts rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
+
+
+###  http://aiod.eu/data/schemas/ClinicalMedicine
+:ClinicalMedicine rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Clustering
@@ -502,6 +574,13 @@
 :ComputationalSimulations rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/ComputerAndInformationSciences
+:ComputerAndInformationSciences rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/ComputerProgramming
@@ -763,10 +842,38 @@
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
 
 
+###  http://aiod.eu/data/schemas/EarthAndRelatedenvironmentalSciences
+:EarthAndRelatedenvironmentalSciences rdf:type owl:NamedIndividual ,
+                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                      <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/EconomicsAndBusiness
+:EconomicsAndBusiness rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/Education
 :Education rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/EducationalSciences
+:EducationalSciences rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/ElectricalElectronicAndInformationEngineering
+:ElectricalElectronicAndInformationEngineering rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/ElectricityGassupply
@@ -812,6 +919,20 @@
 :EnsembleMethods rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/EnvironmentalBiotechnology
+:EnvironmentalBiotechnology rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/EnvironmentalEngineering
+:EnvironmentalEngineering rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Equilibrium
@@ -937,6 +1058,12 @@
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/Generic
+:Generic rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/GeneticAlgorithm
 :GeneticAlgorithm rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -997,10 +1124,24 @@
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
 
 
+###  http://aiod.eu/data/schemas/HealthSciences
+:HealthSciences rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/HeuristicProgramming
 :HeuristicProgramming rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/HistoryAndArchaeology
+:HistoryAndArchaeology rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Human-AIInteraction
@@ -1068,6 +1209,13 @@
 :HumanResourcesManagementOrRecruiting rdf:type owl:NamedIndividual ,
                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
+
+
+###  http://aiod.eu/data/schemas/Humanities
+:Humanities rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+            rdfs:comment "The branches of learning that investigate human constructs and concerns as opposed to natural processes (as in physics or chemistry) and social relations (as in anthropology or economics)." .
 
 
 ###  http://aiod.eu/data/schemas/HumanoidRobots
@@ -1176,6 +1324,13 @@
 :IncrementalLearning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/IndustrialBiotechnology
+:IndustrialBiotechnology rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/IndustrialRobots
@@ -1355,10 +1510,24 @@
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/LanguagesAndLiterature
+:LanguagesAndLiterature rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/LargeLanguageModels
 :LargeLanguageModels rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Law
+:Law rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+     <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Learning
@@ -1507,6 +1676,27 @@
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
 
 
+###  http://aiod.eu/data/schemas/MaterialsEngineering
+:MaterialsEngineering rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :NaturalSciences .
+
+
+###  http://aiod.eu/data/schemas/Mathematics
+:Mathematics rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/MechanicalEngineering
+:MechanicalEngineering rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :NaturalSciences .
+
+
 ###  http://aiod.eu/data/schemas/MechanismDesign
 :MechanismDesign rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1519,10 +1709,31 @@
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/MediaAndCommunications
+:MediaAndCommunications rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/MedicalAndBiologicalImaging
 :MedicalAndBiologicalImaging rdf:type owl:NamedIndividual ,
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/MedicalBiotechnology
+:MedicalBiotechnology rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/MedicalEngineering
+:MedicalEngineering rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/MetaLearning
@@ -1658,6 +1869,13 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/Nano-technology
+:Nano-technology rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/NarrowArtificialIntelligence
 :NarrowArtificialIntelligence rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1682,6 +1900,13 @@
 :NaturalLanguageUnderstanding rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/NaturalSciences
+:NaturalSciences rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                 rdfs:comment "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena." .
 
 
 ###  http://aiod.eu/data/schemas/Non-IterativeLearning
@@ -1743,7 +1968,29 @@
 ###  http://aiod.eu/data/schemas/Other
 :Other rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
-       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
+                                                      :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/OtherAgriculturalSciences
+:OtherAgriculturalSciences rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/OtherEngineeringAndTechnologySciences
+:OtherEngineeringAndTechnologySciences rdf:type owl:NamedIndividual ,
+                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                       <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
+                                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/OtherHumanities
+:OtherHumanities rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/OtherMotorVehicles
@@ -1751,6 +1998,27 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/OtherNaturalSciences
+:OtherNaturalSciences rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/OtherSocialSciences
+:OtherSocialSciences rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
+###  http://aiod.eu/data/schemas/OthermedicalSciences
+:OthermedicalSciences rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/OutlierDetection
@@ -1802,10 +2070,24 @@
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/PhilosophyEthicsAndReligion
+:PhilosophyEthicsAndReligion rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/PhysicalComputing
 :PhysicalComputing rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PhysicalSciences
+:PhysicalSciences rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/Physics-basedVision
@@ -1832,6 +2114,13 @@
 :PlatformAsAService rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/PoliticalSciences
+:PoliticalSciences rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/PrecisionOperations
@@ -1942,6 +2231,13 @@
 :Prototype-basedModels rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Psychology
+:Psychology rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/PublicAdministration
@@ -2141,6 +2437,11 @@
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/ScientificDomain
+:ScientificDomain rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
 ###  http://aiod.eu/data/schemas/Searching
 :Searching rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2223,10 +2524,24 @@
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem .
 
 
+###  http://aiod.eu/data/schemas/SocialAndEconomicGeography
+:SocialAndEconomicGeography rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/SocialNetworkAnalysis
 :SocialNetworkAnalysis rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/SocialSciences
+:SocialSciences rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                rdfs:comment "A branch of science that deals with the institutions and functioning of human society and with the interpersonal relationships of individuals as members of society." .
 
 
 ###  http://aiod.eu/data/schemas/SocialSecurity
@@ -2241,6 +2556,13 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#broader> :Health ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector .
+
+
+###  http://aiod.eu/data/schemas/Sociology
+:Sociology rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
 
 
 ###  http://aiod.eu/data/schemas/SortingAutomation
@@ -2518,6 +2840,13 @@
                                                                      :ResearchArea .
 
 
+###  http://aiod.eu/data/schemas/VeterinarySciences
+:VeterinarySciences rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain .
+
+
 ###  http://aiod.eu/data/schemas/VideoEnhancement
 :VideoEnhancement rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2648,10 +2977,24 @@
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
 
 
+###  http://aiod.eu/data/schemas/Engineering&Technology
+<http://aiod.eu/data/schemas/Engineering&Technology> rdf:type owl:NamedIndividual ,
+                                                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                                     rdfs:comment "The application of science and mathematics by which the properties of matter and the sources of energy in nature are made useful to people." .
+
+
 ###  http://aiod.eu/data/schemas/ImageCoding/Compression
 <http://aiod.eu/data/schemas/ImageCoding/Compression> rdf:type owl:NamedIndividual ,
                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+
+
+###  http://aiod.eu/data/schemas/Medical&HealthSciences
+<http://aiod.eu/data/schemas/Medical&HealthSciences> rdf:type owl:NamedIndividual ,
+                                                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                                     rdfs:comment "The science of dealing with the maintenance of health and the prevention and treatment of disease." .
 
 
 ###  http://aiod.eu/data/schemas/R&DProcesses
@@ -2660,4 +3003,4 @@
                                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction .
 
 
-###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
