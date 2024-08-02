@@ -1,0 +1,49 @@
+{
+  "aiod_taxonomies": [
+    {
+      "taxonomy_id": 1,
+      "taxonomy_name": "countries",
+      "elements": [
+        {
+          "id": 1,
+          "label": {
+            "language": "en",
+            "value": "Greece"
+          },
+          "elements": [
+            {
+              "id": 1.2,
+              "label": {
+                "language": "en",
+                "value": "Attica"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": {
+            "language": "en",
+            "value": "United Kingdom"
+          }
+        },
+        {
+          "id": 3,
+          "label": {
+            "language": "en",
+            "value": "France"
+          }
+        }
+      ]
+    },
+    {
+      "taxonomy_id": 2,
+      "taxonomy_name": "units",
+      "elements": [
+        "kg",
+        "ml",
+        "Hz"
+      ]
+    }
+  ]
+}
