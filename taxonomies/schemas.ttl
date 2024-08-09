@@ -17,6 +17,7 @@
 :AIAndCopyright rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con015"@en ;
                 rdfs:label "AI and Copyright"@en .
 
 
@@ -24,6 +25,7 @@
 :AIAndEpistemology rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con016"@en ;
                    rdfs:label "AI and Epistemology"@en .
 
 
@@ -31,6 +33,7 @@
 :AIApplication rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con017"@en ;
                rdfs:label "AI Application"@en .
 
 
@@ -38,6 +41,7 @@
 :AIBenchmark rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con018"@en ;
              rdfs:label "AI Benchmark"@en .
 
 
@@ -45,6 +49,7 @@
 :AICompetition rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con019"@en ;
                rdfs:label "AI Competition"@en .
 
 
@@ -52,6 +57,7 @@
 :AIServices rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con020"@en ;
             rdfs:label "AI Services"@en .
 
 
@@ -59,6 +65,7 @@
 :AISoftwareToolkit rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con021"@en ;
                    rdfs:label "AI Software Toolkit"@en .
 
 
@@ -66,6 +73,7 @@
 :AITrustworthiness rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con022"@en ;
                    rdfs:label "AI Trustworthiness"@en .
 
 
@@ -73,6 +81,7 @@
 :AccomodationFood rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con002"@en ;
                   rdfs:label "Accomodation and Food"@en .
 
 
@@ -80,6 +89,7 @@
 :Accountability rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con003"@en ;
                 rdfs:label "Accountability"@en .
 
 
@@ -87,6 +97,7 @@
 :AcousticMonitoring rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con004"@en ;
                     rdfs:label "Acoustic Monitoring"@en .
 
 
@@ -94,6 +105,7 @@
 :ActiveLearning rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con005"@en ;
                 rdfs:label "Active Learning"@en .
 
 
@@ -101,6 +113,7 @@
 :ActivityAnalysis rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con006"@en ;
                   rdfs:label "Activity Analysis"@en .
 
 
@@ -108,6 +121,7 @@
 :AdditiveManufacturing rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con007"@en ;
                        rdfs:label "Additive Manufacturing"@en .
 
 
@@ -115,6 +129,7 @@
 :AdversarialAttacks rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con008"@en ;
                     rdfs:label "Adversarial Attacks"@en .
 
 
@@ -124,6 +139,7 @@
                             <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                            :ResearchArea ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con009"@en ;
                             rdfs:label "Adversarial Machine Learning"@en .
 
 
@@ -132,6 +148,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con010"@en ;
            rdfs:label "Agri-food"@en .
 
 
@@ -140,6 +157,7 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con011"@en ;
                            rdfs:label "Agricultural Biotechnology"@en .
 
 
@@ -147,6 +165,7 @@
 :AgriculturalSciences rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con012"@en ;
                       rdfs:comment "Sciences dealing with food and fibre production and processing. They include the technologies of soil cultivation, crop cultivation and harvesting, animal production, and the processing of plant and animal products for human consumption and use." ;
                       rdfs:label "Agricultural Sciences"@en .
 
@@ -155,6 +174,7 @@
 :Agriculture rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con013"@en ;
              rdfs:label "Agriculture"@en .
 
 
@@ -163,13 +183,15 @@
                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                  <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
                                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
-                                 rdfs:label "Agriculture, forestry, and Fisheries"@en .
+                                 <http://www.w3.org/2004/02/skos/core#notation> "con014"@en ;
+                                 rdfs:label "Agriculture, forestry, and fisheries"@en .
 
 
 ###  http://aiod.eu/data/schemas/AnalyticsPlatform
 :AnalyticsPlatform rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con024"@en ;
                    rdfs:label "Analytics Platform"@en .
 
 
@@ -178,6 +200,7 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con025"@en ;
                         rdfs:label "Animal and Dairy Sciences"@en .
 
 
@@ -185,12 +208,14 @@
 :AnomalyDetection rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con026"@en ;
                   rdfs:label "Anomaly Detection"@en .
 
 
 ###  http://aiod.eu/data/schemas/Approach
 :Approach rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+          <http://www.w3.org/2004/02/skos/core#notation> "scheme006"@en ;
           rdfs:label "Approach"@en .
 
 
@@ -198,6 +223,7 @@
 :ArtificialGeneralIntelligence rdf:type owl:NamedIndividual ,
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con028"@en ;
                                rdfs:label "Artificial General Intelligence"@en .
 
 
@@ -205,6 +231,7 @@
 :ArtificialNeuralNets rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con027"@en ;
                       rdfs:label "Artficial Neural Nets"@en .
 
 
@@ -215,6 +242,7 @@
                                                     :Recreation ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
                                                      :ScientificDomain ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con029"@en ;
       rdfs:label "Arts"@en .
 
 
@@ -222,6 +250,7 @@
 :AssemblyWorks rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con030"@en ;
                rdfs:comment "Problems related to assembly works, such as those involving vehicles, equipment, components, and robotics"@en ;
                rdfs:label "Assembly Works"@en .
 
@@ -231,6 +260,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> :Health ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con031"@en ;
                  rdfs:label "Assistive Living"@en .
 
 
@@ -238,6 +268,7 @@
 :AttacksAndDefence rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con032"@en ;
                    rdfs:label "Attacks and Defence"@en .
 
 
@@ -245,6 +276,7 @@
 :Audio-basedSentimentAnalysis rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con034"@en ;
                               rdfs:label "Audio-based Sentiment Analysis"@en .
 
 
@@ -254,6 +286,7 @@
                  <http://www.w3.org/2004/02/skos/core#broader> :Perception ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                 :ResearchArea ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con033"@en ;
                  rdfs:label "Audio Processing"@en .
 
 
@@ -261,6 +294,7 @@
 :AuditorySceneAnalysis rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con035"@en ;
                        rdfs:label "Auditory Scene Analysis"@en .
 
 
@@ -268,6 +302,7 @@
 :AugmentedReality rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con036"@en ;
                   rdfs:label "Augmented Reality"@en .
 
 
@@ -275,6 +310,7 @@
 :AuthenticationOfICTUsers rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con037"@en ;
                           rdfs:label "Authentification of ICT Users"@en .
 
 
@@ -282,6 +318,7 @@
 :AuthorisationOfICTUsers rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con038"@en ;
                          rdfs:label "Authorisation of ICT Users"@en .
 
 
@@ -289,6 +326,7 @@
 :Autoencoders rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con039"@en ;
               rdfs:label "Autoencoders"@en .
 
 
@@ -296,6 +334,7 @@
 :AutomatedMachineLearning rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con040"@en ;
                           rdfs:label "Automated Machine Learning"@en .
 
 
@@ -303,6 +342,7 @@
 :AutomatedPlanning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con041"@en ;
                    rdfs:label "Automated Planning"@en .
 
 
@@ -311,6 +351,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con042"@en ;
                     rdfs:label "Automated Reasoning"@en .
 
 
@@ -318,6 +359,7 @@
 :AutomatedScheduling rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con043"@en ;
                      rdfs:label "Automated Scheduling"@en .
 
 
@@ -325,6 +367,7 @@
 :AutomaticLeadGeneration rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con044"@en ;
                          rdfs:label "Automatic Lead Generation"@en .
 
 
@@ -332,6 +375,7 @@
 :AutonomousSystems rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con045"@en ;
                    rdfs:label "Autonomous Systems"@en .
 
 
@@ -340,6 +384,7 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con046"@en ;
                rdfs:label "Basic Medicine"@en .
 
 
@@ -347,6 +392,7 @@
 :BayesianLearning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con047"@en ;
                   rdfs:label "Bayesian Learning"@en .
 
 
@@ -354,6 +400,7 @@
 :BehaviorControl rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con048"@en ;
                  rdfs:label "Behavior Control"@en .
 
 
@@ -361,6 +408,7 @@
 :BehaviorLearning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con049"@en ;
                   rdfs:label "Behavior Learning"@en .
 
 
@@ -368,6 +416,7 @@
 :BehaviorPrediction rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con050"@en ;
                     rdfs:label "Behavior Prediction"@en .
 
 
@@ -375,6 +424,7 @@
 :BehavioralGameTheory rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con051"@en ;
                       rdfs:label "Behavioral Game Theory"@en .
 
 
@@ -382,6 +432,7 @@
 :BigData rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con052"@en ;
          rdfs:label "Big Data"@en .
 
 
@@ -389,6 +440,7 @@
 :Bio-inspiredLearning rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con053"@en ;
                       rdfs:label "Bio-inspired Learning"@en .
 
 
@@ -397,6 +449,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con054"@en ;
                     rdfs:label "Biological Learning"@en .
 
 
@@ -405,6 +458,7 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con055"@en ;
               rdfs:label "Broadcasting"@en .
 
 
@@ -413,6 +467,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :Construction ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con056"@en ;
            rdfs:label "Buildings"@en .
 
 
@@ -420,12 +475,14 @@
 :BusinessForecasting rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con057"@en ;
                      rdfs:label "Business Forecasting"@en .
 
 
 ###  http://aiod.eu/data/schemas/BusinessFunction
 :BusinessFunction rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "scheme001"@en ;
                   rdfs:label "Business Function"@en .
 
 
@@ -433,18 +490,21 @@
 :BusinessIntelligence rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con058"@en ;
                       rdfs:label "Business Intelligence"@en .
 
 
 ###  http://aiod.eu/data/schemas/BusinessProblem
 :BusinessProblem rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "scheme002"@en ;
                  rdfs:label "Business Problem"@en .
 
 
 ###  http://aiod.eu/data/schemas/BusinessSector
 :BusinessSector rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                <http://www.w3.org/2004/02/skos/core#notation> "scheme003"@en ;
                 rdfs:label "Business Sector"@en .
 
 
@@ -452,6 +512,7 @@
 :CRMCommunication rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con100"@en ;
                   rdfs:comment "e.g. text, speech, video, other" ;
                   rdfs:label "CRM Communication"@en .
 
@@ -460,6 +521,7 @@
 :Calibration rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con059"@en ;
              rdfs:label "Calibration"@en .
 
 
@@ -467,6 +529,7 @@
 :CandidatesPre-selectionScreening rdf:type owl:NamedIndividual ,
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                                  <http://www.w3.org/2004/02/skos/core#notation> "con060"@en ;
                                   rdfs:label "Candidates Pre-selection Screening"@en .
 
 
@@ -475,6 +538,7 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con061"@en ;
              rdfs:label "Car Industry"@en .
 
 
@@ -482,6 +546,7 @@
 :Case-BasedReasoning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con062"@en ;
                      rdfs:label "Case-based Reasoning"@en .
 
 
@@ -489,6 +554,7 @@
 :CausalLearning rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con063"@en ;
                 rdfs:label "Casual Learning"@en .
 
 
@@ -496,6 +562,7 @@
 :CentralProcessingUnit rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con064"@en ;
                        rdfs:label "Central Processing Unit"@en .
 
 
@@ -504,6 +571,7 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con065"@en ;
                      rdfs:label "Chemical Engineering"@en .
 
 
@@ -512,6 +580,7 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con066"@en ;
                   rdfs:label "Chemical Sciences"@en .
 
 
@@ -519,6 +588,7 @@
 :ChurnPrevention rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con067"@en ;
                  rdfs:label "Churn Prevention"@en .
 
 
@@ -527,6 +597,7 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#broader> :Security ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con069"@en ;
                rdfs:label "Civil Security"@en .
 
 
@@ -535,6 +606,7 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con068"@en ;
                   rdfs:label "Civil Engineering"@en .
 
 
@@ -542,6 +614,7 @@
 :ClassicalPlanning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con070"@en ;
                    rdfs:label "Classical Planning"@en .
 
 
@@ -549,6 +622,7 @@
 :ClassificationAndRegression rdf:type owl:NamedIndividual ,
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con071"@en ;
                              rdfs:label "Classification and Regression"@en .
 
 
@@ -556,6 +630,7 @@
 :ClassificationOfProducts rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con072"@en ;
                           rdfs:label "Classification of Products"@en .
 
 
@@ -564,6 +639,7 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con073"@en ;
                   rdfs:label "Clinical Medicine"@en .
 
 
@@ -571,6 +647,7 @@
 :Clustering rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con074"@en ;
             rdfs:label "Clustering"@en .
 
 
@@ -578,6 +655,7 @@
 :CognitiveRobotics rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con075"@en ;
                    rdfs:label "Cognitive Robotics"@en .
 
 
@@ -585,6 +663,7 @@
 :ColisionAvoidance rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con076"@en ;
                    rdfs:label "Colision Avoidance"@en .
 
 
@@ -592,6 +671,7 @@
 :CollaborativeRobotics rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con077"@en ;
                        rdfs:label "Collaborative Robotics"@en .
 
 
@@ -599,6 +679,7 @@
 :CommandLineInterface rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con078"@en ;
                       rdfs:label "Command Line Interface"@en .
 
 
@@ -607,6 +688,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con079"@en ;
                       rdfs:label "Common Semse Reasoning"@en .
 
 
@@ -614,6 +696,7 @@
 :Communication rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con080"@en ;
                rdfs:label "Communication"@en .
 
 
@@ -621,6 +704,7 @@
 :CommunicationProtocols rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con081"@en ;
                         rdfs:label "Communication Protocols"@en .
 
 
@@ -628,6 +712,7 @@
 :CommunityMining rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con082"@en ;
                  rdfs:label "Community Mining"@en .
 
 
@@ -635,6 +720,7 @@
 :CompetitiveLandscapeMonitoring rdf:type owl:NamedIndividual ,
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                                <http://www.w3.org/2004/02/skos/core#notation> "con083"@en ;
                                 rdfs:label "Competitive Landscape Monitoring"@en .
 
 
@@ -642,6 +728,7 @@
 :ComputationalCreativity rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con085"@en ;
                          rdfs:label "Computational Creativity"@en .
 
 
@@ -649,6 +736,7 @@
 :ComputationalNeuroscience rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con086"@en ;
                            rdfs:label "Computational Neuroscience"@en .
 
 
@@ -656,6 +744,7 @@
 :ComputationalPhotography rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con087"@en ;
                           rdfs:label "Computational Photography"@en .
 
 
@@ -663,6 +752,7 @@
 :ComputationalSimulations rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con088"@en ;
                           rdfs:label "Computational Simulations"@en .
 
 
@@ -671,6 +761,7 @@
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                <http://www.w3.org/2004/02/skos/core#notation> "con089"@en ;
                                 rdfs:label "Computer and Information Sciences"@en .
 
 
@@ -679,6 +770,7 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con090"@en ;
                      rdfs:label "Computer Programming"@en .
 
 
@@ -688,6 +780,7 @@
                 <http://www.w3.org/2004/02/skos/core#broader> :Perception ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                :ResearchArea ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con091"@en ;
                 rdfs:label "Computer Vision"@en .
 
 
@@ -696,6 +789,7 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con092"@en ;
                           rdfs:label "Computing Infrastructures"@en .
 
 
@@ -704,6 +798,7 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con093"@en ;
                             rdfs:label "Connected Automated Vehicles"@en .
 
 
@@ -711,6 +806,7 @@
 :ConstraintSatisfaction rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con094"@en ;
                         rdfs:label "Constraint Satisfaction"@en .
 
 
@@ -718,6 +814,7 @@
 :Construction rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con095"@en ;
               rdfs:label "Construction"@en .
 
 
@@ -726,6 +823,7 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con096"@en ;
             rdfs:label "Consulting"@en .
 
 
@@ -734,6 +832,7 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con097"@en ;
                    rdfs:label "Content Production"@en .
 
 
@@ -741,6 +840,7 @@
 :CooperativeGameTheory rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con098"@en ;
                        rdfs:label "Cooperative Game Theory"@en .
 
 
@@ -748,6 +848,7 @@
 :CreativityPlanning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con099"@en ;
                     rdfs:label "Creativity Planning"@en .
 
 
@@ -755,6 +856,7 @@
 :Crowdsourcing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con101"@en ;
                rdfs:label "Crowdsourcing"@en .
 
 
@@ -762,6 +864,7 @@
 :CultureCreativity rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con102"@en ;
                    rdfs:label "Culture Creativity"@en .
 
 
@@ -769,6 +872,7 @@
 :CustomerProfiling rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con103"@en ;
                    rdfs:label "Customer Profiling"@en .
 
 
@@ -776,12 +880,14 @@
 :CustomerServiceAutomation rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con104"@en ;
                            rdfs:label "Customer Service Automation"@en .
 
 
 ###  http://aiod.eu/data/schemas/CustomerSupport
 :CustomerSupport rdf:type owl:NamedIndividual ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con105"@en ;
                  rdfs:label "Customer Support"@en .
 
 
@@ -789,6 +895,7 @@
 :Cyber-AttackDetection rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con106"@en ;
                        rdfs:label "Cyber-Attack Detection"@en .
 
 
@@ -796,6 +903,7 @@
 :Cyber-AttackPrevention rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con107"@en ;
                         rdfs:label "Cyber-Attack Prevention"@en .
 
 
@@ -804,6 +912,7 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#broader> :Security ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con108"@en ;
                rdfs:label "Cybersecurity"@en .
 
 
@@ -811,6 +920,7 @@
 :DataAnalytics rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con109"@en ;
                rdfs:label "Data Analytics"@en .
 
 
@@ -818,6 +928,7 @@
 :DataStreams rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con110"@en ;
              rdfs:label "Data Streams"@en .
 
 
@@ -825,6 +936,7 @@
 :DecisionAnalytics rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con111"@en ;
                    rdfs:label "Decision Analytics"@en .
 
 
@@ -832,6 +944,7 @@
 :DecisionSupport rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con112"@en ;
                  rdfs:label "Decision Support"@en .
 
 
@@ -839,6 +952,7 @@
 :DeepGenerativeModels rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con113"@en ;
                       rdfs:label "Deep Generative Models"@en .
 
 
@@ -846,6 +960,7 @@
 :DeepLearningTheory rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con114"@en ;
                     rdfs:label "Deep Learning Theory"@en .
 
 
@@ -853,6 +968,7 @@
 :DeepNeuralArchitectures rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con115"@en ;
                          rdfs:label "Deep Neural Architectures"@en .
 
 
@@ -860,6 +976,7 @@
 :DeepNeuralNetworkAlgorithms rdf:type owl:NamedIndividual ,
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con116"@en ;
                              rdfs:label "Deep Neural Network Algorithms"@en .
 
 
@@ -867,6 +984,7 @@
 :DefectDetection rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con117"@en ;
                  rdfs:label "Defect Detection"@en .
 
 
@@ -874,6 +992,7 @@
 :Defence rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con118"@en ;
          rdfs:label "Defence"@en .
 
 
@@ -881,6 +1000,7 @@
 :DemandForecasting rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con119"@en ;
                    rdfs:label "Demand Forecasting"@en .
 
 
@@ -888,6 +1008,7 @@
 :DeterministicPlanning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con120"@en ;
                        rdfs:label "Deterministic Planning"@en .
 
 
@@ -895,6 +1016,7 @@
 :DialogueSystems rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con121"@en ;
                  rdfs:label "Dialogue System"@en .
 
 
@@ -902,6 +1024,7 @@
 :DigitalEconomy rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con122"@en ;
                 rdfs:label "Digital Economy"@en .
 
 
@@ -909,6 +1032,7 @@
 :DimensionalityReduction rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con123"@en ;
                          rdfs:label "Dimensionality Reduction"@en .
 
 
@@ -916,6 +1040,7 @@
 :DistributedComputing rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con124"@en ;
                       rdfs:label "Distributed Computing"@en .
 
 
@@ -923,6 +1048,7 @@
 :DistributedMachineLearning rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con125"@en ;
                             rdfs:label "Distributed Machine Learning"@en .
 
 
@@ -930,6 +1056,7 @@
 :DistributedPlanning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con126"@en ;
                      rdfs:label "Distributed Planning"@en .
 
 
@@ -938,6 +1065,7 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con127"@en ;
               rdfs:label "Distribution"@en .
 
 
@@ -945,6 +1073,7 @@
 :DistributionAutomation rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con128"@en ;
                         rdfs:label "Distribution Automation"@en .
 
 
@@ -952,6 +1081,7 @@
 :DocumentAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                  <http://www.w3.org/2004/02/skos/core#notation> "con129"@en ;
                                   rdfs:label "Document Analysis and Understanding"@en .
 
 
@@ -959,6 +1089,7 @@
 :DomainAdaptation rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con130"@en ;
                   rdfs:label "Domain Adaptation"@en .
 
 
@@ -966,6 +1097,7 @@
 :E-Discovery rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con132"@en ;
              rdfs:label "E-Discovery"@en .
 
 
@@ -973,6 +1105,7 @@
 :E-appointments rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con131"@en ;
                 rdfs:label "E-appoinments"@en .
 
 
@@ -981,6 +1114,7 @@
                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                       <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                      <http://www.w3.org/2004/02/skos/core#notation> "con133"@en ;
                                       rdfs:label "Earth and Related Inviromental Sciences"@en .
 
 
@@ -989,6 +1123,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con134"@en ;
                       rdfs:label "Economics and Business"@en .
 
 
@@ -996,6 +1131,7 @@
 :Education rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con135"@en ;
            rdfs:label "Education"@en .
 
 
@@ -1004,6 +1140,7 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con136"@en ;
                      rdfs:label "Educational Sciences"@en .
 
 
@@ -1012,6 +1149,7 @@
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                               <http://www.w3.org/2004/02/skos/core#notation> "con137"@en ;
                                                rdfs:label "Electrical, electronic and information engineering"@en .
 
 
@@ -1020,6 +1158,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con138"@en ;
                       rdfs:label "Electricity and Gas Supply"@en .
 
 
@@ -1027,6 +1166,7 @@
 :ElectronicPersonhood rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con139"@en ;
                       rdfs:label "Electronic Personhood"@en .
 
 
@@ -1035,6 +1175,7 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con140"@en ;
              rdfs:label "Electronics"@en .
 
 
@@ -1042,6 +1183,7 @@
 :EmotionalIntelligence rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con141"@en ;
                        rdfs:label "Emotional Intelligence"@en .
 
 
@@ -1049,6 +1191,7 @@
 :Energy rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con142"@en ;
         rdfs:label "Energy"@en .
 
 
@@ -1057,6 +1200,7 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con143"@en ;
                   rdfs:label "Energy Renewables"@en .
 
 
@@ -1064,6 +1208,7 @@
 :EnsembleMethods rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con145"@en ;
                  rdfs:label "Ensemble Methods"@en .
 
 
@@ -1072,6 +1217,7 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con146"@en ;
                             rdfs:label "Enviromental Biotechnology"@en .
 
 
@@ -1080,6 +1226,7 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con147"@en ;
                           rdfs:label "Enviromental Engineering"@en .
 
 
@@ -1087,6 +1234,7 @@
 :Equilibrium rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con148"@en ;
              rdfs:label "Equilibrium"@en .
 
 
@@ -1094,6 +1242,7 @@
 :EthicsAndPhilosophy rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con149"@en ;
                      rdfs:label "Ethics and Philosophy"@en .
 
 
@@ -1101,6 +1250,7 @@
 :EvidenceReasoning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con150"@en ;
                    rdfs:label "Evidence Reasoning"@en .
 
 
@@ -1108,6 +1258,7 @@
 :EvolutionaryLearning rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con151"@en ;
                       rdfs:label "Evolutionary Learning"@en .
 
 
@@ -1115,6 +1266,7 @@
 :Explainability rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con152"@en ;
                 rdfs:label "Explainability"@en .
 
 
@@ -1122,6 +1274,7 @@
 :ExtremeClassification rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con153"@en ;
                        rdfs:label "Extreme Classification"@en .
 
 
@@ -1129,6 +1282,7 @@
 :FairDivision rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con154"@en ;
               rdfs:label "Fair Division"@en .
 
 
@@ -1136,6 +1290,7 @@
 :Fairness rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con155"@en ;
           rdfs:label "Fairness"@en .
 
 
@@ -1143,6 +1298,7 @@
 :FeatureSelection rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con156"@en ;
                   rdfs:label "Feature Selection"@en .
 
 
@@ -1150,6 +1306,7 @@
 :FederatedLearning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con157"@en ;
                    rdfs:label "Federal Learning"@en .
 
 
@@ -1157,6 +1314,7 @@
 :Few-shotLearning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con158"@en ;
                   rdfs:label "Few-shot Learning"@en .
 
 
@@ -1164,6 +1322,7 @@
 :FinanceInsurance rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con159"@en ;
                   rdfs:label "Finance and Insurance"@en .
 
 
@@ -1172,6 +1331,7 @@
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con160"@en ;
          rdfs:label "Fishing"@en .
 
 
@@ -1180,6 +1340,7 @@
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con161"@en ;
           rdfs:label "Forestry"@en .
 
 
@@ -1187,6 +1348,7 @@
 :FormalGrammar rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con162"@en ;
                rdfs:label "Formal Grammar"@en .
 
 
@@ -1194,6 +1356,7 @@
 :FoundationModels rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con163"@en ;
                   rdfs:label "Foundation Models"@en .
 
 
@@ -1201,6 +1364,7 @@
 :Fundraising rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con164"@en ;
              rdfs:label "Fundraising"@en .
 
 
@@ -1208,6 +1372,7 @@
 :FuzzyTheory rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con165"@en ;
              rdfs:label "Fuzzy Theory"@en .
 
 
@@ -1215,6 +1380,7 @@
 :GameTheory rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con166"@en ;
             rdfs:label "Game Theory"@en .
 
 
@@ -1222,6 +1388,7 @@
 :GenerativeModels rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con167"@en ;
                   rdfs:label "Generative Models"@en .
 
 
@@ -1229,6 +1396,7 @@
 :Generic rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con168"@en ;
          rdfs:label "Generic"@en .
 
 
@@ -1236,19 +1404,22 @@
 :GeneticAlgorithm rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con169"@en ;
                   rdfs:label "Genetic Algorithm"@en .
 
 
 ###  http://aiod.eu/data/schemas/GeometricDeepLearning
 :GeometricDeepLearning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
-                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach .
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con170"@en .
 
 
 ###  http://aiod.eu/data/schemas/GrammarInduction
 :GrammarInduction rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con171"@en ;
                   rdfs:label "Grammar Induction"@en .
 
 
@@ -1256,6 +1427,7 @@
 :GrammaticalEvolution rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con172"@en ;
                       rdfs:label "Grammatical Evolution"@en .
 
 
@@ -1263,6 +1435,7 @@
 :GrammaticalInference rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con173"@en ;
                       rdfs:label "Grammatical Inference"@en .
 
 
@@ -1270,6 +1443,7 @@
 :Graph-basedMachineLearning rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con175"@en ;
                             rdfs:label "Graph-based Machine Learning"@en .
 
 
@@ -1277,6 +1451,7 @@
 :GraphMining rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con174"@en ;
              rdfs:label "Graph Mining"@en .
 
 
@@ -1284,6 +1459,7 @@
 :GraphicalUserInterface rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con176"@en ;
                         rdfs:label "Graphical User Interface"@en .
 
 
@@ -1291,6 +1467,7 @@
 :GraphicsProcessingUnit rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con177"@en ;
                         rdfs:label "Graphics Processing Unit"@en .
 
 
@@ -1298,6 +1475,7 @@
 :Health rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con178"@en ;
         rdfs:label "Health"@en .
 
 
@@ -1306,6 +1484,7 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con179"@en ;
                 rdfs:label "Health Sciences"@en .
 
 
@@ -1313,6 +1492,7 @@
 :HeuristicProgramming rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con180"@en ;
                       rdfs:label "Heuristic Programming"@en .
 
 
@@ -1321,6 +1501,7 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con181"@en ;
                        rdfs:label "History and Archeology"@en .
 
 
@@ -1328,6 +1509,7 @@
 :Human-AIInteraction rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con188"@en ;
                      rdfs:label "Human-AI Interaction"@en .
 
 
@@ -1335,6 +1517,7 @@
 :Human-AgentNegotiation rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con187"@en ;
                         rdfs:label "Human-agent Negotiation"@en .
 
 
@@ -1342,6 +1525,7 @@
 :Human-AwarePlanning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con189"@en ;
                      rdfs:label "Human-Aware Planning"@en .
 
 
@@ -1349,6 +1533,7 @@
 :Human-MachineInteraction rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con191"@en ;
                           rdfs:label "Human-Machine Interaction"@en .
 
 
@@ -1356,6 +1541,7 @@
 :Human-MachineInteractionAndCognition rdf:type owl:NamedIndividual ,
                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                                      <http://www.w3.org/2004/02/skos/core#notation> "con186"@en ;
                                       rdfs:label "Human- Machine Interaction and Cognition"@en ;
                                       <http://www.w3.org/2004/02/skos/core#altLabel> "Integration and Interaction"@en .
 
@@ -1364,6 +1550,7 @@
 :Human-MachineTeams rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con192"@en ;
                     rdfs:label "Human-Machine Teams"@en .
 
 
@@ -1371,6 +1558,7 @@
 :Human-RobotInteraction rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con193"@en ;
                         rdfs:label "Human-Robot Interaction"@en .
 
 
@@ -1378,6 +1566,7 @@
 :Human-in-the-Loop rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con190"@en ;
                    rdfs:label "Human-in-the-Loop"@en .
 
 
@@ -1385,6 +1574,7 @@
 :HumanComputation rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con182"@en ;
                   rdfs:label "Human Computation"@en .
 
 
@@ -1392,6 +1582,7 @@
 :HumanFactors rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con183"@en ;
               rdfs:label "Human Factors"@en .
 
 
@@ -1400,6 +1591,7 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#broader> :Health ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con184"@en ;
              rdfs:label "Human Health"@en .
 
 
@@ -1407,6 +1599,7 @@
 :HumanResourcesManagementOrRecruiting rdf:type owl:NamedIndividual ,
                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                                      <http://www.w3.org/2004/02/skos/core#notation> "con185"@en ;
                                       rdfs:label "Human Resources (HR), Management or Recruiting"@en .
 
 
@@ -1414,6 +1607,7 @@
 :Humanities rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con194"@en ;
             rdfs:comment "The branches of learning that investigate human constructs and concerns as opposed to natural processes (as in physics or chemistry) and social relations (as in anthropology or economics)." ;
             rdfs:label "Humanities"@en .
 
@@ -1422,6 +1616,7 @@
 :HumanoidRobots rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con195"@en ;
                 rdfs:label "Humanoid Robots"@en .
 
 
@@ -1429,6 +1624,7 @@
 :HyperparameterTuning rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con196"@en ;
                       rdfs:label "Hyperparameter Tuning"@en .
 
 
@@ -1436,6 +1632,7 @@
 :ICTSecurity rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con197"@en ;
              rdfs:label "ICT Security"@en .
 
 
@@ -1443,6 +1640,7 @@
 :ImageAndVideoAnalysis rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con198"@en ;
                        rdfs:label "Image and Video Analysis"@en .
 
 
@@ -1450,6 +1648,7 @@
 :ImageAndVideoGeneration rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con200"@en ;
                          rdfs:label "Image and Vision Generation"@en .
 
 
@@ -1457,6 +1656,7 @@
 :ImageAndVideoSynthesis rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con199"@en ;
                         rdfs:label "Image and Video Synthesis"@en .
 
 
@@ -1464,6 +1664,7 @@
 :ImageEnhancement rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con201"@en ;
                   rdfs:label "Image Enhancement"@en .
 
 
@@ -1471,6 +1672,7 @@
 :ImageIndexing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con202"@en ;
                rdfs:label "Image Indexing"@en .
 
 
@@ -1478,6 +1680,7 @@
 :ImageRestoration rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con203"@en ;
                   rdfs:label "Image Restoration"@en .
 
 
@@ -1485,6 +1688,7 @@
 :ImageRetrieval rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con204"@en ;
                 rdfs:label "Image Retrieval"@en .
 
 
@@ -1492,6 +1696,7 @@
 :ImageSearch rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con205"@en ;
              rdfs:label "Image Search"@en .
 
 
@@ -1499,6 +1704,7 @@
 :ImageSegmentation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con206"@en ;
                    rdfs:label "Image Sergmentation"@en .
 
 
@@ -1506,6 +1712,7 @@
 :ImageUnderstanding rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con207"@en ;
                     rdfs:label "Image Understanding"@en .
 
 
@@ -1513,6 +1720,7 @@
 :ImitationLearning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con208"@en ;
                    rdfs:label "Imitation Learning"@en .
 
 
@@ -1520,6 +1728,7 @@
 :ImpactOfAI rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con209"@en ;
             rdfs:label "Impact of AI"@en .
 
 
@@ -1527,6 +1736,7 @@
 :ImperfectInformation rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con210"@en ;
                       rdfs:label "Imperfect Information"@en .
 
 
@@ -1534,6 +1744,7 @@
 :Inclusiveness rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con211"@en ;
                rdfs:label "Inclusiveness"@en .
 
 
@@ -1541,6 +1752,7 @@
 :IncrementalLearning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con212"@en ;
                      rdfs:label "Incremental Learning"@en .
 
 
@@ -1549,6 +1761,7 @@
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con213"@en ;
                          rdfs:label "Industrial Biotechnology"@en .
 
 
@@ -1556,6 +1769,7 @@
 :IndustrialRobots rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con214"@en ;
                   rdfs:label "Industrial Robots"@en .
 
 
@@ -1563,6 +1777,7 @@
 :InferenceEngines rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con215"@en ;
                   rdfs:label "Inference Engines"@en .
 
 
@@ -1570,6 +1785,7 @@
 :InformationCommunication rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con216"@en ;
                           rdfs:label "Information Communication"@en .
 
 
@@ -1577,6 +1793,7 @@
 :InformationRetrieval rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con217"@en ;
                       rdfs:label "Information Retrieval"@en .
 
 
@@ -1584,6 +1801,7 @@
 :InformationTechnology rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con218"@en ;
                        rdfs:label "Information Technology"@en .
 
 
@@ -1591,6 +1809,7 @@
 :InfrastructureAndTechnologyManagement rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                                       <http://www.w3.org/2004/02/skos/core#notation> "con219"@en ;
                                        rdfs:label "Infrastructure and Technology Management"@en .
 
 
@@ -1599,6 +1818,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> :Construction ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con220"@en ;
                  rdfs:label "Infrastructures"@en .
 
 
@@ -1606,6 +1826,7 @@
 :InspectionOfTasks rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con221"@en ;
                    rdfs:label "Inspection of Tasks"@en .
 
 
@@ -1613,6 +1834,7 @@
 :IntelligenceSoftware rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con222"@en ;
                       rdfs:label "Intelligence Software"@en .
 
 
@@ -1620,6 +1842,7 @@
 :IntelligentControl rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con223"@en ;
                     rdfs:label "Intelligent Control"@en .
 
 
@@ -1627,6 +1850,7 @@
 :IntelligentControlSystem rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con224"@en ;
                           rdfs:label "Intelligent Control System"@en .
 
 
@@ -1634,6 +1858,7 @@
 :IntelligentHardwareDevelopment rdf:type owl:NamedIndividual ,
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                <http://www.w3.org/2004/02/skos/core#notation> "con225"@en ;
                                 rdfs:label "Intelligent Hardware Development"@en .
 
 
@@ -1641,6 +1866,7 @@
 :IntelligentSoftwareDevelopment rdf:type owl:NamedIndividual ,
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                <http://www.w3.org/2004/02/skos/core#notation> "con226"@en ;
                                 rdfs:label "Intelligent Software Development"@en .
 
 
@@ -1648,6 +1874,7 @@
 :IntelligentUserInterface rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con227"@en ;
                           rdfs:label "Intelligent User Interface"@en .
 
 
@@ -1655,6 +1882,7 @@
 :InteractiveLearning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con228"@en ;
                      rdfs:label "Interactive Learning"@en .
 
 
@@ -1662,6 +1890,7 @@
 :InternalFraudDetection rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con229"@en ;
                         rdfs:label "Internal Fraud Detection"@en .
 
 
@@ -1669,6 +1898,7 @@
 :InternalFraudPrevention rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con230"@en ;
                          rdfs:label "Internal Fraud Prevention"@en .
 
 
@@ -1676,6 +1906,7 @@
 :InternetOfThings rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con231"@en ;
                   rdfs:label "Internet of Things"@en .
 
 
@@ -1683,6 +1914,7 @@
 :Interpretability rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con232"@en ;
                   rdfs:label "Interpretability"@en .
 
 
@@ -1690,6 +1922,7 @@
 :InterventionalRepresentations rdf:type owl:NamedIndividual ,
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con233"@en ;
                                rdfs:label "Interventional Representations"@en .
 
 
@@ -1697,6 +1930,7 @@
 :InventoryManagement rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con234"@en ;
                      rdfs:label "Inventory Management"@en .
 
 
@@ -1704,6 +1938,7 @@
 :InvestmentOptimisation rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con235"@en ;
                         rdfs:label "Investment Optimisation"@en .
 
 
@@ -1711,6 +1946,7 @@
 :InvestmentPlanning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con236"@en ;
                     rdfs:label "Investment Planning"@en .
 
 
@@ -1718,6 +1954,7 @@
 :KernelMethods rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con237"@en ;
                rdfs:label "Kernel Methods"@en .
 
 
@@ -1725,6 +1962,7 @@
 :KnowledgeAcquisition rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con238"@en ;
                       rdfs:label "Knowledge Acquisition"@en .
 
 
@@ -1732,6 +1970,7 @@
 :KnowledgeGraphs rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con239"@en ;
                  rdfs:label "Knowledge Graphs"@en .
 
 
@@ -1739,6 +1978,7 @@
 :KnowledgeRepresantationLanguages rdf:type owl:NamedIndividual ,
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                  <http://www.w3.org/2004/02/skos/core#notation> "con240"@en ;
                                   rdfs:label "Knowledge Represantation Languages"@en .
 
 
@@ -1748,6 +1988,7 @@
                          <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                         :ResearchArea ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con241"@en ;
                          rdfs:label "Knowledge Representation"@en .
 
 
@@ -1755,6 +1996,7 @@
 :LanguageAcquisition rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con242"@en ;
                      rdfs:label "Language Acquisition"@en .
 
 
@@ -1763,6 +2005,7 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con243"@en ;
                         rdfs:label "Languages and Literature"@en .
 
 
@@ -1770,6 +2013,7 @@
 :LargeLanguageModels rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con244"@en ;
                      rdfs:label "Large Language Models"@en .
 
 
@@ -1778,6 +2022,7 @@
               <http://www.w3.org/2004/02/skos/core#Concept> ;
      <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+     <http://www.w3.org/2004/02/skos/core#notation> "con245"@en ;
      rdfs:label "Law"@en .
 
 
@@ -1785,6 +2030,7 @@
 :Learning rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con246"@en ;
           rdfs:label "Learning"@en .
 
 
@@ -1792,6 +2038,7 @@
 :LearningOnTheEdge rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con247"@en ;
                    rdfs:label "Learning of the Edge"@en .
 
 
@@ -1799,6 +2046,7 @@
 :LearningPreferences rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con248"@en ;
                      rdfs:label "Learning Preferences"@en .
 
 
@@ -1806,6 +2054,7 @@
 :LearningTheory rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con249"@en ;
                 rdfs:label "Learning Theory"@en .
 
 
@@ -1813,6 +2062,7 @@
 :LearningToQuantify rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con250"@en ;
                     rdfs:label "Learning to Quantify"@en .
 
 
@@ -1820,6 +2070,7 @@
 :LegalComplianceOfAISystems rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con251"@en ;
                             rdfs:label "Legal Compliance of AI Ststems"@en .
 
 
@@ -1827,6 +2078,7 @@
 :LexicalSemantics rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con252"@en ;
                   rdfs:label "Lexical Semantics"@en .
 
 
@@ -1834,6 +2086,7 @@
 :Liability rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con253"@en ;
            rdfs:label "Liability"@en .
 
 
@@ -1841,6 +2094,7 @@
 :LifelongAndContinualLearning rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con254"@en ;
                               rdfs:label "Lifelong and Continual Learning"@en .
 
 
@@ -1848,6 +2102,7 @@
 :LinguisticInteraction rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con255"@en ;
                        rdfs:label "Linguistic Interaction"@en .
 
 
@@ -1855,6 +2110,7 @@
 :LinkedOpenData rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con256"@en ;
                 rdfs:label "Linked Open Data"@en .
 
 
@@ -1862,6 +2118,7 @@
 :Logistics rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con257"@en ;
            rdfs:label "Logistics"@en .
 
 
@@ -1869,6 +2126,7 @@
 :LowLevelVision rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con258"@en ;
                 rdfs:label "Low Level Vision"@en .
 
 
@@ -1878,6 +2136,7 @@
                  <http://www.w3.org/2004/02/skos/core#broader> :Learning ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                 :ResearchArea ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con259"@en ;
                  rdfs:label "Machine Learning"@en .
 
 
@@ -1885,6 +2144,7 @@
 :MachineLearningFramework rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con260"@en ;
                           rdfs:label "Machine Learning Framework"@en .
 
 
@@ -1892,6 +2152,7 @@
 :MachineLearningLibrary rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con261"@en ;
                         rdfs:label "Machine Learning Library"@en .
 
 
@@ -1899,6 +2160,7 @@
 :MachineLearningPlatform rdf:type owl:NamedIndividual ,
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con262"@en ;
                          rdfs:label "Machine Learning Platform"@en .
 
 
@@ -1906,6 +2168,7 @@
 :MachineTranslation rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con263"@en ;
                     rdfs:label "Machine Translation"@en .
 
 
@@ -1913,6 +2176,7 @@
 :ManagementOfEnterprise rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con264"@en ;
                         rdfs:label "Management of Enterprise"@en .
 
 
@@ -1920,6 +2184,7 @@
 :ManifoldLearning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con265"@en ;
                   rdfs:label "Manifold Learning"@en .
 
 
@@ -1927,6 +2192,7 @@
 :Manipulation rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con266"@en ;
               rdfs:label "Manipulation"@en .
 
 
@@ -1934,6 +2200,7 @@
 :Manufacturing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con267"@en ;
                rdfs:label "Manufacturing"@en .
 
 
@@ -1941,6 +2208,7 @@
 :MarketingSales rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con269"@en ;
                 rdfs:label "Marketing, Sales"@en .
 
 
@@ -1948,6 +2216,7 @@
 :Matchmaking rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con270"@en ;
              rdfs:label "Matchmaking"@en .
 
 
@@ -1956,6 +2225,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :NaturalSciences ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con271" ;
                       rdfs:label "Materials Engineering"@en .
 
 
@@ -1964,6 +2234,7 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con272"@en ;
              rdfs:label "Mathematics"@en .
 
 
@@ -1972,6 +2243,7 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :NaturalSciences ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con273"@en ;
                        rdfs:label "Mechanical Engineering"@en .
 
 
@@ -1979,6 +2251,7 @@
 :MechanismDesign rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con274"@en ;
                  rdfs:label "Mechanism Desing"@en .
 
 
@@ -1986,6 +2259,7 @@
 :Mechatronics rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con275"@en ;
               rdfs:label "Mechatronics"@en .
 
 
@@ -1994,6 +2268,7 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con276"@en ;
                         rdfs:label "Media and Communications"@en .
 
 
@@ -2001,6 +2276,7 @@
 :MedicalAndBiologicalImaging rdf:type owl:NamedIndividual ,
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con278"@en ;
                              rdfs:label "Medical and Biological Imaging"@en .
 
 
@@ -2009,6 +2285,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con279"@en ;
                       rdfs:label "Medical Biotechnology"@en .
 
 
@@ -2017,6 +2294,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con280"@en ;
                     rdfs:label "Medical Engineering"@en .
 
 
@@ -2024,6 +2302,7 @@
 :MetaLearning rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con281"@en ;
               rdfs:label "Meta Learning"@en .
 
 
@@ -2031,6 +2310,7 @@
 :MixedReality rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con282"@en ;
               rdfs:label "Mixed Reality"@en .
 
 
@@ -2038,6 +2318,7 @@
 :Model-basedPlanning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con284"@en ;
                      rdfs:label "Model-based Planning"@en .
 
 
@@ -2045,6 +2326,7 @@
 :ModelCompression rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con283"@en ;
                   rdfs:label "Model Compression"@en .
 
 
@@ -2052,6 +2334,7 @@
 :MotionAndTracking rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con285"@en ;
                    rdfs:label "Motion and Tracking"@en .
 
 
@@ -2059,6 +2342,7 @@
 :Multi-RobotSystems rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con292"@en ;
                     rdfs:label "Multi-Robot Systems"@en .
 
 
@@ -2066,6 +2350,7 @@
 :Multi-TaskLearning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con293"@en ;
                     rdfs:label "Multi-Task Learning"@en .
 
 
@@ -2073,6 +2358,7 @@
 :Multi-agentPlanning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con286"@en ;
                      rdfs:label "Multi-agent Planning"@en .
 
 
@@ -2081,6 +2367,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con287"@en ;
                     rdfs:label "Multi-agent Systems"@en .
 
 
@@ -2088,6 +2375,7 @@
 :Multi-classLearning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con288"@en ;
                      rdfs:label "Multi-class Learning"@en .
 
 
@@ -2095,6 +2383,7 @@
 :Multi-instanceLearning rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con289"@en ;
                         rdfs:label "Multi-instance Learning"@en .
 
 
@@ -2102,6 +2391,7 @@
 :Multi-labelLearning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con290"@en ;
                      rdfs:label "Multi-label Learning"@en .
 
 
@@ -2109,6 +2399,7 @@
 :Multi-modalVision rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con291"@en ;
                    rdfs:label "Multi-modal Vision"@en .
 
 
@@ -2116,6 +2407,7 @@
 :Multi-viewLearning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con294"@en ;
                     rdfs:label "Multi-view Learning"@en .
 
 
@@ -2123,6 +2415,7 @@
 :MultimediaDataMining rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con295"@en ;
                       rdfs:label "Multimedia Data Mining"@en .
 
 
@@ -2130,6 +2423,7 @@
 :MultimodalDataMining rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con296"@en ;
                       rdfs:label "Multimodal Data Mining"@en .
 
 
@@ -2137,6 +2431,7 @@
 :MultimodalPerception rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con297"@en ;
                       rdfs:label "Multimodal Perception"@en .
 
 
@@ -2144,6 +2439,7 @@
 :MusicCompositionandGeneration rdf:type owl:NamedIndividual ,
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con298"@en ;
                                rdfs:label "Music Composition and Generation"@en .
 
 
@@ -2151,6 +2447,7 @@
 :MusicGenreRecognition rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con299"@en ;
                        rdfs:label "Music Genre Recognition"@en .
 
 
@@ -2158,6 +2455,7 @@
 :MusicSearch rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con300"@en ;
              rdfs:label "Music Search"@en .
 
 
@@ -2165,6 +2463,7 @@
 :MusicTranscription rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con301"@en ;
                     rdfs:label "Music Transcription"@en .
 
 
@@ -2172,6 +2471,7 @@
 :NameEntityRecognition rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con302"@en ;
                        rdfs:label "Name Entity Recognition"@en .
 
 
@@ -2180,6 +2480,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con303"@en ;
                  rdfs:label "Nano-technology"@en .
 
 
@@ -2187,6 +2488,7 @@
 :NarrowArtificialIntelligence rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con304"@en ;
                               rdfs:label "Narrow Artificial Intelligence"@en .
 
 
@@ -2194,6 +2496,7 @@
 :NaturalLanguageGeneration rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con305"@en ;
                            rdfs:label "Natural Language Generation"@en .
 
 
@@ -2203,6 +2506,7 @@
                            <http://www.w3.org/2004/02/skos/core#broader> :Communication ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                           :ResearchArea ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con308"@en ;
                            rdfs:comment "Natural Language Processing"@en .
 
 
@@ -2210,6 +2514,7 @@
 :NaturalLanguageUnderstanding rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con306"@en ;
                               rdfs:label "Natural Language Understanding"@en .
 
 
@@ -2217,6 +2522,7 @@
 :NaturalSciences rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con307"@en ;
                  rdfs:comment "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena." ;
                  rdfs:label "Natural Sciences"@en .
 
@@ -2225,6 +2531,7 @@
 :Non-IterativeLearning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con309"@en ;
                        rdfs:label "Non-Iterative Learning"@en .
 
 
@@ -2232,6 +2539,7 @@
 :ObjectCategorization rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con310"@en ;
                       rdfs:label "Object Categorization"@en .
 
 
@@ -2239,6 +2547,7 @@
 :ObjectDetection rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con311"@en ;
                  rdfs:label "Object Detection"@en .
 
 
@@ -2247,6 +2556,7 @@
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con312"@en ;
         rdfs:label "Oil and Gas"@en .
 
 
@@ -2254,6 +2564,7 @@
 :OnlineLearningAndBandits rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con313"@en ;
                           rdfs:label "Online Learning and Bandits"@en .
 
 
@@ -2261,6 +2572,7 @@
 :Ontologies rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con314"@en ;
             rdfs:label "Ontologies"@en .
 
 
@@ -2270,6 +2582,7 @@
               <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                              :ResearchArea ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con315"@en ;
               rdfs:label "Optimisation"@en .
 
 
@@ -2277,6 +2590,7 @@
 :OrganisationOfBusinessAdministrationProcesses rdf:type owl:NamedIndividual ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                                               <http://www.w3.org/2004/02/skos/core#notation> "con316"@en ;
                                                rdfs:label "Organisation of Business Administration Processes"@en .
 
 
@@ -2285,6 +2599,7 @@
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
                                                       :ScientificDomain ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con317"@en ;
        rdfs:label "Other"@en .
 
 
@@ -2293,6 +2608,7 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con318"@en ;
                            rdfs:label "Other Agricultural Sciences"@en .
 
 
@@ -2301,6 +2617,7 @@
                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                                        <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Engineering&Technology> ;
                                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                       <http://www.w3.org/2004/02/skos/core#notation> "con319"@en ;
                                        rdfs:label "Other Engineering and Technology Sciences"@en .
 
 
@@ -2309,6 +2626,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con320"@en ;
                  rdfs:label "Other Humanities"@en .
 
 
@@ -2317,6 +2635,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/Medical&HealthSciences> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con321"@en ;
                       rdfs:label "Other Medical Sciences"@en .
 
 
@@ -2325,6 +2644,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con322"@en ;
                     rdfs:label "Other Motor Vehicles"@en .
 
 
@@ -2333,6 +2653,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con323"@en ;
                       rdfs:label "Other Natural Sciences"@en .
 
 
@@ -2341,6 +2662,7 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con324"@en ;
                      rdfs:label "Other Social Sciences"@en .
 
 
@@ -2348,6 +2670,7 @@
 :OutlierDetection rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con325"@en ;
                   rdfs:label "Outlier Detection"@en .
 
 
@@ -2355,6 +2678,7 @@
 :PatternMining rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con326"@en ;
                rdfs:label "Pattern Mining"@en .
 
 
@@ -2362,6 +2686,7 @@
 :Perception rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con327"@en ;
             rdfs:label "Perception"@en .
 
 
@@ -2369,6 +2694,7 @@
 :PerformanceAnalytics rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con328"@en ;
                       rdfs:label "Performance Analytics"@en .
 
 
@@ -2376,6 +2702,7 @@
 :PersonalAssistant rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con329"@en ;
                    rdfs:label "Personal Assistant"@en .
 
 
@@ -2383,6 +2710,7 @@
 :PersonalisedMarketingOffersAndRecommendations rdf:type owl:NamedIndividual ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                                               <http://www.w3.org/2004/02/skos/core#notation> "con330"@en ;
                                                rdfs:label "Personalised Marketing Offers and Recommendations"@en .
 
 
@@ -2391,6 +2719,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> :Health ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con331"@en ;
                  rdfs:label "Pharmaceuticals"@en .
 
 
@@ -2398,6 +2727,7 @@
 :PhilosophicalFoundationsOfAI rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con332"@en ;
                               rdfs:label "Philosophical Foundations of AI"@en .
 
 
@@ -2406,6 +2736,7 @@
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#broader> :Humanities ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con333"@en ;
                              rdfs:label "Philosophy, Ethics and Religion"@en .
 
 
@@ -2413,6 +2744,7 @@
 :PhysicalComputing rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con334"@en ;
                    rdfs:label "Physical Computing"@en .
 
 
@@ -2421,6 +2753,7 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#broader> :NaturalSciences ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con335"@en ;
                   rdfs:label "Physical Sciences"@en .
 
 
@@ -2428,6 +2761,7 @@
 :Physics-basedVision rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con336"@en ;
                      rdfs:label "Physics-based Vision"@en .
 
 
@@ -2435,6 +2769,7 @@
 :Planning rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con337"@en ;
           rdfs:label "Planning"@en .
 
 
@@ -2444,6 +2779,7 @@
                        <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                       :ResearchArea ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con338"@en ;
                        rdfs:label "Planning and Scheduling"@en .
 
 
@@ -2451,6 +2787,7 @@
 :PlatformAsAService rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con339"@en ;
                     rdfs:label "Platform as a Service"@en .
 
 
@@ -2459,6 +2796,7 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con340"@en ;
                    rdfs:label "Political Sciences"@en .
 
 
@@ -2466,6 +2804,7 @@
 :PrecisionOperations rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con341"@en ;
                      rdfs:comment "Βusiness problems related to precision operations, such as those in medicine, agriculture, and drilling" ;
                      rdfs:label "Precision Operations"@en .
 
@@ -2474,6 +2813,7 @@
 :PredictiveΜaintenance rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con342"@en ;
                        rdfs:label "Predictive Maintenance"@en .
 
 
@@ -2481,6 +2821,7 @@
 :PriceOptimisation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con343"@en ;
                    rdfs:label "Price Optimisation"@en .
 
 
@@ -2488,6 +2829,7 @@
 :Privacy rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con344"@en ;
          rdfs:label "Privacy"@en .
 
 
@@ -2495,6 +2837,7 @@
 :Privacy-AwareML rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con345"@en ;
                  rdfs:label "Privacy-Aware ML"@en .
 
 
@@ -2502,6 +2845,7 @@
 :ProbabilisticMethods rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con346"@en ;
                       rdfs:label "Probalistic Methods"@en .
 
 
@@ -2509,6 +2853,7 @@
 :ProbalisticPlanning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con347"@en ;
                      rdfs:label "Probalistic Planning"@en .
 
 
@@ -2516,6 +2861,7 @@
 :ProceduralContentGeneration rdf:type owl:NamedIndividual ,
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con348"@en ;
                              rdfs:label "Procedural Content Generation"@en .
 
 
@@ -2523,6 +2869,7 @@
 :ProcessAutomation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con349"@en ;
                    rdfs:label "Process Automation"@en .
 
 
@@ -2530,6 +2877,7 @@
 :ProcessOptimisation rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con350"@en ;
                      rdfs:label "Process Optimisation"@en .
 
 
@@ -2537,6 +2885,7 @@
 :ProductDesign rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con351"@en ;
                rdfs:label "Product Design"@en .
 
 
@@ -2544,6 +2893,7 @@
 :ProductFeatureOptimisation rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con352"@en ;
                             rdfs:label "Product Feature Optimisation"@en .
 
 
@@ -2551,6 +2901,7 @@
 :ProductionProcesses rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con354"@en ;
                      rdfs:label "Production Processes"@en .
 
 
@@ -2558,6 +2909,7 @@
 :ProductionSecurity rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con355"@en ;
                     rdfs:label "Production Security"@en .
 
 
@@ -2565,6 +2917,7 @@
 :ProductionSurveillance rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con356"@en ;
                         rdfs:label "Production Surveillance"@en .
 
 
@@ -2572,6 +2925,7 @@
 :ProductionΜonitoring rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con353"@en ;
                       rdfs:comment "Related to crop, assembly etc." ;
                       rdfs:label "Production Monitoring"@en .
 
@@ -2580,6 +2934,7 @@
 :ProstheticsAndExoskeletons rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con357"@en ;
                             rdfs:label "Prosthetics and Exoskeletons"@en .
 
 
@@ -2587,6 +2942,7 @@
 :Prototype-basedModels rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con358"@en ;
                        rdfs:label "Prototype-based Models"@en .
 
 
@@ -2595,6 +2951,7 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con359"@en ;
             rdfs:label "Psychology"@en .
 
 
@@ -2603,6 +2960,7 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#broader> :Services ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con360"@en ;
                       rdfs:label "Public Administration"@en .
 
 
@@ -2611,6 +2969,7 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con361"@en ;
             rdfs:label "Publishing"@en .
 
 
@@ -2618,6 +2977,7 @@
 :QuantumMachineLearning rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con362"@en ;
                         rdfs:label "Quantum Machine Learning"@en .
 
 
@@ -2625,6 +2985,7 @@
 :QuestionAnswering rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con363"@en ;
                    rdfs:label "Question Answering"@en .
 
 
@@ -2632,6 +2993,7 @@
 :Rankings rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con365"@en ;
           rdfs:label "Rankings"@en .
 
 
@@ -2639,6 +3001,7 @@
 :RealEstate rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con366"@en ;
             rdfs:label "Real Estate"@en .
 
 
@@ -2646,6 +3009,7 @@
 :Reasoning rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con367"@en ;
            rdfs:label "Reasoning"@en .
 
 
@@ -2653,6 +3017,7 @@
 :RecommenderSystems rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con368"@en ;
                     rdfs:label "Recommended Systems"@en .
 
 
@@ -2660,6 +3025,7 @@
 :Recreation rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con369"@en ;
             rdfs:label "Recreation"@en .
 
 
@@ -2667,6 +3033,7 @@
 :RecruitingAutomation rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con370"@en ;
                       rdfs:label "Recruiting Automation"@en .
 
 
@@ -2674,6 +3041,7 @@
 :RecursiveLearning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con371"@en ;
                    rdfs:label "Recrusive Learning"@en .
 
 
@@ -2681,6 +3049,7 @@
 :RefinementPlanning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con372"@en ;
                     rdfs:label "Refinement Planning"@en .
 
 
@@ -2690,6 +3059,7 @@
                        <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                       :ResearchArea ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con373"@en ;
                        rdfs:label "Reinforcement Learning"@en .
 
 
@@ -2697,6 +3067,7 @@
 :RelationalLearning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con374"@en ;
                     rdfs:label "Relational Learning"@en .
 
 
@@ -2704,6 +3075,7 @@
 :RepresentationLearning rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con375"@en ;
                         rdfs:label "Representation Learning"@en .
 
 
@@ -2711,12 +3083,14 @@
 :Reproducibility rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con376"@en ;
                  rdfs:label "Reproducibility"@en .
 
 
 ###  http://aiod.eu/data/schemas/ResearchArea
 :ResearchArea rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+              <http://www.w3.org/2004/02/skos/core#notation> "scheme004"@en ;
               rdfs:label "Research Area"@en .
 
 
@@ -2725,6 +3099,7 @@
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con377"@en ;
         rdfs:label "Retail"@en .
 
 
@@ -2732,6 +3107,7 @@
 :RiskAssessment rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con378"@en ;
                 rdfs:label "Risk Assessment"@en .
 
 
@@ -2739,6 +3115,7 @@
 :Robotics rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con379"@en ;
           rdfs:label "Robotics"@en .
 
 
@@ -2747,6 +3124,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con380"@en ;
                     rdfs:label "Robotics Automation"@en .
 
 
@@ -2754,6 +3132,7 @@
 :Robustness rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con381"@en ;
             rdfs:label "Robustness"@en .
 
 
@@ -2761,6 +3140,7 @@
 :RouteOptimisation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con382"@en ;
                    rdfs:label "Route Optimisation"@en .
 
 
@@ -2768,6 +3148,7 @@
 :Routing rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con383"@en ;
          rdfs:label "Routing"@en .
 
 
@@ -2775,6 +3156,7 @@
 :Rule-basedReasoning rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con384"@en ;
                      rdfs:label "Rule-based Reasoning"@en .
 
 
@@ -2782,6 +3164,7 @@
 :RuleMining rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con385"@en ;
             rdfs:label "Rule-Mining"@en .
 
 
@@ -2789,6 +3172,7 @@
 :Safety rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con386"@en ;
         rdfs:label "Safety"@en .
 
 
@@ -2796,6 +3180,7 @@
 :SalesForecasting rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con387"@en ;
                   rdfs:label "Sales Forecasting"@en .
 
 
@@ -2803,6 +3188,7 @@
 :ScalabilityOfMLSystems rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con388"@en ;
                         rdfs:label "Scalability of ML Systems"@en .
 
 
@@ -2810,6 +3196,7 @@
 :SceneAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con389"@en ;
                                rdfs:label "Scene Analysis and Understanding"@en .
 
 
@@ -2817,6 +3204,7 @@
 :SchedulingAlgorithm rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con390"@en ;
                      rdfs:label "Scheduling Algorithm"@en .
 
 
@@ -2824,12 +3212,14 @@
 :SchedulingUnderUncertainty rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con391"@en ;
                             rdfs:label "Scheduling under Uncertainty"@en .
 
 
 ###  http://aiod.eu/data/schemas/ScientificDomain
 :ScientificDomain rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "scheme005"@en ;
                   rdfs:label "Scientific Domain"@en .
 
 
@@ -2838,6 +3228,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con392"@en ;
            rdfs:label "Searching"@en .
 
 
@@ -2845,6 +3236,7 @@
 :Security rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con393"@en ;
           rdfs:label "Security"@en .
 
 
@@ -2852,6 +3244,7 @@
 :Segmentation rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con394"@en ;
               rdfs:label "Segmentation"@en .
 
 
@@ -2859,6 +3252,7 @@
 :SemanticSimilarity rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con395"@en ;
                     rdfs:label "Semantic Similarity"@en .
 
 
@@ -2866,6 +3260,7 @@
 :SemanticWeb rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con396"@en ;
              rdfs:label "Semantic Web"@en .
 
 
@@ -2875,6 +3270,7 @@
                          <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                         :ResearchArea ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con397"@en ;
                          rdfs:label "Semi-supervised Learning"@en .
 
 
@@ -2882,6 +3278,7 @@
 :SensorFusion rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con398"@en ;
               rdfs:label "Sensor Fusion"@en .
 
 
@@ -2889,6 +3286,7 @@
 :SentimentAnalysis rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con399"@en ;
                    rdfs:label "Sentiment Analysis"@en .
 
 
@@ -2896,6 +3294,7 @@
 :Services rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con400"@en ;
           rdfs:label "Services"@en .
 
 
@@ -2904,6 +3303,7 @@
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#broader> :Water ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con401"@en ;
           rdfs:label "Sewerage"@en .
 
 
@@ -2911,6 +3311,7 @@
 :ShippingAutomation rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con402"@en ;
                     rdfs:label "Shipping Automation"@en .
 
 
@@ -2918,6 +3319,7 @@
 :SituationAwareness rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con403"@en ;
                     rdfs:label "Situation Awareness"@en .
 
 
@@ -2925,6 +3327,7 @@
 :SmartBuildings rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con404"@en ;
                 rdfs:label "Smart Buildings"@en .
 
 
@@ -2933,6 +3336,7 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con405"@en ;
                             rdfs:label "Social and Economic Geography"@en .
 
 
@@ -2940,6 +3344,7 @@
 :SocialNetworkAnalysis rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con406"@en ;
                        rdfs:label "Social Network Analysis"@en .
 
 
@@ -2947,6 +3352,7 @@
 :SocialSciences rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con407"@en ;
                 rdfs:comment "A branch of science that deals with the institutions and functioning of human society and with the interpersonal relationships of individuals as members of society." ;
                 rdfs:label "Social Sciences"@en .
 
@@ -2956,6 +3362,7 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#broader> :Services ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con408"@en ;
                 rdfs:label "Social Security"@en .
 
 
@@ -2964,6 +3371,7 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#broader> :Health ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con409"@en ;
             rdfs:label "Social Work"@en .
 
 
@@ -2972,6 +3380,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :SocialSciences ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con410"@en ;
            rdfs:label "Sociology"@en .
 
 
@@ -2979,6 +3388,7 @@
 :SortingAutomation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con411"@en ;
                    rdfs:label "Sorting Automation"@en .
 
 
@@ -2986,6 +3396,7 @@
 :SoundGeneration rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con412"@en ;
                  rdfs:label "Sound Generation"@en .
 
 
@@ -2993,6 +3404,7 @@
 :SoundSearch rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con413"@en ;
              rdfs:label "Sound Search"@en .
 
 
@@ -3000,6 +3412,7 @@
 :SoundSemantics rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con414"@en ;
                 rdfs:label "Sound Semantics"@en .
 
 
@@ -3007,6 +3420,7 @@
 :SoundSimilarityAssessment rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con415"@en ;
                            rdfs:label "Sound Similarity Assessment"@en .
 
 
@@ -3014,6 +3428,7 @@
 :SoundUnderstanding rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con416"@en ;
                     rdfs:label "Sound Understanding"@en .
 
 
@@ -3021,6 +3436,7 @@
 :Space rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con417"@en ;
        rdfs:label "Space"@en .
 
 
@@ -3028,6 +3444,7 @@
 :SpatialDataMining rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con418"@en ;
                    rdfs:label "Spatial Data Mining"@en .
 
 
@@ -3035,6 +3452,7 @@
 :Spatio-TemporalDataMining rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con419"@en ;
                            rdfs:label "Spatio-Temporal Data Mining"@en .
 
 
@@ -3044,6 +3462,7 @@
                   <http://www.w3.org/2004/02/skos/core#broader> :Communication ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                  :ResearchArea ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con420"@en ;
                   rdfs:label "Speech Processing"@en .
 
 
@@ -3051,6 +3470,7 @@
 :SpeechTransmition rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con421"@en ;
                    rdfs:label "Speech Transmition"@en .
 
 
@@ -3058,6 +3478,7 @@
 :SpokenLanguageProcessing rdf:type owl:NamedIndividual ,
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con422"@en ;
                           rdfs:label "Spoken Language Processing"@en .
 
 
@@ -3066,6 +3487,7 @@
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#broader> :Recreation ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con423"@en ;
         rdfs:label "Sports"@en .
 
 
@@ -3073,6 +3495,7 @@
 :StateEstimation rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con424"@en ;
                  rdfs:label "State Estimation"@en .
 
 
@@ -3080,6 +3503,7 @@
 :StatisticalLanguageModelling rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con425"@en ;
                               rdfs:label "Statistical Language Modelling"@en .
 
 
@@ -3087,6 +3511,7 @@
 :StorageOptimisation rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con426"@en ;
                      rdfs:label "Storage Optimisation"@en .
 
 
@@ -3094,6 +3519,7 @@
 :Storytelling rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con427"@en ;
               rdfs:label "Storytelling"@en .
 
 
@@ -3101,6 +3527,7 @@
 :StrongArtificialIntelligence rdf:type owl:NamedIndividual ,
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con428"@en ;
                               rdfs:label "Strong Artificial Intellifence"@en .
 
 
@@ -3108,6 +3535,7 @@
 :StyleTransfer rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con429"@en ;
                rdfs:label "Style Transfer"@en .
 
 
@@ -3117,6 +3545,7 @@
                     <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                    :ResearchArea ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con430"@en ;
                     rdfs:label "Supervised Learning"@en .
 
 
@@ -3124,6 +3553,7 @@
 :Sustainability rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con431"@en ;
                 rdfs:label "Sustainability"@en .
 
 
@@ -3131,6 +3561,7 @@
 :SymbolicRepresentation rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con432"@en ;
                         rdfs:label "Symbolic Representation"@en .
 
 
@@ -3138,6 +3569,7 @@
 :TargetedAdvertising rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con433"@en ;
                      rdfs:label "Targeted  Advertising"@en .
 
 
@@ -3145,6 +3577,7 @@
 :TaskandMotionPlanning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con434"@en ;
                        rdfs:label "Task and Motion Planning"@en .
 
 
@@ -3152,6 +3585,7 @@
 :TechnologyTrust rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con435"@en ;
                  rdfs:label "Technology Trust"@en .
 
 
@@ -3160,6 +3594,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con436"@en ;
                     rdfs:label "Telecommunications"@en .
 
 
@@ -3167,6 +3602,7 @@
 :TemporalDataMining rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con437"@en ;
                     rdfs:label "Temporal Data Mining"@en .
 
 
@@ -3174,6 +3610,7 @@
 :TemporalPlanning rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con438"@en ;
                   rdfs:label "Temporal Planning"@en .
 
 
@@ -3181,6 +3618,7 @@
 :TensorProcessingUnit rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con439"@en ;
                       rdfs:label "Tensor Process Unit"@en .
 
 
@@ -3188,6 +3626,7 @@
 :TestingAutomation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con440"@en ;
                    rdfs:label "Testing Automation"@en .
 
 
@@ -3196,6 +3635,7 @@
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con441"@en ;
          rdfs:label "Textile"@en .
 
 
@@ -3203,6 +3643,7 @@
 :Time-Series rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con442"@en ;
              rdfs:label "Time-Series"@en .
 
 
@@ -3210,6 +3651,7 @@
 :TimelineBasedPlanning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con443"@en ;
                        rdfs:label "Timeline Based Planning"@en .
 
 
@@ -3217,6 +3659,7 @@
 :Tourism rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con444"@en ;
          rdfs:label "Tourism"@en .
 
 
@@ -3224,6 +3667,7 @@
 :TracingAutomation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con445"@en ;
                    rdfs:label "Tracing Automation"@en .
 
 
@@ -3231,6 +3675,7 @@
 :Trade rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con446"@en ;
        rdfs:label "Trade"@en .
 
 
@@ -3238,6 +3683,7 @@
 :Transcription rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con447"@en ;
                rdfs:label "Transcription"@en .
 
 
@@ -3247,6 +3693,7 @@
                   <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                  :ResearchArea ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con448"@en ;
                   rdfs:label "Transfer Learning"@en .
 
 
@@ -3254,6 +3701,7 @@
 :Translation rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con449"@en ;
              rdfs:label "Translation"@en .
 
 
@@ -3261,6 +3709,7 @@
 :TranslationModel rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con450"@en ;
                   rdfs:label "Translation Model"@en .
 
 
@@ -3268,6 +3717,7 @@
 :Transparency rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con451"@en ;
               rdfs:label "Transparency"@en .
 
 
@@ -3275,6 +3725,7 @@
 :Transportation rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con452"@en ;
                 rdfs:label "Transportation"@en .
 
 
@@ -3282,6 +3733,7 @@
 :UncertaintyQuantification rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con453"@en ;
                            rdfs:label "Uncertainty Quantification"@en .
 
 
@@ -3291,6 +3743,7 @@
                       <http://www.w3.org/2004/02/skos/core#broader> :MachineLearning ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                      :ResearchArea ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con454"@en ;
                       rdfs:label "Unsupervised Learning"@en .
 
 
@@ -3299,6 +3752,7 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#broader> :AgriculturalSciences ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con455"@en ;
                     rdfs:label "Veterinary Sciences"@en .
 
 
@@ -3306,6 +3760,7 @@
 :VideoEnhancement rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con456"@en ;
                   rdfs:label "Video Enhancement"@en .
 
 
@@ -3313,6 +3768,7 @@
 :VideoIndexing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con457"@en ;
                rdfs:label "Video Indexing"@en .
 
 
@@ -3320,6 +3776,7 @@
 :VideoRestoration rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con458"@en ;
                   rdfs:label "Video Restoration"@en .
 
 
@@ -3327,6 +3784,7 @@
 :VideoRetrieval rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con459"@en ;
                 rdfs:label "Video Retrieval"@en .
 
 
@@ -3334,6 +3792,7 @@
 :VideoSearch rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con460"@en ;
              rdfs:label "Video Search"@en .
 
 
@@ -3341,6 +3800,7 @@
 :VideoUnderstanding rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con461"@en ;
                     rdfs:label "Video Understanding"@en .
 
 
@@ -3348,6 +3808,7 @@
 :VirtualEnvironment rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con462"@en ;
                     rdfs:label "Virtual Enviroment"@en .
 
 
@@ -3355,6 +3816,7 @@
 :VirtualPrototyping rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con463"@en ;
                     rdfs:label "Virtual Prototyping"@en .
 
 
@@ -3362,6 +3824,7 @@
 :VirtualReality rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con464"@en ;
                 rdfs:label "Virtual Reality"@en .
 
 
@@ -3369,6 +3832,7 @@
 :VisualDataMining rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con465"@en ;
                   rdfs:label "Visual Data Mining"@en .
 
 
@@ -3376,6 +3840,7 @@
 :WarehouseOrganisationAutomation rdf:type owl:NamedIndividual ,
                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                                 <http://www.w3.org/2004/02/skos/core#notation> "con466"@en ;
                                  rdfs:label "Warehouse Organisation Automation"@en .
 
 
@@ -3384,6 +3849,7 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#broader> :Water ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con467"@en ;
                  rdfs:label "Waste Management"@en .
 
 
@@ -3391,6 +3857,7 @@
 :Water rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con468"@en ;
        rdfs:label "Water"@en .
 
 
@@ -3399,6 +3866,7 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#broader> :Water ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con469"@en ;
              rdfs:label "Water Supply"@en .
 
 
@@ -3406,6 +3874,7 @@
 :WeakArtificialIntelligence rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con470"@en ;
                             rdfs:label "Weak Artificial Intelligence"@en .
 
 
@@ -3414,6 +3883,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :Health ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con471"@en ;
            rdfs:label "Wellbeing"@en .
 
 
@@ -3422,6 +3892,7 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con472"@en ;
            rdfs:label "Wholesale"@en .
 
 
@@ -3429,6 +3900,7 @@
 :Zero-shotLearning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con473"@en ;
                    rdfs:label "Zero-shot Learning"@en .
 
 
@@ -3436,6 +3908,7 @@
 :ΜarketΑnalysis rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con268"@en ;
                 rdfs:label "Market Analysis"@en .
 
 
@@ -3443,6 +3916,7 @@
 <http://aiod.eu/data/schemas/3DComputerVision> rdf:type owl:NamedIndividual ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                               <http://www.w3.org/2004/02/skos/core#notation> "con001"@en ;
                                                rdfs:label "3D Computer Vision"@en .
 
 
@@ -3450,6 +3924,7 @@
 <http://aiod.eu/data/schemas/Engineering&Technology> rdf:type owl:NamedIndividual ,
                                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                                     <http://www.w3.org/2004/02/skos/core#notation> "con144"@en ;
                                                      rdfs:comment "The application of science and mathematics by which the properties of matter and the sources of energy in nature are made useful to people." ;
                                                      rdfs:label "Engineering & Technology"@en .
 
@@ -3458,6 +3933,7 @@
 <http://aiod.eu/data/schemas/ImageCoding/Compression> rdf:type owl:NamedIndividual ,
                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                                                      <http://www.w3.org/2004/02/skos/core#notation> "con084"@en ;
                                                       rdfs:label "Compression"@en .
 
 
@@ -3465,6 +3941,7 @@
 <http://aiod.eu/data/schemas/Medical&HealthSciences> rdf:type owl:NamedIndividual ,
                                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
+                                                     <http://www.w3.org/2004/02/skos/core#notation> "con277"@en ;
                                                      rdfs:comment "The science of dealing with the maintenance of health and the prevention and treatment of disease." ;
                                                      rdfs:label "Medical & Health Sciences"@en .
 
@@ -3473,6 +3950,7 @@
 <http://aiod.eu/data/schemas/R&DProcesses> rdf:type owl:NamedIndividual ,
                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                                           <http://www.w3.org/2004/02/skos/core#notation> "con364"@en ;
                                            rdfs:label "R&D Processes"@en .
 
 
