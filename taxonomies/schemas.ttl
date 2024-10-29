@@ -143,6 +143,14 @@
                             rdfs:label "Adversarial Machine Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Aeronautics
+:Aeronautics rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con481"@en .
+
+
 ###  http://aiod.eu/data/schemas/Agri-food
 :Agri-food rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -706,6 +714,14 @@
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con081"@en ;
                         rdfs:label "Communication Protocols"@en .
+
+
+###  http://aiod.eu/data/schemas/Community-ledLocalDevelopment
+:Community-ledLocalDevelopment rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con486"@en ;
+                               rdfs:label "Community-led Local Development" .
 
 
 ###  http://aiod.eu/data/schemas/CommunityMining
@@ -2066,6 +2082,23 @@
                     rdfs:label "Learning to Quantify"@en .
 
 
+###  http://aiod.eu/data/schemas/Leather
+:Leather rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con480"@en .
+
+
+###  http://aiod.eu/data/schemas/LegalAspects
+:LegalAspects rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :Services ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con484"@en ;
+              rdfs:label "Legal Aspects" .
+
+
 ###  http://aiod.eu/data/schemas/LegalComplianceOfAISystems
 :LegalComplianceOfAISystems rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2204,6 +2237,14 @@
                rdfs:label "Manufacturing"@en .
 
 
+###  http://aiod.eu/data/schemas/Maritime
+:Maritime rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :Transportation ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con482"@en .
+
+
 ###  http://aiod.eu/data/schemas/MarketingSales
 :MarketingSales rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2304,6 +2345,23 @@
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con281"@en ;
               rdfs:label "Meta Learning"@en .
+
+
+###  http://aiod.eu/data/schemas/MetalWorkingandIndustrialProduction
+:MetalWorkingandIndustrialProduction rdf:type owl:NamedIndividual ,
+                                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                     <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+                                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                     <http://www.w3.org/2004/02/skos/core#notation> "con476"@en ;
+                                     rdfs:label "Metal Working and industrial production" .
+
+
+###  http://aiod.eu/data/schemas/MiningandQuarring
+:MiningandQuarring rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con485"@en ;
+                   rdfs:label "Mining and Quarring" .
 
 
 ###  http://aiod.eu/data/schemas/MixedReality
@@ -2535,6 +2593,23 @@
                        rdfs:label "Non-Iterative Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Non-MetallicMaterialsandBasicProcess
+:Non-MetallicMaterialsandBasicProcess rdf:type owl:NamedIndividual ,
+                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                      <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+                                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                      <http://www.w3.org/2004/02/skos/core#notation> "con477"@en ;
+                                      rdfs:label "Non-Metallic Materials and basic process" .
+
+
+###  http://aiod.eu/data/schemas/Nuclear
+:Nuclear rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con474"@en .
+
+
 ###  http://aiod.eu/data/schemas/ObjectCategorization
 :ObjectCategorization rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2674,6 +2749,15 @@
                   rdfs:label "Outlier Detection"@en .
 
 
+###  http://aiod.eu/data/schemas/PaperandWood
+:PaperandWood rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con478"@en ;
+              rdfs:label "Paper and Wood" .
+
+
 ###  http://aiod.eu/data/schemas/PatternMining
 :PatternMining rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2704,6 +2788,15 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con329"@en ;
                    rdfs:label "Personal Assistant"@en .
+
+
+###  http://aiod.eu/data/schemas/PersonalServices
+:PersonalServices rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :Services ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con483"@en ;
+                  rdfs:label "Personal Services" .
 
 
 ###  http://aiod.eu/data/schemas/PersonalisedMarketingOffersAndRecommendations
@@ -2798,6 +2891,15 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con340"@en ;
                    rdfs:label "Political Sciences"@en .
+
+
+###  http://aiod.eu/data/schemas/PolymersandPlastics
+:PolymersandPlastics rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con475"@en ;
+                     rdfs:label "Polymers and Plastics" .
 
 
 ###  http://aiod.eu/data/schemas/PrecisionOperations
@@ -3653,6 +3755,14 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con443"@en ;
                        rdfs:label "Timeline Based Planning"@en .
+
+
+###  http://aiod.eu/data/schemas/Tobacco
+:Tobacco rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con479"@en .
 
 
 ###  http://aiod.eu/data/schemas/Tourism
