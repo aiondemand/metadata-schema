@@ -151,6 +151,14 @@
              <http://www.w3.org/2004/02/skos/core#notation> "con481"@en .
 
 
+###  http://aiod.eu/data/schemas/Afghanistan
+:Afghanistan rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con597"@en ;
+             rdfs:label "Afghanistan"@en .
+
+
 ###  http://aiod.eu/data/schemas/Agri-food
 :Agri-food rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -195,12 +203,60 @@
                                  rdfs:label "Agriculture, forestry, and fisheries"@en .
 
 
+###  http://aiod.eu/data/schemas/Albania
+:Albania rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con599"@en ;
+         rdfs:label "Albania"@en .
+
+
+###  http://aiod.eu/data/schemas/Algeria
+:Algeria rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con600"@en ;
+         rdfs:label "Algeria"@en .
+
+
+###  http://aiod.eu/data/schemas/AmericanSamoa
+:AmericanSamoa rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con601"@en ;
+               rdfs:label "American Samoa"@en .
+
+
 ###  http://aiod.eu/data/schemas/AnalyticsPlatform
 :AnalyticsPlatform rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con024"@en ;
                    rdfs:label "Analytics Platform"@en .
+
+
+###  http://aiod.eu/data/schemas/Andorra
+:Andorra rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con602"@en ;
+         rdfs:label "Andorra"@en .
+
+
+###  http://aiod.eu/data/schemas/Angola
+:Angola rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con603"@en ;
+        rdfs:label "Angola"@en .
+
+
+###  http://aiod.eu/data/schemas/Anguilla
+:Anguilla rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con604"@en ;
+          rdfs:label "Anguilla"@en .
 
 
 ###  http://aiod.eu/data/schemas/AnimalAndDairySciences
@@ -220,11 +276,50 @@
                   rdfs:label "Anomaly Detection"@en .
 
 
+###  http://aiod.eu/data/schemas/Antarctica
+:Antarctica rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con605"@en ;
+            rdfs:label "Antarctica"@en .
+
+
+###  http://aiod.eu/data/schemas/AntiguaandBarbuda
+:AntiguaandBarbuda rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con606"@en ;
+                   rdfs:label "Antigua and Barbuda"@en .
+
+
+###  http://aiod.eu/data/schemas/Application
+:Application rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con488"@en .
+
+
 ###  http://aiod.eu/data/schemas/Approach
 :Approach rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
           <http://www.w3.org/2004/02/skos/core#notation> "scheme006"@en ;
           rdfs:label "Approach"@en .
+
+
+###  http://aiod.eu/data/schemas/Argentina
+:Argentina rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con607"@en ;
+           rdfs:label "Argentina"@en .
+
+
+###  http://aiod.eu/data/schemas/Armenia
+:Armenia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con608"@en ;
+         rdfs:label "Armenia"@en .
 
 
 ###  http://aiod.eu/data/schemas/ArtificialGeneralIntelligence
@@ -254,6 +349,14 @@
       rdfs:label "Arts"@en .
 
 
+###  http://aiod.eu/data/schemas/Aruba
+:Aruba rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con609"@en ;
+       rdfs:label "Aruba"@en .
+
+
 ###  http://aiod.eu/data/schemas/AssemblyWorks
 :AssemblyWorks rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -278,6 +381,14 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con032"@en ;
                    rdfs:label "Attacks and Defence"@en .
+
+
+###  http://aiod.eu/data/schemas/Audio
+:Audio rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con487"@en ;
+       rdfs:label "Audio"@en .
 
 
 ###  http://aiod.eu/data/schemas/Audio-basedSentimentAnalysis
@@ -312,6 +423,22 @@
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con036"@en ;
                   rdfs:label "Augmented Reality"@en .
+
+
+###  http://aiod.eu/data/schemas/Australia
+:Australia rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con610"@en ;
+           rdfs:label "Australia"@en .
+
+
+###  http://aiod.eu/data/schemas/Austria
+:Austria rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con611"@en ;
+         rdfs:label "Austria"@en .
 
 
 ###  http://aiod.eu/data/schemas/AuthenticationOfICTUsers
@@ -387,6 +514,55 @@
                    rdfs:label "Autonomous Systems"@en .
 
 
+###  http://aiod.eu/data/schemas/Awards
+:Awards rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :research ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con587"@en ;
+        rdfs:label "Awards"@en .
+
+
+###  http://aiod.eu/data/schemas/Azerbaijan
+:Azerbaijan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con612"@en ;
+            rdfs:label "Azerbaijan"@en .
+
+
+###  http://aiod.eu/data/schemas/Bahamas
+:Bahamas rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con613"@en ;
+         rdfs:label "Bahamas"@en .
+
+
+###  http://aiod.eu/data/schemas/Bahrain
+:Bahrain rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con614"@en ;
+         rdfs:label "Bahrain"@en .
+
+
+###  http://aiod.eu/data/schemas/Bangladesh
+:Bangladesh rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con615"@en ;
+            rdfs:label "Bangladesh"@en .
+
+
+###  http://aiod.eu/data/schemas/Barbados
+:Barbados rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con616"@en ;
+          rdfs:label "Barbados"@en .
+
+
 ###  http://aiod.eu/data/schemas/BasicMedicine
 :BasicMedicine rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -436,6 +612,54 @@
                       rdfs:label "Behavioral Game Theory"@en .
 
 
+###  http://aiod.eu/data/schemas/Belarus
+:Belarus rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con617"@en ;
+         rdfs:label "Belarus"@en .
+
+
+###  http://aiod.eu/data/schemas/Belgium
+:Belgium rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con618"@en ;
+         rdfs:label "Belgium"@en .
+
+
+###  http://aiod.eu/data/schemas/Belize
+:Belize rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con619"@en ;
+        rdfs:label "Belize"@en .
+
+
+###  http://aiod.eu/data/schemas/Benin
+:Benin rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con620"@en ;
+       rdfs:label "Benin"@en .
+
+
+###  http://aiod.eu/data/schemas/Bermuda
+:Bermuda rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con621"@en ;
+         rdfs:label "Bermuda"@en .
+
+
+###  http://aiod.eu/data/schemas/Bhutan
+:Bhutan rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con622"@en ;
+        rdfs:label "Bhutan"@en .
+
+
 ###  http://aiod.eu/data/schemas/BigData
 :BigData rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -461,6 +685,70 @@
                     rdfs:label "Biological Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Bolivia
+:Bolivia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con623"@en ;
+         rdfs:label "Plurinational State of Bolivia"@en .
+
+
+###  http://aiod.eu/data/schemas/BonaireSintEustatiusandSaba
+:BonaireSintEustatiusandSaba rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con624"@en ;
+                             rdfs:label "Bonaire, Sint Eustatius and Saba"@en .
+
+
+###  http://aiod.eu/data/schemas/BosniaandHerzegovina
+:BosniaandHerzegovina rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con625"@en ;
+                      rdfs:label "Bosnia and Herzegovina"@en .
+
+
+###  http://aiod.eu/data/schemas/Botswana
+:Botswana rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con626"@en ;
+          rdfs:label "Botswana"@en .
+
+
+###  http://aiod.eu/data/schemas/BouvetIsland
+:BouvetIsland rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con627"@en ;
+              rdfs:label "Bouvet Island"@en .
+
+
+###  http://aiod.eu/data/schemas/Brazil
+:Brazil rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con628"@en ;
+        rdfs:label "Brazil"@en .
+
+
+###  http://aiod.eu/data/schemas/BritishIndianOceanTerritory
+:BritishIndianOceanTerritory rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                             <http://www.w3.org/2004/02/skos/core#notation> "con629"@en ;
+                             rdfs:label "British Indian Ocean Territory"@en .
+
+
+###  http://aiod.eu/data/schemas/BritishVirginIslands
+:BritishVirginIslands rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con630"@en ;
+                      rdfs:label "British Virgin Islands"@en .
+
+
 ###  http://aiod.eu/data/schemas/Broadcasting
 :Broadcasting rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -470,6 +758,14 @@
               rdfs:label "Broadcasting"@en .
 
 
+###  http://aiod.eu/data/schemas/BruneiDarussalam
+:BruneiDarussalam rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con631"@en ;
+                  rdfs:label "Brunei Darussalam"@en .
+
+
 ###  http://aiod.eu/data/schemas/Buildings
 :Buildings rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -477,6 +773,38 @@
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
            <http://www.w3.org/2004/02/skos/core#notation> "con056"@en ;
            rdfs:label "Buildings"@en .
+
+
+###  http://aiod.eu/data/schemas/Bulgaria
+:Bulgaria rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con632"@en ;
+          rdfs:label "Bulgaria"@en .
+
+
+###  http://aiod.eu/data/schemas/BurkinaFaso
+:BurkinaFaso rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con633"@en ;
+             rdfs:label "Burkina Faso"@en .
+
+
+###  http://aiod.eu/data/schemas/Burundi
+:Burundi rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con634"@en ;
+         rdfs:label "Burundi"@en .
+
+
+###  http://aiod.eu/data/schemas/Business
+:Business rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con591"@en ;
+          rdfs:label "Business"@en .
 
 
 ###  http://aiod.eu/data/schemas/BusinessForecasting
@@ -525,12 +853,44 @@
                   rdfs:label "CRM Communication"@en .
 
 
+###  http://aiod.eu/data/schemas/CaboVerde
+:CaboVerde rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con635"@en ;
+           rdfs:label "Cabo Verde"@en .
+
+
 ###  http://aiod.eu/data/schemas/Calibration
 :Calibration rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con059"@en ;
              rdfs:label "Calibration"@en .
+
+
+###  http://aiod.eu/data/schemas/Cambodia
+:Cambodia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con636"@en ;
+          rdfs:label "Cambodia"@en .
+
+
+###  http://aiod.eu/data/schemas/Cameroon
+:Cameroon rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con637"@en ;
+          rdfs:label "Cameroon"@en .
+
+
+###  http://aiod.eu/data/schemas/Canada
+:Canada rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con638"@en ;
+        rdfs:label "Canada"@en .
 
 
 ###  http://aiod.eu/data/schemas/CandidatesPre-selectionScreening
@@ -566,12 +926,36 @@
                 rdfs:label "Casual Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/CaymanIslands
+:CaymanIslands rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con639"@en ;
+               rdfs:label "Cayman Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/CentralAfricanRepublic
+:CentralAfricanRepublic rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con640"@en ;
+                        rdfs:label "Central African Republic"@en .
+
+
 ###  http://aiod.eu/data/schemas/CentralProcessingUnit
 :CentralProcessingUnit rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con064"@en ;
                        rdfs:label "Central Processing Unit"@en .
+
+
+###  http://aiod.eu/data/schemas/Chad
+:Chad rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con641"@en ;
+      rdfs:label "Chad"@en .
 
 
 ###  http://aiod.eu/data/schemas/ChemicalEngineering
@@ -590,6 +974,46 @@
                   <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con066"@en ;
                   rdfs:label "Chemical Sciences"@en .
+
+
+###  http://aiod.eu/data/schemas/Chile
+:Chile rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con642"@en ;
+       rdfs:label "Chile"@en .
+
+
+###  http://aiod.eu/data/schemas/China
+:China rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con643"@en ;
+       rdfs:label "China"@en .
+
+
+###  http://aiod.eu/data/schemas/ChinaHongKongSpecialAdministrativeRegion
+:ChinaHongKongSpecialAdministrativeRegion rdf:type owl:NamedIndividual ,
+                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                          <http://www.w3.org/2004/02/skos/core#notation> "con644"@en ;
+                                          rdfs:label "China, Hong Kong Special Administrative Region"@en .
+
+
+###  http://aiod.eu/data/schemas/ChinaMacaoSpecialAdministrativeRegion
+:ChinaMacaoSpecialAdministrativeRegion rdf:type owl:NamedIndividual ,
+                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                       <http://www.w3.org/2004/02/skos/core#notation> "con645"@en ;
+                                       rdfs:label "China, Macao Special Administrative Region"@en .
+
+
+###  http://aiod.eu/data/schemas/ChristmasIsland
+:ChristmasIsland rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con646"@en ;
+                 rdfs:label "Christmas Island"@en .
 
 
 ###  http://aiod.eu/data/schemas/ChurnPrevention
@@ -659,6 +1083,14 @@
             rdfs:label "Clustering"@en .
 
 
+###  http://aiod.eu/data/schemas/CocosIslands
+:CocosIslands rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con647"@en ;
+              rdfs:label "Cocos (Keeling) Islands"@en .
+
+
 ###  http://aiod.eu/data/schemas/CognitiveRobotics
 :CognitiveRobotics rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -681,6 +1113,14 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con077"@en ;
                        rdfs:label "Collaborative Robotics"@en .
+
+
+###  http://aiod.eu/data/schemas/Colombia
+:Colombia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con648"@en ;
+          rdfs:label "Colombia"@en .
 
 
 ###  http://aiod.eu/data/schemas/CommandLineInterface
@@ -730,6 +1170,14 @@
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con082"@en ;
                  rdfs:label "Community Mining"@en .
+
+
+###  http://aiod.eu/data/schemas/Comoros
+:Comoros rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con649"@en ;
+         rdfs:label "Comoros"@en .
 
 
 ###  http://aiod.eu/data/schemas/CompetitiveLandscapeMonitoring
@@ -809,6 +1257,14 @@
                           rdfs:label "Computing Infrastructures"@en .
 
 
+###  http://aiod.eu/data/schemas/Congo
+:Congo rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con650"@en ;
+       rdfs:label "Congo"@en .
+
+
 ###  http://aiod.eu/data/schemas/ConnectedAutomatedVehicles
 :ConnectedAutomatedVehicles rdf:type owl:NamedIndividual ,
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -852,12 +1308,35 @@
                    rdfs:label "Content Production"@en .
 
 
+###  http://aiod.eu/data/schemas/CookIslands
+:CookIslands rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con651"@en ;
+             rdfs:label "Cook Islands"@en .
+
+
 ###  http://aiod.eu/data/schemas/CooperativeGameTheory
 :CooperativeGameTheory rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con098"@en ;
                        rdfs:label "Cooperative Game Theory"@en .
+
+
+###  http://aiod.eu/data/schemas/CostaRica
+:CostaRica rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con652"@en ;
+           rdfs:label "Costa Rica"@en .
+
+
+###  http://aiod.eu/data/schemas/Country
+:Country rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+         <http://www.w3.org/2004/02/skos/core#notation> "scheme011"@en ;
+         rdfs:label "Country"@en .
 
 
 ###  http://aiod.eu/data/schemas/CreativityPlanning
@@ -868,6 +1347,14 @@
                     rdfs:label "Creativity Planning"@en .
 
 
+###  http://aiod.eu/data/schemas/Croatia
+:Croatia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con654"@en ;
+         rdfs:label "Croatia"@en .
+
+
 ###  http://aiod.eu/data/schemas/Crowdsourcing
 :Crowdsourcing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -876,12 +1363,28 @@
                rdfs:label "Crowdsourcing"@en .
 
 
+###  http://aiod.eu/data/schemas/Cuba
+:Cuba rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con655"@en ;
+      rdfs:label "Cuba"@en .
+
+
 ###  http://aiod.eu/data/schemas/CultureCreativity
 :CultureCreativity rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con102"@en ;
                    rdfs:label "Culture Creativity"@en .
+
+
+###  http://aiod.eu/data/schemas/Curaçao
+:Curaçao rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con656"@en ;
+         rdfs:label "Curaçao"@en .
 
 
 ###  http://aiod.eu/data/schemas/CustomerProfiling
@@ -930,6 +1433,22 @@
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                <http://www.w3.org/2004/02/skos/core#notation> "con108"@en ;
                rdfs:label "Cybersecurity"@en .
+
+
+###  http://aiod.eu/data/schemas/Cyprus
+:Cyprus rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con657"@en ;
+        rdfs:label "Cyprus"@en .
+
+
+###  http://aiod.eu/data/schemas/Czechia
+:Czechia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con658"@en ;
+         rdfs:label "Czechia"@en .
 
 
 ###  http://aiod.eu/data/schemas/DataAnalytics
@@ -1020,12 +1539,44 @@
                    rdfs:label "Demand Forecasting"@en .
 
 
+###  http://aiod.eu/data/schemas/DemocraticPeoplesRepublicofKorea
+:DemocraticPeoplesRepublicofKorea rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                  <http://www.w3.org/2004/02/skos/core#notation> "con659"@en ;
+                                  rdfs:label "Democratic People's Republic of Korea"@en .
+
+
+###  http://aiod.eu/data/schemas/DemocraticRepublicoftheCongo
+:DemocraticRepublicoftheCongo rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con660"@en ;
+                              rdfs:label "Democratic Republic of the Congo"@en .
+
+
+###  http://aiod.eu/data/schemas/Denmark
+:Denmark rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con661"@en ;
+         rdfs:label "Denmark"@en .
+
+
 ###  http://aiod.eu/data/schemas/DeterministicPlanning
 :DeterministicPlanning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con120"@en ;
                        rdfs:label "Deterministic Planning"@en .
+
+
+###  http://aiod.eu/data/schemas/Development
+:Development rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con588"@en ;
+             rdfs:label "Development"@en .
 
 
 ###  http://aiod.eu/data/schemas/DialogueSystems
@@ -1093,6 +1644,14 @@
                         rdfs:label "Distribution Automation"@en .
 
 
+###  http://aiod.eu/data/schemas/Djibouti
+:Djibouti rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con662"@en ;
+          rdfs:label "Djibouti"@en .
+
+
 ###  http://aiod.eu/data/schemas/DocumentAnalysisAndUnderstanding
 :DocumentAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1107,6 +1666,22 @@
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con130"@en ;
                   rdfs:label "Domain Adaptation"@en .
+
+
+###  http://aiod.eu/data/schemas/Dominica
+:Dominica rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con663"@en ;
+          rdfs:label "Dominica"@en .
+
+
+###  http://aiod.eu/data/schemas/DominicanRepublic
+:DominicanRepublic rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con664"@en ;
+                   rdfs:label "Dominican Republic"@en .
 
 
 ###  http://aiod.eu/data/schemas/E-Discovery
@@ -1143,6 +1718,14 @@
                       rdfs:label "Economics and Business"@en .
 
 
+###  http://aiod.eu/data/schemas/Ecuador
+:Ecuador rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con665"@en ;
+         rdfs:label "Ecuador"@en .
+
+
 ###  http://aiod.eu/data/schemas/Education
 :Education rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1158,6 +1741,22 @@
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con136"@en ;
                      rdfs:label "Educational Sciences"@en .
+
+
+###  http://aiod.eu/data/schemas/Egypt
+:Egypt rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con666"@en ;
+       rdfs:label "Egypt"@en .
+
+
+###  http://aiod.eu/data/schemas/ElSalvador
+:ElSalvador rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con667"@en ;
+            rdfs:label "El Salvador" .
 
 
 ###  http://aiod.eu/data/schemas/ElectricalElectronicAndInformationEngineering
@@ -1246,6 +1845,14 @@
                           rdfs:label "Enviromental Engineering"@en .
 
 
+###  http://aiod.eu/data/schemas/EquatorialGuinea
+:EquatorialGuinea rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con668"@en ;
+                  rdfs:label "Equatorial Guinea"@en .
+
+
 ###  http://aiod.eu/data/schemas/Equilibrium
 :Equilibrium rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1254,12 +1861,53 @@
              rdfs:label "Equilibrium"@en .
 
 
+###  http://aiod.eu/data/schemas/Eritrea
+:Eritrea rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con669"@en ;
+         rdfs:label "Eritrea"@en .
+
+
+###  http://aiod.eu/data/schemas/Estonia
+:Estonia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con670"@en ;
+         rdfs:label "Estonia"@en .
+
+
+###  http://aiod.eu/data/schemas/Eswatini
+:Eswatini rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con671"@en ;
+          rdfs:label "Eswatini"@en .
+
+
+###  http://aiod.eu/data/schemas/Ethics
+:Ethics rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Society ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con596"@en ;
+        rdfs:label "Ethics"@en .
+
+
 ###  http://aiod.eu/data/schemas/EthicsAndPhilosophy
 :EthicsAndPhilosophy rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con149"@en ;
                      rdfs:label "Ethics and Philosophy"@en .
+
+
+###  http://aiod.eu/data/schemas/Ethiopia
+:Ethiopia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con672"@en ;
+          rdfs:label "Ethiopia"@en .
 
 
 ###  http://aiod.eu/data/schemas/EvidenceReasoning
@@ -1276,6 +1924,23 @@
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con151"@en ;
                       rdfs:label "Evolutionary Learning"@en .
+
+
+###  http://aiod.eu/data/schemas/Example
+:Example rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con489"@en ;
+         rdfs:label "Example"@en .
+
+
+###  http://aiod.eu/data/schemas/Expirements
+:Expirements rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Development ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con590"@en ;
+             rdfs:label "Expirements"@en .
 
 
 ###  http://aiod.eu/data/schemas/Explainability
@@ -1310,6 +1975,22 @@
           rdfs:label "Fairness"@en .
 
 
+###  http://aiod.eu/data/schemas/FalklandIslands
+:FalklandIslands rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con673"@en ;
+                 rdfs:label "Falkland Islands (Malvinas)"@en .
+
+
+###  http://aiod.eu/data/schemas/FaroeIslands
+:FaroeIslands rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con674"@en ;
+              rdfs:label "Faroe Islands"@en .
+
+
 ###  http://aiod.eu/data/schemas/FeatureSelection
 :FeatureSelection rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1334,12 +2015,28 @@
                   rdfs:label "Few-shot Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Fiji
+:Fiji rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con675"@en ;
+      rdfs:label "Fiji"@en .
+
+
 ###  http://aiod.eu/data/schemas/FinanceInsurance
 :FinanceInsurance rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con159"@en ;
                   rdfs:label "Finance and Insurance"@en .
+
+
+###  http://aiod.eu/data/schemas/Finland
+:Finland rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con676"@en ;
+         rdfs:label "Finland"@en .
 
 
 ###  http://aiod.eu/data/schemas/Fishing
@@ -1376,6 +2073,47 @@
                   rdfs:label "Foundation Models"@en .
 
 
+###  http://aiod.eu/data/schemas/France
+:France rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con677"@en ;
+        rdfs:label "France"@en .
+
+
+###  http://aiod.eu/data/schemas/FrenchGuiana
+:FrenchGuiana rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con678"@en ;
+              rdfs:label "French Guiana"@en .
+
+
+###  http://aiod.eu/data/schemas/FrenchPolynesia
+:FrenchPolynesia rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con679"@en ;
+                 rdfs:label "French Polynesia"@en .
+
+
+###  http://aiod.eu/data/schemas/FrenchSouthernTerritories
+:FrenchSouthernTerritories rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con680"@en ;
+                           rdfs:label "French Southern Territories"@en .
+
+
+###  http://aiod.eu/data/schemas/Funding
+:Funding rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Business ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con593"@en ;
+         rdfs:label "Funding"@en .
+
+
 ###  http://aiod.eu/data/schemas/Fundraising
 :Fundraising rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1390,6 +2128,22 @@
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con165"@en ;
              rdfs:label "Fuzzy Theory"@en .
+
+
+###  http://aiod.eu/data/schemas/Gabon
+:Gabon rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con681"@en ;
+       rdfs:label "Gabon"@en .
+
+
+###  http://aiod.eu/data/schemas/Gambia
+:Gambia rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con682"@en ;
+        rdfs:label "Gambia"@en .
 
 
 ###  http://aiod.eu/data/schemas/GameTheory
@@ -1429,6 +2183,38 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con170"@en .
+
+
+###  http://aiod.eu/data/schemas/Georgia
+:Georgia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con683"@en ;
+         rdfs:label "Georgia"@en .
+
+
+###  http://aiod.eu/data/schemas/Germany
+:Germany rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con684"@en ;
+         rdfs:label "Germany"@en .
+
+
+###  http://aiod.eu/data/schemas/Ghana
+:Ghana rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con685"@en ;
+       rdfs:label "Ghana"@en .
+
+
+###  http://aiod.eu/data/schemas/Gibraltar
+:Gibraltar rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con686"@en ;
+           rdfs:label "Gibraltar"@en .
 
 
 ###  http://aiod.eu/data/schemas/GrammarInduction
@@ -1487,6 +2273,94 @@
                         rdfs:label "Graphics Processing Unit"@en .
 
 
+###  http://aiod.eu/data/schemas/Greece
+:Greece rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con687"@en ;
+        rdfs:label "Greece"@en .
+
+
+###  http://aiod.eu/data/schemas/Greenland
+:Greenland rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con688"@en ;
+           rdfs:label "Greenland"@en .
+
+
+###  http://aiod.eu/data/schemas/Grenada
+:Grenada rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con689"@en ;
+         rdfs:label "Grenada"@en .
+
+
+###  http://aiod.eu/data/schemas/Guadeloupe
+:Guadeloupe rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con690"@en ;
+            rdfs:label "Guadeloupe"@en .
+
+
+###  http://aiod.eu/data/schemas/Guam
+:Guam rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con691"@en ;
+      rdfs:label "Guam"@en .
+
+
+###  http://aiod.eu/data/schemas/Guatemala
+:Guatemala rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con692"@en ;
+           rdfs:label "Guatemala"@en .
+
+
+###  http://aiod.eu/data/schemas/Guernsey
+:Guernsey rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con693"@en ;
+          rdfs:label "Guernsey"@en .
+
+
+###  http://aiod.eu/data/schemas/Guinea
+:Guinea rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con694"@en ;
+        rdfs:label "Guinea"@en .
+
+
+###  http://aiod.eu/data/schemas/Guinea-Bissau
+:Guinea-Bissau rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con695"@en ;
+               rdfs:label "Guinea-Bissau"@en .
+
+
+###  http://aiod.eu/data/schemas/Guyana
+:Guyana rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con696"@en ;
+        rdfs:comment "Guyana"@en .
+
+
+###  http://aiod.eu/data/schemas/Haiti
+:Haiti rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con697"@en ;
+       rdfs:comment "Haiti"@en .
+
+
 ###  http://aiod.eu/data/schemas/Health
 :Health rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1504,6 +2378,14 @@
                 rdfs:label "Health Sciences"@en .
 
 
+###  http://aiod.eu/data/schemas/HeardIslandandMcDonaldIslands
+:HeardIslandandMcDonaldIslands rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                               <http://www.w3.org/2004/02/skos/core#notation> "con698"@en ;
+                               rdfs:label "Heard Island and McDonald Islands"@en .
+
+
 ###  http://aiod.eu/data/schemas/HeuristicProgramming
 :HeuristicProgramming rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1519,6 +2401,22 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con181"@en ;
                        rdfs:label "History and Archeology"@en .
+
+
+###  http://aiod.eu/data/schemas/HolySee
+:HolySee rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con699"@en ;
+         rdfs:label "Holy See"@en .
+
+
+###  http://aiod.eu/data/schemas/Honduras
+:Honduras rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con700"@en ;
+          rdfs:label "Honduras"@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-AIInteraction
@@ -1636,6 +2534,14 @@
                 rdfs:label "Humanoid Robots"@en .
 
 
+###  http://aiod.eu/data/schemas/Hungary
+:Hungary rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con701"@en ;
+         rdfs:label "Hungary"@en .
+
+
 ###  http://aiod.eu/data/schemas/HyperparameterTuning
 :HyperparameterTuning rdf:type owl:NamedIndividual ,
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1650,6 +2556,14 @@
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
              <http://www.w3.org/2004/02/skos/core#notation> "con197"@en ;
              rdfs:label "ICT Security"@en .
+
+
+###  http://aiod.eu/data/schemas/Iceland
+:Iceland rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con702"@en ;
+         rdfs:label "Iceland"@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageAndVideoAnalysis
@@ -1770,6 +2684,22 @@
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con212"@en ;
                      rdfs:label "Incremental Learning"@en .
+
+
+###  http://aiod.eu/data/schemas/India
+:India rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con703"@en ;
+       rdfs:label "India"@en .
+
+
+###  http://aiod.eu/data/schemas/Indonesia
+:Indonesia rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con704"@en ;
+           rdfs:label "Indonesia"@en .
 
 
 ###  http://aiod.eu/data/schemas/IndustrialBiotechnology
@@ -1966,12 +2896,116 @@
                     rdfs:label "Investment Planning"@en .
 
 
+###  http://aiod.eu/data/schemas/Iran
+:Iran rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con705"@en ;
+      rdfs:label "Islamic Republic of Iran"@en .
+
+
+###  http://aiod.eu/data/schemas/Iraq
+:Iraq rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con706"@en ;
+      rdfs:label "Iraq"@en .
+
+
+###  http://aiod.eu/data/schemas/Ireland
+:Ireland rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con707"@en ;
+         rdfs:label "Ireland"@en .
+
+
+###  http://aiod.eu/data/schemas/IsleofMan
+:IsleofMan rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con708"@en ;
+           rdfs:label "Isle of Man"@en .
+
+
+###  http://aiod.eu/data/schemas/Israel
+:Israel rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con709"@en ;
+        rdfs:label "Israel"@en .
+
+
+###  http://aiod.eu/data/schemas/Italy
+:Italy rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con710"@en ;
+       rdfs:label "Italy"@en .
+
+
+###  http://aiod.eu/data/schemas/Jamaica
+:Jamaica rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con711"@en ;
+         rdfs:label "Jamaica"@en .
+
+
+###  http://aiod.eu/data/schemas/Japan
+:Japan rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con712"@en ;
+       rdfs:label "Japan"@en .
+
+
+###  http://aiod.eu/data/schemas/Jersey
+:Jersey rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con713"@en ;
+        rdfs:label "Jersey"@en .
+
+
+###  http://aiod.eu/data/schemas/Jordan
+:Jordan rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con714"@en ;
+        rdfs:label "Jordan"@en .
+
+
+###  http://aiod.eu/data/schemas/Kazakhstan
+:Kazakhstan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con715"@en ;
+            rdfs:label "Kazakhstan"@en .
+
+
+###  http://aiod.eu/data/schemas/Kenya
+:Kenya rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con716"@en ;
+       rdfs:label "Kenya"@en .
+
+
 ###  http://aiod.eu/data/schemas/KernelMethods
 :KernelMethods rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con237"@en ;
                rdfs:label "Kernel Methods"@en .
+
+
+###  http://aiod.eu/data/schemas/Kiribati
+:Kiribati rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con717"@en ;
+          rdfs:label "Kiribati"@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeAcquisition
@@ -2008,6 +3042,22 @@
                          rdfs:label "Knowledge Representation"@en .
 
 
+###  http://aiod.eu/data/schemas/Kuwait
+:Kuwait rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con718"@en ;
+        rdfs:label "Kuwait"@en .
+
+
+###  http://aiod.eu/data/schemas/Kyrgyzstan
+:Kyrgyzstan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con719"@en ;
+            rdfs:label "Kyrgyzstan"@en .
+
+
 ###  http://aiod.eu/data/schemas/LanguageAcquisition
 :LanguageAcquisition rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2025,12 +3075,28 @@
                         rdfs:label "Languages and Literature"@en .
 
 
+###  http://aiod.eu/data/schemas/LaoPeoplesDemocraticRepublic
+:LaoPeoplesDemocraticRepublic rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con720"@en ;
+                              rdfs:label "Lao People s Democratic Republic"@en .
+
+
 ###  http://aiod.eu/data/schemas/LargeLanguageModels
 :LargeLanguageModels rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con244"@en ;
                      rdfs:label "Large Language Models"@en .
+
+
+###  http://aiod.eu/data/schemas/Latvia
+:Latvia rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con721"@en ;
+        rdfs:label "Latvia"@en .
 
 
 ###  http://aiod.eu/data/schemas/Law
@@ -2090,6 +3156,14 @@
          <http://www.w3.org/2004/02/skos/core#notation> "con480"@en .
 
 
+###  http://aiod.eu/data/schemas/Lebanon
+:Lebanon rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con722"@en ;
+         rdfs:label "Lebanon"@en .
+
+
 ###  http://aiod.eu/data/schemas/LegalAspects
 :LegalAspects rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2107,6 +3181,14 @@
                             rdfs:label "Legal Compliance of AI Ststems"@en .
 
 
+###  http://aiod.eu/data/schemas/Lesotho
+:Lesotho rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con723"@en ;
+         rdfs:label "Lesotho"@en .
+
+
 ###  http://aiod.eu/data/schemas/LexicalSemantics
 :LexicalSemantics rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2121,6 +3203,37 @@
            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
            <http://www.w3.org/2004/02/skos/core#notation> "con253"@en ;
            rdfs:label "Liability"@en .
+
+
+###  http://aiod.eu/data/schemas/Liberia
+:Liberia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con724"@en ;
+         rdfs:label "Liberia"@en .
+
+
+###  http://aiod.eu/data/schemas/Libya
+:Libya rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con726"@en ;
+       rdfs:label "Libya"@en .
+
+
+###  http://aiod.eu/data/schemas/Licence
+:Licence rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+         <http://www.w3.org/2004/02/skos/core#notation> "scheme008"@en ;
+         rdfs:label "Licence"@en .
+
+
+###  http://aiod.eu/data/schemas/Liechtenstein
+:Liechtenstein rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con727"@en ;
+               rdfs:label "Liechtenstein"@en .
 
 
 ###  http://aiod.eu/data/schemas/LifelongAndContinualLearning
@@ -2147,6 +3260,14 @@
                 rdfs:label "Linked Open Data"@en .
 
 
+###  http://aiod.eu/data/schemas/Lithuania
+:Lithuania rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con728"@en ;
+           rdfs:label "Lithuania"@en .
+
+
 ###  http://aiod.eu/data/schemas/Logistics
 :Logistics rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2161,6 +3282,21 @@
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con258"@en ;
                 rdfs:label "Low Level Vision"@en .
+
+
+###  http://aiod.eu/data/schemas/Luxembourg
+:Luxembourg rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con729"@en ;
+            rdfs:label "Luxembourg"@en .
+
+
+###  http://aiod.eu/data/schemas/MIMEtype
+:MIMEtype rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+          <http://www.w3.org/2004/02/skos/core#notation> "scheme007"@en ;
+          rdfs:label "MIMEtype" .
 
 
 ###  http://aiod.eu/data/schemas/MachineLearning
@@ -2203,6 +3339,54 @@
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con263"@en ;
                     rdfs:label "Machine Translation"@en .
+
+
+###  http://aiod.eu/data/schemas/Madagascar
+:Madagascar rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con730"@en ;
+            rdfs:label "Madagascar"@en .
+
+
+###  http://aiod.eu/data/schemas/Malawi
+:Malawi rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con731"@en ;
+        rdfs:label "Malawi"@en .
+
+
+###  http://aiod.eu/data/schemas/Malaysia
+:Malaysia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con732"@en ;
+          rdfs:label "Malaysia"@en .
+
+
+###  http://aiod.eu/data/schemas/Maldives
+:Maldives rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con733"@en ;
+          rdfs:label "Maldives"@en .
+
+
+###  http://aiod.eu/data/schemas/Mali
+:Mali rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con734"@en ;
+      rdfs:label "Mali"@en .
+
+
+###  http://aiod.eu/data/schemas/Malta
+:Malta rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con735"@en ;
+       rdfs:label "Malta"@en .
 
 
 ###  http://aiod.eu/data/schemas/ManagementOfEnterprise
@@ -2253,6 +3437,22 @@
                 rdfs:label "Marketing, Sales"@en .
 
 
+###  http://aiod.eu/data/schemas/MarshallIslands
+:MarshallIslands rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con736"@en ;
+                 rdfs:label "Marshall Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/Martinique
+:Martinique rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con737"@en ;
+            rdfs:label "Martinique"@en .
+
+
 ###  http://aiod.eu/data/schemas/Matchmaking
 :Matchmaking rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2277,6 +3477,30 @@
              <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
              <http://www.w3.org/2004/02/skos/core#notation> "con272"@en ;
              rdfs:label "Mathematics"@en .
+
+
+###  http://aiod.eu/data/schemas/Mauritania
+:Mauritania rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con738"@en ;
+            rdfs:label "Mauritania"@en .
+
+
+###  http://aiod.eu/data/schemas/Mauritius
+:Mauritius rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con739"@en ;
+           rdfs:label "Mauritius"@en .
+
+
+###  http://aiod.eu/data/schemas/Mayotte
+:Mayotte rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con740"@en ;
+         rdfs:label "Mayotte"@en .
 
 
 ###  http://aiod.eu/data/schemas/MechanicalEngineering
@@ -2356,6 +3580,22 @@
                                      rdfs:label "Metal Working and industrial production" .
 
 
+###  http://aiod.eu/data/schemas/Mexico
+:Mexico rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con741"@en ;
+        rdfs:label "Mexico"@en .
+
+
+###  http://aiod.eu/data/schemas/Micronesia
+:Micronesia rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con742"@en ;
+            rdfs:label "Federated States of Micronesia"@en .
+
+
 ###  http://aiod.eu/data/schemas/MiningandQuarring
 :MiningandQuarring rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2388,12 +3628,60 @@
                   rdfs:label "Model Compression"@en .
 
 
+###  http://aiod.eu/data/schemas/Monaco
+:Monaco rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con743"@en ;
+        rdfs:label "Monaco"@en .
+
+
+###  http://aiod.eu/data/schemas/Mongolia
+:Mongolia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con744"@en ;
+          rdfs:label "Mongolia"@en .
+
+
+###  http://aiod.eu/data/schemas/Montenegro
+:Montenegro rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con745"@en ;
+            rdfs:label "Montenegro"@en .
+
+
+###  http://aiod.eu/data/schemas/Montserrat
+:Montserrat rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con746"@en ;
+            rdfs:label "Montserrat"@en .
+
+
+###  http://aiod.eu/data/schemas/Morocco
+:Morocco rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con747"@en ;
+         rdfs:label "Morocco"@en .
+
+
 ###  http://aiod.eu/data/schemas/MotionAndTracking
 :MotionAndTracking rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con285"@en ;
                    rdfs:label "Motion and Tracking"@en .
+
+
+###  http://aiod.eu/data/schemas/Mozambique
+:Mozambique rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con748"@en ;
+            rdfs:label "Mozambique"@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-RobotSystems
@@ -2525,12 +3813,28 @@
                     rdfs:label "Music Transcription"@en .
 
 
+###  http://aiod.eu/data/schemas/Myanmar
+:Myanmar rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con749"@en ;
+         rdfs:label "Myanmar"@en .
+
+
 ###  http://aiod.eu/data/schemas/NameEntityRecognition
 :NameEntityRecognition rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con302"@en ;
                        rdfs:label "Name Entity Recognition"@en .
+
+
+###  http://aiod.eu/data/schemas/Namibia
+:Namibia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con750"@en ;
+         rdfs:label "Namibia"@en .
 
 
 ###  http://aiod.eu/data/schemas/Nano-technology
@@ -2585,6 +3889,85 @@
                  rdfs:label "Natural Sciences"@en .
 
 
+###  http://aiod.eu/data/schemas/Nauru
+:Nauru rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con751"@en ;
+       rdfs:label "Nauru"@en .
+
+
+###  http://aiod.eu/data/schemas/Nepal
+:Nepal rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con752"@en ;
+       rdfs:label "Nepal"@en .
+
+
+###  http://aiod.eu/data/schemas/Netherlands
+:Netherlands rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con753"@en ;
+             rdfs:label "Kingdom of the Netherlands"@en .
+
+
+###  http://aiod.eu/data/schemas/NewCaledonia
+:NewCaledonia rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con754"@en ;
+              rdfs:label "New Caledonia"@en .
+
+
+###  http://aiod.eu/data/schemas/NewZealand
+:NewZealand rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con755"@en ;
+            rdfs:label "New Zealand"@en .
+
+
+###  http://aiod.eu/data/schemas/NewsCategory
+:NewsCategory rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+              <http://www.w3.org/2004/02/skos/core#notation> "scheme010"@en ;
+              rdfs:label "News Category"@en .
+
+
+###  http://aiod.eu/data/schemas/Nicaragua
+:Nicaragua rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con756"@en ;
+           rdfs:label "Nicaragua"@en .
+
+
+###  http://aiod.eu/data/schemas/Niger
+:Niger rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con757"@en ;
+       rdfs:label "Niger"@en .
+
+
+###  http://aiod.eu/data/schemas/Nigeria
+:Nigeria rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con758"@en ;
+         rdfs:label "Nigeria"@en .
+
+
+###  http://aiod.eu/data/schemas/Niue
+:Niue rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con759"@en ;
+      rdfs:label "Niue"@en .
+
+
 ###  http://aiod.eu/data/schemas/Non-IterativeLearning
 :Non-IterativeLearning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2600,6 +3983,38 @@
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                                       <http://www.w3.org/2004/02/skos/core#notation> "con477"@en ;
                                       rdfs:label "Non-Metallic Materials and basic process" .
+
+
+###  http://aiod.eu/data/schemas/NorfolkIsland
+:NorfolkIsland rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con760"@en ;
+               rdfs:label "Norfolk Island"@en .
+
+
+###  http://aiod.eu/data/schemas/NorthMacedonia
+:NorthMacedonia rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con761"@en ;
+                rdfs:label "North Macedonia"@en .
+
+
+###  http://aiod.eu/data/schemas/NorthernMarianaIslands
+:NorthernMarianaIslands rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con762"@en ;
+                        rdfs:label "Northern Mariana Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/Norway
+:Norway rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con763"@en ;
+        rdfs:label "Norway"@en .
 
 
 ###  http://aiod.eu/data/schemas/Nuclear
@@ -2633,6 +4048,14 @@
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con312"@en ;
         rdfs:label "Oil and Gas"@en .
+
+
+###  http://aiod.eu/data/schemas/Oman
+:Oman rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con764"@en ;
+      rdfs:label "Oman"@en .
 
 
 ###  http://aiod.eu/data/schemas/OnlineLearningAndBandits
@@ -2673,6 +4096,7 @@
 :Other rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
+                                                      :Licence ,
                                                       :ScientificDomain ;
        <http://www.w3.org/2004/02/skos/core#notation> "con317"@en ;
        rdfs:label "Other"@en .
@@ -2749,6 +4173,30 @@
                   rdfs:label "Outlier Detection"@en .
 
 
+###  http://aiod.eu/data/schemas/Pakistan
+:Pakistan rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con765"@en ;
+          rdfs:label "Pakistan"@en .
+
+
+###  http://aiod.eu/data/schemas/Palau
+:Palau rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con766"@en ;
+       rdfs:label "Palau"@en .
+
+
+###  http://aiod.eu/data/schemas/Panama
+:Panama rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con767"@en ;
+        rdfs:label "Panama"@en .
+
+
 ###  http://aiod.eu/data/schemas/PaperandWood
 :PaperandWood rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2756,6 +4204,22 @@
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
               <http://www.w3.org/2004/02/skos/core#notation> "con478"@en ;
               rdfs:label "Paper and Wood" .
+
+
+###  http://aiod.eu/data/schemas/PapuaNewGuinea
+:PapuaNewGuinea rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con768"@en ;
+                rdfs:label "Papua New Guinea"@en .
+
+
+###  http://aiod.eu/data/schemas/Paraguay
+:Paraguay rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con769"@en ;
+          rdfs:label "Paraguay"@en .
 
 
 ###  http://aiod.eu/data/schemas/PatternMining
@@ -2807,6 +4271,14 @@
                                                rdfs:label "Personalised Marketing Offers and Recommendations"@en .
 
 
+###  http://aiod.eu/data/schemas/Peru
+:Peru rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con770"@en ;
+      rdfs:label "Peru"@en .
+
+
 ###  http://aiod.eu/data/schemas/Pharmaceuticals
 :Pharmaceuticals rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2814,6 +4286,14 @@
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con331"@en ;
                  rdfs:label "Pharmaceuticals"@en .
+
+
+###  http://aiod.eu/data/schemas/Philippines
+:Philippines rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con771"@en ;
+             rdfs:label "Philippines"@en .
 
 
 ###  http://aiod.eu/data/schemas/PhilosophicalFoundationsOfAI
@@ -2858,6 +4338,23 @@
                      rdfs:label "Physics-based Vision"@en .
 
 
+###  http://aiod.eu/data/schemas/Pilots
+:Pilots rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Business ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con592"@en ;
+        rdfs:label "Pilots"@en .
+
+
+###  http://aiod.eu/data/schemas/Pitcairn
+:Pitcairn rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con772"@en ;
+          rdfs:label "Pitcairn"@en .
+
+
 ###  http://aiod.eu/data/schemas/Planning
 :Planning rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2884,6 +4381,14 @@
                     rdfs:label "Platform as a Service"@en .
 
 
+###  http://aiod.eu/data/schemas/Poland
+:Poland rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con773"@en ;
+        rdfs:label "Poland"@en .
+
+
 ###  http://aiod.eu/data/schemas/PoliticalSciences
 :PoliticalSciences rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2900,6 +4405,14 @@
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con475"@en ;
                      rdfs:label "Polymers and Plastics" .
+
+
+###  http://aiod.eu/data/schemas/Portugal
+:Portugal rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con774"@en ;
+          rdfs:label "Portugal"@en .
 
 
 ###  http://aiod.eu/data/schemas/PrecisionOperations
@@ -3066,6 +4579,13 @@
                       rdfs:label "Public Administration"@en .
 
 
+###  http://aiod.eu/data/schemas/Publication
+:Publication rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+             <http://www.w3.org/2004/02/skos/core#notation> "scheme009"@en ;
+             rdfs:label "Publication"@en .
+
+
 ###  http://aiod.eu/data/schemas/Publishing
 :Publishing rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3073,6 +4593,22 @@
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
             <http://www.w3.org/2004/02/skos/core#notation> "con361"@en ;
             rdfs:label "Publishing"@en .
+
+
+###  http://aiod.eu/data/schemas/PuertoRico
+:PuertoRico rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con775"@en ;
+            rdfs:label "Puerto Rico"@en .
+
+
+###  http://aiod.eu/data/schemas/Qatar
+:Qatar rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con776"@en ;
+       rdfs:label "Qatar"@en .
 
 
 ###  http://aiod.eu/data/schemas/QuantumMachineLearning
@@ -3189,11 +4725,36 @@
                  rdfs:label "Reproducibility"@en .
 
 
+###  http://aiod.eu/data/schemas/RepublicofKorea
+:RepublicofKorea rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con777"@en ;
+                 rdfs:label "Republic of Korea"@en .
+
+
+###  http://aiod.eu/data/schemas/RepublicofMoldova
+:RepublicofMoldova rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con778"@en ;
+                   rdfs:label "Republic of Moldova"@en .
+
+
 ###  http://aiod.eu/data/schemas/ResearchArea
 :ResearchArea rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
               <http://www.w3.org/2004/02/skos/core#notation> "scheme004"@en ;
               rdfs:label "Research Area"@en .
+
+
+###  http://aiod.eu/data/schemas/Resources
+:Resources rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Development ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con589"@en ;
+           rdfs:label "Resources"@en .
 
 
 ###  http://aiod.eu/data/schemas/Retail
@@ -3238,6 +4799,14 @@
             rdfs:label "Robustness"@en .
 
 
+###  http://aiod.eu/data/schemas/Romania
+:Romania rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con780"@en ;
+         rdfs:label "Romania"@en .
+
+
 ###  http://aiod.eu/data/schemas/RouteOptimisation
 :RouteOptimisation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3270,6 +4839,30 @@
             rdfs:label "Rule-Mining"@en .
 
 
+###  http://aiod.eu/data/schemas/RussianFederation
+:RussianFederation rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con781"@en ;
+                   rdfs:label "Russian Federation"@en .
+
+
+###  http://aiod.eu/data/schemas/Rwanda
+:Rwanda rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con782"@en ;
+        rdfs:label "Rwanda"@en .
+
+
+###  http://aiod.eu/data/schemas/Réunion
+:Réunion rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con779"@en ;
+         rdfs:label "Réunion"@en .
+
+
 ###  http://aiod.eu/data/schemas/Safety
 :Safety rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3278,12 +4871,100 @@
         rdfs:label "Safety"@en .
 
 
+###  http://aiod.eu/data/schemas/SaintBarthélemy
+:SaintBarthélemy rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con783"@en ;
+                 rdfs:label "Saint Barthélemy"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintHelena
+:SaintHelena rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con784"@en ;
+             rdfs:label "Saint Helena"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintKittsandNevis
+:SaintKittsandNevis rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con785"@en ;
+                    rdfs:label "Saint Kitts and Nevis"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintLucia
+:SaintLucia rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con786"@en ;
+            rdfs:label "Saint Lucia"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintMartin
+:SaintMartin rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con787"@en ;
+             rdfs:label "Saint Martin (French Part)"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintPierreandMiquelon
+:SaintPierreandMiquelon rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con788"@en ;
+                        rdfs:label "Saint Pierre and Miquelon"@en .
+
+
+###  http://aiod.eu/data/schemas/SaintVincentandtheGrenadines
+:SaintVincentandtheGrenadines rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                              <http://www.w3.org/2004/02/skos/core#notation> "con789"@en ;
+                              rdfs:label "Saint Vincent and the Grenadines"@en .
+
+
 ###  http://aiod.eu/data/schemas/SalesForecasting
 :SalesForecasting rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con387"@en ;
                   rdfs:label "Sales Forecasting"@en .
+
+
+###  http://aiod.eu/data/schemas/Samoa
+:Samoa rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con790"@en ;
+       rdfs:label "Samoa"@en .
+
+
+###  http://aiod.eu/data/schemas/SanMarino
+:SanMarino rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con791"@en ;
+           rdfs:label "San Marino"@en .
+
+
+###  http://aiod.eu/data/schemas/SaoTomeandPrincipe
+:SaoTomeandPrincipe rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con792"@en ;
+                    rdfs:label "Sao Tome and Principe"@en .
+
+
+###  http://aiod.eu/data/schemas/SaudiArabia
+:SaudiArabia rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con793"@en ;
+             rdfs:label "Saudi Arabia"@en .
 
 
 ###  http://aiod.eu/data/schemas/ScalabilityOfMLSystems
@@ -3376,6 +5057,14 @@
                          rdfs:label "Semi-supervised Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Senegal
+:Senegal rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con794"@en ;
+         rdfs:label "Senegal"@en .
+
+
 ###  http://aiod.eu/data/schemas/SensorFusion
 :SensorFusion rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3390,6 +5079,14 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con399"@en ;
                    rdfs:label "Sentiment Analysis"@en .
+
+
+###  http://aiod.eu/data/schemas/Serbia
+:Serbia rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con795"@en ;
+        rdfs:label "Serbia"@en .
 
 
 ###  http://aiod.eu/data/schemas/Services
@@ -3409,6 +5106,14 @@
           rdfs:label "Sewerage"@en .
 
 
+###  http://aiod.eu/data/schemas/Seychelles
+:Seychelles rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con796"@en ;
+            rdfs:label "Seychelles"@en .
+
+
 ###  http://aiod.eu/data/schemas/ShippingAutomation
 :ShippingAutomation rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3417,12 +5122,52 @@
                     rdfs:label "Shipping Automation"@en .
 
 
+###  http://aiod.eu/data/schemas/SierraLeone
+:SierraLeone rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con797"@en ;
+             rdfs:label "Sierra Leone"@en .
+
+
+###  http://aiod.eu/data/schemas/Singapore
+:Singapore rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con798"@en ;
+           rdfs:label "Singapore"@en .
+
+
+###  http://aiod.eu/data/schemas/Sint_Maarten
+:Sint_Maarten rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con799"@en ;
+              rdfs:label "Sint Maarten (Dutch part)"@en .
+
+
 ###  http://aiod.eu/data/schemas/SituationAwareness
 :SituationAwareness rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con403"@en ;
                     rdfs:label "Situation Awareness"@en .
+
+
+###  http://aiod.eu/data/schemas/Slovakia
+:Slovakia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con800"@en ;
+          rdfs:label "Slovakia"@en .
+
+
+###  http://aiod.eu/data/schemas/Slovenia
+:Slovenia rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con801"@en ;
+          rdfs:label "Slovenia"@en .
 
 
 ###  http://aiod.eu/data/schemas/SmartBuildings
@@ -3477,6 +5222,14 @@
             rdfs:label "Social Work"@en .
 
 
+###  http://aiod.eu/data/schemas/Society
+:Society rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con594"@en ;
+         rdfs:label "Society"@en .
+
+
 ###  http://aiod.eu/data/schemas/Sociology
 :Sociology rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3484,6 +5237,22 @@
            <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
            <http://www.w3.org/2004/02/skos/core#notation> "con410"@en ;
            rdfs:label "Sociology"@en .
+
+
+###  http://aiod.eu/data/schemas/SolomonIslands
+:SolomonIslands rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con802"@en ;
+                rdfs:label "Solomon Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/Somalia
+:Somalia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con803"@en ;
+         rdfs:label "Somalia"@en .
 
 
 ###  http://aiod.eu/data/schemas/SortingAutomation
@@ -3534,12 +5303,44 @@
                     rdfs:label "Sound Understanding"@en .
 
 
+###  http://aiod.eu/data/schemas/SouthAfrica
+:SouthAfrica rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con804"@en ;
+             rdfs:label "South Africa"@en .
+
+
+###  http://aiod.eu/data/schemas/SouthGeorgiaandTheSouthSandwichIslands
+:SouthGeorgiaandTheSouthSandwichIslands rdf:type owl:NamedIndividual ,
+                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                        <http://www.w3.org/2004/02/skos/core#notation> "con805"@en ;
+                                        rdfs:label "South Georgia and the South Sandwich Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/SouthSudan
+:SouthSudan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con806"@en ;
+            rdfs:label "South Sudan"@en .
+
+
 ###  http://aiod.eu/data/schemas/Space
 :Space rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
        <http://www.w3.org/2004/02/skos/core#notation> "con417"@en ;
        rdfs:label "Space"@en .
+
+
+###  http://aiod.eu/data/schemas/Spain
+:Spain rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con807"@en ;
+       rdfs:label "Spain"@en .
 
 
 ###  http://aiod.eu/data/schemas/SpatialDataMining
@@ -3593,12 +5394,28 @@
         rdfs:label "Sports"@en .
 
 
+###  http://aiod.eu/data/schemas/SriLanka
+:SriLanka rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con808"@en ;
+          rdfs:label "Sri Lanka"@en .
+
+
 ###  http://aiod.eu/data/schemas/StateEstimation
 :StateEstimation rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con424"@en ;
                  rdfs:label "State Estimation"@en .
+
+
+###  http://aiod.eu/data/schemas/StateofPalestine
+:StateofPalestine rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con809"@en ;
+                  rdfs:label "State of Palestine"@en .
 
 
 ###  http://aiod.eu/data/schemas/StatisticalLanguageModelling
@@ -3641,6 +5458,14 @@
                rdfs:label "Style Transfer"@en .
 
 
+###  http://aiod.eu/data/schemas/Sudan
+:Sudan rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con810"@en ;
+       rdfs:label "Sudan"@en .
+
+
 ###  http://aiod.eu/data/schemas/SupervisedLearning
 :SupervisedLearning rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3651,6 +5476,14 @@
                     rdfs:label "Supervised Learning"@en .
 
 
+###  http://aiod.eu/data/schemas/Suriname
+:Suriname rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con811"@en ;
+          rdfs:label "Suriname"@en .
+
+
 ###  http://aiod.eu/data/schemas/Sustainability
 :Sustainability rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3659,12 +5492,52 @@
                 rdfs:label "Sustainability"@en .
 
 
+###  http://aiod.eu/data/schemas/SvalbardandJanMayenIslands
+:SvalbardandJanMayenIslands rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                            <http://www.w3.org/2004/02/skos/core#notation> "con812"@en ;
+                            rdfs:label "Svalbard and Jan Mayen Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/Sweden
+:Sweden rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con813"@en ;
+        rdfs:label "Sweden"@en .
+
+
+###  http://aiod.eu/data/schemas/Switzerland
+:Switzerland rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con814"@en ;
+             rdfs:label "Switzerland"@en .
+
+
 ###  http://aiod.eu/data/schemas/SymbolicRepresentation
 :SymbolicRepresentation rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con432"@en ;
                         rdfs:label "Symbolic Representation"@en .
+
+
+###  http://aiod.eu/data/schemas/SyrianArabRepublic
+:SyrianArabRepublic rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con815"@en ;
+                    rdfs:label "Syrian Arab Republic"@en .
+
+
+###  http://aiod.eu/data/schemas/Tajikistan
+:Tajikistan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con816"@en ;
+            rdfs:label "Tajikistan"@en .
 
 
 ###  http://aiod.eu/data/schemas/TargetedAdvertising
@@ -3741,6 +5614,14 @@
          rdfs:label "Textile"@en .
 
 
+###  http://aiod.eu/data/schemas/Thailand
+:Thailand rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con817"@en ;
+          rdfs:label "Thailand"@en .
+
+
 ###  http://aiod.eu/data/schemas/Time-Series
 :Time-Series rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3757,12 +5638,44 @@
                        rdfs:label "Timeline Based Planning"@en .
 
 
+###  http://aiod.eu/data/schemas/Timor-Leste
+:Timor-Leste rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con818"@en ;
+             rdfs:label "Timor-Leste"@en .
+
+
 ###  http://aiod.eu/data/schemas/Tobacco
 :Tobacco rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
          <http://www.w3.org/2004/02/skos/core#notation> "con479"@en .
+
+
+###  http://aiod.eu/data/schemas/Togo
+:Togo rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con819"@en ;
+      rdfs:label "Togo"@en .
+
+
+###  http://aiod.eu/data/schemas/Tokelau
+:Tokelau rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con820"@en ;
+         rdfs:label "Tokelau"@en .
+
+
+###  http://aiod.eu/data/schemas/Tonga
+:Tonga rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con821"@en ;
+       rdfs:label "Tonga"@en .
 
 
 ###  http://aiod.eu/data/schemas/Tourism
@@ -3839,12 +5752,124 @@
                 rdfs:label "Transportation"@en .
 
 
+###  http://aiod.eu/data/schemas/TrinidadandTobago
+:TrinidadandTobago rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con822"@en ;
+                   rdfs:label "Trinidad and Tobago"@en .
+
+
+###  http://aiod.eu/data/schemas/Tunisia
+:Tunisia rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con823"@en ;
+         rdfs:label "Tunisia"@en .
+
+
+###  http://aiod.eu/data/schemas/Turkmenistan
+:Turkmenistan rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con825"@en ;
+              rdfs:label "Turkmenistan"@en .
+
+
+###  http://aiod.eu/data/schemas/TurksandCaicosIslands
+:TurksandCaicosIslands rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con826"@en ;
+                       rdfs:comment "Turks and Caicos Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/Tuvalu
+:Tuvalu rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con827"@en ;
+        rdfs:label "Tuvalu"@en .
+
+
+###  http://aiod.eu/data/schemas/Türkiye
+:Türkiye rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con824"@en ;
+         rdfs:label "Türkiye"@en .
+
+
+###  http://aiod.eu/data/schemas/Uganda
+:Uganda rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con828"@en ;
+        rdfs:label "Uganda"@en .
+
+
+###  http://aiod.eu/data/schemas/Ukraine
+:Ukraine rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con829"@en ;
+         rdfs:label "Ukraine"@en .
+
+
 ###  http://aiod.eu/data/schemas/UncertaintyQuantification
 :UncertaintyQuantification rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con453"@en ;
                            rdfs:label "Uncertainty Quantification"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedArabEmirates
+:UnitedArabEmirates rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con830"@en ;
+                    rdfs:label "United Arab Emirates"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedKingdomofGreatBritainandNorthernIreland
+:UnitedKingdomofGreatBritainandNorthernIreland rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                               <http://www.w3.org/2004/02/skos/core#notation> "con831"@en ;
+                                               rdfs:label "United Kingdom of Great Britain and Northern Ireland"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedRepublicofTanzania
+:UnitedRepublicofTanzania rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con832"@en ;
+                          rdfs:label "United Republic of Tanzania"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedStatesMinorOutlyingIslands
+:UnitedStatesMinorOutlyingIslands rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                  <http://www.w3.org/2004/02/skos/core#notation> "con833"@en ;
+                                  rdfs:label "United States Minor Outlying Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedStatesVirginIslands
+:UnitedStatesVirginIslands rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con835"@en ;
+                           rdfs:label "United States Virgin Islands"@en .
+
+
+###  http://aiod.eu/data/schemas/UnitedStatesofAmerica
+:UnitedStatesofAmerica rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con834"@en ;
+                       rdfs:label "United States of America"@en .
 
 
 ###  http://aiod.eu/data/schemas/UnsupervisedLearning
@@ -3855,6 +5880,38 @@
                                                                      :ResearchArea ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con454"@en ;
                       rdfs:label "Unsupervised Learning"@en .
+
+
+###  http://aiod.eu/data/schemas/Uruguay
+:Uruguay rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con836"@en ;
+         rdfs:label "Uruguay"@en .
+
+
+###  http://aiod.eu/data/schemas/Uzbekistan
+:Uzbekistan rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con837"@en ;
+            rdfs:label "Uzbekistan"@en .
+
+
+###  http://aiod.eu/data/schemas/Vanuatu
+:Vanuatu rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con838"@en ;
+         rdfs:label "Vanuatu"@en .
+
+
+###  http://aiod.eu/data/schemas/Venezuela
+:Venezuela rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con839"@en ;
+           rdfs:label "Bolivarian Republic of Venezuela"@en .
 
 
 ###  http://aiod.eu/data/schemas/VeterinarySciences
@@ -3914,6 +5971,14 @@
                     rdfs:label "Video Understanding"@en .
 
 
+###  http://aiod.eu/data/schemas/VietNam
+:VietNam rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con840"@en ;
+         rdfs:label "Viet Nam"@en .
+
+
 ###  http://aiod.eu/data/schemas/VirtualEnvironment
 :VirtualEnvironment rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -3944,6 +6009,14 @@
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con465"@en ;
                   rdfs:label "Visual Data Mining"@en .
+
+
+###  http://aiod.eu/data/schemas/WallisandFutunaIslands
+:WallisandFutunaIslands rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con841"@en ;
+                        rdfs:label "Wallis and Futuna Islands"@en .
 
 
 ###  http://aiod.eu/data/schemas/WarehouseOrganisationAutomation
@@ -3997,6 +6070,14 @@
            rdfs:label "Wellbeing"@en .
 
 
+###  http://aiod.eu/data/schemas/WesternSahara
+:WesternSahara rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con842"@en ;
+               rdfs:label "Western Sahara"@en .
+
+
 ###  http://aiod.eu/data/schemas/Wholesale
 :Wholesale rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -4006,12 +6087,746 @@
            rdfs:label "Wholesale"@en .
 
 
+###  http://aiod.eu/data/schemas/WomenInAI
+:WomenInAI rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Society ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con595"@en ;
+           rdfs:label "Women in AI"@en .
+
+
+###  http://aiod.eu/data/schemas/Yemen
+:Yemen rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con843"@en ;
+       rdfs:label "Yemen"@en .
+
+
+###  http://aiod.eu/data/schemas/Zambia
+:Zambia rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con844"@en ;
+        rdfs:label "Zambia"@en .
+
+
 ###  http://aiod.eu/data/schemas/Zero-shotLearning
 :Zero-shotLearning rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con473"@en ;
                    rdfs:label "Zero-shot Learning"@en .
+
+
+###  http://aiod.eu/data/schemas/Zimbabwe
+:Zimbabwe rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con845"@en ;
+          rdfs:label "Zimbabwe"@en .
+
+
+###  http://aiod.eu/data/schemas/abstract
+:abstract rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con567"@en ;
+          rdfs:label "Abstract"@en .
+
+
+###  http://aiod.eu/data/schemas/afl-3.0
+:afl-3.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con506"@en .
+
+
+###  http://aiod.eu/data/schemas/agpl-3.0
+:agpl-3.0 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con520"@en .
+
+
+###  http://aiod.eu/data/schemas/apache-2.0
+:apache-2.0 rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con499"@en .
+
+
+###  http://aiod.eu/data/schemas/article
+:article rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con568"@en ;
+         rdfs:label "Article"@en .
+
+
+###  http://aiod.eu/data/schemas/artistic-2.0
+:artistic-2.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con512"@en .
+
+
+###  http://aiod.eu/data/schemas/bigcode-openrail-m
+:bigcode-openrail-m rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con518"@en .
+
+
+###  http://aiod.eu/data/schemas/bigscience-bloom-rail-1.0
+:bigscience-bloom-rail-1.0 rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con515"@en .
+
+
+###  http://aiod.eu/data/schemas/bigscience-openrail-m
+:bigscience-openrail-m rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con514"@en .
+
+
+###  http://aiod.eu/data/schemas/book
+:book rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con569"@en ;
+      rdfs:label "Book"@en .
+
+
+###  http://aiod.eu/data/schemas/bsd
+:bsd rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+     <http://www.w3.org/2004/02/skos/core#notation> "con526"@en .
+
+
+###  http://aiod.eu/data/schemas/bsd-2-clause
+:bsd-2-clause rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con532"@en .
+
+
+###  http://aiod.eu/data/schemas/bsd-3-clause
+:bsd-3-clause rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con513"@en .
+
+
+###  http://aiod.eu/data/schemas/bsd-3-clause-clear
+:bsd-3-clause-clear rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con542"@en .
+
+
+###  http://aiod.eu/data/schemas/bsl-1.0
+:bsl-1.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con534"@en .
+
+
+###  http://aiod.eu/data/schemas/c-uda
+:c-uda rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con533"@en .
+
+
+###  http://aiod.eu/data/schemas/cc
+:cc rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+    <http://www.w3.org/2004/02/skos/core#notation> "con511"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-2.0
+:cc-by-2.0 rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con529"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-2.5
+:cc-by-2.5 rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con552"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-3.0
+:cc-by-3.0 rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con527"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-4.0
+:cc-by-4.0 rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con505"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-2.0
+:cc-by-nc-2.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con528"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-3.0
+:cc-by-nc-3.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con536"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-4.0
+:cc-by-nc-4.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con503"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-nd-3.0
+:cc-by-nc-nd-3.0 rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con550"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-nd-4.0
+:cc-by-nc-nd-4.0 rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con516"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-sa-2.0
+:cc-by-nc-sa-2.0 rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con549"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-sa-3.0
+:cc-by-nc-sa-3.0 rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con544"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nc-sa-4.0
+:cc-by-nc-sa-4.0 rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con508"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-nd-4.0
+:cc-by-nd-4.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con537"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-sa-3.0
+:cc-by-sa-3.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con521"@en .
+
+
+###  http://aiod.eu/data/schemas/cc-by-sa-4.0
+:cc-by-sa-4.0 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con509"@en .
+
+
+###  http://aiod.eu/data/schemas/cc0-1.0
+:cc0-1.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con519"@en .
+
+
+###  http://aiod.eu/data/schemas/cdla-permissive-1.0
+:cdla-permissive-1.0 rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con566"@en .
+
+
+###  http://aiod.eu/data/schemas/cdla-permissive-2.0
+:cdla-permissive-2.0 rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                     <http://www.w3.org/2004/02/skos/core#notation> "con556"@en .
+
+
+###  http://aiod.eu/data/schemas/cdla-sharing-1.0
+:cdla-sharing-1.0 rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con558"@en .
+
+
+###  http://aiod.eu/data/schemas/chapter
+:chapter rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con570"@en ;
+         rdfs:label "Chapter"@en .
+
+
+###  http://aiod.eu/data/schemas/conference_poster
+:conference_poster rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con571"@en ;
+                   rdfs:label "Conference Poster"@en .
+
+
+###  http://aiod.eu/data/schemas/creativeml-openrail-m
+:creativeml-openrail-m rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con502"@en .
+
+
+###  http://aiod.eu/data/schemas/deepfloyd-if-license
+:deepfloyd-if-license rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con548"@en .
+
+
+###  http://aiod.eu/data/schemas/demo_paper
+:demo_paper rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con572"@en ;
+            rdfs:label "Demo Paper"@en .
+
+
+###  http://aiod.eu/data/schemas/ecl-2.0
+:ecl-2.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con540"@en .
+
+
+###  http://aiod.eu/data/schemas/editorial
+:editorial rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con573"@en ;
+           rdfs:label "Editorial"@en .
+
+
+###  http://aiod.eu/data/schemas/education
+:education rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :research ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con586"@en ;
+           rdfs:label "Education"@en .
+
+
+###  http://aiod.eu/data/schemas/epl-1.0
+:epl-1.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con564"@en .
+
+
+###  http://aiod.eu/data/schemas/epl-2.0
+:epl-2.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con554"@en .
+
+
+###  http://aiod.eu/data/schemas/etalab-2.0
+:etalab-2.0 rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con560"@en .
+
+
+###  http://aiod.eu/data/schemas/eupl-1.1
+:eupl-1.1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con553"@en .
+
+
+###  http://aiod.eu/data/schemas/font
+:font rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con490"@en ;
+      rdfs:label "Font"@en .
+
+
+###  http://aiod.eu/data/schemas/gemma
+:gemma rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con523"@en .
+
+
+###  http://aiod.eu/data/schemas/gfdl
+:gfdl rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con541"@en .
+
+
+###  http://aiod.eu/data/schemas/gpl
+:gpl rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+     <http://www.w3.org/2004/02/skos/core#notation> "con525"@en .
+
+
+###  http://aiod.eu/data/schemas/gpl-2.0
+:gpl-2.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con530"@en .
+
+
+###  http://aiod.eu/data/schemas/gpl-3.0
+:gpl-3.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con510"@en .
+
+
+###  http://aiod.eu/data/schemas/haptics
+:haptics rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con491"@en ;
+         rdfs:label "Haptics"@en .
+
+
+###  http://aiod.eu/data/schemas/image
+:image rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con492"@en ;
+       rdfs:label "Image"@en .
+
+
+###  http://aiod.eu/data/schemas/instruction_manual
+:instruction_manual rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con574"@en ;
+                    rdfs:label "Instruction Manual"@en .
+
+
+###  http://aiod.eu/data/schemas/isc
+:isc rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+     <http://www.w3.org/2004/02/skos/core#notation> "con557"@en .
+
+
+###  http://aiod.eu/data/schemas/lecture_notes
+:lecture_notes rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con575"@en ;
+               rdfs:label "Lecture Notes"@en .
+
+
+###  http://aiod.eu/data/schemas/lgpl
+:lgpl rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con546"@en .
+
+
+###  http://aiod.eu/data/schemas/lgpl-2.1
+:lgpl-2.1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con562"@en .
+
+
+###  http://aiod.eu/data/schemas/lgpl-3.0
+:lgpl-3.0 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con531"@en .
+
+
+###  http://aiod.eu/data/schemas/lgpl-lr
+:lgpl-lr rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con551"@en .
+
+
+###  http://aiod.eu/data/schemas/llama2
+:llama2 rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con504"@en .
+
+
+###  http://aiod.eu/data/schemas/llama3
+:llama3 rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con524"@en .
+
+
+###  http://aiod.eu/data/schemas/lppl-1.3c
+:lppl-1.3c rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con563"@en .
+
+
+###  http://aiod.eu/data/schemas/manuscript
+:manuscript rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con576"@en ;
+            rdfs:label "Manuscript"@en .
+
+
+###  http://aiod.eu/data/schemas/message
+:message rdf:type owl:NamedIndividual ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con493"@en ;
+         rdfs:label "Message"@en .
+
+
+###  http://aiod.eu/data/schemas/mit
+:mit rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+     <http://www.w3.org/2004/02/skos/core#notation> "con500"@en .
+
+
+###  http://aiod.eu/data/schemas/model
+:model rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con494"@en ;
+       rdfs:label "Model"@en .
+
+
+###  http://aiod.eu/data/schemas/mpl-2.0
+:mpl-2.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con545"@en .
+
+
+###  http://aiod.eu/data/schemas/ms-pl
+:ms-pl rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con539"@en .
+
+
+###  http://aiod.eu/data/schemas/multipart
+:multipart rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con495"@en ;
+           rdfs:label "Multipart"@en .
+
+
+###  http://aiod.eu/data/schemas/ncsa
+:ncsa rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con559"@en .
+
+
+###  http://aiod.eu/data/schemas/odbl
+:odbl rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con547"@en .
+
+
+###  http://aiod.eu/data/schemas/odc-by
+:odc-by rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+        <http://www.w3.org/2004/02/skos/core#notation> "con555"@en .
+
+
+###  http://aiod.eu/data/schemas/ofl-1.1
+:ofl-1.1 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con565"@en .
+
+
+###  http://aiod.eu/data/schemas/openrail
+:openrail rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con501"@en .
+
+
+###  http://aiod.eu/data/schemas/osl-3.0
+:osl-3.0 rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+         <http://www.w3.org/2004/02/skos/core#notation> "con535"@en .
+
+
+###  http://aiod.eu/data/schemas/pddl
+:pddl rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con538"@en .
+
+
+###  http://aiod.eu/data/schemas/periodical_issue
+:periodical_issue rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "con577"@en ;
+                  rdfs:label "Periodical Issue"@en .
+
+
+###  http://aiod.eu/data/schemas/periodical_volume
+:periodical_volume rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con578"@en ;
+                   rdfs:label "Periodical Volume"@en .
+
+
+###  http://aiod.eu/data/schemas/policy_document
+:policy_document rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con579"@en ;
+                 rdfs:label "Policy Document"@en .
+
+
+###  http://aiod.eu/data/schemas/poster_paper
+:poster_paper rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con580"@en ;
+              rdfs:label "Poster Paper"@en .
+
+
+###  http://aiod.eu/data/schemas/postgresql
+:postgresql rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con561"@en .
+
+
+###  http://aiod.eu/data/schemas/proceedings_paper
+:proceedings_paper rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "con581"@en ;
+                   rdfs:label "Proceedings Paper"@en .
+
+
+###  http://aiod.eu/data/schemas/report_document
+:report_document rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "con582"@en ;
+                 rdfs:label "Report Document"@en .
+
+
+###  http://aiod.eu/data/schemas/research
+:research rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :NewsCategory ;
+          <http://www.w3.org/2004/02/skos/core#notation> "con585"@en ;
+          rdfs:label "Research"@en .
+
+
+###  http://aiod.eu/data/schemas/specification_document
+:specification_document rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+                        <http://www.w3.org/2004/02/skos/core#notation> "con583"@en ;
+                        rdfs:label "Specification Document"@en .
+
+
+###  http://aiod.eu/data/schemas/text
+:text rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con496"@en ;
+      rdfs:label "Text"@en .
+
+
+###  http://aiod.eu/data/schemas/unlicense
+:unlicense rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con522"@en .
+
+
+###  http://aiod.eu/data/schemas/video
+:video rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con498"@en ;
+       rdfs:label "Video"@en .
+
+
+###  http://aiod.eu/data/schemas/web_content
+:web_content rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :Publication ;
+             <http://www.w3.org/2004/02/skos/core#notation> "con584"@en ;
+             rdfs:label "Web Content"@en .
+
+
+###  http://aiod.eu/data/schemas/wtfpl
+:wtfpl rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con517"@en .
+
+
+###  http://aiod.eu/data/schemas/zlib
+:zlib rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+      <http://www.w3.org/2004/02/skos/core#notation> "con543"@en .
+
+
+###  http://aiod.eu/data/schemas/ÅlandIslands
+:ÅlandIslands rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+              <http://www.w3.org/2004/02/skos/core#notation> "con598"@en ;
+              rdfs:label "Åland Islands"@en .
 
 
 ###  http://aiod.eu/data/schemas/ΜarketΑnalysis
@@ -4028,6 +6843,14 @@
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                                <http://www.w3.org/2004/02/skos/core#notation> "con001"@en ;
                                                rdfs:label "3D Computer Vision"@en .
+
+
+###  http://aiod.eu/data/schemas/Côted’Ivoire
+<http://aiod.eu/data/schemas/Côted’Ivoire> rdf:type owl:NamedIndividual ,
+                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                           <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
+                                           <http://www.w3.org/2004/02/skos/core#notation> "con653"@en ;
+                                           rdfs:label "Côte d’Ivoire"@en .
 
 
 ###  http://aiod.eu/data/schemas/Engineering&Technology
@@ -4062,6 +6885,13 @@
                                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
                                            <http://www.w3.org/2004/02/skos/core#notation> "con364"@en ;
                                            rdfs:label "R&D Processes"@en .
+
+
+###  http://aiod.eu/data/schemas/openrail++
+<http://aiod.eu/data/schemas/openrail++> rdf:type owl:NamedIndividual ,
+                                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
+                                         <http://www.w3.org/2004/02/skos/core#notation> "con507"@en .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
