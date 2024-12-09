@@ -18,7 +18,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con015"@en ;
-                rdfs:label "AI and Copyright"@en .
+                rdfs:label "AI and Copyright"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "The legal and policy issues that arise from the integration and utilisation of artificial intelligence."@en .
 
 
 ###  http://aiod.eu/data/schemas/AIAndEpistemology
@@ -26,7 +27,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con016"@en ;
-                   rdfs:label "AI and Epistemology"@en .
+                   rdfs:label "AI and Epistemology"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The implications of artificial intelligence on knowledge theory."@en .
 
 
 ###  http://aiod.eu/data/schemas/AIApplication
@@ -66,7 +68,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con021"@en ;
-                   rdfs:label "AI Software Toolkit"@en .
+                   rdfs:label "A range of software resources designed to enable developers and researchers to build, deploy and maintain artificial intelligence systems."@en ,
+                              "AI Software Toolkit"@en .
 
 
 ###  http://aiod.eu/data/schemas/AITrustworthiness
@@ -90,7 +93,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con003"@en ;
-                rdfs:label "Accountability"@en .
+                rdfs:label "Accountability"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A method that requires the development, deployment and utilisation of systems in a manner that facilitates the identification and attribution of responsibility for adverse outcomes to the relevant parties."@en .
 
 
 ###  http://aiod.eu/data/schemas/AcousticMonitoring
@@ -98,7 +102,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con004"@en ;
-                    rdfs:label "Acoustic Monitoring"@en .
+                    rdfs:label "Acoustic Monitoring"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Acoustic monitoring is a system that employs sound sensors to detect and analyse sounds and vibrations in the surrounding environment."@en .
 
 
 ###  http://aiod.eu/data/schemas/ActiveLearning
@@ -106,7 +111,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con005"@en ;
-                rdfs:label "Active Learning"@en .
+                rdfs:label "Active Learning"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A special case of machine learning in which a learning algorithm can interactively query a human user (or some other information source), to label new data points with the desired outputs."@en .
 
 
 ###  http://aiod.eu/data/schemas/ActivityAnalysis
@@ -114,7 +120,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con006"@en ;
-                  rdfs:label "Activity Analysis"@en .
+                  rdfs:label "Activity Analysis"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of analysing video or sequence data with the objective of detecting, recognising and interpreting human activities or behaviours."@en .
 
 
 ###  http://aiod.eu/data/schemas/AdditiveManufacturing
@@ -130,7 +137,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con008"@en ;
-                    rdfs:label "Adversarial Attacks"@en .
+                    rdfs:label "Adversarial Attacks"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A methodology for the generation of adversarial examples."@en .
 
 
 ###  http://aiod.eu/data/schemas/AdversarialMachineLearning
@@ -140,7 +148,8 @@
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                            :ResearchArea ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con009"@en ;
-                            rdfs:label "Adversarial Machine Learning"@en .
+                            rdfs:label "Adversarial Machine Learning"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Adversarial machine learning is the study of the attacks on machine learning algorithms, and of the defenses against such attacks."@en .
 
 
 ###  http://aiod.eu/data/schemas/Aeronautics
@@ -232,7 +241,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con024"@en ;
-                   rdfs:label "Analytics Platform"@en .
+                   rdfs:label "Analytics Platform"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A unified solution that integrates a range of technologies, providing support for enterprise needs throughout the entire analytics lifecycle."@en .
 
 
 ###  http://aiod.eu/data/schemas/Andorra
@@ -273,7 +283,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con026"@en ;
-                  rdfs:label "Anomaly Detection"@en .
+                  rdfs:label "Anomaly Detection"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The identification of rare items, events or observations which deviate significantly from the majority of the data and do not conform to a well defined notion of normal behavior."@en .
 
 
 ###  http://aiod.eu/data/schemas/Antarctica
@@ -327,7 +338,8 @@
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                <http://www.w3.org/2004/02/skos/core#notation> "con028"@en ;
-                               rdfs:label "Artificial General Intelligence"@en .
+                               rdfs:label "Artificial General Intelligence"@en ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "Aen type of artificial intelligence (AI) that matches or surpasses human cognitive capabilities across a wide range of cognitive tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/ArtificialNeuralNets
@@ -335,7 +347,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con027"@en ;
-                      rdfs:label "Artficial Neural Nets"@en .
+                      rdfs:label "Artficial Neural Nets"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Models capable of learning from experience through the modification of connections between artificial neurons, enabling them to make predictions or decisions based on complex and seemingly unrelated sets of information."@en .
 
 
 ###  http://aiod.eu/data/schemas/Arts
@@ -380,7 +393,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con032"@en ;
-                   rdfs:label "Attacks and Defence"@en .
+                   rdfs:label "Attacks and Defence"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Techniques related to securing machine learning systems against malicious inputs designed to compromise them"@en .
 
 
 ###  http://aiod.eu/data/schemas/Audio
@@ -396,7 +410,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con034"@en ;
-                              rdfs:label "Audio-based Sentiment Analysis"@en .
+                              rdfs:label "Audio-based Sentiment Analysis"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "The process of sentiment analysis that enables us to carry out these interpretations from audio."@en .
 
 
 ###  http://aiod.eu/data/schemas/AudioProcessing
@@ -406,7 +421,8 @@
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                 :ResearchArea ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con033"@en ;
-                 rdfs:label "Audio Processing"@en .
+                 rdfs:label "Audio Processing"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The set of cognitive and computational methods by which sound is interpreted and understood."@en .
 
 
 ###  http://aiod.eu/data/schemas/AuditorySceneAnalysis
@@ -414,7 +430,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con035"@en ;
-                       rdfs:label "Auditory Scene Analysis"@en .
+                       rdfs:label "Auditory Scene Analysis"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The process by which automated systems analyse and interpret complex acoustic environments with the objective of identifying and separating different sound sources."@en .
 
 
 ###  http://aiod.eu/data/schemas/AugmentedReality
@@ -422,7 +439,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con036"@en ;
-                  rdfs:label "Augmented Reality"@en .
+                  rdfs:label "Augmented Reality"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "An interactive experience that combines the real world and computer-generated 3D content."@en .
 
 
 ###  http://aiod.eu/data/schemas/Australia
@@ -462,7 +480,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con039"@en ;
-              rdfs:label "Autoencoders"@en .
+              rdfs:label "Autoencoders"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A type of artificial neural network used to learn efficient codings of unlabeled data."@en .
 
 
 ###  http://aiod.eu/data/schemas/AutomatedMachineLearning
@@ -470,7 +489,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con040"@en ;
-                          rdfs:label "Automated Machine Learning"@en .
+                          rdfs:label "Automated Machine Learning"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The process of automating the tasks of applying machine learning to real-world problems."@en .
 
 
 ###  http://aiod.eu/data/schemas/AutomatedPlanning
@@ -577,7 +597,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con047"@en ;
-                  rdfs:label "Bayesian Learning"@en .
+                  rdfs:label "Bayesian Learning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "An approach that employs Bayesian statistics to enhance the predictive and decision-making capabilities of models."@en .
 
 
 ###  http://aiod.eu/data/schemas/BehaviorControl
@@ -585,7 +606,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con048"@en ;
-                 rdfs:label "Behavior Control"@en .
+                 rdfs:label "Behavior Control"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A set of distributed, interacting modules, called behaviors, that collectively achieve the desired system-level behavior."@en .
 
 
 ###  http://aiod.eu/data/schemas/BehaviorLearning
@@ -593,7 +615,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con049"@en ;
-                  rdfs:label "Behavior Learning"@en .
+                  rdfs:label "Behavior Learning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The processes through which robots develop or enhance their abilities to undertake tasks or actions based on observed or experienced behaviours."@en .
 
 
 ###  http://aiod.eu/data/schemas/BehaviorPrediction
@@ -601,7 +624,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con050"@en ;
-                    rdfs:label "Behavior Prediction"@en .
+                    rdfs:label "Behavior Prediction"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The application of models and algorithms in computational systems to predict human actions or responses during interactions with machines or digital interfaces."@en .
 
 
 ###  http://aiod.eu/data/schemas/BehavioralGameTheory
@@ -609,7 +633,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con051"@en ;
-                      rdfs:label "Behavioral Game Theory"@en .
+                      rdfs:label "Behavioral Game Theory"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "How people's strategic decision-making behavior is shaped by social preferences, social utility and other psychological factors."@en .
 
 
 ###  http://aiod.eu/data/schemas/Belarus
@@ -665,7 +690,8 @@
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
          <http://www.w3.org/2004/02/skos/core#notation> "con052"@en ;
-         rdfs:label "Big Data"@en .
+         rdfs:label "Big Data"@en ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Large and diverse datasets that are huge in volume and also rapidly grow in size over time."@en .
 
 
 ###  http://aiod.eu/data/schemas/Bio-inspiredLearning
@@ -673,7 +699,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con053"@en ;
-                      rdfs:label "Bio-inspired Learning"@en .
+                      rdfs:label "Bio-inspired Learning"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A field of study which seeks to solve computer science problems using models of biology"@en .
 
 
 ###  http://aiod.eu/data/schemas/BiologicalSciences
@@ -827,7 +854,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con058"@en ;
-                      rdfs:label "Business Intelligence"@en .
+                      rdfs:label "Business Intelligence"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The process where a business combines data from various sources in order to analyze it and make decisions from it."@en .
 
 
 ###  http://aiod.eu/data/schemas/BusinessProblem
@@ -866,7 +894,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con059"@en ;
-             rdfs:label "Calibration"@en .
+             rdfs:label "Calibration"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The process of configuring an instrument to provide a result for a sample within an acceptable range."@en .
 
 
 ###  http://aiod.eu/data/schemas/Cambodia
@@ -915,7 +944,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con062"@en ;
-                     rdfs:label "Case-based Reasoning"@en .
+                     rdfs:label "Case-based Reasoning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "The process of solving new problems based on the solutions of similar past problems."@en .
 
 
 ###  http://aiod.eu/data/schemas/CausalLearning
@@ -923,7 +953,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con063"@en ;
-                rdfs:label "Casual Learning"@en .
+                rdfs:label "Causal Learning"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A discipline to formalize the pursuit of identifying, modeling, and quantifying causal relationships."@en .
 
 
 ###  http://aiod.eu/data/schemas/CaymanIslands
@@ -947,7 +978,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con064"@en ;
-                       rdfs:label "Central Processing Unit"@en .
+                       rdfs:label "Central Processing Unit"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The invisible manager inside the computer where data input is transformed into information output."@en .
 
 
 ###  http://aiod.eu/data/schemas/Chad
@@ -1047,7 +1079,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con070"@en ;
-                   rdfs:label "Classical Planning"@en .
+                   rdfs:label "Classical Planning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The search for a sequence of actions that will achieve a particular goal from an exact starting point."@en .
 
 
 ###  http://aiod.eu/data/schemas/ClassificationAndRegression
@@ -1080,7 +1113,8 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
             <http://www.w3.org/2004/02/skos/core#notation> "con074"@en ;
-            rdfs:label "Clustering"@en .
+            rdfs:label "Clustering"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "The task of grouping a set of objects in such a way that objects in the same group  are more similar to each other than to those in other groups."@en .
 
 
 ###  http://aiod.eu/data/schemas/CocosIslands
@@ -1096,7 +1130,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con075"@en ;
-                   rdfs:label "Cognitive Robotics"@en .
+                   rdfs:label "Cognitive Robotics"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A subfield of robotics concerned with endowing a robot with intelligent behavior by providing it with a processing architecture that will allow it to learn and reason about how to behave in response to complex goals in a complex world."@en .
 
 
 ###  http://aiod.eu/data/schemas/ColisionAvoidance
@@ -1104,7 +1139,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con076"@en ;
-                   rdfs:label "Colision Avoidance"@en .
+                   rdfs:label "Colision Avoidance"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "An advanced driver-assistance system designed to prevent or reduce the severity of a collision."@en .
 
 
 ###  http://aiod.eu/data/schemas/CollaborativeRobotics
@@ -1112,7 +1148,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con077"@en ;
-                       rdfs:label "Collaborative Robotics"@en .
+                       rdfs:label "Collaborative Robotics"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "An area of robotics focused on the design, development, and implementation of robots intended for direct human-robot interaction within a shared space."@en .
 
 
 ###  http://aiod.eu/data/schemas/Colombia
@@ -1128,7 +1165,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con078"@en ;
-                      rdfs:label "Command Line Interface"@en .
+                      rdfs:label "Command Line Interface"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A text-based interface where you can input commands that interact with a computer's operating system"@en .
 
 
 ###  http://aiod.eu/data/schemas/CommonSenseReasoning
@@ -1137,7 +1175,8 @@
                       <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con079"@en ;
-                      rdfs:label "Common Semse Reasoning"@en .
+                      rdfs:label "Common Sense Reasoning"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A human-like ability to make presumptions about the type and essence of ordinary situations humans encounter every day."@en .
 
 
 ###  http://aiod.eu/data/schemas/Communication
@@ -1153,7 +1192,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con081"@en ;
-                        rdfs:label "Communication Protocols"@en .
+                        rdfs:label "Communication Protocols"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A system of rules that allows two or more entities of a communications system to transmit information via any variation of a physical quantity."@en .
 
 
 ###  http://aiod.eu/data/schemas/Community-ledLocalDevelopment
@@ -1169,7 +1209,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con082"@en ;
-                 rdfs:label "Community Mining"@en .
+                 rdfs:label "Community Mining"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The application of data mining techniques to social and information networks to discover community structures within these networks."@en .
 
 
 ###  http://aiod.eu/data/schemas/Comoros
@@ -1193,7 +1234,8 @@
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con085"@en ;
-                         rdfs:label "Computational Creativity"@en .
+                         rdfs:label "Computational Creativity"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "A multidisciplinary endeavour that is located at the intersection of the fields of artificial intelligence, cognitive psychology, philosophy, and the arts"@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputationalNeuroscience
@@ -1201,7 +1243,8 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con086"@en ;
-                           rdfs:label "Computational Neuroscience"@en .
+                           rdfs:label "Computational Neuroscience"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "Computational neuroscience is a branch of neuroscience which employs mathematics, computer science, theoretical analysis and abstractions of the brain to understand the principles that govern the development, structure, physiology and cognitive abilities of the nervous system."@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputationalPhotography
@@ -1209,7 +1252,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con087"@en ;
-                          rdfs:label "Computational Photography"@en .
+                          rdfs:label "Computational Photography"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The digital image capture and processing techniques that use digital computation instead of optical processes."@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputationalSimulations
@@ -1217,7 +1261,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con088"@en ;
-                          rdfs:label "Computational Simulations"@en .
+                          rdfs:label "Computational Simulations"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The running of a mathematical model on a computer, the model being designed to represent the behaviour of, or the outcome of, a real-world or physical system."@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputerAndInformationSciences
@@ -1245,7 +1290,8 @@
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                :ResearchArea ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con091"@en ;
-                rdfs:label "Computer Vision"@en .
+                rdfs:label "Computer Vision"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A field that deals with enabling computers to derive information from images, videos and other inputs."@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputingInfrastructures
@@ -1279,7 +1325,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con094"@en ;
-                        rdfs:label "Constraint Satisfaction"@en .
+                        rdfs:label "Constraint Satisfaction"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "The process of finding a solution through a set of constraints that impose conditions the variables must satisfy."@en .
 
 
 ###  http://aiod.eu/data/schemas/Construction
@@ -1360,7 +1407,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con101"@en ;
-               rdfs:label "Crowdsourcing"@en .
+               rdfs:label "Crowdsourcing"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "An internet-enabled problem-solving strategy that utilizes human–computer interaction to leverage the expertise of people to achieve business goals."@en .
 
 
 ###  http://aiod.eu/data/schemas/Cuba
@@ -1456,7 +1504,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con109"@en ;
-               rdfs:label "Data Analytics"@en .
+               rdfs:label "Data Analytics"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "The science of analyzing raw data in order to make conclusions about that information."@en .
 
 
 ###  http://aiod.eu/data/schemas/DataStreams
@@ -1464,7 +1513,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con110"@en ;
-             rdfs:label "Data Streams"@en .
+             rdfs:label "Data Streams"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The transmission of a sequence of digitally encoded signals to convey information."@en .
 
 
 ###  http://aiod.eu/data/schemas/DecisionAnalytics
@@ -1472,7 +1522,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con111"@en ;
-                   rdfs:label "Decision Analytics"@en .
+                   rdfs:label "Decision Analytics"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The discipline comprising the philosophy, methodology, and professional practice necessary to address important decisions in a formal manner."@en .
 
 
 ###  http://aiod.eu/data/schemas/DecisionSupport
@@ -1480,7 +1531,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con112"@en ;
-                 rdfs:label "Decision Support"@en .
+                 rdfs:label "Decision Support"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A computerized program used to support determinations, judgments, and courses of action in an organization or a business."@en .
 
 
 ###  http://aiod.eu/data/schemas/DeepGenerativeModels
@@ -1488,7 +1540,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con113"@en ;
-                      rdfs:label "Deep Generative Models"@en .
+                      rdfs:label "Deep Generative Models"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A type of generative model that aims to learn the joint probability of multiple variables and calculate the conditional posterior probability. I"@en .
 
 
 ###  http://aiod.eu/data/schemas/DeepLearningTheory
@@ -1496,7 +1549,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con114"@en ;
-                    rdfs:label "Deep Learning Theory"@en .
+                    rdfs:label "Deep Learning Theory"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A subset of machine learning that focuses on utilizing neural networks to perform tasks such as classification, regression, and representation learning."@en .
 
 
 ###  http://aiod.eu/data/schemas/DeepNeuralArchitectures
@@ -1504,7 +1558,8 @@
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con115"@en ;
-                         rdfs:label "Deep Neural Architectures"@en .
+                         rdfs:label "Deep Neural Architectures"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Frameworks that utilize deep learning techniques to process data through successive layers of neurons"@en .
 
 
 ###  http://aiod.eu/data/schemas/DeepNeuralNetworkAlgorithms
@@ -1512,7 +1567,8 @@
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                              <http://www.w3.org/2004/02/skos/core#notation> "con116"@en ;
-                             rdfs:label "Deep Neural Network Algorithms"@en .
+                             rdfs:label "Deep Neural Network Algorithms"@en ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "A class of machine learning algorithms similar to the artificial neural network and aims to mimic the information processing of the brain."@en .
 
 
 ###  http://aiod.eu/data/schemas/DefectDetection
@@ -1568,7 +1624,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con120"@en ;
-                       rdfs:label "Deterministic Planning"@en .
+                       rdfs:label "Deterministic Planning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The process of finding a sequence of actions to achieve a goal."@en .
 
 
 ###  http://aiod.eu/data/schemas/Development
@@ -1584,7 +1641,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con121"@en ;
-                 rdfs:label "Dialogue System"@en .
+                 rdfs:label "Dialogue System"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Computer system designed to communicate with humans via text, speech, graphics, haptic feedback, and other means."@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalEconomy
@@ -1600,7 +1658,8 @@
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con123"@en ;
-                         rdfs:label "Dimensionality Reduction"@en .
+                         rdfs:label "Dimensionality Reduction"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "The transformation of data from a high-dimensional space into a low-dimensional space so that the low-dimensional representation retains some meaningful properties of the original data."@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedComputing
@@ -1608,7 +1667,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con124"@en ;
-                      rdfs:label "Distributed Computing"@en .
+                      rdfs:label "Distributed Computing"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The method of making multiple computers work together to solve a common problem."@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedMachineLearning
@@ -1616,7 +1676,8 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con125"@en ;
-                            rdfs:label "Distributed Machine Learning"@en .
+                            rdfs:label "Distributed Machine Learning"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Multinode machine learning algorithms and systems that are designed to improve performance, increase accuracy, and scale to larger input data sizes."@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedPlanning
@@ -1624,7 +1685,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con126"@en ;
-                     rdfs:label "Distributed Planning"@en .
+                     rdfs:label "Distributed Planning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "The problem of finding a course of action that will help a set of agents in a given initial conguration to collectively satisfy certain desired behavioral constraints."@en .
 
 
 ###  http://aiod.eu/data/schemas/Distribution
@@ -1657,7 +1719,8 @@
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                   <http://www.w3.org/2004/02/skos/core#notation> "con129"@en ;
-                                  rdfs:label "Document Analysis and Understanding"@en .
+                                  rdfs:label "Document Analysis and Understanding"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "A discipline that combines image analysis and pattern recognition techniques to process and extract information from documents from different sources."@en .
 
 
 ###  http://aiod.eu/data/schemas/DomainAdaptation
@@ -1665,7 +1728,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con130"@en ;
-                  rdfs:label "Domain Adaptation"@en .
+                  rdfs:label "Domain Adaptation"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Domain adaptation is the ability to apply an algorithm trained in one or more \"source domains\" to a different (but related) \"target domain\"."@en .
 
 
 ###  http://aiod.eu/data/schemas/Dominica
@@ -1782,7 +1846,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con139"@en ;
-                      rdfs:label "Electronic Personhood"@en .
+                      rdfs:label "Electronic Personhood"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The potential legal status of the most sophisticated autonomous robots so that they may have \"specific rights and obligations"@en .
 
 
 ###  http://aiod.eu/data/schemas/Electronics
@@ -1799,7 +1864,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con141"@en ;
-                       rdfs:label "Emotional Intelligence"@en .
+                       rdfs:label "Emotional Intelligence"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The capacity of machines and systems to recognize, interpret, process, and respond appropriately to human emotions."@en .
 
 
 ###  http://aiod.eu/data/schemas/Energy
@@ -1824,7 +1890,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con145"@en ;
-                 rdfs:label "Ensemble Methods"@en .
+                 rdfs:label "Ensemble Methods"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Techniques that aim at improving the accuracy of results in models by combining multiple models instead of using a single model."@en .
 
 
 ###  http://aiod.eu/data/schemas/EnvironmentalBiotechnology
@@ -1923,7 +1990,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con151"@en ;
-                      rdfs:label "Evolutionary Learning"@en .
+                      rdfs:label "Evolutionary Learning"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A range of algorithms which simulate the process of natural selection to solve optimization and search problems."@en .
 
 
 ###  http://aiod.eu/data/schemas/Example
@@ -1956,7 +2024,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con153"@en ;
-                       rdfs:label "Extreme Classification"@en .
+                       rdfs:label "Extreme Classification"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "An area focusing on multi-class and multi-label problems involving an extremely large number of labels (ranging from thousands to billions)."@en .
 
 
 ###  http://aiod.eu/data/schemas/FairDivision
@@ -1996,7 +2065,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con156"@en ;
-                  rdfs:label "Feature Selection"@en .
+                  rdfs:label "Feature Selection"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of selecting a subset of relevant features (variables, predictors) for use in model construction."@en .
 
 
 ###  http://aiod.eu/data/schemas/FederatedLearning
@@ -2004,7 +2074,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con157"@en ;
-                   rdfs:label "Federal Learning"@en .
+                   rdfs:label "Federal Learning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A technique focusing on settings in which multiple entities (often referred to as clients) collaboratively train a model while ensuring that their data remains decentralized."@en .
 
 
 ###  http://aiod.eu/data/schemas/Few-shotLearning
@@ -2012,7 +2083,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con158"@en ;
-                  rdfs:label "Few-shot Learning"@en .
+                  rdfs:label "Few-shot Learning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A framework in which an AI model learns to make accurate predictions by training on a very small number of labeled examples."@en .
 
 
 ###  http://aiod.eu/data/schemas/Fiji
@@ -2070,7 +2142,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con163"@en ;
-                  rdfs:label "Foundation Models"@en .
+                  rdfs:label "Foundation Models"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A model that is trained on vast datasets so it can be applied across a wide range of use cases."@en .
 
 
 ###  http://aiod.eu/data/schemas/France
@@ -2122,12 +2195,13 @@
              rdfs:label "Fundraising"@en .
 
 
-###  http://aiod.eu/data/schemas/FuzzyTheory
-:FuzzyTheory rdf:type owl:NamedIndividual ,
-                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
-             <http://www.w3.org/2004/02/skos/core#notation> "con165"@en ;
-             rdfs:label "Fuzzy Theory"@en .
+###  http://aiod.eu/data/schemas/FuzzyLogic
+:FuzzyLogic rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con165"@en ;
+            rdfs:label "Fuzzy Logic"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A form of many-valued logic in which the truth values of variables may be any real number between 0 and 1"@en .
 
 
 ###  http://aiod.eu/data/schemas/Gabon
@@ -2151,7 +2225,8 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
             <http://www.w3.org/2004/02/skos/core#notation> "con166"@en ;
-            rdfs:label "Game Theory"@en .
+            rdfs:label "Game Theory"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Branch of applied mathematics that provides tools for analyzing situations in which parties, called players, make decisions that are interdependent."@en .
 
 
 ###  http://aiod.eu/data/schemas/GenerativeModels
@@ -2159,7 +2234,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con167"@en ;
-                  rdfs:label "Generative Models"@en .
+                  rdfs:label "Generative Models"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A model that aims to learn the underlying patterns or distributions of data in order to generate new."@en .
 
 
 ###  http://aiod.eu/data/schemas/Generic
@@ -2175,14 +2251,17 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con169"@en ;
-                  rdfs:label "Genetic Algorithm"@en .
+                  rdfs:label "Genetic Algorithm"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A method for solving both constrained and unconstrained optimization problems that is based on natural selection, the process that drives biological evolution."@en .
 
 
 ###  http://aiod.eu/data/schemas/GeometricDeepLearning
 :GeometricDeepLearning rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
-                       <http://www.w3.org/2004/02/skos/core#notation> "con170"@en .
+                       <http://www.w3.org/2004/02/skos/core#notation> "con170"@en ;
+                       rdfs:label "Geometric Deep Learning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "An approach that invovles encoding a geometric understanding of data as an inductive bias in deep learning models to give them a helping hand."@en .
 
 
 ###  http://aiod.eu/data/schemas/Georgia
@@ -2222,7 +2301,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con171"@en ;
-                  rdfs:label "Grammar Induction"@en .
+                  rdfs:label "Grammar Induction"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Τhe process of learning a formal grammar from a set of observations, thus constructing a model which accounts for the characteristics of the observed objects."@en .
 
 
 ###  http://aiod.eu/data/schemas/GrammaticalEvolution
@@ -2230,7 +2310,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con172"@en ;
-                      rdfs:label "Grammatical Evolution"@en .
+                      rdfs:label "Grammatical Evolution"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A Genetic Programming technique with the goal of finding an executable program, program fragment, or function that achieves a good fitness value for a given objective function."@en .
 
 
 ###  http://aiod.eu/data/schemas/GrammaticalInference
@@ -2246,7 +2327,8 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con175"@en ;
-                            rdfs:label "Graph-based Machine Learning"@en .
+                            rdfs:label "Graph-based Machine Learning"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "The application of machine learning to graphs specifically for predictive and prescriptive tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/GraphMining
@@ -2254,7 +2336,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con174"@en ;
-             rdfs:label "Graph Mining"@en .
+             rdfs:label "Graph Mining"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A process in which the mining techniques are used in finding a pattern or relationship in the given real-world collection of graphs."@en .
 
 
 ###  http://aiod.eu/data/schemas/GraphicalUserInterface
@@ -2262,7 +2345,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con176"@en ;
-                        rdfs:label "Graphical User Interface"@en .
+                        rdfs:label "Graphical User Interface"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A type of user interface through which users interact with electronic devices via visual indicator representations."@en .
 
 
 ###  http://aiod.eu/data/schemas/GraphicsProcessingUnit
@@ -2391,7 +2475,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con180"@en ;
-                      rdfs:label "Heuristic Programming"@en .
+                      rdfs:label "Heuristic Programming"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "An approach to problem-solving using approximate methods or shortcuts to produce practical solutions."@en .
 
 
 ###  http://aiod.eu/data/schemas/HistoryAndArchaeology
@@ -2424,7 +2509,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con188"@en ;
-                     rdfs:label "Human-AI Interaction"@en .
+                     rdfs:label "Human-AI Interaction"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "The dynamics between human users and AI systems, aiming to optimize how humans engage with, manage, and are impacted by AI across various contexts."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-AgentNegotiation
@@ -2432,7 +2518,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con187"@en ;
-                        rdfs:label "Human-agent Negotiation"@en .
+                        rdfs:label "Human-agent Negotiation"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A form of negotiation which takes place between human negotiators and autonomous negotiating agents."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-AwarePlanning
@@ -2448,7 +2535,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con191"@en ;
-                          rdfs:label "Human-Machine Interaction"@en .
+                          rdfs:label "Human-Machine Interaction"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The design and the use of systems which focuses on the interfaces between people (users) and machines."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-MachineInteractionAndCognition
@@ -2473,7 +2561,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con193"@en ;
-                        rdfs:label "Human-Robot Interaction"@en .
+                        rdfs:label "Human-Robot Interaction"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "The study of interactions between humans and robots."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-in-the-Loop
@@ -2481,7 +2570,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con190"@en ;
-                   rdfs:label "Human-in-the-Loop"@en .
+                   rdfs:label "Human-in-the-Loop"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A framework in which humans help the computer to make the right decisions when building a model."@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanComputation
@@ -2489,7 +2579,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con182"@en ;
-                  rdfs:label "Human Computation"@en .
+                  rdfs:label "Human Computation"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A technique in which a machine performs its function by outsourcing certain steps to humans, usually as microwork."@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanFactors
@@ -2497,7 +2588,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con183"@en ;
-              rdfs:label "Human Factors"@en .
+              rdfs:label "Human Factors"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A multidisciplinary field focused on understanding the interactions among humans and other elements of a system"@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanHealth
@@ -2531,7 +2623,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con195"@en ;
-                rdfs:label "Humanoid Robots"@en .
+                rdfs:label "Humanoid Robots"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "General-purpose, bipedal robots modeled after the human form factor and designed to work alongside humans to augment productivity."@en .
 
 
 ###  http://aiod.eu/data/schemas/Hungary
@@ -2547,7 +2640,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con196"@en ;
-                      rdfs:label "Hyperparameter Tuning"@en .
+                      rdfs:label "Hyperparameter Tuning"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The process of selecting the optimal values for a machine learning model's hyperparameters."@en .
 
 
 ###  http://aiod.eu/data/schemas/ICTSecurity
@@ -2571,7 +2665,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con198"@en ;
-                       rdfs:label "Image and Video Analysis"@en .
+                       rdfs:label "Image and Video Analysis"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The process of extracting meaningful information from visual data."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageAndVideoGeneration
@@ -2595,7 +2690,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con201"@en ;
-                  rdfs:label "Image Enhancement"@en .
+                  rdfs:label "Image Enhancement"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of making images more useful such as making images more visually appealing, bringing out specific features, removing noise from images and highlighting interesting details in images."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageIndexing
@@ -2603,7 +2699,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con202"@en ;
-               rdfs:label "Image Indexing"@en .
+               rdfs:label "Image Indexing"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A technique to organize large numbers of images in the database into a data structure so that images can be properly retrieved."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageRestoration
@@ -2611,7 +2708,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con203"@en ;
-                  rdfs:label "Image Restoration"@en .
+                  rdfs:label "Image Restoration"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The operation of taking a corrupt/noisy image and estimating the clean, original image."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageRetrieval
@@ -2619,7 +2717,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con204"@en ;
-                rdfs:label "Image Retrieval"@en .
+                <http://www.w3.org/2004/02/skos/core#definition> "Image Retrieval"@en ,
+                                                                 "The process of searching for images that are relevant to a given query image, based on the presence of similar objects or categories."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageSearch
@@ -2627,7 +2726,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con205"@en ;
-             rdfs:label "Image Search"@en .
+             rdfs:label "Image Search"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A function that allows users to make queries with photos instead of words."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageSegmentation
@@ -2635,7 +2735,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con206"@en ;
-                   rdfs:label "Image Sergmentation"@en .
+                   rdfs:label "Image Segmentation"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A technique that partitions a digital image into discrete groups of pixels—image segments—to inform object detection and related tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageUnderstanding
@@ -2643,7 +2744,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con207"@en ;
-                    rdfs:label "Image Understanding"@en .
+                    rdfs:label "Image Understanding"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The process to understand the content of images in order to automate visual tasks by computers."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImitationLearning
@@ -2651,7 +2753,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con208"@en ;
-                   rdfs:label "Imitation Learning"@en .
+                   rdfs:label "Imitation Learning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A paradigm in reinforcement learning, where an agent learns to perform a task by supervised learning from expert demonstrations."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImpactOfAI
@@ -2683,7 +2786,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con212"@en ;
-                     rdfs:label "Incremental Learning"@en .
+                     rdfs:label "Incremental Learning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A methodology of machine learning where an AI model learns and enhances its knowledge progressively, without forgetting previously acquired information."@en .
 
 
 ###  http://aiod.eu/data/schemas/India
@@ -2716,7 +2820,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con214"@en ;
-                  rdfs:label "Industrial Robots"@en .
+                  rdfs:label "Industrial Robots"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A robot system used for manufacturing."@en .
 
 
 ###  http://aiod.eu/data/schemas/InferenceEngines
@@ -2724,7 +2829,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con215"@en ;
-                  rdfs:label "Inference Engines"@en .
+                  rdfs:label "Inference Engines"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A software component of an intelligent system that applies logical rules to the knowledge base to deduce new information."@en .
 
 
 ###  http://aiod.eu/data/schemas/InformationCommunication
@@ -2740,7 +2846,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con217"@en ;
-                      rdfs:label "Information Retrieval"@en .
+                      rdfs:label "Information Retrieval"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The task of identifying and retrieving information system resources that are relevant to an information need."@en .
 
 
 ###  http://aiod.eu/data/schemas/InformationTechnology
@@ -2781,7 +2888,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con222"@en ;
-                      rdfs:label "Intelligence Software"@en .
+                      rdfs:label "Intelligence Software"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Insight into the inner workings and structural condition of software assets produced by software designed to analyze database structure, software framework and source code to better understand and control complex software systems in information technology environments."@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentControl
@@ -2789,7 +2897,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con223"@en ;
-                    rdfs:label "Intelligent Control"@en .
+                    rdfs:label "Intelligent Control"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The discipline in which the control methods developed attempt to emulate important characteristics of human intelligence."@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentControlSystem
@@ -2797,7 +2906,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con224"@en ;
-                          rdfs:label "Intelligent Control System"@en .
+                          rdfs:label "Intelligent Control System"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Systems that are derived from conventional control methods and are used to handle complex processes that cannot be controlled by traditional methods."@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentHardwareDevelopment
@@ -2821,7 +2931,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con227"@en ;
-                          rdfs:label "Intelligent User Interface"@en .
+                          rdfs:label "Intelligent User Interface"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "A user interface (UI) that involves some aspect of artificial intelligence or computational intelligence."@en .
 
 
 ###  http://aiod.eu/data/schemas/InteractiveLearning
@@ -2853,7 +2964,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con231"@en ;
-                  rdfs:label "Internet of Things"@en .
+                  rdfs:label "Internet of Things"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The network of physical objects that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet."@en .
 
 
 ###  http://aiod.eu/data/schemas/Interpretability
@@ -2869,7 +2981,8 @@
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                <http://www.w3.org/2004/02/skos/core#notation> "con233"@en ;
-                               rdfs:label "Interventional Representations"@en .
+                               rdfs:label "Interventional Representations"@en ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "Creating models designed to capture the causal relationships within data, allowing them to predict the outcomes of interventions."@en .
 
 
 ###  http://aiod.eu/data/schemas/InventoryManagement
@@ -2997,7 +3110,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con237"@en ;
-               rdfs:label "Kernel Methods"@en .
+               rdfs:label "Kernel Methods"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A class of machine learning algorithms to study general types of relations in data sets, such as classifications, clusters and correlations."@en .
 
 
 ###  http://aiod.eu/data/schemas/Kiribati
@@ -3013,7 +3127,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con238"@en ;
-                      rdfs:label "Knowledge Acquisition"@en .
+                      rdfs:label "Knowledge Acquisition"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The process of extracting, structuring, and organizing knowledge from one or more sources, and its transfer to the knowledge base and sometimes to the inference engine."@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeGraphs
@@ -3021,7 +3136,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con239"@en ;
-                 rdfs:label "Knowledge Graphs"@en .
+                 rdfs:label "Knowledge Graphs"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A knowledge base that uses a graph-structured data model or topology to represent and operate on data."@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeRepresantationLanguages
@@ -3029,7 +3145,8 @@
                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                   <http://www.w3.org/2004/02/skos/core#notation> "con240"@en ;
-                                  rdfs:label "Knowledge Represantation Languages"@en .
+                                  rdfs:label "Knowledge Represantation Languages"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "A formal language used to represent information about the world in a structured and understandable way for computers."@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeRepresentation
@@ -3039,7 +3156,8 @@
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                         :ResearchArea ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con241"@en ;
-                         rdfs:label "Knowledge Representation"@en .
+                         rdfs:label "Knowledge Representation"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "The process of designing and organizing information in a way that enables the development of software programs and theories about human and machine intelligence."@en .
 
 
 ###  http://aiod.eu/data/schemas/Kuwait
@@ -3063,7 +3181,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con242"@en ;
-                     rdfs:label "Language Acquisition"@en .
+                     rdfs:label "Language Acquisition"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "The process by which humans acquire the capacity to perceive and comprehend language."@en .
 
 
 ###  http://aiod.eu/data/schemas/LanguagesAndLiterature
@@ -3088,7 +3207,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con244"@en ;
-                     rdfs:label "Large Language Models"@en .
+                     rdfs:label "Large Language Models"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A type of computational model designed for natural language processing tasks such as language generation."@en .
 
 
 ###  http://aiod.eu/data/schemas/Latvia
@@ -3121,7 +3241,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con247"@en ;
-                   rdfs:label "Learning of the Edge"@en .
+                   rdfs:label "Learning on the Edge"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A technique that enables AI models to continually learn from new data on intelligent edge devices like smartphones and sensors, reducing energy costs and privacy risks."@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningPreferences
@@ -3137,7 +3258,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con249"@en ;
-                rdfs:label "Learning Theory"@en .
+                rdfs:label "Learning Theory"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A subfield of artificial intelligence devoted to studying the design and analysis of machine learning algorithms."@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningToQuantify
@@ -3145,7 +3267,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con250"@en ;
-                    rdfs:label "Learning to Quantify"@en .
+                    rdfs:label "Learning to Quantify"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The task of using supervised learning in order to train models that estimate the relative frequencies of the classes of interest in a sample of unlabelled data items."@en .
 
 
 ###  http://aiod.eu/data/schemas/Leather
@@ -3194,7 +3317,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con252"@en ;
-                  rdfs:label "Lexical Semantics"@en .
+                  rdfs:label "Lexical Semantics"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The study of word meanings."@en .
 
 
 ###  http://aiod.eu/data/schemas/Liability
@@ -3241,7 +3365,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con254"@en ;
-                              rdfs:label "Lifelong and Continual Learning"@en .
+                              rdfs:label "Lifelong and Continual Learning"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "The ability of a system to continuously learn and adapt from new data over its entire lifetime, without forgetting previously acquired knowledge."@en .
 
 
 ###  http://aiod.eu/data/schemas/LinguisticInteraction
@@ -3257,7 +3382,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con256"@en ;
-                rdfs:label "Linked Open Data"@en .
+                rdfs:label "Linked Open Data"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A set of best practices for publishing and linking data on the web, so that it can be easily accessed and reused by machines and humans alike."@en .
 
 
 ###  http://aiod.eu/data/schemas/Lithuania
@@ -3314,7 +3440,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con260"@en ;
-                          rdfs:label "Machine Learning Framework"@en .
+                          rdfs:label "Machine Learning Framework"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Suites of tools, libraries, and programming constructs designed to facilitate the development, training, and deployment of machine learning models."@en .
 
 
 ###  http://aiod.eu/data/schemas/MachineLearningLibrary
@@ -3322,7 +3449,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con261"@en ;
-                        rdfs:label "Machine Learning Library"@en .
+                        rdfs:label "Machine Learning Library"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A compilation of functions and routines readily available for use."@en .
 
 
 ###  http://aiod.eu/data/schemas/MachineLearningPlatform
@@ -3330,7 +3458,8 @@
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con262"@en ;
-                         rdfs:label "Machine Learning Platform"@en .
+                         rdfs:label "Machine Learning Platform"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Platforms with the tools necessary to develop, deploy, and improve machine learning, specifically machine learning algorithms."@en .
 
 
 ###  http://aiod.eu/data/schemas/MachineTranslation
@@ -3338,7 +3467,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con263"@en ;
-                    rdfs:label "Machine Translation"@en .
+                    rdfs:label "Machine Translation"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Use of computational techniques to translate text or speech from one language to another, including the contextual, idiomatic and pragmatic nuances of both languages."@en .
 
 
 ###  http://aiod.eu/data/schemas/Madagascar
@@ -3402,7 +3532,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con265"@en ;
-                  rdfs:label "Manifold Learning"@en .
+                  rdfs:label "Manifold Learning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Techniques that aim to project high-dimensional data, potentially existing across non-linear manifolds which cannot be adequately captured by linear decomposition methods, onto lower-dimensional latent manifolds, with the goal of either visualizing the data in the low-dimensional space, or learning the mapping"@en .
 
 
 ###  http://aiod.eu/data/schemas/Manipulation
@@ -3410,7 +3541,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con266"@en ;
-              rdfs:label "Manipulation"@en .
+              rdfs:label "Manipulation"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The use of robots to interact with objects in their environment, utilizing technologies like machine learning, sensors, and actuators to perform tasks such as grasping, moving, and assembling."@en .
 
 
 ###  http://aiod.eu/data/schemas/Manufacturing
@@ -3525,7 +3657,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con275"@en ;
-              rdfs:label "Mechatronics"@en .
+              rdfs:label "Mechatronics"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "Approach aiming at the synergistic integration of mechanics, electronics, control theory, and computer science within product design and manufacturing, in order to improve and/or optimize its functionality"@en .
 
 
 ###  http://aiod.eu/data/schemas/MediaAndCommunications
@@ -3542,7 +3675,8 @@
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                              <http://www.w3.org/2004/02/skos/core#notation> "con278"@en ;
-                             rdfs:label "Medical and Biological Imaging"@en .
+                             rdfs:label "Medical and Biological Imaging"@en ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "Tool for visualizing the internal organs of the body and its diseases."@en .
 
 
 ###  http://aiod.eu/data/schemas/MedicalBiotechnology
@@ -3568,7 +3702,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con281"@en ;
-              rdfs:label "Meta Learning"@en .
+              rdfs:label "Meta Learning"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A subfield of machine learning where automatic learning algorithms are applied to metadata about machine learning experiments."@en .
 
 
 ###  http://aiod.eu/data/schemas/MetalWorkingandIndustrialProduction
@@ -3609,7 +3744,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con282"@en ;
-              rdfs:label "Mixed Reality"@en .
+              rdfs:label "Mixed Reality"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The merging of a real-world environment and a computer-generated one."@en .
 
 
 ###  http://aiod.eu/data/schemas/Model-basedPlanning
@@ -3617,7 +3753,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con284"@en ;
-                     rdfs:label "Model-based Planning"@en .
+                     rdfs:label "Model-based Planning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A method where systems use internal models to simulate and evaluate future actions before executing them in the real world."@en .
 
 
 ###  http://aiod.eu/data/schemas/ModelCompression
@@ -3625,7 +3762,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con283"@en ;
-                  rdfs:label "Model Compression"@en .
+                  rdfs:label "Model Compression"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A set of algorithms that aim to reduce the size and memory requirements of neural networks without significantly impacting their accuracy."@en .
 
 
 ###  http://aiod.eu/data/schemas/Monaco
@@ -3673,7 +3811,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con285"@en ;
-                   rdfs:label "Motion and Tracking"@en .
+                   rdfs:label "Motion and Tracking"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The processes of detecting, analyzing, and following the movement of objects or regions of interest within video or image sequences."@en .
 
 
 ###  http://aiod.eu/data/schemas/Mozambique
@@ -3689,7 +3828,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con292"@en ;
-                    rdfs:label "Multi-Robot Systems"@en .
+                    rdfs:label "Multi-Robot Systems"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The integration and collaborative efforts of several robots"@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-TaskLearning
@@ -3697,7 +3837,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con293"@en ;
-                    rdfs:label "Multi-Task Learning"@en .
+                    rdfs:label "Multi-Task Learning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A subfield of machine learning in which multiple learning tasks are solved at the same time, while exploiting commonalities and differences across tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-agentPlanning
@@ -3705,7 +3846,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con286"@en ;
-                     rdfs:label "Multi-agent Planning"@en .
+                     rdfs:label "Multi-agent Planning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Planning by (and for) multiple agents. It can involve agents planning for a common goal, an agent coordinating the plans or planning of others, or agents refining their own plans while negotiating over tasks or resources."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-agentSystems
@@ -3730,7 +3872,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con289"@en ;
-                        rdfs:label "Multi-instance Learning"@en .
+                        rdfs:label "Multi-instance Learning"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A type of supervised learning. Instead of receiving a set of instances which are individually labeled, the learner receives a set of labeled bags, each containing many instances"@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-labelLearning
@@ -3746,7 +3889,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con291"@en ;
-                   rdfs:label "Multi-modal Vision"@en .
+                   rdfs:label "Multi-modal Vision"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The integration and processing of multiple types of sensory data or input modalities to enhance the understanding and interpretation of visual information."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-viewLearning
@@ -3754,7 +3898,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con294"@en ;
-                    rdfs:label "Multi-view Learning"@en .
+                    rdfs:label "Multi-view Learning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A class of machine learning techniques that aims to exploit information from multiple, often complementary, views of the same data."@en .
 
 
 ###  http://aiod.eu/data/schemas/MultimediaDataMining
@@ -3762,7 +3907,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con295"@en ;
-                      rdfs:label "Multimedia Data Mining"@en .
+                      rdfs:label "Multimedia Data Mining"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The process of extracting valuable information and insights from multimedia sources"@en .
 
 
 ###  http://aiod.eu/data/schemas/MultimodalDataMining
@@ -3770,7 +3916,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con296"@en ;
-                      rdfs:label "Multimodal Data Mining"@en .
+                      rdfs:label "Multimodal Data Mining"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The analysis of more than one form of data for discovering hidden patterns."@en .
 
 
 ###  http://aiod.eu/data/schemas/MultimodalPerception
@@ -3778,7 +3925,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con297"@en ;
-                      rdfs:label "Multimodal Perception"@en .
+                      rdfs:label "Multimodal Perception"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The integration and interpretion of data from multiple sensory modalities."@en .
 
 
 ###  http://aiod.eu/data/schemas/MusicCompositionandGeneration
@@ -3786,7 +3934,8 @@
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                <http://www.w3.org/2004/02/skos/core#notation> "con298"@en ;
-                               rdfs:label "Music Composition and Generation"@en .
+                               rdfs:label "Music Composition and Generation"@en ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "Generating music or music-like sounds from a model or algorithm."@en .
 
 
 ###  http://aiod.eu/data/schemas/MusicGenreRecognition
@@ -3794,7 +3943,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con299"@en ;
-                       rdfs:label "Music Genre Recognition"@en .
+                       rdfs:label "Music Genre Recognition"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The process of automatically identifying the genre of a piece of music using machine learning techniques."@en .
 
 
 ###  http://aiod.eu/data/schemas/MusicSearch
@@ -3802,7 +3952,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con300"@en ;
-             rdfs:label "Music Search"@en .
+             rdfs:label "Music Search"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The process of using computer algorithms to search music tracks."@en .
 
 
 ###  http://aiod.eu/data/schemas/MusicTranscription
@@ -3810,7 +3961,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con301"@en ;
-                    rdfs:label "Music Transcription"@en .
+                    rdfs:label "Music Transcription"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Automated process of converting music audio into a corresponding musical notation"@en .
 
 
 ###  http://aiod.eu/data/schemas/Myanmar
@@ -3826,7 +3978,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con302"@en ;
-                       rdfs:label "Name Entity Recognition"@en .
+                       rdfs:label "Name Entity Recognition"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "A task of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc."@en .
 
 
 ###  http://aiod.eu/data/schemas/Namibia
@@ -3851,7 +4004,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con304"@en ;
-                              rdfs:label "Narrow Artificial Intelligence"@en .
+                              rdfs:label "Narrow Artificial Intelligence"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "A form of AI designed to perform tasks that normally require human intelligence, but it operates under a limited set of constraints and is task-specific"@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalLanguageGeneration
@@ -3859,7 +4013,8 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con305"@en ;
-                           rdfs:label "Natural Language Generation"@en .
+                           rdfs:label "Natural Language Generation"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "A software process driven by artificial intelligence that produces natural written or spoken language from structured and unstructured data."@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalLanguageProcessing
@@ -3869,7 +4024,8 @@
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                           :ResearchArea ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con308"@en ;
-                           rdfs:comment "Natural Language Processing"@en .
+                           rdfs:label "Natural Language Processing"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "A subfield of computer science and especially artificial intelligence concerned with providing computers with the ability to process data encoded in natural language."@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalLanguageUnderstanding
@@ -3877,7 +4033,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con306"@en ;
-                              rdfs:label "Natural Language Understanding"@en .
+                              rdfs:label "Natural Language Understanding"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "A subset of natural language processing in artificial intelligence that deals with machine reading comprehension."@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalSciences
@@ -3973,7 +4130,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con309"@en ;
-                       rdfs:label "Non-Iterative Learning"@en .
+                       rdfs:label "Non-Iterative Learning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "Algorithms that can reach a solution or finalize a model without the need for iterative optimization processes."@en .
 
 
 ###  http://aiod.eu/data/schemas/Non-MetallicMaterialsandBasicProcess
@@ -4030,7 +4188,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con310"@en ;
-                      rdfs:label "Object Categorization"@en .
+                      rdfs:label "Object Categorization"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The process of classifying detected objects within an image or video into predefined categories based on their features."@en .
 
 
 ###  http://aiod.eu/data/schemas/ObjectDetection
@@ -4038,7 +4197,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con311"@en ;
-                 rdfs:label "Object Detection"@en .
+                 rdfs:label "Object Detection"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A technique that uses neural networks to localize and classify objects in images."@en .
 
 
 ###  http://aiod.eu/data/schemas/OilGas
@@ -4071,7 +4231,8 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
             <http://www.w3.org/2004/02/skos/core#notation> "con314"@en ;
-            rdfs:label "Ontologies"@en .
+            rdfs:label "Ontologies"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A representation, formal naming, and definitions of the categories, properties, and relations between the concepts, data, or entities that pertain to one, many, or all domains of discourse."@en .
 
 
 ###  http://aiod.eu/data/schemas/Optimisation
@@ -4170,7 +4331,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con325"@en ;
-                  rdfs:label "Outlier Detection"@en .
+                  rdfs:label "Outlier Detection"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of detecting outliers, or a data point that is far away from the average"@en .
 
 
 ###  http://aiod.eu/data/schemas/Pakistan
@@ -4227,7 +4389,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con326"@en ;
-               rdfs:label "Pattern Mining"@en .
+               rdfs:label "Pattern Mining"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A subfield of data mining that aims at developing algorithms to discover interesting patterns in databases."@en .
 
 
 ###  http://aiod.eu/data/schemas/Perception
@@ -4251,7 +4414,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con329"@en ;
-                   rdfs:label "Personal Assistant"@en .
+                   rdfs:label "Personal Assistant"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Advanced software programs that use artificial intelligence to perform daily personal tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/PersonalServices
@@ -4318,7 +4482,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con334"@en ;
-                   rdfs:label "Physical Computing"@en .
+                   rdfs:label "Physical Computing"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Interactive systems that can sense and respond to the world around them."@en .
 
 
 ###  http://aiod.eu/data/schemas/PhysicalSciences
@@ -4378,7 +4543,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con339"@en ;
-                    rdfs:label "Platform as a Service"@en .
+                    rdfs:label "Platform as a Service"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A cloud computing service model where users provision, instantiate, run and manage a modular bundle of a computing platform and applications, without the complexity of building and maintaining the infrastructure associated with developing and launching application(s), and to allow developers to create, develop, and package such software bundles"@en .
 
 
 ###  http://aiod.eu/data/schemas/Poland
@@ -4453,7 +4619,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con345"@en ;
-                 rdfs:label "Privacy-Aware ML"@en .
+                 rdfs:label "Privacy-Aware ML"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A set of techniques and methodologies in machine learning that are designed to protect the privacy and confidentiality of the data used during the training and inference phases of model development."@en .
 
 
 ###  http://aiod.eu/data/schemas/ProbabilisticMethods
@@ -4461,15 +4628,17 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con346"@en ;
-                      rdfs:label "Probalistic Methods"@en .
+                      rdfs:label "Probabilistic Methods"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A nonconstructive method used for proving the existence of a prescribed kind of mathematical object."@en .
 
 
-###  http://aiod.eu/data/schemas/ProbalisticPlanning
-:ProbalisticPlanning rdf:type owl:NamedIndividual ,
-                              <http://www.w3.org/2004/02/skos/core#Concept> ;
-                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
-                     <http://www.w3.org/2004/02/skos/core#notation> "con347"@en ;
-                     rdfs:label "Probalistic Planning"@en .
+###  http://aiod.eu/data/schemas/ProbabilisticPlanning
+:ProbabilisticPlanning rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
+                       <http://www.w3.org/2004/02/skos/core#notation> "con347"@en ;
+                       rdfs:label "Probabilistic Planning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "An extension of nondeterministic planning with information on the probabilities of nondeterministic events."@en .
 
 
 ###  http://aiod.eu/data/schemas/ProceduralContentGeneration
@@ -4477,7 +4646,8 @@
                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                              <http://www.w3.org/2004/02/skos/core#notation> "con348"@en ;
-                             rdfs:label "Procedural Content Generation"@en .
+                             rdfs:label "Procedural Content Generation"@en ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "A method of creating data algorithmically as opposed to manually, typically through a combination of human-generated content and algorithms coupled with computer-generated randomness and processing power."@en .
 
 
 ###  http://aiod.eu/data/schemas/ProcessAutomation
@@ -4558,7 +4728,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con358"@en ;
-                       rdfs:label "Prototype-based Models"@en .
+                       rdfs:label "Prototype-based Models"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "Algorithms that represent categories or classes through one or more prototypical examples rather than by a decision boundary or a set of rules."@en .
 
 
 ###  http://aiod.eu/data/schemas/Psychology
@@ -4616,7 +4787,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con362"@en ;
-                        rdfs:label "Quantum Machine Learning"@en .
+                        rdfs:label "Quantum Machine Learning"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "The integration of quantum algorithms within machine learning programs."@en .
 
 
 ###  http://aiod.eu/data/schemas/QuestionAnswering
@@ -4624,7 +4796,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con363"@en ;
-                   rdfs:label "Question Answering"@en .
+                   rdfs:label "Question Answering"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A discipline within the fields of information retrieval and natural language processing (NLP) that is concerned with building systems that automatically answer questions that are posed by humans in a natural language."@en .
 
 
 ###  http://aiod.eu/data/schemas/Rankings
@@ -4656,7 +4829,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con368"@en ;
-                    rdfs:label "Recommended Systems"@en .
+                    rdfs:label "Recommender Systems"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A subclass of information filtering system that provides suggestions for items that are most pertinent to a particular user."@en .
 
 
 ###  http://aiod.eu/data/schemas/Recreation
@@ -4680,7 +4854,7 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con371"@en ;
-                   rdfs:label "Recrusive Learning"@en .
+                   rdfs:label "Recursive Learning"@en .
 
 
 ###  http://aiod.eu/data/schemas/RefinementPlanning
@@ -4714,7 +4888,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con375"@en ;
-                        rdfs:label "Representation Learning"@en .
+                        rdfs:label "Representation Learning"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "The process of learning a representation from input data towards specific tasks such as classification, retrieval, or clustering, by extracting meaningful information to bridge the gap between low-level and higher-level semantic concepts."@en .
 
 
 ###  http://aiod.eu/data/schemas/Reproducibility
@@ -4828,7 +5003,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con384"@en ;
-                     rdfs:label "Rule-based Reasoning"@en .
+                     rdfs:label "Rule-based Reasoning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A method in computer science that utilizes expert systems with rule sets to infer and add information not explicitly stated in a model."@en .
 
 
 ###  http://aiod.eu/data/schemas/RuleMining
@@ -4836,7 +5012,8 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
             <http://www.w3.org/2004/02/skos/core#notation> "con385"@en ;
-            rdfs:label "Rule-Mining"@en .
+            rdfs:label "Rule Mining"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A method for discovering interesting relations between variables in large databases."@en .
 
 
 ###  http://aiod.eu/data/schemas/RussianFederation
@@ -4972,7 +5149,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con388"@en ;
-                        rdfs:label "Scalability of ML Systems"@en .
+                        rdfs:label "Scalability of ML Systems"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "The capability of a machine learning system or model to process enormous amounts of data or manage substantial traffic without compromising on performance or precision."@en .
 
 
 ###  http://aiod.eu/data/schemas/SceneAnalysisAndUnderstanding
@@ -4980,7 +5158,8 @@
                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                <http://www.w3.org/2004/02/skos/core#notation> "con389"@en ;
-                               rdfs:label "Scene Analysis and Understanding"@en .
+                               rdfs:label "Scene Analysis and Understanding"@en ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "A field of computer vision refers to the process of interpreting the context of a scene through perceptive and analytical processes that mimic human understandings."@en .
 
 
 ###  http://aiod.eu/data/schemas/SchedulingAlgorithm
@@ -4988,7 +5167,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con390"@en ;
-                     rdfs:label "Scheduling Algorithm"@en .
+                     rdfs:label "Scheduling Algorithm"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A set of rules that determines which task to execute at a specific moment."@en .
 
 
 ###  http://aiod.eu/data/schemas/SchedulingUnderUncertainty
@@ -5028,7 +5208,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con394"@en ;
-              rdfs:label "Segmentation"@en .
+              rdfs:label "Segmentation"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "Partitioning an image into distinct regions, enabling targeted analysis of specific areas."@en .
 
 
 ###  http://aiod.eu/data/schemas/SemanticSimilarity
@@ -5036,7 +5217,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con395"@en ;
-                    rdfs:label "Semantic Similarity"@en .
+                    rdfs:label "Semantic Similarity"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning or semantic content"@en .
 
 
 ###  http://aiod.eu/data/schemas/SemanticWeb
@@ -5044,7 +5226,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con396"@en ;
-             rdfs:label "Semantic Web"@en .
+             rdfs:label "Semantic Web"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A vision for linking data across webpages, applications and files."@en .
 
 
 ###  http://aiod.eu/data/schemas/Semi-supervisedLearning
@@ -5070,7 +5253,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con398"@en ;
-              rdfs:label "Sensor Fusion"@en .
+              rdfs:label "Sensor Fusion"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A process by which data from several different sensors are \"fused\" to compute something more than could be determined by any one sensor alone."@en .
 
 
 ###  http://aiod.eu/data/schemas/SentimentAnalysis
@@ -5078,7 +5262,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con399"@en ;
-                   rdfs:label "Sentiment Analysis"@en .
+                   rdfs:label "Sentiment Analysis"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The process of analyzing digital text to determine if the emotional tone of the message is positive, negative, or neutral."@en .
 
 
 ###  http://aiod.eu/data/schemas/Serbia
@@ -5151,7 +5336,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con403"@en ;
-                    rdfs:label "Situation Awareness"@en .
+                    rdfs:label "Situation Awareness"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The capability of robotic systems to perceive, comprehend, and project the elements of the environment around them to make informed decisions and take appropriate actions."@en .
 
 
 ###  http://aiod.eu/data/schemas/Slovakia
@@ -5192,7 +5378,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con406"@en ;
-                       rdfs:label "Social Network Analysis"@en .
+                       rdfs:label "Social Network Analysis"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The process of investigating social structures through the use of networks and graph theory."@en .
 
 
 ###  http://aiod.eu/data/schemas/SocialSciences
@@ -5268,7 +5455,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con412"@en ;
-                 rdfs:label "Sound Generation"@en .
+                 rdfs:label "Sound Generation"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The use of computational methods to synthesize sound effects."@en .
 
 
 ###  http://aiod.eu/data/schemas/SoundSearch
@@ -5276,7 +5464,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con413"@en ;
-             rdfs:label "Sound Search"@en .
+             rdfs:label "Sound Search"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The ability to locate specific audio content within a database or collection"@en .
 
 
 ###  http://aiod.eu/data/schemas/SoundSemantics
@@ -5292,7 +5481,8 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con415"@en ;
-                           rdfs:label "Sound Similarity Assessment"@en .
+                           rdfs:label "Sound Similarity Assessment"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The process of evaluating and measuring the degree of similarity between two or more sound samples based on their acoustic features."@en .
 
 
 ###  http://aiod.eu/data/schemas/SoundUnderstanding
@@ -5300,7 +5490,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con416"@en ;
-                    rdfs:label "Sound Understanding"@en .
+                    rdfs:label "Sound Understanding"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The capacity of computational systems to interpret and make sense of audio data"@en .
 
 
 ###  http://aiod.eu/data/schemas/SouthAfrica
@@ -5348,7 +5539,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con418"@en ;
-                   rdfs:label "Spatial Data Mining"@en .
+                   rdfs:label "Spatial Data Mining"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "The process of discovering hidden patterns and relationships in geospatial data."@en .
 
 
 ###  http://aiod.eu/data/schemas/Spatio-TemporalDataMining
@@ -5356,7 +5548,8 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con419"@en ;
-                           rdfs:label "Spatio-Temporal Data Mining"@en .
+                           rdfs:label "Spatio-Temporal Data Mining"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The process of discovering useful patterns from the dynamic interplay between space and time."@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechProcessing
@@ -5382,7 +5575,8 @@
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con422"@en ;
-                          rdfs:label "Spoken Language Processing"@en .
+                          rdfs:label "Spoken Language Processing"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The application of signal processing techniques to analyze and understand human speech."@en .
 
 
 ###  http://aiod.eu/data/schemas/Sports
@@ -5407,7 +5601,8 @@
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con424"@en ;
-                 rdfs:label "State Estimation"@en .
+                 rdfs:label "State Estimation"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A process of estimating the unmeasured states by using the noised measurement outputs, control input along with process, and measurement model."@en .
 
 
 ###  http://aiod.eu/data/schemas/StateofPalestine
@@ -5423,7 +5618,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con425"@en ;
-                              rdfs:label "Statistical Language Modelling"@en .
+                              rdfs:label "Statistical Language Modelling"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "Probabilistic models that can predict the next word in the sequence given the words that precede it."@en .
 
 
 ###  http://aiod.eu/data/schemas/StorageOptimisation
@@ -5447,7 +5643,8 @@
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con428"@en ;
-                              rdfs:label "Strong Artificial Intellifence"@en .
+                              rdfs:label "Strong Artificial Intellifence"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "A form of AI that replicates human functions, such as reasoning, planning and problem-solving."@en .
 
 
 ###  http://aiod.eu/data/schemas/StyleTransfer
@@ -5455,7 +5652,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con429"@en ;
-               rdfs:label "Style Transfer"@en .
+               rdfs:label "Style Transfer"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A technique in computer vision and graphics that involves generating a new image by combining the content of one image with the style of another image."@en .
 
 
 ###  http://aiod.eu/data/schemas/Sudan
@@ -5553,7 +5751,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con434"@en ;
-                       rdfs:label "Task and Motion Planning"@en .
+                       rdfs:label "Task and Motion Planning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The integrated process of operating in a combined discrete and continuous space to find a sequence of high-level, discrete actions and corresponding low-level, continuous paths to go from an initial state to a goal state."@en .
 
 
 ###  http://aiod.eu/data/schemas/TechnologyTrust
@@ -5578,7 +5777,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con437"@en ;
-                    rdfs:label "Temporal Data Mining"@en .
+                    rdfs:label "Temporal Data Mining"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The process of extraction of non-trivial, implicit, and potentially essential data from large sets of temporal data."@en .
 
 
 ###  http://aiod.eu/data/schemas/TemporalPlanning
@@ -5627,7 +5827,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con442"@en ;
-             rdfs:label "Time-Series"@en .
+             rdfs:label "Time-Series"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data."@en .
 
 
 ###  http://aiod.eu/data/schemas/TimelineBasedPlanning
@@ -5635,7 +5836,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con443"@en ;
-                       rdfs:label "Timeline Based Planning"@en .
+                       rdfs:label "Timeline Based Planning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "A process that involves creating, expanding, and classifying text-based equations using algorithms"@en .
 
 
 ###  http://aiod.eu/data/schemas/Timor-Leste
@@ -5821,7 +6023,8 @@
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                            <http://www.w3.org/2004/02/skos/core#notation> "con453"@en ;
-                           rdfs:label "Uncertainty Quantification"@en .
+                           rdfs:label "Uncertainty Quantification"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The process of assessing and managing uncertainties in hyperbolic systems of conservation laws, involving input uncertainties in various parameters such as initial data, fluxes, coefficients, and boundary conditions."@en .
 
 
 ###  http://aiod.eu/data/schemas/UnitedArabEmirates
@@ -5928,7 +6131,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con456"@en ;
-                  rdfs:label "Video Enhancement"@en .
+                  rdfs:label "Video Enhancement"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of improving the visual quality of video content through various digital techniques."@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoIndexing
@@ -5936,7 +6140,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con457"@en ;
-               rdfs:label "Video Indexing"@en .
+               rdfs:label "Video Indexing"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "The process of analyzing video content to create searchable and retrievable indexes based on specific features."@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoRestoration
@@ -5944,7 +6149,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con458"@en ;
-                  rdfs:label "Video Restoration"@en .
+                  rdfs:label "Video Restoration"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The process of restoring a poor quality VHS or camcorder recording to a higher quality digital video recording."@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoRetrieval
@@ -5952,7 +6158,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con459"@en ;
-                rdfs:label "Video Retrieval"@en .
+                rdfs:label "Video Retrieval"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "The process of searching and retrieving videos based on their content"@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoSearch
@@ -5960,7 +6167,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con460"@en ;
-             rdfs:label "Video Search"@en .
+             rdfs:label "Video Search"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The process of querying and retrieving video content based on specific criteria from large databases or over the internet."@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoUnderstanding
@@ -5984,7 +6192,8 @@
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con462"@en ;
-                    rdfs:label "Virtual Enviroment"@en .
+                    rdfs:label "Virtual Enviroment"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A networked application that allows a user to interact with both the computing environment and the work of other users."@en .
 
 
 ###  http://aiod.eu/data/schemas/VirtualPrototyping
@@ -6000,7 +6209,8 @@
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con464"@en ;
-                rdfs:label "Virtual Reality"@en .
+                rdfs:label "Virtual Reality"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A simulated experience that employs 3D near-eye displays and pose tracking to give the user an immersive feel of a virtual world."@en .
 
 
 ###  http://aiod.eu/data/schemas/VisualDataMining
@@ -6008,7 +6218,8 @@
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con465"@en ;
-                  rdfs:label "Visual Data Mining"@en .
+                  rdfs:label "Visual Data Mining"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The combination of traditional data mining techniques with data visualization tools to visually analyze patterns of interest."@en .
 
 
 ###  http://aiod.eu/data/schemas/WallisandFutunaIslands
@@ -6058,7 +6269,8 @@
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con470"@en ;
-                            rdfs:label "Weak Artificial Intelligence"@en .
+                            rdfs:label "Weak Artificial Intelligence"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "A type of artificial intelligence that is limited to a specific or narrow area."@en .
 
 
 ###  http://aiod.eu/data/schemas/Wellbeing
@@ -6117,7 +6329,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con473"@en ;
-                   rdfs:label "Zero-shot Learning"@en .
+                   rdfs:label "Zero-shot Learning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A machine learning scenario in which an AI model is trained to recognize and categorize objects or concepts without having seen any examples of those categories or concepts beforehand."@en .
 
 
 ###  http://aiod.eu/data/schemas/Zimbabwe
@@ -6842,7 +7055,8 @@
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                                <http://www.w3.org/2004/02/skos/core#notation> "con001"@en ;
-                                               rdfs:label "3D Computer Vision"@en .
+                                               rdfs:label "3D Computer Vision"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#definition> "A specific area of computer science that is concerned with the acquisition, processing, and analysis of three-dimensional visual data."@en .
 
 
 ###  http://aiod.eu/data/schemas/Côted’Ivoire
