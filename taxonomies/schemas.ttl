@@ -60,7 +60,8 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
             <http://www.w3.org/2004/02/skos/core#notation> "con020"@en ;
-            rdfs:label "AI Services"@en .
+            rdfs:label "AI Services"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Any infrastructure, software and platform (e.g., cognitive computing, ML frameworks, bots and virtual assistants, etc.) provided as (serverless) services or applications, possibly in the cloud, which are available off the shelf and executed on demand, reducing the management of 25 complex infrastructures."@en .
 
 
 ###  http://aiod.eu/data/schemas/AISoftwareToolkit
@@ -77,7 +78,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con022"@en ;
-                   rdfs:label "AI Trustworthiness"@en .
+                   rdfs:label "AI Trustworthiness"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "An approach to AI development that prioritizes safety and transparency for the people who interact with it."@en .
 
 
 ###  http://aiod.eu/data/schemas/AccomodationFood
@@ -155,14 +157,6 @@
                             <http://www.w3.org/2004/02/skos/core#definition> "Adversarial machine learning is the study of the attacks on machine learning algorithms, and of the defenses against such attacks."@en .
 
 
-###  http://aiod.eu/data/schemas/Aeronautics
-:Aeronautics rdf:type owl:NamedIndividual ,
-                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
-             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-             <http://www.w3.org/2004/02/skos/core#notation> "con481"@en .
-
-
 ###  http://aiod.eu/data/schemas/Afghanistan
 :Afghanistan rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -174,7 +168,6 @@
 ###  http://aiod.eu/data/schemas/Agri-food
 :Agri-food rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-           <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
            <http://www.w3.org/2004/02/skos/core#notation> "con010"@en ;
            rdfs:label "Agri-food"@en ;
@@ -205,9 +198,12 @@
 ###  http://aiod.eu/data/schemas/Agriculture
 :Agriculture rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
              <http://www.w3.org/2004/02/skos/core#notation> "con013"@en ;
-             rdfs:label "Agriculture"@en .
+             rdfs:label "Agriculture"@en ;
+             rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "This section includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats."@en .
 
 
 ###  http://aiod.eu/data/schemas/AgricultureForestryAndFisheries
@@ -315,7 +311,8 @@
 :Application rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :MIMEtype ;
-             <http://www.w3.org/2004/02/skos/core#notation> "con488"@en .
+             <http://www.w3.org/2004/02/skos/core#notation> "con488"@en ;
+             rdfs:label "Application"@en .
 
 
 ###  http://aiod.eu/data/schemas/Approach
@@ -518,7 +515,8 @@
                     <http://www.w3.org/2004/02/skos/core#broader> :Reasoning ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con042"@en ;
-                    rdfs:label "Automated Reasoning"@en .
+                    rdfs:label "Automated Reasoning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A field of AI, to describe the process of justifying (reasoning) the available data and information, provide solutions and based on a set of symbolic rules"@en .
 
 
 ###  http://aiod.eu/data/schemas/AutomatedScheduling
@@ -1089,7 +1087,9 @@
                <http://www.w3.org/2004/02/skos/core#broader> :Security ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                <http://www.w3.org/2004/02/skos/core#notation> "con069"@en ;
-               rdfs:label "Civil Security"@en .
+               rdfs:label "Civil Security"@en ;
+               rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.24"^^xsd:anyURI ;
+               <http://www.w3.org/2004/02/skos/core#definition> "This class includes:- administration and operation of regular and auxiliary police forces supported by public authorities and of port, border, coastguards and other special police forces, including traffic regulation, alien registration, maintenance of arrest records- provision of supplies for domestic emergency use in case of peacetime disasters"@en .
 
 
 ###  http://aiod.eu/data/schemas/CivilΕngineering
@@ -1214,7 +1214,9 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                <http://www.w3.org/2004/02/skos/core#notation> "con080"@en ;
-               rdfs:label "Communication"@en .
+               rdfs:label "Communication"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> """The ability to exchange and understand information between peers, in formal and
+informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CommunicationProtocols
@@ -1351,7 +1353,8 @@
                             <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con093"@en ;
-                            rdfs:label "Connected Automated Vehicles"@en .
+                            rdfs:label "Connected Automated Vehicles"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Vehicles that can replace the driver for some or all of the driving tasks."@en .
 
 
 ###  http://aiod.eu/data/schemas/ConstraintSatisfaction
@@ -1406,7 +1409,8 @@
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con098"@en ;
-                       rdfs:label "Cooperative Game Theory"@en .
+                       rdfs:label "Cooperative Game Theory"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "A branch of game theory that focuses on studying ways to sustain cooperation among agents who are willing to work together."@en .
 
 
 ###  http://aiod.eu/data/schemas/CostaRica
@@ -1933,7 +1937,8 @@
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con142"@en ;
-        rdfs:label "Energy"@en .
+        rdfs:label "Energy"@en ;
+        <http://www.w3.org/2004/02/skos/core#definition> "A category of companies that play a role in extracting, refining, or supplying consumable fuels, such as coal, oil, and gas."@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyRenewables
@@ -2030,7 +2035,9 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con149"@en ;
-                     rdfs:label "Ethics and Philosophy"@en .
+                     rdfs:label "Ethics and Philosophy"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> """Philosophical and ethical issues associated with AI are proliferating and rising citizens’ attention and governments’ policy interest as intelligent systems become widespread. The ethics of AI is considered as a transversal subdomain, as AI advances and applications in different areas should ensure compliance with
+ethical principles and values, including applicable regulation."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Ethiopia
@@ -2046,7 +2053,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con150"@en ;
-                   rdfs:label "Evidence Reasoning"@en .
+                   rdfs:label "Evidence Reasoning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A critical framework in AI systems that enables machines to make informed decisions based on evidence."@en .
 
 
 ###  http://aiod.eu/data/schemas/EvolutionaryLearning
@@ -2098,7 +2106,8 @@
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con154"@en ;
-              rdfs:label "Fair Division"@en .
+              rdfs:label "Fair Division"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The allocation of scarce resources among agents in such a way that every agent gets a fair share."@en .
 
 
 ###  http://aiod.eu/data/schemas/Fairness
@@ -2429,7 +2438,8 @@
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con177"@en ;
-                        rdfs:label "Graphics Processing Unit"@en .
+                        rdfs:label "Graphics Processing Unit"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A specialized electronic circuit initially designed for digital image processing and to accelerate computer graphics, being present either as a discrete video card or embedded on motherboards, mobile phones, personal computers, workstations, and game consoles."@en .
 
 
 ###  http://aiod.eu/data/schemas/Greece
@@ -2606,7 +2616,8 @@
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con189"@en ;
-                     rdfs:label "Human-Aware Planning"@en .
+                     rdfs:label "Human-Aware Planning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Generation of plans that are explicable as well as providing explanations when such plans cannot be found."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-MachineInteraction
@@ -2677,7 +2688,9 @@
              <http://www.w3.org/2004/02/skos/core#broader> :Health ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
              <http://www.w3.org/2004/02/skos/core#notation> "con184"@en ;
-             rdfs:label "Human Health"@en .
+             rdfs:label "Human Health"@en ;
+             rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/Q.86"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "This division includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions."@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanResourcesManagementOrRecruiting
@@ -2852,7 +2865,8 @@
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con210"@en ;
-                      rdfs:label "Imperfect Information"@en .
+                      rdfs:label "Imperfect Information"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Information which in one or more respects is imprecise, uncertain, incomplete, unreliable, vague or partially true"@en .
 
 
 ###  http://aiod.eu/data/schemas/Inclusiveness
@@ -3003,7 +3017,8 @@
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                 <http://www.w3.org/2004/02/skos/core#notation> "con225"@en ;
-                                rdfs:label "Intelligent Hardware Development"@en .
+                                rdfs:label "Intelligent Hardware Development"@en ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "Devices with advanced computational intelligence."@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentSoftwareDevelopment
@@ -3329,7 +3344,8 @@
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
           <http://www.w3.org/2004/02/skos/core#notation> "con246"@en ;
-          rdfs:label "Learning"@en .
+          rdfs:label "Learning"@en ;
+          <http://www.w3.org/2004/02/skos/core#definition> "The ability to receive instructions and operate based on demonstrations."@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningOnTheEdge
@@ -3392,7 +3408,8 @@
               <http://www.w3.org/2004/02/skos/core#broader> :Services ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
               <http://www.w3.org/2004/02/skos/core#notation> "con484"@en ;
-              rdfs:label "Legal Aspects" .
+              rdfs:label "Legal Aspects" ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The provision of legal support and advice to individuals and businesses by law firms."@en .
 
 
 ###  http://aiod.eu/data/schemas/LegalComplianceOfAISystems
@@ -3426,7 +3443,8 @@
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
            <http://www.w3.org/2004/02/skos/core#notation> "con253"@en ;
-           rdfs:label "Liability"@en .
+           rdfs:label "Liability"@en ;
+           <http://www.w3.org/2004/02/skos/core#definition> "The legal responsibility associated with the creation and deployment of artificial intelligence systems"@en .
 
 
 ###  http://aiod.eu/data/schemas/Liberia
@@ -3533,7 +3551,9 @@
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                 :ResearchArea ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con259"@en ;
-                 rdfs:label "Machine Learning"@en .
+                 rdfs:label "Machine Learning"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> """The scientific study of computer algorithms that improve automatically through
+experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MachineLearningFramework
@@ -4296,7 +4316,8 @@
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-         <http://www.w3.org/2004/02/skos/core#notation> "con474"@en .
+         <http://www.w3.org/2004/02/skos/core#notation> "con474"@en ;
+         rdfs:label "Nuclear"@en .
 
 
 ###  http://aiod.eu/data/schemas/ObjectCategorization
@@ -4517,7 +4538,9 @@
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
             <http://www.w3.org/2004/02/skos/core#notation> "con327"@en ;
-            rdfs:label "Perception"@en .
+            rdfs:label "Perception"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> """Systems’ ability to become aware of their environment through the senses: vision,
+hearing, manipulation. etc., being vision and hearing the most developed areas in AI."""@en .
 
 
 ###  http://aiod.eu/data/schemas/PerformanceAnalytics
@@ -4649,7 +4672,8 @@
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
           <http://www.w3.org/2004/02/skos/core#notation> "con337"@en ;
-          rdfs:label "Planning"@en .
+          rdfs:label "Planning"@en ;
+          <http://www.w3.org/2004/02/skos/core#definition> "The ability to expect the consequences of series of actions"@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanningAndScheduling
@@ -5017,7 +5041,10 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                       :ResearchArea ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con373"@en ;
-                       rdfs:label "Reinforcement Learning"@en .
+                       rdfs:label "Reinforcement Learning"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> """Explores how agents take actions in an environment in order to
+maximize a reward. An example is when the RL agent plays Go against itself, learns the game, and
+acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RelationalLearning
@@ -5389,7 +5416,8 @@
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                         :ResearchArea ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con397"@en ;
-                         rdfs:label "Semi-supervised Learning"@en .
+                         rdfs:label "Semi-supervised Learning"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "A category between supervised and unsupervised learning, where the data contains both labelled and unlabelled data."@en .
 
 
 ###  http://aiod.eu/data/schemas/Senegal
@@ -5555,7 +5583,9 @@
                 <http://www.w3.org/2004/02/skos/core#broader> :Services ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con408"@en ;
-                rdfs:label "Social Security"@en .
+                rdfs:label "Social Security"@en ;
+                rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.30"^^xsd:anyURI ;
+                <http://www.w3.org/2004/02/skos/core#definition> "This class includes:- funding and administration of government-provided social security programmes: • sickness, work-accident and unemployment insurance • retirement pensions • programmes covering losses of income due to maternity, temporary disablement, widowhood etc."@en .
 
 
 ###  http://aiod.eu/data/schemas/SocialWork
@@ -5834,7 +5864,10 @@
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                    :ResearchArea ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con430"@en ;
-                    rdfs:label "Supervised Learning"@en .
+                    rdfs:label "Supervised Learning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> """Maps input to output values based on labelled examples of input-output
+pairs. Supervised learning needs considerable amounts of labelled data, which is often done by
+humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Suriname
@@ -6076,7 +6109,9 @@
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
        <http://www.w3.org/2004/02/skos/core#notation> "con446"@en ;
-       rdfs:label "Trade"@en .
+       rdfs:label "Trade"@en ;
+       rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G"^^xsd:anyURI ;
+       <http://www.w3.org/2004/02/skos/core#definition> "This section includes wholesale and retail sale (i.e. sale without transformation) of any type of goods, and rendering services incidental to the sale of merchandise. Wholesaling and retailing are the final steps in the distribution of merchandise. Also included in this section are the repair of motor vehicles and motorcycles.Sale without transformation is considered to include the usual operations (or manipulations) associated with trade, for example sorting, grading and assembling of goods, mixing (blending) of goods (for example sand), bottling (with or without preceding bottle cleaning), packing, breaking bulk and repacking for distribution in smaller lots, storage (whether or not frozen or chilled)."@en .
 
 
 ###  http://aiod.eu/data/schemas/Transcription
@@ -6260,7 +6295,9 @@
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                      :ResearchArea ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con454"@en ;
-                      rdfs:label "Unsupervised Learning"@en .
+                      rdfs:label "Unsupervised Learning"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> """Helps finding previously unknown patterns in datasets without pre-existing
+labels. The objective is to discover the underlying data structure, for example, by grouping similar items to form clusters. Unsupervised learning does not require labelled data, but instead tries to learn by itself."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Uruguay
@@ -6425,7 +6462,9 @@
                  <http://www.w3.org/2004/02/skos/core#broader> :Water ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con467"@en ;
-                 rdfs:label "Waste Management"@en .
+                 rdfs:label "Waste Management"@en ;
+                 rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.38"^^xsd:anyURI ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "This division includes the collection, treatment, and disposal of waste materials."@en .
 
 
 ###  http://aiod.eu/data/schemas/Water
@@ -6433,7 +6472,9 @@
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
        <http://www.w3.org/2004/02/skos/core#notation> "con468"@en ;
-       rdfs:label "Water"@en .
+       rdfs:label "Water"@en ;
+       rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E"^^xsd:anyURI ;
+       <http://www.w3.org/2004/02/skos/core#definition> "This section includes activities related to the management (including collection, treatment and disposal) of various forms of waste, such as solid or non-solid industrial or household waste, as well as contaminated sites. The output of the waste or sewage treatment process can either be disposed of or become an input into other production processes."@en .
 
 
 ###  http://aiod.eu/data/schemas/WaterSupply
@@ -6442,7 +6483,9 @@
              <http://www.w3.org/2004/02/skos/core#broader> :Water ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
              <http://www.w3.org/2004/02/skos/core#notation> "con469"@en ;
-             rdfs:label "Water Supply"@en .
+             rdfs:label "Water Supply"@en ;
+             rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.36"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "This division includes the collection, treatment and distribution of water for domestic and industrial needs. Collection of water from various sources, as well as distribution by various means is included."@en .
 
 
 ###  http://aiod.eu/data/schemas/WeakArtificialIntelligence
@@ -6477,7 +6520,9 @@
            <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
            <http://www.w3.org/2004/02/skos/core#notation> "con472"@en ;
-           rdfs:label "Wholesale"@en .
+           rdfs:label "Wholesale"@en ;
+           rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.46"^^xsd:anyURI ;
+           <http://www.w3.org/2004/02/skos/core#definition> "This division includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export)."@en .
 
 
 ###  http://aiod.eu/data/schemas/WomenInAI
@@ -6535,21 +6580,24 @@
 :afl-3.0 rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-         <http://www.w3.org/2004/02/skos/core#notation> "con506"@en .
+         <http://www.w3.org/2004/02/skos/core#notation> "con506"@en ;
+         rdfs:label "afl-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/agpl-3.0
 :agpl-3.0 rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-          <http://www.w3.org/2004/02/skos/core#notation> "con520"@en .
+          <http://www.w3.org/2004/02/skos/core#notation> "con520"@en ;
+          rdfs:label "agpl-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/apache-2.0
 :apache-2.0 rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-            <http://www.w3.org/2004/02/skos/core#notation> "con499"@en .
+            <http://www.w3.org/2004/02/skos/core#notation> "con499"@en ;
+            rdfs:label "apache-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/article
@@ -6565,28 +6613,32 @@
 :artistic-2.0 rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-              <http://www.w3.org/2004/02/skos/core#notation> "con512"@en .
+              <http://www.w3.org/2004/02/skos/core#notation> "con512"@en ;
+              rdfs:label "artistic-2.0en" .
 
 
 ###  http://aiod.eu/data/schemas/bigcode-openrail-m
 :bigcode-openrail-m rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-                    <http://www.w3.org/2004/02/skos/core#notation> "con518"@en .
+                    <http://www.w3.org/2004/02/skos/core#notation> "con518"@en ;
+                    rdfs:label "bigcode-openrail-m"@en .
 
 
 ###  http://aiod.eu/data/schemas/bigscience-bloom-rail-1.0
 :bigscience-bloom-rail-1.0 rdf:type owl:NamedIndividual ,
                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-                           <http://www.w3.org/2004/02/skos/core#notation> "con515"@en .
+                           <http://www.w3.org/2004/02/skos/core#notation> "con515"@en ;
+                           rdfs:label "bigscience-bloom-rail-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/bigscience-openrail-m
 :bigscience-openrail-m rdf:type owl:NamedIndividual ,
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-                       <http://www.w3.org/2004/02/skos/core#notation> "con514"@en .
+                       <http://www.w3.org/2004/02/skos/core#notation> "con514"@en ;
+                       rdfs:label "bigscience-openrail-m"@en .
 
 
 ###  http://aiod.eu/data/schemas/book
@@ -6602,70 +6654,80 @@
 :bsd rdf:type owl:NamedIndividual ,
               <http://www.w3.org/2004/02/skos/core#Concept> ;
      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-     <http://www.w3.org/2004/02/skos/core#notation> "con526"@en .
+     <http://www.w3.org/2004/02/skos/core#notation> "con526"@en ;
+     rdfs:label "bsd"@en .
 
 
 ###  http://aiod.eu/data/schemas/bsd-2-clause
 :bsd-2-clause rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-              <http://www.w3.org/2004/02/skos/core#notation> "con532"@en .
+              <http://www.w3.org/2004/02/skos/core#notation> "con532"@en ;
+              rdfs:label "bsd-2-clause"@en .
 
 
 ###  http://aiod.eu/data/schemas/bsd-3-clause
 :bsd-3-clause rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-              <http://www.w3.org/2004/02/skos/core#notation> "con513"@en .
+              <http://www.w3.org/2004/02/skos/core#notation> "con513"@en ;
+              rdfs:label "bsd-3-clause"@en .
 
 
 ###  http://aiod.eu/data/schemas/bsd-3-clause-clear
 :bsd-3-clause-clear rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-                    <http://www.w3.org/2004/02/skos/core#notation> "con542"@en .
+                    <http://www.w3.org/2004/02/skos/core#notation> "con542"@en ;
+                    rdfs:label "bsd-3-clause-clear"@en .
 
 
 ###  http://aiod.eu/data/schemas/bsl-1.0
 :bsl-1.0 rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-         <http://www.w3.org/2004/02/skos/core#notation> "con534"@en .
+         <http://www.w3.org/2004/02/skos/core#notation> "con534"@en ;
+         rdfs:label "bsl-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/c-uda
 :c-uda rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-       <http://www.w3.org/2004/02/skos/core#notation> "con533"@en .
+       <http://www.w3.org/2004/02/skos/core#notation> "con533"@en ;
+       rdfs:label "c-uda"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc
 :cc rdf:type owl:NamedIndividual ,
              <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-    <http://www.w3.org/2004/02/skos/core#notation> "con511"@en .
+    <http://www.w3.org/2004/02/skos/core#notation> "con511"@en ;
+    rdfs:label "cc"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-2.0
 :cc-by-2.0 rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-           <http://www.w3.org/2004/02/skos/core#notation> "con529"@en .
+           <http://www.w3.org/2004/02/skos/core#notation> "con529"@en ;
+           rdfs:label "cc-by-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-2.5
 :cc-by-2.5 rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-           <http://www.w3.org/2004/02/skos/core#notation> "con552"@en .
+           <http://www.w3.org/2004/02/skos/core#notation> "con552"@en ;
+           rdfs:label "cc-by-2.5"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-3.0
 :cc-by-3.0 rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-           <http://www.w3.org/2004/02/skos/core#notation> "con527"@en .
+           <http://www.w3.org/2004/02/skos/core#notation> "con527"@en ;
+           rdfs:label "cc-by-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-4.0
@@ -6886,21 +6948,24 @@
 :gemma rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
        <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-       <http://www.w3.org/2004/02/skos/core#notation> "con523"@en .
+       <http://www.w3.org/2004/02/skos/core#notation> "con523"@en ;
+       rdfs:label "gemma"@en .
 
 
 ###  http://aiod.eu/data/schemas/gfdl
 :gfdl rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-      <http://www.w3.org/2004/02/skos/core#notation> "con541"@en .
+      <http://www.w3.org/2004/02/skos/core#notation> "con541"@en ;
+      rdfs:label "gfdl"@en .
 
 
 ###  http://aiod.eu/data/schemas/gpl
 :gpl rdf:type owl:NamedIndividual ,
               <http://www.w3.org/2004/02/skos/core#Concept> ;
      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-     <http://www.w3.org/2004/02/skos/core#notation> "con525"@en .
+     <http://www.w3.org/2004/02/skos/core#notation> "con525"@en ;
+     rdfs:label "gpl"@en .
 
 
 ###  http://aiod.eu/data/schemas/gpl-2.0
@@ -6946,7 +7011,8 @@
 :isc rdf:type owl:NamedIndividual ,
               <http://www.w3.org/2004/02/skos/core#Concept> ;
      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-     <http://www.w3.org/2004/02/skos/core#notation> "con557"@en .
+     <http://www.w3.org/2004/02/skos/core#notation> "con557"@en ;
+     <http://www.w3.org/2004/02/skos/core#definition> "isc"@en .
 
 
 ###  http://aiod.eu/data/schemas/lecture_notes
@@ -6962,7 +7028,8 @@
 :lgpl rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-      <http://www.w3.org/2004/02/skos/core#notation> "con546"@en .
+      <http://www.w3.org/2004/02/skos/core#notation> "con546"@en ;
+      <http://www.w3.org/2004/02/skos/core#definition> "lgpl"@en .
 
 
 ###  http://aiod.eu/data/schemas/lgpl-2.1
@@ -6990,7 +7057,8 @@
 :llama2 rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-        <http://www.w3.org/2004/02/skos/core#notation> "con504"@en .
+        <http://www.w3.org/2004/02/skos/core#notation> "con504"@en ;
+        <http://www.w3.org/2004/02/skos/core#definition> "llama2"@en .
 
 
 ###  http://aiod.eu/data/schemas/llama3
@@ -7027,7 +7095,8 @@
 :mit rdf:type owl:NamedIndividual ,
               <http://www.w3.org/2004/02/skos/core#Concept> ;
      <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-     <http://www.w3.org/2004/02/skos/core#notation> "con500"@en .
+     <http://www.w3.org/2004/02/skos/core#notation> "con500"@en ;
+     rdfs:label "mit"@en .
 
 
 ###  http://aiod.eu/data/schemas/model
@@ -7064,14 +7133,16 @@
 :ncsa rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-      <http://www.w3.org/2004/02/skos/core#notation> "con559"@en .
+      <http://www.w3.org/2004/02/skos/core#notation> "con559"@en ;
+      rdfs:label "ncsa"@en .
 
 
 ###  http://aiod.eu/data/schemas/odbl
 :odbl rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-      <http://www.w3.org/2004/02/skos/core#notation> "con547"@en .
+      <http://www.w3.org/2004/02/skos/core#notation> "con547"@en ;
+      rdfs:label "odbl"@en .
 
 
 ###  http://aiod.eu/data/schemas/odc-by
@@ -7106,7 +7177,8 @@
 :pddl rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :Licence ;
-      <http://www.w3.org/2004/02/skos/core#notation> "con538"@en .
+      <http://www.w3.org/2004/02/skos/core#notation> "con538"@en ;
+      rdfs:label "pddl"@en .
 
 
 ###  http://aiod.eu/data/schemas/periodical_issue
@@ -7282,7 +7354,8 @@
                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                                       <http://www.w3.org/2004/02/skos/core#notation> "con084"@en ;
-                                                      rdfs:label "Compression"@en .
+                                                      rdfs:label "Compression"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A technique that reduces the size of data without losing its essential information or quality."@en .
 
 
 ###  http://aiod.eu/data/schemas/Medical&HealthSciences
