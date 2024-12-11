@@ -57,12 +57,20 @@ def parse_ttl_to_json(ttl_content):
             label_value = "Unknown"
             label_lang = "en"
 
+        definition_literal = g.value(concept, SKOS.definition)
+        definition_value = str(definition_literal) if definition_literal else ""
+
+        seeAlso_literal = g.value(concept, RDFS.seeAlso)
+        seeAlso_value = str(seeAlso_literal) if seeAlso_literal else ""
+
         element = {
             "id": str(g.value(concept, SKOS.notation)),
             "label": {
                 "language": label_lang,
                 "value": label_value
             },
+            "definition": definition_value,
+            "seeAlso": seeAlso_value,
             "elements": []  # To hold narrower concepts if any
         }
 
@@ -89,6 +97,8 @@ def parse_ttl_to_json(ttl_content):
                 element_clone = {
                     "id": element["id"],
                     "label": element["label"],
+                    "definition": element["definition"],
+                    "seeAlso": element["seeAlso"],
                     "elements": element["elements"].copy()
                 }
                 broader_element["elements"].append(element_clone)
@@ -112,7 +122,7 @@ def main():
     json_data = parse_ttl_to_json(ttl_content)
 
     # Save the JSON output to a file
-    with open("taxonomies.json", "w") as f:
+    with open("taxonomies_with_definitions.json", "w") as f:
         json.dump(json_data, f, indent=4)
 
     # Print the final JSON output
