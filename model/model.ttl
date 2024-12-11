@@ -1199,8 +1199,9 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://aiod.eu/data/date_modified
-:date_modified rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty ;
+:date_modified rdf:type owl:DatatypeProperty ;
+               owl:equivalentProperty <http://purl.org/dc/terms/modified> ;
+               rdf:type owl:FunctionalProperty ;
                rdfs:domain :Distribution ;
                rdfs:range xsd:dateTime ;
                rdfs:comment "The date when the Distribution was modified." .
@@ -2019,6 +2020,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/AIAsset
 :AIAsset rdf:type owl:Class ;
+         owl:equivalentClass <http://www.w3.org/ns/dcat#Resource> ;
          rdfs:subClassOf :AIResource ;
          rdfs:comment "An accessible and usable asset pertaining to AI research and applications." .
 
@@ -2448,6 +2450,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Project
 :Project rdf:type owl:Class ;
+         owl:equivalentClass <http://xmlns.com/foaf/0.1/Project> ;
          rdfs:subClassOf :EcosystemResource ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :coordinator ;
@@ -2464,6 +2467,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Publication
 :Publication rdf:type owl:Class ;
+             owl:equivalentClass <http://purl.org/dc/terms/BibliographicResource> ;
              rdfs:subClassOf :KnowledgeAsset ;
              rdfs:comment "A scientific publication." .
 
@@ -2519,6 +2523,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Size
 :Size rdf:type owl:Class ;
+      owl:equivalentClass <http://purl.org/dc/terms/SizeOrDuration> ;
       rdfs:subClassOf :AIoDConcept ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :unit ;
