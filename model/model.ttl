@@ -7,8 +7,6 @@
 @base <http://aiod.eu/data/> .
 
 <http://aiod.eu/data/> rdf:type owl:Ontology ;
-                        owl:imports <http://www.w3.org/ns/dcat3> ,
-                                    <http://xmlns.com/foaf/0.1/> ;
                         <http://purl.org/dc/elements/1.1/creator> "Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou" ;
                         <http://purl.org/dc/elements/1.1/title> "AIoD Metadata Model" ;
                         <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en ;
@@ -954,6 +952,10 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://purl.org/dc/terms/medium
 <http://purl.org/dc/terms/medium> rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf <http://purl.org/dc/terms/format> .
+
+
+###  http://www.w3.org/ns/prov#atLocation
+<http://www.w3.org/ns/prov#atLocation> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -2020,7 +2022,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/AIAsset
 :AIAsset rdf:type owl:Class ;
-         owl:equivalentClass <http://www.w3.org/ns/dcat#Resource> ;
          rdfs:subClassOf :AIResource ;
          rdfs:comment "An accessible and usable asset pertaining to AI research and applications." .
 
@@ -2075,7 +2076,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Agent
 :Agent rdf:type owl:Class ;
-       owl:equivalentClass <http://purl.org/dc/terms/Agent> ;
        rdfs:subClassOf :EcosystemResource ;
        rdfs:comment "The direct performer or driver of the action (animate or inanimate)." .
 
@@ -2206,7 +2206,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Dataset
 :Dataset rdf:type owl:Class ;
-         owl:equivalentClass <http://www.w3.org/ns/dcat#Dataset> ;
          rdfs:subClassOf :AIAsset ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :size ;
@@ -2294,7 +2293,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/ExpertGroup
 :ExpertGroup rdf:type owl:Class ;
-             owl:equivalentClass <http://xmlns.com/foaf/0.1/Group> ;
              rdfs:subClassOf :Agent ;
              rdfs:comment "A team of experts who have no legal foundation and are assembled for a specific purpose." .
 
@@ -2357,7 +2355,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Location
 :Location rdf:type owl:Class ;
-          owl:equivalentClass <http://purl.org/dc/terms/Location> ;
           rdfs:subClassOf :AIoDConcept ;
           rdfs:comment "A spatial region or named place." .
 
@@ -2424,14 +2421,12 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Organisation
 :Organisation rdf:type owl:Class ;
-              owl:equivalentClass <http://www.w3.org/ns/org#Organization> ;
               rdfs:subClassOf :Agent ;
               rdfs:comment "An association of people with a specific purpose." .
 
 
 ###  http://aiod.eu/data/Person
 :Person rdf:type owl:Class ;
-        owl:equivalentClass <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
         rdfs:subClassOf :Agent ;
         rdfs:comment "A human being." .
 
@@ -2450,7 +2445,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Project
 :Project rdf:type owl:Class ;
-         owl:equivalentClass <http://xmlns.com/foaf/0.1/Project> ;
          rdfs:subClassOf :EcosystemResource ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :coordinator ;
@@ -2467,7 +2461,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Publication
 :Publication rdf:type owl:Class ;
-             owl:equivalentClass <http://purl.org/dc/terms/BibliographicResource> ;
              rdfs:subClassOf :KnowledgeAsset ;
              rdfs:comment "A scientific publication." .
 
@@ -2523,7 +2516,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Size
 :Size rdf:type owl:Class ;
-      owl:equivalentClass <http://purl.org/dc/terms/SizeOrDuration> ;
       rdfs:subClassOf :AIoDConcept ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :unit ;
@@ -2761,10 +2753,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://www.w3.org/2000/01/rdf-schema#Class
 rdfs:Class rdf:type owl:Class .
-
-
-###  http://www.w3.org/ns/org#Organization
-<http://www.w3.org/ns/org#Organization> owl:equivalentClass <http://www.w3.org/ns/prov#Organization> .
 
 
 #################################################################
