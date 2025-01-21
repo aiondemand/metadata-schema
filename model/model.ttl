@@ -964,11 +964,6 @@ xsd:date rdf:type rdfs:Datatype .
 #    Data properties
 #################################################################
 
-###  http://aiod.eu/data/NumberOfEmployees
-:NumberOfEmployees rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Organisation .
-
-
 ###  http://aiod.eu/data/academic_level
 :academic_level rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
@@ -1616,6 +1611,29 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:range xsd:string .
 
 
+###  http://aiod.eu/data/number_of_employees
+:number_of_employees rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Organisation ;
+                     rdfs:range [ rdf:type rdfs:Datatype ;
+                                  owl:oneOf [ rdf:type rdf:List ;
+                                              rdf:first "<10" ;
+                                              rdf:rest [ rdf:type rdf:List ;
+                                                         rdf:first "<250" ;
+                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                    rdf:first "<50" ;
+                                                                    rdf:rest [ rdf:type rdf:List ;
+                                                                               rdf:first ">250" ;
+                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                          rdf:first "N/A" ;
+                                                                                          rdf:rest rdf:nil
+                                                                                        ]
+                                                                             ]
+                                                                  ]
+                                                       ]
+                                            ]
+                                ] .
+
+
 ###  http://aiod.eu/data/offered_via
 :offered_via rdf:type owl:DatatypeProperty ;
              rdfs:domain :EducationalResource ;
@@ -1851,6 +1869,35 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:domain :MLModel ;
                  rdfs:range xsd:string ;
                  rdfs:comment "The training process's progress." .
+
+
+###  http://aiod.eu/data/turnover
+:turnover rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Organisation ;
+          rdfs:range [ rdf:type rdfs:Datatype ;
+                       owl:oneOf [ rdf:type rdf:List ;
+                                   rdf:first "<1 million euros" ;
+                                   rdf:rest [ rdf:type rdf:List ;
+                                              rdf:first ">1 million euros" ;
+                                              rdf:rest [ rdf:type rdf:List ;
+                                                         rdf:first ">1.5 billion euros" ;
+                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                    rdf:first ">3 million euros" ;
+                                                                    rdf:rest [ rdf:type rdf:List ;
+                                                                               rdf:first ">5 million euros" ;
+                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                          rdf:first ">50 million euros" ;
+                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                     rdf:first "N/A" ;
+                                                                                                     rdf:rest rdf:nil
+                                                                                                   ]
+                                                                                        ]
+                                                                             ]
+                                                                  ]
+                                                       ]
+                                            ]
+                                 ]
+                     ] .
 
 
 ###  http://aiod.eu/data/type
@@ -2449,8 +2496,64 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Organisation
 :Organisation rdf:type owl:Class ;
-              rdfs:subClassOf :Agent ;
+              rdfs:subClassOf :Agent ,
+                              _:genid39 ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :turnover ;
+                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                     owl:oneOf [ rdf:type rdf:List ;
+                                                                 rdf:first "<1 million euros" ;
+                                                                 rdf:rest [ rdf:type rdf:List ;
+                                                                            rdf:first ">1 million euros" ;
+                                                                            rdf:rest [ rdf:type rdf:List ;
+                                                                                       rdf:first ">1.5 billion euros" ;
+                                                                                       rdf:rest [ rdf:type rdf:List ;
+                                                                                                  rdf:first ">3 million euros" ;
+                                                                                                  rdf:rest [ rdf:type rdf:List ;
+                                                                                                             rdf:first ">5 million euros" ;
+                                                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                                                        rdf:first ">50 million euros" ;
+                                                                                                                        rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                   rdf:first "N/A" ;
+                                                                                                                                   rdf:rest rdf:nil
+                                                                                                                                 ]
+                                                                                                                      ]
+                                                                                                           ]
+                                                                                                ]
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                   ]
+                              ] ;
               rdfs:comment "An association of people with a specific purpose." .
+
+_:genid39 rdf:type owl:Restriction ;
+           owl:onProperty :number_of_employees ;
+           owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                owl:oneOf [ rdf:type rdf:List ;
+                                            rdf:first "<10" ;
+                                            rdf:rest [ rdf:type rdf:List ;
+                                                       rdf:first "<250" ;
+                                                       rdf:rest [ rdf:type rdf:List ;
+                                                                  rdf:first "<50" ;
+                                                                  rdf:rest [ rdf:type rdf:List ;
+                                                                             rdf:first ">250" ;
+                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                        rdf:first "N/A" ;
+                                                                                        rdf:rest rdf:nil
+                                                                                      ]
+                                                                           ]
+                                                                ]
+                                                     ]
+                                          ]
+                              ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :Organisation ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid39 ;
+   rdfs:comment ""
+ ] .
 
 
 ###  http://aiod.eu/data/Person
