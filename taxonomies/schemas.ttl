@@ -810,7 +810,7 @@
 ###  http://aiod.eu/data/schemas/Broadcasting
 :Broadcasting rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-              <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+              <http://www.w3.org/2004/02/skos/core#broader> :InformationAndCommunicationTechnologies ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
               <http://www.w3.org/2004/02/skos/core#notation> "con055"@en ;
               rdfs:label "Broadcasting"@en ;
@@ -1366,10 +1366,11 @@ informal context."""@en .
 ###  http://aiod.eu/data/schemas/ContentProduction
 :ContentProduction rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
-                   <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+                   <http://www.w3.org/2004/02/skos/core#broader> :InformationAndCommunicationTechnologies ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con097"@en ;
-                   rdfs:label "Content Production"@en .
+                   rdfs:label "Content Production"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Produce content resources of various types and modalities as off annotated, trained materials, test-beds, derived through GPI and so on."@en .
 
 
 ###  http://aiod.eu/data/schemas/CookIslands
@@ -1701,10 +1702,11 @@ informal context."""@en .
 ###  http://aiod.eu/data/schemas/Distribution
 :Distribution rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-              <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+              <http://www.w3.org/2004/02/skos/core#broader> :InformationAndCommunicationTechnologies ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
               <http://www.w3.org/2004/02/skos/core#notation> "con127"@en ;
-              rdfs:label "Distribution"@en .
+              rdfs:label "Distribution"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "Distribute S/W, pressentations, training cources  as well as any multimodal document through videos, web, targeted observatories, droans and so on"@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributionAutomation
@@ -2868,14 +2870,14 @@ ethical principles and values, including applicable regulation."""@en .
                   <http://www.w3.org/2004/02/skos/core#definition> "A software component of an intelligent system that applies logical rules to the knowledge base to deduce new information."@en .
 
 
-###  http://aiod.eu/data/schemas/InformationCommunication
-:InformationCommunication rdf:type owl:NamedIndividual ,
-                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                          <http://www.w3.org/2004/02/skos/core#notation> "con216"@en ;
-                          rdfs:label "Information Communication"@en ;
-                          rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J"^^xsd:anyURI ;
-                          <http://www.w3.org/2004/02/skos/core#definition> "This section includes the production and distribution of information and cultural products, the provision of the means to transmit or distribute these products, as well as data or communications, information technology activities and the processing of data and other information service activities.The main components of this section are publishing activities, including software publishing, motion picture and sound recording activities, radio and TV broadcasting and programming activities, telecommunications activities, information technology activities  and other information service activities .Publishing includes the acquisition of copyrights for content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.) are included in this section."@en .
+###  http://aiod.eu/data/schemas/InformationAndCommunicationTechnologies
+:InformationAndCommunicationTechnologies rdf:type owl:NamedIndividual ,
+                                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                         <http://www.w3.org/2004/02/skos/core#notation> "con216"@en ;
+                                         rdfs:label "Information and communication technologies"@en ;
+                                         rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J"^^xsd:anyURI ;
+                                         <http://www.w3.org/2004/02/skos/core#definition> "This section includes the production and distribution of information and cultural products, the provision of the means to transmit or distribute these products, as well as data or communications, information technology activities and the processing of data and other information service activities.The main components of this section are publishing activities, including software publishing, motion picture and sound recording activities, radio and TV broadcasting and programming activities, telecommunications activities, information technology activities  and other information service activities .Publishing includes the acquisition of copyrights for content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.) are included in this section."@en .
 
 
 ###  http://aiod.eu/data/schemas/InformationRetrieval
@@ -3763,7 +3765,8 @@ experience."""@en .
                                      <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
                                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                                      <http://www.w3.org/2004/02/skos/core#notation> "con476"@en ;
-                                     rdfs:label "Metal Working and industrial production" .
+                                     rdfs:label "Metal Working and industrial production" ;
+                                     <http://www.w3.org/2004/02/skos/core#definition> "Metalworking industry is to transform raw materials from metals into sheets, wires,  and plates, etc.  This is to have things such as spare parts, auto-parts for vehicles, radio receivers, nuts among others as a final product.  These items are used in a great diversity of sectors such as water, gas, heating, automotive, aeronautical industry, to name a few."@en .
 
 
 ###  http://aiod.eu/data/schemas/Mexico
@@ -4195,7 +4198,8 @@ experience."""@en .
                                       <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                                       <http://www.w3.org/2004/02/skos/core#notation> "con477"@en ;
-                                      rdfs:label "Non-Metallic Materials and basic process" .
+                                      rdfs:label "Non-Metallic Materials and basic process" ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "Non-metallic materials are any materials, both synthetic and natural, which do not contain metal. These materials are able to retain their unique chemical properties during the machining process using thermoplastics, thermosets, or elastomers. . There are a wide variety of non-metallic materials,like Rubber, Fiber, Ceramics, plastics, etc."@en .
 
 
 ###  http://aiod.eu/data/schemas/NorfolkIsland
@@ -4443,7 +4447,8 @@ experience."""@en .
               <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
               <http://www.w3.org/2004/02/skos/core#notation> "con478"@en ;
-              rdfs:label "Paper and Wood" .
+              rdfs:label "Paper and Wood" ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The industry that deals with the cuting, transfer and manufacturing  of the wood. It produces various products for our every day life, entertainment and art, without forgeting  the production of paper in all its faces."@en .
 
 
 ###  http://aiod.eu/data/schemas/PapuaNewGuinea
@@ -4646,7 +4651,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                      <http://www.w3.org/2004/02/skos/core#broader> :Manufacturing ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con475"@en ;
-                     rdfs:label "Polymers and Plastics" .
+                     rdfs:label "Polymers and Plastics" ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Polymers and Plastics is the industry that producew a variety of producs  that is based on chemical industry of polymers. Polymers are chemical compounds in which molecules are bonded together in long, repeating chains. Plastics are a specific type of polymer comprised of a long chain of polymers."@en .
 
 
 ###  http://aiod.eu/data/schemas/Portugal
@@ -4869,7 +4875,7 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 ###  http://aiod.eu/data/schemas/Publishing
 :Publishing rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-            <http://www.w3.org/2004/02/skos/core#broader> :InformationCommunication ;
+            <http://www.w3.org/2004/02/skos/core#broader> :InformationAndCommunicationTechnologies ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
             <http://www.w3.org/2004/02/skos/core#notation> "con361"@en ;
             rdfs:label "Publishing"@en ;
