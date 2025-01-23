@@ -101,6 +101,15 @@
                 <http://www.w3.org/2004/02/skos/core#definition> "A method that requires the development, deployment and utilisation of systems in a manner that facilitates the identification and attribution of responsibility for adverse outcomes to the relevant parties."@en .
 
 
+###  http://aiod.eu/data/schemas/AccountingAndFinance
+:AccountingAndFinance rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                      <http://www.w3.org/2004/02/skos/core#notation> "con848"@en ;
+                      rdfs:label "Accounting & Finance"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Accounting deals with record-keeping and reporting decisions for your company's finances. Finance helps to analyze all the data to make important decisions about how best to direct the organization."@en .
+
+
 ###  http://aiod.eu/data/schemas/AcousticMonitoring
 :AcousticMonitoring rdf:type owl:NamedIndividual ,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -134,7 +143,7 @@
                        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con007"@en ;
                        rdfs:label "Additive Manufacturing"@en ;
-                       <http://www.w3.org/2004/02/skos/core#definition> "The construction of a three-dimensional object from a CAD model or a digital 3D model."@en .
+                       <http://www.w3.org/2004/02/skos/core#definition> "Problems in the design and construction/creation of a 3D object following alternative and/or additive approaches through a CAD model or a 3D model."@en .
 
 
 ###  http://aiod.eu/data/schemas/AdversarialAttacks
@@ -157,22 +166,20 @@
                             <http://www.w3.org/2004/02/skos/core#definition> "Adversarial machine learning is the study of the attacks on machine learning algorithms, and of the defenses against such attacks."@en .
 
 
+###  http://aiod.eu/data/schemas/Aerospace
+:Aerospace rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con417"@en ;
+           rdfs:label "Aerospace"@en .
+
+
 ###  http://aiod.eu/data/schemas/Afghanistan
 :Afghanistan rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
              <http://www.w3.org/2004/02/skos/core#notation> "con597"@en ;
              rdfs:label "Afghanistan"@en .
-
-
-###  http://aiod.eu/data/schemas/Agri-food
-:Agri-food rdf:type owl:NamedIndividual ,
-                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-           <http://www.w3.org/2004/02/skos/core#notation> "con010"@en ;
-           rdfs:label "Agri-food"@en ;
-           rdfs:seeAlso "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/agri-food"^^xsd:anyURI ;
-           <http://www.w3.org/2004/02/skos/core#definition> "Plant and animal production. Processing of food."@en .
 
 
 ###  http://aiod.eu/data/schemas/AgriculturalBiotechnology
@@ -198,7 +205,7 @@
 ###  http://aiod.eu/data/schemas/Agriculture
 :Agriculture rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
+             <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryAndFishing> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
              <http://www.w3.org/2004/02/skos/core#notation> "con013"@en ;
              rdfs:label "Agriculture"@en ;
@@ -359,12 +366,22 @@
 ###  http://aiod.eu/data/schemas/Arts
 :Arts rdf:type owl:NamedIndividual ,
                <http://www.w3.org/2004/02/skos/core#Concept> ;
-      <http://www.w3.org/2004/02/skos/core#broader> :Humanities ,
-                                                    :Recreation ;
+      <http://www.w3.org/2004/02/skos/core#broader> :ArtsEntertainmentAndRecreation ,
+                                                    :Humanities ;
       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ,
                                                      :ScientificDomain ;
       <http://www.w3.org/2004/02/skos/core#notation> "con029"@en ;
       rdfs:label "Arts"@en .
+
+
+###  http://aiod.eu/data/schemas/ArtsEntertainmentAndRecreation
+:ArtsEntertainmentAndRecreation rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                <http://www.w3.org/2004/02/skos/core#notation> "con369"@en ;
+                                rdfs:label "Arts, entertainment and recreation"@en ;
+                                rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.2"^^xsd:anyURI ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "This group includes a wide range of units that operate facilities or provide services to meet the varied recreational interests of their patrons. It includes the operation of a variety of attractions, such as mechanical rides, water rides, games, shows, theme exhibits and picnic grounds."@en .
 
 
 ###  http://aiod.eu/data/schemas/Aruba
@@ -387,7 +404,7 @@
 ###  http://aiod.eu/data/schemas/AssistiveLiving
 :AssistiveLiving rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
-                 <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :HumanHealthAndSocialWorkActivities ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con031"@en ;
                  rdfs:label "Assistive Living"@en .
@@ -542,7 +559,8 @@
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con045"@en ;
-                   rdfs:label "Autonomous Systems"@en .
+                   rdfs:label "Autonomous Systems"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Methods and processes for designing and constructing automated solution driven robots for production activities  in business and manufacturing without human intervention."@en .
 
 
 ###  http://aiod.eu/data/schemas/Awards
@@ -897,7 +915,7 @@
                   <http://www.w3.org/2004/02/skos/core#notation> "con100"@en ;
                   rdfs:comment "e.g. text, speech, video, other" ;
                   rdfs:label "CRM Communication"@en ;
-                  <http://www.w3.org/2004/02/skos/core#definition> "A process in which a business or another organization administers its interactions with customers, typically using data analysis to study large amounts of information."@en .
+                  <http://www.w3.org/2004/02/skos/core#definition> "The study and process in which a business or another organization administers its interactions with customers, typically using data analysis to study large amounts of information."@en .
 
 
 ###  http://aiod.eu/data/schemas/CaboVerde
@@ -1078,18 +1096,7 @@
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con067"@en ;
                  rdfs:label "Churn Prevention"@en ;
-                 <http://www.w3.org/2004/02/skos/core#definition> "The strategies companies use to minimize the number of customers and volume of revenue that is lost to different types of churn."@en .
-
-
-###  http://aiod.eu/data/schemas/CivilSecurity
-:CivilSecurity rdf:type owl:NamedIndividual ,
-                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-               <http://www.w3.org/2004/02/skos/core#broader> :Security ;
-               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-               <http://www.w3.org/2004/02/skos/core#notation> "con069"@en ;
-               rdfs:label "Civil Security"@en ;
-               rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.24"^^xsd:anyURI ;
-               <http://www.w3.org/2004/02/skos/core#definition> "This class includes:- administration and operation of regular and auxiliary police forces supported by public authorities and of port, border, coastguards and other special police forces, including traffic regulation, alien registration, maintenance of arrest records- provision of supplies for domestic emergency use in case of peacetime disasters"@en .
+                 <http://www.w3.org/2004/02/skos/core#definition> "Strategies that companies use to prevent minimizing  the number of customers that stop using a product or service which result to revenue lost."@en .
 
 
 ###  http://aiod.eu/data/schemas/CivilΕngineering
@@ -1308,17 +1315,6 @@ informal context."""@en .
                                 <http://www.w3.org/2004/02/skos/core#definition> "A field that emphasizes both computing and informatics, upholding the strong association between the fields of information sciences and computer sciences and treating computers as a tool rather than a field."@en .
 
 
-###  http://aiod.eu/data/schemas/ComputerProgramming
-:ComputerProgramming rdf:type owl:NamedIndividual ,
-                              <http://www.w3.org/2004/02/skos/core#Concept> ;
-                     <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
-                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                     <http://www.w3.org/2004/02/skos/core#notation> "con090"@en ;
-                     rdfs:label "Computer Programming"@en ;
-                     rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.62.01"^^xsd:anyURI ;
-                     <http://www.w3.org/2004/02/skos/core#definition> "This class includes the writing, modifying, testing and supporting of software.This class includes:- designing the structure and content of, and/or writing the computer code necessary to create and implement: • systems software (including updates and patches) • software applications (including updates and patches) • databases • web pages- customising of software, i.e. modifying and configuring an existing application so that it is functional within the clients' information system environment"@en .
-
-
 ###  http://aiod.eu/data/schemas/ComputerVision
 :ComputerVision rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1328,15 +1324,6 @@ informal context."""@en .
                 <http://www.w3.org/2004/02/skos/core#notation> "con091"@en ;
                 rdfs:label "Computer Vision"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A field that deals with enabling computers to derive information from images, videos and other inputs."@en .
-
-
-###  http://aiod.eu/data/schemas/ComputingInfrastructures
-:ComputingInfrastructures rdf:type owl:NamedIndividual ,
-                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-                          <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
-                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                          <http://www.w3.org/2004/02/skos/core#notation> "con092"@en ;
-                          rdfs:label "Computing Infrastructures"@en .
 
 
 ###  http://aiod.eu/data/schemas/Congo
@@ -1374,17 +1361,6 @@ informal context."""@en .
               rdfs:label "Construction"@en ;
               rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/F"^^xsd:anyURI ;
               <http://www.w3.org/2004/02/skos/core#definition> "This section includes general construction and specialised construction activities for buildings and civil engineering works. It includes new work, repair, additions and alterations, the erection of prefabricated buildings or structures on the site and also construction of a temporary nature. General construction is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings etc., or the construction of civil engineering works such as motorways, streets, bridges, tunnels, railways, airfields, harbours and other water projects, irrigation systems, sewerage systems, industrial facilities, pipelines and electric lines, sports facilities etc. This work can be carried out on own account or on a fee or contract basis. Portions of the work and sometimes even the whole practical work can be subcontracted out. A unit that carries the overall responsibility for a construction project is classified here.Also included is the repair of buildings and engineering works.This section includes the complete construction of buildings, the complete construction of civil engineering works, as well as specialised construction activities, if carried out only as a part of the construction process.The rental of construction equipment with operator is classified with the specific construction activity carried out with this equipment."@en .
-
-
-###  http://aiod.eu/data/schemas/Consulting
-:Consulting rdf:type owl:NamedIndividual ,
-                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-            <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
-            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-            <http://www.w3.org/2004/02/skos/core#notation> "con096"@en ;
-            rdfs:label "Consulting"@en ;
-            rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.62.02"^^xsd:anyURI ;
-            <http://www.w3.org/2004/02/skos/core#definition> "This class includes the planning and designing of computer systems which integrate computer hardware, software and communication technologies. Services may include related users training."@en .
 
 
 ###  http://aiod.eu/data/schemas/ContentProduction
@@ -1444,6 +1420,14 @@ informal context."""@en .
          rdfs:label "Croatia"@en .
 
 
+###  http://aiod.eu/data/schemas/CrossIndustry
+:CrossIndustry rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con102"@en ;
+               rdfs:label "Cross Industry"@en .
+
+
 ###  http://aiod.eu/data/schemas/Crowdsourcing
 :Crowdsourcing rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1461,14 +1445,6 @@ informal context."""@en .
       rdfs:label "Cuba"@en .
 
 
-###  http://aiod.eu/data/schemas/CultureCreativity
-:CultureCreativity rdf:type owl:NamedIndividual ,
-                            <http://www.w3.org/2004/02/skos/core#Concept> ;
-                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                   <http://www.w3.org/2004/02/skos/core#notation> "con102"@en ;
-                   rdfs:label "Culture Creativity"@en .
-
-
 ###  http://aiod.eu/data/schemas/Curaçao
 :Curaçao rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1484,6 +1460,15 @@ informal context."""@en .
                    <http://www.w3.org/2004/02/skos/core#notation> "con103"@en ;
                    rdfs:label "Customer Profiling"@en ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A marketing strategy that uses data to create a picture of the perfect customer who will interact with the product or service."@en .
+
+
+###  http://aiod.eu/data/schemas/CustomerServiceAndSupport
+:CustomerServiceAndSupport rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                           <http://www.w3.org/2004/02/skos/core#notation> "con846"@en ;
+                           rdfs:label "Customer Service & Support"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The team of Company's people who provide help when customers have trouble with a company's products or services.Required activities to become aware about the problems and troubles the company’s customers are facing about the products and services."@en .
 
 
 ###  http://aiod.eu/data/schemas/CustomerServiceAutomation
@@ -1519,15 +1504,6 @@ informal context."""@en .
                         <http://www.w3.org/2004/02/skos/core#notation> "con107"@en ;
                         rdfs:label "Cyber-Attack Prevention"@en ;
                         <http://www.w3.org/2004/02/skos/core#definition> "Strategies, technologies, and practices employed to protect digital systems, networks, and data from unauthorized access, attack, or damage."@en .
-
-
-###  http://aiod.eu/data/schemas/Cybersecurity
-:Cybersecurity rdf:type owl:NamedIndividual ,
-                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-               <http://www.w3.org/2004/02/skos/core#broader> :Security ;
-               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-               <http://www.w3.org/2004/02/skos/core#notation> "con108"@en ;
-               rdfs:label "Cybersecurity"@en .
 
 
 ###  http://aiod.eu/data/schemas/Cyprus
@@ -1627,16 +1603,6 @@ informal context."""@en .
                  <http://www.w3.org/2004/02/skos/core#definition> "Technique used to identify and correct problems in the manufacture of products."@en .
 
 
-###  http://aiod.eu/data/schemas/Defence
-:Defence rdf:type owl:NamedIndividual ,
-                  <http://www.w3.org/2004/02/skos/core#Concept> ;
-         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-         <http://www.w3.org/2004/02/skos/core#notation> "con118"@en ;
-         rdfs:label "Defence"@en ;
-         rdfs:seeAlso "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/aerospace-defence"^^xsd:anyURI ;
-         <http://www.w3.org/2004/02/skos/core#definition> "Defenece products and technologies"@en .
-
-
 ###  http://aiod.eu/data/schemas/DemandForecasting
 :DemandForecasting rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -1694,14 +1660,6 @@ informal context."""@en .
                  <http://www.w3.org/2004/02/skos/core#notation> "con121"@en ;
                  rdfs:label "Dialogue System"@en ;
                  <http://www.w3.org/2004/02/skos/core#definition> "Computer system designed to communicate with humans via text, speech, graphics, haptic feedback, and other means."@en .
-
-
-###  http://aiod.eu/data/schemas/DigitalEconomy
-:DigitalEconomy rdf:type owl:NamedIndividual ,
-                         <http://www.w3.org/2004/02/skos/core#Concept> ;
-                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                <http://www.w3.org/2004/02/skos/core#notation> "con122"@en ;
-                rdfs:label "Digital Economy"@en .
 
 
 ###  http://aiod.eu/data/schemas/DimensionalityReduction
@@ -1892,15 +1850,14 @@ informal context."""@en .
                                                <http://www.w3.org/2004/02/skos/core#definition> "An engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism."@en .
 
 
-###  http://aiod.eu/data/schemas/ElectricityGassupply
-:ElectricityGassupply rdf:type owl:NamedIndividual ,
-                               <http://www.w3.org/2004/02/skos/core#Concept> ;
-                      <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
-                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                      <http://www.w3.org/2004/02/skos/core#notation> "con138"@en ;
-                      rdfs:label "Electricity and Gas Supply"@en ;
-                      rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/D"^^xsd:anyURI ;
-                      <http://www.w3.org/2004/02/skos/core#definition> "This section includes the activity of providing electric power, natural gas, steam, hot water and the like through a permanent infrastructure (network) of lines, mains and pipes. The dimension of the network is not decisive; also included are the distribution of electricity, gas, steam, hot water and the like in industrial parks or residential buildings.This section therefore includes the operation of electric and gas utilities, which generate, control and distribute electric power or gas."@en .
+###  http://aiod.eu/data/schemas/ElectricityGasSteamAndAirConditioningSupply
+:ElectricityGasSteamAndAirConditioningSupply rdf:type owl:NamedIndividual ,
+                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                             <http://www.w3.org/2004/02/skos/core#notation> "con142"@en ;
+                                             rdfs:label "Electricity, gas, steam and air conditioning supply"@en ;
+                                             rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/D" ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "This sector includes the activity of providing electric power, natural gas, steam, hot water and the like through a permanent infrastructure (network) of lines, mains and pipes. The dimension of the network is not decisive; also included are the distribution of electricity, gas, steam, hot water and the like in industrial parks or residential buildings.This section therefore includes the operation of electric and gas utilities, which generate, control and distribute electric power or gas."@en .
 
 
 ###  http://aiod.eu/data/schemas/ElectronicPersonhood
@@ -1932,19 +1889,10 @@ informal context."""@en .
                        <http://www.w3.org/2004/02/skos/core#definition> "The capacity of machines and systems to recognize, interpret, process, and respond appropriately to human emotions."@en .
 
 
-###  http://aiod.eu/data/schemas/Energy
-:Energy rdf:type owl:NamedIndividual ,
-                 <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-        <http://www.w3.org/2004/02/skos/core#notation> "con142"@en ;
-        rdfs:label "Energy"@en ;
-        <http://www.w3.org/2004/02/skos/core#definition> "A category of companies that play a role in extracting, refining, or supplying consumable fuels, such as coal, oil, and gas."@en .
-
-
 ###  http://aiod.eu/data/schemas/EnergyRenewables
 :EnergyRenewables rdf:type owl:NamedIndividual ,
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
-                  <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+                  <http://www.w3.org/2004/02/skos/core#broader> :ElectricityGasSteamAndAirConditioningSupply ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con143"@en ;
                   rdfs:label "Energy Renewables"@en ;
@@ -2170,14 +2118,14 @@ ethical principles and values, including applicable regulation."""@en .
       rdfs:label "Fiji"@en .
 
 
-###  http://aiod.eu/data/schemas/FinanceInsurance
-:FinanceInsurance rdf:type owl:NamedIndividual ,
-                           <http://www.w3.org/2004/02/skos/core#Concept> ;
-                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                  <http://www.w3.org/2004/02/skos/core#notation> "con159"@en ;
-                  rdfs:label "Finance and Insurance"@en ;
-                  rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/K"^^xsd:anyURI ;
-                  <http://www.w3.org/2004/02/skos/core#definition> "This section includes financial service activities, including insurance, reinsurance and pension funding activities and activities to support financial services."@en .
+###  http://aiod.eu/data/schemas/FinancialAndInsuranceActivities
+:FinancialAndInsuranceActivities rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                 <http://www.w3.org/2004/02/skos/core#notation> "con159"@en ;
+                                 rdfs:label "Financial and Insurance Activities"@en ;
+                                 rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/K"^^xsd:anyURI ;
+                                 <http://www.w3.org/2004/02/skos/core#definition> "This section includes financial service activities, including insurance, reinsurance and pension funding activities and activities to support financial services."@en .
 
 
 ###  http://aiod.eu/data/schemas/Finland
@@ -2191,7 +2139,7 @@ ethical principles and values, including applicable regulation."""@en .
 ###  http://aiod.eu/data/schemas/Fishing
 :Fishing rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-         <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
+         <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryAndFishing> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
          <http://www.w3.org/2004/02/skos/core#notation> "con160"@en ;
          rdfs:label "Fishing"@en ;
@@ -2202,7 +2150,7 @@ ethical principles and values, including applicable regulation."""@en .
 ###  http://aiod.eu/data/schemas/Forestry
 :Forestry rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#broader> :Agri-food ;
+          <http://www.w3.org/2004/02/skos/core#broader> <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryAndFishing> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
           <http://www.w3.org/2004/02/skos/core#notation> "con161"@en ;
           rdfs:label "Forestry"@en ;
@@ -2530,16 +2478,6 @@ ethical principles and values, including applicable regulation."""@en .
        rdfs:comment "Haiti"@en .
 
 
-###  http://aiod.eu/data/schemas/Health
-:Health rdf:type owl:NamedIndividual ,
-                 <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-        <http://www.w3.org/2004/02/skos/core#notation> "con178"@en ;
-        rdfs:label "Health"@en ;
-        rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/Q.86"^^xsd:anyURI ;
-        <http://www.w3.org/2004/02/skos/core#definition> "This division includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions."@en .
-
-
 ###  http://aiod.eu/data/schemas/HealthSciences
 :HealthSciences rdf:type owl:NamedIndividual ,
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -2682,24 +2620,23 @@ ethical principles and values, including applicable regulation."""@en .
               <http://www.w3.org/2004/02/skos/core#definition> "A multidisciplinary field focused on understanding the interactions among humans and other elements of a system"@en .
 
 
-###  http://aiod.eu/data/schemas/HumanHealth
-:HumanHealth rdf:type owl:NamedIndividual ,
-                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#broader> :Health ;
-             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-             <http://www.w3.org/2004/02/skos/core#notation> "con184"@en ;
-             rdfs:label "Human Health"@en ;
-             rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/Q.86"@en ;
-             <http://www.w3.org/2004/02/skos/core#definition> "This division includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions."@en .
+###  http://aiod.eu/data/schemas/HumanHealthAndSocialWorkActivities
+:HumanHealthAndSocialWorkActivities rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                    <http://www.w3.org/2004/02/skos/core#notation> "con178"@en ;
+                                    rdfs:label "Human health and social work activities"@en ;
+                                    rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/Q.86"^^xsd:anyURI ;
+                                    <http://www.w3.org/2004/02/skos/core#definition> "This division includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions."@en .
 
 
-###  http://aiod.eu/data/schemas/HumanResourcesManagementOrRecruiting
-:HumanResourcesManagementOrRecruiting rdf:type owl:NamedIndividual ,
-                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
-                                      <http://www.w3.org/2004/02/skos/core#notation> "con185"@en ;
-                                      rdfs:label "Human Resources (HR), Management or Recruiting"@en ;
-                                      <http://www.w3.org/2004/02/skos/core#definition> "Departments focused on handling a broad spectrum of aspects related to managing people and attracting, selecting, and hiring candidates for open positions within the organization."@en .
+###  http://aiod.eu/data/schemas/HumanResources
+:HumanResources rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                <http://www.w3.org/2004/02/skos/core#notation> "con185"@en ;
+                rdfs:label "Human Resources (HR)"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Departments focused on handling a broad spectrum of aspects related to managing people and attracting, selecting, and hiring candidates for open positions within the organization."@en .
 
 
 ###  http://aiod.eu/data/schemas/Humanities
@@ -2738,13 +2675,13 @@ ethical principles and values, including applicable regulation."""@en .
                       <http://www.w3.org/2004/02/skos/core#definition> "The process of selecting the optimal values for a machine learning model's hyperparameters."@en .
 
 
-###  http://aiod.eu/data/schemas/ICTSecurity
-:ICTSecurity rdf:type owl:NamedIndividual ,
-                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
-             <http://www.w3.org/2004/02/skos/core#notation> "con197"@en ;
-             rdfs:label "ICT Security"@en ;
-             <http://www.w3.org/2004/02/skos/core#definition> "Measures, controls and procedures applied on an enterprise’s ICT systems to ensure integrity, authenticity, availability and confidentiality of said enterprise’s data and system."@en .
+###  http://aiod.eu/data/schemas/ITandSecurity
+:ITandSecurity rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+               <http://www.w3.org/2004/02/skos/core#notation> "con197"@en ;
+               rdfs:label "IT and Security"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "Measures, controls and procedures applied on an enterprise’s ICT systems to ensure integrity, authenticity, availability and confidentiality of said enterprise’s data and system."@en .
 
 
 ###  http://aiod.eu/data/schemas/Iceland
@@ -2948,23 +2885,6 @@ ethical principles and values, including applicable regulation."""@en .
                       <http://www.w3.org/2004/02/skos/core#notation> "con217"@en ;
                       rdfs:label "Information Retrieval"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "The task of identifying and retrieving information system resources that are relevant to an information need."@en .
-
-
-###  http://aiod.eu/data/schemas/InformationTechnology
-:InformationTechnology rdf:type owl:NamedIndividual ,
-                                <http://www.w3.org/2004/02/skos/core#Concept> ;
-                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                       <http://www.w3.org/2004/02/skos/core#notation> "con218"@en ;
-                       rdfs:label "Information Technology"@en .
-
-
-###  http://aiod.eu/data/schemas/InfrastructureAndTechnologyManagement
-:InfrastructureAndTechnologyManagement rdf:type owl:NamedIndividual ,
-                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
-                                       <http://www.w3.org/2004/02/skos/core#notation> "con219"@en ;
-                                       rdfs:label "Infrastructure and Technology Management"@en ;
-                                       <http://www.w3.org/2004/02/skos/core#definition> "The process of keeping an organisation's IT infrastructure - hardware, data storage, operating systems, networks and communications, enterprise software and Internet platforms - running properly."@en .
 
 
 ###  http://aiod.eu/data/schemas/Infrastructures
@@ -3402,14 +3322,13 @@ ethical principles and values, including applicable regulation."""@en .
          rdfs:label "Lebanon"@en .
 
 
-###  http://aiod.eu/data/schemas/LegalAspects
-:LegalAspects rdf:type owl:NamedIndividual ,
-                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-              <http://www.w3.org/2004/02/skos/core#broader> :Services ;
-              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-              <http://www.w3.org/2004/02/skos/core#notation> "con484"@en ;
-              rdfs:label "Legal Aspects" ;
-              <http://www.w3.org/2004/02/skos/core#definition> "The provision of legal support and advice to individuals and businesses by law firms."@en .
+###  http://aiod.eu/data/schemas/LegalAndCompliance
+:LegalAndCompliance rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con219"@en ;
+                    rdfs:label "Legal & Compliance"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The part of a company that understands the laws and also implements systems and processes to adhere to them consistently."@en .
 
 
 ###  http://aiod.eu/data/schemas/LegalComplianceOfAISystems
@@ -3680,20 +3599,20 @@ experience."""@en .
 ###  http://aiod.eu/data/schemas/Maritime
 :Maritime rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#broader> :Transportation ;
+          <http://www.w3.org/2004/02/skos/core#broader> :TransportationAndStorage ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
           <http://www.w3.org/2004/02/skos/core#notation> "con482"@en ;
           rdfs:label "Maritime"@en ;
           rdfs:seeAlso "" .
 
 
-###  http://aiod.eu/data/schemas/MarketingSales
-:MarketingSales rdf:type owl:NamedIndividual ,
-                         <http://www.w3.org/2004/02/skos/core#Concept> ;
-                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
-                <http://www.w3.org/2004/02/skos/core#notation> "con269"@en ;
-                rdfs:label "Marketing, Sales"@en ;
-                <http://www.w3.org/2004/02/skos/core#definition> "The strategies and processes that generate persuasive prospects to buy a product or service"@en .
+###  http://aiod.eu/data/schemas/Marketing
+:Marketing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+           <http://www.w3.org/2004/02/skos/core#notation> "con269"@en ;
+           rdfs:label "Marketing"@en ;
+           <http://www.w3.org/2004/02/skos/core#definition> "The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large."@en .
 
 
 ###  http://aiod.eu/data/schemas/MarshallIslands
@@ -4314,7 +4233,7 @@ experience."""@en .
 ###  http://aiod.eu/data/schemas/Nuclear
 :Nuclear rdf:type owl:NamedIndividual ,
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-         <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+         <http://www.w3.org/2004/02/skos/core#broader> :ElectricityGasSteamAndAirConditioningSupply ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
          <http://www.w3.org/2004/02/skos/core#notation> "con474"@en ;
          rdfs:label "Nuclear"@en .
@@ -4341,7 +4260,7 @@ experience."""@en .
 ###  http://aiod.eu/data/schemas/OilGas
 :OilGas rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2004/02/skos/core#broader> :Energy ;
+        <http://www.w3.org/2004/02/skos/core#broader> :ElectricityGasSteamAndAirConditioningSupply ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con312"@en ;
         rdfs:label "Oil and Gas"@en .
@@ -4370,6 +4289,15 @@ experience."""@en .
             <http://www.w3.org/2004/02/skos/core#notation> "con314"@en ;
             rdfs:label "Ontologies"@en ;
             <http://www.w3.org/2004/02/skos/core#definition> "A representation, formal naming, and definitions of the categories, properties, and relations between the concepts, data, or entities that pertain to one, many, or all domains of discourse."@en .
+
+
+###  http://aiod.eu/data/schemas/Operations
+:Operations rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con851"@en ;
+            rdfs:label "Operations"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Activities for strategically and date to date management of company’s resources for making its processes"@en .
 
 
 ###  http://aiod.eu/data/schemas/Optimisation
@@ -4455,6 +4383,16 @@ experience."""@en .
                       <http://www.w3.org/2004/02/skos/core#inScheme> :ScientificDomain ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con323"@en ;
                       rdfs:label "Other Natural Sciences"@en .
+
+
+###  http://aiod.eu/data/schemas/OtherServicesActivities
+:OtherServicesActivities rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                         <http://www.w3.org/2004/02/skos/core#notation> "con400"@en ;
+                         rdfs:label "Other Services Activities"@en ;
+                         rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/S" ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "This sector includes the activities of membership organisations, the repair of computers and personal and household goods and a variety of personal service activities not covered elsewhere in the classification."@en .
 
 
 ###  http://aiod.eu/data/schemas/OtherSocialSciences
@@ -4561,17 +4499,6 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                    <http://www.w3.org/2004/02/skos/core#definition> "Advanced software programs that use artificial intelligence to perform daily personal tasks."@en .
 
 
-###  http://aiod.eu/data/schemas/PersonalServices
-:PersonalServices rdf:type owl:NamedIndividual ,
-                           <http://www.w3.org/2004/02/skos/core#Concept> ;
-                  <http://www.w3.org/2004/02/skos/core#broader> :Services ;
-                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                  <http://www.w3.org/2004/02/skos/core#notation> "con483"@en ;
-                  rdfs:label "Personal Services" ;
-                  rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/S.96"^^xsd:anyURI ;
-                  <http://www.w3.org/2004/02/skos/core#definition> "This division includes all service activities not mentioned elsewhere in the classification. Notably it includes types of services such as washing and (dry-)cleaning of textiles and fur products, hairdressing and other beauty treatment, funeral and related activities."@en .
-
-
 ###  http://aiod.eu/data/schemas/PersonalisedMarketingOffersAndRecommendations
 :PersonalisedMarketingOffersAndRecommendations rdf:type owl:NamedIndividual ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -4592,7 +4519,7 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 ###  http://aiod.eu/data/schemas/Pharmaceuticals
 :Pharmaceuticals rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
-                 <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :HumanHealthAndSocialWorkActivities ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con331"@en ;
                  rdfs:label "Pharmaceuticals"@en .
@@ -4838,6 +4765,15 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                             <http://www.w3.org/2004/02/skos/core#definition> "Refinement of features, processes or experiences to improve usability, performance or value."@en .
 
 
+###  http://aiod.eu/data/schemas/Production
+:Production rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+            <http://www.w3.org/2004/02/skos/core#notation> "con850"@en ;
+            rdfs:label "Production"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A process of turning raw materials and ideas into products and services."@en .
+
+
 ###  http://aiod.eu/data/schemas/ProductionProcesses
 :ProductionProcesses rdf:type owl:NamedIndividual ,
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -4852,7 +4788,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con355"@en ;
-                    rdfs:label "Production Security"@en .
+                    rdfs:label "Production Security"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The set of measures that organizations implement to protect their products from cyber threats at every stage of development and support."@en .
 
 
 ###  http://aiod.eu/data/schemas/ProductionSurveillance
@@ -4872,6 +4809,16 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                       rdfs:comment "Related to crop, assembly etc." ;
                       rdfs:label "Production Monitoring"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "An inspection performed to verify the production status and the inventory of raw materials."@en .
+
+
+###  http://aiod.eu/data/schemas/ProfessionalScientificAndTechnicalActivities
+:ProfessionalScientificAndTechnicalActivities rdf:type owl:NamedIndividual ,
+                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                              <http://www.w3.org/2004/02/skos/core#notation> "con118"@en ;
+                                              rdfs:label "Professional, scientific and technical activities"@en ;
+                                              rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/M" ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "This sector includes specialised professional, scientific and technical activities. These activities require a high degree of training, and make specialised knowledge and skills available to users."@en .
 
 
 ###  http://aiod.eu/data/schemas/ProstheticsAndExoskeletons
@@ -4901,15 +4848,15 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
             <http://www.w3.org/2004/02/skos/core#definition> "The scientific study of mind and behavior."@en .
 
 
-###  http://aiod.eu/data/schemas/PublicAdministration
-:PublicAdministration rdf:type owl:NamedIndividual ,
-                               <http://www.w3.org/2004/02/skos/core#Concept> ;
-                      <http://www.w3.org/2004/02/skos/core#broader> :Services ;
-                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                      <http://www.w3.org/2004/02/skos/core#notation> "con360"@en ;
-                      rdfs:label "Public Administration"@en ;
-                      rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.1"^^xsd:anyURI ;
-                      <http://www.w3.org/2004/02/skos/core#definition> "This group includes general administration (e.g. executive, legislative, financial administration etc. at all levels of government) and supervision in the field of social and economic life."@en .
+###  http://aiod.eu/data/schemas/PublicAdministrationAndDefenseAndCompulsorySocialSecurity
+:PublicAdministrationAndDefenseAndCompulsorySocialSecurity rdf:type owl:NamedIndividual ,
+                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                           <http://www.w3.org/2004/02/skos/core#broader> :OtherServicesActivities ;
+                                                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                                           <http://www.w3.org/2004/02/skos/core#notation> "con360"@en ;
+                                                           rdfs:label "Public administration and defense and compulsory social security"@en ;
+                                                           rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O" ;
+                                                           <http://www.w3.org/2004/02/skos/core#definition> "This sector includes activities of a governmental nature, normally carried out by the public administration. This includes the enactment and judicial interpretation of laws and their pursuant regulation, as well as the administration of programmes based on them, legislative activities, taxation, national defence, public order and safety, immigration services, foreign affairs and the administration of government programmes."@en .
 
 
 ###  http://aiod.eu/data/schemas/Publication
@@ -4936,6 +4883,15 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
             <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
             <http://www.w3.org/2004/02/skos/core#notation> "con775"@en ;
             rdfs:label "Puerto Rico"@en .
+
+
+###  http://aiod.eu/data/schemas/PurchasingandProcurement
+:PurchasingandProcurement rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con852"@en ;
+                          rdfs:label "Purchasing and Procurement"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Procurement is the strategic process of sourcing and acquiring goods and services, focusing on long-term benefits and relationships. Purchasing is the transactional component of this process and includes the act of buying these goods and services."@en .
 
 
 ###  http://aiod.eu/data/schemas/Qatar
@@ -4997,16 +4953,6 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                     <http://www.w3.org/2004/02/skos/core#notation> "con368"@en ;
                     rdfs:label "Recommender Systems"@en ;
                     <http://www.w3.org/2004/02/skos/core#definition> "A subclass of information filtering system that provides suggestions for items that are most pertinent to a particular user."@en .
-
-
-###  http://aiod.eu/data/schemas/Recreation
-:Recreation rdf:type owl:NamedIndividual ,
-                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-            <http://www.w3.org/2004/02/skos/core#notation> "con369"@en ;
-            rdfs:label "Recreation"@en ;
-            rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.2"^^xsd:anyURI ;
-            <http://www.w3.org/2004/02/skos/core#definition> "This group includes a wide range of units that operate facilities or provide services to meet the varied recreational interests of their patrons. It includes the operation of a variety of attractions, such as mechanical rides, water rides, games, shows, theme exhibits and picnic grounds."@en .
 
 
 ###  http://aiod.eu/data/schemas/RecruitingAutomation
@@ -5108,7 +5054,7 @@ acquires above human intelligence in Go."""@en .
 ###  http://aiod.eu/data/schemas/Retail
 :Retail rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
+        <http://www.w3.org/2004/02/skos/core#broader> :WholesaleAndRetailTradeRepairOfMotorVehicles ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con377"@en ;
         rdfs:label "Retail"@en ;
@@ -5123,14 +5069,6 @@ acquires above human intelligence in Go."""@en .
                 <http://www.w3.org/2004/02/skos/core#notation> "con378"@en ;
                 rdfs:label "Risk Assessment"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A process used to identify potential hazards and analyze what could happen if a disaster or hazard occurs."@en .
-
-
-###  http://aiod.eu/data/schemas/Robotics
-:Robotics rdf:type owl:NamedIndividual ,
-                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-          <http://www.w3.org/2004/02/skos/core#notation> "con379"@en ;
-          rdfs:label "Robotics"@en .
 
 
 ###  http://aiod.eu/data/schemas/RoboticsAutomation
@@ -5218,6 +5156,15 @@ acquires above human intelligence in Go."""@en .
          rdfs:label "Réunion"@en .
 
 
+###  http://aiod.eu/data/schemas/SCMandDistribution
+:SCMandDistribution rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "con849"@en ;
+                    rdfs:label "SCM & Distribution"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The part of supply chain management that deals with the efficient forward and reverse flow of goods, services, and related information."@en .
+
+
 ###  http://aiod.eu/data/schemas/Safety
 :Safety rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -5280,6 +5227,15 @@ acquires above human intelligence in Go."""@en .
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Country ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con789"@en ;
                               rdfs:label "Saint Vincent and the Grenadines"@en .
+
+
+###  http://aiod.eu/data/schemas/Sales
+:Sales rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessFunction ;
+       <http://www.w3.org/2004/02/skos/core#notation> "con847"@en ;
+       rdfs:label "Sales"@en ;
+       <http://www.w3.org/2004/02/skos/core#definition> "All activities and processes involved in selling products or services. It includes prospecting, engaging with potential customers, managing sales teams, and closing deals."@en .
 
 
 ###  http://aiod.eu/data/schemas/SalesForecasting
@@ -5374,14 +5330,6 @@ acquires above human intelligence in Go."""@en .
            rdfs:label "Searching"@en .
 
 
-###  http://aiod.eu/data/schemas/Security
-:Security rdf:type owl:NamedIndividual ,
-                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-          <http://www.w3.org/2004/02/skos/core#notation> "con393"@en ;
-          rdfs:label "Security"@en .
-
-
 ###  http://aiod.eu/data/schemas/Segmentation
 :Segmentation rdf:type owl:NamedIndividual ,
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -5454,18 +5402,10 @@ acquires above human intelligence in Go."""@en .
         rdfs:label "Serbia"@en .
 
 
-###  http://aiod.eu/data/schemas/Services
-:Services rdf:type owl:NamedIndividual ,
-                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-          <http://www.w3.org/2004/02/skos/core#notation> "con400"@en ;
-          rdfs:label "Services"@en .
-
-
 ###  http://aiod.eu/data/schemas/Sewerage
 :Sewerage rdf:type owl:NamedIndividual ,
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-          <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+          <http://www.w3.org/2004/02/skos/core#broader> :WaterSupplySewerageSasteManagementAndRemediationActivities ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
           <http://www.w3.org/2004/02/skos/core#notation> "con401"@en ;
           rdfs:label "Sewerage"@en ;
@@ -5545,7 +5485,7 @@ acquires above human intelligence in Go."""@en .
                 <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con404"@en ;
                 rdfs:label "Smart Buildings"@en ;
-                <http://www.w3.org/2004/02/skos/core#definition> "A structure equipped with innovative materials and technologies that allows for all its systems to be automated"@en .
+                <http://www.w3.org/2004/02/skos/core#definition> "A structure equipped with innovative materials and technologies that allows for all its systems to function automaticly under different operational conditions."@en .
 
 
 ###  http://aiod.eu/data/schemas/SocialAndEconomicGeography
@@ -5577,21 +5517,10 @@ acquires above human intelligence in Go."""@en .
                 <http://www.w3.org/2004/02/skos/core#definition> "A branch of science that deals with the institutions and functioning of human society and with the interpersonal relationships of individuals as members of society."@en .
 
 
-###  http://aiod.eu/data/schemas/SocialSecurity
-:SocialSecurity rdf:type owl:NamedIndividual ,
-                         <http://www.w3.org/2004/02/skos/core#Concept> ;
-                <http://www.w3.org/2004/02/skos/core#broader> :Services ;
-                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                <http://www.w3.org/2004/02/skos/core#notation> "con408"@en ;
-                rdfs:label "Social Security"@en ;
-                rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.30"^^xsd:anyURI ;
-                <http://www.w3.org/2004/02/skos/core#definition> "This class includes:- funding and administration of government-provided social security programmes: • sickness, work-accident and unemployment insurance • retirement pensions • programmes covering losses of income due to maternity, temporary disablement, widowhood etc."@en .
-
-
 ###  http://aiod.eu/data/schemas/SocialWork
 :SocialWork rdf:type owl:NamedIndividual ,
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-            <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+            <http://www.w3.org/2004/02/skos/core#broader> :HumanHealthAndSocialWorkActivities ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
             <http://www.w3.org/2004/02/skos/core#notation> "con409"@en ;
             rdfs:label "Social Work"@en .
@@ -5708,14 +5637,6 @@ acquires above human intelligence in Go."""@en .
             rdfs:label "South Sudan"@en .
 
 
-###  http://aiod.eu/data/schemas/Space
-:Space rdf:type owl:NamedIndividual ,
-                <http://www.w3.org/2004/02/skos/core#Concept> ;
-       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-       <http://www.w3.org/2004/02/skos/core#notation> "con417"@en ;
-       rdfs:label "Space"@en .
-
-
 ###  http://aiod.eu/data/schemas/Spain
 :Spain rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -5772,7 +5693,7 @@ acquires above human intelligence in Go."""@en .
 ###  http://aiod.eu/data/schemas/Sports
 :Sports rdf:type owl:NamedIndividual ,
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2004/02/skos/core#broader> :Recreation ;
+        <http://www.w3.org/2004/02/skos/core#broader> :ArtsEntertainmentAndRecreation ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con423"@en ;
         rdfs:label "Sports"@en ;
@@ -5820,7 +5741,7 @@ acquires above human intelligence in Go."""@en .
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con426"@en ;
                      rdfs:label "Storage Optimisation"@en ;
-                     <http://www.w3.org/2004/02/skos/core#definition> "The process of saving data in a way that allows it to occupy less space, cost less, and work more efficiently."@en .
+                     <http://www.w3.org/2004/02/skos/core#definition> "The process of saving data or materials in a way that allows it to occupy less space, cost less, and work more efficiently."@en .
 
 
 ###  http://aiod.eu/data/schemas/Storytelling
@@ -5940,7 +5861,7 @@ humans."""@en .
                      <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con433"@en ;
                      rdfs:label "Targeted  Advertising"@en ;
-                     <http://www.w3.org/2004/02/skos/core#definition> "A form of advertising that is directed towards an audience with certain traits, based on the product or person the advertiser is promoting."@en .
+                     <http://www.w3.org/2004/02/skos/core#definition> "Advertisments directed towards an audience with certain traits, based on the product, service, technology or person interests."@en .
 
 
 ###  http://aiod.eu/data/schemas/TaskandMotionPlanning
@@ -5957,18 +5878,8 @@ humans."""@en .
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con435"@en ;
-                 rdfs:label "Technology Trust"@en .
-
-
-###  http://aiod.eu/data/schemas/Telecommunications
-:Telecommunications rdf:type owl:NamedIndividual ,
-                             <http://www.w3.org/2004/02/skos/core#Concept> ;
-                    <http://www.w3.org/2004/02/skos/core#broader> :InformationTechnology ;
-                    <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                    <http://www.w3.org/2004/02/skos/core#notation> "con436"@en ;
-                    rdfs:label "Telecommunications"@en ;
-                    rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.61"^^xsd:anyURI ;
-                    <http://www.w3.org/2004/02/skos/core#definition> "This division includes the activities of providing telecommunications and related service activities, that is transmitting voice, data, text, sound and video. The transmission facilities that carry out these activities may be based on a single technology or a combination of technologies. The commonality of activities classified in this division is the transmission of content, without being involved in its creation. The breakdown in this division is based on the type of infrastructure operated.In the case of transmission of television signals this may include the bundling of complete programming channelsen in to programme packages for distribution."@en .
+                 rdfs:label "Technology Trust"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The attitude that an agent (HW/SW) will help achieve an individual's goals in a situation characterized by uncertainty and vulnerability."@en .
 
 
 ###  http://aiod.eu/data/schemas/TemporalDataMining
@@ -6085,16 +5996,6 @@ humans."""@en .
        rdfs:label "Tonga"@en .
 
 
-###  http://aiod.eu/data/schemas/Tourism
-:Tourism rdf:type owl:NamedIndividual ,
-                  <http://www.w3.org/2004/02/skos/core#Concept> ;
-         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-         <http://www.w3.org/2004/02/skos/core#notation> "con444"@en ;
-         rdfs:label "Tourism"@en ;
-         rdfs:seeAlso "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/tourism"^^xsd:anyURI ;
-         <http://www.w3.org/2004/02/skos/core#definition> "Passenger transport and travel- Hotel, short term accomodation- Restaurants and caterings- Events, theme parks"@en .
-
-
 ###  http://aiod.eu/data/schemas/TracingAutomation
 :TracingAutomation rdf:type owl:NamedIndividual ,
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
@@ -6104,22 +6005,13 @@ humans."""@en .
                    <http://www.w3.org/2004/02/skos/core#definition> "The use of technology to track and monitor the flow of processes, goods, or information automatically within a system."@en .
 
 
-###  http://aiod.eu/data/schemas/Trade
-:Trade rdf:type owl:NamedIndividual ,
-                <http://www.w3.org/2004/02/skos/core#Concept> ;
-       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-       <http://www.w3.org/2004/02/skos/core#notation> "con446"@en ;
-       rdfs:label "Trade"@en ;
-       rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G"^^xsd:anyURI ;
-       <http://www.w3.org/2004/02/skos/core#definition> "This section includes wholesale and retail sale (i.e. sale without transformation) of any type of goods, and rendering services incidental to the sale of merchandise. Wholesaling and retailing are the final steps in the distribution of merchandise. Also included in this section are the repair of motor vehicles and motorcycles.Sale without transformation is considered to include the usual operations (or manipulations) associated with trade, for example sorting, grading and assembling of goods, mixing (blending) of goods (for example sand), bottling (with or without preceding bottle cleaning), packing, breaking bulk and repacking for distribution in smaller lots, storage (whether or not frozen or chilled)."@en .
-
-
 ###  http://aiod.eu/data/schemas/Transcription
 :Transcription rdf:type owl:NamedIndividual ,
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
                <http://www.w3.org/2004/02/skos/core#notation> "con447"@en ;
-               rdfs:label "Transcription"@en .
+               rdfs:label "Transcription"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A representation in writing of the actual pronunciation of a speech sound, word, or piece of continuous text, using not a conventional orthography but a symbol or set of symbols specially designated as standing for corresponding phonetic values."@en .
 
 
 ###  http://aiod.eu/data/schemas/TransferLearning
@@ -6137,7 +6029,8 @@ humans."""@en .
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
              <http://www.w3.org/2004/02/skos/core#notation> "con449"@en ;
-             rdfs:label "Translation"@en .
+             rdfs:label "Translation"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "NLP Methods and Systems for translating (automatic) documents from one written language to another."@en .
 
 
 ###  http://aiod.eu/data/schemas/TranslationModel
@@ -6157,14 +6050,14 @@ humans."""@en .
               rdfs:seeAlso "The clarity and openness in how AI algorithms operate and make decisions."@en .
 
 
-###  http://aiod.eu/data/schemas/Transportation
-:Transportation rdf:type owl:NamedIndividual ,
-                         <http://www.w3.org/2004/02/skos/core#Concept> ;
-                <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-                <http://www.w3.org/2004/02/skos/core#notation> "con452"@en ;
-                rdfs:label "Transportation"@en ;
-                rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/H"^^xsd:anyURI ;
-                <http://www.w3.org/2004/02/skos/core#definition> "This section includes the provision of passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air and associated activities such as terminal and parking facilities, cargo handling, storage etc. Included in this section is the rental of transport equipment with driver or operator. Also included are postal and courier activities."@en .
+###  http://aiod.eu/data/schemas/TransportationAndStorage
+:TransportationAndStorage rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "con452"@en ;
+                          rdfs:label "Transportation and storage"@en ;
+                          rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/H"^^xsd:anyURI ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "This section includes the provision of passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air and associated activities such as terminal and parking facilities, cargo handling, storage etc. Included in this section is the rental of transport equipment with driver or operator. Also included are postal and courier activities."@en .
 
 
 ###  http://aiod.eu/data/schemas/TrinidadandTobago
@@ -6459,7 +6352,7 @@ labels. The objective is to discover the underlying data structure, for example,
 ###  http://aiod.eu/data/schemas/WasteManagement
 :WasteManagement rdf:type owl:NamedIndividual ,
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
-                 <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :WaterSupplySewerageSasteManagementAndRemediationActivities ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con467"@en ;
                  rdfs:label "Waste Management"@en ;
@@ -6467,25 +6360,25 @@ labels. The objective is to discover the underlying data structure, for example,
                  <http://www.w3.org/2004/02/skos/core#definition> "This division includes the collection, treatment, and disposal of waste materials."@en .
 
 
-###  http://aiod.eu/data/schemas/Water
-:Water rdf:type owl:NamedIndividual ,
-                <http://www.w3.org/2004/02/skos/core#Concept> ;
-       <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
-       <http://www.w3.org/2004/02/skos/core#notation> "con468"@en ;
-       rdfs:label "Water"@en ;
-       rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E"^^xsd:anyURI ;
-       <http://www.w3.org/2004/02/skos/core#definition> "This section includes activities related to the management (including collection, treatment and disposal) of various forms of waste, such as solid or non-solid industrial or household waste, as well as contaminated sites. The output of the waste or sewage treatment process can either be disposed of or become an input into other production processes."@en .
-
-
 ###  http://aiod.eu/data/schemas/WaterSupply
 :WaterSupply rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-             <http://www.w3.org/2004/02/skos/core#broader> :Water ;
+             <http://www.w3.org/2004/02/skos/core#broader> :WaterSupplySewerageSasteManagementAndRemediationActivities ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
              <http://www.w3.org/2004/02/skos/core#notation> "con469"@en ;
              rdfs:label "Water Supply"@en ;
              rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.36"@en ;
              <http://www.w3.org/2004/02/skos/core#definition> "This division includes the collection, treatment and distribution of water for domestic and industrial needs. Collection of water from various sources, as well as distribution by various means is included."@en .
+
+
+###  http://aiod.eu/data/schemas/WaterSupplySewerageSasteManagementAndRemediationActivities
+:WaterSupplySewerageSasteManagementAndRemediationActivities rdf:type owl:NamedIndividual ,
+                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                                            <http://www.w3.org/2004/02/skos/core#notation> "con468"@en ;
+                                                            rdfs:label "Water supply; sewerage, waste management and remediation activities"@en ;
+                                                            rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E"^^xsd:anyURI ;
+                                                            <http://www.w3.org/2004/02/skos/core#definition> "This section includes activities related to the management (including collection, treatment and disposal) of various forms of waste, such as solid or non-solid industrial or household waste, as well as contaminated sites. The output of the waste or sewage treatment process can either be disposed of or become an input into other production processes."@en .
 
 
 ###  http://aiod.eu/data/schemas/WeakArtificialIntelligence
@@ -6500,7 +6393,7 @@ labels. The objective is to discover the underlying data structure, for example,
 ###  http://aiod.eu/data/schemas/Wellbeing
 :Wellbeing rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-           <http://www.w3.org/2004/02/skos/core#broader> :Health ;
+           <http://www.w3.org/2004/02/skos/core#broader> :HumanHealthAndSocialWorkActivities ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
            <http://www.w3.org/2004/02/skos/core#notation> "con471"@en ;
            rdfs:label "Wellbeing"@en .
@@ -6517,12 +6410,22 @@ labels. The objective is to discover the underlying data structure, for example,
 ###  http://aiod.eu/data/schemas/Wholesale
 :Wholesale rdf:type owl:NamedIndividual ,
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-           <http://www.w3.org/2004/02/skos/core#broader> :Trade ;
+           <http://www.w3.org/2004/02/skos/core#broader> :WholesaleAndRetailTradeRepairOfMotorVehicles ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
            <http://www.w3.org/2004/02/skos/core#notation> "con472"@en ;
            rdfs:label "Wholesale"@en ;
            rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.46"^^xsd:anyURI ;
            <http://www.w3.org/2004/02/skos/core#definition> "This division includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export)."@en .
+
+
+###  http://aiod.eu/data/schemas/WholesaleAndRetailTradeRepairOfMotorVehicles
+:WholesaleAndRetailTradeRepairOfMotorVehicles rdf:type owl:NamedIndividual ,
+                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                              <http://www.w3.org/2004/02/skos/core#notation> "con446"@en ;
+                                              rdfs:label "Wholesale and retail trade; repair of motor vehicles"@en ;
+                                              rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G"^^xsd:anyURI ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "This section includes wholesale and retail sale (i.e. sale without transformation) of any type of goods, and rendering services incidental to the sale of merchandise. Wholesaling and retailing are the final steps in the distribution of merchandise. Also included in this section are the repair of motor vehicles and motorcycles.Sale without transformation is considered to include the usual operations (or manipulations) associated with trade, for example sorting, grading and assembling of goods, mixing (blending) of goods (for example sand), bottling (with or without preceding bottle cleaning), packing, breaking bulk and repacking for distribution in smaller lots, storage (whether or not frozen or chilled)."@en .
 
 
 ###  http://aiod.eu/data/schemas/WomenInAI
@@ -7329,6 +7232,16 @@ labels. The objective is to discover the underlying data structure, for example,
                                                <http://www.w3.org/2004/02/skos/core#notation> "con001"@en ;
                                                rdfs:label "3D Computer Vision"@en ;
                                                <http://www.w3.org/2004/02/skos/core#definition> "A specific area of computer science that is concerned with the acquisition, processing, and analysis of three-dimensional visual data."@en .
+
+
+###  http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryAndFishing
+<http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryAndFishing> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
+                                                                           <http://www.w3.org/2004/02/skos/core#notation> "con010"@en ;
+                                                                           rdfs:label "Agriculture, forestry and fishing"@en ;
+                                                                           rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A" ;
+                                                                           <http://www.w3.org/2004/02/skos/core#definition> "This sector includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats."@en .
 
 
 ###  http://aiod.eu/data/schemas/Côted’Ivoire
