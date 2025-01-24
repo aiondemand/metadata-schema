@@ -721,6 +721,12 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:range :Memory .
 
 
+###  http://aiod.eu/data/number_of_employees
+:number_of_employees rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Organisation ;
+                     rdfs:range :CompanyRevenue .
+
+
 ###  http://aiod.eu/data/offered_by
 :offered_by rdf:type owl:ObjectProperty ;
             rdfs:domain :EducationalResource ;
@@ -890,6 +896,12 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:domain :EducationalResource ;
            rdfs:range :Person ;
            rdfs:comment "The Person responsible for teaching the Educational Asset." .
+
+
+###  http://aiod.eu/data/turnover
+:turnover rdf:type owl:ObjectProperty ;
+          rdfs:domain :Organisation ;
+          rdfs:range :CompanyRevenue .
 
 
 ###  http://aiod.eu/data/under_classification
@@ -2217,6 +2229,16 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:subClassOf :ComputationalAsset .
 
 
+###  http://aiod.eu/data/CompanyRevenue
+:CompanyRevenue rdf:type owl:Class ;
+                rdfs:subClassOf :AIoDConcept .
+
+
+###  http://aiod.eu/data/CompanySize
+:CompanySize rdf:type owl:Class ;
+             rdfs:subClassOf :AIoDConcept .
+
+
 ###  http://aiod.eu/data/ComputationalAsset
 :ComputationalAsset rdf:type owl:Class ;
                     rdfs:subClassOf :AIAsset ;
@@ -2496,64 +2518,8 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Organisation
 :Organisation rdf:type owl:Class ;
-              rdfs:subClassOf :Agent ,
-                              _:genid39 ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :turnover ;
-                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
-                                                     owl:oneOf [ rdf:type rdf:List ;
-                                                                 rdf:first "<1 million euros" ;
-                                                                 rdf:rest [ rdf:type rdf:List ;
-                                                                            rdf:first ">1 million euros" ;
-                                                                            rdf:rest [ rdf:type rdf:List ;
-                                                                                       rdf:first ">1.5 billion euros" ;
-                                                                                       rdf:rest [ rdf:type rdf:List ;
-                                                                                                  rdf:first ">3 million euros" ;
-                                                                                                  rdf:rest [ rdf:type rdf:List ;
-                                                                                                             rdf:first ">5 million euros" ;
-                                                                                                             rdf:rest [ rdf:type rdf:List ;
-                                                                                                                        rdf:first ">50 million euros" ;
-                                                                                                                        rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                   rdf:first "N/A" ;
-                                                                                                                                   rdf:rest rdf:nil
-                                                                                                                                 ]
-                                                                                                                      ]
-                                                                                                           ]
-                                                                                                ]
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                   ]
-                              ] ;
+              rdfs:subClassOf :Agent ;
               rdfs:comment "An association of people with a specific purpose." .
-
-_:genid39 rdf:type owl:Restriction ;
-           owl:onProperty :number_of_employees ;
-           owl:someValuesFrom [ rdf:type rdfs:Datatype ;
-                                owl:oneOf [ rdf:type rdf:List ;
-                                            rdf:first "<10" ;
-                                            rdf:rest [ rdf:type rdf:List ;
-                                                       rdf:first "<250" ;
-                                                       rdf:rest [ rdf:type rdf:List ;
-                                                                  rdf:first "<50" ;
-                                                                  rdf:rest [ rdf:type rdf:List ;
-                                                                             rdf:first ">250" ;
-                                                                             rdf:rest [ rdf:type rdf:List ;
-                                                                                        rdf:first "N/A" ;
-                                                                                        rdf:rest rdf:nil
-                                                                                      ]
-                                                                           ]
-                                                                ]
-                                                     ]
-                                          ]
-                              ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource :Organisation ;
-   owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid39 ;
-   rdfs:comment ""
- ] .
 
 
 ###  http://aiod.eu/data/Person
