@@ -28,7 +28,7 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con016"@en ;
                    rdfs:label "AI and Epistemology"@en ;
-                   <http://www.w3.org/2004/02/skos/core#definition> "The implications of artificial intelligence on knowledge theory."@en .
+                   <http://www.w3.org/2004/02/skos/core#definition> "The use of artificial intelligence on supporting Epistemology."@en .
 
 
 ###  http://aiod.eu/data/schemas/AIApplication
@@ -36,7 +36,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con017"@en ;
-               rdfs:label "AI Application"@en .
+               rdfs:label "AI Application"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "The use off AI technology for solving problems in industry, business, administration or science in academia."@en .
 
 
 ###  http://aiod.eu/data/schemas/AIBenchmark
@@ -44,7 +45,8 @@
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con018"@en ;
-             rdfs:label "AI Benchmark"@en .
+             rdfs:label "AI Benchmark"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "Predefined enviroments and training data to test the performance of AI models and techniques."@en .
 
 
 ###  http://aiod.eu/data/schemas/AICompetition
@@ -52,7 +54,8 @@
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con019"@en ;
-               rdfs:label "AI Competition"@en .
+               rdfs:label "AI Competition"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "Specified application enviroments with real data in order different AI approaches compete for the best performance."@en .
 
 
 ###  http://aiod.eu/data/schemas/AIServices
@@ -79,7 +82,7 @@
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con022"@en ;
                    rdfs:label "AI Trustworthiness"@en ;
-                   <http://www.w3.org/2004/02/skos/core#definition> "An approach to AI development that prioritizes safety and transparency for the people who interact with it."@en .
+                   <http://www.w3.org/2004/02/skos/core#definition> "An approach to AI development that prioritizes safety, reliability, trust and transparency in order the resulted application, service or system be adopted by the people who interact with it."@en .
 
 
 ###  http://aiod.eu/data/schemas/AccomodationFood
@@ -1410,7 +1413,8 @@ informal context."""@en .
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con099"@en ;
-                    rdfs:label "Creativity Planning"@en .
+                    rdfs:label "Creativity Planning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Creativity planning is a deliberative technique often embedded within a larger participatory planning process. It's goal is to relieve participants of practical or analytical constraints so that brainstorming and idea generation can flow organically."@en .
 
 
 ###  http://aiod.eu/data/schemas/Croatia
@@ -1944,7 +1948,8 @@ informal context."""@en .
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
              <http://www.w3.org/2004/02/skos/core#notation> "con148"@en ;
-             rdfs:label "Equilibrium"@en .
+             rdfs:label "Equilibrium"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A method in which opposing opinions or decision states are becmming balanced."@en .
 
 
 ###  http://aiod.eu/data/schemas/Eritrea
@@ -2165,7 +2170,8 @@ ethical principles and values, including applicable regulation."""@en .
                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                <http://www.w3.org/2004/02/skos/core#notation> "con162"@en ;
-               rdfs:label "Formal Grammar"@en .
+               rdfs:label "Formal Grammar"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "A formal language in the context of computing and artificial intelligence is a mathematical abstraction used to define a set of strings, or sequences of symbols, constructed from a finite set known as an alphabet."@en .
 
 
 ###  http://aiod.eu/data/schemas/FoundationModels
@@ -2583,7 +2589,8 @@ ethical principles and values, including applicable regulation."""@en .
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con192"@en ;
-                    rdfs:label "Human-Machine Teams"@en .
+                    rdfs:label "Human-Machine Teams"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Human-machine teams have the opportunity to look at automation in an entirely new way. Rather than simply automating work completed by human teams and cutting costs, it uses technology to augment human intelligence — prioritizing high-value outputs over immediate cost savings."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-RobotInteraction
@@ -2708,7 +2715,8 @@ ethical principles and values, including applicable regulation."""@en .
                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                          <http://www.w3.org/2004/02/skos/core#notation> "con200"@en ;
-                         rdfs:label "Image and Vision Generation"@en .
+                         rdfs:label "Image and Vision Generation"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Image generation use deep learning algorithms to produce digital images from scratch  or modify existing ones while vision generation extract meaningful information from generated images and make decisions based on that data."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageAndVideoSynthesis
@@ -2716,7 +2724,8 @@ ethical principles and values, including applicable regulation."""@en .
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con199"@en ;
-                        rdfs:label "Image and Video Synthesis"@en .
+                        rdfs:label "Image and Video Synthesis"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "Image and video Synthesis is a collection of interested images and video about a theme. However, a video is a sequence of images (called frames) captured and eventually displayed at a given frequency. By stopping at a specific frame of the sequence, a single video frame, i.e. an image, is obtained."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImageEnhancement
@@ -2895,7 +2904,8 @@ ethical principles and values, including applicable regulation."""@en .
                  <http://www.w3.org/2004/02/skos/core#broader> :Construction ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con220"@en ;
-                 rdfs:label "Infrastructures"@en .
+                 rdfs:label "Infrastructures"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The constructure industry that deals with physical and organizational structures and facilities (e.g. buildings, roads, power supplies) needed for the operation of a society or enterprise."@en .
 
 
 ###  http://aiod.eu/data/schemas/InspectionOfTasks
@@ -3605,7 +3615,7 @@ experience."""@en .
           <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
           <http://www.w3.org/2004/02/skos/core#notation> "con482"@en ;
           rdfs:label "Maritime"@en ;
-          rdfs:seeAlso "" .
+          <http://www.w3.org/2004/02/skos/core#definition> "The industry that deals with anything related to the ocean, sea, and rivers. Maritime includes the ships, ports, companies, and individuals that are involved in the industry..It followes a collection of laws, conventions, and treaties that were put together by international bodies, such as the International Maritime Organization (IMO), to regulate and resolve all aspects of maritime trade, enviromental disputes or accidents that occur in oceans, seas, rivers, and other waterways. Maritime shipping plays a pivotal role in thiw industry, while security is supported by maritime tracking that explois Artificial Intelligence methods and algorithms."@en .
 
 
 ###  http://aiod.eu/data/schemas/Marketing
@@ -4240,7 +4250,8 @@ experience."""@en .
          <http://www.w3.org/2004/02/skos/core#broader> :ElectricityGasSteamAndAirConditioningSupply ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
          <http://www.w3.org/2004/02/skos/core#notation> "con474"@en ;
-         rdfs:label "Nuclear"@en .
+         rdfs:label "Nuclear"@en ;
+         <http://www.w3.org/2004/02/skos/core#definition> "It includes all industrial infrasrtucture and processes from design, construction, operation, envaronmental support security and resiliance of an Electricity  production company based in Nuclear Technology."@en .
 
 
 ###  http://aiod.eu/data/schemas/ObjectCategorization
@@ -4267,7 +4278,8 @@ experience."""@en .
         <http://www.w3.org/2004/02/skos/core#broader> :ElectricityGasSteamAndAirConditioningSupply ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessSector ;
         <http://www.w3.org/2004/02/skos/core#notation> "con312"@en ;
-        rdfs:label "Oil and Gas"@en .
+        rdfs:label "Oil and Gas"@en ;
+        <http://www.w3.org/2004/02/skos/core#definition> "It includes all procesees, environmental research and preparatory research work before set up a construction infrastructure for Oil or Gas mining."@en .
 
 
 ###  http://aiod.eu/data/schemas/Oman
