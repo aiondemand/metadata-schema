@@ -2359,7 +2359,8 @@ ethical principles and values, including applicable regulation."""@en .
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con173"@en ;
-                      rdfs:label "Grammatical Inference"@en .
+                      rdfs:label "Grammatical Inference"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Grammatical inference is the process in machine learning of learning a formal grammar from a set of observations; however, grammatical inference has often been very focused on the problem of learning finite-state machines of various types."@en .
 
 
 ###  http://aiod.eu/data/schemas/Graph-basedMachineLearning
@@ -2581,7 +2582,8 @@ ethical principles and values, including applicable regulation."""@en .
                                       <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                                       <http://www.w3.org/2004/02/skos/core#notation> "con186"@en ;
                                       rdfs:label "Human- Machine Interaction and Cognition"@en ;
-                                      <http://www.w3.org/2004/02/skos/core#altLabel> "Integration and Interaction"@en .
+                                      <http://www.w3.org/2004/02/skos/core#altLabel> "Integration and Interaction"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "Key cognitive processes that are considered in HMI include attention, perception, memory, learning, and problem-solving."@en .
 
 
 ###  http://aiod.eu/data/schemas/Human-MachineTeams
@@ -2805,7 +2807,8 @@ ethical principles and values, including applicable regulation."""@en .
                      <http://www.w3.org/2004/02/skos/core#Concept> ;
             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
             <http://www.w3.org/2004/02/skos/core#notation> "con209"@en ;
-            rdfs:label "Impact of AI"@en .
+            rdfs:label "Impact of AI"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Surveys and studies about the impact of AI on  jobs, societies, enviroment, public administration and  business or industry."@en .
 
 
 ###  http://aiod.eu/data/schemas/ImperfectInformation
@@ -2958,7 +2961,8 @@ ethical principles and values, including applicable regulation."""@en .
                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                                 <http://www.w3.org/2004/02/skos/core#notation> "con226"@en ;
-                                rdfs:label "Intelligent Software Development"@en .
+                                rdfs:label "Intelligent Software Development"@en ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "Use AI tools in the process of S/W development such as UI design, video generation, code and security testing, or deploying new S/W systems."@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentUserInterface
@@ -2975,7 +2979,8 @@ ethical principles and values, including applicable regulation."""@en .
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con228"@en ;
-                     rdfs:label "Interactive Learning"@en .
+                     rdfs:label "Interactive Learning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Algorithms that can interact with agents and can optimize their learning behavior through these interactions, where the agents can also be human.” This “human-in-the-loop” can be beneficial in solving computationally hard problems"@en .
 
 
 ###  http://aiod.eu/data/schemas/InternalFraudDetection
@@ -3294,7 +3299,8 @@ ethical principles and values, including applicable regulation."""@en .
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con248"@en ;
-                     rdfs:label "Learning Preferences"@en .
+                     rdfs:label "Learning Preferences"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Preference learning is a subfield of machine learning that focuses on modeling and predicting preferences based on observed preference information. Preference learning typically involves supervised learning using datasets of pairwise preference comparisons."@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningTheory
@@ -3423,7 +3429,8 @@ ethical principles and values, including applicable regulation."""@en .
                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con255"@en ;
-                       rdfs:label "Linguistic Interaction"@en .
+                       rdfs:label "Linguistic Interaction"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The dynamic process through which individuals communicate using language, combining verbal and non-verbal elements to convey meaning."@en .
 
 
 ###  http://aiod.eu/data/schemas/LinkedOpenData
@@ -3457,7 +3464,8 @@ ethical principles and values, including applicable regulation."""@en .
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con258"@en ;
-                rdfs:label "Low Level Vision"@en .
+                rdfs:label "Low Level Vision"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Low level vision consists primarily of image processing operations performed on the input images based on favorable feature characteristics. Low-level features are useful for tasks such as image segmentation, object detection, and feature matching."@en .
 
 
 ###  http://aiod.eu/data/schemas/Luxembourg
@@ -3648,7 +3656,8 @@ experience."""@en .
                       <http://www.w3.org/2004/02/skos/core#Concept> ;
              <http://www.w3.org/2004/02/skos/core#inScheme> :BusinessProblem ;
              <http://www.w3.org/2004/02/skos/core#notation> "con270"@en ;
-             rdfs:label "Matchmaking"@en .
+             rdfs:label "Matchmaking"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A method to identify and connect (match) companies and people with common business interests, complementary services, expertise, technologies or business strengths."@en .
 
 
 ###  http://aiod.eu/data/schemas/MaterialsEngineering
@@ -3710,7 +3719,8 @@ experience."""@en .
                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                  <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                  <http://www.w3.org/2004/02/skos/core#notation> "con274"@en ;
-                 rdfs:label "Mechanism Desing"@en .
+                 rdfs:label "Mechanism Desing"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Mechanism design is a subfield of artificial intelligence that focuses on designing systems to achieve specific goals in situations where there are multiple agents or parties involved, each with their own interests and incentives. The tools and lessons of mechanism design are especially useful in auction theory, market design, and social choice theory."@en .
 
 
 ###  http://aiod.eu/data/schemas/Mechatronics
@@ -3922,7 +3932,8 @@ experience."""@en .
                     <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con287"@en ;
-                    rdfs:label "Multi-agent Systems"@en .
+                    rdfs:label "Multi-agent Systems"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A Multi-Agent System (MAS) is a type of computer system where multiple independent entities, called agents, work together or compete in a shared environment to reach their goals."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-classLearning
@@ -3930,7 +3941,8 @@ experience."""@en .
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con288"@en ;
-                     rdfs:label "Multi-class Learning"@en .
+                     rdfs:label "Multi-class Learning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "In machine learning and statistical classification, multiclass classification or multinomial classification is the problem of classifying instances into one of three or more classes."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-instanceLearning
@@ -3947,7 +3959,8 @@ experience."""@en .
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con290"@en ;
-                     rdfs:label "Multi-label Learning"@en .
+                     rdfs:label "Multi-label Learning"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Multi-label learning studies the problem where each example is represented by a single instance while associated with a set of labels simultaneously. Multi-label learning  aims to predict multiple labels from a single input data point."@en .
 
 
 ###  http://aiod.eu/data/schemas/Multi-modalVision
@@ -4295,7 +4308,8 @@ experience."""@en .
                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                           <http://www.w3.org/2004/02/skos/core#notation> "con313"@en ;
-                          rdfs:label "Online Learning and Bandits"@en .
+                          rdfs:label "Online Learning and Bandits"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Online learning provides a method to study repeated decision making. The k-armed bandit problem highlights the exploration-exploitation trade-off, a fundamental dilemma in reinforcement learning"@en .
 
 
 ###  http://aiod.eu/data/schemas/Ontologies
@@ -4323,7 +4337,8 @@ experience."""@en .
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                              :ResearchArea ;
               <http://www.w3.org/2004/02/skos/core#notation> "con315"@en ;
-              rdfs:label "Optimisation"@en .
+              rdfs:label "Optimisation"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The action of taking the best decision amongst alternative use of a situation, a plan or a product."@en .
 
 
 ###  http://aiod.eu/data/schemas/OrganisationOfBusinessAdministrationProcesses
@@ -4555,7 +4570,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                               <http://www.w3.org/2004/02/skos/core#notation> "con332"@en ;
-                              rdfs:label "Philosophical Foundations of AI"@en .
+                              rdfs:label "Philosophical Foundations of AI"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "Exploring the Ethical, Logical, and Conceptual Underpinnings of AI Technologies and Their Societal Impacts"@en .
 
 
 ###  http://aiod.eu/data/schemas/PhilosophyEthicsAndReligion
@@ -4591,7 +4607,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                               <http://www.w3.org/2004/02/skos/core#Concept> ;
                      <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                      <http://www.w3.org/2004/02/skos/core#notation> "con336"@en ;
-                     rdfs:label "Physics-based Vision"@en .
+                     rdfs:label "Physics-based Vision"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Physics-based vision is one branch in Computer Vision, which formulates image formation processes from original 3D worlds to 2D images using physics, optics and mathematics, and then to rigorously solve the inverse equations of these processes for recovering the original 3D worlds from given 2D images."@en .
 
 
 ###  http://aiod.eu/data/schemas/Pilots
@@ -4617,7 +4634,7 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
           <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
           <http://www.w3.org/2004/02/skos/core#notation> "con337"@en ;
           rdfs:label "Planning"@en ;
-          <http://www.w3.org/2004/02/skos/core#definition> "The ability to expect the consequences of series of actions"@en .
+          <http://www.w3.org/2004/02/skos/core#definition> "Planning defines the requirements, effort, cost, processes' depentencies and the risks of a project towards targeted goal(s)."@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanningAndScheduling
@@ -4627,7 +4644,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                       :ResearchArea ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con338"@en ;
-                       rdfs:label "Planning and Scheduling"@en .
+                       rdfs:label "Planning and Scheduling"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "Planning is to define what are we going to make, defining required effort, cost and targeted completion; sceduling then is to forsee all the required tasks/actions over time to fulfill the plan."@en .
 
 
 ###  http://aiod.eu/data/schemas/PlatformAsAService
@@ -4708,7 +4726,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
          <http://www.w3.org/2004/02/skos/core#notation> "con344"@en ;
-         rdfs:label "Privacy"@en .
+         rdfs:label "Privacy"@en ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Privacy is the ability of an individual User or group of Users to define and secure common information about themselves."@en .
 
 
 ###  http://aiod.eu/data/schemas/Privacy-AwareML
@@ -4943,7 +4962,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                    <http://www.w3.org/2004/02/skos/core#Concept> ;
           <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
           <http://www.w3.org/2004/02/skos/core#notation> "con365"@en ;
-          rdfs:label "Rankings"@en .
+          rdfs:label "Rankings"@en ;
+          <http://www.w3.org/2004/02/skos/core#definition> "A list of methods, algorithms, tasks, etc that are ordered according to their quality, ability, size or performance in general."@en .
 
 
 ###  http://aiod.eu/data/schemas/RealEstate
@@ -4961,7 +4981,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                     <http://www.w3.org/2004/02/skos/core#Concept> ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
            <http://www.w3.org/2004/02/skos/core#notation> "con367"@en ;
-           rdfs:label "Reasoning"@en .
+           rdfs:label "Reasoning"@en ;
+           <http://www.w3.org/2004/02/skos/core#definition> "Reasoning is the process of using existing knowledge to draw conclusions, make predictions, or construct explanations."@en .
 
 
 ###  http://aiod.eu/data/schemas/RecommenderSystems
@@ -4987,7 +5008,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con371"@en ;
-                   rdfs:label "Recursive Learning"@en .
+                   rdfs:label "Recursive Learning"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Recursive learning is an attractive alternative learning technique to decision trees. Using recursive learning with sufficient depth of recursion guarantees its resulted efficiency that is compared with the conventional branch-and-bound technique."@en .
 
 
 ###  http://aiod.eu/data/schemas/RefinementPlanning
@@ -4995,7 +5017,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con372"@en ;
-                    rdfs:label "Refinement Planning"@en .
+                    rdfs:label "Refinement Planning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A process where the user adjusts or rephrases their prompt to obtain a more accurate or relevant response from the AI Assistant."@en .
 
 
 ###  http://aiod.eu/data/schemas/ReinforcementLearning
@@ -5016,7 +5039,8 @@ acquires above human intelligence in Go."""@en .
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con374"@en ;
-                    rdfs:label "Relational Learning"@en .
+                    rdfs:label "Relational Learning"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Relational learning refers to learning in a context where there may be relationships between learning examples, or where these examples may have a complex internal structure."@en .
 
 
 ###  http://aiod.eu/data/schemas/RepresentationLearning
@@ -5095,7 +5119,8 @@ acquires above human intelligence in Go."""@en .
                     <http://www.w3.org/2004/02/skos/core#broader> :Human-MachineInteractionAndCognition ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con380"@en ;
-                    rdfs:label "Robotics Automation"@en .
+                    rdfs:label "Robotics Automation"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Robotics Automation uses intelligent automation technologies/agents to perform repetitive office or field industrial tasks of human workers."@en .
 
 
 ###  http://aiod.eu/data/schemas/Robustness
@@ -5129,7 +5154,8 @@ acquires above human intelligence in Go."""@en .
                   <http://www.w3.org/2004/02/skos/core#Concept> ;
          <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
          <http://www.w3.org/2004/02/skos/core#notation> "con383"@en ;
-         rdfs:label "Routing"@en .
+         rdfs:label "Routing"@en ;
+         <http://www.w3.org/2004/02/skos/core#definition> "Routing is the process of selecting a path in a network or between or across multiple networks"@en .
 
 
 ###  http://aiod.eu/data/schemas/Rule-basedReasoning
@@ -5188,7 +5214,8 @@ acquires above human intelligence in Go."""@en .
                  <http://www.w3.org/2004/02/skos/core#Concept> ;
         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
         <http://www.w3.org/2004/02/skos/core#notation> "con386"@en ;
-        rdfs:label "Safety"@en .
+        rdfs:label "Safety"@en ;
+        <http://www.w3.org/2004/02/skos/core#definition> "A state in which or a place where you are safe and not in danger or at risk. However, in the era of AI Safety will ensure code quality and security, developers and organizations adopt a \"trust and verify\" approach to AI-generated code."@en .
 
 
 ###  http://aiod.eu/data/schemas/SaintBarthélemy
@@ -5329,7 +5356,8 @@ acquires above human intelligence in Go."""@en .
                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                             <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                             <http://www.w3.org/2004/02/skos/core#notation> "con391"@en ;
-                            rdfs:label "Scheduling under Uncertainty"@en .
+                            rdfs:label "Scheduling under Uncertainty"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Scheduling is to optimally allocate limited resources to processing tasks over time. Scheduling under uncertainty usally appear in process engineering with the use of equipment, the utilization of raw material or intermediates, the employment of operators, etc. To deal with  this problem AI uses probabilistic model or other relevant techniques."@en .
 
 
 ###  http://aiod.eu/data/schemas/ScientificDomain
@@ -5345,7 +5373,8 @@ acquires above human intelligence in Go."""@en .
            <http://www.w3.org/2004/02/skos/core#broader> :Planning ;
            <http://www.w3.org/2004/02/skos/core#inScheme> :ResearchArea ;
            <http://www.w3.org/2004/02/skos/core#notation> "con392"@en ;
-           rdfs:label "Searching"@en .
+           rdfs:label "Searching"@en ;
+           <http://www.w3.org/2004/02/skos/core#definition> "Search is the task for the discoverability of your interests in a business or research domain."@en .
 
 
 ###  http://aiod.eu/data/schemas/Segmentation
@@ -5610,7 +5639,8 @@ acquires above human intelligence in Go."""@en .
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con414"@en ;
-                rdfs:label "Sound Semantics"@en .
+                rdfs:label "Sound Semantics"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Taxonomies and ontologies for the characterization of everyday sounds have been developed in several research fields, including auditory cognition, soundscape research, artificial hearing, sound design, etc. in order to accurately identify and categorize music, human speech, and environmental or other noises."@en .
 
 
 ###  http://aiod.eu/data/schemas/SoundSimilarityAssessment
@@ -5688,7 +5718,8 @@ acquires above human intelligence in Go."""@en .
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                  :ResearchArea ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con420"@en ;
-                  rdfs:label "Speech Processing"@en .
+                  rdfs:label "Speech Processing"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "The subdomain of communication that reserches and devepols algorithms and systems for listening, recogrising, understanding and expressing human language via speech."@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechTransmition
@@ -5696,7 +5727,8 @@ acquires above human intelligence in Go."""@en .
                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                    <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                    <http://www.w3.org/2004/02/skos/core#notation> "con421"@en ;
-                   rdfs:label "Speech Transmition"@en .
+                   rdfs:label "Speech Transmition"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Speech transmission deals with efficient coding of the speech signal and allow speech / sound transmission at low transmission rates over networks."@en .
 
 
 ###  http://aiod.eu/data/schemas/SpokenLanguageProcessing
@@ -5767,7 +5799,8 @@ acquires above human intelligence in Go."""@en .
                        <http://www.w3.org/2004/02/skos/core#Concept> ;
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con427"@en ;
-              rdfs:label "Storytelling"@en .
+              rdfs:label "Storytelling"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "Storytelling is the interactive art of using words and actions to reveal the elements and images of a story while encouraging the listener's imagination; however, as AI continues to evolve, we may see more compelling stories generated by machines, which could pose serious challenges, especially when they're used to spread misinformation."@en .
 
 
 ###  http://aiod.eu/data/schemas/StrongArtificialIntelligence
@@ -5822,7 +5855,8 @@ humans."""@en .
                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                 <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                 <http://www.w3.org/2004/02/skos/core#notation> "con431"@en ;
-                rdfs:label "Sustainability"@en .
+                rdfs:label "Sustainability"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Adopting a Digital Performance Model/prrocess for Maximum Asset Performance."@en .
 
 
 ###  http://aiod.eu/data/schemas/SvalbardandJanMayenIslands
@@ -5854,7 +5888,8 @@ humans."""@en .
                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
                         <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                         <http://www.w3.org/2004/02/skos/core#notation> "con432"@en ;
-                        rdfs:label "Symbolic Representation"@en .
+                        rdfs:label "Symbolic Representation"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "Symbolic representation use of symbols to represent knowledge and reasoning. It focuses on manipulating symbols and rules to perform complex tasks such as logical reasoning, problem-solving, and language understanding. Unlike other AI approaches, symbolic AI emphasizes the use of explicit knowledge representation and logical inference."@en .
 
 
 ###  http://aiod.eu/data/schemas/SyrianArabRepublic
@@ -5914,7 +5949,8 @@ humans."""@en .
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con438"@en ;
-                  rdfs:label "Temporal Planning"@en .
+                  rdfs:label "Temporal Planning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Temporal Planning deals with actions and events do occur over a time span; however,  preconditions may occur not only at beginning and effects may resulted during or even after the action."@en .
 
 
 ###  http://aiod.eu/data/schemas/TensorProcessingUnit
@@ -5922,7 +5958,8 @@ humans."""@en .
                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                       <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                       <http://www.w3.org/2004/02/skos/core#notation> "con439"@en ;
-                      rdfs:label "Tensor Process Unit"@en .
+                      rdfs:label "Tensor Process Unit"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Tensor Processing Unit (TPU) is an AI accelerator application-specific integrated circuit (ASIC) developed by Google for neural network machine learning, using Google's own TensorFlow software."@en .
 
 
 ###  http://aiod.eu/data/schemas/TestingAutomation
@@ -5968,7 +6005,7 @@ humans."""@en .
                        <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                        <http://www.w3.org/2004/02/skos/core#notation> "con443"@en ;
                        rdfs:label "Timeline Based Planning"@en ;
-                       <http://www.w3.org/2004/02/skos/core#definition> "A process that involves creating, expanding, and classifying text-based equations using algorithms"@en .
+                       <http://www.w3.org/2004/02/skos/core#definition> "Timeline-based planning is an approach originally developed in the context of space mission planning and scheduling, where problem domains are modelled as systems made of a number of independent but interacting components, whose behaviour over time, the timelines, is governed by a set of temporal constraints."@en .
 
 
 ###  http://aiod.eu/data/schemas/Timor-Leste
@@ -6039,7 +6076,8 @@ humans."""@en .
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ,
                                                                  :ResearchArea ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con448"@en ;
-                  rdfs:label "Transfer Learning"@en .
+                  rdfs:label "Transfer Learning"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Transfer learning is a machine learning technique in which knowledge gained through one task or dataset is used to improve model performance on another related task and/or different dataset."@en .
 
 
 ###  http://aiod.eu/data/schemas/Translation
@@ -6056,7 +6094,8 @@ humans."""@en .
                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                   <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                   <http://www.w3.org/2004/02/skos/core#notation> "con450"@en ;
-                  rdfs:label "Translation Model"@en .
+                  rdfs:label "Translation Model"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "NLP models are capable of machine translation, the process encompassing translation between different languages."@en .
 
 
 ###  http://aiod.eu/data/schemas/Transparency
@@ -6065,7 +6104,7 @@ humans."""@en .
               <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
               <http://www.w3.org/2004/02/skos/core#notation> "con451"@en ;
               rdfs:label "Transparency"@en ;
-              rdfs:seeAlso "The clarity and openness in how AI algorithms operate and make decisions."@en .
+              <http://www.w3.org/2004/02/skos/core#definition> "Transparency involves openness and the willingness to share information, both positive and negative, with all relevant parties; therefor. transpsrency supports ethical culture that is based on honesty, fairness, integrity, and respect for all stakeholders."@en .
 
 
 ###  http://aiod.eu/data/schemas/TransportationAndStorage
@@ -6303,7 +6342,8 @@ labels. The objective is to discover the underlying data structure, for example,
                              <http://www.w3.org/2004/02/skos/core#Concept> ;
                     <http://www.w3.org/2004/02/skos/core#inScheme> :Approach ;
                     <http://www.w3.org/2004/02/skos/core#notation> "con461"@en ;
-                    rdfs:label "Video Understanding"@en .
+                    rdfs:label "Video Understanding"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Video Understanding is to recognise and localise (in space and time) different actions or events appearing in the video."@en .
 
 
 ###  http://aiod.eu/data/schemas/VietNam
