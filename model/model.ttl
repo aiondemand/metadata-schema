@@ -3155,32 +3155,7 @@ owl:topDataProperty rdfs:domain :Agent .
 rdfs:Class rdf:type owl:Class .
 
 
-###  http://www.w3.org/ns/dcat#Dataset
-dcat:Dataset rdf:type owl:Class .
 
-
-###  http://www.w3.org/ns/dcat#Resource
-dcat:Resource rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Agent
-foaf:Agent rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Image
-foaf:Image rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Organisation
-foaf:Organisation rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Project
-foaf:Project rdf:type owl:Class .
 
 
 #################################################################
