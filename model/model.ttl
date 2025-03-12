@@ -6,13 +6,38 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @base <http://aiod.eu/data/> .
 
 <http://aiod.eu/data/> rdf:type owl:Ontology ;
-                        <http://purl.org/dc/elements/1.1/creator> "Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou" ;
-                        <http://purl.org/dc/elements/1.1/title> "AIoD Metadata Model" ;
-                        <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en ;
-                        owl:versionInfo "v3.0" .
+    
+    # Versioning
+    owl:versionInfo "v4.0" ;
+    owl:versionIRI <http://aiod.eu/data/4.0> ;
+    
+    # Title & Description
+    dct:title "AIoD Metadata Model"@en ;
+    dct:description "AIoD Metadata Model represents concepts and relationships related to AI assets and resources."@en ;
+    
+    # Creators & Contributors
+    dct:creator "Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos." ;
+    
+    
+    # Dates
+    dct:issued "2025-03-12"^^xsd:date ;
+    dct:modified "2024-03-12"^^xsd:date ;
+    
+    # Licensing & Access
+    dct:license <https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE> ;
+    dct:publisher "Institute of Informatics and Telecommunications (IIT), NCSR Demokritos " ;
+    
+    # References
+    dct:bibliographicCitation "Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos. AIoD Metadata Model. Revision: v4.0. "@en ;
+    
+    # Namespace Definition
+    vann:preferredNamespacePrefix "aiod" ;
+    vann:preferredNamespaceUri "http://aiod.eu/data/" .
 
 #################################################################
 #    Annotation properties
