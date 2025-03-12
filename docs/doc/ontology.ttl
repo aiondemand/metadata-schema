@@ -7,10 +7,18 @@
 @base <http://aiod.eu/data/> .
 
 <http://aiod.eu/data/> rdf:type owl:Ontology ;
-                        <http://purl.org/dc/elements/1.1/creator> "Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou" ;
-                        <http://purl.org/dc/elements/1.1/title> "AIoD Metadata Model" ;
-                        <http://purl.org/dc/terms/license> "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"@en ;
-                        owl:versionInfo "v3.0" .
+                        owl:versionIRI <http://aiod.eu/data/4.0> ;
+                        <http://purl.org/dc/terms/bibliographicCitation> "Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos. AIoD Metadata Model. Revision: v4.0. "@en ;
+                        <http://purl.org/dc/terms/creator> "Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos." ;
+                        <http://purl.org/dc/terms/description> "AIoD Metadata Model represents concepts and relationships related to AI assets and resources."@en ;
+                        <http://purl.org/dc/terms/issued> "2025-03-12"^^xsd:date ;
+                        <http://purl.org/dc/terms/license> <https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE> ;
+                        <http://purl.org/dc/terms/modified> "2024-03-12"^^xsd:date ;
+                        <http://purl.org/dc/terms/publisher> "Institute of Informatics and Telecommunications (IIT), NCSR Demokritos " ;
+                        <http://purl.org/dc/terms/title> "AIoD Metadata Model"@en ;
+                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "aiod" ;
+                        <http://purl.org/vocab/vann/preferredNamespaceUri> "http://aiod.eu/data/" ;
+                        owl:versionInfo "v4.0" .
 
 #################################################################
 #    Annotation properties
@@ -379,6 +387,14 @@
                                  rdfs:range rdfs:Literal .
 
 
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Datatypes
 #################################################################
@@ -442,195 +458,223 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/accelerator
 :accelerator rdf:type owl:ObjectProperty ;
              rdfs:domain :ComputationalRequirement ;
-             rdfs:range :Accelerator .
+             rdfs:range :Accelerator ;
+             rdfs:label "accelerator"@en .
 
 
 ###  http://aiod.eu/data/address
 :address rdf:type owl:ObjectProperty ;
          rdfs:domain :ContactDetails ;
          rdfs:range :Location ;
-         rdfs:comment "The postal address associated with the ContactDetails." .
+         rdfs:comment "The postal address associated with the ContactDetails." ;
+         rdfs:label "address"@en .
 
 
 ###  http://aiod.eu/data/addresses
 :addresses rdf:type owl:ObjectProperty ;
            rdfs:domain :Solution ;
-           rdfs:range :Problem .
+           rdfs:range :Problem ;
+           rdfs:label "addresses"@en .
 
 
 ###  http://aiod.eu/data/aiod_entry
 :aiod_entry rdf:type owl:ObjectProperty ;
             rdfs:domain :AIResource ;
-            rdfs:range :AIoDEntry .
+            rdfs:range :AIoDEntry ;
+            rdfs:label "aiod entry"@en .
 
 
 ###  http://aiod.eu/data/announced_in
 :announced_in rdf:type owl:ObjectProperty ;
               rdfs:domain :SuccessStory ;
               rdfs:range :Announcement ;
-              rdfs:comment "The Announcement in which the entity is disclosed." .
+              rdfs:comment "The Announcement in which the entity is disclosed." ;
+              rdfs:label "announced in"@en .
 
 
 ###  http://aiod.eu/data/applies
 :applies rdf:type owl:ObjectProperty ;
          rdfs:domain :AIAsset ;
          rdfs:range :Solution ;
-         rdfs:comment "The AIAsset used to implement a Solution." .
+         rdfs:comment "The AIAsset used to implement a Solution." ;
+         rdfs:label "applies"@en .
 
 
 ###  http://aiod.eu/data/asset
 :asset rdf:type owl:ObjectProperty ;
        rdfs:domain [ rdf:type owl:Class ;
                      owl:unionOf ( :Event
-                                   :News
+                                   :NewsItem
                                  )
                    ] ;
-       rdfs:range :AIAsset .
+       rdfs:range :AIAsset ;
+       rdfs:label "asset"@en .
 
 
 ###  http://aiod.eu/data/business_sector
 :business_sector rdf:type owl:ObjectProperty ;
                  rdfs:domain :AIResource ;
                  rdfs:range :BusinessSector ;
-                 rdfs:comment "An industrial sector where a resource is or can be of use (possibly in the context of a larger framework or initiative)." .
+                 rdfs:comment "An industrial sector where a resource is or can be of use (possibly in the context of a larger framework or initiative)." ;
+                 rdfs:label "business sector"@en .
 
 
 ###  http://aiod.eu/data/category
 :category rdf:type owl:ObjectProperty ;
-          rdfs:domain :News ;
-          rdfs:range :NewsCategory .
+          rdfs:domain :NewsItem ;
+          rdfs:range :NewsCategory ;
+          rdfs:label "category"@en .
 
 
 ###  http://aiod.eu/data/connected_to
 :connected_to rdf:type owl:ObjectProperty ;
               rdfs:domain :WorkflowStep ;
               rdfs:range :WorkflowStep ;
-              rdfs:comment "A WorkflowStep is linked to another WorkflowStep." .
+              rdfs:comment "A WorkflowStep is linked to another WorkflowStep." ;
+              rdfs:label "connected to"@en .
 
 
 ###  http://aiod.eu/data/contact
 :contact rdf:type owl:ObjectProperty ;
          rdfs:domain :AIResource ;
          rdfs:range :Person ;
-         rdfs:comment "A contact person for acquiring information on the resource." .
+         rdfs:comment "A contact person for acquiring information on the resource." ;
+         rdfs:label "contact"@en .
 
 
 ###  http://aiod.eu/data/contact_info
 :contact_info rdf:type owl:ObjectProperty ;
               rdfs:domain :Agent ;
               rdfs:range :ContactDetails ;
-              rdfs:comment "Contact information for the agent." .
+              rdfs:comment "Contact information for the agent." ;
+              rdfs:label "contact info"@en .
 
 
 ###  http://aiod.eu/data/coordinator
 :coordinator rdf:type owl:ObjectProperty ;
              rdfs:domain :Project ;
              rdfs:range :Organisation ;
-             rdfs:comment "The coordinating organisation for the project." .
+             rdfs:comment "The coordinating organisation for the project." ;
+             rdfs:label "coordinator"@en .
 
 
 ###  http://aiod.eu/data/cpu
 :cpu rdf:type owl:ObjectProperty ;
      rdfs:domain :ComputationalRequirement ;
-     rdfs:range :CPU .
+     rdfs:range :CPU ;
+     rdfs:label "cpu"@en .
 
 
 ###  http://aiod.eu/data/creator
 :creator rdf:type owl:ObjectProperty ;
          rdfs:domain :AIAsset ;
          rdfs:range :Agent ;
-         rdfs:comment "An entity responsible for making the AI asset." .
+         rdfs:comment "An entity responsible for making the AI asset." ;
+         rdfs:label "creator"@en .
 
 
 ###  http://aiod.eu/data/distribution
 :distribution rdf:type owl:ObjectProperty ;
               rdfs:domain :AIAsset ;
               rdfs:range :Distribution ;
-              rdfs:comment "A Distribution of the AI Asset." .
+              rdfs:comment "A Distribution of the AI Asset." ;
+              rdfs:label "distribution"@en .
 
 
 ###  http://aiod.eu/data/documented_in
 :documented_in rdf:type owl:ObjectProperty ;
                rdfs:domain :AIResource ;
                rdfs:range :KnowledgeAsset ;
-               rdfs:comment "A Knowledge Asset describing and documenting the given resource." .
+               rdfs:comment "A Knowledge Asset describing and documenting the given resource." ;
+               rdfs:label "documented in"@en .
 
 
 ###  http://aiod.eu/data/documents
 :documents rdf:type owl:ObjectProperty ;
            rdfs:domain :KnowledgeAsset ;
            rdfs:range :AIResource ;
-           rdfs:comment "An AI resource for which the Knowledge Asset acts as an information source." .
+           rdfs:comment "An AI resource for which the Knowledge Asset acts as an information source." ;
+           rdfs:label "documents"@en .
 
 
 ###  http://aiod.eu/data/duration
 :duration rdf:type owl:ObjectProperty ;
           rdfs:domain :Event ;
           rdfs:range :Size ;
-          rdfs:comment "The length of the Event in the unit specified by the associated Size entity." .
+          rdfs:comment "The length of the Event in the unit specified by the associated Size entity." ;
+          rdfs:label "duration"@en .
 
 
 ###  http://aiod.eu/data/editor
 :editor rdf:type owl:ObjectProperty ;
         rdfs:domain :AIoDEntry ;
         rdfs:range :ContactDetails ;
-        rdfs:comment "The person responsible for maintaining the entry." .
+        rdfs:comment "The person responsible for maintaining the entry." ;
+        rdfs:label "editor"@en .
 
 
 ###  http://aiod.eu/data/entails
 :entails rdf:type owl:ObjectProperty ;
          rdfs:domain :BusinessSector ;
          rdfs:range :BusinessFunction ;
-         rdfs:comment "A Business Sector involves Business Function." .
+         rdfs:comment "A Business Sector involves Business Function." ;
+         rdfs:label "entails"@en .
 
 
 ###  http://aiod.eu/data/entails_step
 :entails_step rdf:type owl:ObjectProperty ;
               rdfs:domain :WorkflowExecution ;
               rdfs:range :WorkflowExecutionStep ;
-              rdfs:comment "The Workflow Execution Step that is executed as part of the specific workflow run." .
+              rdfs:comment "The Workflow Execution Step that is executed as part of the specific workflow run." ;
+              rdfs:label "entails step"@en .
 
 
 ###  http://aiod.eu/data/faces
 :faces rdf:type owl:ObjectProperty ;
        rdfs:domain :BusinessFunction ;
        rdfs:range :BusinessProblem ;
-       rdfs:comment "The Business Function is challenged by a specific Business Problem." .
+       rdfs:comment "The Business Function is challenged by a specific Business Problem." ;
+       rdfs:label "faces"@en .
 
 
 ###  http://aiod.eu/data/follows
 :follows rdf:type owl:ObjectProperty ;
          rdfs:domain :Operation ;
          rdfs:range :Operation ;
-         rdfs:comment "The next Operation in the workflow execution step." .
+         rdfs:comment "The next Operation in the workflow execution step." ;
+         rdfs:label "follows"@en .
 
 
 ###  http://aiod.eu/data/formal_prerequisite
 :formal_prerequisite rdf:type owl:ObjectProperty ;
                      rdfs:domain :Course ;
                      rdfs:range :Course ;
-                     rdfs:comment "The course a learner must successfully complete before enrolling to another course." .
+                     rdfs:comment "The course a learner must successfully complete before enrolling to another course." ;
+                     rdfs:label "formal prerequisite"@en .
 
 
 ###  http://aiod.eu/data/funder
 :funder rdf:type owl:ObjectProperty ;
         rdfs:domain :Dataset ;
         rdfs:range :Agent ;
-        rdfs:comment "The funding organisation for the project." .
+        rdfs:comment "The funding organisation for the project." ;
+        rdfs:label "funder"@en .
 
 
 ###  http://aiod.eu/data/hardware_requirement
 :hardware_requirement rdf:type owl:ObjectProperty ;
                       rdfs:domain :RunnableDistribution ;
                       rdfs:range :ComputationalRequirement ;
-                      rdfs:comment "The Computational Requirement that is necessary for the functioning of the Runnable Distribution" .
+                      rdfs:comment "The Computational Requirement that is necessary for the functioning of the Runnable Distribution" ;
+                      rdfs:label "hardware requirement"@en .
 
 
 ###  http://aiod.eu/data/has_computational_requirement
 :has_computational_requirement rdf:type owl:ObjectProperty ;
                                rdfs:domain :Distribution ;
                                rdfs:range :ComputationalRequirement ;
-                               rdfs:comment "The ComputationalRequirement needed for the Distribution to function." .
+                               rdfs:comment "The ComputationalRequirement needed for the Distribution to function." ;
+                               rdfs:label "has computational requiremnt"@en .
 
 
 ###  http://aiod.eu/data/has_part
@@ -638,76 +682,95 @@ xsd:date rdf:type rdfs:Datatype .
           owl:inverseOf :part_of ;
           rdfs:domain :AIResource ;
           rdfs:range :AIResource ;
-          rdfs:comment "A resource that includes this resource." .
+          rdfs:comment "A resource that includes this resource." ;
+          rdfs:label "has part"@en .
+
+
+###  http://aiod.eu/data/has_platform_account
+:has_platform_account rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Agent ;
+                      rdfs:range :PlatformAccount ;
+                      rdfs:label "has platform account"@en .
 
 
 ###  http://aiod.eu/data/includes_media
 :includes_media rdf:type owl:ObjectProperty ;
-                rdfs:domain :News ;
+                rdfs:domain :NewsItem ;
                 rdfs:range :Multimedia ;
-                rdfs:comment "Multimedia content included in the news item." .
+                rdfs:comment "Multimedia content included in the news item." ;
+                rdfs:label "includes media"@en .
 
 
 ###  http://aiod.eu/data/includes_operation
 :includes_operation rdf:type owl:ObjectProperty ;
                     rdfs:domain :WorkflowExecutionStep ;
                     rdfs:range :Operation ;
-                    rdfs:comment "The Operation included in the WorkflowExecutionStep." .
+                    rdfs:comment "The Operation included in the WorkflowExecutionStep." ;
+                    rdfs:label "includes operation"@en .
 
 
 ###  http://aiod.eu/data/includes_resource
 :includes_resource rdf:type owl:ObjectProperty ;
                    rdfs:domain :ResourceBundle ;
                    rdfs:range :AIResource ;
-                   rdfs:comment "An AIResource that constitutes part of the Resource Bundle." .
+                   rdfs:comment "An AIResource that constitutes part of the Resource Bundle." ;
+                   rdfs:label "includes resource"@en .
 
 
 ###  http://aiod.eu/data/includes_step
 :includes_step rdf:type owl:ObjectProperty ;
                rdfs:domain :Workflow ;
                rdfs:range :WorkflowStep ;
-               rdfs:comment "The WorkflowSteps that were followed during the execution." .
+               rdfs:comment "The WorkflowSteps that were followed during the execution." ;
+               rdfs:label "includes step"@en .
 
 
 ###  http://aiod.eu/data/invoked_by
 :invoked_by rdf:type owl:ObjectProperty ;
             rdfs:domain :WorkflowExecutionStep ;
             rdfs:range :AIResource ;
-            rdfs:comment "The AIResource responsible for the initiating of the step." .
+            rdfs:comment "The AIResource responsible for the initiating of the step." ;
+            rdfs:label "invoked by"@en .
 
 
 ###  http://aiod.eu/data/issuer
 :issuer rdf:type owl:ObjectProperty ;
         rdfs:domain :JobAnnouncement ;
         rdfs:range :Organisation ;
-        rdfs:comment "The Organisation posting the job." .
+        rdfs:comment "The Organisation posting the job." ;
+        rdfs:label "issuer"@en .
 
 
 ###  http://aiod.eu/data/location
 :location rdf:type owl:ObjectProperty ;
+          owl:equivalentProperty <http://www.w3.org/ns/prov#atLocation> ;
           rdfs:domain :AIResource ;
-          rdfs:range :Location .
+          rdfs:range :Location ;
+          rdfs:label "location"@en .
 
 
 ###  http://aiod.eu/data/media
 :media rdf:type owl:ObjectProperty ;
        rdfs:domain :AIResource ;
        rdfs:range :Multimedia ;
-       rdfs:comment "An image depicting or associated with the resource." .
+       rdfs:comment "An image depicting or associated with the resource." ;
+       rdfs:label "media"@en .
 
 
 ###  http://aiod.eu/data/member
 :member rdf:type owl:ObjectProperty ;
         rdfs:domain :Organisation ;
         rdfs:range :Agent ;
-        rdfs:comment "The entity who participates in the Organisation." .
+        rdfs:comment "The entity who participates in the Organisation." ;
+        rdfs:label "member"@en .
 
 
 ###  http://aiod.eu/data/member_of
 :member_of rdf:type owl:ObjectProperty ;
            rdfs:domain :Person ;
            rdfs:range :Organisation ;
-           rdfs:comment "The Organisation that a Person affiliates with." .
+           rdfs:comment "The Organisation that a Person affiliates with." ;
+           rdfs:label "member of"@en .
 
 
 ###  http://aiod.eu/data/memory
@@ -718,231 +781,288 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:range :Memory .
 
 
+###  http://aiod.eu/data/number_of_employees
+:number_of_employees rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Organisation ;
+                     rdfs:range :CompanyRevenue .
+
+
 ###  http://aiod.eu/data/offered_by
 :offered_by rdf:type owl:ObjectProperty ;
-            rdfs:domain :EducationalAsset ;
+            rdfs:domain :EducationalResource ;
             rdfs:range :Organisation ;
-            rdfs:comment "The Organisation which offers the Educational Asset." .
+            rdfs:comment "The Organisation which offers the Educational Asset." ;
+            rdfs:label "offered by"@en .
 
 
 ###  http://aiod.eu/data/organiser
 :organiser rdf:type owl:ObjectProperty ;
            rdfs:domain :Event ;
            rdfs:range :Agent ;
-           rdfs:comment "The entity organising the Event." .
+           rdfs:comment "The entity organising the Event." ;
+           rdfs:label "organiser"@en .
 
 
 ###  http://aiod.eu/data/os_requirement
 :os_requirement rdf:type owl:ObjectProperty ;
                 rdfs:domain :RunnableDistribution ;
                 rdfs:range :ComputationalRequirement ;
-                rdfs:comment "The operation system needed for the proper functioning of the Runannble Distribution." .
+                rdfs:comment "The operation system needed for the proper functioning of the Runannble Distribution." ;
+                rdfs:label "os requirement"@en .
 
 
 ###  http://aiod.eu/data/other_dependency
 :other_dependency rdf:type owl:ObjectProperty ;
                   rdfs:domain :RunnableDistribution ;
-                  rdfs:range :AIAsset .
+                  rdfs:range :AIAsset ;
+                  rdfs:label "other dependency"@en .
 
 
 ###  http://aiod.eu/data/parent_project
 :parent_project rdf:type owl:ObjectProperty ;
                 rdfs:domain :OpenCallProject ;
                 rdfs:range :Project ;
-                rdfs:comment "The project that organised the Open Call process under which this project was funded." .
+                rdfs:comment "The project that organised the Open Call process under which this project was funded." ;
+                rdfs:label "parent project"@en .
 
 
 ###  http://aiod.eu/data/part_of
 :part_of rdf:type owl:ObjectProperty ;
          rdfs:domain :AIResource ;
          rdfs:range :AIResource ;
-         rdfs:comment "A resource that is included as a part/component of this resource." .
+         rdfs:comment "A resource that is included as a part/component of this resource." ;
+         rdfs:label "part of"@en .
 
 
 ###  http://aiod.eu/data/participant
 :participant rdf:type owl:ObjectProperty ;
              rdfs:domain :Project ;
              rdfs:range :Organisation ;
-             rdfs:comment "Member organisations of the project." .
+             rdfs:comment "Member organisations of the project." ;
+             rdfs:label "participant"@en .
 
 
 ###  http://aiod.eu/data/performer
 :performer rdf:type owl:ObjectProperty ;
            rdfs:domain :Event ;
            rdfs:range :Agent ;
-           rdfs:comment "The entity participating in the Event." .
+           rdfs:comment "The entity participating in the Event." ;
+           rdfs:label "performer"@en .
 
 
 ###  http://aiod.eu/data/precedes
 :precedes rdf:type owl:ObjectProperty ;
           rdfs:domain :Operation ;
           rdfs:range :Operation ;
-          rdfs:comment "The previous Operation in the workflow execution step." .
+          rdfs:comment "The previous Operation in the workflow execution step." ;
+          rdfs:label "precedes"@en .
 
 
 ###  http://aiod.eu/data/prerequisite_knowledge
 :prerequisite_knowledge rdf:type owl:ObjectProperty ;
-                        rdfs:domain :EducationalAsset ;
+                        rdfs:domain :EducationalResource ;
                         rdfs:range :ResearchArea ;
-                        rdfs:comment "The Research Area that learners should be familiar with before engaging with the Educational Asset." .
+                        rdfs:comment "The Research Area that learners should be familiar with before engaging with the Educational Asset." ;
+                        rdfs:label "prerequisite knowledge"@en .
 
 
 ###  http://aiod.eu/data/produced
 :produced rdf:type owl:ObjectProperty ;
           rdfs:domain :Project ;
           rdfs:range :AIAsset ;
-          rdfs:comment "An AI asset produced in the context of the project." .
+          rdfs:comment "An AI asset produced in the context of the project." ;
+          rdfs:label "produced"@en .
 
 
 ###  http://aiod.eu/data/project
 :project rdf:type owl:ObjectProperty ;
          rdfs:domain :Event ;
          rdfs:range :Project ;
-         rdfs:comment "A Project the activities of which are related to the activities of the event." .
+         rdfs:comment "A Project the activities of which are related to the activities of the event." ;
+         rdfs:label "project"@en .
 
 
 ###  http://aiod.eu/data/provider
 :provider rdf:type owl:ObjectProperty ;
           rdfs:domain :Service ;
           rdfs:range :Agent ;
-          rdfs:comment "The entity that provides the Service." .
+          rdfs:comment "The entity that provides the Service." ;
+          rdfs:label "provider"@en .
 
 
 ###  http://aiod.eu/data/refers_to
 :refers_to rdf:type owl:ObjectProperty ;
            rdfs:domain :SuccessStory ;
            rdfs:range :AIResource ;
-           rdfs:comment "An AIResource related to the entity." .
+           rdfs:comment "An AIResource related to the entity." ;
+           rdfs:label "refers to"@en .
 
 
 ###  http://aiod.eu/data/related_experiment
 :related_experiment rdf:type owl:ObjectProperty ;
                     rdfs:domain :MLModel ;
-                    rdfs:range :Expirement ;
-                    rdfs:comment "The experiment where the model was used." .
+                    rdfs:range :Experiment ;
+                    rdfs:comment "The experiment where the model was used." ;
+                    rdfs:label "related experiment"@en .
 
 
 ###  http://aiod.eu/data/related_news
 :related_news rdf:type owl:ObjectProperty ;
-              rdfs:domain :News ;
-              rdfs:range :News ;
-              rdfs:comment "Other News entities related to this entity." .
+              rdfs:domain :NewsItem ;
+              rdfs:range :NewsItem ;
+              rdfs:comment "Other News entities related to this entity." ;
+              rdfs:label "related news"@en .
 
 
 ###  http://aiod.eu/data/requires_solution_for
 :requires_solution_for rdf:type owl:ObjectProperty ;
                        rdfs:domain :BusinessProblem ;
-                       rdfs:range :ResearchProblem .
+                       rdfs:range :ResearchProblem ;
+                       rdfs:label "requires solution for"@en .
 
 
 ###  http://aiod.eu/data/research_area
 :research_area rdf:type owl:ObjectProperty ;
                rdfs:domain :AIResource ;
                rdfs:range :ResearchArea ;
-               rdfs:comment "A research area under which the research problems remedied by the resource fall." .
+               rdfs:comment "A research area under which the research problems remedied by the resource fall." ;
+               rdfs:label "research area"@en .
 
 
 ###  http://aiod.eu/data/sameAs
 :sameAs rdf:type owl:ObjectProperty ;
         rdfs:domain :AIoDConcept ;
         rdfs:range :AIoDConcept ;
-        rdfs:comment "An equivalence relationship between entities." .
+        rdfs:comment "An equivalence relationship between entities." ;
+        rdfs:label "same as"@en .
 
 
 ###  http://aiod.eu/data/showcase
 :showcase rdf:type owl:ObjectProperty ;
           rdfs:domain :SuccessStory ;
           rdfs:range :Multimedia ;
-          rdfs:comment "The Multimedia that demonstrates the achievements of the SuccessStory." .
+          rdfs:comment "The Multimedia that demonstrates the achievements of the SuccessStory." ;
+          rdfs:label "showcase"@en .
 
 
 ###  http://aiod.eu/data/size
 :size rdf:type owl:ObjectProperty ;
       rdfs:domain :Dataset ;
       rdfs:range :Size ;
-      rdfs:comment "The size of the Dataset in the unit specified by the associated Size entity." .
+      rdfs:comment "The size of the Dataset in the unit specified by the associated Size entity." ;
+      rdfs:label "size"@en .
 
 
 ###  http://aiod.eu/data/software_dependency
 :software_dependency rdf:type owl:ObjectProperty ;
                      rdfs:domain :RunnableDistribution ;
                      rdfs:range :AIAsset ;
-                     rdfs:comment "The AIAsset that is necessary fot the Runnable Distribution to operate." .
+                     rdfs:comment "The AIAsset that is necessary fot the Runnable Distribution to operate." ;
+                     rdfs:label "software depedency"@en .
 
 
 ###  http://aiod.eu/data/spatial_coverage
 :spatial_coverage rdf:type owl:ObjectProperty ;
                   rdfs:domain :Dataset ;
-                  rdfs:range :Location .
+                  rdfs:range :Location ;
+                  rdfs:label "spatial coverage"@en .
 
 
 ###  http://aiod.eu/data/storage
 :storage rdf:type owl:ObjectProperty ;
          rdfs:domain :ComputationalRequirement ;
-         rdfs:range :Storage .
+         rdfs:range :Storage ;
+         rdfs:label "storage"@en .
 
 
 ###  http://aiod.eu/data/taught_by
 :taught_by rdf:type owl:ObjectProperty ;
-           rdfs:domain :EducationalAsset ;
+           rdfs:domain :EducationalResource ;
            rdfs:range :Person ;
-           rdfs:comment "The Person responsible for teaching the Educational Asset." .
+           rdfs:comment "The Person responsible for teaching the Educational Asset." ;
+           rdfs:label "taught by"@en .
+
+
+###  http://aiod.eu/data/turnover
+:turnover rdf:type owl:ObjectProperty ;
+          rdfs:domain :Organisation ;
+          rdfs:range :CompanyRevenue .
 
 
 ###  http://aiod.eu/data/under_classification
 :under_classification rdf:type owl:ObjectProperty ;
-                      rdfs:domain :EducationalAsset ;
+                      rdfs:domain :EducationalResource ;
                       rdfs:range :Classification ;
-                      rdfs:comment "The Classification Scheme under which the Educational Asset is classified." .
+                      rdfs:comment "The Classification Scheme under which the Educational Asset is classified." ;
+                      rdfs:label "under classification"@en .
 
 
 ###  http://aiod.eu/data/used
 :used rdf:type owl:ObjectProperty ;
       rdfs:domain :Project ;
       rdfs:range :AIAsset ;
-      rdfs:comment "An AI asset used in the context of the project." .
+      rdfs:comment "An AI asset used in the context of the project." ;
+      rdfs:label "used"@en .
 
 
 ###  http://aiod.eu/data/uses
 :uses rdf:type owl:ObjectProperty ;
       rdfs:domain :Solution ;
       rdfs:range :Approach ;
-      rdfs:comment "A Solution utilizes a specific Approach to solve a problem." .
+      rdfs:comment "A Solution utilizes a specific Approach to solve a problem." ;
+      rdfs:label "uses"@en .
 
 
 ###  http://aiod.eu/data/uses_asset
 :uses_asset rdf:type owl:ObjectProperty ;
             rdfs:domain :WorkflowExecutionStep ;
             rdfs:range :AIAsset ;
-            rdfs:comment "The AIAsset which is used for the execution of each step of the workflow." .
+            rdfs:comment "The AIAsset which is used for the execution of each step of the workflow." ;
+            rdfs:label "uses asset"@en .
 
 
 ###  http://aiod.eu/data/uses_dataset
 :uses_dataset rdf:type owl:ObjectProperty ;
-              rdfs:domain :Expirement ;
+              rdfs:domain :Experiment ;
               rdfs:range :Dataset ;
-              rdfs:comment "A Dataset used for the execution of the experiment." .
+              rdfs:comment "A Dataset used for the execution of the experiment." ;
+              rdfs:label "uses dataset"@en .
 
 
 ###  http://aiod.eu/data/uses_distribution
 :uses_distribution rdf:type owl:ObjectProperty ;
                    rdfs:domain :WorkflowStep ;
                    rdfs:range :Distribution ;
-                   rdfs:comment "The specification of how data are distributed within the step." .
+                   rdfs:comment "The specification of how data are distributed within the step." ;
+                   rdfs:label "uses distribution"@en .
 
 
 ###  http://aiod.eu/data/uses_model
 :uses_model rdf:type owl:ObjectProperty ;
-            rdfs:domain :Expirement ;
+            rdfs:domain :Experiment ;
             rdfs:range :MLModel ;
-            rdfs:comment "A ML Model used during the experiment's process." .
+            rdfs:comment "A ML Model used during the experiment's process." ;
+            rdfs:label "uses model"@en .
 
 
 ###  http://aiod.eu/data/uses_resource
 :uses_resource rdf:type owl:ObjectProperty ;
-               rdfs:domain :EducationalAsset ;
+               rdfs:domain :EducationalResource ;
                rdfs:range :AIResource ;
-               rdfs:comment "The AIResource used during the learning experience." .
+               rdfs:comment "The AIResource used during the learning experience." ;
+               rdfs:label "uses resource"@en .
+
+
+###  http://purl.org/dc/terms/extent
+<http://purl.org/dc/terms/extent> rdf:type owl:ObjectProperty .
+
+
+###  http://purl.org/dc/terms/medium
+<http://purl.org/dc/terms/medium> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/ns/prov#atLocation
+<http://www.w3.org/ns/prov#atLocation> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -953,29 +1073,33 @@ xsd:date rdf:type rdfs:Datatype .
 :academic_level rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain :Course ;
-                rdfs:comment "The academic level for which the lesson is designed." .
+                rdfs:comment "The academic level for which the lesson is designed." ;
+                rdfs:label "academic level"@en .
 
 
 ###  http://aiod.eu/data/ai_relevance
 :ai_relevance rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Organisation ;
-              rdfs:range xsd:string .
+              rdfs:range xsd:string ;
+              rdfs:label "ai relevance"@en .
 
 
 ###  http://aiod.eu/data/alternate_name
 :alternate_name rdf:type owl:DatatypeProperty ;
                 rdfs:domain :AIResource ;
                 rdfs:range xsd:string ;
-                rdfs:comment "An alternative name commonly used for the resource in place of its name." .
+                rdfs:comment "An alternative name commonly used for the resource in place of its name." ;
+                rdfs:label "alternative name"@en .
 
 
 ###  http://aiod.eu/data/alternative_headline
 :alternative_headline rdf:type owl:DatatypeProperty ,
                                owl:FunctionalProperty ;
-                      rdfs:domain :News ;
+                      rdfs:domain :NewsItem ;
                       rdfs:range xsd:string ;
-                      rdfs:comment "A secondary headline that provides additional analysis to the news item." .
+                      rdfs:comment "A secondary headline that provides additional analysis to the news item." ;
+                      rdfs:label "alternative headline"@en .
 
 
 ###  http://aiod.eu/data/alternative_text
@@ -983,21 +1107,24 @@ xsd:date rdf:type rdfs:Datatype .
                            owl:FunctionalProperty ;
                   rdfs:domain :Multimedia ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "A textual description of the entity for accessibility purposes." .
+                  rdfs:comment "A textual description of the entity for accessibility purposes." ;
+                  rdfs:label "alternative text"@en .
 
 
 ###  http://aiod.eu/data/amount
 :amount rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Storage ;
-        rdfs:range xsd:integer .
+        rdfs:range xsd:integer ;
+        rdfs:label "amount"@en .
 
 
 ###  http://aiod.eu/data/amount_gb
 :amount_gb rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Memory ;
-           rdfs:range xsd:integer .
+           rdfs:range xsd:integer ;
+           rdfs:label "amount gb"@en .
 
 
 ###  http://aiod.eu/data/announcement_page
@@ -1005,27 +1132,31 @@ xsd:date rdf:type rdfs:Datatype .
                             owl:FunctionalProperty ;
                    rdfs:domain :FundingOpportunity ;
                    rdfs:range xsd:anyURI ;
-                   rdfs:comment "The location where sites the original announcement." .
+                   rdfs:comment "The location where sites the original announcement." ;
+                   rdfs:label "announcement page"@en .
 
 
 ###  http://aiod.eu/data/architecture
 :architecture rdf:type owl:DatatypeProperty ;
               rdfs:domain :ComputationalRequirement ;
-              rdfs:range xsd:string .
+              rdfs:range xsd:string ;
+              rdfs:label "architecture"@en .
 
 
 ###  http://aiod.eu/data/award
 :award rdf:type owl:DatatypeProperty ;
        rdfs:domain :SuccessStory ;
        rdfs:range xsd:string ;
-       rdfs:comment "A description of any award associated with the SuccessStory." .
+       rdfs:comment "A description of any award associated with the SuccessStory." ;
+       rdfs:label "award"@en .
 
 
 ###  http://aiod.eu/data/badge
 :badge rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Expirement ;
+       rdfs:domain :Experiment ;
        rdfs:range xsd:anyURI ;
-       rdfs:comment "A reproducibility badge related to the Experiment." .
+       rdfs:comment "A reproducibility badge related to the Experiment." ;
+       rdfs:label "badge"@en .
 
 
 ###  http://aiod.eu/data/checksum
@@ -1033,7 +1164,8 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Distribution ;
           rdfs:range xsd:string ;
-          rdfs:comment "The checksum value associated with the content of the Distribution." .
+          rdfs:comment "The checksum value associated with the content of the Distribution." ;
+          rdfs:label "checksum"@en .
 
 
 ###  http://aiod.eu/data/checksum_algorithm
@@ -1041,34 +1173,39 @@ xsd:date rdf:type rdfs:Datatype .
                              owl:FunctionalProperty ;
                     rdfs:domain :Distribution ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "The algorithm used to calculate the cheksum value." .
+                    rdfs:comment "The algorithm used to calculate the cheksum value." ;
+                    rdfs:label "checksum algorithm"@en .
 
 
 ###  http://aiod.eu/data/city
 :city rdf:type owl:DatatypeProperty ,
                owl:FunctionalProperty ;
       rdfs:domain :Location ;
-      rdfs:range xsd:string .
+      rdfs:range xsd:string ;
+      rdfs:label "city"@en .
 
 
 ###  http://aiod.eu/data/classification_id
 :classification_id rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Classification ;
-                   rdfs:range xsd:anyURI .
+                   rdfs:range xsd:anyURI ;
+                   rdfs:label "classification id"@en .
 
 
 ###  http://aiod.eu/data/classification_scheme
 :classification_scheme rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Classification ;
                        rdfs:range xsd:anyURI ;
-                       rdfs:comment "The URL where is located the classification sheme used for categorization." .
+                       rdfs:comment "The URL where is located the classification sheme used for categorization." ;
+                       rdfs:label "classification scheme"@en .
 
 
 ###  http://aiod.eu/data/clock_speed
 :clock_speed rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :CPU ;
-             rdfs:range xsd:integer .
+             rdfs:range xsd:integer ;
+             rdfs:label "clock speed"@en .
 
 
 ###  http://aiod.eu/data/closing_date
@@ -1076,7 +1213,8 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :FundingOpportunity ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The end date of the application for the Fundind Opportunity." .
+              rdfs:comment "The end date of the application for the Fundind Opportunity." ;
+              rdfs:label "closing date"@en .
 
 
 ###  http://aiod.eu/data/compilation_process
@@ -1084,7 +1222,8 @@ xsd:date rdf:type rdfs:Datatype .
                               owl:FunctionalProperty ;
                      rdfs:domain :RunnableDistribution ;
                      rdfs:range xsd:string ;
-                     rdfs:comment "A description of the procedure of compilation." .
+                     rdfs:comment "A description of the procedure of compilation." ;
+                     rdfs:label "compilation process"@en .
 
 
 ###  http://aiod.eu/data/compilation_time_msec
@@ -1092,25 +1231,29 @@ xsd:date rdf:type rdfs:Datatype .
                                 owl:FunctionalProperty ;
                        rdfs:domain :RunnableDistribution ;
                        rdfs:range xsd:integer ;
-                       rdfs:comment "The time in millisecond required to complete the compilation." .
+                       rdfs:comment "The time in millisecond required to complete the compilation." ;
+                       rdfs:label "compilation time msec"@en .
 
 
 ###  http://aiod.eu/data/conditions
 :conditions rdf:type owl:DatatypeProperty ;
             rdfs:domain :Service ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:label "conditions"@en .
 
 
 ###  http://aiod.eu/data/configuration_standard
 :configuration_standard rdf:type owl:DatatypeProperty ;
                         rdfs:domain :WorkflowStep ;
-                        rdfs:range xsd:string .
+                        rdfs:range xsd:string ;
+                        rdfs:label "configuration standard"@en .
 
 
 ###  http://aiod.eu/data/content
 :content rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
-         rdfs:domain :AIoDEntry .
+         rdfs:domain :AIoDEntry ;
+         rdfs:label "content"@en .
 
 
 ###  http://aiod.eu/data/content_size_kb
@@ -1118,14 +1261,16 @@ xsd:date rdf:type rdfs:Datatype .
                           owl:FunctionalProperty ;
                  rdfs:domain :Multimedia ;
                  rdfs:range xsd:integer ;
-                 rdfs:comment "The size of the Multimedia object in KB." .
+                 rdfs:comment "The size of the Multimedia object in KB." ;
+                 rdfs:label "content size kb"@en .
 
 
 ###  http://aiod.eu/data/content_url
 :content_url rdf:type owl:DatatypeProperty ;
              rdfs:domain :Distribution ;
              rdfs:range xsd:anyURI ;
-             rdfs:comment "The URL where the content associated with the Distribution can be accessed." .
+             rdfs:comment "The URL where the content associated with the Distribution can be accessed." ;
+             rdfs:label "content url"@en .
 
 
 ###  http://aiod.eu/data/contribution
@@ -1133,42 +1278,48 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :OpenCallProject ;
               rdfs:range xsd:decimal ;
-              rdfs:comment "The exact amount of money allocated to the project." .
+              rdfs:comment "The exact amount of money allocated to the project." ;
+              rdfs:label "contribution"@en .
 
 
 ###  http://aiod.eu/data/cores
 :cores rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain :Accelerator ;
-       rdfs:range xsd:integer .
+       rdfs:range xsd:integer ;
+       rdfs:label "cores"@en .
 
 
 ###  http://aiod.eu/data/cost
 :cost rdf:type owl:DatatypeProperty ,
                owl:FunctionalProperty ;
-      rdfs:domain :EducationalAsset ;
+      rdfs:domain :EducationalResource ;
       rdfs:range xsd:decimal ;
-      rdfs:comment "The financial cost of the Educational Asset. (currency)" .
+      rdfs:comment "The financial cost of the Educational Asset. (currency)" ;
+      rdfs:label "cost"@en .
 
 
 ###  http://aiod.eu/data/coverage
 :coverage rdf:type owl:DatatypeProperty ;
           rdfs:domain :Service ;
-          rdfs:comment "The geographical coverage of the Service." .
+          rdfs:comment "The geographical coverage of the Service." ;
+          rdfs:label "coverage"@en .
 
 
 ###  http://aiod.eu/data/cpu_family
 :cpu_family rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :CPU ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:label "cpu family"@en .
 
 
 ###  http://aiod.eu/data/credits
 :credits rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain :Course ;
-         rdfs:range xsd:integer .
+         rdfs:range xsd:integer ;
+         rdfs:label "credits"@en .
 
 
 ###  http://aiod.eu/data/date_created
@@ -1176,7 +1327,8 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :AIAsset ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The date of creation for the AI asset." .
+              rdfs:comment "The date of creation for the AI asset." ;
+              rdfs:label "date created"@en .
 
 
 ###  http://aiod.eu/data/date_founded
@@ -1184,15 +1336,18 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :Organisation ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The date of Organisation's foundation." .
+              rdfs:comment "The date of Organisation's foundation." ;
+              rdfs:label "date founded"@en .
 
 
 ###  http://aiod.eu/data/date_modified
-:date_modified rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty ;
+:date_modified rdf:type owl:DatatypeProperty ;
+               owl:equivalentProperty <http://purl.org/dc/terms/modified> ;
+               rdf:type owl:FunctionalProperty ;
                rdfs:domain :Distribution ;
                rdfs:range xsd:dateTime ;
-               rdfs:comment "The date when the Distribution was modified." .
+               rdfs:comment "The date when the Distribution was modified." ;
+               rdfs:label "date motdified"@en .
 
 
 ###  http://aiod.eu/data/date_published
@@ -1205,7 +1360,8 @@ xsd:date rdf:type rdfs:Datatype .
                                           )
                             ] ;
                 rdfs:range xsd:dateTime ;
-                rdfs:comment "The date of publication (broader availability) for the AI asset." .
+                rdfs:comment "The date of publication (broader availability) for the AI asset." ;
+                rdfs:label "date published"@en .
 
 
 ###  http://aiod.eu/data/deployment_process
@@ -1213,7 +1369,8 @@ xsd:date rdf:type rdfs:Datatype .
                              owl:FunctionalProperty ;
                     rdfs:domain :RunnableDistribution ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "A description of the procedure involved in deploying the Runnable Distribution." .
+                    rdfs:comment "A description of the procedure involved in deploying the Runnable Distribution." ;
+                    rdfs:label "deployment process"@en .
 
 
 ###  http://aiod.eu/data/deployment_time_msec
@@ -1221,7 +1378,8 @@ xsd:date rdf:type rdfs:Datatype .
                                owl:FunctionalProperty ;
                       rdfs:domain :RunnableDistribution ;
                       rdfs:range xsd:integer ;
-                      rdfs:comment "The time in millisecond required for the deployment." .
+                      rdfs:comment "The time in millisecond required for the deployment." ;
+                      rdfs:label "deployment time msec"@en .
 
 
 ###  http://aiod.eu/data/description
@@ -1229,14 +1387,16 @@ xsd:date rdf:type rdfs:Datatype .
                       owl:FunctionalProperty ;
              rdfs:domain :AIResource ;
              rdfs:range xsd:string ;
-             rdfs:comment "A usually short informative text on the resource." .
+             rdfs:comment "A usually short informative text on the resource." ;
+             rdfs:label "description"@en .
 
 
 ###  http://aiod.eu/data/educational_level
 :educational_level rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :EducationalAsset ;
+                   rdfs:domain :EducationalResource ;
                    rdfs:range xsd:string ;
-                   rdfs:comment "The educational level that the educational asset is designed for." .
+                   rdfs:comment "The educational level that the educational asset is designed for." ;
+                   rdfs:label "educational level"@en .
 
 
 ###  http://aiod.eu/data/elevation_m
@@ -1244,14 +1404,16 @@ xsd:date rdf:type rdfs:Datatype .
                       owl:FunctionalProperty ;
              rdfs:domain :Location ;
              rdfs:range xsd:decimal ;
-             rdfs:comment "The elevation in metres of a Location." .
+             rdfs:comment "The elevation in metres of a Location." ;
+             rdfs:label "elevation m"@en .
 
 
 ###  http://aiod.eu/data/email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:domain :ContactDetails ;
        rdfs:range xsd:string ;
-       rdfs:comment "The email address associated with the ContactDetails." .
+       rdfs:comment "The email address associated with the ContactDetails." ;
+       rdfs:label "email"@en .
 
 
 ###  http://aiod.eu/data/encoding_format
@@ -1259,14 +1421,16 @@ xsd:date rdf:type rdfs:Datatype .
                           owl:FunctionalProperty ;
                  rdfs:domain :Distribution ;
                  rdfs:range xsd:string ;
-                 rdfs:comment "The encoding format used for the representation of the content." .
+                 rdfs:comment "The encoding format used for the representation of the content." ;
+                 rdfs:label "encoding format"@en .
 
 
 ###  http://aiod.eu/data/end_date
 :end_date rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
-          rdfs:domain :EducationalAsset ;
-          rdfs:range xsd:dateTime .
+          rdfs:domain :EducationalResource ;
+          rdfs:range xsd:dateTime ;
+          rdfs:label "end date"@en .
 
 
 ###  http://aiod.eu/data/end_time
@@ -1274,23 +1438,26 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :WorkflowExecution ;
           rdfs:range xsd:dateTime ;
-          rdfs:comment "The end date of execution." .
+          rdfs:comment "The end date of execution." ;
+          rdfs:label "end time"@en .
 
 
 ###  http://aiod.eu/data/enrollment_end_date
 :enrollment_end_date rdf:type owl:DatatypeProperty ,
                               owl:FunctionalProperty ;
-                     rdfs:domain :EducationalAsset ;
+                     rdfs:domain :EducationalResource ;
                      rdfs:range xsd:dateTime ;
-                     rdfs:comment "The final date for which applications for enrolling are accepted." .
+                     rdfs:comment "The final date for which applications for enrolling are accepted." ;
+                     rdfs:label "enrollment end date"@en .
 
 
 ###  http://aiod.eu/data/enrollment_start_date
 :enrollment_start_date rdf:type owl:DatatypeProperty ,
                                 owl:FunctionalProperty ;
-                       rdfs:domain :EducationalAsset ;
+                       rdfs:domain :EducationalResource ;
                        rdfs:range xsd:dateTime ;
-                       rdfs:comment "The date from when applications for enrolling can be applied." .
+                       rdfs:comment "The date from when applications for enrolling can be applied." ;
+                       rdfs:label "enrollment start date"@en .
 
 
 ###  http://aiod.eu/data/entry_created
@@ -1298,7 +1465,8 @@ xsd:date rdf:type rdfs:Datatype .
                         owl:FunctionalProperty ;
                rdfs:domain :AIoDEntry ;
                rdfs:range xsd:dateTime ;
-               rdfs:comment "The date when the entry was first created within the platform." .
+               rdfs:comment "The date when the entry was first created within the platform." ;
+               rdfs:label "entry created"@en .
 
 
 ###  http://aiod.eu/data/entry_published
@@ -1306,14 +1474,16 @@ xsd:date rdf:type rdfs:Datatype .
                           owl:FunctionalProperty ;
                  rdfs:domain :AIoDEntry ;
                  rdfs:range xsd:dateTime ;
-                 rdfs:comment "The date when the entry was published within the platform." .
+                 rdfs:comment "The date when the entry was published within the platform." ;
+                 rdfs:label "entry published"@en .
 
 
 ###  http://aiod.eu/data/eu_contribution
 :eu_contribution rdf:type owl:DatatypeProperty ;
                  rdfs:domain :ECProject ;
                  rdfs:range xsd:decimal ;
-                 rdfs:comment "The exact amount of money allocated by the European Commision to the project." .
+                 rdfs:comment "The exact amount of money allocated by the European Commision to the project." ;
+                 rdfs:label "eu contribution"@en .
 
 
 ###  http://aiod.eu/data/event_mode
@@ -1321,7 +1491,8 @@ xsd:date rdf:type rdfs:Datatype .
                      owl:FunctionalProperty ;
             rdfs:domain :Event ;
             rdfs:range xsd:string ;
-            rdfs:comment "The way in which the event will be conducted." .
+            rdfs:comment "The way in which the event will be conducted." ;
+            rdfs:label "event mode"@en .
 
 
 ###  http://aiod.eu/data/event_status
@@ -1329,14 +1500,16 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :Event ;
               rdfs:range xsd:string ;
-              rdfs:comment "The current status of the event." .
+              rdfs:comment "The current status of the event." ;
+              rdfs:label "event status"@en .
 
 
 ###  http://aiod.eu/data/evidence
 :evidence rdf:type owl:DatatypeProperty ;
           rdfs:domain :SuccessStory ;
           rdfs:range xsd:string ;
-          rdfs:comment "A description that showcases proof or supporting information validating the success." .
+          rdfs:comment "A description that showcases proof or supporting information validating the success." ;
+          rdfs:label "evidence"@en .
 
 
 ###  http://aiod.eu/data/execution_time_msec
@@ -1344,31 +1517,35 @@ xsd:date rdf:type rdfs:Datatype .
                               owl:FunctionalProperty ;
                      rdfs:domain :RunnableDistribution ;
                      rdfs:range xsd:integer ;
-                     rdfs:comment "The time in millisecond required for the execution of the Runnable Distribution." .
+                     rdfs:comment "The time in millisecond required for the execution of the Runnable Distribution." ;
+                     rdfs:label "execution time msec"@en .
 
 
 ###  http://aiod.eu/data/exemplary_execution_settings
 :exemplary_execution_settings rdf:type owl:DatatypeProperty ,
                                        owl:FunctionalProperty ;
-                              rdfs:domain :Expirement ;
+                              rdfs:domain :Experiment ;
                               rdfs:range xsd:string ;
-                              rdfs:comment "Human-readable details of parameters used during a successful run of the experiment." .
+                              rdfs:comment "Human-readable details of parameters used during a successful run of the experiment." ;
+                              rdfs:label "exemplary execution settings"@en .
 
 
 ###  http://aiod.eu/data/expected_outcome
 :expected_outcome rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
-                  rdfs:domain :EducationalAsset ;
+                  rdfs:domain :EducationalResource ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "The description of what expected knowledge the participants should acquire." .
+                  rdfs:comment "The description of what expected knowledge the participants should acquire." ;
+                  rdfs:label "expected outcome"@en .
 
 
 ###  http://aiod.eu/data/experimental_workflow
 :experimental_workflow rdf:type owl:DatatypeProperty ,
                                 owl:FunctionalProperty ;
-                       rdfs:domain :Expirement ;
+                       rdfs:domain :Experiment ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "A description of the process involved in conducting the experiment." .
+                       rdfs:comment "A description of the process involved in conducting the experiment." ;
+                       rdfs:label "experimental workflow"@en .
 
 
 ###  http://aiod.eu/data/funded_under
@@ -1376,7 +1553,8 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :ECProject ;
               rdfs:range xsd:string ;
-              rdfs:comment "The program/ grant under which the project received funding." .
+              rdfs:comment "The program/ grant under which the project received funding." ;
+              rdfs:label "funded under"@en .
 
 
 ###  http://aiod.eu/data/funding_call
@@ -1384,7 +1562,8 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :ECProject ;
               rdfs:range xsd:string ;
-              rdfs:comment "A description of the proposals for research." .
+              rdfs:comment "A description of the proposals for research." ;
+              rdfs:label "funding call"@en .
 
 
 ###  http://aiod.eu/data/funding_scheme
@@ -1392,7 +1571,8 @@ xsd:date rdf:type rdfs:Datatype .
                          owl:FunctionalProperty ;
                 rdfs:domain :ECProject ;
                 rdfs:range xsd:string ;
-                rdfs:comment "The funding shceme under which a ECProjec is financed." .
+                rdfs:comment "The funding shceme under which a ECProjec is financed." ;
+                rdfs:label "funding scheme"@en .
 
 
 ###  http://aiod.eu/data/has_isbn
@@ -1400,7 +1580,8 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Publication ;
           rdfs:range xsd:string ;
-          rdfs:comment "The International Standard Book Number, ISBN, used to identify published books or, more rarely, journal issues." .
+          rdfs:comment "The International Standard Book Number, ISBN, used to identify published books or, more rarely, journal issues." ;
+          rdfs:label "has isbn"@en .
 
 
 ###  http://aiod.eu/data/has_issn
@@ -1408,14 +1589,16 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Publication ;
           rdfs:range xsd:string ;
-          rdfs:comment "The International Standard Serial Number, ISSN, an identifer for serial publications." .
+          rdfs:comment "The International Standard Serial Number, ISSN, an identifer for serial publications." ;
+          rdfs:label "has issn"@en .
 
 
 ###  http://aiod.eu/data/headline
 :headline rdf:type owl:DatatypeProperty ;
-          rdfs:domain :News ;
+          rdfs:domain :NewsItem ;
           rdfs:range xsd:string ;
-          rdfs:comment "A short headline given to the news item." .
+          rdfs:comment "A short headline given to the news item." ;
+          rdfs:label "headline"@en .
 
 
 ###  http://aiod.eu/data/height_px
@@ -1423,21 +1606,24 @@ xsd:date rdf:type rdfs:Datatype .
                     owl:FunctionalProperty ;
            rdfs:domain :Image ;
            rdfs:range xsd:integer ;
-           rdfs:comment "The height of an Image in pixels." .
+           rdfs:comment "The height of an Image in pixels." ;
+           rdfs:label "height px"@en .
 
 
 ###  http://aiod.eu/data/identifier
 :identifier rdf:type owl:DatatypeProperty ;
             rdfs:domain :AIoDConcept ;
             rdfs:range xsd:integer ;
-            rdfs:comment "A unique identifier for the Entity." .
+            rdfs:comment "A unique identifier for the Entity." ;
+            rdfs:label "identifier"@en .
 
 
 ###  http://aiod.eu/data/includes_external_reference
 :includes_external_reference rdf:type owl:DatatypeProperty ;
                              rdfs:domain :ResourceBundle ;
                              rdfs:range xsd:anyURI ;
-                             rdfs:comment "An element included in the bundle that is not currently found in the AIoD Platform." .
+                             rdfs:comment "An element included in the bundle that is not currently found in the AIoD Platform." ;
+                             rdfs:label "includes external reference"@en .
 
 
 ###  http://aiod.eu/data/job_title
@@ -1445,27 +1631,31 @@ xsd:date rdf:type rdfs:Datatype .
                     owl:FunctionalProperty ;
            rdfs:domain :JobAnnouncement ;
            rdfs:range xsd:string ;
-           rdfs:comment "A description of the role." .
+           rdfs:comment "A description of the role." ;
+           rdfs:label "job title"@en .
 
 
 ###  http://aiod.eu/data/kernel
 :kernel rdf:type owl:DatatypeProperty ;
         rdfs:domain :ComputationalAsset ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "kernel"@en .
 
 
 ###  http://aiod.eu/data/keyword
 :keyword rdf:type owl:DatatypeProperty ;
          rdfs:domain :AIResource ;
          rdfs:range xsd:string ;
-         rdfs:comment "Terms or phrases providing additional context for the resource." .
+         rdfs:comment "Terms or phrases providing additional context for the resource." ;
+         rdfs:label "keyword"@en .
 
 
 ###  http://aiod.eu/data/languages
 :languages rdf:type owl:DatatypeProperty ;
            rdfs:domain :Person ;
            rdfs:range xsd:string ;
-           rdfs:comment "The language a Person knows." .
+           rdfs:comment "The language a Person knows." ;
+           rdfs:label "languages"@en .
 
 
 ###  http://aiod.eu/data/latitude
@@ -1473,15 +1663,17 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Location ;
           rdfs:range xsd:decimal ;
-          rdfs:comment "The latitude of a Location." .
+          rdfs:comment "The latitude of a Location." ;
+          rdfs:label "latitude"@en .
 
 
 ###  http://aiod.eu/data/learning_mode
 :learning_mode rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
-               rdfs:domain :EducationalAsset ;
+               rdfs:domain :EducationalResource ;
                rdfs:range xsd:string ;
-               rdfs:comment "The delivery mode of the Asset." .
+               rdfs:comment "The delivery mode of the Asset." ;
+               rdfs:label "learning mode"@en .
 
 
 ###  http://aiod.eu/data/legal_name
@@ -1489,7 +1681,8 @@ xsd:date rdf:type rdfs:Datatype .
                      owl:FunctionalProperty ;
             rdfs:domain :Organisation ;
             rdfs:range xsd:string ;
-            rdfs:comment "The authoritative name of the Organisation used in legal documents." .
+            rdfs:comment "The authoritative name of the Organisation used in legal documents." ;
+            rdfs:label "legal name"@en .
 
 
 ###  http://aiod.eu/data/licence
@@ -1497,7 +1690,8 @@ xsd:date rdf:type rdfs:Datatype .
                   owl:FunctionalProperty ;
          rdfs:domain :AIAsset ;
          rdfs:range xsd:anyURI ;
-         rdfs:comment "A legal document giving official permission to do something with the resource." .
+         rdfs:comment "A legal document giving official permission to do something with the resource." ;
+         rdfs:label "licence"@en .
 
 
 ###  http://aiod.eu/data/longitude
@@ -1505,14 +1699,16 @@ xsd:date rdf:type rdfs:Datatype .
                     owl:FunctionalProperty ;
            rdfs:domain :Location ;
            rdfs:range xsd:decimal ;
-           rdfs:comment "The longitude of a Location." .
+           rdfs:comment "The longitude of a Location." ;
+           rdfs:label "longitude"@en .
 
 
 ###  http://aiod.eu/data/mandatory_qualifications
 :mandatory_qualifications rdf:type owl:DatatypeProperty ;
                           rdfs:domain :JobAnnouncement ;
                           rdfs:range xsd:string ;
-                          rdfs:comment "The skills, knowledge, experience that are required for an applicant to be considered." .
+                          rdfs:comment "The skills, knowledge, experience that are required for an applicant to be considered." ;
+                          rdfs:label "mandatory qualifications"@en .
 
 
 ###  http://aiod.eu/data/maximum_contribution
@@ -1520,7 +1716,8 @@ xsd:date rdf:type rdfs:Datatype .
                                owl:FunctionalProperty ;
                       rdfs:domain :FundingOpportunity ;
                       rdfs:range xsd:decimal ;
-                      rdfs:comment "The highest amount of funding that can be requested or granted for the opportunity." .
+                      rdfs:comment "The highest amount of funding that can be requested or granted for the opportunity." ;
+                      rdfs:label "maximum contribution"@en .
 
 
 ###  http://aiod.eu/data/measurement_technique
@@ -1528,7 +1725,8 @@ xsd:date rdf:type rdfs:Datatype .
                                 owl:FunctionalProperty ;
                        rdfs:domain :Dataset ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "The technique, technology, or methodology used in a dataset, which can correspond to the variable(s) described in variableMeasured." .
+                       rdfs:comment "The technique, technology, or methodology used in a dataset, which can correspond to the variable(s) described in variableMeasured." ;
+                       rdfs:label "measurement technique"@en .
 
 
 ###  http://aiod.eu/data/memory
@@ -1542,7 +1740,8 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Multimedia ;
           rdfs:range xsd:string ;
-          rdfs:comment "The MIMEtype of the entity." .
+          rdfs:comment "The MIMEtype of the entity." ;
+          rdfs:label "mimetype"@en .
 
 
 ###  http://aiod.eu/data/minimum_contribution
@@ -1550,56 +1749,93 @@ xsd:date rdf:type rdfs:Datatype .
                                owl:FunctionalProperty ;
                       rdfs:domain :FundingOpportunity ;
                       rdfs:range xsd:decimal ;
-                      rdfs:comment "The lowest amount of funding that can be requested or granted for the opportunity." .
+                      rdfs:comment "The lowest amount of funding that can be requested or granted for the opportunity." ;
+                      rdfs:label "minimum contribution"@en .
 
 
 ###  http://aiod.eu/data/model
 :model rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain :Storage ;
-       rdfs:range xsd:string .
+       rdfs:range xsd:string ;
+       rdfs:label "model"@en .
 
 
 ###  http://aiod.eu/data/model_name
 :model_name rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :CPU ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:label "model name"@en .
 
 
 ###  http://aiod.eu/data/modified
 :modified rdf:type owl:DatatypeProperty ;
           rdfs:domain :AIoDEntry ;
           rdfs:range xsd:dateTime ;
-          rdfs:comment "The date of entry's metadata latest modification." .
+          rdfs:comment "The date of entry's metadata latest modification." ;
+          rdfs:label "modified"@en .
 
 
 ###  http://aiod.eu/data/name
 :name rdf:type owl:DatatypeProperty ;
       rdfs:domain :AIResource ;
       rdfs:range xsd:string ;
-      rdfs:comment "A name given to the resource." .
+      rdfs:comment "A name given to the resource." ;
+      rdfs:label "name"@en .
 
 
 ###  http://aiod.eu/data/num_cpu_cores
 :num_cpu_cores rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :CPU ;
-               rdfs:range xsd:integer .
+               rdfs:range xsd:integer ;
+               rdfs:label "num cpu cores"@en .
 
 
 ###  http://aiod.eu/data/number
 :number rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Location ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "number"@en .
+
+
+###  http://aiod.eu/data/number_of_employees
+:number_of_employees rdf:type owl:DatatypeProperty ;
+                     rdfs:range [ rdf:type rdfs:Datatype ;
+                                  owl:oneOf [ rdf:type rdf:List ;
+                                              rdf:first "<10" ;
+                                              rdf:rest [ rdf:type rdf:List ;
+                                                         rdf:first "<250" ;
+                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                    rdf:first "<50" ;
+                                                                    rdf:rest [ rdf:type rdf:List ;
+                                                                               rdf:first ">250" ;
+                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                          rdf:first "N/A" ;
+                                                                                          rdf:rest rdf:nil
+                                                                                        ]
+                                                                             ]
+                                                                  ]
+                                                       ]
+                                            ]
+                                ] .
 
 
 ###  http://aiod.eu/data/offered_via
 :offered_via rdf:type owl:DatatypeProperty ;
-             rdfs:domain :EducationalAsset ;
+             rdfs:domain :EducationalResource ;
              rdfs:range xsd:anyURI ;
-             rdfs:comment "The URL through which the educational asset is accessed." .
+             rdfs:comment "The URL through which the educational asset is accessed." ;
+             rdfs:label "offered via"@en .
+
+
+###  http://aiod.eu/data/on_platform
+:on_platform rdf:type owl:DatatypeProperty ;
+             rdfs:domain :PlatformAccount ;
+             rdfs:range xsd:string ;
+             rdfs:label "on platform"@en .
 
 
 ###  http://aiod.eu/data/opening_date
@@ -1607,28 +1843,39 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :FundingOpportunity ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The start date of the application for the Fundind Opportunity." .
+              rdfs:comment "The start date of the application for the Fundind Opportunity." ;
+              rdfs:label "opening date"@en .
 
 
 ###  http://aiod.eu/data/optional_qualifications
 :optional_qualifications rdf:type owl:DatatypeProperty ;
                          rdfs:domain :JobAnnouncement ;
                          rdfs:range xsd:string ;
-                         rdfs:comment "The skills, knowledge, experience that are desirable for an applicant to be considered." .
+                         rdfs:comment "The skills, knowledge, experience that are desirable for an applicant to be considered." ;
+                         rdfs:label "optional qualifications"@en .
 
 
 ###  http://aiod.eu/data/os
 :os rdf:type owl:DatatypeProperty ,
              owl:FunctionalProperty ;
     rdfs:domain :ComputationalAsset ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:label "os"@en .
 
 
 ###  http://aiod.eu/data/pid
 :pid rdf:type owl:DatatypeProperty ,
               owl:FunctionalProperty ;
      rdfs:domain :Dataset ;
-     rdfs:range xsd:string .
+     rdfs:range xsd:string ;
+     rdfs:label "pid"@en .
+
+
+###  http://aiod.eu/data/platform_account_homepage
+:platform_account_homepage rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :PlatformAccount ;
+                           rdfs:range xsd:anyURI ;
+                           rdfs:label "platform account homepage"@en .
 
 
 ###  http://aiod.eu/data/postal_code
@@ -1636,13 +1883,15 @@ xsd:date rdf:type rdfs:Datatype .
                       owl:FunctionalProperty ;
              rdfs:domain :Location ;
              rdfs:range xsd:string ;
-             rdfs:comment "The postal code of a Location." .
+             rdfs:comment "The postal code of a Location." ;
+             rdfs:label "postal code"@en .
 
 
 ###  http://aiod.eu/data/prerequisites
 :prerequisites rdf:type owl:DatatypeProperty ;
                rdfs:domain :Service ;
-               rdfs:range xsd:string .
+               rdfs:range xsd:string ;
+               rdfs:label "prerequisites"@en .
 
 
 ###  http://aiod.eu/data/pricing
@@ -1650,80 +1899,91 @@ xsd:date rdf:type rdfs:Datatype .
                   owl:FunctionalProperty ;
          rdfs:domain :AIAsset ;
          rdfs:range xsd:string ;
-         rdfs:comment "A description of the pricing strategy of the AIAsset." .
+         rdfs:comment "A description of the pricing strategy of the AIAsset." ;
+         rdfs:label "pricing"@en .
 
 
 ###  http://aiod.eu/data/pricing_scheme
 :pricing_scheme rdf:type owl:DatatypeProperty ;
                 rdfs:domain :ComputationalAsset ;
                 rdfs:range xsd:string ;
-                rdfs:comment "The pricing scheme that determines the cost of the Computational Asset." .
+                rdfs:comment "The pricing scheme that determines the cost of the Computational Asset." ;
+                rdfs:label "pricing scheme"@en .
 
 
-###  http://aiod.eu/data/procudes_output
-:procudes_output rdf:type owl:DatatypeProperty ,
+###  http://aiod.eu/data/produces_output
+:produces_output rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :WorkflowExecutionStep ;
                  rdfs:range xsd:anyURI ;
-                 rdfs:comment "The URL with the data that are generated during execution." .
+                 rdfs:comment "The URL with the data that are generated during execution." ;
+                 rdfs:label "produces output"@en .
 
 
 ###  http://aiod.eu/data/qualification
 :qualification rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
-               rdfs:domain :EducationalAsset ;
+               rdfs:domain :EducationalResource ;
                rdfs:range xsd:string ;
-               rdfs:comment "Identification of certification, accreditation or badge obtained with course or learning resource." .
+               rdfs:comment "Identification of certification, accreditation or badge obtained with course or learning resource." ;
+               rdfs:label "qualification"@en .
 
 
 ###  http://aiod.eu/data/read_bandwidth
 :read_bandwidth rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain :Memory ;
-                rdfs:range xsd:integer .
+                rdfs:range xsd:integer ;
+                rdfs:label "read bandwidth"@en .
 
 
 ###  http://aiod.eu/data/region
 :region rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Location ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "region"@en .
 
 
 ###  http://aiod.eu/data/registration_link
 :registration_link rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Event ;
                    rdfs:range xsd:anyURI ;
-                   rdfs:comment "The location where the registration is." .
+                   rdfs:comment "The location where the registration is." ;
+                   rdfs:label "registration link"@en .
 
 
 ###  http://aiod.eu/data/relevant_link
 :relevant_link rdf:type owl:DatatypeProperty ;
                rdfs:domain :AIoDConcept ;
-               rdfs:comment "A web address where is a relevant resource related to the Entity." .
+               rdfs:comment "A web address where is a relevant resource related to the Entity." ;
+               rdfs:label "relevant link"@en .
 
 
 ###  http://aiod.eu/data/reproducibility_explanation
 :reproducibility_explanation rdf:type owl:DatatypeProperty ,
                                       owl:FunctionalProperty ;
-                             rdfs:domain :Expirement ;
+                             rdfs:domain :Experiment ;
                              rdfs:range xsd:string ;
-                             rdfs:comment "A descriptive explanation of the experiment's capability to produce equivalent results under similar conditions." .
+                             rdfs:comment "A descriptive explanation of the experiment's capability to produce equivalent results under similar conditions." ;
+                             rdfs:label "reproducibility explanation"@en .
 
 
 ###  http://aiod.eu/data/schedule
 :schedule rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
-          rdfs:domain :EducationalAsset ;
+          rdfs:domain :EducationalResource ;
           rdfs:range xsd:string ;
-          rdfs:comment "The description of the program of the Educational Asset." .
+          rdfs:comment "The description of the program of the Educational Asset." ;
+          rdfs:label "schedule"@en .
 
 
 ###  http://aiod.eu/data/service_category
 :service_category rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Service ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "The category in which the Service belongs to." .
+                  rdfs:comment "The category in which the Service belongs to." ;
+                  rdfs:label "service category"@en .
 
 
 ###  http://aiod.eu/data/service_status
@@ -1731,7 +1991,8 @@ xsd:date rdf:type rdfs:Datatype .
                          owl:FunctionalProperty ;
                 rdfs:domain :Service ;
                 rdfs:range xsd:string ;
-                rdfs:comment "The current state of the service." .
+                rdfs:comment "The current state of the service." ;
+                rdfs:label "service status"@en .
 
 
 ###  http://aiod.eu/data/service_type
@@ -1739,23 +2000,26 @@ xsd:date rdf:type rdfs:Datatype .
                        owl:FunctionalProperty ;
               rdfs:domain :Service ;
               rdfs:range xsd:string ;
-              rdfs:comment "The type of the Service." .
+              rdfs:comment "The type of the Service." ;
+              rdfs:label "service type"@en .
 
 
 ###  http://aiod.eu/data/source
 :source rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
-        rdfs:domain :News ;
+        rdfs:domain :NewsItem ;
         rdfs:range xsd:anyURI ;
-        rdfs:comment "The location where the news item was originally published." .
+        rdfs:comment "The location where the news item was originally published." ;
+        rdfs:label "source"@en .
 
 
 ###  http://aiod.eu/data/start_date
 :start_date rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
-            rdfs:domain :EducationalAsset ;
+            rdfs:domain :EducationalResource ;
             rdfs:range xsd:dateTime ;
-            rdfs:comment "The date when the resource starts running." .
+            rdfs:comment "The date when the resource starts running." ;
+            rdfs:label "start date"@en .
 
 
 ###  http://aiod.eu/data/start_time
@@ -1763,20 +2027,23 @@ xsd:date rdf:type rdfs:Datatype .
                      owl:FunctionalProperty ;
             rdfs:domain :WorkflowExecution ;
             rdfs:range xsd:dateTime ;
-            rdfs:comment "The start date of execution." .
+            rdfs:comment "The start date of execution." ;
+            rdfs:label "start time"@en .
 
 
 ###  http://aiod.eu/data/status
 :status rdf:type owl:DatatypeProperty ;
         rdfs:domain :AIoDEntry ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "status"@en .
 
 
 ###  http://aiod.eu/data/street
 :street rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Location ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "street"@en .
 
 
 ###  http://aiod.eu/data/submission_platform
@@ -1784,7 +2051,8 @@ xsd:date rdf:type rdfs:Datatype .
                               owl:FunctionalProperty ;
                      rdfs:domain :FundingOpportunity ;
                      rdfs:range xsd:anyURI ;
-                     rdfs:comment "The location where sites the platform for the submission." .
+                     rdfs:comment "The location where sites the platform for the submission." ;
+                     rdfs:label "submission platform"@en .
 
 
 ###  http://aiod.eu/data/technology_readiness_level
@@ -1792,21 +2060,24 @@ xsd:date rdf:type rdfs:Datatype .
                                      owl:FunctionalProperty ;
                             rdfs:domain :Distribution ;
                             rdfs:range xsd:integer ;
-                            rdfs:comment "The technology readiness level (TRL) of the distribution." .
+                            rdfs:comment "The technology readiness level (TRL) of the distribution." ;
+                            rdfs:label "technology readiness level"@en .
 
 
 ###  http://aiod.eu/data/telephone
 :telephone rdf:type owl:DatatypeProperty ;
            rdfs:domain :ContactDetails ;
            rdfs:range xsd:string ;
-           rdfs:comment "The phone number associated with the ContactDetails." .
+           rdfs:comment "The phone number associated with the ContactDetails." ;
+           rdfs:label "telephone"@en .
 
 
 ###  http://aiod.eu/data/temporal_coverage
 :temporal_coverage rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :Dataset ;
-                   rdfs:range xsd:string .
+                   rdfs:range xsd:string ;
+                   rdfs:label "temporal coverage"@en .
 
 
 ###  http://aiod.eu/data/topic
@@ -1814,14 +2085,16 @@ xsd:date rdf:type rdfs:Datatype .
                 owl:FunctionalProperty ;
        rdfs:domain :ECProject ;
        rdfs:range xsd:string ;
-       rdfs:comment "The thematic area that the project focuses on." .
+       rdfs:comment "The thematic area that the project focuses on." ;
+       rdfs:label "topic"@en .
 
 
 ###  http://aiod.eu/data/total_cost_euros
 :total_cost_euros rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Project ;
                   rdfs:range xsd:decimal ;
-                  rdfs:comment "Total budget of the project in euros." .
+                  rdfs:comment "Total budget of the project in euros." ;
+                  rdfs:label "total cost euros"@en .
 
 
 ###  http://aiod.eu/data/training_status
@@ -1829,69 +2102,86 @@ xsd:date rdf:type rdfs:Datatype .
                           owl:FunctionalProperty ;
                  rdfs:domain :MLModel ;
                  rdfs:range xsd:string ;
-                 rdfs:comment "The training process's progress." .
+                 rdfs:comment "The training process's progress." ;
+                 rdfs:label "training status"@en .
 
 
 ###  http://aiod.eu/data/type
 :type rdf:type owl:DatatypeProperty ;
       rdfs:domain :WorkflowStep ;
-      rdfs:range xsd:string .
+      rdfs:range xsd:string ;
+      rdfs:label "type"@en .
 
 
 ###  http://aiod.eu/data/unit
 :unit rdf:type owl:DatatypeProperty ;
       rdfs:domain :Size ;
       rdfs:range xsd:string ;
-      rdfs:comment "The unit of measurement corresponding to the Size value." .
+      rdfs:comment "The unit of measurement corresponding to the Size value." ;
+      rdfs:label "unit"@en .
 
 
 ###  http://aiod.eu/data/use_case_example
 :use_case_example rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Service ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "A descriptive example showcasing the use of the Service." .
+                  rdfs:comment "A descriptive example showcasing the use of the Service." ;
+                  rdfs:label "use case example"@en .
+
+
+###  http://aiod.eu/data/username
+:username rdf:type owl:DatatypeProperty ;
+          rdfs:domain :PlatformAccount ;
+          rdfs:range xsd:string ;
+          rdfs:label "username"@en .
 
 
 ###  http://aiod.eu/data/uses_configuration
 :uses_configuration rdf:type owl:DatatypeProperty ;
                     rdfs:domain :WorkflowStep ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "The URL pointing to the configuration document for the step settings." .
+                    rdfs:comment "The URL pointing to the configuration document for the step settings." ;
+                    rdfs:label "uses configuration"@en .
 
 
 ###  http://aiod.eu/data/uses_input
 :uses_input rdf:type owl:DatatypeProperty ;
             rdfs:domain :WorkflowExecutionStep ;
             rdfs:range xsd:anyURI ;
-            rdfs:comment "The URL need for executing a specific step." .
+            rdfs:comment "The URL need for executing a specific step." ;
+            rdfs:label "uses input"@en .
 
 
 ###  http://aiod.eu/data/value
 :value rdf:type owl:DatatypeProperty ;
        rdfs:domain :Size ;
        rdfs:range xsd:decimal ;
-       rdfs:comment "The numerical value representig the Size." .
+       rdfs:comment "The numerical value representig the Size." ;
+       rdfs:label "value"@en .
 
 
 ###  http://aiod.eu/data/variable_measured
 :variable_measured rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Dataset ;
                    rdfs:range xsd:string ;
-                   rdfs:comment "The variable that this dataset measures. For example, “temperature” or “pressure”." .
+                   rdfs:comment "The variable that this dataset measures. For example, “temperature” or “pressure”." ;
+                   rdfs:label "variable measured"@en .
 
 
 ###  http://aiod.eu/data/vendor
 :vendor rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :CPU ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:label "vendor"@en .
 
 
 ###  http://aiod.eu/data/version
 :version rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain :AIAsset ;
-         rdfs:range xsd:string .
+         rdfs:range xsd:string ;
+         rdfs:label "version"@en .
 
 
 ###  http://aiod.eu/data/width_px
@@ -1899,7 +2189,8 @@ xsd:date rdf:type rdfs:Datatype .
                    owl:FunctionalProperty ;
           rdfs:domain :Image ;
           rdfs:range xsd:integer ;
-          rdfs:comment "The width of an Image in pixels." .
+          rdfs:comment "The width of an Image in pixels." ;
+          rdfs:label "width px"@en .
 
 
 ###  http://aiod.eu/data/workflow_configuration
@@ -1907,7 +2198,8 @@ xsd:date rdf:type rdfs:Datatype .
                                  owl:FunctionalProperty ;
                         rdfs:domain :Workflow ;
                         rdfs:range xsd:anyURI ;
-                        rdfs:comment "The URL pointing to the configuration document with the settings used." .
+                        rdfs:comment "The URL pointing to the configuration document with the settings used." ;
+                        rdfs:label "workflow configuration"@en .
 
 
 ###  http://aiod.eu/data/workflow_configuration_standard
@@ -1915,14 +2207,16 @@ xsd:date rdf:type rdfs:Datatype .
                                           owl:FunctionalProperty ;
                                  rdfs:domain :Workflow ;
                                  rdfs:range xsd:string ;
-                                 rdfs:comment "A description of the guidelines used for setting up the parameters of the workflow." .
+                                 rdfs:comment "A description of the guidelines used for setting up the parameters of the workflow." ;
+                                 rdfs:label "workflow configuration standard"@en .
 
 
 ###  http://aiod.eu/data/workflow_specification
 :workflow_specification rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Workflow ;
                         rdfs:range xsd:anyURI ;
-                        rdfs:comment "The URL where the definitive specification document can be accessed." .
+                        rdfs:comment "The URL where the definitive specification document can be accessed." ;
+                        rdfs:label "workflow specification"@en .
 
 
 ###  http://aiod.eu/data/workflow_specification_standard
@@ -1930,14 +2224,16 @@ xsd:date rdf:type rdfs:Datatype .
                                           owl:FunctionalProperty ;
                                  rdfs:domain :Workflow ;
                                  rdfs:range xsd:string ;
-                                 rdfs:comment "A description of the guidelines used to define the procces tasks." .
+                                 rdfs:comment "A description of the guidelines used to define the procces tasks." ;
+                                 rdfs:label "workflow specification standard"@en .
 
 
 ###  http://aiod.eu/data/write_bandwidth
 :write_bandwidth rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Memory ;
-                 rdfs:range xsd:integer .
+                 rdfs:range xsd:integer ;
+                 rdfs:label "write bandwidth"@en .
 
 
 ###  http://purl.org/dc/terms/alternative
@@ -2002,6 +2298,10 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
 
 
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:domain :Agent .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -2009,11 +2309,13 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/AIAsset
 :AIAsset rdf:type owl:Class ;
          rdfs:subClassOf :AIResource ;
-         rdfs:comment "An accessible and usable asset pertaining to AI research and applications." .
+         rdfs:comment "An accessible and usable asset pertaining to AI research and applications." ;
+         rdfs:label "AI Asset"@en .
 
 
 ###  http://aiod.eu/data/AIResource
 :AIResource rdf:type owl:Class ;
+            owl:equivalentClass <http://www.w3.org/ns/dcat#Resource> ;
             rdfs:subClassOf :AIoDConcept ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty :aiod_entry ;
@@ -2030,12 +2332,14 @@ xsd:date rdf:type rdfs:Datatype .
                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                               owl:onDataRange xsd:string
                             ] ;
-            rdfs:comment "A source of information, guidance or research and development assets for AI." .
+            rdfs:comment "A source of information, guidance or research and development assets for AI." ;
+            rdfs:label "AI Resource"@en .
 
 
 ###  http://aiod.eu/data/AIoDConcept
 :AIoDConcept rdf:type owl:Class ;
-             rdfs:comment "The top level entity of the model." .
+             rdfs:comment "The top level entity of the model." ;
+             rdfs:label "AIoD Concept"@en .
 
 
 ###  http://aiod.eu/data/AIoDEntry
@@ -2051,37 +2355,48 @@ xsd:date rdf:type rdfs:Datatype .
                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                              owl:onDataRange xsd:string
                            ] ;
-           rdfs:comment "The entity defines metadata properties pertaining to AIoD platform-specific characteristics of a resource." .
+           rdfs:comment "The entity defines metadata properties pertaining to AIoD platform-specific characteristics of a resource." ;
+           rdfs:label "AIoD Entry"@en .
 
 
 ###  http://aiod.eu/data/Accelerator
 :Accelerator rdf:type owl:Class ;
-             rdfs:subClassOf :AIoDConcept ;
-             rdfs:comment "The part of a computing system responsible for accelerating specific computational tasks." .
+             rdfs:subClassOf :ComputeComponent ;
+             rdfs:comment "The part of a computing system responsible for accelerating specific computational tasks." ;
+             rdfs:label "Accelerator"@en .
 
 
 ###  http://aiod.eu/data/Agent
 :Agent rdf:type owl:Class ;
+       owl:equivalentClass <http://purl.org/dc/terms/Agent> ,
+                           <http://xmlns.com/foaf/0.1/Agent> ;
        rdfs:subClassOf :EcosystemResource ;
        rdfs:comment "The direct performer or driver of the action (animate or inanimate)." .
 
 
 ###  http://aiod.eu/data/Announcement
 :Announcement rdf:type owl:Class ;
-              rdfs:subClassOf :News ;
+              rdfs:subClassOf :NewsItem ;
               rdfs:comment "An article containing official information or updates." .
 
 
 ###  http://aiod.eu/data/Approach
 :Approach rdf:type owl:Class ;
-          rdfs:subClassOf :EcosystemResource ;
+          rdfs:subClassOf :AIoDConcept ;
           rdfs:comment "The specific point of view employed to implement a solution." .
+
+
+###  http://aiod.eu/data/Assessment
+:Assessment rdf:type owl:Class ;
+            rdfs:subClassOf :AIoDConcept ;
+            rdfs:label "Assessment"@en .
 
 
 ###  http://aiod.eu/data/Audio
 :Audio rdf:type owl:Class ;
        rdfs:subClassOf :Multimedia ;
-       rdfs:comment "A recorded sound." .
+       rdfs:comment "A recorded sound." ;
+       rdfs:label "Audio"@en .
 
 
 ###  http://aiod.eu/data/BusinessFunction
@@ -2093,19 +2408,22 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/BusinessProblem
 :BusinessProblem rdf:type owl:Class ;
                  rdfs:subClassOf :Problem ;
-                 rdfs:comment "The specific issue or challenge faced by a company." .
+                 rdfs:comment "The specific issue or challenge faced by a company." ;
+                 rdfs:label "Business Problem"@en .
 
 
 ###  http://aiod.eu/data/BusinessSector
 :BusinessSector rdf:type owl:Class ;
                 rdfs:subClassOf :Expertise ;
-                rdfs:comment "The distinct subset of the economy." .
+                rdfs:comment "The distinct subset of the economy." ;
+                rdfs:label "Business Sector"@en .
 
 
 ###  http://aiod.eu/data/CPU
 :CPU rdf:type owl:Class ;
-     rdfs:subClassOf :AIoDConcept ;
-     rdfs:comment "The central processor of a computer system." .
+     rdfs:subClassOf :ComputeComponent ;
+     rdfs:comment "The central processor of a computer system." ;
+     rdfs:label "CPU"@en .
 
 
 ###  http://aiod.eu/data/CaseStudy
@@ -2133,65 +2451,94 @@ xsd:date rdf:type rdfs:Datatype .
                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                   owl:onDataRange xsd:anyURI
                                 ] ;
-                rdfs:comment "A means to categorize entities under classification schemes." .
+                rdfs:comment "A means to categorize entities under classification schemes." ;
+                rdfs:label "Classification"@en .
 
 
 ###  http://aiod.eu/data/CloudComputeAsset
 :CloudComputeAsset rdf:type owl:Class ;
-                   rdfs:subClassOf :ComputationalAsset .
+                   rdfs:subClassOf :ComputationalAsset ;
+                   rdfs:label "Cloud Compute Asset"@en .
+
+
+###  http://aiod.eu/data/CompanyRevenue
+:CompanyRevenue rdf:type owl:Class ;
+                rdfs:subClassOf :AIoDConcept ;
+                rdfs:label "Company Revenue"@en .
+
+
+###  http://aiod.eu/data/CompanySize
+:CompanySize rdf:type owl:Class ;
+             rdfs:subClassOf :AIoDConcept ;
+             rdfs:label "Company Size"@en .
 
 
 ###  http://aiod.eu/data/ComputationalAsset
 :ComputationalAsset rdf:type owl:Class ;
                     rdfs:subClassOf :AIAsset ;
-                    rdfs:comment "Physical or virtual infrastuctures providing computational capabilities." .
+                    rdfs:comment "Physical or virtual infrastuctures providing computational capabilities." ;
+                    rdfs:label "Computational Asset"@en .
 
 
 ###  http://aiod.eu/data/ComputationalRequirement
 :ComputationalRequirement rdf:type owl:Class ;
                           rdfs:subClassOf :AIoDConcept ;
-                          rdfs:comment "The computing resources required to perform a function." .
+                          rdfs:comment "The computing resources required to perform a function." ;
+                          rdfs:label "Computational Requirement"@en .
 
 
 ###  http://aiod.eu/data/ComputeAsset
 :ComputeAsset rdf:type owl:Class ;
-              rdfs:subClassOf :ComputationalAsset .
+              rdfs:subClassOf :ComputationalAsset ;
+              rdfs:label "Compute Asset"@en .
+
+
+###  http://aiod.eu/data/ComputeComponent
+:ComputeComponent rdf:type owl:Class ;
+                  rdfs:subClassOf :AIoDConcept ;
+                  rdfs:label "Compute Component"@en .
 
 
 ###  http://aiod.eu/data/ContactDetails
 :ContactDetails rdf:type owl:Class ;
                 rdfs:subClassOf :AIoDConcept ;
-                rdfs:comment "Information related to communication methods." .
+                rdfs:comment "Information related to communication methods." ;
+                rdfs:label "Contact Details"@en .
 
 
 ###  http://aiod.eu/data/Container
 :Container rdf:type owl:Class ;
-           rdfs:subClassOf :Distribution .
+           rdfs:subClassOf :Distribution ;
+           rdfs:label "Container"@en .
 
 
 ###  http://aiod.eu/data/Course
 :Course rdf:type owl:Class ;
-        rdfs:subClassOf :EducationalAsset ;
+        rdfs:subClassOf :EducationalResource ;
         rdfs:comment "A systematic training programme." .
 
 
 ###  http://aiod.eu/data/DataDownload
 :DataDownload rdf:type owl:Class ;
-              rdfs:subClassOf :Distribution .
+              rdfs:subClassOf :Distribution ;
+              rdfs:label "Data Download"@en .
 
 
 ###  http://aiod.eu/data/DataModel
 :DataModel rdf:type owl:Class ;
-           rdfs:subClassOf :Model .
+           rdfs:subClassOf :Model ;
+           rdfs:label "Data Model"@en .
 
 
 ###  http://aiod.eu/data/DataService
 :DataService rdf:type owl:Class ;
-             rdfs:subClassOf :Distribution .
+             rdfs:subClassOf :Distribution ;
+             rdfs:label "Data Service"@en .
 
 
 ###  http://aiod.eu/data/Dataset
 :Dataset rdf:type owl:Class ;
+         owl:equivalentClass <http://www.w3.org/ns/dcat#Dataset> ;
          rdfs:subClassOf :AIAsset ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :size ;
@@ -2203,7 +2550,8 @@ xsd:date rdf:type rdfs:Datatype .
                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                            owl:onClass :Location
                          ] ;
-         rdfs:comment "A collection of data, published or curated by a specific agency." .
+         rdfs:comment "A collection of data, published or curated by a specific agency." ;
+         rdfs:label "Dataset"@en .
 
 
 ###  http://aiod.eu/data/DeveloperService
@@ -2213,7 +2561,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Distribution
 :Distribution rdf:type owl:Class ;
-              rdfs:subClassOf :EcosystemResource ,
+              rdfs:subClassOf :AIoDConcept ,
                               [ rdf:type owl:Restriction ;
                                 owl:onProperty :has_computational_requirement ;
                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -2224,7 +2572,14 @@ xsd:date rdf:type rdfs:Datatype .
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onDataRange xsd:anyURI
                               ] ;
-              rdfs:comment "A specific form of packaging and means of distributing an AI Asset." .
+              rdfs:comment "A specific form of packaging and means of distributing an AI Asset." ;
+              rdfs:label "Distribution"@en .
+
+
+###  http://aiod.eu/data/DocumentaryResource
+:DocumentaryResource rdf:type owl:Class ;
+                     rdfs:subClassOf :KnowledgeAsset ;
+                     rdfs:label "Documentary Resource"@en .
 
 
 ###  http://aiod.eu/data/ECProject
@@ -2241,18 +2596,19 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/EcosystemResource
 :EcosystemResource rdf:type owl:Class ;
                    rdfs:subClassOf :AIResource ;
-                   rdfs:comment "Indirect contributions to the research and development of AI assets." .
+                   rdfs:comment "Indirect contributions to the research and development of AI assets." ;
+                   rdfs:label "Ecosystem Resource"@en .
 
 
-###  http://aiod.eu/data/EducationalAsset
-:EducationalAsset rdf:type owl:Class ;
-                  rdfs:subClassOf :AIAsset ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :offered_by ;
-                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                    owl:onClass :Organisation
-                                  ] ;
-                  rdfs:comment "An AI Asset designed for educational purposes." .
+###  http://aiod.eu/data/EducationalResource
+:EducationalResource rdf:type owl:Class ;
+                     rdfs:subClassOf :EcosystemResource ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :offered_by ;
+                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Organisation
+                                     ] ;
+                     rdfs:comment "An AI Asset designed for educational purposes." .
 
 
 ###  http://aiod.eu/data/Event
@@ -2271,10 +2627,18 @@ xsd:date rdf:type rdfs:Datatype .
        rdfs:comment "An event happening at a certain time and location, with a specific scope." .
 
 
+###  http://aiod.eu/data/Experiment
+:Experiment rdf:type owl:Class ;
+            rdfs:subClassOf :AIAsset ;
+            rdfs:comment "A procedure conducted to test theoretical knowledge." ;
+            rdfs:label "Experiment"@en .
+
+
 ###  http://aiod.eu/data/ExperimentExecution
 :ExperimentExecution rdf:type owl:Class ;
                      rdfs:subClassOf :AIAsset ;
-                     rdfs:comment "The actual conduct of a previously defined experiment." .
+                     rdfs:comment "The actual conduct of a previously defined experiment." ;
+                     rdfs:label "Experiment Execution"@en .
 
 
 ###  http://aiod.eu/data/ExpertGroup
@@ -2285,26 +2649,23 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Expertise
 :Expertise rdf:type owl:Class ;
-           rdfs:subClassOf :EcosystemResource ;
-           rdfs:comment "The area of specialization and practical experience." .
-
-
-###  http://aiod.eu/data/Expirement
-:Expirement rdf:type owl:Class ;
-            rdfs:subClassOf :AIAsset ;
-            rdfs:comment "A procedure conducted to test theoretical knowledge." .
+           rdfs:subClassOf :AIoDConcept ;
+           rdfs:comment "The area of specialization and practical experience." ;
+           rdfs:label "Expertise"@en .
 
 
 ###  http://aiod.eu/data/FundingOpportunity
 :FundingOpportunity rdf:type owl:Class ;
-                    rdfs:subClassOf :News ;
+                    rdfs:subClassOf :NewsItem ;
                     rdfs:comment "An article highlighting opportunities for financial support." .
 
 
 ###  http://aiod.eu/data/Image
 :Image rdf:type owl:Class ;
+       owl:equivalentClass <http://xmlns.com/foaf/0.1/Image> ;
        rdfs:subClassOf :Multimedia ;
-       rdfs:comment "The depiction/visual representation of static elements." .
+       rdfs:comment "The depiction/visual representation of static elements." ;
+       rdfs:label "Image"@en .
 
 
 ###  http://aiod.eu/data/InformationalService
@@ -2319,7 +2680,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/JobAnnouncement
 :JobAnnouncement rdf:type owl:Class ;
-                 rdfs:subClassOf :News ,
+                 rdfs:subClassOf :NewsItem ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty :issuer ;
                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -2331,61 +2692,71 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/KnowledgeAsset
 :KnowledgeAsset rdf:type owl:Class ;
                 rdfs:subClassOf :AIAsset ;
-                rdfs:comment "An AI Asset used as an information item for other entities, such as assets and scientific areas." .
+                rdfs:comment "An AI Asset used as an information item for other entities, such as assets and scientific areas." ;
+                rdfs:label "Knowledge Asset"@en .
 
 
 ###  http://aiod.eu/data/Library
 :Library rdf:type owl:Class ;
-         rdfs:subClassOf :Distribution .
+         rdfs:subClassOf :Distribution ;
+         rdfs:label "Library"@en .
 
 
 ###  http://aiod.eu/data/Location
 :Location rdf:type owl:Class ;
+          owl:equivalentClass <http://purl.org/dc/terms/Location> ;
           rdfs:subClassOf :AIoDConcept ;
-          rdfs:comment "A spatial region or named place." .
+          rdfs:comment "A spatial region or named place." ;
+          rdfs:label "Location"@en .
 
 
 ###  http://aiod.eu/data/MLModel
 :MLModel rdf:type owl:Class ;
          rdfs:subClassOf :Model ;
-         rdfs:comment "A model designed  for machine learning tasks." .
+         rdfs:comment "A model designed  for machine learning tasks." ;
+         rdfs:label "ML Model"@en .
 
 
 ###  http://aiod.eu/data/Memory
 :Memory rdf:type owl:Class ;
-        rdfs:subClassOf :AIoDConcept .
+        rdfs:subClassOf :ComputeComponent ;
+        rdfs:label "Memory"@en .
 
 
 ###  http://aiod.eu/data/Model
 :Model rdf:type owl:Class ;
-       rdfs:subClassOf :AIAsset .
+       rdfs:subClassOf :AIAsset ;
+       rdfs:label "Model"@en .
 
 
 ###  http://aiod.eu/data/Multimedia
 :Multimedia rdf:type owl:Class ;
             rdfs:subClassOf :KnowledgeAsset ;
-            rdfs:comment "The combination of various media formats." .
-
-
-###  http://aiod.eu/data/News
-:News rdf:type owl:Class ;
-      rdfs:subClassOf :EcosystemResource ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :headline ;
-                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onDataRange xsd:string
-                      ] ;
-      rdfs:comment "An article (possible of mixed modality) that reports or summarizes news." .
+            rdfs:comment "The combination of various media formats." ;
+            rdfs:label "Multimedia"@en .
 
 
 ###  http://aiod.eu/data/NewsCategory
 :NewsCategory rdf:type owl:Class ;
-              rdfs:subClassOf :AIoDConcept .
+              rdfs:subClassOf :AIoDConcept ;
+              rdfs:label "News Category"@en .
+
+
+###  http://aiod.eu/data/NewsItem
+:NewsItem rdf:type owl:Class ;
+          rdfs:subClassOf :EcosystemResource ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :headline ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ;
+          rdfs:comment "An article (possible of mixed modality) that reports or summarizes news." .
 
 
 ###  http://aiod.eu/data/Notebook
 :Notebook rdf:type owl:Class ;
-          rdfs:subClassOf :Distribution .
+          rdfs:subClassOf :Distribution ;
+          rdfs:label "Notebook"@en .
 
 
 ###  http://aiod.eu/data/OpenCallProject
@@ -2402,7 +2773,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/Operation
 :Operation rdf:type owl:Class ;
            rdfs:subClassOf :AIAsset ;
-           rdfs:comment "A task or function performed within a system." .
+           rdfs:comment "A task or function performed within a system." ;
+           rdfs:label "Operation"@en .
 
 
 ###  http://aiod.eu/data/Organisation
@@ -2413,24 +2785,33 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Person
 :Person rdf:type owl:Class ;
+        owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> ;
         rdfs:subClassOf :Agent ;
         rdfs:comment "A human being." .
+
+
+###  http://aiod.eu/data/PlatformAccount
+:PlatformAccount rdf:type owl:Class ;
+                 rdfs:subClassOf :AIoDConcept .
 
 
 ###  http://aiod.eu/data/Presentation
 :Presentation rdf:type owl:Class ;
               rdfs:subClassOf :KnowledgeAsset ;
-              rdfs:comment "A structured format for communicating information." .
+              rdfs:comment "A structured format for communicating information." ;
+              rdfs:label "Presentation"@en .
 
 
 ###  http://aiod.eu/data/Problem
 :Problem rdf:type owl:Class ;
-         rdfs:subClassOf :EcosystemResource ;
-         rdfs:comment "The specific issue or challenge." .
+         rdfs:subClassOf :AIoDConcept ;
+         rdfs:comment "The specific issue or challenge." ;
+         rdfs:label "Problem"@en .
 
 
 ###  http://aiod.eu/data/Project
 :Project rdf:type owl:Class ;
+         owl:equivalentClass <http://xmlns.com/foaf/0.1/Project> ;
          rdfs:subClassOf :EcosystemResource ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :coordinator ;
@@ -2445,22 +2826,44 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:comment "A contractually defined initiative aimed to achieve specific objectives." .
 
 
+###  http://aiod.eu/data/Protocol
+:Protocol rdf:type owl:Class ;
+          rdfs:subClassOf :DocumentaryResource ;
+          rdfs:label "Protocol"@en .
+
+
 ###  http://aiod.eu/data/Publication
 :Publication rdf:type owl:Class ;
-             rdfs:subClassOf :KnowledgeAsset ;
-             rdfs:comment "A scientific publication." .
+             owl:equivalentClass <http://purl.org/dc/terms/BibliographicResource> ;
+             rdfs:subClassOf :DocumentaryResource ;
+             rdfs:comment "A scientific publication." ;
+             rdfs:label "Publication"@en .
+
+
+###  http://aiod.eu/data/Purpose
+:Purpose rdf:type owl:Class ;
+         rdfs:subClassOf :AIoDConcept ;
+         rdfs:label "Purpose"@en .
+
+
+###  http://aiod.eu/data/Requirement
+:Requirement rdf:type owl:Class ;
+             rdfs:subClassOf :AIoDConcept ;
+             rdfs:label "Requirement"@en .
 
 
 ###  http://aiod.eu/data/ResearchArea
 :ResearchArea rdf:type owl:Class ;
               rdfs:subClassOf :Expertise ;
-              rdfs:comment "A specific domain within the broader field of AI." .
+              rdfs:comment "A specific domain within the broader field of AI." ;
+              rdfs:label "Research Area"@en .
 
 
 ###  http://aiod.eu/data/ResearchProblem
 :ResearchProblem rdf:type owl:Class ;
                  rdfs:subClassOf :Problem ;
-                 rdfs:comment "The specific issue or challenge faced in the context of research." .
+                 rdfs:comment "The specific issue or challenge faced in the context of research." ;
+                 rdfs:label "Research Problem"@en .
 
 
 ###  http://aiod.eu/data/ResourceBundle
@@ -2471,17 +2874,26 @@ xsd:date rdf:type rdfs:Datatype .
                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                   owl:onClass :AIResource
                                 ] ;
-                rdfs:comment "A coherent collection of resources intended to be shared as a set." .
+                rdfs:comment "A coherent collection of resources intended to be shared as a set." ;
+                rdfs:label "Resource Bundle"@en .
+
+
+###  http://aiod.eu/data/Risk
+:Risk rdf:type owl:Class ;
+      rdfs:subClassOf :AIoDConcept ;
+      rdfs:label "Risk"@en .
 
 
 ###  http://aiod.eu/data/RunnableDistribution
 :RunnableDistribution rdf:type owl:Class ;
-                      rdfs:subClassOf :Distribution .
+                      rdfs:subClassOf :Distribution ;
+                      rdfs:label "Runnable Distribution"@en .
 
 
 ###  http://aiod.eu/data/SaaS
 :SaaS rdf:type owl:Class ;
-      rdfs:subClassOf :Distribution .
+      rdfs:subClassOf :Distribution ;
+      rdfs:label "SaaS"@en .
 
 
 ###  http://aiod.eu/data/SafetyAndTrustService
@@ -2491,7 +2903,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Service
 :Service rdf:type owl:Class ;
-         rdfs:subClassOf :AIAsset ,
+         rdfs:subClassOf :EcosystemResource ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :provider ;
                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -2502,6 +2914,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://aiod.eu/data/Size
 :Size rdf:type owl:Class ;
+      owl:equivalentClass <http://purl.org/dc/terms/SizeOrDuration> ;
       rdfs:subClassOf :AIoDConcept ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :unit ;
@@ -2513,7 +2926,8 @@ xsd:date rdf:type rdfs:Datatype .
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                         owl:onDataRange xsd:decimal
                       ] ;
-      rdfs:comment "The extent of an entity relative to a specified unit." .
+      rdfs:comment "The extent of an entity relative to a specified unit." ;
+      rdfs:label "Size"@en .
 
 
 ###  http://aiod.eu/data/Solution
@@ -2522,15 +2936,23 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:comment "The method for addressing a problem." .
 
 
+###  http://aiod.eu/data/Standard
+:Standard rdf:type owl:Class ;
+          rdfs:subClassOf :DocumentaryResource ;
+          rdfs:label "Standard"@en .
+
+
 ###  http://aiod.eu/data/Storage
 :Storage rdf:type owl:Class ;
-         rdfs:subClassOf :AIoDConcept ;
-         rdfs:comment "The part of a computing system for storing data." .
+         rdfs:subClassOf :ComputeComponent ;
+         rdfs:comment "The part of a computing system for storing data." ;
+         rdfs:label "Storage"@en .
 
 
 ###  http://aiod.eu/data/StorageAsset
 :StorageAsset rdf:type owl:Class ;
-              rdfs:subClassOf :ComputationalAsset .
+              rdfs:subClassOf :ComputationalAsset ;
+              rdfs:label "Storage Asset"@en .
 
 
 ###  http://aiod.eu/data/SuccessStory
@@ -2541,25 +2963,27 @@ xsd:date rdf:type rdfs:Datatype .
                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onClass :Announcement
                               ] ;
-              rdfs:comment "An impactful usage of AI in research or industry." .
+              rdfs:comment "An impactful usage of AI in research or industry." ;
+              rdfs:label "Success Story"@en .
 
 
 ###  http://aiod.eu/data/Training
 :Training rdf:type owl:Class ;
-          rdfs:subClassOf :EducationalAsset ;
+          rdfs:subClassOf :EducationalResource ;
           rdfs:comment "A learning activity designed to develop specific skills or knowledge." .
 
 
 ###  http://aiod.eu/data/Tutorial
 :Tutorial rdf:type owl:Class ;
-          rdfs:subClassOf :EducationalAsset ;
+          rdfs:subClassOf :EducationalResource ;
           rdfs:comment "A set of instructions for the performance of tasks or the use of features." .
 
 
 ###  http://aiod.eu/data/Video
 :Video rdf:type owl:Class ;
        rdfs:subClassOf :Multimedia ;
-       rdfs:comment "A digitally produced recording of moving visual images." .
+       rdfs:comment "A digitally produced recording of moving visual images." ;
+       rdfs:label "Video"@en .
 
 
 ###  http://aiod.eu/data/Workflow
@@ -2575,7 +2999,8 @@ xsd:date rdf:type rdfs:Datatype .
                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                             owl:onDataRange xsd:anyURI
                           ] ;
-          rdfs:comment "A structured sequence of processes for the accomplishment of a task." .
+          rdfs:comment "A structured sequence of processes for the accomplishment of a task." ;
+          rdfs:label "Workflow"@en .
 
 
 ###  http://aiod.eu/data/WorkflowExecution
@@ -2586,7 +3011,8 @@ xsd:date rdf:type rdfs:Datatype .
                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                      owl:onClass :WorkflowExecutionStep
                                    ] ;
-                   rdfs:comment "The actual conduct of a previously defined workflow." .
+                   rdfs:comment "The actual conduct of a previously defined workflow." ;
+                   rdfs:label "Workflow Execution"@en .
 
 
 ###  http://aiod.eu/data/WorkflowExecutionStep
@@ -2602,7 +3028,8 @@ xsd:date rdf:type rdfs:Datatype .
                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                          owl:onClass :AIResource
                                        ] ;
-                       rdfs:comment "The actual conduct of a separate procedure within a workflow." .
+                       rdfs:comment "The actual conduct of a separate procedure within a workflow." ;
+                       rdfs:label "Workflow Execution Step"@en .
 
 
 ###  http://aiod.eu/data/WorkflowStep
@@ -2633,7 +3060,8 @@ xsd:date rdf:type rdfs:Datatype .
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onDataRange xsd:string
                               ] ;
-              rdfs:comment "A seperate procedure within a workflow." .
+              rdfs:comment "A seperate procedure within a workflow." ;
+              rdfs:label "Workflow Step"@en .
 
 
 ###  http://purl.org/dc/dcam/VocabularyEncodingScheme
@@ -2739,6 +3167,30 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://www.w3.org/2000/01/rdf-schema#Class
 rdfs:Class rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+<http://www.w3.org/ns/dcat#Dataset> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Resource
+<http://www.w3.org/ns/dcat#Resource> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+<http://xmlns.com/foaf/0.1/Project> rdf:type owl:Class .
 
 
 #################################################################
@@ -3219,6 +3671,12 @@ rdfs:Class rdf:type owl:Class .
 #################################################################
 #    Annotations
 #################################################################
+
+:memory rdfs:label "memory"@en .
+
+
+:number_of_employees rdfs:label "number of employees"@en .
+
 
 <http://purl.org/dc/terms/Agent> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                  rdfs:comment "A resource that acts or has the power to act."@en ;

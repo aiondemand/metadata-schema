@@ -8,12 +8,21 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:dcam="http://purl.org/dc/dcam/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://aiod.eu/data/">
-        <dc:creator>Antonis Koukourikos, Costas Spyropoulos, Marianna Tsigkou</dc:creator>
-        <dc:title>AIoD Metadata Model</dc:title>
-        <terms:license xml:lang="en">https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE</terms:license>
-        <owl:versionInfo>v3.0</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://aiod.eu/data/4.0"/>
+        <terms:bibliographicCitation xml:lang="en">Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos. AIoD Metadata Model. Revision: v4.0. </terms:bibliographicCitation>
+        <terms:creator>Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos.</terms:creator>
+        <terms:description xml:lang="en">AIoD Metadata Model represents concepts and relationships related to AI assets and resources.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-12</terms:issued>
+        <terms:license rdf:resource="https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-12</terms:modified>
+        <terms:publisher>Institute of Informatics and Telecommunications (IIT), NCSR Demokritos </terms:publisher>
+        <terms:title xml:lang="en">AIoD Metadata Model</terms:title>
+        <vann:preferredNamespacePrefix>aiod</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://aiod.eu/data/</vann:preferredNamespaceUri>
+        <owl:versionInfo>v4.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -651,6 +660,20 @@
     
 
 
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -772,6 +795,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/accelerator">
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Accelerator"/>
+        <rdfs:label xml:lang="en">accelerator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -783,6 +807,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ContactDetails"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:comment>The postal address associated with the ContactDetails.</rdfs:comment>
+        <rdfs:label xml:lang="en">address</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -793,6 +818,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/addresses">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Solution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Problem"/>
+        <rdfs:label xml:lang="en">addresses</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -803,6 +829,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/aiod_entry">
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIoDEntry"/>
+        <rdfs:label xml:lang="en">aiod entry</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -814,6 +841,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/SuccessStory"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Announcement"/>
         <rdfs:comment>The Announcement in which the entity is disclosed.</rdfs:comment>
+        <rdfs:label xml:lang="en">announced in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -825,6 +853,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Solution"/>
         <rdfs:comment>The AIAsset used to implement a Solution.</rdfs:comment>
+        <rdfs:label xml:lang="en">applies</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -837,11 +866,12 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://aiod.eu/data/Event"/>
-                    <rdf:Description rdf:about="http://aiod.eu/data/News"/>
+                    <rdf:Description rdf:about="http://aiod.eu/data/NewsItem"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
+        <rdfs:label xml:lang="en">asset</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -853,6 +883,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/BusinessSector"/>
         <rdfs:comment>An industrial sector where a resource is or can be of use (possibly in the context of a larger framework or initiative).</rdfs:comment>
+        <rdfs:label xml:lang="en">business sector</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -861,8 +892,9 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/category">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/NewsCategory"/>
+        <rdfs:label xml:lang="en">category</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -874,6 +906,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:comment>A WorkflowStep is linked to another WorkflowStep.</rdfs:comment>
+        <rdfs:label xml:lang="en">connected to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -885,6 +918,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Person"/>
         <rdfs:comment>A contact person for acquiring information on the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">contact</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -896,6 +930,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ContactDetails"/>
         <rdfs:comment>Contact information for the agent.</rdfs:comment>
+        <rdfs:label xml:lang="en">contact info</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -907,6 +942,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>The coordinating organisation for the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">coordinator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -917,6 +953,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/cpu">
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/CPU"/>
+        <rdfs:label xml:lang="en">cpu</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -928,6 +965,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>An entity responsible for making the AI asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">creator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -939,6 +977,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:comment>A Distribution of the AI Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">distribution</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -950,6 +989,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
         <rdfs:comment>A Knowledge Asset describing and documenting the given resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">documented in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -961,6 +1001,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>An AI resource for which the Knowledge Asset acts as an information source.</rdfs:comment>
+        <rdfs:label xml:lang="en">documents</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -972,6 +1013,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Size"/>
         <rdfs:comment>The length of the Event in the unit specified by the associated Size entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -983,6 +1025,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ContactDetails"/>
         <rdfs:comment>The person responsible for maintaining the entry.</rdfs:comment>
+        <rdfs:label xml:lang="en">editor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -994,6 +1037,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/BusinessSector"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/BusinessFunction"/>
         <rdfs:comment>A Business Sector involves Business Function.</rdfs:comment>
+        <rdfs:label xml:lang="en">entails</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1005,6 +1049,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:comment>The Workflow Execution Step that is executed as part of the specific workflow run.</rdfs:comment>
+        <rdfs:label xml:lang="en">entails step</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1016,6 +1061,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/BusinessFunction"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/BusinessProblem"/>
         <rdfs:comment>The Business Function is challenged by a specific Business Problem.</rdfs:comment>
+        <rdfs:label xml:lang="en">faces</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1027,6 +1073,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Operation"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Operation"/>
         <rdfs:comment>The next Operation in the workflow execution step.</rdfs:comment>
+        <rdfs:label xml:lang="en">follows</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1038,6 +1085,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Course"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Course"/>
         <rdfs:comment>The course a learner must successfully complete before enrolling to another course.</rdfs:comment>
+        <rdfs:label xml:lang="en">formal prerequisite</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1049,6 +1097,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>The funding organisation for the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">funder</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1060,6 +1109,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:comment>The Computational Requirement that is necessary for the functioning of the Runnable Distribution</rdfs:comment>
+        <rdfs:label xml:lang="en">hardware requirement</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1071,6 +1121,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:comment>The ComputationalRequirement needed for the Distribution to function.</rdfs:comment>
+        <rdfs:label xml:lang="en">has computational requiremnt</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1083,6 +1134,18 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>A resource that includes this resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://aiod.eu/data/has_platform_account -->
+
+
+    <owl:ObjectProperty rdf:about="http://aiod.eu/data/has_platform_account">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Agent"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/PlatformAccount"/>
+        <rdfs:label xml:lang="en">has platform account</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1091,9 +1154,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/includes_media">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>Multimedia content included in the news item.</rdfs:comment>
+        <rdfs:label xml:lang="en">includes media</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1105,6 +1169,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Operation"/>
         <rdfs:comment>The Operation included in the WorkflowExecutionStep.</rdfs:comment>
+        <rdfs:label xml:lang="en">includes operation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1116,6 +1181,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ResourceBundle"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>An AIResource that constitutes part of the Resource Bundle.</rdfs:comment>
+        <rdfs:label xml:lang="en">includes resource</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1127,6 +1193,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Workflow"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:comment>The WorkflowSteps that were followed during the execution.</rdfs:comment>
+        <rdfs:label xml:lang="en">includes step</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1138,6 +1205,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>The AIResource responsible for the initiating of the step.</rdfs:comment>
+        <rdfs:label xml:lang="en">invoked by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1149,6 +1217,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/JobAnnouncement"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>The Organisation posting the job.</rdfs:comment>
+        <rdfs:label xml:lang="en">issuer</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1157,8 +1226,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/location">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/ns/prov#atLocation"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Location"/>
+        <rdfs:label xml:lang="en">location</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1170,6 +1241,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>An image depicting or associated with the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">media</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1181,6 +1253,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>The entity who participates in the Organisation.</rdfs:comment>
+        <rdfs:label xml:lang="en">member</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1192,6 +1265,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Person"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>The Organisation that a Person affiliates with.</rdfs:comment>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1208,13 +1282,24 @@
     
 
 
+    <!-- http://aiod.eu/data/number_of_employees -->
+
+
+    <owl:ObjectProperty rdf:about="http://aiod.eu/data/number_of_employees">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/CompanyRevenue"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://aiod.eu/data/offered_by -->
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/offered_by">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>The Organisation which offers the Educational Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">offered by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1226,6 +1311,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>The entity organising the Event.</rdfs:comment>
+        <rdfs:label xml:lang="en">organiser</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1237,6 +1323,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:comment>The operation system needed for the proper functioning of the Runannble Distribution.</rdfs:comment>
+        <rdfs:label xml:lang="en">os requirement</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1247,6 +1334,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/other_dependency">
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
+        <rdfs:label xml:lang="en">other dependency</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1258,6 +1346,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/OpenCallProject"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:comment>The project that organised the Open Call process under which this project was funded.</rdfs:comment>
+        <rdfs:label xml:lang="en">parent project</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1269,6 +1358,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>A resource that is included as a part/component of this resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1280,6 +1370,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>Member organisations of the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">participant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1291,6 +1382,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>The entity participating in the Event.</rdfs:comment>
+        <rdfs:label xml:lang="en">performer</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1302,6 +1394,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Operation"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Operation"/>
         <rdfs:comment>The previous Operation in the workflow execution step.</rdfs:comment>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1310,9 +1403,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/prerequisite_knowledge">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ResearchArea"/>
         <rdfs:comment>The Research Area that learners should be familiar with before engaging with the Educational Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">prerequisite knowledge</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1324,6 +1418,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>An AI asset produced in the context of the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">produced</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1335,6 +1430,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:comment>A Project the activities of which are related to the activities of the event.</rdfs:comment>
+        <rdfs:label xml:lang="en">project</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1346,6 +1442,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>The entity that provides the Service.</rdfs:comment>
+        <rdfs:label xml:lang="en">provider</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1357,6 +1454,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/SuccessStory"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>An AIResource related to the entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1366,8 +1464,9 @@
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/related_experiment">
         <rdfs:domain rdf:resource="http://aiod.eu/data/MLModel"/>
-        <rdfs:range rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:comment>The experiment where the model was used.</rdfs:comment>
+        <rdfs:label xml:lang="en">related experiment</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1376,9 +1475,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/related_news">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
-        <rdfs:range rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:comment>Other News entities related to this entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">related news</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1389,6 +1489,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/requires_solution_for">
         <rdfs:domain rdf:resource="http://aiod.eu/data/BusinessProblem"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ResearchProblem"/>
+        <rdfs:label xml:lang="en">requires solution for</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1400,6 +1501,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/ResearchArea"/>
         <rdfs:comment>A research area under which the research problems remedied by the resource fall.</rdfs:comment>
+        <rdfs:label xml:lang="en">research area</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1411,6 +1513,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>An equivalence relationship between entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">same as</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1422,6 +1525,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/SuccessStory"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>The Multimedia that demonstrates the achievements of the SuccessStory.</rdfs:comment>
+        <rdfs:label xml:lang="en">showcase</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1433,6 +1537,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Size"/>
         <rdfs:comment>The size of the Dataset in the unit specified by the associated Size entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">size</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1444,6 +1549,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>The AIAsset that is necessary fot the Runnable Distribution to operate.</rdfs:comment>
+        <rdfs:label xml:lang="en">software depedency</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1454,6 +1560,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/spatial_coverage">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Location"/>
+        <rdfs:label xml:lang="en">spatial coverage</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1464,6 +1571,7 @@
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/storage">
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Storage"/>
+        <rdfs:label xml:lang="en">storage</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1472,9 +1580,20 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/taught_by">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Person"/>
         <rdfs:comment>The Person responsible for teaching the Educational Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">taught by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://aiod.eu/data/turnover -->
+
+
+    <owl:ObjectProperty rdf:about="http://aiod.eu/data/turnover">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/CompanyRevenue"/>
     </owl:ObjectProperty>
     
 
@@ -1483,9 +1602,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/under_classification">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Classification"/>
         <rdfs:comment>The Classification Scheme under which the Educational Asset is classified.</rdfs:comment>
+        <rdfs:label xml:lang="en">under classification</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1497,6 +1617,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>An AI asset used in the context of the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">used</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1508,6 +1629,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Solution"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Approach"/>
         <rdfs:comment>A Solution utilizes a specific Approach to solve a problem.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1519,6 +1641,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>The AIAsset which is used for the execution of each step of the workflow.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses asset</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1527,9 +1650,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/uses_dataset">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:comment>A Dataset used for the execution of the experiment.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses dataset</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1541,6 +1665,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:comment>The specification of how data are distributed within the step.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses distribution</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1549,9 +1674,10 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/uses_model">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/MLModel"/>
         <rdfs:comment>A ML Model used during the experiment&apos;s process.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses model</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1560,10 +1686,32 @@
 
 
     <owl:ObjectProperty rdf:about="http://aiod.eu/data/uses_resource">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>The AIResource used during the learning experience.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses resource</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/extent -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/extent"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/medium -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/medium"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#atLocation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#atLocation"/>
     
 
 
@@ -1586,6 +1734,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Course"/>
         <rdfs:comment>The academic level for which the lesson is designed.</rdfs:comment>
+        <rdfs:label xml:lang="en">academic level</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1597,6 +1746,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">ai relevance</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1608,6 +1758,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>An alternative name commonly used for the resource in place of its name.</rdfs:comment>
+        <rdfs:label xml:lang="en">alternative name</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1617,9 +1768,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/alternative_headline">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A secondary headline that provides additional analysis to the news item.</rdfs:comment>
+        <rdfs:label xml:lang="en">alternative headline</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1632,6 +1784,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A textual description of the entity for accessibility purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">alternative text</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1643,6 +1796,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Storage"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">amount</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1654,6 +1808,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Memory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">amount gb</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1666,6 +1821,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The location where sites the original announcement.</rdfs:comment>
+        <rdfs:label xml:lang="en">announcement page</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1676,6 +1832,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/architecture">
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalRequirement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">architecture</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1687,6 +1844,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/SuccessStory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of any award associated with the SuccessStory.</rdfs:comment>
+        <rdfs:label xml:lang="en">award</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1695,9 +1853,10 @@
 
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/badge">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>A reproducibility badge related to the Experiment.</rdfs:comment>
+        <rdfs:label xml:lang="en">badge</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1710,6 +1869,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The checksum value associated with the content of the Distribution.</rdfs:comment>
+        <rdfs:label xml:lang="en">checksum</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1722,6 +1882,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The algorithm used to calculate the cheksum value.</rdfs:comment>
+        <rdfs:label xml:lang="en">checksum algorithm</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1733,6 +1894,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">city</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1743,6 +1905,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/classification_id">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Classification"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="en">classification id</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1754,6 +1917,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Classification"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL where is located the classification sheme used for categorization.</rdfs:comment>
+        <rdfs:label xml:lang="en">classification scheme</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1765,6 +1929,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/CPU"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">clock speed</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1777,6 +1942,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The end date of the application for the Fundind Opportunity.</rdfs:comment>
+        <rdfs:label xml:lang="en">closing date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1789,6 +1955,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the procedure of compilation.</rdfs:comment>
+        <rdfs:label xml:lang="en">compilation process</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1801,6 +1968,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The time in millisecond required to complete the compilation.</rdfs:comment>
+        <rdfs:label xml:lang="en">compilation time msec</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1811,6 +1979,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/conditions">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">conditions</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1821,6 +1990,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/configuration_standard">
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">configuration standard</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1831,6 +2001,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/content">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
+        <rdfs:label xml:lang="en">content</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1843,6 +2014,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The size of the Multimedia object in KB.</rdfs:comment>
+        <rdfs:label xml:lang="en">content size kb</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1854,6 +2026,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL where the content associated with the Distribution can be accessed.</rdfs:comment>
+        <rdfs:label xml:lang="en">content url</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1866,6 +2039,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/OpenCallProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The exact amount of money allocated to the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">contribution</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1877,6 +2051,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Accelerator"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">cores</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1886,9 +2061,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/cost">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The financial cost of the Educational Asset. (currency)</rdfs:comment>
+        <rdfs:label xml:lang="en">cost</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1899,6 +2075,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/coverage">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:comment>The geographical coverage of the Service.</rdfs:comment>
+        <rdfs:label xml:lang="en">coverage</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1910,6 +2087,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/CPU"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">cpu family</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1921,6 +2099,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Course"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">credits</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1933,6 +2112,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date of creation for the AI asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">date created</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1945,6 +2125,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date of Organisation&apos;s foundation.</rdfs:comment>
+        <rdfs:label xml:lang="en">date founded</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1953,10 +2134,12 @@
 
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/date_modified">
+        <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/modified"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date when the Distribution was modified.</rdfs:comment>
+        <rdfs:label xml:lang="en">date motdified</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1977,6 +2160,7 @@
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date of publication (broader availability) for the AI asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">date published</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1989,6 +2173,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the procedure involved in deploying the Runnable Distribution.</rdfs:comment>
+        <rdfs:label xml:lang="en">deployment process</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2001,6 +2186,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The time in millisecond required for the deployment.</rdfs:comment>
+        <rdfs:label xml:lang="en">deployment time msec</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2013,6 +2199,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A usually short informative text on the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">description</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2021,9 +2208,10 @@
 
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/educational_level">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The educational level that the educational asset is designed for.</rdfs:comment>
+        <rdfs:label xml:lang="en">educational level</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2036,6 +2224,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The elevation in metres of a Location.</rdfs:comment>
+        <rdfs:label xml:lang="en">elevation m</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2047,6 +2236,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ContactDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The email address associated with the ContactDetails.</rdfs:comment>
+        <rdfs:label xml:lang="en">email</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2059,6 +2249,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The encoding format used for the representation of the content.</rdfs:comment>
+        <rdfs:label xml:lang="en">encoding format</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2068,8 +2259,9 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/end_date">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">end date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2082,6 +2274,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The end date of execution.</rdfs:comment>
+        <rdfs:label xml:lang="en">end time</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2091,9 +2284,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/enrollment_end_date">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The final date for which applications for enrolling are accepted.</rdfs:comment>
+        <rdfs:label xml:lang="en">enrollment end date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2103,9 +2297,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/enrollment_start_date">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date from when applications for enrolling can be applied.</rdfs:comment>
+        <rdfs:label xml:lang="en">enrollment start date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2118,6 +2313,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date when the entry was first created within the platform.</rdfs:comment>
+        <rdfs:label xml:lang="en">entry created</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2130,6 +2326,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date when the entry was published within the platform.</rdfs:comment>
+        <rdfs:label xml:lang="en">entry published</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2141,6 +2338,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ECProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The exact amount of money allocated by the European Commision to the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">eu contribution</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2153,6 +2351,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The way in which the event will be conducted.</rdfs:comment>
+        <rdfs:label xml:lang="en">event mode</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2165,6 +2364,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The current status of the event.</rdfs:comment>
+        <rdfs:label xml:lang="en">event status</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2176,6 +2376,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/SuccessStory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description that showcases proof or supporting information validating the success.</rdfs:comment>
+        <rdfs:label xml:lang="en">evidence</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2188,6 +2389,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/RunnableDistribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The time in millisecond required for the execution of the Runnable Distribution.</rdfs:comment>
+        <rdfs:label xml:lang="en">execution time msec</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2197,9 +2399,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/exemplary_execution_settings">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Human-readable details of parameters used during a successful run of the experiment.</rdfs:comment>
+        <rdfs:label xml:lang="en">exemplary execution settings</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2209,9 +2412,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/expected_outcome">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The description of what expected knowledge the participants should acquire.</rdfs:comment>
+        <rdfs:label xml:lang="en">expected outcome</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2221,9 +2425,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/experimental_workflow">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the process involved in conducting the experiment.</rdfs:comment>
+        <rdfs:label xml:lang="en">experimental workflow</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2236,6 +2441,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ECProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The program/ grant under which the project received funding.</rdfs:comment>
+        <rdfs:label xml:lang="en">funded under</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2248,6 +2454,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ECProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the proposals for research.</rdfs:comment>
+        <rdfs:label xml:lang="en">funding call</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2260,6 +2467,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ECProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The funding shceme under which a ECProjec is financed.</rdfs:comment>
+        <rdfs:label xml:lang="en">funding scheme</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2272,6 +2480,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The International Standard Book Number, ISBN, used to identify published books or, more rarely, journal issues.</rdfs:comment>
+        <rdfs:label xml:lang="en">has isbn</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2284,6 +2493,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The International Standard Serial Number, ISSN, an identifer for serial publications.</rdfs:comment>
+        <rdfs:label xml:lang="en">has issn</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2292,9 +2502,10 @@
 
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/headline">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A short headline given to the news item.</rdfs:comment>
+        <rdfs:label xml:lang="en">headline</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2307,6 +2518,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Image"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The height of an Image in pixels.</rdfs:comment>
+        <rdfs:label xml:lang="en">height px</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2318,6 +2530,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>A unique identifier for the Entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2329,6 +2542,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ResourceBundle"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>An element included in the bundle that is not currently found in the AIoD Platform.</rdfs:comment>
+        <rdfs:label xml:lang="en">includes external reference</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2341,6 +2555,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/JobAnnouncement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the role.</rdfs:comment>
+        <rdfs:label xml:lang="en">job title</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2351,6 +2566,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/kernel">
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">kernel</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2362,6 +2578,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Terms or phrases providing additional context for the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">keyword</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2373,6 +2590,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The language a Person knows.</rdfs:comment>
+        <rdfs:label xml:lang="en">languages</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2385,6 +2603,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The latitude of a Location.</rdfs:comment>
+        <rdfs:label xml:lang="en">latitude</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2394,9 +2613,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/learning_mode">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The delivery mode of the Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">learning mode</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2409,6 +2629,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The authoritative name of the Organisation used in legal documents.</rdfs:comment>
+        <rdfs:label xml:lang="en">legal name</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2421,6 +2642,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>A legal document giving official permission to do something with the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">licence</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2433,6 +2655,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The longitude of a Location.</rdfs:comment>
+        <rdfs:label xml:lang="en">longitude</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2444,6 +2667,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/JobAnnouncement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The skills, knowledge, experience that are required for an applicant to be considered.</rdfs:comment>
+        <rdfs:label xml:lang="en">mandatory qualifications</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2456,6 +2680,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The highest amount of funding that can be requested or granted for the opportunity.</rdfs:comment>
+        <rdfs:label xml:lang="en">maximum contribution</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2468,6 +2693,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The technique, technology, or methodology used in a dataset, which can correspond to the variable(s) described in variableMeasured.</rdfs:comment>
+        <rdfs:label xml:lang="en">measurement technique</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2490,6 +2716,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The MIMEtype of the entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">mimetype</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2502,6 +2729,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The lowest amount of funding that can be requested or granted for the opportunity.</rdfs:comment>
+        <rdfs:label xml:lang="en">minimum contribution</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2513,6 +2741,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Storage"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">model</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2524,6 +2753,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/CPU"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">model name</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2535,6 +2765,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date of entry&apos;s metadata latest modification.</rdfs:comment>
+        <rdfs:label xml:lang="en">modified</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2546,6 +2777,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A name given to the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2557,6 +2789,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/CPU"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">num cpu cores</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2568,6 +2801,50 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://aiod.eu/data/number_of_employees -->
+
+
+    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/number_of_employees">
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>&lt;10</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>&lt;250</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>&lt;50</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>&gt;250</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>N/A</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
     </owl:DatatypeProperty>
     
 
@@ -2576,9 +2853,21 @@
 
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/offered_via">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL through which the educational asset is accessed.</rdfs:comment>
+        <rdfs:label xml:lang="en">offered via</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://aiod.eu/data/on_platform -->
+
+
+    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/on_platform">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/PlatformAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">on platform</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2591,6 +2880,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The start date of the application for the Fundind Opportunity.</rdfs:comment>
+        <rdfs:label xml:lang="en">opening date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2602,6 +2892,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/JobAnnouncement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The skills, knowledge, experience that are desirable for an applicant to be considered.</rdfs:comment>
+        <rdfs:label xml:lang="en">optional qualifications</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2613,6 +2904,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">os</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2624,6 +2916,18 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">pid</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://aiod.eu/data/platform_account_homepage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/platform_account_homepage">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/PlatformAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="en">platform account homepage</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2636,6 +2940,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The postal code of a Location.</rdfs:comment>
+        <rdfs:label xml:lang="en">postal code</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2646,6 +2951,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/prerequisites">
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">prerequisites</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2658,6 +2964,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the pricing strategy of the AIAsset.</rdfs:comment>
+        <rdfs:label xml:lang="en">pricing</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2669,18 +2976,20 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The pricing scheme that determines the cost of the Computational Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">pricing scheme</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://aiod.eu/data/procudes_output -->
+    <!-- http://aiod.eu/data/produces_output -->
 
 
-    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/procudes_output">
+    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/produces_output">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL with the data that are generated during execution.</rdfs:comment>
+        <rdfs:label xml:lang="en">produces output</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2690,9 +2999,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/qualification">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Identification of certification, accreditation or badge obtained with course or learning resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">qualification</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2704,6 +3014,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Memory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">read bandwidth</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2715,6 +3026,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">region</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2726,6 +3038,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The location where the registration is.</rdfs:comment>
+        <rdfs:label xml:lang="en">registration link</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2736,6 +3049,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/relevant_link">
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>A web address where is a relevant resource related to the Entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">relevant link</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2745,9 +3059,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/reproducibility_explanation">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Expirement"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Experiment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A descriptive explanation of the experiment&apos;s capability to produce equivalent results under similar conditions.</rdfs:comment>
+        <rdfs:label xml:lang="en">reproducibility explanation</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2757,9 +3072,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/schedule">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The description of the program of the Educational Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">schedule</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2771,6 +3087,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The category in which the Service belongs to.</rdfs:comment>
+        <rdfs:label xml:lang="en">service category</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2783,6 +3100,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The current state of the service.</rdfs:comment>
+        <rdfs:label xml:lang="en">service status</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2795,6 +3113,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The type of the Service.</rdfs:comment>
+        <rdfs:label xml:lang="en">service type</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2804,9 +3123,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/source">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The location where the news item was originally published.</rdfs:comment>
+        <rdfs:label xml:lang="en">source</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2816,9 +3136,10 @@
 
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/start_date">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:domain rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date when the resource starts running.</rdfs:comment>
+        <rdfs:label xml:lang="en">start date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2831,6 +3152,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The start date of execution.</rdfs:comment>
+        <rdfs:label xml:lang="en">start time</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2841,6 +3163,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/status">
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIoDEntry"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">status</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2852,6 +3175,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">street</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2864,6 +3188,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/FundingOpportunity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The location where sites the platform for the submission.</rdfs:comment>
+        <rdfs:label xml:lang="en">submission platform</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2876,6 +3201,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Distribution"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The technology readiness level (TRL) of the distribution.</rdfs:comment>
+        <rdfs:label xml:lang="en">technology readiness level</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2887,6 +3213,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ContactDetails"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The phone number associated with the ContactDetails.</rdfs:comment>
+        <rdfs:label xml:lang="en">telephone</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2898,6 +3225,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">temporal coverage</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2910,6 +3238,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/ECProject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The thematic area that the project focuses on.</rdfs:comment>
+        <rdfs:label xml:lang="en">topic</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2921,6 +3250,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>Total budget of the project in euros.</rdfs:comment>
+        <rdfs:label xml:lang="en">total cost euros</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2933,6 +3263,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/MLModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The training process&apos;s progress.</rdfs:comment>
+        <rdfs:label xml:lang="en">training status</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2943,6 +3274,7 @@
     <owl:DatatypeProperty rdf:about="http://aiod.eu/data/type">
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">type</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2954,6 +3286,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Size"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The unit of measurement corresponding to the Size value.</rdfs:comment>
+        <rdfs:label xml:lang="en">unit</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2965,6 +3298,18 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A descriptive example showcasing the use of the Service.</rdfs:comment>
+        <rdfs:label xml:lang="en">use case example</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://aiod.eu/data/username -->
+
+
+    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/username">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/PlatformAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">username</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2976,6 +3321,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowStep"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The URL pointing to the configuration document for the step settings.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses configuration</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2987,6 +3333,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/WorkflowExecutionStep"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL need for executing a specific step.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses input</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2998,6 +3345,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Size"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The numerical value representig the Size.</rdfs:comment>
+        <rdfs:label xml:lang="en">value</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3009,6 +3357,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Dataset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The variable that this dataset measures. For example, “temperature” or “pressure”.</rdfs:comment>
+        <rdfs:label xml:lang="en">variable measured</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3020,6 +3369,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/CPU"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">vendor</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3031,6 +3381,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">version</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3043,6 +3394,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Image"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The width of an Image in pixels.</rdfs:comment>
+        <rdfs:label xml:lang="en">width px</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3055,6 +3407,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Workflow"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL pointing to the configuration document with the settings used.</rdfs:comment>
+        <rdfs:label xml:lang="en">workflow configuration</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3067,6 +3420,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Workflow"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the guidelines used for setting up the parameters of the workflow.</rdfs:comment>
+        <rdfs:label xml:lang="en">workflow configuration standard</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3078,6 +3432,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Workflow"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The URL where the definitive specification document can be accessed.</rdfs:comment>
+        <rdfs:label xml:lang="en">workflow specification</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3090,6 +3445,7 @@
         <rdfs:domain rdf:resource="http://aiod.eu/data/Workflow"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A description of the guidelines used to define the procces tasks.</rdfs:comment>
+        <rdfs:label xml:lang="en">workflow specification standard</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3101,6 +3457,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://aiod.eu/data/Memory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">write bandwidth</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3216,6 +3573,15 @@
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Agent"/>
+    </rdf:Description>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3234,6 +3600,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/AIAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>An accessible and usable asset pertaining to AI research and applications.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Asset</rdfs:label>
     </owl:Class>
     
 
@@ -3242,6 +3609,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/AIResource">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3265,6 +3633,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A source of information, guidance or research and development assets for AI.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Resource</rdfs:label>
     </owl:Class>
     
 
@@ -3274,6 +3643,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/AIoDConcept">
         <rdfs:comment>The top level entity of the model.</rdfs:comment>
+        <rdfs:label xml:lang="en">AIoD Concept</rdfs:label>
     </owl:Class>
     
 
@@ -3298,6 +3668,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The entity defines metadata properties pertaining to AIoD platform-specific characteristics of a resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">AIoD Entry</rdfs:label>
     </owl:Class>
     
 
@@ -3306,8 +3677,9 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Accelerator">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputeComponent"/>
         <rdfs:comment>The part of a computing system responsible for accelerating specific computational tasks.</rdfs:comment>
+        <rdfs:label xml:lang="en">Accelerator</rdfs:label>
     </owl:Class>
     
 
@@ -3316,6 +3688,8 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Agent">
+        <owl:equivalentClass rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
         <rdfs:comment>The direct performer or driver of the action (animate or inanimate).</rdfs:comment>
     </owl:Class>
@@ -3326,7 +3700,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Announcement">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:comment>An article containing official information or updates.</rdfs:comment>
     </owl:Class>
     
@@ -3336,8 +3710,18 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Approach">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>The specific point of view employed to implement a solution.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/Assessment -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Assessment">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Assessment</rdfs:label>
     </owl:Class>
     
 
@@ -3348,6 +3732,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/Audio">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>A recorded sound.</rdfs:comment>
+        <rdfs:label xml:lang="en">Audio</rdfs:label>
     </owl:Class>
     
 
@@ -3368,6 +3753,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/BusinessProblem">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Problem"/>
         <rdfs:comment>The specific issue or challenge faced by a company.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Problem</rdfs:label>
     </owl:Class>
     
 
@@ -3378,6 +3764,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/BusinessSector">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Expertise"/>
         <rdfs:comment>The distinct subset of the economy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Sector</rdfs:label>
     </owl:Class>
     
 
@@ -3386,8 +3773,9 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/CPU">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputeComponent"/>
         <rdfs:comment>The central processor of a computer system.</rdfs:comment>
+        <rdfs:label xml:lang="en">CPU</rdfs:label>
     </owl:Class>
     
 
@@ -3432,6 +3820,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A means to categorize entities under classification schemes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Classification</rdfs:label>
     </owl:Class>
     
 
@@ -3441,6 +3830,27 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/CloudComputeAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
+        <rdfs:label xml:lang="en">Cloud Compute Asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/CompanyRevenue -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/CompanyRevenue">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Company Revenue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/CompanySize -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/CompanySize">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Company Size</rdfs:label>
     </owl:Class>
     
 
@@ -3451,6 +3861,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/ComputationalAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>Physical or virtual infrastuctures providing computational capabilities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Computational Asset</rdfs:label>
     </owl:Class>
     
 
@@ -3461,6 +3872,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/ComputationalRequirement">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>The computing resources required to perform a function.</rdfs:comment>
+        <rdfs:label xml:lang="en">Computational Requirement</rdfs:label>
     </owl:Class>
     
 
@@ -3470,6 +3882,17 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/ComputeAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
+        <rdfs:label xml:lang="en">Compute Asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/ComputeComponent -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/ComputeComponent">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Compute Component</rdfs:label>
     </owl:Class>
     
 
@@ -3480,6 +3903,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/ContactDetails">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>Information related to communication methods.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contact Details</rdfs:label>
     </owl:Class>
     
 
@@ -3489,6 +3913,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/Container">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Container</rdfs:label>
     </owl:Class>
     
 
@@ -3497,7 +3922,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Course">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:comment>A systematic training programme.</rdfs:comment>
     </owl:Class>
     
@@ -3508,6 +3933,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/DataDownload">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Data Download</rdfs:label>
     </owl:Class>
     
 
@@ -3517,6 +3943,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/DataModel">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Model"/>
+        <rdfs:label xml:lang="en">Data Model</rdfs:label>
     </owl:Class>
     
 
@@ -3526,6 +3953,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/DataService">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Data Service</rdfs:label>
     </owl:Class>
     
 
@@ -3534,6 +3962,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Dataset">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3550,6 +3979,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A collection of data, published or curated by a specific agency.</rdfs:comment>
+        <rdfs:label xml:lang="en">Dataset</rdfs:label>
     </owl:Class>
     
 
@@ -3567,7 +3997,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Distribution">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://aiod.eu/data/has_computational_requirement"/>
@@ -3583,6 +4013,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A specific form of packaging and means of distributing an AI Asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/DocumentaryResource -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/DocumentaryResource">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
+        <rdfs:label xml:lang="en">Documentary Resource</rdfs:label>
     </owl:Class>
     
 
@@ -3610,15 +4051,16 @@
     <owl:Class rdf:about="http://aiod.eu/data/EcosystemResource">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIResource"/>
         <rdfs:comment>Indirect contributions to the research and development of AI assets.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ecosystem Resource</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://aiod.eu/data/EducationalAsset -->
+    <!-- http://aiod.eu/data/EducationalResource -->
 
 
-    <owl:Class rdf:about="http://aiod.eu/data/EducationalAsset">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
+    <owl:Class rdf:about="http://aiod.eu/data/EducationalResource">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://aiod.eu/data/offered_by"/>
@@ -3655,12 +4097,24 @@
     
 
 
+    <!-- http://aiod.eu/data/Experiment -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Experiment">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
+        <rdfs:comment>A procedure conducted to test theoretical knowledge.</rdfs:comment>
+        <rdfs:label xml:lang="en">Experiment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aiod.eu/data/ExperimentExecution -->
 
 
     <owl:Class rdf:about="http://aiod.eu/data/ExperimentExecution">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>The actual conduct of a previously defined experiment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Experiment Execution</rdfs:label>
     </owl:Class>
     
 
@@ -3679,18 +4133,9 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Expertise">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>The area of specialization and practical experience.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://aiod.eu/data/Expirement -->
-
-
-    <owl:Class rdf:about="http://aiod.eu/data/Expirement">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
-        <rdfs:comment>A procedure conducted to test theoretical knowledge.</rdfs:comment>
+        <rdfs:label xml:lang="en">Expertise</rdfs:label>
     </owl:Class>
     
 
@@ -3699,7 +4144,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/FundingOpportunity">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:comment>An article highlighting opportunities for financial support.</rdfs:comment>
     </owl:Class>
     
@@ -3709,8 +4154,10 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Image">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>The depiction/visual representation of static elements.</rdfs:comment>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
     </owl:Class>
     
 
@@ -3737,7 +4184,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/JobAnnouncement">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/News"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/NewsItem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://aiod.eu/data/issuer"/>
@@ -3756,6 +4203,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/KnowledgeAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>An AI Asset used as an information item for other entities, such as assets and scientific areas.</rdfs:comment>
+        <rdfs:label xml:lang="en">Knowledge Asset</rdfs:label>
     </owl:Class>
     
 
@@ -3765,6 +4213,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/Library">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Library</rdfs:label>
     </owl:Class>
     
 
@@ -3773,8 +4222,10 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Location">
+        <owl:equivalentClass rdf:resource="http://purl.org/dc/terms/Location"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>A spatial region or named place.</rdfs:comment>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
     </owl:Class>
     
 
@@ -3785,6 +4236,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/MLModel">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Model"/>
         <rdfs:comment>A model designed  for machine learning tasks.</rdfs:comment>
+        <rdfs:label xml:lang="en">ML Model</rdfs:label>
     </owl:Class>
     
 
@@ -3793,7 +4245,8 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Memory">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputeComponent"/>
+        <rdfs:label xml:lang="en">Memory</rdfs:label>
     </owl:Class>
     
 
@@ -3803,6 +4256,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/Model">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
     </owl:Class>
     
 
@@ -3813,14 +4267,25 @@
     <owl:Class rdf:about="http://aiod.eu/data/Multimedia">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
         <rdfs:comment>The combination of various media formats.</rdfs:comment>
+        <rdfs:label xml:lang="en">Multimedia</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://aiod.eu/data/News -->
+    <!-- http://aiod.eu/data/NewsCategory -->
 
 
-    <owl:Class rdf:about="http://aiod.eu/data/News">
+    <owl:Class rdf:about="http://aiod.eu/data/NewsCategory">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">News Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/NewsItem -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/NewsItem">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3834,20 +4299,12 @@
     
 
 
-    <!-- http://aiod.eu/data/NewsCategory -->
-
-
-    <owl:Class rdf:about="http://aiod.eu/data/NewsCategory">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
-    </owl:Class>
-    
-
-
     <!-- http://aiod.eu/data/Notebook -->
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Notebook">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Notebook</rdfs:label>
     </owl:Class>
     
 
@@ -3875,6 +4332,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/Operation">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>A task or function performed within a system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Operation</rdfs:label>
     </owl:Class>
     
 
@@ -3893,8 +4351,18 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Agent"/>
         <rdfs:comment>A human being.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/PlatformAccount -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/PlatformAccount">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
     </owl:Class>
     
 
@@ -3905,6 +4373,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/Presentation">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
         <rdfs:comment>A structured format for communicating information.</rdfs:comment>
+        <rdfs:label xml:lang="en">Presentation</rdfs:label>
     </owl:Class>
     
 
@@ -3913,8 +4382,9 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Problem">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:comment>The specific issue or challenge.</rdfs:comment>
+        <rdfs:label xml:lang="en">Problem</rdfs:label>
     </owl:Class>
     
 
@@ -3923,6 +4393,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Project">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3943,12 +4414,44 @@
     
 
 
+    <!-- http://aiod.eu/data/Protocol -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Protocol">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/DocumentaryResource"/>
+        <rdfs:label xml:lang="en">Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aiod.eu/data/Publication -->
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Publication">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/KnowledgeAsset"/>
+        <owl:equivalentClass rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/DocumentaryResource"/>
         <rdfs:comment>A scientific publication.</rdfs:comment>
+        <rdfs:label xml:lang="en">Publication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/Purpose -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Purpose">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/Requirement -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Requirement">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Requirement</rdfs:label>
     </owl:Class>
     
 
@@ -3959,6 +4462,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/ResearchArea">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Expertise"/>
         <rdfs:comment>A specific domain within the broader field of AI.</rdfs:comment>
+        <rdfs:label xml:lang="en">Research Area</rdfs:label>
     </owl:Class>
     
 
@@ -3969,6 +4473,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/ResearchProblem">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Problem"/>
         <rdfs:comment>The specific issue or challenge faced in the context of research.</rdfs:comment>
+        <rdfs:label xml:lang="en">Research Problem</rdfs:label>
     </owl:Class>
     
 
@@ -3986,6 +4491,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A coherent collection of resources intended to be shared as a set.</rdfs:comment>
+        <rdfs:label xml:lang="en">Resource Bundle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aiod.eu/data/Risk -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Risk">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:label xml:lang="en">Risk</rdfs:label>
     </owl:Class>
     
 
@@ -3995,6 +4511,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/RunnableDistribution">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">Runnable Distribution</rdfs:label>
     </owl:Class>
     
 
@@ -4004,6 +4521,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/SaaS">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Distribution"/>
+        <rdfs:label xml:lang="en">SaaS</rdfs:label>
     </owl:Class>
     
 
@@ -4021,7 +4539,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Service">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIAsset"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EcosystemResource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://aiod.eu/data/provider"/>
@@ -4038,6 +4556,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Size">
+        <owl:equivalentClass rdf:resource="http://purl.org/dc/terms/SizeOrDuration"/>
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4054,6 +4573,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The extent of an entity relative to a specified unit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Size</rdfs:label>
     </owl:Class>
     
 
@@ -4068,12 +4588,23 @@
     
 
 
+    <!-- http://aiod.eu/data/Standard -->
+
+
+    <owl:Class rdf:about="http://aiod.eu/data/Standard">
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/DocumentaryResource"/>
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://aiod.eu/data/Storage -->
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Storage">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/AIoDConcept"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputeComponent"/>
         <rdfs:comment>The part of a computing system for storing data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Storage</rdfs:label>
     </owl:Class>
     
 
@@ -4083,6 +4614,7 @@
 
     <owl:Class rdf:about="http://aiod.eu/data/StorageAsset">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/ComputationalAsset"/>
+        <rdfs:label xml:lang="en">Storage Asset</rdfs:label>
     </owl:Class>
     
 
@@ -4100,6 +4632,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An impactful usage of AI in research or industry.</rdfs:comment>
+        <rdfs:label xml:lang="en">Success Story</rdfs:label>
     </owl:Class>
     
 
@@ -4108,7 +4641,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Training">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:comment>A learning activity designed to develop specific skills or knowledge.</rdfs:comment>
     </owl:Class>
     
@@ -4118,7 +4651,7 @@
 
 
     <owl:Class rdf:about="http://aiod.eu/data/Tutorial">
-        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalAsset"/>
+        <rdfs:subClassOf rdf:resource="http://aiod.eu/data/EducationalResource"/>
         <rdfs:comment>A set of instructions for the performance of tasks or the use of features.</rdfs:comment>
     </owl:Class>
     
@@ -4130,6 +4663,7 @@
     <owl:Class rdf:about="http://aiod.eu/data/Video">
         <rdfs:subClassOf rdf:resource="http://aiod.eu/data/Multimedia"/>
         <rdfs:comment>A digitally produced recording of moving visual images.</rdfs:comment>
+        <rdfs:label xml:lang="en">Video</rdfs:label>
     </owl:Class>
     
 
@@ -4154,6 +4688,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A structured sequence of processes for the accomplishment of a task.</rdfs:comment>
+        <rdfs:label xml:lang="en">Workflow</rdfs:label>
     </owl:Class>
     
 
@@ -4171,6 +4706,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The actual conduct of a previously defined workflow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Workflow Execution</rdfs:label>
     </owl:Class>
     
 
@@ -4195,6 +4731,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The actual conduct of a separate procedure within a workflow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Workflow Execution Step</rdfs:label>
     </owl:Class>
     
 
@@ -4240,6 +4777,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A seperate procedure within a workflow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Workflow Step</rdfs:label>
     </owl:Class>
     
 
@@ -4427,6 +4965,48 @@
 
 
     <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Resource -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Resource"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project"/>
     
 
 
@@ -5233,6 +5813,12 @@
      -->
 
 
+    <rdf:Description rdf:about="http://aiod.eu/data/memory">
+        <rdfs:label xml:lang="en">memory</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://aiod.eu/data/number_of_employees">
+        <rdfs:label xml:lang="en">number of employees</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
         <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
