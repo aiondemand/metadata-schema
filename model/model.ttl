@@ -3349,13 +3349,7 @@ dct:Location rdf:type owl:Class ;
 
 
 ###  http://purl.org/dc/terms/LocationPeriodOrJurisdiction
-<<<<<<< Updated upstream
-dct:LocationPeriodOrJurisdiction rdf:type owl:Class ;
-                                 rdfs:subClassOf dct:LinguisticSystem .
-=======
 dct:LocationPeriodOrJurisdiction rdf:type owl:Class .
->>>>>>> Stashed changes
-
 
 ###  http://purl.org/dc/terms/MediaType
 dct:MediaType rdf:type owl:Class ;
