@@ -459,6 +459,13 @@ xsd:date rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
+###  http://aiod.eu/data/able_to_perform
+:able_to_perform rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Actor ;
+                 rdfs:range :Actuation ;
+                 rdfs:label "able to perform"@en .
+
+
 ###  http://aiod.eu/data/accelerator
 :accelerator rdf:type owl:ObjectProperty ;
              rdfs:domain :ComputationalRequirement ;
@@ -526,6 +533,14 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:label "business sector"@en .
 
 
+###  http://aiod.eu/data/carries_model
+:carries_model rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :RoboticEquipment ;
+               rdfs:range :RobotModel ;
+               rdfs:label "carries model"@en .
+
+
 ###  http://aiod.eu/data/category
 :category rdf:type owl:ObjectProperty ;
           rdfs:domain :NewsItem ;
@@ -579,6 +594,13 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:range :Agent ;
          rdfs:comment "An entity responsible for making the AI asset." ;
          rdfs:label "creator"@en .
+
+
+###  http://aiod.eu/data/datasheet
+:datasheet rdf:type owl:ObjectProperty ;
+           rdfs:domain :Device ;
+           rdfs:range :Publication ;
+           rdfs:label "datasheet"@en .
 
 
 ###  http://aiod.eu/data/distribution
@@ -683,6 +705,20 @@ xsd:date rdf:type rdfs:Datatype .
                                rdfs:range :ComputationalRequirement ;
                                rdfs:comment "The ComputationalRequirement needed for the Distribution to function." ;
                                rdfs:label "has computational requiremnt"@en .
+
+
+###  http://aiod.eu/data/has_fixed_equipment
+:has_fixed_equipment rdf:type owl:ObjectProperty ;
+                     rdfs:domain :RoboticEquipment ;
+                     rdfs:range :Device ;
+                     rdfs:label "has fixed equipment"@en .
+
+
+###  http://aiod.eu/data/has_optional_equipment
+:has_optional_equipment rdf:type owl:ObjectProperty ;
+                        rdfs:domain :RoboticEquipment ;
+                        rdfs:range :Device ;
+                        rdfs:label "has optional equipment"@en .
 
 
 ###  http://aiod.eu/data/has_part
@@ -1673,6 +1709,13 @@ dct:medium rdf:type owl:ObjectProperty .
                              rdfs:label "includes external reference"@en .
 
 
+###  http://aiod.eu/data/is_aggregated_component
+:is_aggregated_component rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :ComputeComponent ;
+                         rdfs:range xsd:boolean ;
+                         rdfs:label "is aggregated component"@en .
+
+
 ###  http://aiod.eu/data/job_title
 :job_title rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
@@ -2449,6 +2492,18 @@ owl:topDataProperty rdfs:domain :Agent .
              rdfs:label "Accelerator"@en .
 
 
+###  http://aiod.eu/data/Actor
+:Actor rdf:type owl:Class ;
+       rdfs:subClassOf :Device ;
+       rdfs:label "Actor"@en .
+
+
+###  http://aiod.eu/data/Actuation
+:Actuation rdf:type owl:Class ;
+           rdfs:subClassOf :AIoDConcept ;
+           rdfs:label "Actuation"@en .
+
+
 ###  http://aiod.eu/data/Agent
 :Agent rdf:type owl:Class ;
        owl:equivalentClass dct:Agent ,
@@ -2510,6 +2565,11 @@ owl:topDataProperty rdfs:domain :Agent .
      rdfs:subClassOf :ComputeComponent ;
      rdfs:comment "The central processor of a computer system." ;
      rdfs:label "CPU"@en .
+
+
+###  http://aiod.eu/data/Camera
+:Camera rdf:type owl:Class ;
+        rdfs:subClassOf :Sensor .
 
 
 ###  http://aiod.eu/data/CaseStudy
@@ -2651,6 +2711,13 @@ owl:topDataProperty rdfs:domain :Agent .
 :DeveloperService rdf:type owl:Class ;
                   rdfs:subClassOf :Service ;
                   rdfs:label "Developer Service"@en .
+
+
+###  http://aiod.eu/data/Device
+:Device rdf:type owl:Class ;
+        rdfs:subClassOf :AIoDConcept ;
+        rdfs:comment "An artifact whose purpose is to serve as an instrument in a specific subclass of a process."@en ;
+        rdfs:label "Device"@en .
 
 
 ###  http://aiod.eu/data/Distribution
@@ -2804,6 +2871,11 @@ owl:topDataProperty rdfs:domain :Agent .
          rdfs:label "Library"@en .
 
 
+###  http://aiod.eu/data/Lidar
+:Lidar rdf:type owl:Class ;
+       rdfs:subClassOf :Sensor .
+
+
 ###  http://aiod.eu/data/Location
 :Location rdf:type owl:Class ;
           owl:equivalentClass dct:Location ;
@@ -2817,6 +2889,12 @@ owl:topDataProperty rdfs:domain :Agent .
          rdfs:subClassOf :Model ;
          rdfs:comment "A model designed  for machine learning tasks." ;
          rdfs:label "ML Model"@en .
+
+
+###  http://aiod.eu/data/Map
+:Map rdf:type owl:Class ;
+     rdfs:subClassOf :RobotModel ;
+     rdfs:label "Map"@en .
 
 
 ###  http://aiod.eu/data/Memory
@@ -2957,6 +3035,11 @@ owl:topDataProperty rdfs:domain :Agent .
          rdfs:label "Purpose"@en .
 
 
+###  http://aiod.eu/data/Radar
+:Radar rdf:type owl:Class ;
+       rdfs:subClassOf :Sensor .
+
+
 ###  http://aiod.eu/data/Requirement
 :Requirement rdf:type owl:Class ;
              rdfs:subClassOf :AIoDConcept ;
@@ -2995,6 +3078,18 @@ owl:topDataProperty rdfs:domain :Agent .
       rdfs:label "Risk"@en .
 
 
+###  http://aiod.eu/data/RobotModel
+:RobotModel rdf:type owl:Class ;
+            rdfs:subClassOf :Model ;
+            rdfs:label "Robot Model"@en .
+
+
+###  http://aiod.eu/data/RoboticEquipment
+:RoboticEquipment rdf:type owl:Class ;
+                  rdfs:subClassOf :AIAsset ;
+                  rdfs:label "Robotic equipment"@en .
+
+
 ###  http://aiod.eu/data/RunnableDistribution
 :RunnableDistribution rdf:type owl:Class ;
                       rdfs:subClassOf :Distribution ;
@@ -3018,6 +3113,12 @@ owl:topDataProperty rdfs:domain :Agent .
                   rdfs:subClassOf :Expertise ;
                   rdfs:comment "A field of study within the sciences."@en ;
                   rdfs:label "Scientific Domain"@en .
+
+
+###  http://aiod.eu/data/Sensor
+:Sensor rdf:type owl:Class ;
+        rdfs:subClassOf :Device ;
+        rdfs:label "Sensor"@en .
 
 
 ###  http://aiod.eu/data/Service
@@ -3057,6 +3158,11 @@ owl:topDataProperty rdfs:domain :Agent .
           rdfs:label "Solution"@en .
 
 
+###  http://aiod.eu/data/Sonar
+:Sonar rdf:type owl:Class ;
+       rdfs:subClassOf :Sensor .
+
+
 ###  http://aiod.eu/data/Standard
 :Standard rdf:type owl:Class ;
           rdfs:subClassOf :DocumentaryResource ;
@@ -3086,6 +3192,11 @@ owl:topDataProperty rdfs:domain :Agent .
                               ] ;
               rdfs:comment "An impactful usage of AI in research or industry." ;
               rdfs:label "Success Story"@en .
+
+
+###  http://aiod.eu/data/TemperatureSensor
+:TemperatureSensor rdf:type owl:Class ;
+                   rdfs:subClassOf :Sensor .
 
 
 ###  http://aiod.eu/data/Training
@@ -3238,8 +3349,12 @@ dct:Location rdf:type owl:Class ;
 
 
 ###  http://purl.org/dc/terms/LocationPeriodOrJurisdiction
+<<<<<<< Updated upstream
 dct:LocationPeriodOrJurisdiction rdf:type owl:Class ;
                                  rdfs:subClassOf dct:LinguisticSystem .
+=======
+dct:LocationPeriodOrJurisdiction rdf:type owl:Class .
+>>>>>>> Stashed changes
 
 
 ###  http://purl.org/dc/terms/MediaType
