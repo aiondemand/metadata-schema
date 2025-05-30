@@ -30,7 +30,7 @@
                         "language": "en",
                         "value": "AI Application"
                     },
-                    "definition": "The use off AI technology for solving problems in industry, business, administration or science in academia.",
+                    "definition": "The use of AI technology for solving problems in industry, business, administration or science in academia.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -50,7 +50,7 @@
                         "language": "en",
                         "value": "AI Competition"
                     },
-                    "definition": "Specified application enviroments with real data in order different AI approaches compete for the best performance.",
+                    "definition": "Specified application enviroments with real data where different AI approaches compete for the best performance.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -70,7 +70,7 @@
                         "language": "en",
                         "value": "AI Trustworthiness"
                     },
-                    "definition": "An approach to AI development that prioritizes safety, reliability, trust and transparency in order the resulted application, service or system be adopted by the people who interact with it.",
+                    "definition": "An approach to AI development that prioritizes safety, reliability, trust and transparency in order for the resulted application, service or system be adopted by the people who interact with it.",
                     "seeAlso": "",
                     "elements": []
                 },
