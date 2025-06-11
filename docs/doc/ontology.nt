@@ -377,10 +377,17 @@
 # #################################################################
 # 
 # 
+# http://aiod.eu/data/able_to_perform
+<http://aiod.eu/data/able_to_perform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/able_to_perform> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Actor> .
+<http://aiod.eu/data/able_to_perform> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Actuation> .
+<http://aiod.eu/data/able_to_perform> <http://www.w3.org/2000/01/rdf-schema#label> "able to perform"@en .
+# 
 # http://aiod.eu/data/accelerator
 <http://aiod.eu/data/accelerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/accelerator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputationalRequirement> .
 <http://aiod.eu/data/accelerator> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Accelerator> .
+<http://aiod.eu/data/accelerator> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the type of accelerator required."@en .
 <http://aiod.eu/data/accelerator> <http://www.w3.org/2000/01/rdf-schema#label> "accelerator"@en .
 # 
 # http://aiod.eu/data/address
@@ -394,12 +401,14 @@
 <http://aiod.eu/data/addresses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/addresses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Solution> .
 <http://aiod.eu/data/addresses> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Problem> .
+<http://aiod.eu/data/addresses> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the problem that the solution aims to solve."@en .
 <http://aiod.eu/data/addresses> <http://www.w3.org/2000/01/rdf-schema#label> "addresses"@en .
 # 
 # http://aiod.eu/data/aiod_entry
 <http://aiod.eu/data/aiod_entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/aiod_entry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/AIResource> .
 <http://aiod.eu/data/aiod_entry> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/AIoDEntry> .
+<http://aiod.eu/data/aiod_entry> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an AI resource to its corresponding entry in the AIoD catalogue."@en .
 <http://aiod.eu/data/aiod_entry> <http://www.w3.org/2000/01/rdf-schema#label> "aiod entry"@en .
 # 
 # http://aiod.eu/data/announced_in
@@ -437,10 +446,18 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/business_sector> <http://www.w3.org/2000/01/rdf-schema#comment> "An industrial sector where a resource is or can be of use (possibly in the context of a larger framework or initiative)." .
 <http://aiod.eu/data/business_sector> <http://www.w3.org/2000/01/rdf-schema#label> "business sector"@en .
 # 
+# http://aiod.eu/data/carries_model
+<http://aiod.eu/data/carries_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/carries_model> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://aiod.eu/data/carries_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/RoboticEquipment> .
+<http://aiod.eu/data/carries_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/RobotModel> .
+<http://aiod.eu/data/carries_model> <http://www.w3.org/2000/01/rdf-schema#label> "carries model"@en .
+# 
 # http://aiod.eu/data/category
 <http://aiod.eu/data/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/NewsItem> .
 <http://aiod.eu/data/category> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/NewsCategory> .
+<http://aiod.eu/data/category> <http://www.w3.org/2000/01/rdf-schema#comment> "Assigns a news item to a specific news category."@en .
 <http://aiod.eu/data/category> <http://www.w3.org/2000/01/rdf-schema#label> "category"@en .
 # 
 # http://aiod.eu/data/connected_to
@@ -483,6 +500,12 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/creator> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Agent> .
 <http://aiod.eu/data/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making the AI asset." .
 <http://aiod.eu/data/creator> <http://www.w3.org/2000/01/rdf-schema#label> "creator"@en .
+# 
+# http://aiod.eu/data/datasheet
+<http://aiod.eu/data/datasheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/datasheet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Device> .
+<http://aiod.eu/data/datasheet> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Publication> .
+<http://aiod.eu/data/datasheet> <http://www.w3.org/2000/01/rdf-schema#label> "datasheet"@en .
 # 
 # http://aiod.eu/data/distribution
 <http://aiod.eu/data/distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -575,6 +598,18 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/has_computational_requirement> <http://www.w3.org/2000/01/rdf-schema#comment> "The ComputationalRequirement needed for the Distribution to function." .
 <http://aiod.eu/data/has_computational_requirement> <http://www.w3.org/2000/01/rdf-schema#label> "has computational requiremnt"@en .
 # 
+# http://aiod.eu/data/has_fixed_equipment
+<http://aiod.eu/data/has_fixed_equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/has_fixed_equipment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/RoboticEquipment> .
+<http://aiod.eu/data/has_fixed_equipment> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Device> .
+<http://aiod.eu/data/has_fixed_equipment> <http://www.w3.org/2000/01/rdf-schema#label> "has fixed equipment"@en .
+# 
+# http://aiod.eu/data/has_optional_equipment
+<http://aiod.eu/data/has_optional_equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/has_optional_equipment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/RoboticEquipment> .
+<http://aiod.eu/data/has_optional_equipment> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Device> .
+<http://aiod.eu/data/has_optional_equipment> <http://www.w3.org/2000/01/rdf-schema#label> "has optional equipment"@en .
+# 
 # http://aiod.eu/data/has_part
 <http://aiod.eu/data/has_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/has_part> <http://www.w3.org/2002/07/owl#inverseOf> <http://aiod.eu/data/part_of> .
@@ -587,6 +622,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/has_platform_account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/has_platform_account> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Agent> .
 <http://aiod.eu/data/has_platform_account> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/PlatformAccount> .
+<http://aiod.eu/data/has_platform_account> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the platform account associated with the agent."@en .
 <http://aiod.eu/data/has_platform_account> <http://www.w3.org/2000/01/rdf-schema#label> "has platform account"@en .
 # 
 # http://aiod.eu/data/includes_media
@@ -669,7 +705,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://aiod.eu/data/number_of_employees
 <http://aiod.eu/data/number_of_employees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/number_of_employees> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Organisation> .
-<http://aiod.eu/data/number_of_employees> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/CompanyRevenue> .
+<http://aiod.eu/data/number_of_employees> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/CompanySize> .
 # 
 # http://aiod.eu/data/offered_by
 <http://aiod.eu/data/offered_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -786,6 +822,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/requires_solution_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/requires_solution_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/BusinessProblem> .
 <http://aiod.eu/data/requires_solution_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/ResearchProblem> .
+<http://aiod.eu/data/requires_solution_for> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a business problem to the research problem it depends on for resolution."@en .
 <http://aiod.eu/data/requires_solution_for> <http://www.w3.org/2000/01/rdf-schema#label> "requires solution for"@en .
 # 
 # http://aiod.eu/data/research_area
@@ -801,6 +838,13 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/AIoDConcept> .
 <http://aiod.eu/data/sameAs> <http://www.w3.org/2000/01/rdf-schema#comment> "An equivalence relationship between entities." .
 <http://aiod.eu/data/sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "same as"@en .
+# 
+# http://aiod.eu/data/scientific_domain
+<http://aiod.eu/data/scientific_domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://aiod.eu/data/scientific_domain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/AIResource> .
+<http://aiod.eu/data/scientific_domain> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/ScientificDomain> .
+<http://aiod.eu/data/scientific_domain> <http://www.w3.org/2000/01/rdf-schema#comment> "A scientific domain where the activities, operations or outcomes of the resource are applicable."@en .
+<http://aiod.eu/data/scientific_domain> <http://www.w3.org/2000/01/rdf-schema#label> "scientific resource"@en .
 # 
 # http://aiod.eu/data/showcase
 <http://aiod.eu/data/showcase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -827,12 +871,14 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/spatial_coverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/spatial_coverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Dataset> .
 <http://aiod.eu/data/spatial_coverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Location> .
+<http://aiod.eu/data/spatial_coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the geographical area covered by the dataset."@en .
 <http://aiod.eu/data/spatial_coverage> <http://www.w3.org/2000/01/rdf-schema#label> "spatial coverage"@en .
 # 
 # http://aiod.eu/data/storage
 <http://aiod.eu/data/storage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/storage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputationalRequirement> .
 <http://aiod.eu/data/storage> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/Storage> .
+<http://aiod.eu/data/storage> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the storage resources required."@en .
 <http://aiod.eu/data/storage> <http://www.w3.org/2000/01/rdf-schema#label> "storage"@en .
 # 
 # http://aiod.eu/data/taught_by
@@ -846,6 +892,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/turnover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://aiod.eu/data/turnover> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Organisation> .
 <http://aiod.eu/data/turnover> <http://www.w3.org/2000/01/rdf-schema#range> <http://aiod.eu/data/CompanyRevenue> .
+<http://aiod.eu/data/turnover> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the revenue generated by the organization."@en .
+<http://aiod.eu/data/turnover> <http://www.w3.org/2000/01/rdf-schema#label> "turnover"@en .
 # 
 # http://aiod.eu/data/under_classification
 <http://aiod.eu/data/under_classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -925,6 +973,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/academic_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/academic_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/academic_level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Course> .
+<http://aiod.eu/data/academic_level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://aiod.eu/data/academic_level> <http://www.w3.org/2000/01/rdf-schema#comment> "The academic level for which the lesson is designed." .
 <http://aiod.eu/data/academic_level> <http://www.w3.org/2000/01/rdf-schema#label> "academic level"@en .
 # 
@@ -963,6 +1012,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/amount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Storage> .
 <http://aiod.eu/data/amount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/amount> <http://www.w3.org/2000/01/rdf-schema#comment> "The storage capacity."@en .
 <http://aiod.eu/data/amount> <http://www.w3.org/2000/01/rdf-schema#label> "amount"@en .
 # 
 # http://aiod.eu/data/amount_gb
@@ -970,6 +1020,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/amount_gb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/amount_gb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Memory> .
 <http://aiod.eu/data/amount_gb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/amount_gb> <http://www.w3.org/2000/01/rdf-schema#comment> "The memory size in gigabytes (GB)."@en .
 <http://aiod.eu/data/amount_gb> <http://www.w3.org/2000/01/rdf-schema#label> "amount gb"@en .
 # 
 # http://aiod.eu/data/announcement_page
@@ -984,6 +1035,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/architecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputationalRequirement> .
 <http://aiod.eu/data/architecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/architecture> <http://www.w3.org/2000/01/rdf-schema#comment> "The hardware or system design."@en .
 <http://aiod.eu/data/architecture> <http://www.w3.org/2000/01/rdf-schema#label> "architecture"@en .
 # 
 # http://aiod.eu/data/award
@@ -1016,6 +1068,13 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/checksum_algorithm> <http://www.w3.org/2000/01/rdf-schema#comment> "The algorithm used to calculate the cheksum value." .
 <http://aiod.eu/data/checksum_algorithm> <http://www.w3.org/2000/01/rdf-schema#label> "checksum algorithm"@en .
 # 
+# http://aiod.eu/data/citation
+<http://aiod.eu/data/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/citation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/AIAsset> .
+<http://aiod.eu/data/citation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://aiod.eu/data/citation> <http://www.w3.org/2000/01/rdf-schema#comment> "A bibliographic reference for the AI asset."@en .
+<http://aiod.eu/data/citation> <http://www.w3.org/2000/01/rdf-schema#label> "citation"@en .
+# 
 # http://aiod.eu/data/city
 <http://aiod.eu/data/city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -1041,6 +1100,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/clock_speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/clock_speed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/CPU> .
 <http://aiod.eu/data/clock_speed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/clock_speed> <http://www.w3.org/2000/01/rdf-schema#comment> "The operating speed of the CPU."@en .
 <http://aiod.eu/data/clock_speed> <http://www.w3.org/2000/01/rdf-schema#label> "clock speed"@en .
 # 
 # http://aiod.eu/data/closing_date
@@ -1077,6 +1137,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/configuration_standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/configuration_standard> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/WorkflowStep> .
 <http://aiod.eu/data/configuration_standard> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/configuration_standard> <http://www.w3.org/2000/01/rdf-schema#comment> "The specification used to define or execute a workflow step."@en .
 <http://aiod.eu/data/configuration_standard> <http://www.w3.org/2000/01/rdf-schema#label> "configuration standard"@en .
 # 
 # http://aiod.eu/data/content
@@ -1113,6 +1174,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/cores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/cores> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Accelerator> .
 <http://aiod.eu/data/cores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/cores> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of processing cores in a compute component."@en .
 <http://aiod.eu/data/cores> <http://www.w3.org/2000/01/rdf-schema#label> "cores"@en .
 # 
 # http://aiod.eu/data/cost
@@ -1134,6 +1196,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/cpu_family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/cpu_family> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/CPU> .
 <http://aiod.eu/data/cpu_family> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/cpu_family> <http://www.w3.org/2000/01/rdf-schema#comment> "The product line or generation of a CPU."@en .
 <http://aiod.eu/data/cpu_family> <http://www.w3.org/2000/01/rdf-schema#label> "cpu family"@en .
 # 
 # http://aiod.eu/data/credits
@@ -1141,6 +1204,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/credits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/credits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Course> .
 <http://aiod.eu/data/credits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/credits> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of credits assigned to a course."@en .
 <http://aiod.eu/data/credits> <http://www.w3.org/2000/01/rdf-schema#label> "credits"@en .
 # 
 # http://aiod.eu/data/date_created
@@ -1244,6 +1308,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/end_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/end_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/EducationalResource> .
 <http://aiod.eu/data/end_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://aiod.eu/data/end_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the educational resource or activity concludes."@en .
 <http://aiod.eu/data/end_date> <http://www.w3.org/2000/01/rdf-schema#label> "end date"@en .
 # 
 # http://aiod.eu/data/end_time
@@ -1364,6 +1429,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/funding_call> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the proposals for research." .
 <http://aiod.eu/data/funding_call> <http://www.w3.org/2000/01/rdf-schema#label> "funding call"@en .
 # 
+# http://aiod.eu/data/funding_opportunity_type
+<http://aiod.eu/data/funding_opportunity_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/funding_opportunity_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/FundingOpportunity> .
+<http://aiod.eu/data/funding_opportunity_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/funding_opportunity_type> <http://www.w3.org/2000/01/rdf-schema#label> "funding opportunity type"@en .
+# 
 # http://aiod.eu/data/funding_scheme
 <http://aiod.eu/data/funding_scheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/funding_scheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -1417,6 +1488,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/includes_external_reference> <http://www.w3.org/2000/01/rdf-schema#comment> "An element included in the bundle that is not currently found in the AIoD Platform." .
 <http://aiod.eu/data/includes_external_reference> <http://www.w3.org/2000/01/rdf-schema#label> "includes external reference"@en .
 # 
+# http://aiod.eu/data/is_aggregated_component
+<http://aiod.eu/data/is_aggregated_component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/is_aggregated_component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputeComponent> .
+<http://aiod.eu/data/is_aggregated_component> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://aiod.eu/data/is_aggregated_component> <http://www.w3.org/2000/01/rdf-schema#label> "is aggregated component"@en .
+# 
 # http://aiod.eu/data/job_title
 <http://aiod.eu/data/job_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/job_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -1427,8 +1504,10 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://aiod.eu/data/kernel
 <http://aiod.eu/data/kernel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/kernel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/kernel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputationalAsset> .
 <http://aiod.eu/data/kernel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/kernel> <http://www.w3.org/2000/01/rdf-schema#comment> "The operating system kernel used by the computational asset."@en .
 <http://aiod.eu/data/kernel> <http://www.w3.org/2000/01/rdf-schema#label> "kernel"@en .
 # 
 # http://aiod.eu/data/keyword
@@ -1512,6 +1591,14 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/memory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/memory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
+# http://aiod.eu/data/memory_type
+<http://aiod.eu/data/memory_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/memory_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://aiod.eu/data/memory_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Memory> .
+<http://aiod.eu/data/memory_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/memory_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of memory."@en .
+<http://aiod.eu/data/memory_type> <http://www.w3.org/2000/01/rdf-schema#label> "memory type"@en .
+# 
 # http://aiod.eu/data/mimetype
 <http://aiod.eu/data/mimetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/mimetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -1561,6 +1648,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/num_cpu_cores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/num_cpu_cores> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/CPU> .
 <http://aiod.eu/data/num_cpu_cores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/num_cpu_cores> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of physical cores in the CPU."@en .
 <http://aiod.eu/data/num_cpu_cores> <http://www.w3.org/2000/01/rdf-schema#label> "num cpu cores"@en .
 # 
 # http://aiod.eu/data/number
@@ -1624,6 +1712,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/os> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/os> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/ComputationalAsset> .
 <http://aiod.eu/data/os> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/os> <http://www.w3.org/2000/01/rdf-schema#comment> "The operating system installed on the computational asset."@en .
 <http://aiod.eu/data/os> <http://www.w3.org/2000/01/rdf-schema#label> "os"@en .
 # 
 # http://aiod.eu/data/pid
@@ -1631,12 +1720,14 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/pid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/pid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Dataset> .
 <http://aiod.eu/data/pid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/pid> <http://www.w3.org/2000/01/rdf-schema#comment> "A persistent identifier assigned to the dataset."@en .
 <http://aiod.eu/data/pid> <http://www.w3.org/2000/01/rdf-schema#label> "pid"@en .
 # 
 # http://aiod.eu/data/platform_account_homepage
 <http://aiod.eu/data/platform_account_homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/platform_account_homepage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/PlatformAccount> .
 <http://aiod.eu/data/platform_account_homepage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://aiod.eu/data/platform_account_homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "The web address of a platform account's main page."@en .
 <http://aiod.eu/data/platform_account_homepage> <http://www.w3.org/2000/01/rdf-schema#label> "platform account homepage"@en .
 # 
 # http://aiod.eu/data/postal_code
@@ -1689,6 +1780,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/read_bandwidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/read_bandwidth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Memory> .
 <http://aiod.eu/data/read_bandwidth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://aiod.eu/data/read_bandwidth> <http://www.w3.org/2000/01/rdf-schema#comment> "The memory read speed."@en .
 <http://aiod.eu/data/read_bandwidth> <http://www.w3.org/2000/01/rdf-schema#label> "read bandwidth"@en .
 # 
 # http://aiod.eu/data/region
@@ -1700,6 +1792,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://aiod.eu/data/registration_link
 <http://aiod.eu/data/registration_link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/registration_link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/registration_link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Event> .
 <http://aiod.eu/data/registration_link> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://aiod.eu/data/registration_link> <http://www.w3.org/2000/01/rdf-schema#comment> "The location where the registration is." .
@@ -1708,6 +1801,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://aiod.eu/data/relevant_link
 <http://aiod.eu/data/relevant_link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/relevant_link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/relevant_link> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://aiod.eu/data/relevant_link> <http://www.w3.org/2000/01/rdf-schema#comment> "A web address where is a relevant resource related to the Entity." .
 <http://aiod.eu/data/relevant_link> <http://www.w3.org/2000/01/rdf-schema#label> "relevant link"@en .
 # 
@@ -1729,6 +1823,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://aiod.eu/data/service_category
 <http://aiod.eu/data/service_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/service_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/service_category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Service> .
 <http://aiod.eu/data/service_category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://aiod.eu/data/service_category> <http://www.w3.org/2000/01/rdf-schema#comment> "The category in which the Service belongs to." .
@@ -1780,6 +1875,13 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://aiod.eu/data/status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
 # 
+# http://aiod.eu/data/storage_type
+<http://aiod.eu/data/storage_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/storage_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://aiod.eu/data/storage_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Storage> .
+<http://aiod.eu/data/storage_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/storage_type> <http://www.w3.org/2000/01/rdf-schema#label> "storage type"@en .
+# 
 # http://aiod.eu/data/street
 <http://aiod.eu/data/street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -1815,6 +1917,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/temporal_coverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://aiod.eu/data/temporal_coverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/Dataset> .
 <http://aiod.eu/data/temporal_coverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/temporal_coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "The time period covered by the dataset."@en .
 <http://aiod.eu/data/temporal_coverage> <http://www.w3.org/2000/01/rdf-schema#label> "temporal coverage"@en .
 # 
 # http://aiod.eu/data/topic
@@ -1864,6 +1967,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/username> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/username> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/PlatformAccount> .
 <http://aiod.eu/data/username> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/username> <http://www.w3.org/2000/01/rdf-schema#comment> "The identifier used to access a platform account."@en .
 <http://aiod.eu/data/username> <http://www.w3.org/2000/01/rdf-schema#label> "username"@en .
 # 
 # http://aiod.eu/data/uses_configuration
@@ -1947,6 +2051,12 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://aiod.eu/data/workflow_specification_standard> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the guidelines used to define the procces tasks." .
 <http://aiod.eu/data/workflow_specification_standard> <http://www.w3.org/2000/01/rdf-schema#label> "workflow specification standard"@en .
 # 
+# http://aiod.eu/data/workflow_step_type
+<http://aiod.eu/data/workflow_step_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://aiod.eu/data/workflow_step_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://aiod.eu/data/WorkflowStep> .
+<http://aiod.eu/data/workflow_step_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://aiod.eu/data/workflow_step_type> <http://www.w3.org/2000/01/rdf-schema#label> "workflow step type"@en .
+# 
 # http://aiod.eu/data/write_bandwidth
 <http://aiod.eu/data/write_bandwidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://aiod.eu/data/write_bandwidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
@@ -2024,7 +2134,6 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://aiod.eu/data/AIResource
 <http://aiod.eu/data/AIResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/AIResource> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Resource> .
-<http://www.w3.org/ns/dcat#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/AIResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
 <http://aiod.eu/data/AIResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
 _:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://aiod.eu/data/AIoDEntry> .
@@ -2071,11 +2180,20 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Accelerator> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of a computing system responsible for accelerating specific computational tasks." .
 <http://aiod.eu/data/Accelerator> <http://www.w3.org/2000/01/rdf-schema#label> "Accelerator"@en .
 # 
+# http://aiod.eu/data/Actor
+<http://aiod.eu/data/Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Device> .
+<http://aiod.eu/data/Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor"@en .
+# 
+# http://aiod.eu/data/Actuation
+<http://aiod.eu/data/Actuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Actuation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/Actuation> <http://www.w3.org/2000/01/rdf-schema#label> "Actuation"@en .
+# 
 # http://aiod.eu/data/Agent
 <http://aiod.eu/data/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Agent> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.org/dc/terms/Agent> .
 <http://aiod.eu/data/Agent> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Agent> .
-<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EcosystemResource> .
 <http://aiod.eu/data/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "The direct performer or driver of the action (animate or inanimate)." .
 # 
@@ -2083,11 +2201,13 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Announcement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Announcement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/NewsItem> .
 <http://aiod.eu/data/Announcement> <http://www.w3.org/2000/01/rdf-schema#comment> "An article containing official information or updates." .
+<http://aiod.eu/data/Announcement> <http://www.w3.org/2000/01/rdf-schema#label> "Announcement"@en .
 # 
 # http://aiod.eu/data/Approach
 <http://aiod.eu/data/Approach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Approach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
 <http://aiod.eu/data/Approach> <http://www.w3.org/2000/01/rdf-schema#comment> "The specific point of view employed to implement a solution." .
+<http://aiod.eu/data/Approach> <http://www.w3.org/2000/01/rdf-schema#label> "Approach"@en .
 # 
 # http://aiod.eu/data/Assessment
 <http://aiod.eu/data/Assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2104,6 +2224,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/BusinessFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/BusinessFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EcosystemResource> .
 <http://aiod.eu/data/BusinessFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The area of operations within a business." .
+<http://aiod.eu/data/BusinessFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Business Function"@en .
 # 
 # http://aiod.eu/data/BusinessProblem
 <http://aiod.eu/data/BusinessProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2123,15 +2244,21 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/CPU> <http://www.w3.org/2000/01/rdf-schema#comment> "The central processor of a computer system." .
 <http://aiod.eu/data/CPU> <http://www.w3.org/2000/01/rdf-schema#label> "CPU"@en .
 # 
+# http://aiod.eu/data/Camera
+<http://aiod.eu/data/Camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Camera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Sensor> .
+# 
 # http://aiod.eu/data/CaseStudy
 <http://aiod.eu/data/CaseStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/CaseStudy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Project> .
 <http://aiod.eu/data/CaseStudy> <http://www.w3.org/2000/01/rdf-schema#comment> "A contractually defined initiative aimed to achieve specific objectives." .
+<http://aiod.eu/data/CaseStudy> <http://www.w3.org/2000/01/rdf-schema#label> "Case Study"@en .
 # 
 # http://aiod.eu/data/Challenge
 <http://aiod.eu/data/Challenge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Challenge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Project> .
 <http://aiod.eu/data/Challenge> <http://www.w3.org/2000/01/rdf-schema#comment> "A competitive initiative aimed to achieve specific objectives." .
+<http://aiod.eu/data/Challenge> <http://www.w3.org/2000/01/rdf-schema#label> "Challenge"@en .
 # 
 # http://aiod.eu/data/Classification
 <http://aiod.eu/data/Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2157,11 +2284,13 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/CompanyRevenue
 <http://aiod.eu/data/CompanyRevenue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/CompanyRevenue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/CompanyRevenue> <http://www.w3.org/2000/01/rdf-schema#comment> "The total income generated by a company from its operations."@en .
 <http://aiod.eu/data/CompanyRevenue> <http://www.w3.org/2000/01/rdf-schema#label> "Company Revenue"@en .
 # 
 # http://aiod.eu/data/CompanySize
 <http://aiod.eu/data/CompanySize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/CompanySize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/CompanySize> <http://www.w3.org/2000/01/rdf-schema#comment> "The classification of a company based on the number of employees it has."@en .
 <http://aiod.eu/data/CompanySize> <http://www.w3.org/2000/01/rdf-schema#label> "Company Size"@en .
 # 
 # http://aiod.eu/data/ComputationalAsset
@@ -2184,6 +2313,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/ComputeComponent
 <http://aiod.eu/data/ComputeComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/ComputeComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/ComputeComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "A hardware unit that contributes to computational performance."@en .
 <http://aiod.eu/data/ComputeComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Compute Component"@en .
 # 
 # http://aiod.eu/data/ContactDetails
@@ -2201,6 +2331,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EducationalResource> .
 <http://aiod.eu/data/Course> <http://www.w3.org/2000/01/rdf-schema#comment> "A systematic training programme." .
+<http://aiod.eu/data/Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course"@en .
 # 
 # http://aiod.eu/data/DataDownload
 <http://aiod.eu/data/DataDownload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2210,6 +2341,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/DataModel
 <http://aiod.eu/data/DataModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/DataModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Model> .
+<http://aiod.eu/data/DataModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A structured way to organize and relate data."@en .
 <http://aiod.eu/data/DataModel> <http://www.w3.org/2000/01/rdf-schema#label> "Data Model"@en .
 # 
 # http://aiod.eu/data/DataService
@@ -2220,7 +2352,6 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/Dataset
 <http://aiod.eu/data/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Dataset> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIAsset> .
 <http://aiod.eu/data/Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
 _:genid20 <http://www.w3.org/2002/07/owl#onClass> <http://aiod.eu/data/Size> .
@@ -2238,6 +2369,13 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/DeveloperService
 <http://aiod.eu/data/DeveloperService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/DeveloperService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Service> .
+<http://aiod.eu/data/DeveloperService> <http://www.w3.org/2000/01/rdf-schema#label> "Developer Service"@en .
+# 
+# http://aiod.eu/data/Device
+<http://aiod.eu/data/Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/Device> <http://www.w3.org/2000/01/rdf-schema#comment> "An artifact whose purpose is to serve as an instrument in a specific subclass of a process."@en .
+<http://aiod.eu/data/Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device"@en .
 # 
 # http://aiod.eu/data/Distribution
 <http://aiod.eu/data/Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2258,6 +2396,7 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/DocumentaryResource
 <http://aiod.eu/data/DocumentaryResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/DocumentaryResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/KnowledgeAsset> .
+<http://aiod.eu/data/DocumentaryResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that provides information relevant to a topic or entity."@en .
 <http://aiod.eu/data/DocumentaryResource> <http://www.w3.org/2000/01/rdf-schema#label> "Documentary Resource"@en .
 # 
 # http://aiod.eu/data/ECProject
@@ -2269,6 +2408,7 @@ _:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/eu_contribution> .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/ECProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A project directly funded or co-funded by the European Commission." .
+<http://aiod.eu/data/ECProject> <http://www.w3.org/2000/01/rdf-schema#label> "EC Project"@en .
 # 
 # http://aiod.eu/data/EcosystemResource
 <http://aiod.eu/data/EcosystemResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2285,6 +2425,7 @@ _:genid25 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://w
 _:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/offered_by> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/EducationalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "An AI Asset designed for educational purposes." .
+<http://aiod.eu/data/EducationalResource> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Resource"@en .
 # 
 # http://aiod.eu/data/Event
 <http://aiod.eu/data/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2300,6 +2441,7 @@ _:genid27 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://w
 _:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/organiser> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event happening at a certain time and location, with a specific scope." .
+<http://aiod.eu/data/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
 # 
 # http://aiod.eu/data/Experiment
 <http://aiod.eu/data/Experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2328,11 +2470,11 @@ _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/FundingOpportunity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/FundingOpportunity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/NewsItem> .
 <http://aiod.eu/data/FundingOpportunity> <http://www.w3.org/2000/01/rdf-schema#comment> "An article highlighting opportunities for financial support." .
+<http://aiod.eu/data/FundingOpportunity> <http://www.w3.org/2000/01/rdf-schema#label> "Funding Opportunity"@en .
 # 
 # http://aiod.eu/data/Image
 <http://aiod.eu/data/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Image> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Image> .
-<http://xmlns.com/foaf/0.1/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Image> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Multimedia> .
 <http://aiod.eu/data/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "The depiction/visual representation of static elements." .
 <http://aiod.eu/data/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
@@ -2340,10 +2482,12 @@ _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/InformationalService
 <http://aiod.eu/data/InformationalService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/InformationalService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Service> .
+<http://aiod.eu/data/InformationalService> <http://www.w3.org/2000/01/rdf-schema#label> "Informational Service"@en .
 # 
 # http://aiod.eu/data/InnovationService
 <http://aiod.eu/data/InnovationService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/InnovationService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Service> .
+<http://aiod.eu/data/InnovationService> <http://www.w3.org/2000/01/rdf-schema#label> "Innovation Service"@en .
 # 
 # http://aiod.eu/data/JobAnnouncement
 <http://aiod.eu/data/JobAnnouncement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2354,6 +2498,7 @@ _:genid28 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://w
 _:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/issuer> .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/JobAnnouncement> <http://www.w3.org/2000/01/rdf-schema#comment> "An article highlighting employment opportunities." .
+<http://aiod.eu/data/JobAnnouncement> <http://www.w3.org/2000/01/rdf-schema#label> "Job Announcement"@en .
 # 
 # http://aiod.eu/data/KnowledgeAsset
 <http://aiod.eu/data/KnowledgeAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2365,6 +2510,10 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Library> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Distribution> .
 <http://aiod.eu/data/Library> <http://www.w3.org/2000/01/rdf-schema#label> "Library"@en .
+# 
+# http://aiod.eu/data/Lidar
+<http://aiod.eu/data/Lidar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Lidar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Sensor> .
 # 
 # http://aiod.eu/data/Location
 <http://aiod.eu/data/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2379,14 +2528,21 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/MLModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A model designed  for machine learning tasks." .
 <http://aiod.eu/data/MLModel> <http://www.w3.org/2000/01/rdf-schema#label> "ML Model"@en .
 # 
+# http://aiod.eu/data/Map
+<http://aiod.eu/data/Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/RobotModel> .
+<http://aiod.eu/data/Map> <http://www.w3.org/2000/01/rdf-schema#label> "Map"@en .
+# 
 # http://aiod.eu/data/Memory
 <http://aiod.eu/data/Memory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Memory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/ComputeComponent> .
+<http://aiod.eu/data/Memory> <http://www.w3.org/2000/01/rdf-schema#comment> "A component that stores data temporarily for fast access during processing."@en .
 <http://aiod.eu/data/Memory> <http://www.w3.org/2000/01/rdf-schema#label> "Memory"@en .
 # 
 # http://aiod.eu/data/Model
 <http://aiod.eu/data/Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIAsset> .
+<http://aiod.eu/data/Model> <http://www.w3.org/2000/01/rdf-schema#comment> "A representation of a system used for prediction or reasoning."@en .
 <http://aiod.eu/data/Model> <http://www.w3.org/2000/01/rdf-schema#label> "Model"@en .
 # 
 # http://aiod.eu/data/Multimedia
@@ -2398,6 +2554,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/NewsCategory
 <http://aiod.eu/data/NewsCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/NewsCategory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/NewsCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A classification label indicating the topic of a news item."@en .
 <http://aiod.eu/data/NewsCategory> <http://www.w3.org/2000/01/rdf-schema#label> "News Category"@en .
 # 
 # http://aiod.eu/data/NewsItem
@@ -2409,6 +2566,7 @@ _:genid29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/headline> .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/NewsItem> <http://www.w3.org/2000/01/rdf-schema#comment> "An article (possible of mixed modality) that reports or summarizes news." .
+<http://aiod.eu/data/NewsItem> <http://www.w3.org/2000/01/rdf-schema#label> "News Item"@en .
 # 
 # http://aiod.eu/data/Notebook
 <http://aiod.eu/data/Notebook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2424,6 +2582,7 @@ _:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/parent_project> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/OpenCallProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A project funded in the context of an Open Call process of another project." .
+<http://aiod.eu/data/OpenCallProject> <http://www.w3.org/2000/01/rdf-schema#label> "Open Call Project"@en .
 # 
 # http://aiod.eu/data/Operation
 <http://aiod.eu/data/Operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2439,13 +2598,14 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/Person
 <http://aiod.eu/data/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Person> .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Agent> .
 <http://aiod.eu/data/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A human being." .
 # 
 # http://aiod.eu/data/PlatformAccount
 <http://aiod.eu/data/PlatformAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/PlatformAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/PlatformAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "The account used to access and interact with an online platform."@en .
+<http://aiod.eu/data/PlatformAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Account"@en .
 # 
 # http://aiod.eu/data/Presentation
 <http://aiod.eu/data/Presentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2462,7 +2622,6 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/Project
 <http://aiod.eu/data/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Project> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Project> .
-<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EcosystemResource> .
 <http://aiod.eu/data/Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
 _:genid31 <http://www.w3.org/2002/07/owl#onClass> <http://aiod.eu/data/Organisation> .
@@ -2475,6 +2634,7 @@ _:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/total_cost_euros> .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/Project> <http://www.w3.org/2000/01/rdf-schema#comment> "A contractually defined initiative aimed to achieve specific objectives." .
+<http://aiod.eu/data/Project> <http://www.w3.org/2000/01/rdf-schema#label> "Project"@en .
 # 
 # http://aiod.eu/data/Protocol
 <http://aiod.eu/data/Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2491,7 +2651,12 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/Purpose
 <http://aiod.eu/data/Purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Purpose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
+<http://aiod.eu/data/Purpose> <http://www.w3.org/2000/01/rdf-schema#comment> "The intended use or objective behind a dataset, AI system, or resource."@en .
 <http://aiod.eu/data/Purpose> <http://www.w3.org/2000/01/rdf-schema#label> "Purpose"@en .
+# 
+# http://aiod.eu/data/Radar
+<http://aiod.eu/data/Radar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Radar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Sensor> .
 # 
 # http://aiod.eu/data/Requirement
 <http://aiod.eu/data/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2526,6 +2691,16 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIoDConcept> .
 <http://aiod.eu/data/Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Risk"@en .
 # 
+# http://aiod.eu/data/RobotModel
+<http://aiod.eu/data/RobotModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/RobotModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Model> .
+<http://aiod.eu/data/RobotModel> <http://www.w3.org/2000/01/rdf-schema#label> "Robot Model"@en .
+# 
+# http://aiod.eu/data/RoboticEquipment
+<http://aiod.eu/data/RoboticEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/RoboticEquipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/AIAsset> .
+<http://aiod.eu/data/RoboticEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "Robotic equipment"@en .
+# 
 # http://aiod.eu/data/RunnableDistribution
 <http://aiod.eu/data/RunnableDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/RunnableDistribution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Distribution> .
@@ -2539,6 +2714,18 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://aiod.eu/data/SafetyAndTrustService
 <http://aiod.eu/data/SafetyAndTrustService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/SafetyAndTrustService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Service> .
+<http://aiod.eu/data/SafetyAndTrustService> <http://www.w3.org/2000/01/rdf-schema#label> "Safety and Trust Service"@en .
+# 
+# http://aiod.eu/data/ScientificDomain
+<http://aiod.eu/data/ScientificDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/ScientificDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Expertise> .
+<http://aiod.eu/data/ScientificDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "A field of study within the sciences."@en .
+<http://aiod.eu/data/ScientificDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Scientific Domain"@en .
+# 
+# http://aiod.eu/data/Sensor
+<http://aiod.eu/data/Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Device> .
+<http://aiod.eu/data/Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor"@en .
 # 
 # http://aiod.eu/data/Service
 <http://aiod.eu/data/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2549,6 +2736,7 @@ _:genid34 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://w
 _:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/provider> .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "The provision of functionality to use an asset." .
+<http://aiod.eu/data/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en .
 # 
 # http://aiod.eu/data/Size
 <http://aiod.eu/data/Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2571,6 +2759,11 @@ _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EcosystemResource> .
 <http://aiod.eu/data/Solution> <http://www.w3.org/2000/01/rdf-schema#comment> "The method for addressing a problem." .
+<http://aiod.eu/data/Solution> <http://www.w3.org/2000/01/rdf-schema#label> "Solution"@en .
+# 
+# http://aiod.eu/data/Sonar
+<http://aiod.eu/data/Sonar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/Sonar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Sensor> .
 # 
 # http://aiod.eu/data/Standard
 <http://aiod.eu/data/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2599,15 +2792,21 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://aiod.eu/data/SuccessStory> <http://www.w3.org/2000/01/rdf-schema#comment> "An impactful usage of AI in research or industry." .
 <http://aiod.eu/data/SuccessStory> <http://www.w3.org/2000/01/rdf-schema#label> "Success Story"@en .
 # 
+# http://aiod.eu/data/TemperatureSensor
+<http://aiod.eu/data/TemperatureSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://aiod.eu/data/TemperatureSensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/Sensor> .
+# 
 # http://aiod.eu/data/Training
 <http://aiod.eu/data/Training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Training> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EducationalResource> .
 <http://aiod.eu/data/Training> <http://www.w3.org/2000/01/rdf-schema#comment> "A learning activity designed to develop specific skills or knowledge." .
+<http://aiod.eu/data/Training> <http://www.w3.org/2000/01/rdf-schema#label> "Training"@en .
 # 
 # http://aiod.eu/data/Tutorial
 <http://aiod.eu/data/Tutorial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://aiod.eu/data/Tutorial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aiod.eu/data/EducationalResource> .
 <http://aiod.eu/data/Tutorial> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of instructions for the performance of tasks or the use of features." .
+<http://aiod.eu/data/Tutorial> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorial"@en .
 # 
 # http://aiod.eu/data/Video
 <http://aiod.eu/data/Video> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2686,6 +2885,11 @@ _:genid47 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 _:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/uses_configuration> .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://aiod.eu/data/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://aiod.eu/data/workflow_step_type> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://aiod.eu/data/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#comment> "A seperate procedure within a workflow." .
 <http://aiod.eu/data/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow Step"@en .
 # 
@@ -2771,16 +2975,22 @@ _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/ns/dcat#Dataset
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/ns/dcat#Resource
+<http://www.w3.org/ns/dcat#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://xmlns.com/foaf/0.1/Project
+<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # 
 # 
@@ -3174,6 +3384,7 @@ _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 <http://aiod.eu/data/memory> <http://www.w3.org/2000/01/rdf-schema#label> "memory"@en .
 # 
+<http://aiod.eu/data/number_of_employees> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the organisation size based on its employee count."@en .
 <http://aiod.eu/data/number_of_employees> <http://www.w3.org/2000/01/rdf-schema#label> "number of employees"@en .
 # 
 <http://purl.org/dc/terms/Agent> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
