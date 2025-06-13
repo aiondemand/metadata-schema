@@ -8079,112 +8079,128 @@ labels. The objective is to discover the underlying data structure, for example,
 :cc-by-4.0 rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Licence ;
-           ns1:notation "con505"@en .
+           ns1:notation "con505"@en ;
+           rdfs:label "cc-by-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-2.0
 :cc-by-nc-2.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con528"@en .
+              ns1:notation "con528"@en ;
+              rdfs:label "cc-by-nc-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-3.0
 :cc-by-nc-3.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con536"@en .
+              ns1:notation "con536"@en ;
+              rdfs:label "cc-by-nc-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-4.0
 :cc-by-nc-4.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con503"@en .
+              ns1:notation "con503"@en ;
+              rdfs:label "cc-by-nc-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-nd-3.0
 :cc-by-nc-nd-3.0 rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
                  ns1:inScheme :Licence ;
-                 ns1:notation "con550"@en .
+                 ns1:notation "con550"@en ;
+                 rdfs:label "cc-by-nc-nd-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-nd-4.0
 :cc-by-nc-nd-4.0 rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
                  ns1:inScheme :Licence ;
-                 ns1:notation "con516"@en .
+                 ns1:notation "con516"@en ;
+                 rdfs:label "cc-by-nc-nd-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-sa-2.0
 :cc-by-nc-sa-2.0 rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
                  ns1:inScheme :Licence ;
-                 ns1:notation "con549"@en .
+                 ns1:notation "con549"@en ;
+                 rdfs:label "cc-by-nc-sa-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-sa-3.0
 :cc-by-nc-sa-3.0 rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
                  ns1:inScheme :Licence ;
-                 ns1:notation "con544"@en .
+                 ns1:notation "con544"@en ;
+                 rdfs:label "cc-by-nc-sa-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nc-sa-4.0
 :cc-by-nc-sa-4.0 rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
                  ns1:inScheme :Licence ;
-                 ns1:notation "con508"@en .
+                 ns1:notation "con508"@en ;
+                 rdfs:label "cc-by-nc-sa-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-nd-4.0
 :cc-by-nd-4.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con537"@en .
+              ns1:notation "con537"@en ;
+              rdfs:label "cc-by-nd-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-sa-3.0
 :cc-by-sa-3.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con521"@en .
+              ns1:notation "con521"@en ;
+              rdfs:label "cc-by-sa-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc-by-sa-4.0
 :cc-by-sa-4.0 rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
               ns1:inScheme :Licence ;
-              ns1:notation "con509"@en .
+              ns1:notation "con509"@en ;
+              rdfs:label "cc-by-sa-4.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cc0-1.0
 :cc0-1.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con519"@en .
+         ns1:notation "con519"@en ;
+         rdfs:label "cc0-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cdla-permissive-1.0
 :cdla-permissive-1.0 rdf:type owl:NamedIndividual ,
                               ns1:Concept ;
                      ns1:inScheme :Licence ;
-                     ns1:notation "con566"@en .
+                     ns1:notation "con566"@en ;
+                     rdfs:label "cdla-permissive-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cdla-permissive-2.0
 :cdla-permissive-2.0 rdf:type owl:NamedIndividual ,
                               ns1:Concept ;
                      ns1:inScheme :Licence ;
-                     ns1:notation "con556"@en .
+                     ns1:notation "con556"@en ;
+                     rdfs:label "cdla-permissive-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cdla-sharing-1.0
 :cdla-sharing-1.0 rdf:type owl:NamedIndividual ,
                            ns1:Concept ;
                   ns1:inScheme :Licence ;
-                  ns1:notation "con558"@en .
+                  ns1:notation "con558"@en ;
+                  rdfs:label "cdla-sharing-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/chapter
@@ -8211,7 +8227,8 @@ labels. The objective is to discover the underlying data structure, for example,
 :creativeml-openrail-m rdf:type owl:NamedIndividual ,
                                 ns1:Concept ;
                        ns1:inScheme :Licence ;
-                       ns1:notation "con502"@en .
+                       ns1:notation "con502"@en ;
+                       rdfs:label "creativeml-openrail-m"@en .
 
 
 ###  http://aiod.eu/data/schemas/datasheet
@@ -8226,7 +8243,8 @@ labels. The objective is to discover the underlying data structure, for example,
 :deepfloyd-if-license rdf:type owl:NamedIndividual ,
                                ns1:Concept ;
                       ns1:inScheme :Licence ;
-                      ns1:notation "con548"@en .
+                      ns1:notation "con548"@en ;
+                      rdfs:label "deepfloyd-if-license"@en .
 
 
 ###  http://aiod.eu/data/schemas/demo_paper
@@ -8243,7 +8261,8 @@ labels. The objective is to discover the underlying data structure, for example,
 :ecl-2.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con540"@en .
+         ns1:notation "con540"@en ;
+         rdfs:label "ecl-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/editorial
@@ -8260,28 +8279,32 @@ labels. The objective is to discover the underlying data structure, for example,
 :epl-1.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con564"@en .
+         ns1:notation "con564"@en ;
+         rdfs:label "epl-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/epl-2.0
 :epl-2.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con554"@en .
+         ns1:notation "con554"@en ;
+         rdfs:label "epl-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/etalab-2.0
 :etalab-2.0 rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
             ns1:inScheme :Licence ;
-            ns1:notation "con560"@en .
+            ns1:notation "con560"@en ;
+            rdfs:label "etalab-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/eupl-1.1
 :eupl-1.1 rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Licence ;
-          ns1:notation "con553"@en .
+          ns1:notation "con553"@en ;
+          rdfs:label "eupl-1.1"@en .
 
 
 ###  http://aiod.eu/data/schemas/font
@@ -8320,14 +8343,16 @@ labels. The objective is to discover the underlying data structure, for example,
 :gpl-2.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con530"@en .
+         ns1:notation "con530"@en ;
+         rdfs:label "gpl-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/gpl-3.0
 :gpl-3.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con510"@en .
+         ns1:notation "con510"@en ;
+         rdfs:label "gpl-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/haptics
@@ -8418,21 +8443,24 @@ labels. The objective is to discover the underlying data structure, for example,
 :lgpl-2.1 rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Licence ;
-          ns1:notation "con562"@en .
+          ns1:notation "con562"@en ;
+          rdfs:label "lgpl-2.1"@en .
 
 
 ###  http://aiod.eu/data/schemas/lgpl-3.0
 :lgpl-3.0 rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Licence ;
-          ns1:notation "con531"@en .
+          ns1:notation "con531"@en ;
+          rdfs:label "lgpl-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/lgpl-lr
 :lgpl-lr rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con551"@en .
+         ns1:notation "con551"@en ;
+         rdfs:label "lgpl-lr"@en .
 
 
 ###  http://aiod.eu/data/schemas/llama2
@@ -8447,14 +8475,16 @@ labels. The objective is to discover the underlying data structure, for example,
 :llama3 rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Licence ;
-        ns1:notation "con524"@en .
+        ns1:notation "con524"@en ;
+        rdfs:label "llama3"@en .
 
 
 ###  http://aiod.eu/data/schemas/lppl-1.3c
 :lppl-1.3c rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Licence ;
-           ns1:notation "con563"@en .
+           ns1:notation "con563"@en ;
+           rdfs:label "lppl-1.3c"@en .
 
 
 ###  http://aiod.eu/data/schemas/manuscript
@@ -8542,14 +8572,16 @@ labels. The objective is to discover the underlying data structure, for example,
 :mpl-2.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con545"@en .
+         ns1:notation "con545"@en ;
+         rdfs:label "mpl-2.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/ms-pl
 :ms-pl rdf:type owl:NamedIndividual ,
                 ns1:Concept ;
        ns1:inScheme :Licence ;
-       ns1:notation "con539"@en .
+       ns1:notation "con539"@en ;
+       rdfs:label "ms-pl"@en .
 
 
 ###  http://aiod.eu/data/schemas/multipart
@@ -8580,28 +8612,32 @@ labels. The objective is to discover the underlying data structure, for example,
 :odc-by rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Licence ;
-        ns1:notation "con555"@en .
+        ns1:notation "con555"@en ;
+        rdfs:label "odc-by"@en .
 
 
 ###  http://aiod.eu/data/schemas/ofl-1.1
 :ofl-1.1 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con565"@en .
+         ns1:notation "con565"@en ;
+         rdfs:label "ofl-1.1"@en .
 
 
 ###  http://aiod.eu/data/schemas/openrail
 :openrail rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Licence ;
-          ns1:notation "con501"@en .
+          ns1:notation "con501"@en ;
+          rdfs:label "openrail"@en .
 
 
 ###  http://aiod.eu/data/schemas/osl-3.0
 :osl-3.0 rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Licence ;
-         ns1:notation "con535"@en .
+         ns1:notation "con535"@en ;
+         rdfs:label "osl-3.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/pddl
@@ -8656,7 +8692,8 @@ labels. The objective is to discover the underlying data structure, for example,
 :postgresql rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
             ns1:inScheme :Licence ;
-            ns1:notation "con561"@en .
+            ns1:notation "con561"@en ;
+            rdfs:label "postgresql"@en .
 
 
 ###  http://aiod.eu/data/schemas/proceedings_paper
@@ -8709,7 +8746,8 @@ labels. The objective is to discover the underlying data structure, for example,
 :unlicense rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Licence ;
-           ns1:notation "con522"@en .
+           ns1:notation "con522"@en ;
+           rdfs:label "unlicense"@en .
 
 
 ###  http://aiod.eu/data/schemas/video
@@ -8734,14 +8772,16 @@ labels. The objective is to discover the underlying data structure, for example,
 :wtfpl rdf:type owl:NamedIndividual ,
                 ns1:Concept ;
        ns1:inScheme :Licence ;
-       ns1:notation "con517"@en .
+       ns1:notation "con517"@en ;
+       rdfs:label "wtfpl"@en .
 
 
 ###  http://aiod.eu/data/schemas/zlib
 :zlib rdf:type owl:NamedIndividual ,
                ns1:Concept ;
       ns1:inScheme :Licence ;
-      ns1:notation "con543"@en .
+      ns1:notation "con543"@en ;
+      rdfs:label "zlib"@en .
 
 
 ###  http://aiod.eu/data/schemas/ÅlandIslands
@@ -8898,7 +8938,8 @@ labels. The objective is to discover the underlying data structure, for example,
 <http://aiod.eu/data/schemas/openrail++> rdf:type owl:NamedIndividual ,
                                                   ns1:Concept ;
                                          ns1:inScheme :Licence ;
-                                         ns1:notation "con507"@en .
+                                         ns1:notation "con507"@en ;
+                                         rdfs:label "openrail++"@en .
 
 
 ###  http://purl.org/dc/terms/
