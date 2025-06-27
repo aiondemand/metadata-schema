@@ -113,7 +113,7 @@ def parse_ttl_to_json(ttl_content):
 
 def main():
     # GitHub URL for the TTL file
-    github_url = "https://raw.githubusercontent.com/aiondemand/metadata-schema/stg/taxonomies/schemas.ttl"
+    github_url = "https://raw.githubusercontent.com/aiondemand/metadata-schema/main/taxonomies/schemas.ttl"
 
     # Fetch the TTL content from GitHub
     ttl_content = fetch_ttl_from_github(github_url)
