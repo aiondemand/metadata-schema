@@ -1,6 +1,32 @@
 {
     "aiod_taxonomies": [
         {
+            "taxonomy_id": "scheme015",
+            "taxonomy_name": "Actuation",
+            "elements": [
+                {
+                    "id": "con865",
+                    "label": {
+                        "language": "en",
+                        "value": "Locomotion"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con866",
+                    "label": {
+                        "language": "en",
+                        "value": "Manipulation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
             "taxonomy_id": "scheme006",
             "taxonomy_name": "Approach",
             "elements": [
@@ -20,7 +46,7 @@
                         "language": "en",
                         "value": "AI and Epistemology"
                     },
-                    "definition": "The use of artificial intelligence on supporting Epistemology.",
+                    "definition": "The implications of artificial intelligence on knowledge theory.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -30,7 +56,7 @@
                         "language": "en",
                         "value": "AI Application"
                     },
-                    "definition": "The use off AI technology for solving problems in industry, business, administration or science in academia.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -40,7 +66,7 @@
                         "language": "en",
                         "value": "AI Benchmark"
                     },
-                    "definition": "Predefined enviroments and training data to test the performance of AI models and techniques.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -50,7 +76,7 @@
                         "language": "en",
                         "value": "AI Competition"
                     },
-                    "definition": "Specified application enviroments with real data in order different AI approaches compete for the best performance.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -70,7 +96,7 @@
                         "language": "en",
                         "value": "AI Trustworthiness"
                     },
-                    "definition": "An approach to AI development that prioritizes safety, reliability, trust and transparency in order the resulted application, service or system be adopted by the people who interact with it.",
+                    "definition": "An approach to AI development that prioritizes safety and transparency for the people who interact with it.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -500,7 +526,7 @@
                         "language": "en",
                         "value": "Creativity Planning"
                     },
-                    "definition": "Creativity planning is a deliberative technique often embedded within a larger participatory planning process. It's goal is to relieve participants of practical or analytical constraints so that brainstorming and idea generation can flow organically.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -710,7 +736,7 @@
                         "language": "en",
                         "value": "Equilibrium"
                     },
-                    "definition": "A method in which opposing opinions or decision states are becmming balanced.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -810,7 +836,7 @@
                         "language": "en",
                         "value": "Formal Grammar"
                     },
-                    "definition": "A formal language in the context of computing and artificial intelligence is a mathematical abstraction used to define a set of strings, or sequences of symbols, constructed from a finite set known as an alphabet.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -900,7 +926,7 @@
                         "language": "en",
                         "value": "Grammatical Inference"
                     },
-                    "definition": "Grammatical inference is the process in machine learning of learning a formal grammar from a set of observations; however, grammatical inference has often been very focused on the problem of learning finite-state machines of various types.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1000,7 +1026,7 @@
                         "language": "en",
                         "value": "Human-Machine Teams"
                     },
-                    "definition": "Human-machine teams have the opportunity to look at automation in an entirely new way. Rather than simply automating work completed by human teams and cutting costs, it uses technology to augment human intelligence \u2014 prioritizing high-value outputs over immediate cost savings.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1080,7 +1106,7 @@
                         "language": "en",
                         "value": "Image and Vision Generation"
                     },
-                    "definition": "Image generation use deep learning algorithms to produce digital images from scratch  or modify existing ones while vision generation extract meaningful information from generated images and make decisions based on that data.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1090,7 +1116,7 @@
                         "language": "en",
                         "value": "Image and Video Synthesis"
                     },
-                    "definition": "Image and video Synthesis is a collection of interested images and video about a theme. However, a video is a sequence of images (called frames) captured and eventually displayed at a given frequency. By stopping at a specific frame of the sequence, a single video frame, i.e. an image, is obtained.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1127,10 +1153,10 @@
                 {
                     "id": "con204",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "Image Retrieval"
                     },
-                    "definition": "Image Retrieval",
+                    "definition": "The process of searching for images that are relevant to a given query image, based on the presence of similar objects or categories.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1180,7 +1206,7 @@
                         "language": "en",
                         "value": "Impact of AI"
                     },
-                    "definition": "Surveys and studies about the impact of AI on  jobs, societies, enviroment, public administration and  business or industry.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1290,7 +1316,7 @@
                         "language": "en",
                         "value": "Intelligent Software Development"
                     },
-                    "definition": "Use AI tools in the process of S/W development such as UI design, video generation, code and security testing, or deploying new S/W systems.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1310,7 +1336,7 @@
                         "language": "en",
                         "value": "Interactive Learning"
                     },
-                    "definition": "Algorithms that can interact with agents and can optimize their learning behavior through these interactions, where the agents can also be human.\u201d This \u201chuman-in-the-loop\u201d can be beneficial in solving computationally hard problems",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1420,7 +1446,7 @@
                         "language": "en",
                         "value": "Learning Preferences"
                     },
-                    "definition": "Preference learning is a subfield of machine learning that focuses on modeling and predicting preferences based on observed preference information. Preference learning typically involves supervised learning using datasets of pairwise preference comparisons.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1490,7 +1516,7 @@
                         "language": "en",
                         "value": "Linguistic Interaction"
                     },
-                    "definition": "The dynamic process through which individuals communicate using language, combining verbal and non-verbal elements to convey meaning.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1510,7 +1536,7 @@
                         "language": "en",
                         "value": "Low Level Vision"
                     },
-                    "definition": "Low level vision consists primarily of image processing operations performed on the input images based on favorable feature characteristics. Low-level features are useful for tasks such as image segmentation, object detection, and feature matching.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1565,22 +1591,12 @@
                     "elements": []
                 },
                 {
-                    "id": "con266",
-                    "label": {
-                        "language": "en",
-                        "value": "Manipulation"
-                    },
-                    "definition": "The use of robots to interact with objects in their environment, utilizing technologies like machine learning, sensors, and actuators to perform tasks such as grasping, moving, and assembling.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
                     "id": "con274",
                     "label": {
                         "language": "en",
                         "value": "Mechanism Desing"
                     },
-                    "definition": "Mechanism design is a subfield of artificial intelligence that focuses on designing systems to achieve specific goals in situations where there are multiple agents or parties involved, each with their own interests and incentives. The tools and lessons of mechanism design are especially useful in auction theory, market design, and social choice theory.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1690,7 +1706,7 @@
                         "language": "en",
                         "value": "Multi-class Learning"
                     },
-                    "definition": "In machine learning and statistical classification, multiclass classification or multinomial classification is the problem of classifying instances into one of three or more classes.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1710,7 +1726,7 @@
                         "language": "en",
                         "value": "Multi-label Learning"
                     },
-                    "definition": "Multi-label learning studies the problem where each example is represented by a single instance while associated with a set of labels simultaneously. Multi-label learning  aims to predict multiple labels from a single input data point.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1880,7 +1896,7 @@
                         "language": "en",
                         "value": "Online Learning and Bandits"
                     },
-                    "definition": "Online learning provides a method to study repeated decision making. The k-armed bandit problem highlights the exploration-exploitation trade-off, a fundamental dilemma in reinforcement learning",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1930,7 +1946,7 @@
                         "language": "en",
                         "value": "Philosophical Foundations of AI"
                     },
-                    "definition": "Exploring the Ethical, Logical, and Conceptual Underpinnings of AI Technologies and Their Societal Impacts",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1950,7 +1966,7 @@
                         "language": "en",
                         "value": "Physics-based Vision"
                     },
-                    "definition": "Physics-based vision is one branch in Computer Vision, which formulates image formation processes from original 3D worlds to 2D images using physics, optics and mathematics, and then to rigorously solve the inverse equations of these processes for recovering the original 3D worlds from given 2D images.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1970,7 +1986,7 @@
                         "language": "en",
                         "value": "Privacy"
                     },
-                    "definition": "Privacy is the ability of an individual User or group of Users to define and secure common information about themselves.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2060,7 +2076,7 @@
                         "language": "en",
                         "value": "Rankings"
                     },
-                    "definition": "A list of methods, algorithms, tasks, etc that are ordered according to their quality, ability, size or performance in general.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2080,7 +2096,7 @@
                         "language": "en",
                         "value": "Recursive Learning"
                     },
-                    "definition": "Recursive learning is an attractive alternative learning technique to decision trees. Using recursive learning with sufficient depth of recursion guarantees its resulted efficiency that is compared with the conventional branch-and-bound technique.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2090,7 +2106,7 @@
                         "language": "en",
                         "value": "Refinement Planning"
                     },
-                    "definition": "A process where the user adjusts or rephrases their prompt to obtain a more accurate or relevant response from the AI Assistant.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2100,7 +2116,7 @@
                         "language": "en",
                         "value": "Relational Learning"
                     },
-                    "definition": "Relational learning refers to learning in a context where there may be relationships between learning examples, or where these examples may have a complex internal structure.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2140,7 +2156,7 @@
                         "language": "en",
                         "value": "Routing"
                     },
-                    "definition": "Routing is the process of selecting a path in a network or between or across multiple networks",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2170,7 +2186,7 @@
                         "language": "en",
                         "value": "Safety"
                     },
-                    "definition": "A state in which or a place where you are safe and not in danger or at risk. However, in the era of AI Safety will ensure code quality and security, developers and organizations adopt a \"trust and verify\" approach to AI-generated code.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2210,7 +2226,7 @@
                         "language": "en",
                         "value": "Scheduling under Uncertainty"
                     },
-                    "definition": "Scheduling is to optimally allocate limited resources to processing tasks over time. Scheduling under uncertainty usally appear in process engineering with the use of equipment, the utilization of raw material or intermediates, the employment of operators, etc. To deal with  this problem AI uses probabilistic model or other relevant techniques.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2310,7 +2326,7 @@
                         "language": "en",
                         "value": "Sound Semantics"
                     },
-                    "definition": "Taxonomies and ontologies for the characterization of everyday sounds have been developed in several research fields, including auditory cognition, soundscape research, artificial hearing, sound design, etc. in order to accurately identify and categorize music, human speech, and environmental or other noises.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2360,7 +2376,7 @@
                         "language": "en",
                         "value": "Speech Transmition"
                     },
-                    "definition": "Speech transmission deals with efficient coding of the speech signal and allow speech / sound transmission at low transmission rates over networks.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2400,7 +2416,7 @@
                         "language": "en",
                         "value": "Storytelling"
                     },
-                    "definition": "Storytelling is the interactive art of using words and actions to reveal the elements and images of a story while encouraging the listener's imagination; however, as AI continues to evolve, we may see more compelling stories generated by machines, which could pose serious challenges, especially when they're used to spread misinformation.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2430,7 +2446,7 @@
                         "language": "en",
                         "value": "Sustainability"
                     },
-                    "definition": "Adopting a Digital Performance Model/prrocess for Maximum Asset Performance.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2440,7 +2456,7 @@
                         "language": "en",
                         "value": "Symbolic Representation"
                     },
-                    "definition": "Symbolic representation use of symbols to represent knowledge and reasoning. It focuses on manipulating symbols and rules to perform complex tasks such as logical reasoning, problem-solving, and language understanding. Unlike other AI approaches, symbolic AI emphasizes the use of explicit knowledge representation and logical inference.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2470,7 +2486,7 @@
                         "language": "en",
                         "value": "Temporal Planning"
                     },
-                    "definition": "Temporal Planning deals with actions and events do occur over a time span; however,  preconditions may occur not only at beginning and effects may resulted during or even after the action.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2480,7 +2496,7 @@
                         "language": "en",
                         "value": "Tensor Process Unit"
                     },
-                    "definition": "Tensor Processing Unit (TPU) is an AI accelerator application-specific integrated circuit (ASIC) developed by Google for neural network machine learning, using Google's own TensorFlow software.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2500,7 +2516,7 @@
                         "language": "en",
                         "value": "Timeline Based Planning"
                     },
-                    "definition": "Timeline-based planning is an approach originally developed in the context of space mission planning and scheduling, where problem domains are modelled as systems made of a number of independent but interacting components, whose behaviour over time, the timelines, is governed by a set of temporal constraints.",
+                    "definition": "A process that involves creating, expanding, and classifying text-based equations using algorithms",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2510,7 +2526,7 @@
                         "language": "en",
                         "value": "Translation Model"
                     },
-                    "definition": "NLP models are capable of machine translation, the process encompassing translation between different languages.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2520,8 +2536,8 @@
                         "language": "en",
                         "value": "Transparency"
                     },
-                    "definition": "Transparency involves openness and the willingness to share information, both positive and negative, with all relevant parties; therefor. transpsrency supports ethical culture that is based on honesty, fairness, integrity, and respect for all stakeholders.",
-                    "seeAlso": "",
+                    "definition": "",
+                    "seeAlso": "The clarity and openness in how AI algorithms operate and make decisions.",
                     "elements": []
                 },
                 {
@@ -2590,7 +2606,7 @@
                         "language": "en",
                         "value": "Video Understanding"
                     },
-                    "definition": "Video Understanding is to recognise and localise (in space and time) different actions or events appearing in the video.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2655,6 +2671,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con266",
+                    "label": {
+                        "language": "en",
+                        "value": "Manipulation"
+                    },
+                    "definition": "The use of robots to interact with objects in their environment, utilizing technologies like machine learning, sensors, and actuators to perform tasks such as grasping, moving, and assembling.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con084",
                     "label": {
                         "language": "en",
@@ -2671,20 +2697,20 @@
             "taxonomy_name": "Business Function",
             "elements": [
                 {
-                    "id": "con848",
+                    "id": "con316",
                     "label": {
                         "language": "en",
-                        "value": "Accounting & Finance"
+                        "value": "Accounting and Finance"
                     },
                     "definition": "Accounting deals with record-keeping and reporting decisions for your company's finances. Finance helps to analyze all the data to make important decisions about how best to direct the organization.",
                     "seeAlso": "",
                     "elements": []
                 },
                 {
-                    "id": "con846",
+                    "id": "con197",
                     "label": {
                         "language": "en",
-                        "value": "Customer Service & Support"
+                        "value": "Customer Service and Support"
                     },
                     "definition": "The team of Company's people who provide help when customers have trouble with a company's products or services.Required activities to become aware about the problems and troubles the company\u2019s customers are facing about the products and services.",
                     "seeAlso": "",
@@ -2701,77 +2727,17 @@
                     "elements": []
                 },
                 {
-                    "id": "con197",
-                    "label": {
-                        "language": "en",
-                        "value": "IT and Security"
-                    },
-                    "definition": "Measures, controls and procedures applied on an enterprise\u2019s ICT systems to ensure integrity, authenticity, availability and confidentiality of said enterprise\u2019s data and system.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con219",
-                    "label": {
-                        "language": "en",
-                        "value": "Legal & Compliance"
-                    },
-                    "definition": "The part of a company that understands the laws and also implements systems and processes to adhere to them consistently.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con257",
-                    "label": {
-                        "language": "en",
-                        "value": "Logistics"
-                    },
-                    "definition": "The part of supply chain management that deals with the efficient forward and reverse flow of goods, services, and related information",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con264",
-                    "label": {
-                        "language": "en",
-                        "value": "Management of Enterprise"
-                    },
-                    "definition": "The processes, strategies, and equipment involved in ensuring an enterprise is operating as intended daily.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
                     "id": "con269",
                     "label": {
                         "language": "en",
                         "value": "Marketing"
                     },
-                    "definition": "The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.",
+                    "definition": "The strategies and processes that generate persuasive prospects to buy a product or service",
                     "seeAlso": "",
                     "elements": []
                 },
                 {
-                    "id": "con851",
-                    "label": {
-                        "language": "en",
-                        "value": "Operations"
-                    },
-                    "definition": "Activities for strategically and date to date management of company\u2019s resources for making its processes",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con316",
-                    "label": {
-                        "language": "en",
-                        "value": "Organisation of Business Administration Processes"
-                    },
-                    "definition": "The organised and strategic oversight of the core activities and workflows that support a business's day-to-day operations and long-term strategic goals.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con850",
+                    "id": "con354",
                     "label": {
                         "language": "en",
                         "value": "Production"
@@ -2781,17 +2747,7 @@
                     "elements": []
                 },
                 {
-                    "id": "con354",
-                    "label": {
-                        "language": "en",
-                        "value": "Production Processes"
-                    },
-                    "definition": "A process of turning raw materials and ideas into products and services.",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con852",
+                    "id": "con264",
                     "label": {
                         "language": "en",
                         "value": "Purchasing and Procurement"
@@ -2801,17 +2757,17 @@
                     "elements": []
                 },
                 {
-                    "id": "con849",
+                    "id": "con219",
                     "label": {
                         "language": "en",
                         "value": "SCM & Distribution"
                     },
-                    "definition": "The part of supply chain management that deals with the efficient forward and reverse flow of goods, services, and related information.",
+                    "definition": "The part of supply chain management that deals with the efficient forward and reverse flow of goods, services, and related information",
                     "seeAlso": "",
                     "elements": []
                 },
                 {
-                    "id": "con847",
+                    "id": "con257",
                     "label": {
                         "language": "en",
                         "value": "Sales"
@@ -2842,7 +2798,7 @@
                         "language": "en",
                         "value": "Additive Manufacturing"
                     },
-                    "definition": "Problems in the design and construction/creation of a 3D object following alternative and/or additive approaches through a CAD model or a 3D model.",
+                    "definition": "The construction of a three-dimensional object from a CAD model or a digital 3D model.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2912,7 +2868,7 @@
                         "language": "en",
                         "value": "Autonomous Systems"
                     },
-                    "definition": "Methods and processes for designing and constructing automated solution driven robots for production activities  in business and manufacturing without human intervention.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2932,7 +2888,7 @@
                         "language": "en",
                         "value": "CRM Communication"
                     },
-                    "definition": "The study and process in which a business or another organization administers its interactions with customers, typically using data analysis to study large amounts of information.",
+                    "definition": "A process in which a business or another organization administers its interactions with customers, typically using data analysis to study large amounts of information.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2952,7 +2908,7 @@
                         "language": "en",
                         "value": "Churn Prevention"
                     },
-                    "definition": "Strategies that companies use to prevent minimizing  the number of customers that stop using a product or service which result to revenue lost.",
+                    "definition": "The strategies companies use to minimize the number of customers and volume of revenue that is lost to different types of churn.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3142,7 +3098,7 @@
                         "language": "en",
                         "value": "Matchmaking"
                     },
-                    "definition": "A method to identify and connect (match) companies and people with common business interests, complementary services, expertise, technologies or business strengths.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3242,7 +3198,7 @@
                         "language": "en",
                         "value": "Production Security"
                     },
-                    "definition": "The set of measures that organizations implement to protect their products from cyber threats at every stage of development and support.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3322,7 +3278,7 @@
                         "language": "en",
                         "value": "Smart Buildings"
                     },
-                    "definition": "A structure equipped with innovative materials and technologies that allows for all its systems to function automaticly under different operational conditions.",
+                    "definition": "A structure equipped with innovative materials and technologies that allows for all its systems to be automated",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3342,7 +3298,7 @@
                         "language": "en",
                         "value": "Storage Optimisation"
                     },
-                    "definition": "The process of saving data or materials in a way that allows it to occupy less space, cost less, and work more efficiently.",
+                    "definition": "The process of saving data in a way that allows it to occupy less space, cost less, and work more efficiently.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3352,7 +3308,7 @@
                         "language": "en",
                         "value": "Targeted  Advertising"
                     },
-                    "definition": "Advertisments directed towards an audience with certain traits, based on the product, service, technology or person interests.",
+                    "definition": "A form of advertising that is directed towards an audience with certain traits, based on the product or person the advertiser is promoting.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3362,7 +3318,7 @@
                         "language": "en",
                         "value": "Technology Trust"
                     },
-                    "definition": "The attitude that an agent (HW/SW) will help achieve an individual's goals in a situation characterized by uncertainty and vulnerability.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3392,7 +3348,7 @@
                         "language": "en",
                         "value": "Transcription"
                     },
-                    "definition": "A representation in writing of the actual pronunciation of a speech sound, word, or piece of continuous text, using not a conventional orthography but a symbol or set of symbols specially designated as standing for corresponding phonetic values.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3402,7 +3358,7 @@
                         "language": "en",
                         "value": "Translation"
                     },
-                    "definition": "NLP Methods and Systems for translating (automatic) documents from one written language to another.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3443,65 +3399,55 @@
             "taxonomy_name": "Business Sector",
             "elements": [
                 {
-                    "id": "con002",
+                    "id": "con400",
                     "label": {
                         "language": "en",
-                        "value": "Accomodation and Food"
+                        "value": "Administrative and support service activities"
                     },
-                    "definition": "This section includes the provision of short-stay accommodation for visitors and other travellers and the provision of complete meals and drinks fit for immediate consumption. The amount and type of supplementary services provided within this section can vary widely.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/I",
-                    "elements": []
-                },
-                {
-                    "id": "con417",
-                    "label": {
-                        "language": "en",
-                        "value": "Aerospace"
-                    },
-                    "definition": "",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con369",
-                    "label": {
-                        "language": "en",
-                        "value": "Arts, entertainment and recreation"
-                    },
-                    "definition": "This group includes a wide range of units that operate facilities or provide services to meet the varied recreational interests of their patrons. It includes the operation of a variety of attractions, such as mechanical rides, water rides, games, shows, theme exhibits and picnic grounds.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.2",
+                    "definition": "This sector includes a variety of activities that support general business operations. (Employment activities, Office administrative, office support and other business support activities,Rental and leasing activities, Security and investigation activities, Services to buildings and landscape activities, Travel agency, tour operator and other reservation service and related activities)",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/N",
                     "elements": [
                         {
-                            "id": "con029",
+                            "id": "con484",
                             "label": {
                                 "language": "en",
-                                "value": "Arts"
+                                "value": "Legal Aspects"
                             },
-                            "definition": "",
+                            "definition": "The provision of legal support and advice to individuals and businesses by law firms.",
                             "seeAlso": "",
                             "elements": []
                         },
                         {
-                            "id": "con423",
+                            "id": "con483",
                             "label": {
                                 "language": "en",
-                                "value": "Sports"
+                                "value": "Personal Services"
                             },
-                            "definition": "This group includes the operation of sports facilities; activities of sports teams or clubs primarily participating in live sports events before a paying audience; independent athletes engaged in participating in live sporting or racing events before a paying audience; owners of racing participants such as cars, dogs, horses, etc. primarily engaged in entering them in racing events or other spectator sports events; sports trainers providing specialised services to support participants in sports events or competitions; operators of arenas and stadiums; other activities of organising, promoting or managing sports events, n.e.c.",
-                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.1",
+                            "definition": "This subsector includes all service activities not mentioned elsewhere in the classification. Notably it includes types of services such as washing and (dry-)cleaning of textiles and fur products, hairdressing and other beauty treatment, funeral and related activities.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/S.96",
+                            "elements": []
+                        },
+                        {
+                            "id": "con360",
+                            "label": {
+                                "language": "en",
+                                "value": "Public Administration"
+                            },
+                            "definition": "This group includes general administration (e.g. executive, legislative, financial administration etc. at all levels of government) and supervision in the field of social and economic life.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.1",
+                            "elements": []
+                        },
+                        {
+                            "id": "con408",
+                            "label": {
+                                "language": "en",
+                                "value": "Social Security"
+                            },
+                            "definition": "This class includes:- funding and administration of government-provided social security programmes: \u2022 sickness, work-accident and unemployment insurance \u2022 retirement pensions \u2022 programmes covering losses of income due to maternity, temporary disablement, widowhood etc.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.30",
                             "elements": []
                         }
                     ]
-                },
-                {
-                    "id": "con486",
-                    "label": {
-                        "language": "en",
-                        "value": "Community-led Local Development"
-                    },
-                    "definition": "",
-                    "seeAlso": "",
-                    "elements": []
                 },
                 {
                     "id": "con095",
@@ -3509,7 +3455,7 @@
                         "language": "en",
                         "value": "Construction"
                     },
-                    "definition": "This section includes general construction and specialised construction activities for buildings and civil engineering works. It includes new work, repair, additions and alterations, the erection of prefabricated buildings or structures on the site and also construction of a temporary nature. General construction is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings etc., or the construction of civil engineering works such as motorways, streets, bridges, tunnels, railways, airfields, harbours and other water projects, irrigation systems, sewerage systems, industrial facilities, pipelines and electric lines, sports facilities etc. This work can be carried out on own account or on a fee or contract basis. Portions of the work and sometimes even the whole practical work can be subcontracted out. A unit that carries the overall responsibility for a construction project is classified here.Also included is the repair of buildings and engineering works.This section includes the complete construction of buildings, the complete construction of civil engineering works, as well as specialised construction activities, if carried out only as a part of the construction process.The rental of construction equipment with operator is classified with the specific construction activity carried out with this equipment.",
+                    "definition": "This sector includes general construction and specialised construction activities for buildings and civil engineering works. It includes new work, repair, additions and alterations, the erection of prefabricated buildings or structures on the site and also construction of a temporary nature. General construction is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings etc., or the construction of civil engineering works such as motorways, streets, bridges, tunnels, railways, airfields, harbours and other water projects, irrigation systems, sewerage systems, industrial facilities, pipelines and electric lines, sports facilities etc. This work can be carried out on own account or on a fee or contract basis. Portions of the work and sometimes even the whole practical work can be subcontracted out. A unit that carries the overall responsibility for a construction project is classified here.Also included is the repair of buildings and engineering works.This section includes the complete construction of buildings, the complete construction of civil engineering works, as well as specialised construction activities, if carried out only as a part of the construction process.The rental of construction equipment with operator is classified with the specific construction activity carried out with this equipment.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/F",
                     "elements": [
                         {
@@ -3519,7 +3465,7 @@
                                 "value": "Buildings"
                             },
                             "definition": "",
-                            "seeAlso": "This division includes general construction of buildings of all kinds. It includes new work, repair, additions and alterations, the erection of pre-fabricated buildings or structures on the site and also construction of temporary nature. Included is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings, etc.",
+                            "seeAlso": "This subsector includes general construction of buildings of all kinds. It includes new work, repair, additions and alterations, the erection of pre-fabricated buildings or structures on the site and also construction of temporary nature. Included is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings, etc.",
                             "elements": []
                         },
                         {
@@ -3535,23 +3481,13 @@
                     ]
                 },
                 {
-                    "id": "con102",
+                    "id": "con118",
                     "label": {
                         "language": "en",
-                        "value": "Cross Industry"
+                        "value": "Defence"
                     },
-                    "definition": "",
-                    "seeAlso": "",
-                    "elements": []
-                },
-                {
-                    "id": "con135",
-                    "label": {
-                        "language": "en",
-                        "value": "Education"
-                    },
-                    "definition": "This section includes education at any level or for any profession. The instructions may be oral or written and may be provided by radio, television, Internet or via correspondence. It includes education by the different institutions in the regular school system at its different levels as well as adult education, literacy programmes etc. Also included are military schools and academies, prison schools etc. at their respective levels. The section includes public as well as private education.For each level of initial education, the classes include special education for physically or mentally handicapped pupils.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/P",
+                    "definition": "Defenece products and technologies",
+                    "seeAlso": "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/aerospace-defence",
                     "elements": []
                 },
                 {
@@ -3560,7 +3496,7 @@
                         "language": "en",
                         "value": "Electricity, gas, steam and air conditioning supply"
                     },
-                    "definition": "This sector includes the activity of providing electric power, natural gas, steam, hot water and the like through a permanent infrastructure (network) of lines, mains and pipes. The dimension of the network is not decisive; also included are the distribution of electricity, gas, steam, hot water and the like in industrial parks or residential buildings.This section therefore includes the operation of electric and gas utilities, which generate, control and distribute electric power or gas.",
+                    "definition": "This sector includes the activity of providing electric power, natural gas, steam, hot water and the like through a permanent infrastructure (network) of lines, mains and pipes. The dimension of the network is not decisive; also included are the distribution of electricity, gas, steam, hot water and the like in industrial parks or residential buildings.This sector therefore includes the operation of electric and gas utilities, which generate, control and distribute electric power or gas.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/D",
                     "elements": [
                         {
@@ -3601,7 +3537,7 @@
                         "language": "en",
                         "value": "Financial and Insurance Activities"
                     },
-                    "definition": "This section includes financial service activities, including insurance, reinsurance and pension funding activities and activities to support financial services.",
+                    "definition": "This sector includes financial service activities, including insurance, reinsurance and pension funding activities and activities to support financial services.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/K",
                     "elements": []
                 },
@@ -3609,9 +3545,9 @@
                     "id": "con178",
                     "label": {
                         "language": "en",
-                        "value": "Human health and social work activities"
+                        "value": "Health"
                     },
-                    "definition": "This division includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions.",
+                    "definition": "This sector includes activities of short- or long-term hospitals, general or specialty medical, surgical, psychiatric and substance abuse hospitals, sanatoria, preventoria, medical nursing homes, asylums, mental hospital institutions, rehabilitation centres, leprosaria and other human health institutions which have accommodation facilities and which engage in providing diagnostic and medical treatment to inpatients with any of a wide variety of medical conditions.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/Q.86",
                     "elements": [
                         {
@@ -3660,9 +3596,9 @@
                     "id": "con216",
                     "label": {
                         "language": "en",
-                        "value": "Information and communication technologies"
+                        "value": "Information and Communication Technologies"
                     },
-                    "definition": "This section includes the production and distribution of information and cultural products, the provision of the means to transmit or distribute these products, as well as data or communications, information technology activities and the processing of data and other information service activities.The main components of this section are publishing activities, including software publishing, motion picture and sound recording activities, radio and TV broadcasting and programming activities, telecommunications activities, information technology activities  and other information service activities .Publishing includes the acquisition of copyrights for content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.) are included in this section.",
+                    "definition": "This sector includes the production and distribution of information and cultural products, the provision of the means to transmit or distribute these products, as well as data or communications, information technology activities and the processing of data and other information service activities.The main components of this section are publishing activities, including software publishing, motion picture and sound recording activities, radio and TV broadcasting and programming activities, telecommunications activities, information technology activities  and other information service activities .Publishing includes the acquisition of copyrights for content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.) are included in this section.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J",
                     "elements": [
                         {
@@ -3671,7 +3607,7 @@
                                 "language": "en",
                                 "value": "Broadcasting"
                             },
-                            "definition": "This division includes the activities of creating content or acquiring the right to distribute content and subsequently broadcasting that content, such as radio, television and data programs of entertainment, news, talk, and the like. Also included is data broadcasting, typically integrated with radio or TV broadcasting. The broadcasting can be performed using different technologies, over-the-air, via satellite, via a cable network or via Internet.",
+                            "definition": "This subsector includes the activities of creating content or acquiring the right to distribute content and subsequently broadcasting that content, such as radio, television and data programs of entertainment, news, talk, and the like. Also included is data broadcasting, typically integrated with radio or TV broadcasting. The broadcasting can be performed using different technologies, over-the-air, via satellite, via a cable network or via Internet.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.60",
                             "elements": []
                         },
@@ -3681,7 +3617,7 @@
                                 "language": "en",
                                 "value": "Content Production"
                             },
-                            "definition": "Produce content resources of various types and modalities as off annotated, trained materials, test-beds, derived through GPI and so on.",
+                            "definition": "Produce content resources of various types and modalities as off annotated, trained materials, test-beds, derived through GPI and so on",
                             "seeAlso": "",
                             "elements": []
                         },
@@ -3701,8 +3637,49 @@
                                 "language": "en",
                                 "value": "Publishing"
                             },
-                            "definition": "This division includes the publishing of books, brochures, leaflets, dictionaries, encyclopaedias, atlases, maps and charts; publishing of newspapers, journals and periodicals; directory and mailing list and other publishing, as well as software publishing.Publishing includes the acquisition of copyrights to content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.), except publishing of motion pictures, are included in this division.",
+                            "definition": "This subsector includes the publishing of books, brochures, leaflets, dictionaries, encyclopaedias, atlases, maps and charts; publishing of newspapers, journals and periodicals; directory and mailing list and other publishing, as well as software publishing.Publishing includes the acquisition of copyrights to content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.), except publishing of motion pictures, are included in this division.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.58",
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "con218",
+                    "label": {
+                        "language": "en",
+                        "value": "Information Technology"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": [
+                        {
+                            "id": "con090",
+                            "label": {
+                                "language": "en",
+                                "value": "Computer Programming"
+                            },
+                            "definition": "This class includes the writing, modifying, testing and supporting of software.This class includes:- designing the structure and content of, and/or writing the computer code necessary to create and implement: \u2022 systems software (including updates and patches) \u2022 software applications (including updates and patches) \u2022 databases \u2022 web pages- customising of software, i.e. modifying and configuring an existing application so that it is functional within the clients' information system environment",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.62.01",
+                            "elements": []
+                        },
+                        {
+                            "id": "con096",
+                            "label": {
+                                "language": "en",
+                                "value": "Consulting"
+                            },
+                            "definition": "This subsector includes the planning and designing of computer systems which integrate computer hardware, software and communication technologies. Services may include related users training.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.62.02",
+                            "elements": []
+                        },
+                        {
+                            "id": "con436",
+                            "label": {
+                                "language": "en",
+                                "value": "Telecommunications"
+                            },
+                            "definition": "This sector includes the activities of providing telecommunications and related service activities, that is transmitting voice, data, text, sound and video. The transmission facilities that carry out these activities may be based on a single technology or a combination of technologies. The commonality of activities classified in this division is the transmission of content, without being involved in its creation. The breakdown in this division is based on the type of infrastructure operated.In the case of transmission of television signals this may include the bundling of complete programming channelsen in to programme packages for distribution.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.61",
                             "elements": []
                         }
                     ]
@@ -3713,7 +3690,7 @@
                         "language": "en",
                         "value": "Manufacturing"
                     },
-                    "definition": "This section includes the physical or chemical transformation of materials, substances, or components into new products, although this cannot be used as the single universal criterion for defining manufacturing (see remark on processing of waste below). The materials, substances, or components transformed are raw materials that are products of agriculture, forestry, fishing, mining or quarrying as well as products of other manufacturing activities. Substantial alteration, renovation or reconstruction of goods is generally considered to be manufacturing.The output of a manufacturing process may be finished in the sense that it is ready for utilisation or consumption, or it may be semi-finished in the sense that it is to become an input for further manufacturing. For example, the output of alumina refining is the input used in the primary production of aluminium; primary aluminium is the input to aluminium wire drawing; and aluminium wire is the input for the manufacture of fabricated wire products.Manufacture of specialised components and parts of, and accessories and attachments to, machinery and equipment is, as a general rule, classified in the same class as the manufacture of the machinery and equipment for which the parts and accessories are intended. Manufacture of unspecialised components and parts of machinery and equipment, e.g. engines, pistons, electric motors, electrical assemblies, valves, gears, roller bearings, is classified in the appropriate class of manufacturing, without regard to the machinery and equipment in which these items may be included.",
+                    "definition": "This sector includes the physical or chemical transformation of materials, substances, or components into new products, although this cannot be used as the single universal criterion for defining manufacturing (see remark on processing of waste below). The materials, substances, or components transformed are raw materials that are products of agriculture, forestry, fishing, mining or quarrying as well as products of other manufacturing activities. Substantial alteration, renovation or reconstruction of goods is generally considered to be manufacturing.The output of a manufacturing process may be finished in the sense that it is ready for utilisation or consumption, or it may be semi-finished in the sense that it is to become an input for further manufacturing. For example, the output of alumina refining is the input used in the primary production of aluminium; primary aluminium is the input to aluminium wire drawing; and aluminium wire is the input for the manufacture of fabricated wire products.Manufacture of specialised components and parts of, and accessories and attachments to, machinery and equipment is, as a general rule, classified in the same class as the manufacture of the machinery and equipment for which the parts and accessories are intended. Manufacture of unspecialised components and parts of machinery and equipment, e.g. engines, pistons, electric motors, electrical assemblies, valves, gears, roller bearings, is classified in the appropriate class of manufacturing, without regard to the machinery and equipment in which these items may be included.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C",
                     "elements": [
                         {
@@ -3722,7 +3699,7 @@
                                 "language": "en",
                                 "value": "Car Industry"
                             },
-                            "definition": "This division includes the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is included here.",
+                            "definition": "This subsector includes the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is included here.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C.29",
                             "elements": []
                         },
@@ -3742,7 +3719,7 @@
                                 "language": "en",
                                 "value": "Leather"
                             },
-                            "definition": "This division includes dressing and dyeing of fur and the transformation of hides into leather by tanning or curing and fabricating the leather into products for final consumption.",
+                            "definition": "This subsector includes dressing and dyeing of fur and the transformation of hides into leather by tanning or curing and fabricating the leather into products for final consumption.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C.15",
                             "elements": []
                         },
@@ -3802,7 +3779,7 @@
                                 "language": "en",
                                 "value": "Textile"
                             },
-                            "definition": "This division includes preparation and spinning of textile fibres as well as textile weaving, finishing of textiles and wearing apparel, manufacture of made-up textile articles, except apparel (e.g. household linen, blankets, rugs, cordage etc.).",
+                            "definition": "This subsector includes preparation and spinning of textile fibres as well as textile weaving, finishing of textiles and wearing apparel, manufacture of made-up textile articles, except apparel (e.g. household linen, blankets, rugs, cordage etc.).",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C.13",
                             "elements": []
                         },
@@ -3812,7 +3789,7 @@
                                 "language": "en",
                                 "value": "Tobacco"
                             },
-                            "definition": "This division includes the processing of an agricultural product, tobacco, into a form suitable for final consumption.",
+                            "definition": "This subsector includes the processing of an agricultural product, tobacco, into a form suitable for final consumption as well as the production of other chemical tobaco products.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C.12",
                             "elements": []
                         }
@@ -3839,53 +3816,63 @@
                     "elements": []
                 },
                 {
-                    "id": "con400",
+                    "id": "con366",
                     "label": {
                         "language": "en",
-                        "value": "Other Services Activities"
+                        "value": "Real Estate Activities"
                     },
-                    "definition": "This sector includes the activities of membership organisations, the repair of computers and personal and household goods and a variety of personal service activities not covered elsewhere in the classification.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/S",
+                    "definition": "This sector includes acting as lessors, agents and/or brokers in one or more of the following: selling or buying real estate, rental real estate, providing other real estate services such as appraising real estate or acting as real estate escrow agents. Activities in this section may be carried out on own or leased property and may be done on a fee or contract basis. This section includes real estate property managers.",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/L",
+                    "elements": []
+                },
+                {
+                    "id": "con444",
+                    "label": {
+                        "language": "en",
+                        "value": "Tourism"
+                    },
+                    "definition": "Buinsess for Passenger transport and travel- Hotel, short term accomodation- Restaurants and caterings- Events, theme parks, sites of interest and history to explore.",
+                    "seeAlso": "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/tourism",
+                    "elements": []
+                },
+                {
+                    "id": "con446",
+                    "label": {
+                        "language": "en",
+                        "value": "Trade"
+                    },
+                    "definition": "Buinsess for wholesale and retail sale (i.e. sale without transformation) of any type of goods, and rendering services incidental to the sale of merchandise. Wholesaling and retailing are the final steps in the distribution of merchandise. Also included in this section are the repair of motor vehicles and motorcycles.Sale without transformation is considered to include the usual operations (or manipulations) associated with trade, for example sorting, grading and assembling of goods, mixing (blending) of goods (for example sand), bottling (with or without preceding bottle cleaning), packing, breaking bulk and repacking for distribution in smaller lots, storage (whether or not frozen or chilled).",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G",
                     "elements": [
                         {
-                            "id": "con360",
+                            "id": "con377",
                             "label": {
                                 "language": "en",
-                                "value": "Public administration and defense and compulsory social security"
+                                "value": "Retail"
                             },
-                            "definition": "This sector includes activities of a governmental nature, normally carried out by the public administration. This includes the enactment and judicial interpretation of laws and their pursuant regulation, as well as the administration of programmes based on them, legislative activities, taxation, national defence, public order and safety, immigration services, foreign affairs and the administration of government programmes.",
-                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O",
+                            "definition": "This subsector includes the resale (sale without transformation) of new and used goods mainly to the general public for personal or household consumption or utilisation, by shops, department stores, stalls, mail-order houses, door-to-door sales persons, hawkers, consumer cooperatives etc.Retail trade is classified first by type of sale outlet. Retail trade in stores includes the retail sale of used goods . For retail sale in stores, there exists a further distinction between specialised retail sale  and non-specialised retail sale. The above groups are further subdivided by the range of products sold. Sale not via stores is subdivided according to the forms of trade, such as retail sale via stalls and markets and other non-store retail sale, e.g. mail order, door-to-door, by vending machines etc.The goods sold in this division are limited to goods usually referred to as consumer goods or retail goods. Therefore goods not normally entering the retail trade, such as cereal grains, ores, industrial machinery etc. are excluded.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.47",
+                            "elements": []
+                        },
+                        {
+                            "id": "con472",
+                            "label": {
+                                "language": "en",
+                                "value": "Wholesale"
+                            },
+                            "definition": "This subsector includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export).",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.46",
                             "elements": []
                         }
                     ]
                 },
                 {
-                    "id": "con118",
-                    "label": {
-                        "language": "en",
-                        "value": "Professional, scientific and technical activities"
-                    },
-                    "definition": "This sector includes specialised professional, scientific and technical activities. These activities require a high degree of training, and make specialised knowledge and skills available to users.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/M",
-                    "elements": []
-                },
-                {
-                    "id": "con366",
-                    "label": {
-                        "language": "en",
-                        "value": "Real Estate"
-                    },
-                    "definition": "This section includes acting as lessors, agents and/or brokers in one or more of the following: selling or buying real estate, rental real estate, providing other real estate services such as appraising real estate or acting as real estate escrow agents. Activities in this section may be carried out on own or leased property and may be done on a fee or contract basis. This section includes real estate property managers.",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/L",
-                    "elements": []
-                },
-                {
                     "id": "con452",
                     "label": {
                         "language": "en",
-                        "value": "Transportation and storage"
+                        "value": "Transportation and Storage"
                     },
-                    "definition": "This section includes the provision of passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air and associated activities such as terminal and parking facilities, cargo handling, storage etc. Included in this section is the rental of transport equipment with driver or operator. Also included are postal and courier activities.",
+                    "definition": "This sector includes the provision of passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air and associated activities such as terminal and parking facilities, cargo handling, storage etc. Included in this section is the rental of transport equipment with driver or operator. Also included are postal and courier activities.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/H",
                     "elements": [
                         {
@@ -3894,7 +3881,7 @@
                                 "language": "en",
                                 "value": "Maritime"
                             },
-                            "definition": "The industry that deals with anything related to the ocean, sea, and rivers. Maritime includes the ships, ports, companies, and individuals that are involved in the industry..It followes a collection of laws, conventions, and treaties that were put together by international bodies, such as the International Maritime Organization (IMO), to regulate and resolve all aspects of maritime trade, enviromental disputes or accidents that occur in oceans, seas, rivers, and other waterways. Maritime shipping plays a pivotal role in thiw industry, while security is supported by maritime tracking that explois Artificial Intelligence methods and algorithms.",
+                            "definition": "Theindustry that deals with anything related to the ocean, sea, and rivers. Maritime includes the ships, ports, companies, and individuals that are involved in the industry..It followes a collection of laws, conventions, and treaties that were put together by international bodies, such as the International Maritime Organization (IMO), to regulate and resolve all aspects of maritime trade, enviromental disputes or accidents that occur in oceans, seas, rivers, and other waterways. Maritime shipping plays a pivotal role in thiw industry, while security is supported by maritime tracking that explois Artificial Intelligence methods and algorithms.",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -3906,7 +3893,7 @@
                         "language": "en",
                         "value": "Water supply; sewerage, waste management and remediation activities"
                     },
-                    "definition": "This section includes activities related to the management (including collection, treatment and disposal) of various forms of waste, such as solid or non-solid industrial or household waste, as well as contaminated sites. The output of the waste or sewage treatment process can either be disposed of or become an input into other production processes.",
+                    "definition": "This sector includes activities related to water and disposal management (including collection, treatment and disposal) of various forms of waste, such as solid or non-solid industrial or household waste, as well as contaminated sites. The output of the waste or sewage treatment process can either be disposed of or become an input into other production processes.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E",
                     "elements": [
                         {
@@ -3915,7 +3902,7 @@
                                 "language": "en",
                                 "value": "Sewerage"
                             },
-                            "definition": "This division includes the operation of sewer systems or sewage treatment facilities that collect, treat, and dispose of sewage.",
+                            "definition": "This subsector includes the operation of sewer systems or sewage treatment facilities that collect, treat, and dispose of sewage.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.37",
                             "elements": []
                         },
@@ -3925,7 +3912,7 @@
                                 "language": "en",
                                 "value": "Waste Management"
                             },
-                            "definition": "This division includes the collection, treatment, and disposal of waste materials.",
+                            "definition": "This subsector includes the collection, treatment, and disposal of waste materials.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.38",
                             "elements": []
                         },
@@ -3935,39 +3922,49 @@
                                 "language": "en",
                                 "value": "Water Supply"
                             },
-                            "definition": "This division includes the collection, treatment and distribution of water for domestic and industrial needs. Collection of water from various sources, as well as distribution by various means is included.",
+                            "definition": "This subsector includes the collection, treatment and distribution of water for domestic and industrial needs. Collection of water from various sources, as well as distribution by various means is included.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/E.36",
                             "elements": []
                         }
                     ]
                 },
                 {
-                    "id": "con446",
+                    "id": "con002",
                     "label": {
                         "language": "en",
-                        "value": "Wholesale and retail trade; repair of motor vehicles"
+                        "value": "Accommodation and food service activities"
                     },
-                    "definition": "This section includes wholesale and retail sale (i.e. sale without transformation) of any type of goods, and rendering services incidental to the sale of merchandise. Wholesaling and retailing are the final steps in the distribution of merchandise. Also included in this section are the repair of motor vehicles and motorcycles.Sale without transformation is considered to include the usual operations (or manipulations) associated with trade, for example sorting, grading and assembling of goods, mixing (blending) of goods (for example sand), bottling (with or without preceding bottle cleaning), packing, breaking bulk and repacking for distribution in smaller lots, storage (whether or not frozen or chilled).",
-                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G",
+                    "definition": "This sector includes the provision of short-stay accommodation for visitors and other travellers and the provision of complete meals and drinks fit for immediate consumption. The amount and type of supplementary services provided within this section can vary widely.",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/I",
+                    "elements": []
+                },
+                {
+                    "id": "con393",
+                    "label": {
+                        "language": "en",
+                        "value": "Public administration and defense and compulsory social security"
+                    },
+                    "definition": "This sector includes activities of a governmental nature, normally carried out by the public administration. This includes the enactment and judicial interpretation of laws and their pursuant regulation, as well as the administration of programmes based on them, legislative activities, taxation, national defence, public order and safety, immigration services, foreign affairs and the administration of government programmes.",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O",
                     "elements": [
                         {
-                            "id": "con377",
+                            "id": "con069",
                             "label": {
                                 "language": "en",
-                                "value": "Retail"
+                                "value": "Civil Security"
                             },
-                            "definition": "This division includes the resale (sale without transformation) of new and used goods mainly to the general public for personal or household consumption or utilisation, by shops, department stores, stalls, mail-order houses, door-to-door sales persons, hawkers, consumer cooperatives etc.Retail trade is classified first by type of sale outlet. Retail trade in stores includes the retail sale of used goods . For retail sale in stores, there exists a further distinction between specialised retail sale  and non-specialised retail sale. The above groups are further subdivided by the range of products sold. Sale not via stores is subdivided according to the forms of trade, such as retail sale via stalls and markets and other non-store retail sale, e.g. mail order, door-to-door, by vending machines etc.The goods sold in this division are limited to goods usually referred to as consumer goods or retail goods. Therefore goods not normally entering the retail trade, such as cereal grains, ores, industrial machinery etc. are excluded.",
-                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.47",
+                            "definition": "This class includes:- administration and operation of regular and auxiliary police forces supported by public authorities and of port, border, coastguards and other special police forces, including traffic regulation, alien registration, maintenance of arrest records- provision of supplies for domestic emergency use in case of peacetime disasters",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.24",
                             "elements": []
                         },
                         {
-                            "id": "con472",
+                            "id": "con108",
                             "label": {
                                 "language": "en",
-                                "value": "Wholesale"
+                                "value": "Cybersecurity"
                             },
-                            "definition": "This division includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export).",
-                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/G.46",
+                            "definition": "Cybersecurity is how individuals and organisations reduce the risk of cyber attack. Cybersecurity's core function is to protect the devices we all use (smartphones, laptops, tablets and computers), and the services we access - both online and at work - from theft or damage. It's also about preventing unauthorised access to the vast amounts of personal information we store on these devices, and online.",
+                            "seeAlso": "",
                             "elements": []
                         }
                     ]
@@ -3976,7 +3973,7 @@
                     "id": "con010",
                     "label": {
                         "language": "en",
-                        "value": "Agriculture, forestry and fishing"
+                        "value": "Agriculture, forestry, fisheries"
                     },
                     "definition": "This sector includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A",
@@ -3987,7 +3984,7 @@
                                 "language": "en",
                                 "value": "Agriculture"
                             },
-                            "definition": "This section includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.",
+                            "definition": "This subsector includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A",
                             "elements": []
                         },
@@ -3997,7 +3994,7 @@
                                 "language": "en",
                                 "value": "Fishing"
                             },
-                            "definition": "This division includes capture fishery and aquaculture, covering the use of fishery resources from marine, brackish or freshwater environments, with the goal of capturing or gathering fish, crustaceans, molluscs and other marine organisms and products (e.g. aquatic plants, pearls, sponges etc).",
+                            "definition": "This subsector includes capture fishery and aquaculture, covering the use of fishery resources from marine, brackish or freshwater environments, with the goal of capturing or gathering fish, crustaceans, molluscs and other marine organisms and products (e.g. aquatic plants, pearls, sponges etc).",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A.03",
                             "elements": []
                         },
@@ -4007,11 +4004,52 @@
                                 "language": "en",
                                 "value": "Forestry"
                             },
-                            "definition": "This division includes the production of roundwood as well as the extraction and gathering of wild growing non-wood forest products. Besides the production of timber, forestry activities result in products that undergo little processing, such as firewood, charcoal and roundwood used in an unprocessed form (e.g. pit-props, pulpwood etc.). These activities can be carried out in natural or planted forests.",
+                            "definition": "This subsection includes the production of roundwood as well as the extraction and gathering of wild growing non-wood forest products. Besides the production of timber, forestry activities result in products that undergo little processing, such as firewood, charcoal and roundwood used in an unprocessed form (e.g. pit-props, pulpwood etc.). These activities can be carried out in natural or planted forests.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A.02",
                             "elements": []
                         }
                     ]
+                },
+                {
+                    "id": "con029",
+                    "label": {
+                        "language": "en",
+                        "value": "Arts"
+                    },
+                    "definition": "This sector includes a wide range of activities to meet varied cultural, entertainment and recreational interests of the general public, including live performances, operation of museum sites, gambling, sports and recreation activities.",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R",
+                    "elements": [
+                        {
+                            "id": "con369",
+                            "label": {
+                                "language": "en",
+                                "value": "Recreation"
+                            },
+                            "definition": "This group includes a wide range of units that operate facilities or provide services to meet the varied recreational interests of their patrons. It includes the operation of a variety of attractions, such as mechanical rides, water rides, games, shows, theme exhibits and picnic grounds.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.2",
+                            "elements": []
+                        },
+                        {
+                            "id": "con423",
+                            "label": {
+                                "language": "en",
+                                "value": "Sports"
+                            },
+                            "definition": "This group includes the operation of sports facilities; activities of sports teams or clubs primarily participating in live sports events before a paying audience; independent athletes engaged in participating in live sporting or racing events before a paying audience; owners of racing participants such as cars, dogs, horses, etc. primarily engaged in entering them in racing events or other spectator sports events; sports trainers providing specialised services to support participants in sports events or competitions; operators of arenas and stadiums; other activities of organising, promoting or managing sports events, n.e.c.",
+                            "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/R.93.1",
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "con135",
+                    "label": {
+                        "language": "en",
+                        "value": "Education"
+                    },
+                    "definition": "This sector includes education at any level or for any profession. The instructions may be oral or written and may be provided by radio, television, Internet or via correspondence. It includes education by the different institutions in the regular school system at its different levels as well as adult education, literacy programmes etc. Also included are military schools and academies, prison schools etc. at their respective levels. The section includes public as well as private education.For each level of initial education, the classes include special education for physically or mentally handicapped pupils.",
+                    "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/P",
+                    "elements": []
                 }
             ]
         },
@@ -4992,7 +5030,7 @@
                 {
                     "id": "con696",
                     "label": {
-                        "language": "Uknonown",
+                        "language": "en",
                         "value": "Unknown"
                     },
                     "definition": "",
@@ -5002,7 +5040,7 @@
                 {
                     "id": "con697",
                     "label": {
-                        "language": "Uknonown",
+                        "language": "en",
                         "value": "Unknown"
                     },
                     "definition": "",
@@ -6272,8 +6310,8 @@
                 {
                     "id": "con826",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "Turks and Caicos Islands"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6688,8 +6726,8 @@
                 {
                     "id": "con505",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6698,8 +6736,8 @@
                 {
                     "id": "con528",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6708,8 +6746,8 @@
                 {
                     "id": "con536",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6718,8 +6756,8 @@
                 {
                     "id": "con503",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6728,8 +6766,8 @@
                 {
                     "id": "con550",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-nd-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6738,8 +6776,8 @@
                 {
                     "id": "con516",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-nd-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6748,8 +6786,8 @@
                 {
                     "id": "con549",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-sa-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6758,8 +6796,8 @@
                 {
                     "id": "con544",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-sa-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6768,8 +6806,8 @@
                 {
                     "id": "con508",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nc-sa-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6778,8 +6816,8 @@
                 {
                     "id": "con537",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-nd-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6788,8 +6826,8 @@
                 {
                     "id": "con521",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-sa-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6798,8 +6836,8 @@
                 {
                     "id": "con509",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc-by-sa-4.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6808,8 +6846,8 @@
                 {
                     "id": "con519",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cc0-1.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6818,8 +6856,8 @@
                 {
                     "id": "con566",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cdla-permissive-1.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6828,8 +6866,8 @@
                 {
                     "id": "con556",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cdla-permissive-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6838,8 +6876,8 @@
                 {
                     "id": "con558",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "cdla-sharing-1.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6848,8 +6886,8 @@
                 {
                     "id": "con502",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "creativeml-openrail-m"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6858,8 +6896,8 @@
                 {
                     "id": "con548",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "deepfloyd-if-license"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6868,8 +6906,8 @@
                 {
                     "id": "con540",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "ecl-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6878,8 +6916,8 @@
                 {
                     "id": "con564",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "epl-1.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6888,8 +6926,8 @@
                 {
                     "id": "con554",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "epl-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6898,8 +6936,8 @@
                 {
                     "id": "con560",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "etalab-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6908,8 +6946,8 @@
                 {
                     "id": "con553",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "eupl-1.1"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6948,8 +6986,8 @@
                 {
                     "id": "con530",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "gpl-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6958,8 +6996,8 @@
                 {
                     "id": "con510",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "gpl-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6968,7 +7006,7 @@
                 {
                     "id": "con557",
                     "label": {
-                        "language": "Uknonown",
+                        "language": "en",
                         "value": "Unknown"
                     },
                     "definition": "isc",
@@ -6978,7 +7016,7 @@
                 {
                     "id": "con546",
                     "label": {
-                        "language": "Uknonown",
+                        "language": "en",
                         "value": "Unknown"
                     },
                     "definition": "lgpl",
@@ -6988,8 +7026,8 @@
                 {
                     "id": "con562",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "lgpl-2.1"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -6998,8 +7036,8 @@
                 {
                     "id": "con531",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "lgpl-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7008,8 +7046,8 @@
                 {
                     "id": "con551",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "lgpl-lr"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7018,7 +7056,7 @@
                 {
                     "id": "con504",
                     "label": {
-                        "language": "Uknonown",
+                        "language": "en",
                         "value": "Unknown"
                     },
                     "definition": "llama2",
@@ -7028,8 +7066,8 @@
                 {
                     "id": "con524",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "llama3"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7038,8 +7076,8 @@
                 {
                     "id": "con563",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "lppl-1.3c"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7058,8 +7096,8 @@
                 {
                     "id": "con545",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "mpl-2.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7068,8 +7106,8 @@
                 {
                     "id": "con539",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "ms-pl"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7098,8 +7136,8 @@
                 {
                     "id": "con555",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "odc-by"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7108,8 +7146,8 @@
                 {
                     "id": "con565",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "ofl-1.1"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7118,8 +7156,8 @@
                 {
                     "id": "con501",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "openrail"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7128,8 +7166,8 @@
                 {
                     "id": "con535",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "osl-3.0"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7148,8 +7186,8 @@
                 {
                     "id": "con561",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "postgresql"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7158,8 +7196,8 @@
                 {
                     "id": "con522",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "unlicense"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7168,8 +7206,8 @@
                 {
                     "id": "con517",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "wtfpl"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7178,8 +7216,8 @@
                 {
                     "id": "con543",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "zlib"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7188,8 +7226,8 @@
                 {
                     "id": "con507",
                     "label": {
-                        "language": "Uknonown",
-                        "value": "Unknown"
+                        "language": "en",
+                        "value": "openrail++"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -7434,6 +7472,62 @@
             ]
         },
         {
+            "taxonomy_id": "scheme013",
+            "taxonomy_name": "Number of Employees",
+            "elements": [
+                {
+                    "id": "con858",
+                    "label": {
+                        "language": "en",
+                        "value": "<10"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con860",
+                    "label": {
+                        "language": "en",
+                        "value": "<250"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con859",
+                    "label": {
+                        "language": "en",
+                        "value": "< 50"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con861",
+                    "label": {
+                        "language": "en",
+                        "value": ">250"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con851",
+                    "label": {
+                        "language": "en",
+                        "value": "N/A"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
             "taxonomy_id": "scheme009",
             "taxonomy_name": "Publication",
             "elements": [
@@ -7484,6 +7578,16 @@
                         "value": "Conference Poster"
                     },
                     "definition": "A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con867",
+                    "label": {
+                        "language": "en",
+                        "value": "datasheet"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -7658,7 +7762,7 @@
                                 "language": "en",
                                 "value": "Speech Processing"
                             },
-                            "definition": "The subdomain of communication that reserches and devepols algorithms and systems for listening, recogrising, understanding and expressing human language via speech.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -7670,7 +7774,7 @@
                         "language": "en",
                         "value": "Ethics and Philosophy"
                     },
-                    "definition": "Philosophical and ethical issues associated with AI are proliferating and rising citizens\u2019 attention and governments\u2019 policy interest as intelligent systems become widespread. The ethics of AI is considered as a transversal subdomain, as AI advances and applications in different areas should ensure compliance with\nethical principles and values, including applicable regulation.",
+                    "definition": "Philosophical and ethical issues associated with AI are proliferating and rising citizens\u2019 attention and governments\u2019 policy interest as intelligent systems become widespread. The ethics of AI is considered as a transversal subdomain, as AI advances and applications in different areas should ensure compliance with ethical principles and values, including applicable regulation.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -7680,7 +7784,7 @@
                         "language": "en",
                         "value": "Human- Machine Interaction and Cognition"
                     },
-                    "definition": "Key cognitive processes that are considered in HMI include attention, perception, memory, learning, and problem-solving.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": [
                         {
@@ -7699,7 +7803,7 @@
                                 "language": "en",
                                 "value": "Multi-agent Systems"
                             },
-                            "definition": "A Multi-Agent System (MAS) is a type of computer system where multiple independent entities, called agents, work together or compete in a shared environment to reach their goals.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         },
@@ -7709,7 +7813,7 @@
                                 "language": "en",
                                 "value": "Robotics Automation"
                             },
-                            "definition": "Robotics Automation uses intelligent automation technologies/agents to perform repetitive office or field industrial tasks of human workers.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -7784,7 +7888,7 @@
                         "language": "en",
                         "value": "Planning"
                     },
-                    "definition": "Planning defines the requirements, effort, cost, processes' depentencies and the risks of a project towards targeted goal(s).",
+                    "definition": "The ability to expect the consequences of series of actions",
                     "seeAlso": "",
                     "elements": [
                         {
@@ -7793,7 +7897,7 @@
                                 "language": "en",
                                 "value": "Optimisation"
                             },
-                            "definition": "The action of taking the best decision amongst alternative use of a situation, a plan or a product.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         },
@@ -7803,7 +7907,7 @@
                                 "language": "en",
                                 "value": "Planning and Scheduling"
                             },
-                            "definition": "Planning is to define what are we going to make, defining required effort, cost and targeted completion; sceduling then is to forsee all the required tasks/actions over time to fulfill the plan.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         },
@@ -7813,7 +7917,7 @@
                                 "language": "en",
                                 "value": "Searching"
                             },
-                            "definition": "Search is the task for the discoverability of your interests in a business or research domain.",
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -7825,7 +7929,7 @@
                         "language": "en",
                         "value": "Reasoning"
                     },
-                    "definition": "Reasoning is the process of using existing knowledge to draw conclusions, make predictions, or construct explanations.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": [
                         {
@@ -7863,6 +7967,52 @@
             ]
         },
         {
+            "taxonomy_id": "scheme014",
+            "taxonomy_name": "Robot type",
+            "elements": [
+                {
+                    "id": "con864",
+                    "label": {
+                        "language": "en",
+                        "value": "AUV"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con865",
+                    "label": {
+                        "language": "en",
+                        "value": "Manipulator"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con862",
+                    "label": {
+                        "language": "en",
+                        "value": "UAV"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con863",
+                    "label": {
+                        "language": "en",
+                        "value": "UGV"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
             "taxonomy_id": "scheme005",
             "taxonomy_name": "Scientific Domain",
             "elements": [
@@ -7873,7 +8023,7 @@
                         "value": "Agricultural Sciences"
                     },
                     "definition": "Sciences dealing with food and fibre production and processing. They include the technologies of soil cultivation, crop cultivation and harvesting, animal production, and the processing of plant and animal products for human consumption and use.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                     "elements": [
                         {
                             "id": "con011",
@@ -7882,7 +8032,7 @@
                                 "value": "Agricultural Biotechnology"
                             },
                             "definition": "An area of agricultural science involving the use of scientific tools and techniques, including genetic engineering, molecular markers, molecular diagnostics, vaccines, and tissue culture, to modify living organisms: plants, animals, and microorganisms",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7892,7 +8042,7 @@
                                 "value": "Agriculture, forestry, and fisheries"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7902,7 +8052,7 @@
                                 "value": "Animal and Dairy Sciences"
                             },
                             "definition": "A multidisciplinary science that focuses on livestock and companion animal growth, health and safety, as well as food and fiber production.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7912,7 +8062,7 @@
                                 "value": "Other Agricultural Sciences"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7934,7 +8084,7 @@
                         "value": "Generic"
                     },
                     "definition": "Generic, Not targeting a specific domain.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Resource+Profile",
                     "elements": []
                 },
                 {
@@ -7944,18 +8094,8 @@
                         "value": "Humanities"
                     },
                     "definition": "The branches of learning that investigate human constructs and concerns as opposed to natural processes (as in physics or chemistry) and social relations (as in anthropology or economics).",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Resource+Profile",
                     "elements": [
-                        {
-                            "id": "con029",
-                            "label": {
-                                "language": "en",
-                                "value": "Arts"
-                            },
-                            "definition": "",
-                            "seeAlso": "",
-                            "elements": []
-                        },
                         {
                             "id": "con181",
                             "label": {
@@ -7963,7 +8103,7 @@
                                 "value": "History and Archeology"
                             },
                             "definition": "The systematic study and documentation of the human past also through the recovery and analysis of material culture.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7973,7 +8113,7 @@
                                 "value": "Languages and Literature"
                             },
                             "definition": "The disciplines that examine the structure, use, and history of languages and literary texts.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7983,7 +8123,7 @@
                                 "value": "Other Humanities"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -7993,7 +8133,7 @@
                                 "value": "Philosophy, Ethics and Religion"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         }
                     ]
@@ -8005,7 +8145,7 @@
                         "value": "Natural Sciences"
                     },
                     "definition": "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Resource+Profile",
                     "elements": [
                         {
                             "id": "con054",
@@ -8014,7 +8154,7 @@
                                 "value": "Biological Sciences"
                             },
                             "definition": "The scientific study of life  with a broad scope.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8024,7 +8164,7 @@
                                 "value": "Chemical Sciences"
                             },
                             "definition": "The scientific study of the properties and behavior of matter.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8034,7 +8174,7 @@
                                 "value": "Computer and Information Sciences"
                             },
                             "definition": "A field that emphasizes both computing and informatics, upholding the strong association between the fields of information sciences and computer sciences and treating computers as a tool rather than a field.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8044,7 +8184,7 @@
                                 "value": "Earth and Related Enviromental Sciences"
                             },
                             "definition": "All aspects of Earth and planetary sciences, and broadly encompasses solid Earth processes, surface and atmospheric dynamics, Earth system history, climate and climate change, marine and freshwater systems, and ecology. It also considers the interactions between humans and these systems.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8054,7 +8194,7 @@
                                 "value": "Mathematics"
                             },
                             "definition": "A field of study that discovers and organizes methods, theories and theorems that are developed and proved for the needs of empirical sciences and mathematics itself.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8064,7 +8204,7 @@
                                 "value": "Other Natural Sciences"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8074,7 +8214,7 @@
                                 "value": "Physical Sciences"
                             },
                             "definition": "A branch of natural science that studies non-living systems, in contrast to life science",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         }
                     ]
@@ -8096,7 +8236,7 @@
                         "value": "Social Sciences"
                     },
                     "definition": "A branch of science that deals with the institutions and functioning of human society and with the interpersonal relationships of individuals as members of society.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Resource+Profile",
                     "elements": [
                         {
                             "id": "con134",
@@ -8105,7 +8245,7 @@
                                 "value": "Economics and Business"
                             },
                             "definition": "A field of applied economics that studies the financial, organizational, market-related, and environmental issues faced by corporations.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8115,7 +8255,7 @@
                                 "value": "Educational Sciences"
                             },
                             "definition": "A field which seeks to describe, understand, and prescribe education including education policy.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8125,7 +8265,7 @@
                                 "value": "Law"
                             },
                             "definition": "The study of the relationships between individuals within society as well as the interaction between legal systems and other social systems.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8135,7 +8275,7 @@
                                 "value": "Media and Communications"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8145,7 +8285,7 @@
                                 "value": "Other Social Sciences"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8155,7 +8295,7 @@
                                 "value": "Political Sciences"
                             },
                             "definition": "A social study concerning the allocation and transfer of power in decision making, the roles and systems of governance including governments and international organizations, political behaviour, and public policies.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8165,7 +8305,7 @@
                                 "value": "Psychology"
                             },
                             "definition": "The scientific study of mind and behavior.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8175,7 +8315,7 @@
                                 "value": "Social and Economic Geography"
                             },
                             "definition": "The subfield of human geography that studies economic and social activity and factors affecting it.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8185,7 +8325,7 @@
                                 "value": "Sociology"
                             },
                             "definition": "The study of social life, social change, and the social causes and consequences of human behavior.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         }
                     ]
@@ -8197,7 +8337,7 @@
                         "value": "Engineering & Technology"
                     },
                     "definition": "The application of science and mathematics by which the properties of matter and the sources of energy in nature are made useful to people.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                     "elements": [
                         {
                             "id": "con065",
@@ -8206,7 +8346,7 @@
                                 "value": "Chemical Engineering"
                             },
                             "definition": "An engineering field which deals with the study of the operation and design of chemical plants as well as methods of improving production.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8216,7 +8356,7 @@
                                 "value": "Civil Engineering"
                             },
                             "definition": "A discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and railways.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8226,7 +8366,7 @@
                                 "value": "Electrical, electronic and information engineering"
                             },
                             "definition": "An engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8236,7 +8376,7 @@
                                 "value": "Enviromental Biotechnology"
                             },
                             "definition": "Biotechnology that is applied to and used to study the natural environment.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8246,7 +8386,7 @@
                                 "value": "Enviromental Engineering"
                             },
                             "definition": "A discipline related to environmental science. It encompasses broad scientific topics like chemistry, biology, ecology, geology, hydraulics, hydrology, microbiology, and mathematics to create solutions that will protect and also improve the health of living organisms and improve the quality of the environment.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8256,7 +8396,7 @@
                                 "value": "Industrial Biotechnology"
                             },
                             "definition": "A multidisciplinary field that involves the integration of natural sciences and engineering sciences in order to achieve the application of organisms and parts thereof for products and services.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8266,7 +8406,7 @@
                                 "value": "Materials Engineering"
                             },
                             "definition": "The combination of engineering, physics and chemistry principles to solve real-world problems associated with nanotechnology, biotechnology, information technology, energy, manufacturing and other major engineering disciplines.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8276,7 +8416,7 @@
                                 "value": "Mechanical Engineering"
                             },
                             "definition": "The branch of engineering concerned with the design, manufacture, installation, and operation of engines and machines and with manufacturing processes.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8286,7 +8426,7 @@
                                 "value": "Medical Engineering"
                             },
                             "definition": "The application of engineering principles and design concepts to medicine and biology for healthcare applications",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8296,7 +8436,7 @@
                                 "value": "Nano-technology"
                             },
                             "definition": "The branch of science and engineering devoted to designing, producing, and using structures, devices, and systems by manipulating atoms and molecules at nanoscale,",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8306,7 +8446,7 @@
                                 "value": "Other Engineering and Technology Sciences"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         }
                     ]
@@ -8318,7 +8458,7 @@
                         "value": "Medical & Health Sciences"
                     },
                     "definition": "The science of dealing with the maintenance of health and the prevention and treatment of disease.",
-                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/B.+v4.00+EOSC+Resource+Profile",
+                    "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                     "elements": [
                         {
                             "id": "con046",
@@ -8327,7 +8467,7 @@
                                 "value": "Basic Medicine"
                             },
                             "definition": "The foundation of all medical knowledge. It covers the basic concepts and principles that all doctors need to know to practice medicine.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8337,7 +8477,7 @@
                                 "value": "Clinical Medicine"
                             },
                             "definition": "The branch of medicine that deals with the diagnosis and treatment of diseases in human beings.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8347,7 +8487,7 @@
                                 "value": "Health Sciences"
                             },
                             "definition": "Sciences that focus on health, or health care, as core parts of their subject matter.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8357,7 +8497,7 @@
                                 "value": "Medical Biotechnology"
                             },
                             "definition": "The application of biotechnology tools for producing medical products that can be used for the diagnosis, prevention, and treatment of diseases.",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         },
                         {
@@ -8367,10 +8507,86 @@
                                 "value": "Other Medical Sciences"
                             },
                             "definition": "",
-                            "seeAlso": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
                             "elements": []
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "scheme012",
+            "taxonomy_name": "Turnover",
+            "elements": [
+                {
+                    "id": "con852",
+                    "label": {
+                        "language": "en",
+                        "value": "<1 million euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con853",
+                    "label": {
+                        "language": "en",
+                        "value": ">1 million euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con857",
+                    "label": {
+                        "language": "en",
+                        "value": ">1.5 billion euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con854",
+                    "label": {
+                        "language": "en",
+                        "value": ">3 million euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con856",
+                    "label": {
+                        "language": "en",
+                        "value": ">50 million euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con855",
+                    "label": {
+                        "language": "en",
+                        "value": ">5 million euros"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con851",
+                    "label": {
+                        "language": "en",
+                        "value": "N/A"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
                 }
             ]
         }

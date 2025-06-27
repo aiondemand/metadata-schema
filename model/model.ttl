@@ -945,7 +945,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                         )
                           ] ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The end date of the application for the Fundind Opportunity." ;
+              rdfs:comment "The end date of the application for the Funding Opportunity." ;
               rdfs:label "closing date"@en .
 
 
@@ -1638,7 +1638,7 @@ dct:medium rdf:type owl:ObjectProperty .
                        owl:FunctionalProperty ;
               rdfs:domain :FundingOpportunity ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The start date of the application for the Fundind Opportunity." ;
+              rdfs:comment "The start date of the application for the Funding Opportunity." ;
               rdfs:label "opening date"@en .
 
 

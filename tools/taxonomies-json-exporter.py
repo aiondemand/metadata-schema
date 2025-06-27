@@ -122,7 +122,7 @@ def main():
     json_data = parse_ttl_to_json(ttl_content)
 
     # Save the JSON output to a file
-    with open("taxonomies_with_definitions.json", "w") as f:
+    with open("taxonomies-export.json", "w") as f:
         json.dump(json_data, f, indent=4)
 
     # Print the final JSON output
