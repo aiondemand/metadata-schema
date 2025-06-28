@@ -100,12 +100,11 @@ def parse_model_ttl(ttl_content):
         ]
 
         equivalent_classes = []
-        for pred, pred_label in mapping_preds:
+        for pred, _ in mapping_preds:
             for obj in g.objects(class_uri, pred):
-                equivalent_classes.append({
-                    "predicate": pred_label,
-                    "target": str(obj)
-                })
+                if isinstance(obj, BNode):
+                    continue
+                equivalent_classes.append(str(obj))
 
         class_info = {
             "name": class_name,
