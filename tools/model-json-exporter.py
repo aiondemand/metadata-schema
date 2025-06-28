@@ -1,7 +1,7 @@
 import requests
 import json
 from rdflib import Graph, Namespace, BNode
-from rdflib.namespace import RDF, RDFS, OWL
+from rdflib.namespace import RDF, RDFS, OWL, SKOS, DCTERMS
 
 # Define namespaces
 RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -89,9 +89,30 @@ def parse_model_ttl(ttl_content):
         class_id = str(class_uri)
         label = next(g.objects(class_uri, RDFS.label), None)
         class_name = str(label) if label else class_id.split("/")[-1]
+
+        # Collect equivalence and mapping relationships
+        mapping_preds = [
+            (OWL.equivalentClass, "owl:equivalentClass"),
+            (SKOS.relatedMatch, "skos:relatedMatch"),
+            (RDFS.seeAlso, "rdfs:seeAlso"),
+            (DCTERMS.relation, "dct:relation"),
+            (DCTERMS.conformsTo, "dct:conformsTo")
+        ]
+
+        equivalent_classes = []
+        for pred, pred_label in mapping_preds:
+            for obj in g.objects(class_uri, pred):
+                if isinstance(obj, BNode):
+                    continue
+                equivalent_classes.append({
+                    "predicate": pred_label,
+                    "target": str(obj),
+                    "type": "uri" if str(obj).startswith("http") else "literal"
+                })
+
         class_info = {
             "name": class_name,
-            "equivalent_classes": [],
+            "equivalent_classes": equivalent_classes,
             "direct_properties": [],
             "inherited_properties": []
         }
@@ -169,3 +190,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

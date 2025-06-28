@@ -6,7 +6,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix esco: <http://data.europa.eu/esco/model#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix saro: <https://w3id.org/saro#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @base <http://aiod.eu/data/> .
 
@@ -20,40 +24,7 @@
                         vann:preferredNamespaceUri "http://aiod.eu/data/" ;
                         owl:versionInfo "v4.0" .
 
-#################################################################
-#    Annotation properties
-#################################################################
 
-###  http://purl.org/dc/terms/creator
-dct:creator rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/description
-dct:description rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/license
-dct:license rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/publisher
-dct:publisher rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/vocab/vann/preferredNamespacePrefix
-vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/vocab/vann/preferredNamespaceUri
-vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -285,7 +256,7 @@ xsd:date rdf:type rdfs:Datatype .
                                   )
                     ] ;
         rdfs:range :Agent ;
-        rdfs:comment "The funding organisation for the project." ;
+        rdfs:comment "The Agent responsible for funding the Dataset or associated with the Funding Opportunity" ;
         rdfs:label "funder"@en .
 
 
@@ -566,7 +537,7 @@ xsd:date rdf:type rdfs:Datatype .
                                          )
                            ] ;
                rdfs:range :AIAsset ;
-               rdfs:comment "AI Assets related with." ;
+               rdfs:comment "Indicates an AI Asset that is relevant to or associated with a given Event or News Item." ;
                rdfs:label "related asset"@en .
 
 
@@ -594,7 +565,7 @@ xsd:date rdf:type rdfs:Datatype .
                                            )
                              ] ;
                  rdfs:range :Project ;
-                 rdfs:comment "A Project the activities of which are related to the event or the news." ;
+                 rdfs:comment "a Project whose activities are relevant to or associated with the given Event or News Item." ;
                  rdfs:label "project"@en .
 
 
@@ -730,7 +701,7 @@ xsd:date rdf:type rdfs:Datatype .
                                         )
                           ] ;
               rdfs:range :Dataset ;
-              rdfs:comment "A Dataset used for the execution of the experiment." ;
+              rdfs:comment "A Dataset used for the execution of the experiment or the Runnable Distribution." ;
               rdfs:label "uses dataset"@en .
 
 
@@ -750,7 +721,7 @@ xsd:date rdf:type rdfs:Datatype .
                                       )
                         ] ;
             rdfs:range :MLModel ;
-            rdfs:comment "A ML Model used during the experiment's process." ;
+            rdfs:comment "A ML Model that is utilized during the execution of an Experiment or Runnable Distribution." ;
             rdfs:label "uses model"@en .
 
 
@@ -762,16 +733,6 @@ xsd:date rdf:type rdfs:Datatype .
                rdfs:label "uses resource"@en .
 
 
-###  http://purl.org/dc/terms/extent
-dct:extent rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/dc/terms/medium
-dct:medium rdf:type owl:ObjectProperty .
-
-
-###  http://www.w3.org/ns/prov#atLocation
-<http://www.w3.org/ns/prov#atLocation> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -883,7 +844,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                     )
                       ] ;
           rdfs:range xsd:string ;
-          rdfs:comment "The checksum value associated with the content of the Distribution." ;
+          rdfs:comment "The checksum value used to verify the content of the Distribution or Workflow Execution." ;
           rdfs:label "checksum"@en .
 
 
@@ -945,7 +906,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                         )
                           ] ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The end date of the application for the Funding Opportunity." ;
+              rdfs:comment "The end date of the application for the Funding Opportunity or the Job Announcement." ;
               rdfs:label "closing date"@en .
 
 
@@ -1016,7 +977,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                            )
                              ] ;
                  rdfs:range xsd:integer ;
-                 rdfs:comment "The size of the Multimedia object in KB." ;
+                 rdfs:comment "TThe size of the Distribution or Multimedia content in kilobytes (KB)." ;
                  rdfs:label "content size kb"@en .
 
 
@@ -1097,7 +1058,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                         )
                           ] ;
               rdfs:range xsd:dateTime ;
-              rdfs:comment "The date of creation for the AI asset." ;
+              rdfs:comment "The date of creation for the AI asset or the Distribution." ;
               rdfs:label "date created"@en .
 
 
@@ -1129,7 +1090,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                           )
                             ] ;
                 rdfs:range xsd:dateTime ;
-                rdfs:comment "The date of publication (broader availability) for the AI asset." ;
+                rdfs:comment "The date of publication (broader availability) for the AI asset or the Distribution." ;
                 rdfs:label "date published"@en .
 
 
@@ -1203,7 +1164,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                     )
                       ] ;
           rdfs:range xsd:dateTime ;
-          rdfs:comment "The date when the educational resource or activity concludes."@en ;
+          rdfs:comment "The date when the educational resource or event concludes."@en ;
           rdfs:label "end date"@en .
 
 
@@ -1383,7 +1344,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                   )
                     ] ;
         rdfs:range xsd:string ;
-        rdfs:comment "The operating system installed on the computational asset."@en ;
+        rdfs:comment "Operating system of the Computational Asset or required by the Computational Requirement."@en ;
         rdfs:label "has os"@en .
 
 
@@ -1574,6 +1535,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                       )
                         ] ;
             rdfs:range xsd:string ;
+            rdfs:comment "Model name of the CPU or Accelerator." ;
             rdfs:label "model name"@en .
 
 
@@ -1666,7 +1628,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                )
                  ] ;
      rdfs:range xsd:string ;
-     rdfs:comment "A persistent identifier assigned to the dataset."@en ;
+     rdfs:comment "A persistent identifier assigned to the dataset or the publication."@en ;
      rdfs:label "pid"@en .
 
 
@@ -1786,7 +1748,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                     )
                       ] ;
           rdfs:range xsd:string ;
-          rdfs:comment "The description of the program of the Educational Asset." ;
+          rdfs:comment "Schedule description for an Educational Resource or Event." ;
           rdfs:label "schedule"@en .
 
 
@@ -1843,7 +1805,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                       )
                         ] ;
             rdfs:range xsd:dateTime ;
-            rdfs:comment "The date when the resource starts running." ;
+            rdfs:comment "The starting date of an Educational Resource or Event." ;
             rdfs:label "start date"@en .
 
 
@@ -2020,6 +1982,7 @@ dct:medium rdf:type owl:ObjectProperty .
                                   )
                     ] ;
         rdfs:range xsd:string ;
+        rdfs:comment "Vendor name of the CPU, Accelerator, or Storage." ;
         rdfs:label "vendor"@en .
 
 
@@ -2099,73 +2062,12 @@ dct:medium rdf:type owl:ObjectProperty .
                                            )
                              ] ;
                  rdfs:range xsd:integer ;
+                 rdfs:comment "The write bandwidth of the Memory or Storage component."@en ;
                  rdfs:label "write bandwidth"@en .
 
 
-###  http://purl.org/dc/terms/alternative
-dct:alternative rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf dct:title .
 
 
-###  http://purl.org/dc/terms/available
-dct:available rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/bibliographicCitation
-dct:bibliographicCitation rdf:type owl:DatatypeProperty ;
-                          rdfs:subPropertyOf dct:identifier .
-
-
-###  http://purl.org/dc/terms/created
-dct:created rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/date
-dct:date rdf:type owl:DatatypeProperty .
-
-
-###  http://purl.org/dc/terms/dateAccepted
-dct:dateAccepted rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/dateCopyrighted
-dct:dateCopyrighted rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/dateSubmitted
-dct:dateSubmitted rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/identifier
-dct:identifier rdf:type owl:DatatypeProperty .
-
-
-###  http://purl.org/dc/terms/issued
-dct:issued rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/modified
-dct:modified rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf dct:date .
-
-
-###  http://purl.org/dc/terms/title
-dct:title rdf:type owl:DatatypeProperty .
-
-
-###  http://purl.org/dc/terms/valid
-dct:valid rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf dct:date .
-
-
-###  http://www.w3.org/2002/07/owl#topDataProperty
-owl:topDataProperty rdfs:domain :Agent .
 
 
 #################################################################
@@ -2269,6 +2171,7 @@ owl:topDataProperty rdfs:domain :Agent .
 ###  http://aiod.eu/data/Assessment
 :Assessment rdf:type owl:Class ;
             rdfs:subClassOf :AIoDConcept ;
+            rdfs:comment "A systematic process of analysis used to determine characteristics, performance, or compliance of an entity, system, or condition." ;
             rdfs:label "Assessment"@en .
 
 
@@ -2596,7 +2499,10 @@ owl:topDataProperty rdfs:domain :Agent .
                                    owl:onClass :Organisation
                                  ] ;
                  rdfs:comment "An article highlighting employment opportunities." ;
-                 rdfs:label "Job Announcement"@en .
+                 rdfs:label "Job Announcement"@en ;
+                 skos:relatedMatch esco:Occupation ;
+                 skos:relatedMatch saro:JobPosting ;
+                 skos:relatedMatch org:Post .
 
 
 ###  http://aiod.eu/data/KnowledgeAsset
@@ -2710,6 +2616,8 @@ owl:topDataProperty rdfs:domain :Agent .
 
 ###  http://aiod.eu/data/Organisation
 :Organisation rdf:type owl:Class ;
+              owl:equivalentClass foaf:Organisation ;
+              skos:relatedMatch org:FormalOrganization ;
               rdfs:subClassOf :Agent ,
                               [ rdf:type owl:Restriction ;
                                 owl:onProperty :organisation_type ;
@@ -2794,6 +2702,7 @@ owl:topDataProperty rdfs:domain :Agent .
 ###  http://aiod.eu/data/Requirement
 :Requirement rdf:type owl:Class ;
              rdfs:subClassOf :AIoDConcept ;
+             rdfs:comment "A necessary condition, constraint, or capability specified for achieving a particular goal or fulfilling a function." ;
              rdfs:label "Requirement"@en .
 
 
@@ -2826,6 +2735,7 @@ owl:topDataProperty rdfs:domain :Agent .
 ###  http://aiod.eu/data/Risk
 :Risk rdf:type owl:Class ;
       rdfs:subClassOf :AIoDConcept ;
+      rdfs:comment "The possibility of harm or other adverse effects resulting from a given action, process, or condition." ;
       rdfs:label "Risk"@en .
 
 
@@ -3061,44 +2971,7 @@ owl:topDataProperty rdfs:domain :Agent .
               rdfs:label "Workflow Step"@en .
 
 
-###  http://purl.org/dc/terms/Agent
-dct:Agent rdf:type owl:Class .
 
-
-###  http://purl.org/dc/terms/BibliographicResource
-dct:BibliographicResource rdf:type owl:Class .
-
-
-###  http://purl.org/dc/terms/Location
-dct:Location rdf:type owl:Class .
-
-
-###  http://purl.org/dc/terms/SizeOrDuration
-dct:SizeOrDuration rdf:type owl:Class .
-
-
-###  http://www.w3.org/ns/dcat#Dataset
-dcat:Dataset rdf:type owl:Class .
-
-
-###  http://www.w3.org/ns/dcat#Resource
-dcat:Resource rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Agent
-foaf:Agent rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Image
-foaf:Image rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Project
-foaf:Project rdf:type owl:Class .
 
 
 #################################################################
@@ -3113,9 +2986,33 @@ foaf:Project rdf:type owl:Class .
                        dct:title "AIoD Metadata Model"@en .
 
 
+
 #################################################################
-#    Annotations
+#    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dct:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dct:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
 
 
 
