@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://aiod.eu/data/","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://aiod.eu/data/","name":"AIoD Metadata Model", "headline":"Document describing the ontology http://aiod.eu/data/", "dateReleased":"Wed Jun 11 18:31:56 EEST 2025", "dateModified":"2024-03-12", "version":"v4.0", "license":"https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE", "author":[{"@type":"Person","name":"Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://aiod.eu/data/","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://aiod.eu/data/","name":"AIoD Metadata Model", "headline":"Document describing the ontology http://aiod.eu/data/", "dateReleased":"Sat Jun 28 12:46:14 EEST 2025", "dateModified":"2024-03-12", "version":"v4.0", "license":"https://raw.githubusercontent.com/aiondemand/metadata-schema/main/LICENSE", "author":[{"@type":"Person","name":"Antonis Koukourikos, Marianna Tsigkou, Costas Spyropoulos."}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -69,7 +69,7 @@ $(function(){
 
 
 <dl>
-<dt>Modified on: 2024-03-12</dt>
+<dt>Modified on: 2025-06-28</dt>
 <dt>This version:</dt>
 <dd><a href="http://aiod.eu/data/4.0">http://aiod.eu/data/4.0</a></dd>
 <dt>Latest version:</dt>
@@ -104,29 +104,6 @@ $(function(){
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
    The AIoD Metadata Model is developed to encapsulate the European AI ecosystem, which entails the incorporation of conceptualisations for various ecosystem aspects: informational, technical, networking, and educational. Its goals are to provide a structured hierarchy of AIoD Concepts and ensure interoperability with existing models and platforms.</span>
-<div id="namespacedeclarations">
-<h3 id="ns" class="list">Namespace declarations</h3>
-<div id="ns" align="center">
-<table>
-<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
-<tbody>
-<tr><td><b>aiod</b></td><td>&lt;http://aiod.eu/data/&gt;</td></tr>
-<tr><td><b>dc</b></td><td>&lt;http://purl.org/dc/elements/1.1/&gt;</td></tr>
-<tr><td><b>dcam</b></td><td>&lt;http://purl.org/dc/dcam/&gt;</td></tr>
-<tr><td><b>dcat</b></td><td>&lt;http://www.w3.org/ns/dcat#&gt;</td></tr>
-<tr><td><b>dct</b></td><td>&lt;http://purl.org/dc/terms/&gt;</td></tr>
-<tr><td><b>foaf</b></td><td>&lt;http://xmlns.com/foaf/0.1/&gt;</td></tr>
-<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl#&gt;</td></tr>
-<tr><td><b>prov</b></td><td>&lt;http://www.w3.org/ns/prov#&gt;</td></tr>
-<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</td></tr>
-<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</td></tr>
-<tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann/&gt;</td></tr>
-<tr><td><b>xml</b></td><td>&lt;http://www.w3.org/XML/1998/namespace&gt;</td></tr>
-<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema#&gt;</td></tr>
-</tbody>
-</table>
-</div>
-</div>
 </div>
   
 
@@ -150,11 +127,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#Agent" title="http://aiod.eu/data/Agent">
          <span>Agent</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/AgentClass" title="http://purl.org/dc/terms/AgentClass">
-         <span>Agent Class</span>
       </a>
    </li>
    <li>
@@ -280,17 +252,10 @@ This ontology has the following classes and properties.</span>
       <a href="#ExperimentExecution" title="http://aiod.eu/data/ExperimentExecution">Experiment Execution</a>
    </li>
    <li>
-      <a href="#ExpertGroup" title="http://aiod.eu/data/ExpertGroup">
-         <span>Expert Group</span>
-      </a>
+      <a href="#ExpertGroup" title="http://aiod.eu/data/ExpertGroup">Expert Group</a>
    </li>
    <li>
       <a href="#Expertise" title="http://aiod.eu/data/Expertise">Expertise</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat">
-         <span>File Format</span>
-      </a>
    </li>
    <li>
       <a href="#FundingOpportunity" title="http://aiod.eu/data/FundingOpportunity">Funding Opportunity</a>
@@ -308,20 +273,10 @@ This ontology has the following classes and properties.</span>
       <a href="#JobAnnouncement" title="http://aiod.eu/data/JobAnnouncement">Job Announcement</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/Jurisdiction" title="http://purl.org/dc/terms/Jurisdiction">
-         <span>Jurisdiction</span>
-      </a>
-   </li>
-   <li>
       <a href="#KnowledgeAsset" title="http://aiod.eu/data/KnowledgeAsset">Knowledge Asset</a>
    </li>
    <li>
       <a href="#Library" title="http://aiod.eu/data/Library">Library</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/LicenseDocument" title="http://purl.org/dc/terms/LicenseDocument">
-         <span>License Document</span>
-      </a>
    </li>
    <li>
       <a href="#Lidar" title="http://aiod.eu/data/Lidar">
@@ -332,17 +287,7 @@ This ontology has the following classes and properties.</span>
       <a href="#Location" title="http://aiod.eu/data/Location">Location</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">
-         <span>Location</span>
-      </a>
-   </li>
-   <li>
       <a href="#Map" title="http://aiod.eu/data/Map">Map</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType">
-         <span>Media Type</span>
-      </a>
    </li>
    <li>
       <a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a>
@@ -377,18 +322,8 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/PeriodOfTime" title="http://purl.org/dc/terms/PeriodOfTime">
-         <span>Period of Time</span>
-      </a>
-   </li>
-   <li>
       <a href="#Person" title="http://aiod.eu/data/Person">
          <span>Person</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/PhysicalMedium" title="http://purl.org/dc/terms/PhysicalMedium">
-         <span>Physical Medium</span>
       </a>
    </li>
    <li>
@@ -460,17 +395,10 @@ This ontology has the following classes and properties.</span>
       <a href="#Size" title="http://aiod.eu/data/Size">Size</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/SizeOrDuration" title="http://purl.org/dc/terms/SizeOrDuration">
-         <span>Size or Duration</span>
-      </a>
-   </li>
-   <li>
       <a href="#Solution" title="http://aiod.eu/data/Solution">Solution</a>
    </li>
    <li>
-      <a href="#Sonar" title="http://aiod.eu/data/Sonar">
-         <span>Sonar</span>
-      </a>
+      <a href="#Sonar" title="http://aiod.eu/data/Sonar">Sonar</a>
    </li>
    <li>
       <a href="#Standard" title="http://aiod.eu/data/Standard">Standard</a>
@@ -485,9 +413,7 @@ This ontology has the following classes and properties.</span>
       <a href="#SuccessStory" title="http://aiod.eu/data/SuccessStory">Success Story</a>
    </li>
    <li>
-      <a href="#TemperatureSensor" title="http://aiod.eu/data/TemperatureSensor">
-         <span>Temperature Sensor</span>
-      </a>
+      <a href="#TemperatureSensor" title="http://aiod.eu/data/TemperatureSensor">Temperature Sensor</a>
    </li>
    <li>
       <a href="#Training" title="http://aiod.eu/data/Training">Training</a>
@@ -535,9 +461,6 @@ This ontology has the following classes and properties.</span>
       <a href="#applies" title="http://aiod.eu/data/applies">applies</a>
    </li>
    <li>
-      <a href="#asset" title="http://aiod.eu/data/asset">asset</a>
-   </li>
-   <li>
       <a href="#business_sector" title="http://aiod.eu/data/business_sector">business sector</a>
    </li>
    <li>
@@ -556,10 +479,12 @@ This ontology has the following classes and properties.</span>
       <a href="#contact_info" title="http://aiod.eu/data/contact_info">contact info</a>
    </li>
    <li>
-      <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a>
+      <a href="#content" title="http://aiod.eu/data/content">
+         <span>content</span>
+      </a>
    </li>
    <li>
-      <a href="#cpu" title="http://aiod.eu/data/cpu">cpu</a>
+      <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a>
    </li>
    <li>
       <a href="#creator" title="http://aiod.eu/data/creator">creator</a>
@@ -606,6 +531,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#has_computational_requirement"
          title="http://aiod.eu/data/has_computational_requirement">has computational requiremnt</a>
+   </li>
+   <li>
+      <a href="#has_cpu" title="http://aiod.eu/data/has_cpu">has cpu</a>
    </li>
    <li>
       <a href="#has_fixed_equipment" title="http://aiod.eu/data/has_fixed_equipment">has fixed equipment</a>
@@ -693,13 +621,19 @@ This ontology has the following classes and properties.</span>
       <a href="#produced" title="http://aiod.eu/data/produced">produced</a>
    </li>
    <li>
-      <a href="#project" title="http://aiod.eu/data/project">project</a>
+      <a href="#related_project" title="http://aiod.eu/data/related_project">project</a>
+   </li>
+   <li>
+      <a href="#project_funder" title="http://aiod.eu/data/project_funder">project funder</a>
    </li>
    <li>
       <a href="#provider" title="http://aiod.eu/data/provider">provider</a>
    </li>
    <li>
       <a href="#refers_to" title="http://aiod.eu/data/refers_to">refers to</a>
+   </li>
+   <li>
+      <a href="#related_asset" title="http://aiod.eu/data/related_asset">related asset</a>
    </li>
    <li>
       <a href="#related_experiment" title="http://aiod.eu/data/related_experiment">related experiment</a>
@@ -717,7 +651,7 @@ This ontology has the following classes and properties.</span>
       <a href="#sameAs" title="http://aiod.eu/data/sameAs">same as</a>
    </li>
    <li>
-      <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific resource</a>
+      <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific domain</a>
    </li>
    <li>
       <a href="#showcase" title="http://aiod.eu/data/showcase">showcase</a>
@@ -771,6 +705,9 @@ This ontology has the following classes and properties.</span>
       <a href="#academic_level" title="http://aiod.eu/data/academic_level">academic level</a>
    </li>
    <li>
+      <a href="#accelerator_architecture" title="http://aiod.eu/data/accelerator_architecture">accelerator architecture</a>
+   </li>
+   <li>
       <a href="#ai_relevance" title="http://aiod.eu/data/ai_relevance">ai relevance</a>
    </li>
    <li>
@@ -783,11 +720,6 @@ This ontology has the following classes and properties.</span>
       <a href="#alternative_text" title="http://aiod.eu/data/alternative_text">alternative text</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/alternative" title="http://purl.org/dc/terms/alternative">
-         <span>Alternative Title</span>
-      </a>
-   </li>
-   <li>
       <a href="#amount" title="http://aiod.eu/data/amount">amount</a>
    </li>
    <li>
@@ -797,18 +729,10 @@ This ontology has the following classes and properties.</span>
       <a href="#announcement_page" title="http://aiod.eu/data/announcement_page">announcement page</a>
    </li>
    <li>
-      <a href="#architecture" title="http://aiod.eu/data/architecture">architecture</a>
-   </li>
-   <li>
       <a href="#award" title="http://aiod.eu/data/award">award</a>
    </li>
    <li>
       <a href="#badge" title="http://aiod.eu/data/badge">badge</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation">
-         <span>Bibliographic Citation</span>
-      </a>
    </li>
    <li>
       <a href="#checksum" title="http://aiod.eu/data/checksum">checksum</a>
@@ -841,13 +765,22 @@ This ontology has the following classes and properties.</span>
       <a href="#compilation_time_msec" title="http://aiod.eu/data/compilation_time_msec">compilation time msec</a>
    </li>
    <li>
+      <a href="#computationa_asset_type" title="http://aiod.eu/data/computationa_asset_type">computational asset type</a>
+   </li>
+   <li>
+      <a href="#computational_requirement_architecture"
+         title="http://aiod.eu/data/computational_requirement_architecture">computational requirement architecture</a>
+   </li>
+   <li>
       <a href="#conditions" title="http://aiod.eu/data/conditions">conditions</a>
    </li>
    <li>
       <a href="#configuration_standard" title="http://aiod.eu/data/configuration_standard">configuration standard</a>
    </li>
    <li>
-      <a href="#content" title="http://aiod.eu/data/content">content</a>
+      <a href="#content" title="http://aiod.eu/data/content">
+         <span>content</span>
+      </a>
    </li>
    <li>
       <a href="#content_size_kb" title="http://aiod.eu/data/content_size_kb">content size kb</a>
@@ -874,56 +807,19 @@ This ontology has the following classes and properties.</span>
       <a href="#credits" title="http://aiod.eu/data/credits">credits</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/dateAccepted" title="http://purl.org/dc/terms/dateAccepted">
-         <span>Date Accepted</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/available" title="http://purl.org/dc/terms/available">
-         <span>Date Available</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/dateCopyrighted" title="http://purl.org/dc/terms/dateCopyrighted">
-         <span>Date Copyrighted</span>
-      </a>
+      <a href="#dataset_type" title="http://aiod.eu/data/dataset_type">dataset type</a>
    </li>
    <li>
       <a href="#date_created" title="http://aiod.eu/data/date_created">date created</a>
    </li>
    <li>
-      <a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created">
-         <span>Date Created</span>
-      </a>
-   </li>
-   <li>
       <a href="#date_founded" title="http://aiod.eu/data/date_founded">date founded</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
-         <span>Date Issued</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
-         <span>Date Modified</span>
-      </a>
    </li>
    <li>
       <a href="#date_modified" title="http://aiod.eu/data/date_modified">date motdified</a>
    </li>
    <li>
       <a href="#date_published" title="http://aiod.eu/data/date_published">date published</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/dateSubmitted" title="http://purl.org/dc/terms/dateSubmitted">
-         <span>Date Submitted</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/valid" title="http://purl.org/dc/terms/valid">
-         <span>Date Valid</span>
-      </a>
    </li>
    <li>
       <a href="#deployment_process" title="http://aiod.eu/data/deployment_process">deployment process</a>
@@ -1008,6 +904,9 @@ This ontology has the following classes and properties.</span>
       <a href="#has_issn" title="http://aiod.eu/data/has_issn">has issn</a>
    </li>
    <li>
+      <a href="#has_os" title="http://aiod.eu/data/has_os">has os</a>
+   </li>
+   <li>
       <a href="#headline" title="http://aiod.eu/data/headline">headline</a>
    </li>
    <li>
@@ -1030,9 +929,6 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#keyword" title="http://aiod.eu/data/keyword">keyword</a>
-   </li>
-   <li>
-      <a href="#languages" title="http://aiod.eu/data/languages">languages</a>
    </li>
    <li>
       <a href="#latitude" title="http://aiod.eu/data/latitude">latitude</a>
@@ -1085,15 +981,13 @@ This ontology has the following classes and properties.</span>
       <a href="#name" title="http://aiod.eu/data/name">name</a>
    </li>
    <li>
+      <a href="#news_status" title="http://aiod.eu/data/news_status">news status</a>
+   </li>
+   <li>
       <a href="#num_cpu_cores" title="http://aiod.eu/data/num_cpu_cores">num cpu cores</a>
    </li>
    <li>
       <a href="#number" title="http://aiod.eu/data/number">number</a>
-   </li>
-   <li>
-      <a href="#number_of_employees" title="http://aiod.eu/data/number_of_employees">
-         <span>number of employees</span>
-      </a>
    </li>
    <li>
       <a href="#offered_via" title="http://aiod.eu/data/offered_via">offered via</a>
@@ -1108,7 +1002,7 @@ This ontology has the following classes and properties.</span>
       <a href="#optional_qualifications" title="http://aiod.eu/data/optional_qualifications">optional qualifications</a>
    </li>
    <li>
-      <a href="#os" title="http://aiod.eu/data/os">os</a>
+      <a href="#organisation_type" title="http://aiod.eu/data/organisation_type">organisation type</a>
    </li>
    <li>
       <a href="#pid" title="http://aiod.eu/data/pid">pid</a>
@@ -1165,6 +1059,9 @@ This ontology has the following classes and properties.</span>
       <a href="#source" title="http://aiod.eu/data/source">source</a>
    </li>
    <li>
+      <a href="#speak_languages" title="http://aiod.eu/data/speak_languages">speak languages</a>
+   </li>
+   <li>
       <a href="#start_date" title="http://aiod.eu/data/start_date">start date</a>
    </li>
    <li>
@@ -1181,6 +1078,9 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#submission_platform" title="http://aiod.eu/data/submission_platform">submission platform</a>
+   </li>
+   <li>
+      <a href="#support_languages" title="http://aiod.eu/data/support_languages">support languages</a>
    </li>
    <li>
       <a href="#technology_readiness_level" title="http://aiod.eu/data/technology_readiness_level">technology readiness level</a>
@@ -1241,6 +1141,9 @@ This ontology has the following classes and properties.</span>
          title="http://aiod.eu/data/workflow_configuration_standard">workflow configuration standard</a>
    </li>
    <li>
+      <a href="#workflow_execution_status" title="http://aiod.eu/data/workflow_execution_status">workflow execution status</a>
+   </li>
+   <li>
       <a href="#workflow_specification" title="http://aiod.eu/data/workflow_specification">workflow specification</a>
    </li>
    <li>
@@ -1253,55 +1156,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#write_bandwidth" title="http://aiod.eu/data/write_bandwidth">write bandwidth</a>
    </li>
-</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    class="hlist">
-   <li>
-      <a href="#http://purl.org/dc/terms/Agent" title="http://purl.org/dc/terms/Agent">
-         <span>Agent</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/DCMIType" title="http://purl.org/dc/terms/DCMIType">DCMI Type Vocabulary</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/DDC" title="http://purl.org/dc/terms/DDC">DDC</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/IMT" title="http://purl.org/dc/terms/IMT">IMT</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/instructionalMethod" title="http://purl.org/dc/terms/instructionalMethod">Instructional Method</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/LCC" title="http://purl.org/dc/terms/LCC">LCC</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/LCSH" title="http://purl.org/dc/terms/LCSH">LCSH</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/MESH" title="http://purl.org/dc/terms/MESH">MeSH</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/NLM" title="http://purl.org/dc/terms/NLM">NLM</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/provenance" title="http://purl.org/dc/terms/provenance">Provenance</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/rightsHolder" title="http://purl.org/dc/terms/rightsHolder">Rights Holder</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/" title="http://purl.org/dc/terms/">
-         <span>terms:</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/TGN" title="http://purl.org/dc/terms/TGN">TGN</a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/UDC" title="http://purl.org/dc/terms/UDC">UDC</a>
-   </li>
 </ul><iframe src="webvowl/index.html"></iframe> 
 </div>
   
@@ -1309,7 +1163,7 @@ This ontology has the following classes and properties.</span>
 <!--DESCRIPTION SECTION-->
     <div id="description"><h2 id="desc" class="list">AIoD Metadata Model: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 
-<span class="markdown">AIoD Metadata Model represents concepts and relationships related to AI assets and resources.</span></div>
+<span class="markdown">The metadata model defines a structured hierarchy of AIoD Concepts. The notion of AIoD Concept entails AIResources, which is analysed in, firstly, AI Assets, an abstraction for different types of technical and informational assets accessible and usable from the interested audiences; and secondly, other Ecosystem Resources that are not assets per se, but are closely related to them and can be sources of information or guidance (e.g., people and institutions, projects and networks, etc.). Lastly, the model includes concepts that are not directly related to AI but are required to provide further context for assets and resources, like locations, constructs to model the size of an asset, etc.</span></div>
    
 
 <!--CROSSREF SECTION-->
@@ -1322,7 +1176,6 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#Actor" title="http://aiod.eu/data/Actor">Actor</a></li>
   <li><a href="#Actuation" title="http://aiod.eu/data/Actuation">Actuation</a></li>
   <li><a href="#Agent" title="http://aiod.eu/data/Agent"> <span>Agent</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/AgentClass" title="http://purl.org/dc/terms/AgentClass"> <span>Agent Class</span> </a></li>
   <li><a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a></li>
   <li><a href="#AIResource" title="http://aiod.eu/data/AIResource">AI Resource</a></li>
   <li><a href="#AIoDConcept" title="http://aiod.eu/data/AIoDConcept">AIoD Concept</a></li>
@@ -1363,23 +1216,18 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#Event" title="http://aiod.eu/data/Event">Event</a></li>
   <li><a href="#Experiment" title="http://aiod.eu/data/Experiment">Experiment</a></li>
   <li><a href="#ExperimentExecution" title="http://aiod.eu/data/ExperimentExecution">Experiment Execution</a></li>
-  <li><a href="#ExpertGroup" title="http://aiod.eu/data/ExpertGroup"> <span>Expert Group</span> </a></li>
+  <li><a href="#ExpertGroup" title="http://aiod.eu/data/ExpertGroup">Expert Group</a></li>
   <li><a href="#Expertise" title="http://aiod.eu/data/Expertise">Expertise</a></li>
-  <li><a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat"> <span>File Format</span> </a></li>
   <li><a href="#FundingOpportunity" title="http://aiod.eu/data/FundingOpportunity">Funding Opportunity</a></li>
   <li><a href="#Image" title="http://aiod.eu/data/Image">Image</a></li>
   <li><a href="#InformationalService" title="http://aiod.eu/data/InformationalService">Informational Service</a></li>
   <li><a href="#InnovationService" title="http://aiod.eu/data/InnovationService">Innovation Service</a></li>
   <li><a href="#JobAnnouncement" title="http://aiod.eu/data/JobAnnouncement">Job Announcement</a></li>
-  <li><a href="#http://purl.org/dc/terms/Jurisdiction" title="http://purl.org/dc/terms/Jurisdiction"> <span>Jurisdiction</span> </a></li>
   <li><a href="#KnowledgeAsset" title="http://aiod.eu/data/KnowledgeAsset">Knowledge Asset</a></li>
   <li><a href="#Library" title="http://aiod.eu/data/Library">Library</a></li>
-  <li><a href="#http://purl.org/dc/terms/LicenseDocument" title="http://purl.org/dc/terms/LicenseDocument"> <span>License Document</span> </a></li>
   <li><a href="#Lidar" title="http://aiod.eu/data/Lidar"> <span>Lidar</span> </a></li>
   <li><a href="#Location" title="http://aiod.eu/data/Location">Location</a></li>
-  <li><a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location"> <span>Location</span> </a></li>
   <li><a href="#Map" title="http://aiod.eu/data/Map">Map</a></li>
-  <li><a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType"> <span>Media Type</span> </a></li>
   <li><a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a></li>
   <li><a href="#MLModel" title="http://aiod.eu/data/MLModel">ML Model</a></li>
   <li><a href="#Model" title="http://aiod.eu/data/Model">Model</a></li>
@@ -1390,9 +1238,7 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#OpenCallProject" title="http://aiod.eu/data/OpenCallProject">Open Call Project</a></li>
   <li><a href="#Operation" title="http://aiod.eu/data/Operation">Operation</a></li>
   <li><a href="#Organisation" title="http://aiod.eu/data/Organisation"> <span>Organisation</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/PeriodOfTime" title="http://purl.org/dc/terms/PeriodOfTime"> <span>Period of Time</span> </a></li>
   <li><a href="#Person" title="http://aiod.eu/data/Person"> <span>Person</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/PhysicalMedium" title="http://purl.org/dc/terms/PhysicalMedium"> <span>Physical Medium</span> </a></li>
   <li><a href="#PlatformAccount" title="http://aiod.eu/data/PlatformAccount">Platform Account</a></li>
   <li><a href="#Presentation" title="http://aiod.eu/data/Presentation">Presentation</a></li>
   <li><a href="#Problem" title="http://aiod.eu/data/Problem">Problem</a></li>
@@ -1415,14 +1261,13 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#Sensor" title="http://aiod.eu/data/Sensor">Sensor</a></li>
   <li><a href="#Service" title="http://aiod.eu/data/Service">Service</a></li>
   <li><a href="#Size" title="http://aiod.eu/data/Size">Size</a></li>
-  <li><a href="#http://purl.org/dc/terms/SizeOrDuration" title="http://purl.org/dc/terms/SizeOrDuration"> <span>Size or Duration</span> </a></li>
   <li><a href="#Solution" title="http://aiod.eu/data/Solution">Solution</a></li>
-  <li><a href="#Sonar" title="http://aiod.eu/data/Sonar"> <span>Sonar</span> </a></li>
+  <li><a href="#Sonar" title="http://aiod.eu/data/Sonar">Sonar</a></li>
   <li><a href="#Standard" title="http://aiod.eu/data/Standard">Standard</a></li>
   <li><a href="#Storage" title="http://aiod.eu/data/Storage">Storage</a></li>
   <li><a href="#StorageAsset" title="http://aiod.eu/data/StorageAsset">Storage Asset</a></li>
   <li><a href="#SuccessStory" title="http://aiod.eu/data/SuccessStory">Success Story</a></li>
-  <li><a href="#TemperatureSensor" title="http://aiod.eu/data/TemperatureSensor"> <span>Temperature Sensor</span> </a></li>
+  <li><a href="#TemperatureSensor" title="http://aiod.eu/data/TemperatureSensor">Temperature Sensor</a></li>
   <li><a href="#Training" title="http://aiod.eu/data/Training">Training</a></li>
   <li><a href="#Tutorial" title="http://aiod.eu/data/Tutorial">Tutorial</a></li>
   <li><a href="#Video" title="http://aiod.eu/data/Video">Video</a></li>
@@ -1448,7 +1293,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#cores" title="http://aiod.eu/data/cores">cores</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#memory" title="http://aiod.eu/data/memory">memory</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#accelerator_architecture" title="http://aiod.eu/data/accelerator_architecture">accelerator architecture</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#cores" title="http://aiod.eu/data/cores">cores</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#memory" title="http://aiod.eu/data/memory">memory</a> <sup class="type-op" title="object property">op</sup>, <a href="#model_name" title="http://aiod.eu/data/model_name">model name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#vendor" title="http://aiod.eu/data/vendor">vendor</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -1536,30 +1381,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dd>
   </dl>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/AgentClass">
-  <h3>Agent Class<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/AgentClass</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://www.w3.org/2000/01/rdf-schema#Class" target="_blank" title="http://www.w3.org/2000/01/rdf-schema#Class">Class</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has members
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/Agent" title="http://purl.org/dc/terms/Agent">Agent</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="AIAsset">
   <h3>AI Asset<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/AIAsset</p>
@@ -1589,7 +1410,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in range of
    </dt>
    <dd>
-    <a href="#asset" title="http://aiod.eu/data/asset">asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#other_dependency" title="http://aiod.eu/data/other_dependency">other dependency</a> <sup class="type-op" title="object property">op</sup>, <a href="#produced" title="http://aiod.eu/data/produced">produced</a> <sup class="type-op" title="object property">op</sup>, <a href="#software_dependency" title="http://aiod.eu/data/software_dependency">software depedency</a> <sup class="type-op" title="object property">op</sup>, <a href="#used" title="http://aiod.eu/data/used">used</a> <sup class="type-op" title="object property">op</sup>, <a href="#uses_asset" title="http://aiod.eu/data/uses_asset">uses asset</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#other_dependency" title="http://aiod.eu/data/other_dependency">other dependency</a> <sup class="type-op" title="object property">op</sup>, <a href="#produced" title="http://aiod.eu/data/produced">produced</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_asset" title="http://aiod.eu/data/related_asset">related asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#software_dependency" title="http://aiod.eu/data/software_dependency">software depedency</a> <sup class="type-op" title="object property">op</sup>, <a href="#used" title="http://aiod.eu/data/used">used</a> <sup class="type-op" title="object property">op</sup>, <a href="#uses_asset" title="http://aiod.eu/data/uses_asset">uses asset</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -1622,7 +1443,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#aiod_entry" title="http://aiod.eu/data/aiod_entry">aiod entry</a> <sup class="type-op" title="object property">op</sup>, <a href="#alternate_name" title="http://aiod.eu/data/alternate_name">alternative name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#business_sector" title="http://aiod.eu/data/business_sector">business sector</a> <sup class="type-op" title="object property">op</sup>, <a href="#contact" title="http://aiod.eu/data/contact">contact</a> <sup class="type-op" title="object property">op</sup>, <a href="#description" title="http://aiod.eu/data/description">description</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#documented_in" title="http://aiod.eu/data/documented_in">documented in</a> <sup class="type-op" title="object property">op</sup>, <a href="#has_part" title="http://aiod.eu/data/has_part">has part</a> <sup class="type-op" title="object property">op</sup>, <a href="#keyword" title="http://aiod.eu/data/keyword">keyword</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#location" title="http://aiod.eu/data/location">location</a> <sup class="type-op" title="object property">op</sup>, <a href="#media" title="http://aiod.eu/data/media">media</a> <sup class="type-op" title="object property">op</sup>, <a href="#name" title="http://aiod.eu/data/name">name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#part_of" title="http://aiod.eu/data/part_of">part of</a> <sup class="type-op" title="object property">op</sup>, <a href="#research_area" title="http://aiod.eu/data/research_area">research area</a> <sup class="type-op" title="object property">op</sup>, <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific resource</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#aiod_entry" title="http://aiod.eu/data/aiod_entry">aiod entry</a> <sup class="type-op" title="object property">op</sup>, <a href="#alternate_name" title="http://aiod.eu/data/alternate_name">alternative name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#business_sector" title="http://aiod.eu/data/business_sector">business sector</a> <sup class="type-op" title="object property">op</sup>, <a href="#contact" title="http://aiod.eu/data/contact">contact</a> <sup class="type-op" title="object property">op</sup>, <a href="#description" title="http://aiod.eu/data/description">description</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#documented_in" title="http://aiod.eu/data/documented_in">documented in</a> <sup class="type-op" title="object property">op</sup>, <a href="#has_part" title="http://aiod.eu/data/has_part">has part</a> <sup class="type-op" title="object property">op</sup>, <a href="#keyword" title="http://aiod.eu/data/keyword">keyword</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#location" title="http://aiod.eu/data/location">location</a> <sup class="type-op" title="object property">op</sup>, <a href="#media" title="http://aiod.eu/data/media">media</a> <sup class="type-op" title="object property">op</sup>, <a href="#name" title="http://aiod.eu/data/name">name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#part_of" title="http://aiod.eu/data/part_of">part of</a> <sup class="type-op" title="object property">op</sup>, <a href="#research_area" title="http://aiod.eu/data/research_area">research area</a> <sup class="type-op" title="object property">op</sup>, <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific domain</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
@@ -1676,7 +1497,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#content" title="http://aiod.eu/data/content">content</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#editor" title="http://aiod.eu/data/editor">editor</a> <sup class="type-op" title="object property">op</sup>, <a href="#entry_created" title="http://aiod.eu/data/entry_created">entry created</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#entry_published" title="http://aiod.eu/data/entry_published">entry published</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#modified" title="http://aiod.eu/data/modified">modified</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#status" title="http://aiod.eu/data/status">status</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#content" title="http://aiod.eu/data/content">content</a> <sup class="type-op" title="object property">op</sup>, <a href="#editor" title="http://aiod.eu/data/editor">editor</a> <sup class="type-op" title="object property">op</sup>, <a href="#entry_created" title="http://aiod.eu/data/entry_created">entry created</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#entry_published" title="http://aiod.eu/data/entry_published">entry published</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#modified" title="http://aiod.eu/data/modified">modified</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#status" title="http://aiod.eu/data/status">status</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -1731,6 +1552,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="Assessment">
   <h3>Assessment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/Assessment</p>
+  <div class="comment">
+   <span class="markdown">A systematic process of analysis used to determine characteristics, performance, or compliance of an entity, system, or condition.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -1982,7 +1806,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#kernel" title="http://aiod.eu/data/kernel">kernel</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#os" title="http://aiod.eu/data/os">os</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#pricing_scheme" title="http://aiod.eu/data/pricing_scheme">pricing scheme</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#computationa_asset_type" title="http://aiod.eu/data/computationa_asset_type">computational asset type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_cpu" title="http://aiod.eu/data/has_cpu">has cpu</a> <sup class="type-op" title="object property">op</sup>, <a href="#has_os" title="http://aiod.eu/data/has_os">has os</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#kernel" title="http://aiod.eu/data/kernel">kernel</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#memory" title="http://aiod.eu/data/memory">memory</a> <sup class="type-op" title="object property">op</sup>, <a href="#pricing_scheme" title="http://aiod.eu/data/pricing_scheme">pricing scheme</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#storage" title="http://aiod.eu/data/storage">storage</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -2003,7 +1827,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#accelerator" title="http://aiod.eu/data/accelerator">accelerator</a> <sup class="type-op" title="object property">op</sup>, <a href="#architecture" title="http://aiod.eu/data/architecture">architecture</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#cpu" title="http://aiod.eu/data/cpu">cpu</a> <sup class="type-op" title="object property">op</sup>, <a href="#memory" title="http://aiod.eu/data/memory">memory</a> <sup class="type-op" title="object property">op</sup>, <a href="#storage" title="http://aiod.eu/data/storage">storage</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#accelerator" title="http://aiod.eu/data/accelerator">accelerator</a> <sup class="type-op" title="object property">op</sup>, <a href="#computational_requirement_architecture" title="http://aiod.eu/data/computational_requirement_architecture">computational requirement architecture</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_cpu" title="http://aiod.eu/data/has_cpu">has cpu</a> <sup class="type-op" title="object property">op</sup>, <a href="#has_os" title="http://aiod.eu/data/has_os">has os</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#memory" title="http://aiod.eu/data/memory">memory</a> <sup class="type-op" title="object property">op</sup>, <a href="#storage" title="http://aiod.eu/data/storage">storage</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
@@ -2141,7 +1965,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in range of
    </dt>
    <dd>
-    <a href="#cpu" title="http://aiod.eu/data/cpu">cpu</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#has_cpu" title="http://aiod.eu/data/has_cpu">has cpu</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -2207,7 +2031,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#funder" title="http://aiod.eu/data/funder">funder</a> <sup class="type-op" title="object property">op</sup>, <a href="#measurement_technique" title="http://aiod.eu/data/measurement_technique">measurement technique</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#pid" title="http://aiod.eu/data/pid">pid</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#size" title="http://aiod.eu/data/size">size</a> <sup class="type-op" title="object property">op</sup>, <a href="#spatial_coverage" title="http://aiod.eu/data/spatial_coverage">spatial coverage</a> <sup class="type-op" title="object property">op</sup>, <a href="#temporal_coverage" title="http://aiod.eu/data/temporal_coverage">temporal coverage</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#variable_measured" title="http://aiod.eu/data/variable_measured">variable measured</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#dataset_type" title="http://aiod.eu/data/dataset_type">dataset type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#funder" title="http://aiod.eu/data/funder">funder</a> <sup class="type-op" title="object property">op</sup>, <a href="#measurement_technique" title="http://aiod.eu/data/measurement_technique">measurement technique</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#pid" title="http://aiod.eu/data/pid">pid</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#size" title="http://aiod.eu/data/size">size</a> <sup class="type-op" title="object property">op</sup>, <a href="#spatial_coverage" title="http://aiod.eu/data/spatial_coverage">spatial coverage</a> <sup class="type-op" title="object property">op</sup>, <a href="#temporal_coverage" title="http://aiod.eu/data/temporal_coverage">temporal coverage</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#variable_measured" title="http://aiod.eu/data/variable_measured">variable measured</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -2285,7 +2109,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#checksum" title="http://aiod.eu/data/checksum">checksum</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#checksum_algorithm" title="http://aiod.eu/data/checksum_algorithm">checksum algorithm</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#content_url" title="http://aiod.eu/data/content_url">content url</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_modified" title="http://aiod.eu/data/date_modified">date motdified</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_published" title="http://aiod.eu/data/date_published">date published</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#encoding_format" title="http://aiod.eu/data/encoding_format">encoding format</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_computational_requirement" title="http://aiod.eu/data/has_computational_requirement">has computational requiremnt</a> <sup class="type-op" title="object property">op</sup>, <a href="#technology_readiness_level" title="http://aiod.eu/data/technology_readiness_level">technology readiness level</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#checksum" title="http://aiod.eu/data/checksum">checksum</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#checksum_algorithm" title="http://aiod.eu/data/checksum_algorithm">checksum algorithm</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#content_size_kb" title="http://aiod.eu/data/content_size_kb">content size kb</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#content_url" title="http://aiod.eu/data/content_url">content url</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_created" title="http://aiod.eu/data/date_created">date created</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_modified" title="http://aiod.eu/data/date_modified">date motdified</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_published" title="http://aiod.eu/data/date_published">date published</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#encoding_format" title="http://aiod.eu/data/encoding_format">encoding format</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_computational_requirement" title="http://aiod.eu/data/has_computational_requirement">has computational requiremnt</a> <sup class="type-op" title="object property">op</sup>, <a href="#technology_readiness_level" title="http://aiod.eu/data/technology_readiness_level">technology readiness level</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -2362,7 +2186,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>Educational Resource<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/EducationalResource</p>
   <div class="comment">
-   <span class="markdown">An AI Asset designed for educational purposes.</span>
+   <span class="markdown">A resource designed for educational purposes.</span>
   </div>
   <dl class="description">
    <dt>
@@ -2402,7 +2226,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#asset" title="http://aiod.eu/data/asset">asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#duration" title="http://aiod.eu/data/duration">duration</a> <sup class="type-op" title="object property">op</sup>, <a href="#event_mode" title="http://aiod.eu/data/event_mode">event mode</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#event_status" title="http://aiod.eu/data/event_status">event status</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#organiser" title="http://aiod.eu/data/organiser">organiser</a> <sup class="type-op" title="object property">op</sup>, <a href="#performer" title="http://aiod.eu/data/performer">performer</a> <sup class="type-op" title="object property">op</sup>, <a href="#project" title="http://aiod.eu/data/project">project</a> <sup class="type-op" title="object property">op</sup>, <a href="#registration_link" title="http://aiod.eu/data/registration_link">registration link</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#duration" title="http://aiod.eu/data/duration">duration</a> <sup class="type-op" title="object property">op</sup>, <a href="#end_date" title="http://aiod.eu/data/end_date">end date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#event_mode" title="http://aiod.eu/data/event_mode">event mode</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#event_status" title="http://aiod.eu/data/event_status">event status</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#organiser" title="http://aiod.eu/data/organiser">organiser</a> <sup class="type-op" title="object property">op</sup>, <a href="#performer" title="http://aiod.eu/data/performer">performer</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_project" title="http://aiod.eu/data/related_project">project</a> <sup class="type-op" title="object property">op</sup>, <a href="#registration_link" title="http://aiod.eu/data/registration_link">registration link</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#related_asset" title="http://aiod.eu/data/related_asset">related asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#schedule" title="http://aiod.eu/data/schedule">schedule</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#start_date" title="http://aiod.eu/data/start_date">start date</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
   </dl>
  </div>
@@ -2484,24 +2308,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dd>
   </dl>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/FileFormat">
-  <h3>File Format<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/FileFormat</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType">Media Type</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="FundingOpportunity">
   <h3>Funding Opportunity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/FundingOpportunity</p>
@@ -2519,7 +2325,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#announcement_page" title="http://aiod.eu/data/announcement_page">announcement page</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#closing_date" title="http://aiod.eu/data/closing_date">closing date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#funding_opportunity_type" title="http://aiod.eu/data/funding_opportunity_type">funding opportunity type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#maximum_contribution" title="http://aiod.eu/data/maximum_contribution">maximum contribution</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#minimum_contribution" title="http://aiod.eu/data/minimum_contribution">minimum contribution</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#opening_date" title="http://aiod.eu/data/opening_date">opening date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#submission_platform" title="http://aiod.eu/data/submission_platform">submission platform</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#announcement_page" title="http://aiod.eu/data/announcement_page">announcement page</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#closing_date" title="http://aiod.eu/data/closing_date">closing date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#funder" title="http://aiod.eu/data/funder">funder</a> <sup class="type-op" title="object property">op</sup>, <a href="#funding_opportunity_type" title="http://aiod.eu/data/funding_opportunity_type">funding opportunity type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#maximum_contribution" title="http://aiod.eu/data/maximum_contribution">maximum contribution</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#minimum_contribution" title="http://aiod.eu/data/minimum_contribution">minimum contribution</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#opening_date" title="http://aiod.eu/data/opening_date">opening date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#submission_platform" title="http://aiod.eu/data/submission_platform">submission platform</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
   </dl>
  </div>
@@ -2591,25 +2397,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#issuer" title="http://aiod.eu/data/issuer">issuer</a> <sup class="type-op" title="object property">op</sup>, <a href="#job_title" title="http://aiod.eu/data/job_title">job title</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#mandatory_qualifications" title="http://aiod.eu/data/mandatory_qualifications">mandatory qualifications</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#optional_qualifications" title="http://aiod.eu/data/optional_qualifications">optional qualifications</a> <sup class="type-dp" title="data property">dp</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/Jurisdiction">
-  <h3>Jurisdiction<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/Jurisdiction</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction" target="_blank" title="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
+    <a href="#closing_date" title="http://aiod.eu/data/closing_date">closing date</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#issuer" title="http://aiod.eu/data/issuer">issuer</a> <sup class="type-op" title="object property">op</sup>, <a href="#job_title" title="http://aiod.eu/data/job_title">job title</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#mandatory_qualifications" title="http://aiod.eu/data/mandatory_qualifications">mandatory qualifications</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#optional_qualifications" title="http://aiod.eu/data/optional_qualifications">optional qualifications</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
   </dl>
  </div>
@@ -2658,24 +2446,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dd>
   </dl>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/LicenseDocument">
-  <h3>License Document<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/LicenseDocument</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/RightsStatement" target="_blank" title="http://purl.org/dc/terms/RightsStatement">Rights Statement</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="Lidar">
   <h3>Lidar<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/Lidar</p>
@@ -2699,7 +2469,7 @@ This section provides details for each class and property defined by AIoD Metada
     is equivalent to
    </dt>
    <dd>
-    <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">Location</a> <sup class="type-c" title="class">c</sup>
+    <a href="http://purl.org/dc/terms/Location" target="_blank" title="http://purl.org/dc/terms/Location">Location</a> <sup class="type-c" title="class">c</sup>
    </dd>
    <dt>
     has super-classes
@@ -2721,24 +2491,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dd>
   </dl>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/Location">
-  <h3>Location<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/Location</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction" target="_blank" title="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="Map">
   <h3>Map<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/Map</p>
@@ -2748,30 +2500,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dt>
    <dd>
     <a href="#RobotModel" title="http://aiod.eu/data/RobotModel">Robot Model</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/MediaType">
-  <h3>Media Type<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/MediaType</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/MediaTypeOrExtent" target="_blank" title="http://purl.org/dc/terms/MediaTypeOrExtent">Media Type or Extent</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has sub-classes
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat">File Format</a> <sup class="type-c" title="class">c</sup>, <a href="#http://purl.org/dc/terms/PhysicalMedium" title="http://purl.org/dc/terms/PhysicalMedium">Physical Medium</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
    </dd>
   </dl>
  </div>
@@ -2927,7 +2655,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#alternative_headline" title="http://aiod.eu/data/alternative_headline">alternative headline</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#asset" title="http://aiod.eu/data/asset">asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#category" title="http://aiod.eu/data/category">category</a> <sup class="type-op" title="object property">op</sup>, <a href="#headline" title="http://aiod.eu/data/headline">headline</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#includes_media" title="http://aiod.eu/data/includes_media">includes media</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_news" title="http://aiod.eu/data/related_news">related news</a> <sup class="type-op" title="object property">op</sup>, <a href="#source" title="http://aiod.eu/data/source">source</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#alternative_headline" title="http://aiod.eu/data/alternative_headline">alternative headline</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#category" title="http://aiod.eu/data/category">category</a> <sup class="type-op" title="object property">op</sup>, <a href="#headline" title="http://aiod.eu/data/headline">headline</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#includes_media" title="http://aiod.eu/data/includes_media">includes media</a> <sup class="type-op" title="object property">op</sup>, <a href="#news_status" title="http://aiod.eu/data/news_status">news status</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#related_project" title="http://aiod.eu/data/related_project">project</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_asset" title="http://aiod.eu/data/related_asset">related asset</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_news" title="http://aiod.eu/data/related_news">related news</a> <sup class="type-op" title="object property">op</sup>, <a href="#source" title="http://aiod.eu/data/source">source</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -3005,6 +2733,12 @@ This section provides details for each class and property defined by AIoD Metada
   </div>
   <dl class="description">
    <dt>
+    is equivalent to
+   </dt>
+   <dd>
+    <a href="http://xmlns.com/foaf/0.1/Organisation" target="_blank" title="http://xmlns.com/foaf/0.1/Organisation">Organisation</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
     has super-classes
    </dt>
    <dd>
@@ -3014,31 +2748,13 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#ai_relevance" title="http://aiod.eu/data/ai_relevance">ai relevance</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_founded" title="http://aiod.eu/data/date_founded">date founded</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#legal_name" title="http://aiod.eu/data/legal_name">legal name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#member" title="http://aiod.eu/data/member">member</a> <sup class="type-op" title="object property">op</sup>, <a href="#number_of_employees" title="http://aiod.eu/data/number_of_employees">number of employees</a> <sup class="type-op" title="object property">op</sup>, <a href="#turnover" title="http://aiod.eu/data/turnover">turnover</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#ai_relevance" title="http://aiod.eu/data/ai_relevance">ai relevance</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#date_founded" title="http://aiod.eu/data/date_founded">date founded</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#legal_name" title="http://aiod.eu/data/legal_name">legal name</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#member" title="http://aiod.eu/data/member">member</a> <sup class="type-op" title="object property">op</sup>, <a href="#number_of_employees" title="http://aiod.eu/data/number_of_employees">number of employees</a> <sup class="type-op" title="object property">op</sup>, <a href="#organisation_type" title="http://aiod.eu/data/organisation_type">organisation type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#turnover" title="http://aiod.eu/data/turnover">turnover</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a> <sup class="type-op" title="object property">op</sup>, <a href="#issuer" title="http://aiod.eu/data/issuer">issuer</a> <sup class="type-op" title="object property">op</sup>, <a href="#member_of" title="http://aiod.eu/data/member_of">member of</a> <sup class="type-op" title="object property">op</sup>, <a href="#offered_by" title="http://aiod.eu/data/offered_by">offered by</a> <sup class="type-op" title="object property">op</sup>, <a href="#participant" title="http://aiod.eu/data/participant">participant</a> <sup class="type-op" title="object property">op</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/PeriodOfTime">
-  <h3>Period of Time<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/PeriodOfTime</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction" target="_blank" title="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
+    <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a> <sup class="type-op" title="object property">op</sup>, <a href="#issuer" title="http://aiod.eu/data/issuer">issuer</a> <sup class="type-op" title="object property">op</sup>, <a href="#member_of" title="http://aiod.eu/data/member_of">member of</a> <sup class="type-op" title="object property">op</sup>, <a href="#offered_by" title="http://aiod.eu/data/offered_by">offered by</a> <sup class="type-op" title="object property">op</sup>, <a href="#participant" title="http://aiod.eu/data/participant">participant</a> <sup class="type-op" title="object property">op</sup>, <a href="#project_funder" title="http://aiod.eu/data/project_funder">project funder</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -3065,31 +2781,13 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#languages" title="http://aiod.eu/data/languages">languages</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#member_of" title="http://aiod.eu/data/member_of">member of</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#member_of" title="http://aiod.eu/data/member_of">member of</a> <sup class="type-op" title="object property">op</sup>, <a href="#speak_languages" title="http://aiod.eu/data/speak_languages">speak languages</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
     <a href="#contact" title="http://aiod.eu/data/contact">contact</a> <sup class="type-op" title="object property">op</sup>, <a href="#taught_by" title="http://aiod.eu/data/taught_by">taught by</a> <sup class="type-op" title="object property">op</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/PhysicalMedium">
-  <h3>Physical Medium<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/PhysicalMedium</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType">Media Type</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
    </dd>
   </dl>
  </div>
@@ -3191,13 +2889,13 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a> <sup class="type-op" title="object property">op</sup>, <a href="#participant" title="http://aiod.eu/data/participant">participant</a> <sup class="type-op" title="object property">op</sup>, <a href="#produced" title="http://aiod.eu/data/produced">produced</a> <sup class="type-op" title="object property">op</sup>, <a href="#total_cost_euros" title="http://aiod.eu/data/total_cost_euros">total cost euros</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#used" title="http://aiod.eu/data/used">used</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a> <sup class="type-op" title="object property">op</sup>, <a href="#participant" title="http://aiod.eu/data/participant">participant</a> <sup class="type-op" title="object property">op</sup>, <a href="#produced" title="http://aiod.eu/data/produced">produced</a> <sup class="type-op" title="object property">op</sup>, <a href="#project_funder" title="http://aiod.eu/data/project_funder">project funder</a> <sup class="type-op" title="object property">op</sup>, <a href="#total_cost_euros" title="http://aiod.eu/data/total_cost_euros">total cost euros</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#used" title="http://aiod.eu/data/used">used</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#parent_project" title="http://aiod.eu/data/parent_project">parent project</a> <sup class="type-op" title="object property">op</sup>, <a href="#project" title="http://aiod.eu/data/project">project</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#parent_project" title="http://aiod.eu/data/parent_project">parent project</a> <sup class="type-op" title="object property">op</sup>, <a href="#related_project" title="http://aiod.eu/data/related_project">project</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -3236,7 +2934,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#has_isbn" title="http://aiod.eu/data/has_isbn">has isbn</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_issn" title="http://aiod.eu/data/has_issn">has issn</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#has_isbn" title="http://aiod.eu/data/has_isbn">has isbn</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#has_issn" title="http://aiod.eu/data/has_issn">has issn</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#pid" title="http://aiod.eu/data/pid">pid</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -3276,6 +2974,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="Requirement">
   <h3>Requirement<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/Requirement</p>
+  <div class="comment">
+   <span class="markdown">A necessary condition, constraint, or capability specified for achieving a particular goal or fulfilling a function.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3351,6 +3052,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="Risk">
   <h3>Risk<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/Risk</p>
+  <div class="comment">
+   <span class="markdown">The possibility of harm or other adverse effects resulting from a given action, process, or condition.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3416,7 +3120,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#compilation_process" title="http://aiod.eu/data/compilation_process">compilation process</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#compilation_time_msec" title="http://aiod.eu/data/compilation_time_msec">compilation time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#deployment_process" title="http://aiod.eu/data/deployment_process">deployment process</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#deployment_time_msec" title="http://aiod.eu/data/deployment_time_msec">deployment time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#execution_time_msec" title="http://aiod.eu/data/execution_time_msec">execution time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#hardware_requirement" title="http://aiod.eu/data/hardware_requirement">hardware requirement</a> <sup class="type-op" title="object property">op</sup>, <a href="#os_requirement" title="http://aiod.eu/data/os_requirement">os requirement</a> <sup class="type-op" title="object property">op</sup>, <a href="#other_dependency" title="http://aiod.eu/data/other_dependency">other dependency</a> <sup class="type-op" title="object property">op</sup>, <a href="#software_dependency" title="http://aiod.eu/data/software_dependency">software depedency</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#compilation_process" title="http://aiod.eu/data/compilation_process">compilation process</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#compilation_time_msec" title="http://aiod.eu/data/compilation_time_msec">compilation time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#deployment_process" title="http://aiod.eu/data/deployment_process">deployment process</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#deployment_time_msec" title="http://aiod.eu/data/deployment_time_msec">deployment time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#execution_time_msec" title="http://aiod.eu/data/execution_time_msec">execution time msec</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#hardware_requirement" title="http://aiod.eu/data/hardware_requirement">hardware requirement</a> <sup class="type-op" title="object property">op</sup>, <a href="#os_requirement" title="http://aiod.eu/data/os_requirement">os requirement</a> <sup class="type-op" title="object property">op</sup>, <a href="#other_dependency" title="http://aiod.eu/data/other_dependency">other dependency</a> <sup class="type-op" title="object property">op</sup>, <a href="#software_dependency" title="http://aiod.eu/data/software_dependency">software depedency</a> <sup class="type-op" title="object property">op</sup>, <a href="#uses_dataset" title="http://aiod.eu/data/uses_dataset">uses dataset</a> <sup class="type-op" title="object property">op</sup>, <a href="#uses_model" title="http://aiod.eu/data/uses_model">uses model</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -3461,7 +3165,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in range of
    </dt>
    <dd>
-    <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific resource</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific domain</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -3506,7 +3210,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#conditions" title="http://aiod.eu/data/conditions">conditions</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#coverage" title="http://aiod.eu/data/coverage">coverage</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#prerequisites" title="http://aiod.eu/data/prerequisites">prerequisites</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#provider" title="http://aiod.eu/data/provider">provider</a> <sup class="type-op" title="object property">op</sup>, <a href="#service_category" title="http://aiod.eu/data/service_category">service category</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#service_status" title="http://aiod.eu/data/service_status">service status</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#service_type" title="http://aiod.eu/data/service_type">service type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#use_case_example" title="http://aiod.eu/data/use_case_example">use case example</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#conditions" title="http://aiod.eu/data/conditions">conditions</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#coverage" title="http://aiod.eu/data/coverage">coverage</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#prerequisites" title="http://aiod.eu/data/prerequisites">prerequisites</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#provider" title="http://aiod.eu/data/provider">provider</a> <sup class="type-op" title="object property">op</sup>, <a href="#service_category" title="http://aiod.eu/data/service_category">service category</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#service_status" title="http://aiod.eu/data/service_status">service status</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#service_type" title="http://aiod.eu/data/service_type">service type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#support_languages" title="http://aiod.eu/data/support_languages">support languages</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#use_case_example" title="http://aiod.eu/data/use_case_example">use case example</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
   </dl>
  </div>
@@ -3521,7 +3225,7 @@ This section provides details for each class and property defined by AIoD Metada
     is equivalent to
    </dt>
    <dd>
-    <a href="#http://purl.org/dc/terms/SizeOrDuration" title="http://purl.org/dc/terms/SizeOrDuration">Size or Duration</a> <sup class="type-c" title="class">c</sup>
+    <a href="http://purl.org/dc/terms/SizeOrDuration" target="_blank" title="http://purl.org/dc/terms/SizeOrDuration">Size Or Duration</a> <sup class="type-c" title="class">c</sup>
    </dd>
    <dt>
     has super-classes
@@ -3540,24 +3244,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dt>
    <dd>
     <a href="#duration" title="http://aiod.eu/data/duration">duration</a> <sup class="type-op" title="object property">op</sup>, <a href="#size" title="http://aiod.eu/data/size">size</a> <sup class="type-op" title="object property">op</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/SizeOrDuration">
-  <h3>Size or Duration<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/SizeOrDuration</p>
-  <dl class="description">
-   <dt>
-    has super-classes
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/MediaTypeOrExtent" target="_blank" title="http://purl.org/dc/terms/MediaTypeOrExtent">Media Type or Extent</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    named individual
    </dd>
   </dl>
  </div>
@@ -3629,7 +3315,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#amount" title="http://aiod.eu/data/amount">amount</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#model" title="http://aiod.eu/data/model">model</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#storage_type" title="http://aiod.eu/data/storage_type">storage type</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#amount" title="http://aiod.eu/data/amount">amount</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#model" title="http://aiod.eu/data/model">model</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#read_bandwidth" title="http://aiod.eu/data/read_bandwidth">read bandwidth</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#storage_type" title="http://aiod.eu/data/storage_type">storage type</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#vendor" title="http://aiod.eu/data/vendor">vendor</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#write_bandwidth" title="http://aiod.eu/data/write_bandwidth">write bandwidth</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
@@ -3767,7 +3453,7 @@ This section provides details for each class and property defined by AIoD Metada
     is in domain of
    </dt>
    <dd>
-    <a href="#end_time" title="http://aiod.eu/data/end_time">end time</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#entails_step" title="http://aiod.eu/data/entails_step">entails step</a> <sup class="type-op" title="object property">op</sup>, <a href="#start_time" title="http://aiod.eu/data/start_time">start time</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#checksum" title="http://aiod.eu/data/checksum">checksum</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#end_time" title="http://aiod.eu/data/end_time">end time</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#entails_step" title="http://aiod.eu/data/entails_step">entails step</a> <sup class="type-op" title="object property">op</sup>, <a href="#start_time" title="http://aiod.eu/data/start_time">start time</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#workflow_execution_status" title="http://aiod.eu/data/workflow_execution_status">workflow execution status</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
   </dl>
  </div>
@@ -3835,15 +3521,14 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#aiod_entry" title="http://aiod.eu/data/aiod_entry">aiod entry</a></li>
   <li><a href="#announced_in" title="http://aiod.eu/data/announced_in">announced in</a></li>
   <li><a href="#applies" title="http://aiod.eu/data/applies">applies</a></li>
-  <li><a href="#asset" title="http://aiod.eu/data/asset">asset</a></li>
   <li><a href="#business_sector" title="http://aiod.eu/data/business_sector">business sector</a></li>
   <li><a href="#carries_model" title="http://aiod.eu/data/carries_model">carries model</a></li>
   <li><a href="#category" title="http://aiod.eu/data/category">category</a></li>
   <li><a href="#connected_to" title="http://aiod.eu/data/connected_to">connected to</a></li>
   <li><a href="#contact" title="http://aiod.eu/data/contact">contact</a></li>
   <li><a href="#contact_info" title="http://aiod.eu/data/contact_info">contact info</a></li>
+  <li><a href="#content" title="http://aiod.eu/data/content"> <span>content</span> </a></li>
   <li><a href="#coordinator" title="http://aiod.eu/data/coordinator">coordinator</a></li>
-  <li><a href="#cpu" title="http://aiod.eu/data/cpu">cpu</a></li>
   <li><a href="#creator" title="http://aiod.eu/data/creator">creator</a></li>
   <li><a href="#datasheet" title="http://aiod.eu/data/datasheet">datasheet</a></li>
   <li><a href="#distribution" title="http://aiod.eu/data/distribution">distribution</a></li>
@@ -3859,6 +3544,7 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#funder" title="http://aiod.eu/data/funder">funder</a></li>
   <li><a href="#hardware_requirement" title="http://aiod.eu/data/hardware_requirement">hardware requirement</a></li>
   <li><a href="#has_computational_requirement" title="http://aiod.eu/data/has_computational_requirement">has computational requiremnt</a></li>
+  <li><a href="#has_cpu" title="http://aiod.eu/data/has_cpu">has cpu</a></li>
   <li><a href="#has_fixed_equipment" title="http://aiod.eu/data/has_fixed_equipment">has fixed equipment</a></li>
   <li><a href="#has_optional_equipment" title="http://aiod.eu/data/has_optional_equipment">has optional equipment</a></li>
   <li><a href="#has_part" title="http://aiod.eu/data/has_part">has part</a></li>
@@ -3886,15 +3572,17 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#precedes" title="http://aiod.eu/data/precedes">precedes</a></li>
   <li><a href="#prerequisite_knowledge" title="http://aiod.eu/data/prerequisite_knowledge">prerequisite knowledge</a></li>
   <li><a href="#produced" title="http://aiod.eu/data/produced">produced</a></li>
-  <li><a href="#project" title="http://aiod.eu/data/project">project</a></li>
+  <li><a href="#related_project" title="http://aiod.eu/data/related_project">project</a></li>
+  <li><a href="#project_funder" title="http://aiod.eu/data/project_funder">project funder</a></li>
   <li><a href="#provider" title="http://aiod.eu/data/provider">provider</a></li>
   <li><a href="#refers_to" title="http://aiod.eu/data/refers_to">refers to</a></li>
+  <li><a href="#related_asset" title="http://aiod.eu/data/related_asset">related asset</a></li>
   <li><a href="#related_experiment" title="http://aiod.eu/data/related_experiment">related experiment</a></li>
   <li><a href="#related_news" title="http://aiod.eu/data/related_news">related news</a></li>
   <li><a href="#requires_solution_for" title="http://aiod.eu/data/requires_solution_for">requires solution for</a></li>
   <li><a href="#research_area" title="http://aiod.eu/data/research_area">research area</a></li>
   <li><a href="#sameAs" title="http://aiod.eu/data/sameAs">same as</a></li>
-  <li><a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific resource</a></li>
+  <li><a href="#scientific_domain" title="http://aiod.eu/data/scientific_domain">scientific domain</a></li>
   <li><a href="#showcase" title="http://aiod.eu/data/showcase">showcase</a></li>
   <li><a href="#size" title="http://aiod.eu/data/size">size</a></li>
   <li><a href="#software_dependency" title="http://aiod.eu/data/software_dependency">software depedency</a></li>
@@ -4069,26 +3757,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="asset">
-  <h3>asset<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/asset</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has domain
-    </dt>
-    <dd>
-     <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#NewsItem" title="http://aiod.eu/data/NewsItem">News Item</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>
-     has range
-    </dt>
-    <dd>
-     <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="business_sector">
   <h3>business sector<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/business_sector</p>
@@ -4230,6 +3898,33 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="content">
+  <h3>content<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/content</p>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#AIoDEntry" title="http://aiod.eu/data/AIoDEntry">AIoD Entry</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2002/07/owl#Thing" target="_blank" title="http://www.w3.org/2002/07/owl#Thing">Thing</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     is also defined as
+    </dt>
+    <dd>
+     <a href="#content">data property</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="coordinator">
   <h3>coordinator<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/coordinator</p>
@@ -4249,26 +3944,6 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="#Organisation" title="http://aiod.eu/data/Organisation">Organisation</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="cpu">
-  <h3>cpu<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/cpu</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has domain
-    </dt>
-    <dd>
-     <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>
-     has range
-    </dt>
-    <dd>
-     <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
@@ -4550,7 +4225,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>funder<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/funder</p>
   <div class="comment">
-   <span class="markdown">The funding organisation for the project.</span>
+   <span class="markdown">The Agent responsible for funding the Dataset or associated with the Funding Opportunity</span>
   </div>
   <div class="description">
    <dl>
@@ -4558,7 +4233,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Dataset" title="http://aiod.eu/data/Dataset">Dataset</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Dataset" title="http://aiod.eu/data/Dataset">Dataset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#FundingOpportunity" title="http://aiod.eu/data/FundingOpportunity">Funding Opportunity</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -4611,6 +4286,29 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="has_cpu">
+  <h3>has cpu<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/has_cpu</p>
+  <div class="comment">
+   <span class="markdown">The CPU used.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
@@ -4851,12 +4549,6 @@ This section provides details for each class and property defined by AIoD Metada
   <div class="description">
    <dl>
     <dt>
-     has equivalent properties
-    </dt>
-    <dd>
-     <a href="http://www.w3.org/ns/prov#atLocation" target="_blank" title="http://www.w3.org/ns/prov#atLocation">at Location</a> <sup class="type-op" title="object property">op</sup>
-    </dd>
-    <dt>
      has domain
     </dt>
     <dd>
@@ -4953,7 +4645,7 @@ This section provides details for each class and property defined by AIoD Metada
      <a href="#Accelerator" title="http://aiod.eu/data/Accelerator">Accelerator</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dd>
-     <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -4986,12 +4678,6 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="#CompanySize" title="http://aiod.eu/data/CompanySize">Company Size</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#number_of_employees">data property</a>
     </dd>
    </dl>
   </div>
@@ -5252,11 +4938,11 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="project">
+ <div class="entity" id="related_project">
   <h3>project<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/project</p>
+  <p><strong>IRI:</strong> http://aiod.eu/data/related_project</p>
   <div class="comment">
-   <span class="markdown">A Project the activities of which are related to the activities of the event.</span>
+   <span class="markdown">a Project whose activities are relevant to or associated with the given Event or News Item.</span>
   </div>
   <div class="description">
    <dl>
@@ -5264,13 +4950,37 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#NewsItem" title="http://aiod.eu/data/NewsItem">News Item</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
      <a href="#Project" title="http://aiod.eu/data/Project">Project</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="project_funder">
+  <h3>project funder<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/project_funder</p>
+  <div class="comment">
+   <span class="markdown">The funding organisation for the project.</span>
+  </div>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Project" title="http://aiod.eu/data/Project">Project</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#Organisation" title="http://aiod.eu/data/Organisation">Organisation</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
@@ -5317,6 +5027,29 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="#AIResource" title="http://aiod.eu/data/AIResource">AI Resource</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="related_asset">
+  <h3>related asset<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/related_asset</p>
+  <div class="comment">
+   <span class="markdown">Indicates an AI Asset that is relevant to or associated with a given Event or News Item.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#NewsItem" title="http://aiod.eu/data/NewsItem">News Item</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
@@ -5437,7 +5170,7 @@ This section provides details for each class and property defined by AIoD Metada
   </div>
  </div>
  <div class="entity" id="scientific_domain">
-  <h3>scientific resource<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <h3>scientific domain<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/scientific_domain</p>
   <div class="comment">
    <span class="markdown">A scientific domain where the activities, operations or outcomes of the resource are applicable.</span>
@@ -5563,7 +5296,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -5716,7 +5449,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>uses dataset<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/uses_dataset</p>
   <div class="comment">
-   <span class="markdown">A Dataset used for the execution of the experiment.</span>
+   <span class="markdown">A Dataset used for the execution of the experiment or the Runnable Distribution.</span>
   </div>
   <div class="description">
    <dl>
@@ -5724,7 +5457,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Experiment" title="http://aiod.eu/data/Experiment">Experiment</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Experiment" title="http://aiod.eu/data/Experiment">Experiment</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#RunnableDistribution" title="http://aiod.eu/data/RunnableDistribution">Runnable Distribution</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -5762,7 +5495,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>uses model<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/uses_model</p>
   <div class="comment">
-   <span class="markdown">A ML Model used during the experiment's process.</span>
+   <span class="markdown">A ML Model that is utilized during the execution of an Experiment or Runnable Distribution.</span>
   </div>
   <div class="description">
    <dl>
@@ -5770,7 +5503,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Experiment" title="http://aiod.eu/data/Experiment">Experiment</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Experiment" title="http://aiod.eu/data/Experiment">Experiment</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#RunnableDistribution" title="http://aiod.eu/data/RunnableDistribution">Runnable Distribution</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -5808,18 +5541,16 @@ This section provides details for each class and property defined by AIoD Metada
  <h3 id="dataproperties-headline" class="list">Data Properties</h3>
  <ul class="hlist">
   <li><a href="#academic_level" title="http://aiod.eu/data/academic_level">academic level</a></li>
+  <li><a href="#accelerator_architecture" title="http://aiod.eu/data/accelerator_architecture">accelerator architecture</a></li>
   <li><a href="#ai_relevance" title="http://aiod.eu/data/ai_relevance">ai relevance</a></li>
   <li><a href="#alternative_headline" title="http://aiod.eu/data/alternative_headline">alternative headline</a></li>
   <li><a href="#alternate_name" title="http://aiod.eu/data/alternate_name">alternative name</a></li>
   <li><a href="#alternative_text" title="http://aiod.eu/data/alternative_text">alternative text</a></li>
-  <li><a href="#http://purl.org/dc/terms/alternative" title="http://purl.org/dc/terms/alternative"> <span>Alternative Title</span> </a></li>
   <li><a href="#amount" title="http://aiod.eu/data/amount">amount</a></li>
   <li><a href="#amount_gb" title="http://aiod.eu/data/amount_gb">amount gb</a></li>
   <li><a href="#announcement_page" title="http://aiod.eu/data/announcement_page">announcement page</a></li>
-  <li><a href="#architecture" title="http://aiod.eu/data/architecture">architecture</a></li>
   <li><a href="#award" title="http://aiod.eu/data/award">award</a></li>
   <li><a href="#badge" title="http://aiod.eu/data/badge">badge</a></li>
-  <li><a href="#http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation"> <span>Bibliographic Citation</span> </a></li>
   <li><a href="#checksum" title="http://aiod.eu/data/checksum">checksum</a></li>
   <li><a href="#checksum_algorithm" title="http://aiod.eu/data/checksum_algorithm">checksum algorithm</a></li>
   <li><a href="#citation" title="http://aiod.eu/data/citation">citation</a></li>
@@ -5830,9 +5561,11 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#closing_date" title="http://aiod.eu/data/closing_date">closing date</a></li>
   <li><a href="#compilation_process" title="http://aiod.eu/data/compilation_process">compilation process</a></li>
   <li><a href="#compilation_time_msec" title="http://aiod.eu/data/compilation_time_msec">compilation time msec</a></li>
+  <li><a href="#computationa_asset_type" title="http://aiod.eu/data/computationa_asset_type">computational asset type</a></li>
+  <li><a href="#computational_requirement_architecture" title="http://aiod.eu/data/computational_requirement_architecture">computational requirement architecture</a></li>
   <li><a href="#conditions" title="http://aiod.eu/data/conditions">conditions</a></li>
   <li><a href="#configuration_standard" title="http://aiod.eu/data/configuration_standard">configuration standard</a></li>
-  <li><a href="#content" title="http://aiod.eu/data/content">content</a></li>
+  <li><a href="#content" title="http://aiod.eu/data/content"> <span>content</span> </a></li>
   <li><a href="#content_size_kb" title="http://aiod.eu/data/content_size_kb">content size kb</a></li>
   <li><a href="#content_url" title="http://aiod.eu/data/content_url">content url</a></li>
   <li><a href="#contribution" title="http://aiod.eu/data/contribution">contribution</a></li>
@@ -5841,18 +5574,11 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#coverage" title="http://aiod.eu/data/coverage">coverage</a></li>
   <li><a href="#cpu_family" title="http://aiod.eu/data/cpu_family">cpu family</a></li>
   <li><a href="#credits" title="http://aiod.eu/data/credits">credits</a></li>
-  <li><a href="#http://purl.org/dc/terms/dateAccepted" title="http://purl.org/dc/terms/dateAccepted"> <span>Date Accepted</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/available" title="http://purl.org/dc/terms/available"> <span>Date Available</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/dateCopyrighted" title="http://purl.org/dc/terms/dateCopyrighted"> <span>Date Copyrighted</span> </a></li>
+  <li><a href="#dataset_type" title="http://aiod.eu/data/dataset_type">dataset type</a></li>
   <li><a href="#date_created" title="http://aiod.eu/data/date_created">date created</a></li>
-  <li><a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created"> <span>Date Created</span> </a></li>
   <li><a href="#date_founded" title="http://aiod.eu/data/date_founded">date founded</a></li>
-  <li><a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued"> <span>Date Issued</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified"> <span>Date Modified</span> </a></li>
   <li><a href="#date_modified" title="http://aiod.eu/data/date_modified">date motdified</a></li>
   <li><a href="#date_published" title="http://aiod.eu/data/date_published">date published</a></li>
-  <li><a href="#http://purl.org/dc/terms/dateSubmitted" title="http://purl.org/dc/terms/dateSubmitted"> <span>Date Submitted</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/valid" title="http://purl.org/dc/terms/valid"> <span>Date Valid</span> </a></li>
   <li><a href="#deployment_process" title="http://aiod.eu/data/deployment_process">deployment process</a></li>
   <li><a href="#deployment_time_msec" title="http://aiod.eu/data/deployment_time_msec">deployment time msec</a></li>
   <li><a href="#description" title="http://aiod.eu/data/description">description</a></li>
@@ -5880,6 +5606,7 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#funding_scheme" title="http://aiod.eu/data/funding_scheme">funding scheme</a></li>
   <li><a href="#has_isbn" title="http://aiod.eu/data/has_isbn">has isbn</a></li>
   <li><a href="#has_issn" title="http://aiod.eu/data/has_issn">has issn</a></li>
+  <li><a href="#has_os" title="http://aiod.eu/data/has_os">has os</a></li>
   <li><a href="#headline" title="http://aiod.eu/data/headline">headline</a></li>
   <li><a href="#height_px" title="http://aiod.eu/data/height_px">height px</a></li>
   <li><a href="#identifier" title="http://aiod.eu/data/identifier">identifier</a></li>
@@ -5888,7 +5615,6 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#job_title" title="http://aiod.eu/data/job_title">job title</a></li>
   <li><a href="#kernel" title="http://aiod.eu/data/kernel">kernel</a></li>
   <li><a href="#keyword" title="http://aiod.eu/data/keyword">keyword</a></li>
-  <li><a href="#languages" title="http://aiod.eu/data/languages">languages</a></li>
   <li><a href="#latitude" title="http://aiod.eu/data/latitude">latitude</a></li>
   <li><a href="#learning_mode" title="http://aiod.eu/data/learning_mode">learning mode</a></li>
   <li><a href="#legal_name" title="http://aiod.eu/data/legal_name">legal name</a></li>
@@ -5905,14 +5631,14 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#model_name" title="http://aiod.eu/data/model_name">model name</a></li>
   <li><a href="#modified" title="http://aiod.eu/data/modified">modified</a></li>
   <li><a href="#name" title="http://aiod.eu/data/name">name</a></li>
+  <li><a href="#news_status" title="http://aiod.eu/data/news_status">news status</a></li>
   <li><a href="#num_cpu_cores" title="http://aiod.eu/data/num_cpu_cores">num cpu cores</a></li>
   <li><a href="#number" title="http://aiod.eu/data/number">number</a></li>
-  <li><a href="#number_of_employees" title="http://aiod.eu/data/number_of_employees"> <span>number of employees</span> </a></li>
   <li><a href="#offered_via" title="http://aiod.eu/data/offered_via">offered via</a></li>
   <li><a href="#on_platform" title="http://aiod.eu/data/on_platform">on platform</a></li>
   <li><a href="#opening_date" title="http://aiod.eu/data/opening_date">opening date</a></li>
   <li><a href="#optional_qualifications" title="http://aiod.eu/data/optional_qualifications">optional qualifications</a></li>
-  <li><a href="#os" title="http://aiod.eu/data/os">os</a></li>
+  <li><a href="#organisation_type" title="http://aiod.eu/data/organisation_type">organisation type</a></li>
   <li><a href="#pid" title="http://aiod.eu/data/pid">pid</a></li>
   <li><a href="#platform_account_homepage" title="http://aiod.eu/data/platform_account_homepage">platform account homepage</a></li>
   <li><a href="#postal_code" title="http://aiod.eu/data/postal_code">postal code</a></li>
@@ -5931,12 +5657,14 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#service_status" title="http://aiod.eu/data/service_status">service status</a></li>
   <li><a href="#service_type" title="http://aiod.eu/data/service_type">service type</a></li>
   <li><a href="#source" title="http://aiod.eu/data/source">source</a></li>
+  <li><a href="#speak_languages" title="http://aiod.eu/data/speak_languages">speak languages</a></li>
   <li><a href="#start_date" title="http://aiod.eu/data/start_date">start date</a></li>
   <li><a href="#start_time" title="http://aiod.eu/data/start_time">start time</a></li>
   <li><a href="#status" title="http://aiod.eu/data/status">status</a></li>
   <li><a href="#storage_type" title="http://aiod.eu/data/storage_type">storage type</a></li>
   <li><a href="#street" title="http://aiod.eu/data/street">street</a></li>
   <li><a href="#submission_platform" title="http://aiod.eu/data/submission_platform">submission platform</a></li>
+  <li><a href="#support_languages" title="http://aiod.eu/data/support_languages">support languages</a></li>
   <li><a href="#technology_readiness_level" title="http://aiod.eu/data/technology_readiness_level">technology readiness level</a></li>
   <li><a href="#telephone" title="http://aiod.eu/data/telephone">telephone</a></li>
   <li><a href="#temporal_coverage" title="http://aiod.eu/data/temporal_coverage">temporal coverage</a></li>
@@ -5956,6 +5684,7 @@ This section provides details for each class and property defined by AIoD Metada
   <li><a href="#width_px" title="http://aiod.eu/data/width_px">width px</a></li>
   <li><a href="#workflow_configuration" title="http://aiod.eu/data/workflow_configuration">workflow configuration</a></li>
   <li><a href="#workflow_configuration_standard" title="http://aiod.eu/data/workflow_configuration_standard">workflow configuration standard</a></li>
+  <li><a href="#workflow_execution_status" title="http://aiod.eu/data/workflow_execution_status">workflow execution status</a></li>
   <li><a href="#workflow_specification" title="http://aiod.eu/data/workflow_specification">workflow specification</a></li>
   <li><a href="#workflow_specification_standard" title="http://aiod.eu/data/workflow_specification_standard">workflow specification standard</a></li>
   <li><a href="#workflow_step_type" title="http://aiod.eu/data/workflow_step_type">workflow step type</a></li>
@@ -5985,9 +5714,36 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="accelerator_architecture">
+  <h3>accelerator architecture<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/accelerator_architecture</p>
+  <div class="comment">
+   <span class="markdown">The architecture of an Accelerator.</span>
+  </div>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Accelerator" title="http://aiod.eu/data/Accelerator">Accelerator</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="ai_relevance">
   <h3>ai relevance<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/ai_relevance</p>
+  <div class="comment">
+   <span class="markdown">A description of how the organization is positioned in the AI ecosystem,</span>
+  </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
@@ -6077,26 +5833,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/alternative">
-  <h3>Alternative Title<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/alternative</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/title" target="_blank" title="http://purl.org/dc/terms/title">Title</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/alternative">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="amount">
   <h3>amount<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/amount</p>
@@ -6169,29 +5905,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="architecture">
-  <h3>architecture<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/architecture</p>
-  <div class="comment">
-   <span class="markdown">The hardware or system design.</span>
-  </div>
-  <div class="description">
-   <dl>
-    <dt>
-     has domain
-    </dt>
-    <dd>
-     <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>
-     has range
-    </dt>
-    <dd>
-     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="award">
   <h3>award<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/award</p>
@@ -6238,31 +5951,11 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/bibliographicCitation">
-  <h3>Bibliographic Citation<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/bibliographicCitation</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/identifier" target="_blank" title="http://purl.org/dc/terms/identifier">Identifier</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/bibliographicCitation">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="checksum">
   <h3>checksum<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/checksum</p>
   <div class="comment">
-   <span class="markdown">The checksum value associated with the content of the Distribution.</span>
+   <span class="markdown">The checksum value used to verify the content of the Distribution or Workflow Execution.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -6271,7 +5964,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Distribution" title="http://aiod.eu/data/Distribution">Distribution</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Distribution" title="http://aiod.eu/data/Distribution">Distribution</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#WorkflowExecution" title="http://aiod.eu/data/WorkflowExecution">Workflow Execution</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -6421,7 +6114,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>closing date<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/closing_date</p>
   <div class="comment">
-   <span class="markdown">The end date of the application for the Fundind Opportunity.</span>
+   <span class="markdown">The end date of the application for the Funding Opportunity or the Job Announcement.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -6430,7 +6123,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#FundingOpportunity" title="http://aiod.eu/data/FundingOpportunity">Funding Opportunity</a> <sup class="type-c" title="class">c</sup>
+     <a href="#FundingOpportunity" title="http://aiod.eu/data/FundingOpportunity">Funding Opportunity</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#JobAnnouncement" title="http://aiod.eu/data/JobAnnouncement">Job Announcement</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -6489,9 +6182,67 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="computationa_asset_type">
+  <h3>computational asset type<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/computationa_asset_type</p>
+  <div class="comment">
+   <span class="markdown">The type a computational asset can have.</span>
+  </div>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="computational_requirement_architecture">
+  <h3>computational requirement architecture<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/computational_requirement_architecture</p>
+  <div class="comment">
+   <span class="markdown">The underlaying design of the computer system required for the task to run.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="conditions">
   <h3>conditions<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/conditions</p>
+  <div class="comment">
+   <span class="markdown">The terms, rules, or constraints under which the service is offered or operates.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
   <div class="description">
    <dl>
     <dt>
@@ -6533,16 +6284,16 @@ This section provides details for each class and property defined by AIoD Metada
   </div>
  </div>
  <div class="entity" id="content">
-  <h3>content<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <h3>content<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/content</p>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
     <dt>
-     has domain
+     is also defined as
     </dt>
     <dd>
-     <a href="#AIoDEntry" title="http://aiod.eu/data/AIoDEntry">AIoD Entry</a> <sup class="type-c" title="class">c</sup>
+     <a href="#content">object property</a>
     </dd>
    </dl>
   </div>
@@ -6551,7 +6302,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>content size kb<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/content_size_kb</p>
   <div class="comment">
-   <span class="markdown">The size of the Multimedia object in KB.</span>
+   <span class="markdown">TThe size of the Distribution or Multimedia content in kilobytes (KB).</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -6560,7 +6311,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Multimedia" title="http://aiod.eu/data/Multimedia">Multimedia</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Distribution" title="http://aiod.eu/data/Distribution">Distribution</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Multimedia" title="http://aiod.eu/data/Multimedia">Multimedia</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -6731,62 +6482,25 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/dateAccepted">
-  <h3>Date Accepted<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/dateAccepted</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/dateAccepted">annotation property</a>, named individual
-    </dd>
-   </dl>
+ <div class="entity" id="dataset_type">
+  <h3>dataset type<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/dataset_type</p>
+  <div class="comment">
+   <span class="markdown">The type of dataset according to possibly different classification schemes.</span>
   </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/available">
-  <h3>Date Available<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/available</p>
   <div class="description">
    <dl>
     <dt>
-     has super-properties
+     has domain
     </dt>
     <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
+     <a href="#Dataset" title="http://aiod.eu/data/Dataset">Dataset</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
-     is also defined as
+     has range
     </dt>
     <dd>
-     <a href="#http://purl.org/dc/terms/available">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/dateCopyrighted">
-  <h3>Date Copyrighted<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/dateCopyrighted</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/dateCopyrighted">annotation property</a>, named individual
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
     </dd>
    </dl>
   </div>
@@ -6795,7 +6509,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>date created<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/date_created</p>
   <div class="comment">
-   <span class="markdown">The date of creation for the AI asset.</span>
+   <span class="markdown">The date of creation for the AI asset or the Distribution.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -6804,33 +6518,13 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup>
+     <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Distribution" title="http://aiod.eu/data/Distribution">Distribution</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
      <a href="http://www.w3.org/2001/XMLSchema#dateTime" target="_blank" title="http://www.w3.org/2001/XMLSchema#dateTime">date Time</a>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/created">
-  <h3>Date Created<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/created</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/created">annotation property</a>, named individual
     </dd>
    </dl>
   </div>
@@ -6859,52 +6553,6 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="http://purl.org/dc/terms/issued">
-  <h3>Date Issued<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/issued</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/issued">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/modified">
-  <h3>Date Modified<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/modified</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has equivalent properties
-    </dt>
-    <dd>
-     <a href="#date_modified" title="http://aiod.eu/data/date_modified">date motdified</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/modified">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="date_modified">
   <h3>date motdified<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/date_modified</p>
@@ -6914,12 +6562,6 @@ This section provides details for each class and property defined by AIoD Metada
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
-    <dt>
-     has equivalent properties
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">Date Modified</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
     <dt>
      has domain
     </dt>
@@ -6939,7 +6581,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>date published<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/date_published</p>
   <div class="comment">
-   <span class="markdown">The date of publication (broader availability) for the AI asset.</span>
+   <span class="markdown">The date of publication (broader availability) for the AI asset or the Distribution.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -6948,9 +6590,6 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dd>
      <a href="#AIAsset" title="http://aiod.eu/data/AIAsset">AI Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Distribution" title="http://aiod.eu/data/Distribution">Distribution</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
@@ -6958,46 +6597,6 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="http://www.w3.org/2001/XMLSchema#dateTime" target="_blank" title="http://www.w3.org/2001/XMLSchema#dateTime">date Time</a>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/dateSubmitted">
-  <h3>Date Submitted<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/dateSubmitted</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/dateSubmitted">annotation property</a>, named individual
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/valid">
-  <h3>Date Valid<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/valid</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://purl.org/dc/terms/date" target="_blank" title="http://purl.org/dc/terms/date">Date</a> <sup class="type-dp" title="data property">dp</sup>
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#http://purl.org/dc/terms/valid">annotation property</a>, named individual
     </dd>
    </dl>
   </div>
@@ -7172,7 +6771,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>end date<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/end_date</p>
   <div class="comment">
-   <span class="markdown">The date when the educational resource or activity concludes.</span>
+   <span class="markdown">The date when the educational resource or event concludes.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -7181,7 +6780,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup>
+     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -7642,6 +7241,30 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="has_os">
+  <h3>has os<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/has_os</p>
+  <div class="comment">
+   <span class="markdown">Operating system of the Computational Asset or required by the Computational Requirement.</span>
+  </div>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#ComputationalRequirement" title="http://aiod.eu/data/ComputationalRequirement">Computational Requirement</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="headline">
   <h3>headline<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/headline</p>
@@ -7816,29 +7439,6 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="#AIResource" title="http://aiod.eu/data/AIResource">AI Resource</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>
-     has range
-    </dt>
-    <dd>
-     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="languages">
-  <h3>languages<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/languages</p>
-  <div class="comment">
-   <span class="markdown">The language a Person knows.</span>
-  </div>
-  <div class="description">
-   <dl>
-    <dt>
-     has domain
-    </dt>
-    <dd>
-     <a href="#Person" title="http://aiod.eu/data/Person">Person</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8157,6 +7757,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="model_name">
   <h3>model name<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/model_name</p>
+  <div class="comment">
+   <span class="markdown">Model name of the CPU or Accelerator.</span>
+  </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
@@ -8164,7 +7767,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Accelerator" title="http://aiod.eu/data/Accelerator">Accelerator</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8221,6 +7824,29 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="news_status">
+  <h3>news status<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/news_status</p>
+  <div class="comment">
+   <span class="markdown">The publication status of the news item.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#NewsItem" title="http://aiod.eu/data/NewsItem">News Item</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="num_cpu_cores">
   <h3>num cpu cores<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/num_cpu_cores</p>
@@ -8262,26 +7888,6 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="number_of_employees">
-  <h3>number of employees<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/number_of_employees</p>
-  <div class="description">
-   <dl>
-    <dt>
-     has range
-    </dt>
-    <dd>
-     { "&lt;10" , "&lt;250" , "&lt;50" , "&gt;250" , "N/A" }
-    </dd>
-    <dt>
-     is also defined as
-    </dt>
-    <dd>
-     <a href="#number_of_employees">object property</a>
     </dd>
    </dl>
   </div>
@@ -8333,7 +7939,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>opening date<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/opening_date</p>
   <div class="comment">
-   <span class="markdown">The start date of the application for the Fundind Opportunity.</span>
+   <span class="markdown">The start date of the application for the Funding Opportunity.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -8376,20 +7982,16 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
- <div class="entity" id="os">
-  <h3>os<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://aiod.eu/data/os</p>
-  <div class="comment">
-   <span class="markdown">The operating system installed on the computational asset.</span>
-  </div>
+ <div class="entity" id="organisation_type">
+  <h3>organisation type<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/organisation_type</p>
   <div class="description">
-   <p><strong>has characteristics: </strong> functional</p>
    <dl>
     <dt>
      has domain
     </dt>
     <dd>
-     <a href="#ComputationalAsset" title="http://aiod.eu/data/ComputationalAsset">Computational Asset</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Organisation" title="http://aiod.eu/data/Organisation">Organisation</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8404,7 +8006,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>pid<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/pid</p>
   <div class="comment">
-   <span class="markdown">A persistent identifier assigned to the dataset.</span>
+   <span class="markdown">A persistent identifier assigned to the dataset or the publication.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -8413,7 +8015,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Dataset" title="http://aiod.eu/data/Dataset">Dataset</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Dataset" title="http://aiod.eu/data/Dataset">Dataset</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Publication" title="http://aiod.eu/data/Publication">Publication</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8474,6 +8076,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="prerequisites">
   <h3>prerequisites<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/prerequisites</p>
+  <div class="comment">
+   <span class="markdown">A requirement or specification that must be fulfilled.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -8599,7 +8204,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Storage" title="http://aiod.eu/data/Storage">Storage</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8706,7 +8311,7 @@ This section provides details for each class and property defined by AIoD Metada
   <h3>schedule<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/schedule</p>
   <div class="comment">
-   <span class="markdown">The description of the program of the Educational Asset.</span>
+   <span class="markdown">Schedule description for an Educational Resource or Event.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -8715,7 +8320,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup>
+     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8822,11 +8427,34 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="speak_languages">
+  <h3>speak languages<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/speak_languages</p>
+  <div class="comment">
+   <span class="markdown">The language a Person knows.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Person" title="http://aiod.eu/data/Person">Person</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="start_date">
   <h3>start date<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/start_date</p>
   <div class="comment">
-   <span class="markdown">The date when the resource starts running.</span>
+   <span class="markdown">The starting date of an Educational Resource or Event.</span>
   </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
@@ -8835,7 +8463,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup>
+     <a href="#EducationalResource" title="http://aiod.eu/data/EducationalResource">Educational Resource</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Event" title="http://aiod.eu/data/Event">Event</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -8952,6 +8580,26 @@ This section provides details for each class and property defined by AIoD Metada
     </dt>
     <dd>
      <a href="http://www.w3.org/2001/XMLSchema#anyURI" target="_blank" title="http://www.w3.org/2001/XMLSchema#anyURI">any U R I</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="support_languages">
+  <h3>support languages<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/support_languages</p>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Service" title="http://aiod.eu/data/Service">Service</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
     </dd>
    </dl>
   </div>
@@ -9282,6 +8930,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="vendor">
   <h3>vendor<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/vendor</p>
+  <div class="comment">
+   <span class="markdown">Vendor name of the CPU, Accelerator, or Storage.</span>
+  </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
@@ -9289,7 +8940,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Accelerator" title="http://aiod.eu/data/Accelerator">Accelerator</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#CPU" title="http://aiod.eu/data/CPU">CPU</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Storage" title="http://aiod.eu/data/Storage">Storage</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -9393,6 +9044,29 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
+ <div class="entity" id="workflow_execution_status">
+  <h3>workflow execution status<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://aiod.eu/data/workflow_execution_status</p>
+  <div class="comment">
+   <span class="markdown">The current execution status of the workflow.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#WorkflowExecution" title="http://aiod.eu/data/WorkflowExecution">Workflow Execution</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="workflow_specification">
   <h3>workflow specification<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/workflow_specification</p>
@@ -9463,6 +9137,9 @@ This section provides details for each class and property defined by AIoD Metada
  <div class="entity" id="write_bandwidth">
   <h3>write bandwidth<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://aiod.eu/data/write_bandwidth</p>
+  <div class="comment">
+   <span class="markdown">The write bandwidth of the Memory or Storage component.</span>
+  </div>
   <div class="description">
    <p><strong>has characteristics: </strong> functional</p>
    <dl>
@@ -9470,7 +9147,7 @@ This section provides details for each class and property defined by AIoD Metada
      has domain
     </dt>
     <dd>
-     <a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a> <sup class="type-c" title="class">c</sup>
+     <a href="#Memory" title="http://aiod.eu/data/Memory">Memory</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#Storage" title="http://aiod.eu/data/Storage">Storage</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -9481,416 +9158,12 @@ This section provides details for each class and property defined by AIoD Metada
    </dl>
   </div>
  </div>
-</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
- <h3 id="namedindividuals" class="list">Named Individuals</h3>
- <ul class="hlist">
-  <li><a href="#http://purl.org/dc/terms/Agent" title="http://purl.org/dc/terms/Agent"> <span>Agent</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/DCMIType" title="http://purl.org/dc/terms/DCMIType">DCMI Type Vocabulary</a></li>
-  <li><a href="#http://purl.org/dc/terms/DDC" title="http://purl.org/dc/terms/DDC">DDC</a></li>
-  <li><a href="#http://purl.org/dc/terms/IMT" title="http://purl.org/dc/terms/IMT">IMT</a></li>
-  <li><a href="#http://purl.org/dc/terms/instructionalMethod" title="http://purl.org/dc/terms/instructionalMethod">Instructional Method</a></li>
-  <li><a href="#http://purl.org/dc/terms/LCC" title="http://purl.org/dc/terms/LCC">LCC</a></li>
-  <li><a href="#http://purl.org/dc/terms/LCSH" title="http://purl.org/dc/terms/LCSH">LCSH</a></li>
-  <li><a href="#http://purl.org/dc/terms/MESH" title="http://purl.org/dc/terms/MESH">MeSH</a></li>
-  <li><a href="#http://purl.org/dc/terms/NLM" title="http://purl.org/dc/terms/NLM">NLM</a></li>
-  <li><a href="#http://purl.org/dc/terms/provenance" title="http://purl.org/dc/terms/provenance">Provenance</a></li>
-  <li><a href="#http://purl.org/dc/terms/rightsHolder" title="http://purl.org/dc/terms/rightsHolder">Rights Holder</a></li>
-  <li><a href="#http://purl.org/dc/terms/" title="http://purl.org/dc/terms/"> <span>terms:</span> </a></li>
-  <li><a href="#http://purl.org/dc/terms/TGN" title="http://purl.org/dc/terms/TGN">TGN</a></li>
-  <li><a href="#http://purl.org/dc/terms/UDC" title="http://purl.org/dc/terms/UDC">UDC</a></li>
- </ul>
- <div class="entity" id="http://purl.org/dc/terms/Agent">
-  <h3>Agent<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/Agent</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/AgentClass" title="http://purl.org/dc/terms/AgentClass">Agent Class</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    is also defined as
-   </dt>
-   <dd>
-    class
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/DCMIType">
-  <h3>DCMI Type Vocabulary<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/DCMIType</p>
-  <div class="comment">
-   <span class="markdown">The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/DDC">
-  <h3>DDC<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/DDC</p>
-  <div class="comment">
-   <span class="markdown">The set of conceptual resources specified by the Dewey Decimal Classification.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/IMT">
-  <h3>IMT<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/IMT</p>
-  <div class="comment">
-   <span class="markdown">The set of media types specified by the Internet Assigned Numbers Authority.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/instructionalMethod">
-  <h3>Instructional Method<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/instructionalMethod</p>
-  <div class="comment">
-   <span class="markdown">A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/rangeIncludes" target="_blank" title="http://purl.org/dc/dcam/rangeIncludes">range Includes</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e7189" title="http://purl.org/dc/terms/MethodOfInstruction">Method of Instruction</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="http://purl.org/dc/terms/description" target="_blank" title="http://purl.org/dc/terms/description">Description</a> <sup class="type-ni" title="named individual">ni</sup> <span class="literal">"Instructional Method typically includes ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured. Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en</span>
-   </dd>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2005-06-13"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/LCC">
-  <h3>LCC<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/LCC</p>
-  <div class="comment">
-   <span class="markdown">The set of conceptual resources specified by the Library of Congress Classification.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/LCSH">
-  <h3>LCSH<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/LCSH</p>
-  <div class="comment">
-   <span class="markdown">The set of labeled concepts specified by the Library of Congress Subject Headings.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/MESH">
-  <h3>MeSH<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/MESH</p>
-  <div class="comment">
-   <span class="markdown">The set of labeled concepts specified by the Medical Subject Headings.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/NLM">
-  <h3>NLM<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/NLM</p>
-  <div class="comment">
-   <span class="markdown">The set of conceptual resources specified by the National Library of Medicine Classification.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2005-06-13"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/provenance">
-  <h3>Provenance<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/provenance</p>
-  <div class="comment">
-   <span class="markdown">A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/rangeIncludes" target="_blank" title="http://purl.org/dc/dcam/rangeIncludes">range Includes</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e7296" title="http://purl.org/dc/terms/ProvenanceStatement">Provenance Statement</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="http://purl.org/dc/terms/description" target="_blank" title="http://purl.org/dc/terms/description">Description</a> <sup class="type-ni" title="named individual">ni</sup> <span class="literal">"The statement may include a description of any changes successive custodians made to the resource."@en</span>
-   </dd>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2004-09-20"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/rightsHolder">
-  <h3>Rights Holder<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/rightsHolder</p>
-  <div class="comment">
-   <span class="markdown">A person or organization owning or managing rights over the resource.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/rangeIncludes" target="_blank" title="http://purl.org/dc/dcam/rangeIncludes">range Includes</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#http://purl.org/dc/terms/Agent" title="http://purl.org/dc/terms/Agent">Agent</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="http://purl.org/dc/terms/description" target="_blank" title="http://purl.org/dc/terms/description">Description</a> <sup class="type-ni" title="named individual">ni</sup> <span class="literal">"Recommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided."@en</span>
-   </dd>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2004-06-14"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/">
-  <h3>terms:<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/</p>
-  <dl class="description">
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">Date Modified</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2012-06-14"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-   <dd>
-    <a href="http://purl.org/dc/terms/publisher" target="_blank" title="http://purl.org/dc/terms/publisher">Publisher</a> <sup class="type-ni" title="named individual">ni</sup> <a href="http://purl.org/dc/aboutdcmi#DCMI" target="_blank" title="http://purl.org/dc/aboutdcmi#DCMI">D C M I</a> <sup class="type-ep" title="external property">ep</sup>
-   </dd>
-   <dd>
-    <a href="http://purl.org/dc/terms/title" target="_blank" title="http://purl.org/dc/terms/title">Title</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"DCMI Metadata Terms - other"@en</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/TGN">
-  <h3>TGN<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/TGN</p>
-  <div class="comment">
-   <span class="markdown">The set of places specified by the Getty Thesaurus of Geographic Names.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="http://purl.org/dc/terms/UDC">
-  <h3>UDC<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> http://purl.org/dc/terms/UDC</p>
-  <div class="comment">
-   <span class="markdown">The set of conceptual resources specified by the Universal Decimal Classification.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>
-    Is defined by
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="http://purl.org/dc/dcam/VocabularyEncodingScheme" target="_blank" title="http://purl.org/dc/dcam/VocabularyEncodingScheme">Vocabulary Encoding Scheme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">Date Issued</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2000-07-11"^^<a href="http://www.w3.org/2001/XMLSchema#date" target="_blank" title="http://www.w3.org/2001/XMLSchema#date">date</a> </span>
-   </dd>
-  </dl>
- </div>
 </div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
-<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
-<sup class="type-ep" title="External Properties">ep</sup>: External Properties
 </div>
 </div>
 </div>

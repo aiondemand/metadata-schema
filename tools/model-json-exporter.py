@@ -90,7 +90,7 @@ def parse_model_ttl(ttl_content):
         label = next(g.objects(class_uri, RDFS.label), None)
         class_name = str(label) if label else class_id.split("/")[-1]
 
-        # Collect equivalence and mapping relationships
+        # Collect mappings like equivalentClass, skos:relatedMatch, etc.
         mapping_preds = [
             (OWL.equivalentClass, "owl:equivalentClass"),
             (SKOS.relatedMatch, "skos:relatedMatch"),
@@ -102,12 +102,9 @@ def parse_model_ttl(ttl_content):
         equivalent_classes = []
         for pred, pred_label in mapping_preds:
             for obj in g.objects(class_uri, pred):
-                if isinstance(obj, BNode):
-                    continue
                 equivalent_classes.append({
                     "predicate": pred_label,
-                    "target": str(obj),
-                    "type": "uri" if str(obj).startswith("http") else "literal"
+                    "target": str(obj)
                 })
 
         class_info = {

@@ -753,8 +753,9 @@
                                    owl:FunctionalProperty ;
                           rdfs:domain :Accelerator ;
                           rdfs:range xsd:string ;
-                          rdfs:label "The architecture of an Accelerator."@en ,
-                                     "accelerator architecture"@en .
+                          rdfs:comment "The architecture of an Accelerator."@en ;
+                          rdfs:label "accelerator architecture"@en .
+                                     
 
 
 ###  http://aiod.eu/data/ai_relevance
