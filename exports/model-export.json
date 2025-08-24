@@ -19963,7 +19963,7 @@
                     ],
                     "annotations": {
                         "label": "coordinator",
-                        "comment": "The coordinating organisation for the project."
+                        "comment": "The coordinating organization for the project."
                     },
                     "equivalent_properties": [],
                     "cardinality": {
