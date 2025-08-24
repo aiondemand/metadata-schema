@@ -696,7 +696,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AIHardwareandHigh-PerformanceComputing
-:AIHardwareandHigh-PerformanceComputing rdf:type owl:NamedIndividual ;
+:AIHardwareandHigh-PerformanceComputing rdf:type owl:NamedIndividual ,
+                                                 ns1:Concept ;
                                         ns1:inScheme :ResearchArea ;
                                         ns1:notation "con868"@en ;
                                         rdfs:label "AI Hardware & High-Performance Computing"@en .
@@ -732,7 +733,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AIandLawJusticeRegulationGovernance
-:AIandLawJusticeRegulationGovernance rdf:type owl:NamedIndividual ;
+:AIandLawJusticeRegulationGovernance rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:inScheme :Approach ;
                                      ns1:notation "con963"@en ;
                                      rdfs:label "AI and Law, Justice, Regulation & Governance"@en .
@@ -747,7 +749,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Accessibility
-:Accessibility rdf:type owl:NamedIndividual ;
+:Accessibility rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1126"@en ;
@@ -785,7 +788,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Action
-:Action rdf:type owl:NamedIndividual ;
+:Action rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:inScheme :Approach ;
         ns1:notation "con1014"@en ;
         rdfs:label "Action"@en .
@@ -811,7 +815,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/ActivityRecognition
-:ActivityRecognition rdf:type owl:NamedIndividual ;
+:ActivityRecognition rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con1008"@en ;
                      rdfs:label "Activity Recognition"@en .
@@ -825,7 +830,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AdaptiveBehavior
-:AdaptiveBehavior rdf:type owl:NamedIndividual ;
+:AdaptiveBehavior rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con873"@en ;
                   rdfs:label "Adaptive Behavior"@en .
@@ -842,7 +848,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AdministrativeAndArganizationalTasksAutomation
-:AdministrativeAndArganizationalTasksAutomation rdf:type owl:NamedIndividual ;
+:AdministrativeAndArganizationalTasksAutomation rdf:type owl:NamedIndividual ,
+                                                         ns1:Concept ;
                                                 ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                                                 ns1:inScheme :BusinessSector ;
                                                 ns1:notation "con1087"@en ;
@@ -861,7 +868,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AdversarialAgents
-:AdversarialAgents rdf:type owl:NamedIndividual ;
+:AdversarialAgents rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con882"@en ;
                    rdfs:label "Adversarial Agents"@en .
@@ -890,14 +898,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AdversarialSearch
-:AdversarialSearch rdf:type owl:NamedIndividual ;
+:AdversarialSearch rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con908"@en ;
                    rdfs:label "Adversarial Search"@en .
 
 
 ###  http://aiod.eu/data/schemas/AdvertisementDevelopmentProductionAndDistribution
-:AdvertisementDevelopmentProductionAndDistribution rdf:type owl:NamedIndividual ;
+:AdvertisementDevelopmentProductionAndDistribution rdf:type owl:NamedIndividual ,
+                                                            ns1:Concept ;
                                                    ns1:broader :InformationAndCommunicationTechnologies ;
                                                    ns1:inScheme :BusinessSector ;
                                                    ns1:notation "con1098"@en ;
@@ -905,7 +915,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AffectiveComputing
-:AffectiveComputing rdf:type owl:NamedIndividual ;
+:AffectiveComputing rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con938"@en ;
                     rdfs:label "Affective Computing"@en .
@@ -921,49 +932,56 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Agent-BasedSimulation
-:Agent-BasedSimulation rdf:type owl:NamedIndividual ;
+:Agent-BasedSimulation rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:inScheme :Approach ;
                        ns1:notation "con945"@en ;
                        rdfs:label "Agent-Based Simulation"@en .
 
 
 ###  http://aiod.eu/data/schemas/AgentCollaboration
-:AgentCollaboration rdf:type owl:NamedIndividual ;
+:AgentCollaboration rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con944"@en ;
                     rdfs:label "Agent Collaboration"@en .
 
 
 ###  http://aiod.eu/data/schemas/AgentCommunication
-:AgentCommunication rdf:type owl:NamedIndividual ;
+:AgentCommunication rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con942"@en ;
                     rdfs:label "Agent Communication"@en .
 
 
 ###  http://aiod.eu/data/schemas/AgentCoordination
-:AgentCoordination rdf:type owl:NamedIndividual ;
+:AgentCoordination rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con943"@en ;
                    rdfs:label "Agent Coordination"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agents
-:Agents rdf:type owl:NamedIndividual ;
+:Agents rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:inScheme :Approach ;
         ns1:notation "con1001"@en ;
         rdfs:label "Agents"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agreement
-:Agreement rdf:type owl:NamedIndividual ;
+:Agreement rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
            ns1:inScheme :Approach ;
            ns1:notation "con1006"@en ;
            rdfs:label "Agreement"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agribots
-:Agribots rdf:type owl:NamedIndividual ;
+:Agribots rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
           ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
           ns1:inScheme :BusinessSector ;
           ns1:notation "con1027"@en ;
@@ -1017,7 +1035,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AirQualityMonitoring
-:AirQualityMonitoring rdf:type owl:NamedIndividual ;
+:AirQualityMonitoring rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1044"@en ;
@@ -1025,7 +1044,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AirportInfrastructure
-:AirportInfrastructure rdf:type owl:NamedIndividual ;
+:AirportInfrastructure rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:broader :TransportationAndStorage ;
                        ns1:inScheme :BusinessSector ;
                        ns1:notation "con1125"@en ;
@@ -1051,21 +1071,24 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AlgorithmConfiguration
-:AlgorithmConfiguration rdf:type owl:NamedIndividual ;
+:AlgorithmConfiguration rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con907"@en ;
                         rdfs:label "Algorithm Configuration"@en .
 
 
 ###  http://aiod.eu/data/schemas/AlgorithmPortfolios
-:AlgorithmPortfolios rdf:type owl:NamedIndividual ;
+:AlgorithmPortfolios rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con906"@en ;
                      rdfs:label "Algorithm Portfolios"@en .
 
 
 ###  http://aiod.eu/data/schemas/AlgorithmicTrading
-:AlgorithmicTrading rdf:type owl:NamedIndividual ;
+:AlgorithmicTrading rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :FinancialAndInsuranceActivities ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1037"@en ;
@@ -1082,7 +1105,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AnalogicalReasoning
-:AnalogicalReasoning rdf:type owl:NamedIndividual ;
+:AnalogicalReasoning rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con987"@en ;
                      rdfs:label "Analogical Reasoning"@en .
@@ -1189,14 +1213,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/ArgumentMining
-:ArgumentMining rdf:type owl:NamedIndividual ;
+:ArgumentMining rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con1021"@en ;
                 rdfs:label "Argument Mining"@en .
 
 
 ###  http://aiod.eu/data/schemas/Argumentation
-:Argumentation rdf:type owl:NamedIndividual ;
+:Argumentation rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con930"@en ;
                rdfs:label "Argumentation"@en .
@@ -1241,7 +1267,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AssemblyComponentOptimization
-:AssemblyComponentOptimization rdf:type owl:NamedIndividual ;
+:AssemblyComponentOptimization rdf:type owl:NamedIndividual ,
+                                        ns1:Concept ;
                                ns1:broader :Manufacturing ;
                                ns1:inScheme :BusinessSector ;
                                ns1:notation "con1076"@en ;
@@ -1259,7 +1286,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AssetManagement
-:AssetManagement rdf:type owl:NamedIndividual ;
+:AssetManagement rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :FinancialAndInsuranceActivities ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1038"@en ;
@@ -1267,7 +1295,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AssistedDriving
-:AssistedDriving rdf:type owl:NamedIndividual ;
+:AssistedDriving rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :TransportationAndStorage ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1110"@en ;
@@ -1284,14 +1313,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AssociationAnalysis
-:AssociationAnalysis rdf:type owl:NamedIndividual ;
+:AssociationAnalysis rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con929"@en ;
                      rdfs:label "Association analysis"@en .
 
 
 ###  http://aiod.eu/data/schemas/AssociativeMemories
-:AssociativeMemories rdf:type owl:NamedIndividual ;
+:AssociativeMemories rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con928"@en ;
                      rdfs:label "Associative memories"@en .
@@ -1308,14 +1339,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AuctionsAndMarket-BasedSystems
-:AuctionsAndMarket-BasedSystems rdf:type owl:NamedIndividual ;
+:AuctionsAndMarket-BasedSystems rdf:type owl:NamedIndividual ,
+                                         ns1:Concept ;
                                 ns1:inScheme :Approach ;
                                 ns1:notation "con977"@en ;
                                 rdfs:label "Auctions and Market-Based Systems"@en .
 
 
 ###  http://aiod.eu/data/schemas/AudienceAnalysisEngagement
-:AudienceAnalysisEngagement rdf:type owl:NamedIndividual ;
+:AudienceAnalysisEngagement rdf:type owl:NamedIndividual ,
+                                     ns1:Concept ;
                             ns1:broader :InformationAndCommunicationTechnologies ;
                             ns1:inScheme :BusinessSector ;
                             ns1:notation "con1099"@en ;
@@ -1353,7 +1386,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AudiovisualArchives
-:AudiovisualArchives rdf:type owl:NamedIndividual ;
+:AudiovisualArchives rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader :InformationAndCommunicationTechnologies ;
                      ns1:inScheme :BusinessSector ;
                      ns1:notation "con1100"@en ;
@@ -1428,7 +1462,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AutomatedAuditingOfPublicServices
-:AutomatedAuditingOfPublicServices rdf:type owl:NamedIndividual ;
+:AutomatedAuditingOfPublicServices rdf:type owl:NamedIndividual ,
+                                            ns1:Concept ;
                                    ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                                    ns1:inScheme :BusinessSector ;
                                    ns1:notation "con1127"@en ;
@@ -1477,7 +1512,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AutomatedTestingGradingAndAssessment
-:AutomatedTestingGradingAndAssessment rdf:type owl:NamedIndividual ;
+:AutomatedTestingGradingAndAssessment rdf:type owl:NamedIndividual ,
+                                               ns1:Concept ;
                                       ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                                       ns1:inScheme :BusinessSector ;
                                       ns1:notation "con1088"@en ;
@@ -1495,7 +1531,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AutomationAndAutonomy
-:AutomationAndAutonomy rdf:type owl:NamedIndividual ;
+:AutomationAndAutonomy rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                        ns1:inScheme :BusinessSector ;
                        ns1:notation "con1047"@en ;
@@ -1503,7 +1540,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AutonomousCharacters
-:AutonomousCharacters rdf:type owl:NamedIndividual ;
+:AutonomousCharacters rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con1152"@en ;
                       rdfs:label "Autonomous Characters"@en .
@@ -1519,7 +1557,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/AutonomousVehicles
-:AutonomousVehicles rdf:type owl:NamedIndividual ;
+:AutonomousVehicles rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :TransportationAndStorage ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1111"@en ;
@@ -1593,7 +1632,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BasicResearch
-:BasicResearch rdf:type owl:NamedIndividual ;
+:BasicResearch rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :ScientificResearchDesignAndEngineering ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1138"@en ;
@@ -1611,7 +1651,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BayesianNetworks
-:BayesianNetworks rdf:type owl:NamedIndividual ;
+:BayesianNetworks rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con927"@en ;
                   rdfs:label "Bayesian Networks"@en .
@@ -1676,7 +1717,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BeliefChange
-:BeliefChange rdf:type owl:NamedIndividual ;
+:BeliefChange rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con926"@en ;
               rdfs:label "Belief Change"@en .
@@ -1719,7 +1761,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Bias
-:Bias rdf:type owl:NamedIndividual ;
+:Bias rdf:type owl:NamedIndividual ,
+               ns1:Concept ;
       ns1:inScheme :Approach ;
       ns1:notation "con978"@en ;
       rdfs:label "Bias"@en .
@@ -1746,7 +1789,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Bioinformatics
-:Bioinformatics rdf:type owl:NamedIndividual ;
+:Bioinformatics rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader :HumanHealthAndSocialWorkActivities ;
                 ns1:inScheme :BusinessSector ;
                 ns1:notation "con1060"@en ;
@@ -1766,7 +1810,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Biometrics
-:Biometrics rdf:type owl:NamedIndividual ;
+:Biometrics rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:broader :SafetyandSecurity ;
             ns1:inScheme :BusinessSector ;
             ns1:notation "con1131"@en ;
@@ -1774,7 +1819,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BiometricsFaceGesturePose
-:BiometricsFaceGesturePose rdf:type owl:NamedIndividual ;
+:BiometricsFaceGesturePose rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:inScheme :Approach ;
                            ns1:notation "con1167"@en ;
                            rdfs:label "Biometrics, Face, Gesture & Pose"@en .
@@ -1799,7 +1845,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BorderControl
-:BorderControl rdf:type owl:NamedIndividual ;
+:BorderControl rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1134"@en ;
@@ -1834,14 +1881,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Brain-SensingAndAnalysis
-:Brain-SensingAndAnalysis rdf:type owl:NamedIndividual ;
+:Brain-SensingAndAnalysis rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con986"@en ;
                           rdfs:label "Brain-Sensing and Analysis"@en .
 
 
 ###  http://aiod.eu/data/schemas/BrainModeling
-:BrainModeling rdf:type owl:NamedIndividual ;
+:BrainModeling rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con874"@en ;
                rdfs:label "Brain modeling"@en .
@@ -1896,7 +1945,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/BuildingDesignAndarchitecture
-:BuildingDesignAndarchitecture rdf:type owl:NamedIndividual ;
+:BuildingDesignAndarchitecture rdf:type owl:NamedIndividual ,
+                                        ns1:Concept ;
                                ns1:broader :ScientificResearchDesignAndEngineering ;
                                ns1:inScheme :BusinessSector ;
                                ns1:notation "con1139"@en ;
@@ -2080,7 +2130,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/CausalInference
-:CausalInference rdf:type owl:NamedIndividual ;
+:CausalInference rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con1017"@en ;
                  rdfs:label "Causal inference"@en .
@@ -2097,7 +2148,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Causality
-:Causality rdf:type owl:NamedIndividual ;
+:Causality rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
            ns1:inScheme :Approach ;
            ns1:notation "con1016"@en ;
            rdfs:label "Causality"@en .
@@ -2217,7 +2269,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/Chunking
-:Chunking rdf:type owl:NamedIndividual ;
+:Chunking rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
           ns1:inScheme :Approach ;
           ns1:notation "con1165"@en ;
           rdfs:label "Chunking"@en .
@@ -2286,7 +2339,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/ClientAdvisoryServices
-:ClientAdvisoryServices rdf:type owl:NamedIndividual ;
+:ClientAdvisoryServices rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:broader :FinancialAndInsuranceActivities ;
                         ns1:inScheme :BusinessSector ;
                         ns1:notation "con1039"@en ;
@@ -2294,7 +2348,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/ClimatePrediction
-:ClimatePrediction rdf:type owl:NamedIndividual ;
+:ClimatePrediction rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1045"@en ;
@@ -2302,7 +2357,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/ClinicalDecisionSupport
-:ClinicalDecisionSupport rdf:type owl:NamedIndividual ;
+:ClinicalDecisionSupport rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:broader :HumanHealthAndSocialWorkActivities ;
                          ns1:inScheme :BusinessSector ;
                          ns1:notation "con1061"@en ;
@@ -2322,7 +2378,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/CloudComputing
-:CloudComputing rdf:type owl:NamedIndividual ;
+:CloudComputing rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader :InformationTechnology ;
                 ns1:inScheme :BusinessSector ;
                 ns1:notation "con1072"@en ;
@@ -2349,14 +2406,16 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/CognitionModeling
-:CognitionModeling rdf:type owl:NamedIndividual ;
+:CognitionModeling rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con999"@en ;
                    rdfs:label "Cognition Modeling"@en .
 
 
 ###  http://aiod.eu/data/schemas/CognitiveArchitectures
-:CognitiveArchitectures rdf:type owl:NamedIndividual ;
+:CognitiveArchitectures rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con1002"@en ;
                         rdfs:label "Cognitive Architectures"@en .
@@ -2373,7 +2432,8 @@ rdfs:Class rdf:type owl:Class .
 
 
 ###  http://aiod.eu/data/schemas/CognitiveSystems
-:CognitiveSystems rdf:type owl:NamedIndividual ;
+:CognitiveSystems rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con1000"@en ;
                   rdfs:label "Cognitive Systems"@en .
@@ -2478,7 +2538,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputationalComplexityOfReasoning
-:ComputationalComplexityOfReasoning rdf:type owl:NamedIndividual ;
+:ComputationalComplexityOfReasoning rdf:type owl:NamedIndividual ,
+                                             ns1:Concept ;
                                     ns1:inScheme :Approach ;
                                     ns1:notation "con925"@en ;
                                     rdfs:label "Computational Complexity of Reasoning"@en .
@@ -2537,7 +2598,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ComputerAudition
-:ComputerAudition rdf:type owl:NamedIndividual ;
+:ComputerAudition rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con1161" ;
                   rdfs:label "Computer Audition"@en .
@@ -2568,7 +2630,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ConceptualReasoning
-:ConceptualReasoning rdf:type owl:NamedIndividual ;
+:ConceptualReasoning rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con988"@en ;
                      rdfs:label "Conceptual Reasoning"@en .
@@ -2595,28 +2658,32 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ConsciousnessAndPhilosophyOfMind
-:ConsciousnessAndPhilosophyOfMind rdf:type owl:NamedIndividual ;
+:ConsciousnessAndPhilosophyOfMind rdf:type owl:NamedIndividual ,
+                                           ns1:Concept ;
                                   ns1:inScheme :Approach ;
                                   ns1:notation "con964"@en ;
                                   rdfs:label "Consciousness and Philosophy of Mind"@en .
 
 
 ###  http://aiod.eu/data/schemas/ConstraintLearningAndAcquisition
-:ConstraintLearningAndAcquisition rdf:type owl:NamedIndividual ;
+:ConstraintLearningAndAcquisition rdf:type owl:NamedIndividual ,
+                                           ns1:Concept ;
                                   ns1:inScheme :Approach ;
                                   ns1:notation "con950"@en ;
                                   rdfs:label "Constraint Learning and Acquisition"@en .
 
 
 ###  http://aiod.eu/data/schemas/ConstraintOptimization
-:ConstraintOptimization rdf:type owl:NamedIndividual ;
+:ConstraintOptimization rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con905"@en ;
                         rdfs:label "Constraint Optimization"@en .
 
 
 ###  http://aiod.eu/data/schemas/ConstraintProgramming
-:ConstraintProgramming rdf:type owl:NamedIndividual ;
+:ConstraintProgramming rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:inScheme :Approach ;
                        ns1:notation "con905"@en ;
                        rdfs:label "Constraint Programming"@en .
@@ -2656,7 +2723,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ContentModeration
-:ContentModeration rdf:type owl:NamedIndividual ;
+:ContentModeration rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :InformationAndCommunicationTechnologies ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1101"@en ;
@@ -2664,7 +2732,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ContentOrganisationAndSearch
-:ContentOrganisationAndSearch rdf:type owl:NamedIndividual ;
+:ContentOrganisationAndSearch rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
                               ns1:broader :InformationAndCommunicationTechnologies ;
                               ns1:inScheme :BusinessSector ;
                               ns1:notation "con1102"@en ;
@@ -2682,14 +2751,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ControlOfHigh-DimensionalSystems
-:ControlOfHigh-DimensionalSystems rdf:type owl:NamedIndividual ;
+:ControlOfHigh-DimensionalSystems rdf:type owl:NamedIndividual ,
+                                           ns1:Concept ;
                                   ns1:inScheme :Approach ;
                                   ns1:notation "con935"@en ;
                                   rdfs:label "Control of High-Dimensional Systems"@en .
 
 
 ###  http://aiod.eu/data/schemas/ConversationalBankingAndCustomerService
-:ConversationalBankingAndCustomerService rdf:type owl:NamedIndividual ;
+:ConversationalBankingAndCustomerService rdf:type owl:NamedIndividual ,
+                                                  ns1:Concept ;
                                          ns1:broader :FinancialAndInsuranceActivities ;
                                          ns1:inScheme :BusinessSector ;
                                          ns1:notation "con1040"@en ;
@@ -2697,7 +2768,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ConvexOptimization
-:ConvexOptimization rdf:type owl:NamedIndividual ;
+:ConvexOptimization rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con904"@en ;
                     rdfs:label "Convex optimization"@en .
@@ -2723,14 +2795,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CoordinationAndCollaboration
-:CoordinationAndCollaboration rdf:type owl:NamedIndividual ;
+:CoordinationAndCollaboration rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
                               ns1:inScheme :Approach ;
                               ns1:notation "con1150"@en ;
                               rdfs:label "Coordination and Collaboration"@en .
 
 
 ###  http://aiod.eu/data/schemas/CorrelationAnalysis
-:CorrelationAnalysis rdf:type owl:NamedIndividual ;
+:CorrelationAnalysis rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con924"@en ;
                      rdfs:label "Correlation analysis"@en .
@@ -2761,7 +2835,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CreditworthinessAssessment
-:CreditworthinessAssessment rdf:type owl:NamedIndividual ;
+:CreditworthinessAssessment rdf:type owl:NamedIndividual ,
+                                     ns1:Concept ;
                             ns1:broader :FinancialAndInsuranceActivities ;
                             ns1:inScheme :BusinessSector ;
                             ns1:notation "con1041"@en ;
@@ -2769,7 +2844,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CrimeDetectionAndPrevention
-:CrimeDetectionAndPrevention rdf:type owl:NamedIndividual ;
+:CrimeDetectionAndPrevention rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                              ns1:inScheme :BusinessSector ;
                              ns1:notation "con1135"@en ;
@@ -2786,7 +2862,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CropYieldPrediction
-:CropYieldPrediction rdf:type owl:NamedIndividual ;
+:CropYieldPrediction rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                      ns1:inScheme :BusinessSector ;
                      ns1:notation "con1028"@en ;
@@ -2851,7 +2928,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/CustomerSupport
-:CustomerSupport rdf:type owl:NamedIndividual ;
+:CustomerSupport rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :BusinessProblem ;
                  ns1:notation "con105"@en ;
                  <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
@@ -2908,7 +2986,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Data-drivenMicrogridsPoweredByRenewableEnergy
-:Data-drivenMicrogridsPoweredByRenewableEnergy rdf:type owl:NamedIndividual ;
+:Data-drivenMicrogridsPoweredByRenewableEnergy rdf:type owl:NamedIndividual ,
+                                                        ns1:Concept ;
                                                ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                                                ns1:inScheme :BusinessSector ;
                                                ns1:notation "con1048"@en ;
@@ -2926,14 +3005,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DataCompression
-:DataCompression rdf:type owl:NamedIndividual ;
+:DataCompression rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con879"@en ;
                  rdfs:label "Data Compression"@en .
 
 
 ###  http://aiod.eu/data/schemas/DataLabeling
-:DataLabeling rdf:type owl:NamedIndividual ;
+:DataLabeling rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:broader :Manufacturing ;
               ns1:inScheme :BusinessSector ;
               ns1:notation "con1077"@en ;
@@ -2941,7 +3022,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DataStreamMining
-:DataStreamMining rdf:type owl:NamedIndividual ;
+:DataStreamMining rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con880"@en ;
                   rdfs:label "Data Stream Mining"@en .
@@ -2958,14 +3040,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DataSummarization
-:DataSummarization rdf:type owl:NamedIndividual ;
+:DataSummarization rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con991"@en ;
                    rdfs:label "Data Summarization"@en .
 
 
 ###  http://aiod.eu/data/schemas/DataVisualization
-:DataVisualization rdf:type owl:NamedIndividual ;
+:DataVisualization rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con990"@en ;
                    rdfs:label "Data Visualization"@en .
@@ -3089,28 +3173,32 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Derivative-freeOptimization
-:Derivative-freeOptimization rdf:type owl:NamedIndividual ;
+:Derivative-freeOptimization rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:inScheme :Approach ;
                              ns1:notation "con903"@en ;
                              rdfs:label "Derivative-free optimization"@en .
 
 
 ###  http://aiod.eu/data/schemas/DescriptionLogics
-:DescriptionLogics rdf:type owl:NamedIndividual ;
+:DescriptionLogics rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con876"@en ;
                    rdfs:label "Description Logics"@en .
 
 
 ###  http://aiod.eu/data/schemas/DesicionTheory
-:DesicionTheory rdf:type owl:NamedIndividual ;
+:DesicionTheory rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "970"@en ;
                 rdfs:label "Decision Theory"@en .
 
 
 ###  http://aiod.eu/data/schemas/Design
-:Design rdf:type owl:NamedIndividual ;
+:Design rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:broader :ScientificResearchDesignAndEngineering ;
         ns1:inScheme :BusinessSector ;
         ns1:notation "con1140"@en ;
@@ -3136,7 +3224,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DiagnosisAndAbductiveReasoning
-:DiagnosisAndAbductiveReasoning rdf:type owl:NamedIndividual ;
+:DiagnosisAndAbductiveReasoning rdf:type owl:NamedIndividual ,
+                                         ns1:Concept ;
                                 ns1:inScheme :Approach ;
                                 ns1:notation "con947"@en ;
                                 rdfs:label "Diagnosis and Abductive Reasoning"@en .
@@ -3153,7 +3242,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalBiomarkers
-:DigitalBiomarkers rdf:type owl:NamedIndividual ;
+:DigitalBiomarkers rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :HumanHealthAndSocialWorkActivities ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1062"@en ;
@@ -3161,7 +3251,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalFactories
-:DigitalFactories rdf:type owl:NamedIndividual ;
+:DigitalFactories rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :Manufacturing ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1078"@en ;
@@ -3169,7 +3260,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalPolicing
-:DigitalPolicing rdf:type owl:NamedIndividual ;
+:DigitalPolicing rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1136"@en ;
@@ -3177,7 +3269,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalTransformation
-:DigitalTransformation rdf:type owl:NamedIndividual ;
+:DigitalTransformation rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                        ns1:inScheme :BusinessSector ;
                        ns1:notation "con1128"@en ;
@@ -3185,7 +3278,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DigitalTwins
-:DigitalTwins rdf:type owl:NamedIndividual ;
+:DigitalTwins rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:broader :Manufacturing ;
               ns1:inScheme :BusinessSector ;
               ns1:notation "con1079"@en ;
@@ -3203,21 +3297,24 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Discourse
-:Discourse rdf:type owl:NamedIndividual ;
+:Discourse rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
            ns1:inScheme :Approach ;
            ns1:notation "con1023"@en ;
            rdfs:label "Discourse"@en .
 
 
 ###  http://aiod.eu/data/schemas/DissimilarityMetrics
-:DissimilarityMetrics rdf:type owl:NamedIndividual ;
+:DissimilarityMetrics rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con1159"@en ;
                       rdfs:label "Dissimilarity (distance) metrics"@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedCSP
-:DistributedCSP rdf:type owl:NamedIndividual ;
+:DistributedCSP rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con1018"@en ;
                 rdfs:label "Distributed CSP"@en .
@@ -3244,7 +3341,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedOptimization
-:DistributedOptimization rdf:type owl:NamedIndividual ;
+:DistributedOptimization rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:inScheme :Approach ;
                          ns1:notation "con1019"@en ;
                          rdfs:label "Distributed Optimization"@en .
@@ -3260,21 +3358,24 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedProblemSolving
-:DistributedProblemSolving rdf:type owl:NamedIndividual ;
+:DistributedProblemSolving rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:inScheme :Approach ;
                            ns1:notation "con884"@en ;
                            rdfs:label "Distributed Problem Solving"@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedSearch
-:DistributedSearch rdf:type owl:NamedIndividual ;
+:DistributedSearch rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con902"@en ;
                    rdfs:label "Distributed Search"@en .
 
 
 ###  http://aiod.eu/data/schemas/DistributedSystems
-:DistributedSystems rdf:type owl:NamedIndividual ;
+:DistributedSystems rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con993"@en ;
                     rdfs:label "Distributed Systems"@en .
@@ -3320,7 +3421,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DocumentManagement
-:DocumentManagement rdf:type owl:NamedIndividual ;
+:DocumentManagement rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :InformationAndCommunicationTechnologies ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1103"@en ;
@@ -3356,7 +3458,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DriverMonitoring
-:DriverMonitoring rdf:type owl:NamedIndividual ;
+:DriverMonitoring rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :TransportationAndStorage ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1112"@en ;
@@ -3364,7 +3467,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DroneTaxis
-:DroneTaxis rdf:type owl:NamedIndividual ;
+:DroneTaxis rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:broader :TransportationAndStorage ;
             ns1:inScheme :BusinessSector ;
             ns1:notation "con1113"@en ;
@@ -3372,7 +3476,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DrugDiscovery
-:DrugDiscovery rdf:type owl:NamedIndividual ;
+:DrugDiscovery rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :HumanHealthAndSocialWorkActivities ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1063"@en ;
@@ -3380,7 +3485,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/DynamicScheduling
-:DynamicScheduling rdf:type owl:NamedIndividual ;
+:DynamicScheduling rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :Manufacturing ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1080"@en ;
@@ -3408,7 +3514,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/E-commerce
-:E-commerce rdf:type owl:NamedIndividual ;
+:E-commerce rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:broader :InformationAndCommunicationTechnologies ;
             ns1:inScheme :BusinessSector ;
             ns1:notation "con1104"@en ;
@@ -3416,7 +3523,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EarlyDetection
-:EarlyDetection rdf:type owl:NamedIndividual ;
+:EarlyDetection rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader :HumanHealthAndSocialWorkActivities ;
                 ns1:inScheme :BusinessSector ;
                 ns1:notation "con1064"@en ;
@@ -3436,7 +3544,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EarthMonitoringObservation
-:EarthMonitoringObservation rdf:type owl:NamedIndividual ;
+:EarthMonitoringObservation rdf:type owl:NamedIndividual ,
+                                     ns1:Concept ;
                             ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                             ns1:inScheme :BusinessSector ;
                             ns1:notation "con1049"@en ;
@@ -3456,7 +3565,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EcosystemMonitoring
-:EcosystemMonitoring rdf:type owl:NamedIndividual ;
+:EcosystemMonitoring rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader :TransportationAndStorage ;
                      ns1:inScheme :BusinessSector ;
                      ns1:notation "con1114"@en ;
@@ -3473,7 +3583,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EdgeComputing
-:EdgeComputing rdf:type owl:NamedIndividual ;
+:EdgeComputing rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con869"@en ;
                rdfs:label "Edge computing"@en .
@@ -3554,14 +3665,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EmbeddedComputing
-:EmbeddedComputing rdf:type owl:NamedIndividual ;
+:EmbeddedComputing rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con870"@en ;
                    rdfs:label "Embedded computing"@en .
 
 
 ###  http://aiod.eu/data/schemas/EmergentBehavior
-:EmergentBehavior rdf:type owl:NamedIndividual ;
+:EmergentBehavior rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con946"@en ;
                   rdfs:label "Emergent Behavior"@en .
@@ -3578,7 +3691,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyAtTheEdge
-:EnergyAtTheEdge rdf:type owl:NamedIndividual ;
+:EnergyAtTheEdge rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1050"@en ;
@@ -3586,7 +3700,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyAutonomousAssets
-:EnergyAutonomousAssets rdf:type owl:NamedIndividual ;
+:EnergyAutonomousAssets rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:broader :TransportationAndStorage ;
                         ns1:inScheme :BusinessSector ;
                         ns1:notation "con1115"@en ;
@@ -3594,7 +3709,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyEfficiency
-:EnergyEfficiency rdf:type owl:NamedIndividual ;
+:EnergyEfficiency rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1051"@en ;
@@ -3602,7 +3718,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyProductionForecasting
-:EnergyProductionForecasting rdf:type owl:NamedIndividual ;
+:EnergyProductionForecasting rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                              ns1:inScheme :BusinessSector ;
                              ns1:notation "con1052"@en ;
@@ -3622,7 +3739,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EnergyTrading
-:EnergyTrading rdf:type owl:NamedIndividual ;
+:EnergyTrading rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1053"@en ;
@@ -3682,7 +3800,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EquipmentControl
-:EquipmentControl rdf:type owl:NamedIndividual ;
+:EquipmentControl rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :SafetyandSecurity ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1132"@en ;
@@ -3690,7 +3809,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Equity
-:Equity rdf:type owl:NamedIndividual ;
+:Equity rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:inScheme :Approach ;
         ns1:notation "conn1148"@en ;
         rdfs:label "Equity"@en .
@@ -3752,7 +3872,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EvaluationAndAnalysis
-:EvaluationAndAnalysis rdf:type owl:NamedIndividual ;
+:EvaluationAndAnalysis rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:inScheme :Approach ;
                        ns1:notation "con1020"@en ;
                        rdfs:label "Evaluation and Analysis"@en .
@@ -3768,7 +3889,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/EvolutionaryComputation
-:EvolutionaryComputation rdf:type owl:NamedIndividual ;
+:EvolutionaryComputation rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:inScheme :Approach ;
                          ns1:notation "con901"@en ;
                          rdfs:label "Evolutionary Computation"@en .
@@ -3930,7 +4052,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Flight
-:Flight rdf:type owl:NamedIndividual ;
+:Flight rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:broader :TransportationAndStorage ;
         ns1:inScheme :BusinessSector ;
         ns1:notation "con1116"@en ;
@@ -3938,7 +4061,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ForeignInformationManipulationAndInterferenceDetection
-:ForeignInformationManipulationAndInterferenceDetection rdf:type owl:NamedIndividual ;
+:ForeignInformationManipulationAndInterferenceDetection rdf:type owl:NamedIndividual ,
+                                                                 ns1:Concept ;
                                                         ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                                                         ns1:inScheme :BusinessSector ;
                                                         ns1:notation "con1137"@en ;
@@ -3976,7 +4100,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/FrameSemantics
-:FrameSemantics rdf:type owl:NamedIndividual ;
+:FrameSemantics rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con893"@en ;
                 rdfs:label "Frame Semantics"@en .
@@ -4047,7 +4172,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/FuzzyRule-basedSystems
-:FuzzyRule-basedSystems rdf:type owl:NamedIndividual ;
+:FuzzyRule-basedSystems rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con923"@en ;
                         rdfs:label "Fuzzy rule-based systems"@en .
@@ -4082,14 +4208,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Games
-:Games rdf:type owl:NamedIndividual ;
+:Games rdf:type owl:NamedIndividual ,
+                ns1:Concept ;
        ns1:inScheme :Approach ;
        ns1:notation "con1151"@en ;
        rdfs:label "Games"@en .
 
 
 ###  http://aiod.eu/data/schemas/Gamification
-:Gamification rdf:type owl:NamedIndividual ;
+:Gamification rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
               ns1:inScheme :BusinessSector ;
               ns1:notation "con1089"@en ;
@@ -4097,7 +4225,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Generation
-:Generation rdf:type owl:NamedIndividual ;
+:Generation rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con1160"@en ;
             rdfs:label "Generation"@en .
@@ -4135,7 +4264,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Genomics
-:Genomics rdf:type owl:NamedIndividual ;
+:Genomics rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
           ns1:broader :HumanHealthAndSocialWorkActivities ;
           ns1:inScheme :BusinessSector ;
           ns1:notation "con1066"@en ;
@@ -4153,7 +4283,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/GeometricReasoning
-:GeometricReasoning rdf:type owl:NamedIndividual ;
+:GeometricReasoning rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con972"@en ;
                     rdfs:label "Geometric Reasoning"@en .
@@ -4196,7 +4327,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Gradient-basedOptimization
-:Gradient-basedOptimization rdf:type owl:NamedIndividual ;
+:Gradient-basedOptimization rdf:type owl:NamedIndividual ,
+                                     ns1:Concept ;
                             ns1:inScheme :Approach ;
                             ns1:notation "con900"@en ;
                             rdfs:label "Gradient-based optimization"@en .
@@ -4248,7 +4380,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/GraphicalModel
-:GraphicalModel rdf:type owl:NamedIndividual ;
+:GraphicalModel rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con922"@en ;
                 rdfs:label "Graphical Model"@en .
@@ -4302,7 +4435,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/GridManagementEfficiencyAndSecurity
-:GridManagementEfficiencyAndSecurity rdf:type owl:NamedIndividual ;
+:GridManagementEfficiencyAndSecurity rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                                      ns1:inScheme :BusinessSector ;
                                      ns1:notation "con1054"@en ;
@@ -4373,7 +4507,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/HRIinManufacturingProcesses
-:HRIinManufacturingProcesses rdf:type owl:NamedIndividual ;
+:HRIinManufacturingProcesses rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:broader :Manufacturing ;
                              ns1:inScheme :BusinessSector ;
                              ns1:notation "con1081"@en ;
@@ -4420,14 +4555,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/HeuristicSearch
-:HeuristicSearch rdf:type owl:NamedIndividual ;
+:HeuristicSearch rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con899"@en ;
                  rdfs:label "Heuristic Search"@en .
 
 
 ###  http://aiod.eu/data/schemas/High-performanceComputing
-:High-performanceComputing rdf:type owl:NamedIndividual ;
+:High-performanceComputing rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:inScheme :Approach ;
                            ns1:notation "con871"@en ;
                            rdfs:label "High-performance computing"@en .
@@ -4543,7 +4680,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanAgencyAndOversight
-:HumanAgencyAndOversight rdf:type owl:NamedIndividual ;
+:HumanAgencyAndOversight rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:inScheme :Approach ;
                          ns1:notation "con939"@en ;
                          rdfs:label "Human agency and oversight"@en .
@@ -4602,7 +4740,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/HumanitiesAndComputationalSocialScience
-:HumanitiesAndComputationalSocialScience rdf:type owl:NamedIndividual ;
+:HumanitiesAndComputationalSocialScience rdf:type owl:NamedIndividual ,
+                                                  ns1:Concept ;
                                          ns1:broader :ScientificResearchDesignAndEngineering ;
                                          ns1:inScheme :BusinessSector ;
                                          ns1:notation "con1141"@en ;
@@ -4784,7 +4923,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/InclusiveAndUniversalAccessToEducation
-:InclusiveAndUniversalAccessToEducation rdf:type owl:NamedIndividual ;
+:InclusiveAndUniversalAccessToEducation rdf:type owl:NamedIndividual ,
+                                                 ns1:Concept ;
                                         ns1:inScheme :BusinessSector ;
                                         ns1:notation "con1090"@en ;
                                         rdfs:label "Inclusive and universal access to education"@en .
@@ -4860,7 +5000,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Infodemics
-:Infodemics rdf:type owl:NamedIndividual ;
+:Infodemics rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:broader :HumanHealthAndSocialWorkActivities ;
             ns1:inScheme :BusinessSector ;
             ns1:notation "con1067"@en ;
@@ -4879,7 +5020,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/InformationExtraction
-:InformationExtraction rdf:type owl:NamedIndividual ;
+:InformationExtraction rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:inScheme :Approach ;
                        ns1:notation "con895"@en ;
                        rdfs:label "Information Extraction"@en .
@@ -4914,7 +5056,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/InsectAndPlantDiseaseDetection
-:InsectAndPlantDiseaseDetection rdf:type owl:NamedIndividual ;
+:InsectAndPlantDiseaseDetection rdf:type owl:NamedIndividual ,
+                                         ns1:Concept ;
                                 ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                                 ns1:inScheme :BusinessSector ;
                                 ns1:notation "con1029"@en ;
@@ -4981,7 +5124,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligentTutoringSystems
-:IntelligentTutoringSystems rdf:type owl:NamedIndividual ;
+:IntelligentTutoringSystems rdf:type owl:NamedIndividual ,
+                                     ns1:Concept ;
                             ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                             ns1:inScheme :BusinessSector ;
                             ns1:notation "con1091"@en ;
@@ -5008,7 +5152,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Interfaces
-:Interfaces rdf:type owl:NamedIndividual ;
+:Interfaces rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con1157"@en ;
             rdfs:label "Interfaces"@en .
@@ -5067,7 +5212,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Introspection
-:Introspection rdf:type owl:NamedIndividual ;
+:Introspection rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con982"@en ;
                rdfs:label "Introspection"@en .
@@ -5084,7 +5230,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/InverseReinforcementLearning
-:InverseReinforcementLearning rdf:type owl:NamedIndividual ;
+:InverseReinforcementLearning rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
                               ns1:inScheme :Approach ;
                               ns1:notation "con968"@en ;
                               rdfs:label "Inverse Reinforcement Learning"@en .
@@ -5200,14 +5347,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Justice
-:Justice rdf:type owl:NamedIndividual ;
+:Justice rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
          ns1:inScheme :Approach ;
          ns1:notation "con1149"@en ;
          rdfs:label "Justice"@en .
 
 
 ###  http://aiod.eu/data/schemas/KYCprocesses
-:KYCprocesses rdf:type owl:NamedIndividual ;
+:KYCprocesses rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:broader :FinancialAndInsuranceActivities ;
               ns1:inScheme :BusinessSector ;
               ns1:notation "con1042"@en ;
@@ -5262,21 +5411,24 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeBaseCompletion
-:KnowledgeBaseCompletion rdf:type owl:NamedIndividual ;
+:KnowledgeBaseCompletion rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:inScheme :Approach ;
                          ns1:notation "con989"@en ;
                          rdfs:label "Knowledge Base Completion"@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeCapture
-:KnowledgeCapture rdf:type owl:NamedIndividual ;
+:KnowledgeCapture rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con981"@en ;
                   rdfs:label "Knowledge Capture"@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeEngineering
-:KnowledgeEngineering rdf:type owl:NamedIndividual ;
+:KnowledgeEngineering rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con877"@en ;
                       rdfs:label "Knowledge Engineering"@en .
@@ -5293,7 +5445,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/KnowledgeManagement
-:KnowledgeManagement rdf:type owl:NamedIndividual ;
+:KnowledgeManagement rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con1004"@en ;
                      rdfs:label "Knowledge Management"@en .
@@ -5350,21 +5503,24 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LanguageGrounding
-:LanguageGrounding rdf:type owl:NamedIndividual ;
+:LanguageGrounding rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con894"@en ;
                    rdfs:label "Language Grounding"@en .
 
 
 ###  http://aiod.eu/data/schemas/LanguageLearning
-:LanguageLearning rdf:type owl:NamedIndividual ;
+:LanguageLearning rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con961"@en ;
                   rdfs:label "Language Learning"@en .
 
 
 ###  http://aiod.eu/data/schemas/LanguageandVision
-:LanguageandVision rdf:type owl:NamedIndividual ;
+:LanguageandVision rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con1156"@en ;
                    rdfs:label "Language and Vision"@en .
@@ -5433,7 +5589,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningAnalytics
-:LearningAnalytics rdf:type owl:NamedIndividual ;
+:LearningAnalytics rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1092"@en ;
@@ -5441,7 +5598,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningAssistance
-:LearningAssistance rdf:type owl:NamedIndividual ;
+:LearningAssistance rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1094"@en ;
@@ -5449,14 +5607,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningFromScarceData
-:LearningFromScarceData rdf:type owl:NamedIndividual ;
+:LearningFromScarceData rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con1169"@en ;
                         rdfs:label "Learning from scarce data"@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningHumanValuesAndPreferences
-:LearningHumanValuesAndPreferences rdf:type owl:NamedIndividual ;
+:LearningHumanValuesAndPreferences rdf:type owl:NamedIndividual ,
+                                            ns1:Concept ;
                                    ns1:inScheme :Approach ;
                                    ns1:notation "con940"@en ;
                                    rdfs:label "Learning Human Values and Preferences"@en .
@@ -5523,7 +5683,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LegalAndCompliance
-:LegalAndCompliance rdf:type owl:NamedIndividual ;
+:LegalAndCompliance rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :BusinessFunction ;
                     ns1:notation "con847"@en ;
                     <http://purl.org/dc/elements/1.1/source> "EU Generative AI Mapping – Attributes, Definitions, and Taxonomies. Internal documentation used for classifying AI startups"@en ;
@@ -5653,7 +5814,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LivestockMonitoring
-:LivestockMonitoring rdf:type owl:NamedIndividual ;
+:LivestockMonitoring rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con1030"@en ;
@@ -5661,14 +5823,16 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LocalSearch
-:LocalSearch rdf:type owl:NamedIndividual ;
+:LocalSearch rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con898"@en ;
              rdfs:label "Local Search"@en .
 
 
 ###  http://aiod.eu/data/schemas/LocalizationMappingAndNavigation
-:LocalizationMappingAndNavigation rdf:type owl:NamedIndividual ;
+:LocalizationMappingAndNavigation rdf:type owl:NamedIndividual ,
+                                           ns1:Concept ;
                                   ns1:inScheme :Approach ;
                                   ns1:notation "con1170"@en ;
                                   rdfs:label "Localization, Mapping, and Navigation"@en .
@@ -5683,7 +5847,8 @@ informal context."""@en .
 
 
 ###  http://aiod.eu/data/schemas/LogicProgramming
-:LogicProgramming rdf:type owl:NamedIndividual ;
+:LogicProgramming rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con878"@en ;
                   rdfs:label "Logic Programming"@en .
@@ -5930,7 +6095,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MatrixAndTensorMethods
-:MatrixAndTensorMethods rdf:type owl:NamedIndividual ;
+:MatrixAndTensorMethods rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con969"@en ;
                         rdfs:label "Matrix & Tensor Methods"@en .
@@ -6028,7 +6194,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MedicalDiagnosis
-:MedicalDiagnosis rdf:type owl:NamedIndividual ;
+:MedicalDiagnosis rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :HumanHealthAndSocialWorkActivities ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1068"@en ;
@@ -6048,21 +6215,24 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MemoryRetrieval
-:MemoryRetrieval rdf:type owl:NamedIndividual ;
+:MemoryRetrieval rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con985"@en ;
                  rdfs:label "Memory Retrieval"@en .
 
 
 ###  http://aiod.eu/data/schemas/MemoryStorage
-:MemoryStorage rdf:type owl:NamedIndividual ;
+:MemoryStorage rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con984"@en ;
                rdfs:label "Memory Storage"@en .
 
 
 ###  http://aiod.eu/data/schemas/Meta-Cognition
-:Meta-Cognition rdf:type owl:NamedIndividual ;
+:Meta-Cognition rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con983"@en ;
                 rdfs:label "Meta-Cognition"@en .
@@ -6079,7 +6249,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Metaheuristics
-:Metaheuristics rdf:type owl:NamedIndividual ;
+:Metaheuristics rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con952"@en ;
                 rdfs:label "Metaheuristics"@en .
@@ -6097,14 +6268,16 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Metareasoning
-:Metareasoning rdf:type owl:NamedIndividual ;
+:Metareasoning rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con951"@en ;
                rdfs:label "Metareasoning"@en .
 
 
 ###  http://aiod.eu/data/schemas/MetaverseAndVRExperiences
-:MetaverseAndVRExperiences rdf:type owl:NamedIndividual ;
+:MetaverseAndVRExperiences rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:broader :InformationAndCommunicationTechnologies ;
                            ns1:inScheme :BusinessSector ;
                            ns1:notation "con1106"@en ;
@@ -6151,7 +6324,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Mobility
-:Mobility rdf:type owl:NamedIndividual ;
+:Mobility rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
           ns1:broader :TransportationAndStorage ;
           ns1:inScheme :BusinessSector ;
           ns1:notation "con1117"@en ;
@@ -6159,7 +6333,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Model-BasedReasoning
-:Model-BasedReasoning rdf:type owl:NamedIndividual ;
+:Model-BasedReasoning rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con933"@en ;
                       rdfs:label "Model-Based Reasoning"@en .
@@ -6185,7 +6360,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ModelingOtherAgents
-:ModelingOtherAgents rdf:type owl:NamedIndividual ;
+:ModelingOtherAgents rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con937"@en ;
                      rdfs:label "Modeling other Agents"@en .
@@ -6228,7 +6404,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MoralityAndValue-basedAI
-:MoralityAndValue-basedAI rdf:type owl:NamedIndividual ;
+:MoralityAndValue-basedAI rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con965"@en ;
                           rdfs:label "Morality and Value-based AI"@en .
@@ -6244,7 +6421,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Morphology
-:Morphology rdf:type owl:NamedIndividual ;
+:Morphology rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con958"@en ;
             rdfs:label "Morphology"@en .
@@ -6357,21 +6535,24 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MultiagentLearning
-:MultiagentLearning rdf:type owl:NamedIndividual ;
+:MultiagentLearning rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con883" ;
                     rdfs:label "Multiagent Learning"@en .
 
 
 ###  http://aiod.eu/data/schemas/MultiagentSystemsUnderUncertainty
-:MultiagentSystemsUnderUncertainty rdf:type owl:NamedIndividual ;
+:MultiagentSystemsUnderUncertainty rdf:type owl:NamedIndividual ,
+                                            ns1:Concept ;
                                    ns1:inScheme :Approach ;
                                    ns1:notation "con936"@en ;
                                    rdfs:label "Multiagent Systems under Uncertainty"@en .
 
 
 ###  http://aiod.eu/data/schemas/Multilinguality
-:Multilinguality rdf:type owl:NamedIndividual ;
+:Multilinguality rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con1163"@en ;
                  rdfs:label "Multilinguality"@en .
@@ -6448,7 +6629,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/MusicalKnowledge
-:MusicalKnowledge rdf:type owl:NamedIndividual ;
+:MusicalKnowledge rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con872"@en ;
                   rdfs:label "Musical knowledge"@en .
@@ -6504,7 +6686,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalDisasterManagement
-:NaturalDisasterManagement rdf:type owl:NamedIndividual ;
+:NaturalDisasterManagement rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                            ns1:inScheme :BusinessSector ;
                            ns1:notation "con1055"@en ;
@@ -6512,7 +6695,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/NaturalIntelligence
-:NaturalIntelligence rdf:type owl:NamedIndividual ;
+:NaturalIntelligence rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:inScheme :Approach ;
                      ns1:notation "con921"@en ;
                      rdfs:label "Natural intelligence"@en .
@@ -6571,14 +6755,16 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Negotiation
-:Negotiation rdf:type owl:NamedIndividual ;
+:Negotiation rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con1007"@en ;
              rdfs:label "Negotiation"@en .
 
 
 ###  http://aiod.eu/data/schemas/NegotiationAndContract-BasedSystems
-:NegotiationAndContract-BasedSystems rdf:type owl:NamedIndividual ;
+:NegotiationAndContract-BasedSystems rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:inScheme :Approach ;
                                      ns1:notation "con979"@en ;
                                      rdfs:label "Negotiation and Contract-Based Systems"@en .
@@ -6685,14 +6871,16 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Non-convexOptimization
-:Non-convexOptimization rdf:type owl:NamedIndividual ;
+:Non-convexOptimization rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con897"@en ;
                         rdfs:label "Non-convex optimization"@en .
 
 
 ###  http://aiod.eu/data/schemas/NonmonotonicReasoning
-:NonmonotonicReasoning rdf:type owl:NamedIndividual ;
+:NonmonotonicReasoning rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:inScheme :Approach ;
                        ns1:notation "con920"@en ;
                        rdfs:label "Nonmonotonic Reasoning"@en .
@@ -6810,14 +6998,16 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/OntologyInductionFromText
-:OntologyInductionFromText rdf:type owl:NamedIndividual ;
+:OntologyInductionFromText rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:inScheme :Approach ;
                            ns1:notation "con941"@en ;
                            rdfs:label "Ontology Induction from text"@en .
 
 
 ###  http://aiod.eu/data/schemas/Operations
-:Operations rdf:type owl:NamedIndividual ;
+:Operations rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :BusinessFunction ;
             ns1:notation "con846"@en ;
             <http://purl.org/dc/elements/1.1/source> "EU Generative AI Mapping – Attributes, Definitions, and Taxonomies. Internal documentation used for classifying AI startups"@en ;
@@ -6826,7 +7016,8 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/OptimalProsumerManagement
-:OptimalProsumerManagement rdf:type owl:NamedIndividual ;
+:OptimalProsumerManagement rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                            ns1:inScheme :BusinessSector ;
                            ns1:notation "con1056"@en ;
@@ -6844,15 +7035,9 @@ experience."""@en .
               rdfs:label "Optimisation"@en .
 
 
-###  http://aiod.eu/data/schemas/Optimization
-:Optimization rdf:type owl:NamedIndividual ;
-              ns1:inScheme :Approach ;
-              ns1:notation "con1005"@en ;
-              rdfs:label "Optimization"@en .
-
-
 ###  http://aiod.eu/data/schemas/OptimizationOfSpatio-temporalSystems
-:OptimizationOfSpatio-temporalSystems rdf:type owl:NamedIndividual ;
+:OptimizationOfSpatio-temporalSystems rdf:type owl:NamedIndividual ,
+                                               ns1:Concept ;
                                       ns1:inScheme :Approach ;
                                       ns1:notation "con934"@en ;
                                       rdfs:label "Optimization of Spatio-temporal Systems"@en .
@@ -7012,26 +7197,30 @@ experience."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ParallelSystems
-:ParallelSystems rdf:type owl:NamedIndividual ;
+:ParallelSystems rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con992"@en ;
                  rdfs:label "Parallel Systems"@en .
 
 
 ###  http://aiod.eu/data/schemas/Parsing
-:Parsing rdf:type owl:NamedIndividual ;
+:Parsing rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
          ns1:inScheme :Approach .
 
 
 ###  http://aiod.eu/data/schemas/PathPlanning
-:PathPlanning rdf:type owl:NamedIndividual ;
+:PathPlanning rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con909"@en ;
               rdfs:label "Path Planning"@en .
 
 
 ###  http://aiod.eu/data/schemas/PatientMonitoring
-:PatientMonitoring rdf:type owl:NamedIndividual ;
+:PatientMonitoring rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :HumanHealthAndSocialWorkActivities ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1069"@en ;
@@ -7101,7 +7290,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PersonalizedCare
-:PersonalizedCare rdf:type owl:NamedIndividual ;
+:PersonalizedCare rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :HumanHealthAndSocialWorkActivities ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1070"@en ;
@@ -7109,7 +7299,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PersonalizedLearning
-:PersonalizedLearning rdf:type owl:NamedIndividual ;
+:PersonalizedLearning rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1095"@en ;
@@ -7117,7 +7308,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PersonalizedMedicine
-:PersonalizedMedicine rdf:type owl:NamedIndividual ;
+:PersonalizedMedicine rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader :HumanHealthAndSocialWorkActivities ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1071"@en ;
@@ -7134,7 +7326,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PestManagement
-:PestManagement rdf:type owl:NamedIndividual ;
+:PestManagement rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con1031"@en ;
@@ -7180,7 +7373,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/Phonology
-:Phonology rdf:type owl:NamedIndividual ;
+:Phonology rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
            ns1:inScheme :Approach ;
            ns1:notation "con957"@en ;
            rdfs:label "Phonology"@en .
@@ -7236,28 +7430,32 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PlanExecution
-:PlanExecution rdf:type owl:NamedIndividual ;
+:PlanExecution rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con1010"@en ;
                rdfs:label "Plan Execution"@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanMonitoring
-:PlanMonitoring rdf:type owl:NamedIndividual ;
+:PlanMonitoring rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con1011"@en ;
                 rdfs:label "Plan Monitoring"@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanRecognition
-:PlanRecognition rdf:type owl:NamedIndividual ;
+:PlanRecognition rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con1009"@en ;
                  rdfs:label "Plan Recognition"@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanRepair
-:PlanRepair rdf:type owl:NamedIndividual ;
+:PlanRepair rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con1013"@en ;
             rdfs:label "Plan Repair"@en .
@@ -7285,14 +7483,16 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/PlanningUnderUncertainty
-:PlanningUnderUncertainty rdf:type owl:NamedIndividual ;
+:PlanningUnderUncertainty rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con932"@en ;
                           rdfs:label "Planning under Uncertainty"@en .
 
 
 ###  http://aiod.eu/data/schemas/PlanningwithMarkovModels
-:PlanningwithMarkovModels rdf:type owl:NamedIndividual ;
+:PlanningwithMarkovModels rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con1158"@en ;
                           rdfs:label "Planning with Markov Models (MDPs, POMDPs)"@en .
@@ -7349,14 +7549,16 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/Pragmatics
-:Pragmatics rdf:type owl:NamedIndividual ;
+:Pragmatics rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con1022"@en ;
             rdfs:label "Pragmatics"@en .
 
 
 ###  http://aiod.eu/data/schemas/PrecisionAgriculture
-:PrecisionAgriculture rdf:type owl:NamedIndividual ;
+:PrecisionAgriculture rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1032"@en ;
@@ -7384,14 +7586,16 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/Preferences
-:Preferences rdf:type owl:NamedIndividual ;
+:Preferences rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con919"@en ;
              rdfs:label "Preferences"@en .
 
 
 ###  http://aiod.eu/data/schemas/PriceForecasting
-:PriceForecasting rdf:type owl:NamedIndividual ;
+:PriceForecasting rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1033"@en ;
@@ -7428,7 +7632,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/ProbabilisticInference
-:ProbabilisticInference rdf:type owl:NamedIndividual ;
+:ProbabilisticInference rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con948"@en ;
                         rdfs:label "Probabilistic Inference"@en .
@@ -7454,7 +7659,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/ProbabilisticProgramming
-:ProbabilisticProgramming rdf:type owl:NamedIndividual ;
+:ProbabilisticProgramming rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con918"@en ;
                           rdfs:label "Probabilistic Programming"@en .
@@ -7500,7 +7706,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/ProductDevelopment
-:ProductDevelopment rdf:type owl:NamedIndividual ;
+:ProductDevelopment rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :Manufacturing ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1082"@en ;
@@ -7556,7 +7763,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/ProfessionalScientificAndTechnicalActivities
-:ProfessionalScientificAndTechnicalActivities rdf:type owl:NamedIndividual ;
+:ProfessionalScientificAndTechnicalActivities rdf:type owl:NamedIndividual ,
+                                                       ns1:Concept ;
                                               ns1:inScheme :BusinessSector ;
                                               ns1:notation "con850"@en ;
                                               rdfs:label "Professional, scientific and technical activities"@en ;
@@ -7583,7 +7791,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/Psycholinguistics
-:Psycholinguistics rdf:type owl:NamedIndividual ;
+:Psycholinguistics rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con960"@en ;
                    rdfs:label "Psycholinguistics"@en .
@@ -7661,14 +7870,16 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/QualitativeReasoning
-:QualitativeReasoning rdf:type owl:NamedIndividual ;
+:QualitativeReasoning rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con917"@en ;
                       rdfs:label "Qualitative Reasoning"@en .
 
 
 ###  http://aiod.eu/data/schemas/QualityAssurance
-:QualityAssurance rdf:type owl:NamedIndividual ;
+:QualityAssurance rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :Manufacturing ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1083"@en ;
@@ -7676,7 +7887,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/QuantumComputing
-:QuantumComputing rdf:type owl:NamedIndividual ;
+:QuantumComputing rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con872"@en ;
                   rdfs:label "Quantum computing"@en .
@@ -7703,7 +7915,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/RailInfrastructure
-:RailInfrastructure rdf:type owl:NamedIndividual ;
+:RailInfrastructure rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :TransportationAndStorage ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1123"@en ;
@@ -7740,7 +7953,8 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
 
 
 ###  http://aiod.eu/data/schemas/ReasoningWithBeliefs
-:ReasoningWithBeliefs rdf:type owl:NamedIndividual ;
+:ReasoningWithBeliefs rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:inScheme :Approach ;
                       ns1:notation "con916"@en ;
                       rdfs:label "Reasoning with Beliefs"@en .
@@ -7818,14 +8032,16 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RelationalProbabilisticModels
-:RelationalProbabilisticModels rdf:type owl:NamedIndividual ;
+:RelationalProbabilisticModels rdf:type owl:NamedIndividual ,
+                                        ns1:Concept ;
                                ns1:inScheme :Approach ;
                                ns1:notation "con915"@en ;
                                rdfs:label "Relational Probabilistic Models"@en .
 
 
 ###  http://aiod.eu/data/schemas/ReliableConfidenceMeasure
-:ReliableConfidenceMeasure rdf:type owl:NamedIndividual ;
+:ReliableConfidenceMeasure rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
                            ns1:broader :TransportationAndStorage ;
                            ns1:inScheme :BusinessSector ;
                            ns1:notation "con1118"@en ;
@@ -7833,7 +8049,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ReliableStatistics
-:ReliableStatistics rdf:type owl:NamedIndividual ;
+:ReliableStatistics rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :_PublicAdministrationAndDefenseAndCompulsorySocialSecurity ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1129"@en ;
@@ -7841,7 +8058,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Replanning
-:Replanning rdf:type owl:NamedIndividual ;
+:Replanning rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con1012"@en ;
             rdfs:label "Replanning"@en .
@@ -7893,7 +8111,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ResilienceOfProduction
-:ResilienceOfProduction rdf:type owl:NamedIndividual ;
+:ResilienceOfProduction rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:broader :Manufacturing ;
                         ns1:inScheme :BusinessSector ;
                         ns1:notation "con1084"@en ;
@@ -7922,7 +8141,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RetrofittingOfAI
-:RetrofittingOfAI rdf:type owl:NamedIndividual ;
+:RetrofittingOfAI rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :Manufacturing ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1085"@en ;
@@ -7940,7 +8160,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RiskMonitoringAndMitigation
-:RiskMonitoringAndMitigation rdf:type owl:NamedIndividual ;
+:RiskMonitoringAndMitigation rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:broader :FinancialAndInsuranceActivities ;
                              ns1:inScheme :BusinessSector ;
                              ns1:notation "con1043"@en ;
@@ -7948,7 +8169,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RoadConditionMonitoring
-:RoadConditionMonitoring rdf:type owl:NamedIndividual ;
+:RoadConditionMonitoring rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:broader :TransportationAndStorage ;
                          ns1:inScheme :BusinessSector ;
                          ns1:notation "con1119"@en ;
@@ -7956,7 +8178,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RoadInfrastructure
-:RoadInfrastructure rdf:type owl:NamedIndividual ;
+:RoadInfrastructure rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:broader :TransportationAndStorage ;
                     ns1:inScheme :BusinessSector ;
                     ns1:notation "con1124"@en ;
@@ -8039,7 +8262,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/RuntimeModeling
-:RuntimeModeling rdf:type owl:NamedIndividual ;
+:RuntimeModeling rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con896"@en ;
                  rdfs:label "Runtime Modeling"@en .
@@ -8092,7 +8316,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SafetyandSecurity
-:SafetyandSecurity rdf:type owl:NamedIndividual ;
+:SafetyandSecurity rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1130"@en ;
                    rdfs:label "Safety & Security"@en .
@@ -8191,7 +8416,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SamplingSearch
-:SamplingSearch rdf:type owl:NamedIndividual ;
+:SamplingSearch rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con954"@en ;
                 rdfs:label "Sampling Search"@en .
@@ -8216,7 +8442,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Satisfiability
-:Satisfiability rdf:type owl:NamedIndividual ;
+:Satisfiability rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 rdfs:label "Satisfiability"@en .
 
@@ -8231,7 +8458,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Scalability
-:Scalability rdf:type owl:NamedIndividual ;
+:Scalability rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con994"@en ;
              rdfs:label "Scalability"@en .
@@ -8284,14 +8512,16 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/ScientificResearchDesignAndEngineering
-:ScientificResearchDesignAndEngineering rdf:type owl:NamedIndividual ;
+:ScientificResearchDesignAndEngineering rdf:type owl:NamedIndividual ,
+                                                 ns1:Concept ;
                                         ns1:inScheme :BusinessSector ;
                                         ns1:notation "con1026"@en ;
                                         rdfs:label "Scientific research, design & engineering"@en .
 
 
 ###  http://aiod.eu/data/schemas/Search
-:Search rdf:type owl:NamedIndividual ;
+:Search rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:inScheme :Approach ;
         ns1:notation "con1162"@en ;
         rdfs:label "Search"@en .
@@ -8308,7 +8538,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SecureAndDecentralizedLearning
-:SecureAndDecentralizedLearning rdf:type owl:NamedIndividual ;
+:SecureAndDecentralizedLearning rdf:type owl:NamedIndividual ,
+                                         ns1:Concept ;
                                 ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                                 ns1:inScheme :BusinessSector ;
                                 ns1:notation "con1096"@en ;
@@ -8326,7 +8557,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SemanticNetworks
-:SemanticNetworks rdf:type owl:NamedIndividual ;
+:SemanticNetworks rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con914"@en ;
                   rdfs:label "Semantic networks"@en .
@@ -8384,7 +8616,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SensorNetworks
-:SensorNetworks rdf:type owl:NamedIndividual ;
+:SensorNetworks rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader :InformationTechnology ;
                 ns1:inScheme :BusinessSector ;
                 ns1:notation "con1073"@en ;
@@ -8392,7 +8625,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Sentence-levelSemantics
-:Sentence-levelSemantics rdf:type owl:NamedIndividual ;
+:Sentence-levelSemantics rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:inScheme :Approach ;
                          ns1:notation "con956"@en ;
                          rdfs:label "Sentence-level semantics"@en .
@@ -8409,7 +8643,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SequentialDecisionMaking
-:SequentialDecisionMaking rdf:type owl:NamedIndividual ;
+:SequentialDecisionMaking rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con913"@en ;
                           rdfs:label "Sequential Decision Making"@en .
@@ -8465,28 +8700,32 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Similarity-basedLearning
-:Similarity-basedLearning rdf:type owl:NamedIndividual ;
+:Similarity-basedLearning rdf:type owl:NamedIndividual ,
+                                   ns1:Concept ;
                           ns1:inScheme :Approach ;
                           ns1:notation "con912"@en ;
                           rdfs:label "Similarity-based learning"@en .
 
 
 ###  http://aiod.eu/data/schemas/SimulatedAnealing
-:SimulatedAnealing rdf:type owl:NamedIndividual ;
+:SimulatedAnealing rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con896"@en ;
                    rdfs:label "Simulated anealing"@en .
 
 
 ###  http://aiod.eu/data/schemas/SimulatingHumans
-:SimulatingHumans rdf:type owl:NamedIndividual ;
+:SimulatingHumans rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con875"@en ;
                   rdfs:label "Simulating Humans"@en .
 
 
 ###  http://aiod.eu/data/schemas/Simulation-basedSearch
-:Simulation-basedSearch rdf:type owl:NamedIndividual ;
+:Simulation-basedSearch rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con953"@en ;
                         rdfs:label "Simulation-based Search"@en .
@@ -8549,7 +8788,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SmartCities
-:SmartCities rdf:type owl:NamedIndividual ;
+:SmartCities rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:broader :InformationTechnology ;
              ns1:inScheme :BusinessSector ;
              ns1:notation "con1075"@en ;
@@ -8557,7 +8797,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SmartIrrigation
-:SmartIrrigation rdf:type owl:NamedIndividual ;
+:SmartIrrigation rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1034"@en ;
@@ -8577,7 +8818,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SocialCognitionAndInteraction
-:SocialCognitionAndInteraction rdf:type owl:NamedIndividual ;
+:SocialCognitionAndInteraction rdf:type owl:NamedIndividual ,
+                                        ns1:Concept ;
                                ns1:inScheme :Approach ;
                                ns1:notation "con967"@en ;
                                rdfs:label "Social Cognition and Interaction"@en .
@@ -8594,7 +8836,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SocialNetworksAndSocialMedia
-:SocialNetworksAndSocialMedia rdf:type owl:NamedIndividual ;
+:SocialNetworksAndSocialMedia rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
                               ns1:broader :InformationAndCommunicationTechnologies ;
                               ns1:inScheme :BusinessSector ;
                               ns1:notation "con1107"@en ;
@@ -8654,7 +8897,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SoftwareEngineering
-:SoftwareEngineering rdf:type owl:NamedIndividual ;
+:SoftwareEngineering rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader :ScientificResearchDesignAndEngineering ;
                      ns1:inScheme :BusinessSector ;
                      ns1:notation "con1142"@en ;
@@ -8662,7 +8906,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SoilAndCropMonitoring
-:SoilAndCropMonitoring rdf:type owl:NamedIndividual ;
+:SoilAndCropMonitoring rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
                        ns1:broader <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> ;
                        ns1:inScheme :BusinessSector ;
                        ns1:notation "con1035"@en ;
@@ -8679,7 +8924,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SolversAndTools
-:SolversAndTools rdf:type owl:NamedIndividual ;
+:SolversAndTools rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con895"@en ;
                  rdfs:label "Solvers and Tools"@en .
@@ -8781,7 +9027,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SpaceObservation
-:SpaceObservation rdf:type owl:NamedIndividual ;
+:SpaceObservation rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                   ns1:inScheme :BusinessSector ;
                   ns1:notation "con1057"@en ;
@@ -8808,7 +9055,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SpatialReasoning
-:SpatialReasoning rdf:type owl:NamedIndividual ;
+:SpatialReasoning rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con973"@en ;
                   rdfs:label "Spatial Reasoning"@en .
@@ -8825,14 +9073,16 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechAnalysis
-:SpeechAnalysis rdf:type owl:NamedIndividual ;
+:SpeechAnalysis rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con892"@en ;
                 rdfs:label "Speech analysis"@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechAndMultimodality
-:SpeechAndMultimodality rdf:type owl:NamedIndividual ;
+:SpeechAndMultimodality rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con955"@en ;
                         rdfs:label "Speech and Multimodality"@en .
@@ -8850,14 +9100,16 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechSynthesis
-:SpeechSynthesis rdf:type owl:NamedIndividual ;
+:SpeechSynthesis rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con891"@en ;
                  rdfs:label "Speech synthesis"@en .
 
 
 ###  http://aiod.eu/data/schemas/SpeechToText
-:SpeechToText rdf:type owl:NamedIndividual ;
+:SpeechToText rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con890"@en ;
               rdfs:label "Speech to text"@en .
@@ -8901,7 +9153,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/StandardizationAndCertificationOfAI
-:StandardizationAndCertificationOfAI rdf:type owl:NamedIndividual ;
+:StandardizationAndCertificationOfAI rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:broader :TransportationAndStorage ;
                                      ns1:inScheme :BusinessSector ;
                                      ns1:notation "con1120"@en ;
@@ -8937,14 +9190,16 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/StochasticModels
-:StochasticModels rdf:type owl:NamedIndividual ;
+:StochasticModels rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con949"@en ;
                   rdfs:label "Stochastic Models"@en .
 
 
 ###  http://aiod.eu/data/schemas/StochasticOptimization
-:StochasticOptimization rdf:type owl:NamedIndividual ;
+:StochasticOptimization rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
                         ns1:inScheme :Approach ;
                         ns1:notation "con911"@en ;
                         rdfs:label "Stochastic Optimization"@en .
@@ -8980,7 +9235,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/StructuralLearning
-:StructuralLearning rdf:type owl:NamedIndividual ;
+:StructuralLearning rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con980"@en ;
                     rdfs:label "Structural Learning"@en .
@@ -9006,7 +9262,8 @@ acquires above human intelligence in Go."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Summarization
-:Summarization rdf:type owl:NamedIndividual ;
+:Summarization rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con889"@en ;
                rdfs:label "Summarization"@en .
@@ -9027,7 +9284,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SupportForTheProductionOfSystematicReviews
-:SupportForTheProductionOfSystematicReviews rdf:type owl:NamedIndividual ;
+:SupportForTheProductionOfSystematicReviews rdf:type owl:NamedIndividual ,
+                                                     ns1:Concept ;
                                             ns1:broader :ScientificResearchDesignAndEngineering ;
                                             ns1:inScheme :BusinessSector ;
                                             ns1:notation "con1143"@en ;
@@ -9035,7 +9293,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Surgery
-:Surgery rdf:type owl:NamedIndividual ;
+:Surgery rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
          ns1:broader :HumanHealthAndSocialWorkActivities ;
          ns1:inScheme :BusinessSector ;
          ns1:notation "con1071"@en ;
@@ -9061,7 +9320,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/SustainableBuildings
-:SustainableBuildings rdf:type owl:NamedIndividual ;
+:SustainableBuildings rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1144"@en ;
@@ -9114,7 +9374,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Tagging
-:Tagging rdf:type owl:NamedIndividual ;
+:Tagging rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
          ns1:inScheme :Approach ;
          ns1:notation "con1164"@en ;
          rdfs:label "Tagging"@en .
@@ -9189,7 +9450,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TemporalReasoning
-:TemporalReasoning rdf:type owl:NamedIndividual ;
+:TemporalReasoning rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:inScheme :Approach ;
                    ns1:notation "con974"@en ;
                    rdfs:label "Temporal Reasoning"@en .
@@ -9215,35 +9477,40 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TextAnalysis
-:TextAnalysis rdf:type owl:NamedIndividual ;
+:TextAnalysis rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con888"@en ;
               rdfs:label "Text analysis"@en .
 
 
 ###  http://aiod.eu/data/schemas/TextClassification
-:TextClassification rdf:type owl:NamedIndividual ;
+:TextClassification rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con887"@en ;
                     rdfs:label "Text Classification"@en .
 
 
 ###  http://aiod.eu/data/schemas/TextGeneration
-:TextGeneration rdf:type owl:NamedIndividual ;
+:TextGeneration rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con887"@en ;
                 rdfs:label "Text generation"@en .
 
 
 ###  http://aiod.eu/data/schemas/TextMining
-:TextMining rdf:type owl:NamedIndividual ;
+:TextMining rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
             ns1:inScheme :Approach ;
             ns1:notation "con886"@en ;
             rdfs:label "Text Mining"@en .
 
 
 ###  http://aiod.eu/data/schemas/TextToSpeech
-:TextToSpeech rdf:type owl:NamedIndividual ;
+:TextToSpeech rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con885"@en ;
               rdfs:label "Text to speech"@en .
@@ -9262,7 +9529,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TextualInference
-:TextualInference rdf:type owl:NamedIndividual ;
+:TextualInference rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con956"@en ;
                   rdfs:label "Textual Inference"@en .
@@ -9278,7 +9546,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TheoremProving
-:TheoremProving rdf:type owl:NamedIndividual ;
+:TheoremProving rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:inScheme :Approach ;
                 ns1:notation "con931"@en ;
                 rdfs:label "Theorem Proving"@en .
@@ -9295,7 +9564,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TimeSeriesAndVerificationApproaches
-:TimeSeriesAndVerificationApproaches rdf:type owl:NamedIndividual ;
+:TimeSeriesAndVerificationApproaches rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:broader :TransportationAndStorage ;
                                      ns1:inScheme :BusinessSector ;
                                      ns1:notation "con1147"@en ;
@@ -9391,7 +9661,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/TrafficDetectionAndManagement
-:TrafficDetectionAndManagement rdf:type owl:NamedIndividual ;
+:TrafficDetectionAndManagement rdf:type owl:NamedIndividual ,
+                                        ns1:Concept ;
                                ns1:broader :TransportationAndStorage ;
                                ns1:inScheme :BusinessSector ;
                                ns1:notation "con1121"@en ;
@@ -9446,7 +9717,8 @@ humans."""@en .
 
 
 ###  http://aiod.eu/data/schemas/Transportation
-:Transportation rdf:type owl:NamedIndividual ;
+:Transportation rdf:type owl:NamedIndividual ,
+                         ns1:Concept ;
                 ns1:broader :TransportationAndStorage ;
                 ns1:inScheme :BusinessSector ;
                 ns1:notation "con1146"@en ;
@@ -9637,7 +9909,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/UrbanMobility
-:UrbanMobility rdf:type owl:NamedIndividual ;
+:UrbanMobility rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:broader :TransportationAndStorage ;
                ns1:inScheme :BusinessSector ;
                ns1:notation "con1122"@en ;
@@ -9654,7 +9927,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/UserExperienceDesign
-:UserExperienceDesign rdf:type owl:NamedIndividual ;
+:UserExperienceDesign rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
                       ns1:broader :InformationAndCommunicationTechnologies ;
                       ns1:inScheme :BusinessSector ;
                       ns1:notation "con1108"@en ;
@@ -9662,14 +9936,16 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/UserModeling
-:UserModeling rdf:type owl:NamedIndividual ;
+:UserModeling rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
               ns1:inScheme :Approach ;
               ns1:notation "con996"@en ;
               rdfs:label "User Modeling"@en .
 
 
 ###  http://aiod.eu/data/schemas/UserProfilingContentPersonalisation
-:UserProfilingContentPersonalisation rdf:type owl:NamedIndividual ;
+:UserProfilingContentPersonalisation rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
                                      ns1:broader :InformationAndCommunicationTechnologies ;
                                      ns1:inScheme :BusinessSector ;
                                      ns1:notation "con1109"@en ;
@@ -9714,14 +9990,16 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/VideoCoding
-:VideoCoding rdf:type owl:NamedIndividual ;
+:VideoCoding rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con997"@en ;
              rdfs:label "Video Coding"@en .
 
 
 ###  http://aiod.eu/data/schemas/VideoCompression
-:VideoCompression rdf:type owl:NamedIndividual ;
+:VideoCompression rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con998"@en ;
                   rdfs:label "Video compression"@en .
@@ -9806,14 +10084,16 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/VirtualHumans
-:VirtualHumans rdf:type owl:NamedIndividual ;
+:VirtualHumans rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
                ns1:inScheme :Approach ;
                ns1:notation "con1152"@en ;
                rdfs:label "Virtual Humans"@en .
 
 
 ###  http://aiod.eu/data/schemas/VirtualLearningEnvironments
-:VirtualLearningEnvironments rdf:type owl:NamedIndividual ;
+:VirtualLearningEnvironments rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
                              ns1:broader <http://aiod.eu/data/schemas/NewsCategory/Education> ;
                              ns1:inScheme :BusinessSector ;
                              ns1:notation "con1097"@en ;
@@ -9841,7 +10121,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/Vision
-:Vision rdf:type owl:NamedIndividual ;
+:Vision rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
         ns1:inScheme :Approach ;
         ns1:notation "con1168"@en ;
         rdfs:label "Vision"@en .
@@ -9858,7 +10139,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/VisualReasoning
-:VisualReasoning rdf:type owl:NamedIndividual ;
+:VisualReasoning rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:inScheme :Approach ;
                  ns1:notation "con910"@en ;
                  rdfs:label "Visual reasoning"@en .
@@ -9896,7 +10178,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/WaterInfrastructure
-:WaterInfrastructure rdf:type owl:NamedIndividual ;
+:WaterInfrastructure rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
                      ns1:broader :WaterSupplySewerageWasteManagementAndRemediationActivities ;
                      ns1:inScheme :BusinessSector ;
                      ns1:notation "con1058"@en ;
@@ -9904,7 +10187,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/WaterManagement
-:WaterManagement rdf:type owl:NamedIndividual ;
+:WaterManagement rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :WaterSupplySewerageWasteManagementAndRemediationActivities ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1059"@en ;
@@ -9945,7 +10229,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/WeatherPrediction
-:WeatherPrediction rdf:type owl:NamedIndividual ;
+:WeatherPrediction rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
                    ns1:broader :ElectricityGasSteamAndAirConditioningSupply ;
                    ns1:inScheme :BusinessSector ;
                    ns1:notation "con1171"@en ;
@@ -9953,21 +10238,24 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/Web-basedQA
-:Web-basedQA rdf:type owl:NamedIndividual ;
+:Web-basedQA rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
              ns1:inScheme :Approach ;
              ns1:notation "con881"@en ;
              rdfs:label "Web-based QA"@en .
 
 
 ###  http://aiod.eu/data/schemas/WebPersonalization
-:WebPersonalization rdf:type owl:NamedIndividual ;
+:WebPersonalization rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
                     ns1:inScheme :Approach ;
                     ns1:notation "con995"@en ;
                     rdfs:label "Web Personalization"@en .
 
 
 ###  http://aiod.eu/data/schemas/WebSearch
-:WebSearch rdf:type owl:NamedIndividual ;
+:WebSearch rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
            ns1:inScheme :Approach ;
            ns1:notation "con1004"@en ;
            rdfs:label "Web Search"@en .
@@ -10013,14 +10301,16 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/WordSegmentation
-:WordSegmentation rdf:type owl:NamedIndividual ;
+:WordSegmentation rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
                   ns1:inScheme :Approach ;
                   ns1:notation "con959"@en ;
                   rdfs:label "Word Segmentation"@en .
 
 
 ###  http://aiod.eu/data/schemas/WorkplaceSafety
-:WorkplaceSafety rdf:type owl:NamedIndividual ;
+:WorkplaceSafety rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
                  ns1:broader :SafetyandSecurity ;
                  ns1:inScheme :BusinessSector ;
                  ns1:notation "con1133"@en ;
@@ -10056,7 +10346,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/ZeroDefectManufacturing
-:ZeroDefectManufacturing rdf:type owl:NamedIndividual ;
+:ZeroDefectManufacturing rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
                          ns1:broader :Manufacturing ;
                          ns1:inScheme :BusinessSector ;
                          ns1:notation "con1086"@en ;
@@ -10683,7 +10974,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/message
-:message rdf:type owl:NamedIndividual ;
+:message rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
          ns1:inScheme :MIMEtype ;
          ns1:notation "con493"@en ;
          rdfs:label "Message"@en .
@@ -10999,14 +11291,16 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/AIAndJobs/Labor
-<http://aiod.eu/data/schemas/AIAndJobs/Labor> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/AIAndJobs/Labor> rdf:type owl:NamedIndividual ,
+                                                       ns1:Concept ;
                                               ns1:inScheme :Approach ;
                                               ns1:notation "con962"@en ;
                                               rdfs:label "AI and Jobs/Labor"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agent/AITheories
-<http://aiod.eu/data/schemas/Agent/AITheories> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/Agent/AITheories> rdf:type owl:NamedIndividual ,
+                                                        ns1:Concept ;
                                                ns1:inScheme :Approach ;
                                                ns1:notation "con1155"@en ;
                                                rdfs:label "Agent/AI Theories"@en .
@@ -11076,7 +11370,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/Fact-checkingMis/disinformation_detectionManipulationDetection
-<http://aiod.eu/data/schemas/Fact-checkingMis/disinformation_detectionManipulationDetection> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/Fact-checkingMis/disinformation_detectionManipulationDetection> rdf:type owl:NamedIndividual ,
+                                                                                                      ns1:Concept ;
                                                                                              ns1:broader :InformationAndCommunicationTechnologies ;
                                                                                              ns1:inScheme :BusinessSector ;
                                                                                              ns1:notation "con1105"@en ;
@@ -11104,21 +11399,24 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/MixedDiscrete/ContinuousOptimization
-<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousOptimization> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousOptimization> rdf:type owl:NamedIndividual ,
+                                                                            ns1:Concept ;
                                                                    ns1:inScheme :Approach ;
                                                                    ns1:notation "con975"@en ;
                                                                    rdfs:label "Mixed Discrete/Continuous Optimization"@en .
 
 
 ###  http://aiod.eu/data/schemas/MixedDiscrete/ContinuousPlanning
-<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousPlanning> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousPlanning> rdf:type owl:NamedIndividual ,
+                                                                        ns1:Concept ;
                                                                ns1:inScheme :Approach ;
                                                                ns1:notation "con971"@en ;
                                                                rdfs:label "Mixed Discrete/Continuous Planning"@en .
 
 
 ###  http://aiod.eu/data/schemas/MixedDiscrete/ContinuousSearch
-<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousSearch> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/MixedDiscrete/ContinuousSearch> rdf:type owl:NamedIndividual ,
+                                                                      ns1:Concept ;
                                                              ns1:inScheme :Approach ;
                                                              ns1:notation "con976"@en ;
                                                              rdfs:label "Mixed Discrete/Continuous Search"@en .
@@ -11153,7 +11451,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/ScientificDomain/Arts
-<http://aiod.eu/data/schemas/ScientificDomain/Arts> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/ScientificDomain/Arts> rdf:type owl:NamedIndividual ,
+                                                             ns1:Concept ;
                                                     ns1:broader :Humanities ;
                                                     ns1:inScheme :ScientificDomain ;
                                                     ns1:notation "con849"@en ;
@@ -11163,7 +11462,8 @@ labels. The objective is to discover the underlying data structure, for example,
 
 
 ###  http://aiod.eu/data/schemas/SocialChoice/Voting
-<http://aiod.eu/data/schemas/SocialChoice/Voting> rdf:type owl:NamedIndividual ;
+<http://aiod.eu/data/schemas/SocialChoice/Voting> rdf:type owl:NamedIndividual ,
+                                                           ns1:Concept ;
                                                   ns1:inScheme :Approach ;
                                                   ns1:notation "con966"@en ;
                                                   rdfs:label "Social Choice / Voting"@en .
