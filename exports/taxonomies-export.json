@@ -101,6 +101,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con963",
+                    "label": {
+                        "language": "en",
+                        "value": "AI and Law, Justice, Regulation & Governance"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con003",
                     "label": {
                         "language": "en",
@@ -117,6 +127,16 @@
                         "value": "Acoustic Monitoring"
                     },
                     "definition": "Acoustic monitoring is a system that employs sound sensors to detect and analyse sounds and vibrations in the surrounding environment.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1014",
+                    "label": {
+                        "language": "en",
+                        "value": "Action"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -141,12 +161,152 @@
                     "elements": []
                 },
                 {
+                    "id": "con1008",
+                    "label": {
+                        "language": "en",
+                        "value": "Activity Recognition"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con873",
+                    "label": {
+                        "language": "en",
+                        "value": "Adaptive Behavior"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con882",
+                    "label": {
+                        "language": "en",
+                        "value": "Adversarial Agents"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con008",
                     "label": {
                         "language": "en",
                         "value": "Adversarial Attacks"
                     },
                     "definition": "A methodology for the generation of adversarial examples.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con908",
+                    "label": {
+                        "language": "en",
+                        "value": "Adversarial Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con938",
+                    "label": {
+                        "language": "en",
+                        "value": "Affective Computing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con945",
+                    "label": {
+                        "language": "en",
+                        "value": "Agent-Based Simulation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con944",
+                    "label": {
+                        "language": "en",
+                        "value": "Agent Collaboration"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con942",
+                    "label": {
+                        "language": "en",
+                        "value": "Agent Communication"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con943",
+                    "label": {
+                        "language": "en",
+                        "value": "Agent Coordination"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1001",
+                    "label": {
+                        "language": "en",
+                        "value": "Agents"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1006",
+                    "label": {
+                        "language": "en",
+                        "value": "Agreement"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con907",
+                    "label": {
+                        "language": "en",
+                        "value": "Algorithm Configuration"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con906",
+                    "label": {
+                        "language": "en",
+                        "value": "Algorithm Portfolios"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con987",
+                    "label": {
+                        "language": "en",
+                        "value": "Analogical Reasoning"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -171,6 +331,26 @@
                     "elements": []
                 },
                 {
+                    "id": "con1021",
+                    "label": {
+                        "language": "en",
+                        "value": "Argument Mining"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con930",
+                    "label": {
+                        "language": "en",
+                        "value": "Argumentation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con028",
                     "label": {
                         "language": "en",
@@ -191,12 +371,42 @@
                     "elements": []
                 },
                 {
+                    "id": "con929",
+                    "label": {
+                        "language": "en",
+                        "value": "Association analysis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con928",
+                    "label": {
+                        "language": "en",
+                        "value": "Associative memories"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con032",
                     "label": {
                         "language": "en",
                         "value": "Attacks and Defence"
                     },
                     "definition": "Techniques related to securing machine learning systems against malicious inputs designed to compromise them",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con977",
+                    "label": {
+                        "language": "en",
+                        "value": "Auctions and Market-Based Systems"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -251,12 +461,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con1152",
+                    "label": {
+                        "language": "en",
+                        "value": "Autonomous Characters"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con047",
                     "label": {
                         "language": "en",
                         "value": "Bayesian Learning"
                     },
                     "definition": "An approach that employs Bayesian statistics to enhance the predictive and decision-making capabilities of models.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con927",
+                    "label": {
+                        "language": "en",
+                        "value": "Bayesian Networks"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -301,6 +531,26 @@
                     "elements": []
                 },
                 {
+                    "id": "con926",
+                    "label": {
+                        "language": "en",
+                        "value": "Belief Change"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con978",
+                    "label": {
+                        "language": "en",
+                        "value": "Bias"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con052",
                     "label": {
                         "language": "en",
@@ -317,6 +567,36 @@
                         "value": "Bio-inspired Learning"
                     },
                     "definition": "A field of study which seeks to solve computer science problems using models of biology",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1167",
+                    "label": {
+                        "language": "en",
+                        "value": "Biometrics, Face, Gesture & Pose"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con986",
+                    "label": {
+                        "language": "en",
+                        "value": "Brain-Sensing and Analysis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con874",
+                    "label": {
+                        "language": "en",
+                        "value": "Brain modeling"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -351,6 +631,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con1017",
+                    "label": {
+                        "language": "en",
+                        "value": "Causal inference"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con063",
                     "label": {
                         "language": "en",
@@ -361,12 +651,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con1016",
+                    "label": {
+                        "language": "en",
+                        "value": "Causality"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con064",
                     "label": {
                         "language": "en",
                         "value": "Central Processing Unit"
                     },
                     "definition": "The invisible manager inside the computer where data input is transformed into information output.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1165",
+                    "label": {
+                        "language": "en",
+                        "value": "Chunking"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -401,12 +711,42 @@
                     "elements": []
                 },
                 {
+                    "id": "con999",
+                    "label": {
+                        "language": "en",
+                        "value": "Cognition Modeling"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1002",
+                    "label": {
+                        "language": "en",
+                        "value": "Cognitive Architectures"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con075",
                     "label": {
                         "language": "en",
                         "value": "Cognitive Robotics"
                     },
                     "definition": "A subfield of robotics concerned with endowing a robot with intelligent behavior by providing it with a processing architecture that will allow it to learn and reason about how to behave in response to complex goals in a complex world.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1000",
+                    "label": {
+                        "language": "en",
+                        "value": "Cognitive Systems"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -461,6 +801,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con925",
+                    "label": {
+                        "language": "en",
+                        "value": "Computational Complexity of Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con085",
                     "label": {
                         "language": "en",
@@ -501,6 +851,66 @@
                     "elements": []
                 },
                 {
+                    "id": "con1161",
+                    "label": {
+                        "language": "en",
+                        "value": "Computer Audition"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con988",
+                    "label": {
+                        "language": "en",
+                        "value": "Conceptual Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con964",
+                    "label": {
+                        "language": "en",
+                        "value": "Consciousness and Philosophy of Mind"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con950",
+                    "label": {
+                        "language": "en",
+                        "value": "Constraint Learning and Acquisition"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con905",
+                    "label": {
+                        "language": "en",
+                        "value": "Constraint Optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con905",
+                    "label": {
+                        "language": "en",
+                        "value": "Constraint Programming"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con094",
                     "label": {
                         "language": "en",
@@ -511,12 +921,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con935",
+                    "label": {
+                        "language": "en",
+                        "value": "Control of High-Dimensional Systems"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con904",
+                    "label": {
+                        "language": "en",
+                        "value": "Convex optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con098",
                     "label": {
                         "language": "en",
                         "value": "Cooperative Game Theory"
                     },
                     "definition": "A branch of game theory that focuses on studying ways to sustain cooperation among agents who are willing to work together.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1150",
+                    "label": {
+                        "language": "en",
+                        "value": "Coordination and Collaboration"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con924",
+                    "label": {
+                        "language": "en",
+                        "value": "Correlation analysis"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -551,12 +1001,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con879",
+                    "label": {
+                        "language": "en",
+                        "value": "Data Compression"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con880",
+                    "label": {
+                        "language": "en",
+                        "value": "Data Stream Mining"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con110",
                     "label": {
                         "language": "en",
                         "value": "Data Streams"
                     },
                     "definition": "The transmission of a sequence of digitally encoded signals to convey information.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con991",
+                    "label": {
+                        "language": "en",
+                        "value": "Data Summarization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con990",
+                    "label": {
+                        "language": "en",
+                        "value": "Data Visualization"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -621,12 +1111,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con903",
+                    "label": {
+                        "language": "en",
+                        "value": "Derivative-free optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con876",
+                    "label": {
+                        "language": "en",
+                        "value": "Description Logics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "970",
+                    "label": {
+                        "language": "en",
+                        "value": "Decision Theory"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con120",
                     "label": {
                         "language": "en",
                         "value": "Deterministic Planning"
                     },
                     "definition": "The process of finding a sequence of actions to achieve a goal.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con947",
+                    "label": {
+                        "language": "en",
+                        "value": "Diagnosis and Abductive Reasoning"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -651,6 +1181,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con1023",
+                    "label": {
+                        "language": "en",
+                        "value": "Discourse"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1159",
+                    "label": {
+                        "language": "en",
+                        "value": "Dissimilarity (distance) metrics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1018",
+                    "label": {
+                        "language": "en",
+                        "value": "Distributed CSP"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con124",
                     "label": {
                         "language": "en",
@@ -671,12 +1231,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con1019",
+                    "label": {
+                        "language": "en",
+                        "value": "Distributed Optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con126",
                     "label": {
                         "language": "en",
                         "value": "Distributed Planning"
                     },
                     "definition": "The problem of finding a course of action that will help a set of agents in a given initial conguration to collectively satisfy certain desired behavioral constraints.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con884",
+                    "label": {
+                        "language": "en",
+                        "value": "Distributed Problem Solving"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con902",
+                    "label": {
+                        "language": "en",
+                        "value": "Distributed Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con993",
+                    "label": {
+                        "language": "en",
+                        "value": "Distributed Systems"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -701,12 +1301,42 @@
                     "elements": []
                 },
                 {
+                    "id": "con869",
+                    "label": {
+                        "language": "en",
+                        "value": "Edge computing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con139",
                     "label": {
                         "language": "en",
                         "value": "Electronic Personhood"
                     },
                     "definition": "The potential legal status of the most sophisticated autonomous robots so that they may have \"specific rights and obligations",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con870",
+                    "label": {
+                        "language": "en",
+                        "value": "Embedded computing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con946",
+                    "label": {
+                        "language": "en",
+                        "value": "Emergent Behavior"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -741,12 +1371,42 @@
                     "elements": []
                 },
                 {
+                    "id": "conn1148",
+                    "label": {
+                        "language": "en",
+                        "value": "Equity"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1020",
+                    "label": {
+                        "language": "en",
+                        "value": "Evaluation and Analysis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con150",
                     "label": {
                         "language": "en",
                         "value": "Evidence Reasoning"
                     },
                     "definition": "A critical framework in AI systems that enables machines to make informed decisions based on evidence.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con901",
+                    "label": {
+                        "language": "en",
+                        "value": "Evolutionary Computation"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -851,6 +1511,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con893",
+                    "label": {
+                        "language": "en",
+                        "value": "Frame Semantics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con165",
                     "label": {
                         "language": "en",
@@ -861,12 +1531,42 @@
                     "elements": []
                 },
                 {
+                    "id": "con923",
+                    "label": {
+                        "language": "en",
+                        "value": "Fuzzy rule-based systems"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con166",
                     "label": {
                         "language": "en",
                         "value": "Game Theory"
                     },
                     "definition": "Branch of applied mathematics that provides tools for analyzing situations in which parties, called players, make decisions that are interdependent.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1151",
+                    "label": {
+                        "language": "en",
+                        "value": "Games"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1160",
+                    "label": {
+                        "language": "en",
+                        "value": "Generation"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -897,6 +1597,26 @@
                         "value": "Geometric Deep Learning"
                     },
                     "definition": "An approach that invovles encoding a geometric understanding of data as an inductive bias in deep learning models to give them a helping hand.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con972",
+                    "label": {
+                        "language": "en",
+                        "value": "Geometric Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con900",
+                    "label": {
+                        "language": "en",
+                        "value": "Gradient-based optimization"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -951,6 +1671,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con922",
+                    "label": {
+                        "language": "en",
+                        "value": "Graphical Model"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con176",
                     "label": {
                         "language": "en",
@@ -977,6 +1707,26 @@
                         "value": "Heuristic Programming"
                     },
                     "definition": "An approach to problem-solving using approximate methods or shortcuts to produce practical solutions.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con899",
+                    "label": {
+                        "language": "en",
+                        "value": "Heuristic Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con871",
+                    "label": {
+                        "language": "en",
+                        "value": "High-performance computing"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1047,6 +1797,16 @@
                         "value": "Human-in-the-Loop"
                     },
                     "definition": "A framework in which humans help the computer to make the right decisions when building a model.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con939",
+                    "label": {
+                        "language": "en",
+                        "value": "Human agency and oversight"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1261,6 +2021,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con895",
+                    "label": {
+                        "language": "en",
+                        "value": "Information Extraction"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con217",
                     "label": {
                         "language": "en",
@@ -1341,12 +2111,12 @@
                     "elements": []
                 },
                 {
-                    "id": "con231",
+                    "id": "con1157",
                     "label": {
                         "language": "en",
-                        "value": "Internet of Things"
+                        "value": "Interfaces"
                     },
-                    "definition": "The network of physical objects that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.",
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1371,6 +2141,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con982",
+                    "label": {
+                        "language": "en",
+                        "value": "Introspection"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con968",
+                    "label": {
+                        "language": "en",
+                        "value": "Inverse Reinforcement Learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1149",
+                    "label": {
+                        "language": "en",
+                        "value": "Justice"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con237",
                     "label": {
                         "language": "en",
@@ -1391,12 +2191,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con989",
+                    "label": {
+                        "language": "en",
+                        "value": "Knowledge Base Completion"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con981",
+                    "label": {
+                        "language": "en",
+                        "value": "Knowledge Capture"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con877",
+                    "label": {
+                        "language": "en",
+                        "value": "Knowledge Engineering"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con239",
                     "label": {
                         "language": "en",
                         "value": "Knowledge Graphs"
                     },
                     "definition": "A knowledge base that uses a graph-structured data model or topology to represent and operate on data.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1004",
+                    "label": {
+                        "language": "en",
+                        "value": "Knowledge Management"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1421,12 +2261,62 @@
                     "elements": []
                 },
                 {
+                    "id": "con894",
+                    "label": {
+                        "language": "en",
+                        "value": "Language Grounding"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con961",
+                    "label": {
+                        "language": "en",
+                        "value": "Language Learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1156",
+                    "label": {
+                        "language": "en",
+                        "value": "Language and Vision"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con244",
                     "label": {
                         "language": "en",
                         "value": "Large Language Models"
                     },
                     "definition": "A type of computational model designed for natural language processing tasks such as language generation.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1169",
+                    "label": {
+                        "language": "en",
+                        "value": "Learning from scarce data"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con940",
+                    "label": {
+                        "language": "en",
+                        "value": "Learning Human Values and Preferences"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1531,6 +2421,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con898",
+                    "label": {
+                        "language": "en",
+                        "value": "Local Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1170",
+                    "label": {
+                        "language": "en",
+                        "value": "Localization, Mapping, and Navigation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con878",
+                    "label": {
+                        "language": "en",
+                        "value": "Logic Programming"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con258",
                     "label": {
                         "language": "en",
@@ -1591,6 +2511,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con969",
+                    "label": {
+                        "language": "en",
+                        "value": "Matrix & Tensor Methods"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con274",
                     "label": {
                         "language": "en",
@@ -1621,6 +2551,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con985",
+                    "label": {
+                        "language": "en",
+                        "value": "Memory Retrieval"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con984",
+                    "label": {
+                        "language": "en",
+                        "value": "Memory Storage"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con983",
+                    "label": {
+                        "language": "en",
+                        "value": "Meta-Cognition"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con281",
                     "label": {
                         "language": "en",
@@ -1631,12 +2591,42 @@
                     "elements": []
                 },
                 {
+                    "id": "con952",
+                    "label": {
+                        "language": "en",
+                        "value": "Metaheuristics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con951",
+                    "label": {
+                        "language": "en",
+                        "value": "Metareasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con282",
                     "label": {
                         "language": "en",
                         "value": "Mixed Reality"
                     },
                     "definition": "The merging of a real-world environment and a computer-generated one.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con933",
+                    "label": {
+                        "language": "en",
+                        "value": "Model-Based Reasoning"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1657,6 +2647,36 @@
                         "value": "Model Compression"
                     },
                     "definition": "A set of algorithms that aim to reduce the size and memory requirements of neural networks without significantly impacting their accuracy.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con937",
+                    "label": {
+                        "language": "en",
+                        "value": "Modeling other Agents"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con965",
+                    "label": {
+                        "language": "en",
+                        "value": "Morality and Value-based AI"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con958",
+                    "label": {
+                        "language": "en",
+                        "value": "Morphology"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1751,6 +2771,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con883",
+                    "label": {
+                        "language": "en",
+                        "value": "Multiagent Learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con936",
+                    "label": {
+                        "language": "en",
+                        "value": "Multiagent Systems under Uncertainty"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1163",
+                    "label": {
+                        "language": "en",
+                        "value": "Multilinguality"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con295",
                     "label": {
                         "language": "en",
@@ -1821,6 +2871,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con872",
+                    "label": {
+                        "language": "en",
+                        "value": "Musical knowledge"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con302",
                     "label": {
                         "language": "en",
@@ -1837,6 +2897,16 @@
                         "value": "Narrow Artificial Intelligence"
                     },
                     "definition": "A form of AI designed to perform tasks that normally require human intelligence, but it operates under a limited set of constraints and is task-specific",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con921",
+                    "label": {
+                        "language": "en",
+                        "value": "Natural intelligence"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1861,12 +2931,52 @@
                     "elements": []
                 },
                 {
+                    "id": "con1007",
+                    "label": {
+                        "language": "en",
+                        "value": "Negotiation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con979",
+                    "label": {
+                        "language": "en",
+                        "value": "Negotiation and Contract-Based Systems"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con309",
                     "label": {
                         "language": "en",
                         "value": "Non-Iterative Learning"
                     },
                     "definition": "Algorithms that can reach a solution or finalize a model without the need for iterative optimization processes.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con897",
+                    "label": {
+                        "language": "en",
+                        "value": "Non-convex optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con920",
+                    "label": {
+                        "language": "en",
+                        "value": "Nonmonotonic Reasoning"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1911,12 +3021,62 @@
                     "elements": []
                 },
                 {
+                    "id": "con941",
+                    "label": {
+                        "language": "en",
+                        "value": "Ontology Induction from text"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con934",
+                    "label": {
+                        "language": "en",
+                        "value": "Optimization of Spatio-temporal Systems"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con325",
                     "label": {
                         "language": "en",
                         "value": "Outlier Detection"
                     },
                     "definition": "The process of detecting outliers, or a data point that is far away from the average",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con992",
+                    "label": {
+                        "language": "en",
+                        "value": "Parallel Systems"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "None",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con909",
+                    "label": {
+                        "language": "en",
+                        "value": "Path Planning"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -1951,6 +3111,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con957",
+                    "label": {
+                        "language": "en",
+                        "value": "Phonology"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con334",
                     "label": {
                         "language": "en",
@@ -1971,12 +3141,92 @@
                     "elements": []
                 },
                 {
+                    "id": "con1010",
+                    "label": {
+                        "language": "en",
+                        "value": "Plan Execution"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1011",
+                    "label": {
+                        "language": "en",
+                        "value": "Plan Monitoring"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1009",
+                    "label": {
+                        "language": "en",
+                        "value": "Plan Recognition"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1013",
+                    "label": {
+                        "language": "en",
+                        "value": "Plan Repair"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con932",
+                    "label": {
+                        "language": "en",
+                        "value": "Planning under Uncertainty"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1158",
+                    "label": {
+                        "language": "en",
+                        "value": "Planning with Markov Models (MDPs, POMDPs)"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con339",
                     "label": {
                         "language": "en",
                         "value": "Platform as a Service"
                     },
                     "definition": "A cloud computing service model where users provision, instantiate, run and manage a modular bundle of a computing platform and applications, without the complexity of building and maintaining the infrastructure associated with developing and launching application(s), and to allow developers to create, develop, and package such software bundles",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1022",
+                    "label": {
+                        "language": "en",
+                        "value": "Pragmatics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con919",
+                    "label": {
+                        "language": "en",
+                        "value": "Preferences"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2001,6 +3251,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con948",
+                    "label": {
+                        "language": "en",
+                        "value": "Probabilistic Inference"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con346",
                     "label": {
                         "language": "en",
@@ -2017,6 +3277,16 @@
                         "value": "Probabilistic Planning"
                     },
                     "definition": "An extension of nondeterministic planning with information on the probabilities of nondeterministic events.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con918",
+                    "label": {
+                        "language": "en",
+                        "value": "Probabilistic Programming"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2051,6 +3321,36 @@
                     "elements": []
                 },
                 {
+                    "id": "con960",
+                    "label": {
+                        "language": "en",
+                        "value": "Psycholinguistics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con917",
+                    "label": {
+                        "language": "en",
+                        "value": "Qualitative Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con872",
+                    "label": {
+                        "language": "en",
+                        "value": "Quantum computing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con362",
                     "label": {
                         "language": "en",
@@ -2075,6 +3375,16 @@
                     "label": {
                         "language": "en",
                         "value": "Rankings"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con916",
+                    "label": {
+                        "language": "en",
+                        "value": "Reasoning with Beliefs"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -2115,6 +3425,26 @@
                     "label": {
                         "language": "en",
                         "value": "Relational Learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con915",
+                    "label": {
+                        "language": "en",
+                        "value": "Relational Probabilistic Models"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1012",
+                    "label": {
+                        "language": "en",
+                        "value": "Replanning"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -2181,10 +3511,50 @@
                     "elements": []
                 },
                 {
+                    "id": "con896",
+                    "label": {
+                        "language": "en",
+                        "value": "Runtime Modeling"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con386",
                     "label": {
                         "language": "en",
                         "value": "Safety"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con954",
+                    "label": {
+                        "language": "en",
+                        "value": "Sampling Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "None",
+                    "label": {
+                        "language": "en",
+                        "value": "Satisfiability"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con994",
+                    "label": {
+                        "language": "en",
+                        "value": "Scalability"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -2231,12 +3601,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con1162",
+                    "label": {
+                        "language": "en",
+                        "value": "Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con394",
                     "label": {
                         "language": "en",
                         "value": "Segmentation"
                     },
                     "definition": "Partitioning an image into distinct regions, enabling targeted analysis of specific areas.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con914",
+                    "label": {
+                        "language": "en",
+                        "value": "Semantic networks"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2271,12 +3661,72 @@
                     "elements": []
                 },
                 {
+                    "id": "con956",
+                    "label": {
+                        "language": "en",
+                        "value": "Sentence-level semantics"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con399",
                     "label": {
                         "language": "en",
                         "value": "Sentiment Analysis"
                     },
                     "definition": "The process of analyzing digital text to determine if the emotional tone of the message is positive, negative, or neutral.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con913",
+                    "label": {
+                        "language": "en",
+                        "value": "Sequential Decision Making"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con912",
+                    "label": {
+                        "language": "en",
+                        "value": "Similarity-based learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con896",
+                    "label": {
+                        "language": "en",
+                        "value": "Simulated anealing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con875",
+                    "label": {
+                        "language": "en",
+                        "value": "Simulating Humans"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con953",
+                    "label": {
+                        "language": "en",
+                        "value": "Simulation-based Search"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2291,12 +3741,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con967",
+                    "label": {
+                        "language": "en",
+                        "value": "Social Cognition and Interaction"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con406",
                     "label": {
                         "language": "en",
                         "value": "Social Network Analysis"
                     },
                     "definition": "The process of investigating social structures through the use of networks and graph theory.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con895",
+                    "label": {
+                        "language": "en",
+                        "value": "Solvers and Tools"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2361,12 +3831,62 @@
                     "elements": []
                 },
                 {
+                    "id": "con973",
+                    "label": {
+                        "language": "en",
+                        "value": "Spatial Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con419",
                     "label": {
                         "language": "en",
                         "value": "Spatio-Temporal Data Mining"
                     },
                     "definition": "The process of discovering useful patterns from the dynamic interplay between space and time.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con892",
+                    "label": {
+                        "language": "en",
+                        "value": "Speech analysis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con955",
+                    "label": {
+                        "language": "en",
+                        "value": "Speech and Multimodality"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con891",
+                    "label": {
+                        "language": "en",
+                        "value": "Speech synthesis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con890",
+                    "label": {
+                        "language": "en",
+                        "value": "Speech to text"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2411,6 +3931,26 @@
                     "elements": []
                 },
                 {
+                    "id": "con949",
+                    "label": {
+                        "language": "en",
+                        "value": "Stochastic Models"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con911",
+                    "label": {
+                        "language": "en",
+                        "value": "Stochastic Optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con427",
                     "label": {
                         "language": "en",
@@ -2431,12 +3971,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con980",
+                    "label": {
+                        "language": "en",
+                        "value": "Structural Learning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con429",
                     "label": {
                         "language": "en",
                         "value": "Style Transfer"
                     },
                     "definition": "A technique in computer vision and graphics that involves generating a new image by combining the content of one image with the style of another image.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con889",
+                    "label": {
+                        "language": "en",
+                        "value": "Summarization"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2455,6 +4015,16 @@
                     "label": {
                         "language": "en",
                         "value": "Symbolic Representation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1164",
+                    "label": {
+                        "language": "en",
+                        "value": "Tagging"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -2491,10 +4061,90 @@
                     "elements": []
                 },
                 {
+                    "id": "con974",
+                    "label": {
+                        "language": "en",
+                        "value": "Temporal Reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con439",
                     "label": {
                         "language": "en",
                         "value": "Tensor Process Unit"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con888",
+                    "label": {
+                        "language": "en",
+                        "value": "Text analysis"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con887",
+                    "label": {
+                        "language": "en",
+                        "value": "Text Classification"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con887",
+                    "label": {
+                        "language": "en",
+                        "value": "Text generation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con886",
+                    "label": {
+                        "language": "en",
+                        "value": "Text Mining"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con885",
+                    "label": {
+                        "language": "en",
+                        "value": "Text to speech"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con956",
+                    "label": {
+                        "language": "en",
+                        "value": "Textual Inference"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con931",
+                    "label": {
+                        "language": "en",
+                        "value": "Theorem Proving"
                     },
                     "definition": "",
                     "seeAlso": "",
@@ -2547,6 +4197,36 @@
                         "value": "Uncertainty Quantification"
                     },
                     "definition": "The process of assessing and managing uncertainties in hyperbolic systems of conservation laws, involving input uncertainties in various parameters such as initial data, fluxes, coefficients, and boundary conditions.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con996",
+                    "label": {
+                        "language": "en",
+                        "value": "User Modeling"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con997",
+                    "label": {
+                        "language": "en",
+                        "value": "Video Coding"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con998",
+                    "label": {
+                        "language": "en",
+                        "value": "Video compression"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2621,12 +4301,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con1152",
+                    "label": {
+                        "language": "en",
+                        "value": "Virtual Humans"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con464",
                     "label": {
                         "language": "en",
                         "value": "Virtual Reality"
                     },
                     "definition": "A simulated experience that employs 3D near-eye displays and pose tracking to give the user an immersive feel of a virtual world.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1168",
+                    "label": {
+                        "language": "en",
+                        "value": "Vision"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2641,12 +4341,62 @@
                     "elements": []
                 },
                 {
+                    "id": "con910",
+                    "label": {
+                        "language": "en",
+                        "value": "Visual reasoning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con470",
                     "label": {
                         "language": "en",
                         "value": "Weak Artificial Intelligence"
                     },
                     "definition": "A type of artificial intelligence that is limited to a specific or narrow area.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con881",
+                    "label": {
+                        "language": "en",
+                        "value": "Web-based QA"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con995",
+                    "label": {
+                        "language": "en",
+                        "value": "Web Personalization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1004",
+                    "label": {
+                        "language": "en",
+                        "value": "Web Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con959",
+                    "label": {
+                        "language": "en",
+                        "value": "Word Segmentation"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2671,6 +4421,26 @@
                     "elements": []
                 },
                 {
+                    "id": "con962",
+                    "label": {
+                        "language": "en",
+                        "value": "AI and Jobs/Labor"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1155",
+                    "label": {
+                        "language": "en",
+                        "value": "Agent/AI Theories"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con266",
                     "label": {
                         "language": "en",
@@ -2687,6 +4457,46 @@
                         "value": "Compression"
                     },
                     "definition": "A technique that reduces the size of data without losing its essential information or quality.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con975",
+                    "label": {
+                        "language": "en",
+                        "value": "Mixed Discrete/Continuous Optimization"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con971",
+                    "label": {
+                        "language": "en",
+                        "value": "Mixed Discrete/Continuous Planning"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con976",
+                    "label": {
+                        "language": "en",
+                        "value": "Mixed Discrete/Continuous Search"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con966",
+                    "label": {
+                        "language": "en",
+                        "value": "Social Choice / Voting"
+                    },
+                    "definition": "",
                     "seeAlso": "",
                     "elements": []
                 }
@@ -2727,12 +4537,32 @@
                     "elements": []
                 },
                 {
+                    "id": "con847",
+                    "label": {
+                        "language": "en",
+                        "value": "Legal & Compliance"
+                    },
+                    "definition": "The part of a company that understands the laws and also implements systems and processes to adhere to them consistently.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con269",
                     "label": {
                         "language": "en",
                         "value": "Marketing"
                     },
                     "definition": "The strategies and processes that generate persuasive prospects to buy a product or service",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con846",
+                    "label": {
+                        "language": "en",
+                        "value": "Operations"
+                    },
+                    "definition": "Activities for strategically and date to date management of company\u2019s resources for making its processes",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -2949,6 +4779,16 @@
                         "value": "Customer Service Automation"
                     },
                     "definition": "The use of technology to perform routine service tasks, without directly involving a human.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con105",
+                    "label": {
+                        "language": "en",
+                        "value": "Customer Support"
+                    },
+                    "definition": "A range of services to assist customers in making cost effective and correct use of a product.",
                     "seeAlso": "",
                     "elements": []
                 },
@@ -3500,6 +5340,86 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/D",
                     "elements": [
                         {
+                            "id": "con1044",
+                            "label": {
+                                "language": "en",
+                                "value": "Air quality monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1047",
+                            "label": {
+                                "language": "en",
+                                "value": "Automation and Autonomy"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1045",
+                            "label": {
+                                "language": "en",
+                                "value": "Climate prediction"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1048",
+                            "label": {
+                                "language": "en",
+                                "value": "Data-driven Microgrids powered by renewable energy"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1049",
+                            "label": {
+                                "language": "en",
+                                "value": "Earth monitoring/observation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1050",
+                            "label": {
+                                "language": "en",
+                                "value": "Energy at the Edge"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1051",
+                            "label": {
+                                "language": "en",
+                                "value": "Energy Efficiency"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1052",
+                            "label": {
+                                "language": "en",
+                                "value": "Energy production forecasting"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con143",
                             "label": {
                                 "language": "en",
@@ -3507,6 +5427,36 @@
                             },
                             "definition": "Electric motors, engines and turbines - Electric power generation - Manufacturing and distribution of gas",
                             "seeAlso": "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/renewable-energy",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1053",
+                            "label": {
+                                "language": "en",
+                                "value": "Energy trading"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1054",
+                            "label": {
+                                "language": "en",
+                                "value": "Grid management, efficiency and security"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1055",
+                            "label": {
+                                "language": "en",
+                                "value": "Natural disaster management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         },
                         {
@@ -3528,6 +5478,46 @@
                             "definition": "It includes all procesees, environmental research and preparatory research work before set up a construction infrastructure for Oil or Gas mining.",
                             "seeAlso": "",
                             "elements": []
+                        },
+                        {
+                            "id": "con1056",
+                            "label": {
+                                "language": "en",
+                                "value": "Optimal Prosumer Management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1057",
+                            "label": {
+                                "language": "en",
+                                "value": "Space observation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1144",
+                            "label": {
+                                "language": "en",
+                                "value": "Sustainable Buildings"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1171",
+                            "label": {
+                                "language": "en",
+                                "value": "Weather prediction"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
                         }
                     ]
                 },
@@ -3539,7 +5529,78 @@
                     },
                     "definition": "This sector includes financial service activities, including insurance, reinsurance and pension funding activities and activities to support financial services.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/K",
-                    "elements": []
+                    "elements": [
+                        {
+                            "id": "con1037",
+                            "label": {
+                                "language": "en",
+                                "value": "Algorithmic trading"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1038",
+                            "label": {
+                                "language": "en",
+                                "value": "Asset management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1039",
+                            "label": {
+                                "language": "en",
+                                "value": "Client advisory services"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1040",
+                            "label": {
+                                "language": "en",
+                                "value": "Conversational banking and customer service"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1041",
+                            "label": {
+                                "language": "en",
+                                "value": "Creditworthiness assessment"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1042",
+                            "label": {
+                                "language": "en",
+                                "value": "KYC (Know Your Customer) processes"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1043",
+                            "label": {
+                                "language": "en",
+                                "value": "Risk monitoring and mitigation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        }
+                    ]
                 },
                 {
                     "id": "con178",
@@ -3555,6 +5616,116 @@
                             "label": {
                                 "language": "en",
                                 "value": "Assistive Living"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1060",
+                            "label": {
+                                "language": "en",
+                                "value": "Bioinformatics"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1061",
+                            "label": {
+                                "language": "en",
+                                "value": "Clinical decision support"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1062",
+                            "label": {
+                                "language": "en",
+                                "value": "Digital biomarkers"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1063",
+                            "label": {
+                                "language": "en",
+                                "value": "Drug discovery"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1064",
+                            "label": {
+                                "language": "en",
+                                "value": "Early detection"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1066",
+                            "label": {
+                                "language": "en",
+                                "value": "Genomics"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1067",
+                            "label": {
+                                "language": "en",
+                                "value": "Infodemics"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1068",
+                            "label": {
+                                "language": "en",
+                                "value": "Medical diagnosis"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1069",
+                            "label": {
+                                "language": "en",
+                                "value": "Patient monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1070",
+                            "label": {
+                                "language": "en",
+                                "value": "Personalized care"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1071",
+                            "label": {
+                                "language": "en",
+                                "value": "Personalized medicine"
                             },
                             "definition": "",
                             "seeAlso": "",
@@ -3581,6 +5752,16 @@
                             "elements": []
                         },
                         {
+                            "id": "con1071",
+                            "label": {
+                                "language": "en",
+                                "value": "Surgery"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con471",
                             "label": {
                                 "language": "en",
@@ -3593,6 +5774,16 @@
                     ]
                 },
                 {
+                    "id": "con1090",
+                    "label": {
+                        "language": "en",
+                        "value": "Inclusive and universal access to education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con216",
                     "label": {
                         "language": "en",
@@ -3602,6 +5793,36 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J",
                     "elements": [
                         {
+                            "id": "con1098",
+                            "label": {
+                                "language": "en",
+                                "value": "Advertisement development, production & distribution"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1099",
+                            "label": {
+                                "language": "en",
+                                "value": "Audience analysis, engagement"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1100",
+                            "label": {
+                                "language": "en",
+                                "value": "Audiovisual archives"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con055",
                             "label": {
                                 "language": "en",
@@ -3609,6 +5830,26 @@
                             },
                             "definition": "This subsector includes the activities of creating content or acquiring the right to distribute content and subsequently broadcasting that content, such as radio, television and data programs of entertainment, news, talk, and the like. Also included is data broadcasting, typically integrated with radio or TV broadcasting. The broadcasting can be performed using different technologies, over-the-air, via satellite, via a cable network or via Internet.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.60",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1101",
+                            "label": {
+                                "language": "en",
+                                "value": "Content moderation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1102",
+                            "label": {
+                                "language": "en",
+                                "value": "Content organisation & search"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         },
                         {
@@ -3632,6 +5873,36 @@
                             "elements": []
                         },
                         {
+                            "id": "con1103",
+                            "label": {
+                                "language": "en",
+                                "value": "Document management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1104",
+                            "label": {
+                                "language": "en",
+                                "value": "E-commerce"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1106",
+                            "label": {
+                                "language": "en",
+                                "value": "Metaverse & VR experiences"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con361",
                             "label": {
                                 "language": "en",
@@ -3639,6 +5910,46 @@
                             },
                             "definition": "This subsector includes the publishing of books, brochures, leaflets, dictionaries, encyclopaedias, atlases, maps and charts; publishing of newspapers, journals and periodicals; directory and mailing list and other publishing, as well as software publishing.Publishing includes the acquisition of copyrights to content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.), except publishing of motion pictures, are included in this division.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.58",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1107",
+                            "label": {
+                                "language": "en",
+                                "value": "Social networks and social media"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1108",
+                            "label": {
+                                "language": "en",
+                                "value": "User experience design"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1109",
+                            "label": {
+                                "language": "en",
+                                "value": "User profiling, content personalisation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1105",
+                            "label": {
+                                "language": "en",
+                                "value": "Fact-checking, mis- / disinformation detection, manipulation (deepfake) detection"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         }
                     ]
@@ -3652,6 +5963,16 @@
                     "definition": "",
                     "seeAlso": "",
                     "elements": [
+                        {
+                            "id": "con1072",
+                            "label": {
+                                "language": "en",
+                                "value": "Cloud computing"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
                         {
                             "id": "con090",
                             "label": {
@@ -3670,6 +5991,36 @@
                             },
                             "definition": "This subsector includes the planning and designing of computer systems which integrate computer hardware, software and communication technologies. Services may include related users training.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/J.62.02",
+                            "elements": []
+                        },
+                        {
+                            "id": "con231",
+                            "label": {
+                                "language": "en",
+                                "value": "Internet of Things"
+                            },
+                            "definition": "The network of physical objects that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1073",
+                            "label": {
+                                "language": "en",
+                                "value": "Sensor networks"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1075",
+                            "label": {
+                                "language": "en",
+                                "value": "Smart cities"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         },
                         {
@@ -3694,6 +6045,16 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C",
                     "elements": [
                         {
+                            "id": "con1076",
+                            "label": {
+                                "language": "en",
+                                "value": "Assembly component optimization"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con061",
                             "label": {
                                 "language": "en",
@@ -3704,6 +6065,46 @@
                             "elements": []
                         },
                         {
+                            "id": "con1077",
+                            "label": {
+                                "language": "en",
+                                "value": "Data Labeling"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1078",
+                            "label": {
+                                "language": "en",
+                                "value": "Digital Factories"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1079",
+                            "label": {
+                                "language": "en",
+                                "value": "Digital twins"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1080",
+                            "label": {
+                                "language": "en",
+                                "value": "Dynamic scheduling"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con140",
                             "label": {
                                 "language": "en",
@@ -3711,6 +6112,16 @@
                             },
                             "definition": "Raw starting materials (semiconductor wafers) - Semiconductor manufacturing tools - Design and manufacturing of semiconductor components",
                             "seeAlso": "https://www.clustercollaboration.eu/in-focus/industrial-ecosystems/electronics",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1081",
+                            "label": {
+                                "language": "en",
+                                "value": "HRI in Manufacturing Processes"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         },
                         {
@@ -3774,6 +6185,46 @@
                             "elements": []
                         },
                         {
+                            "id": "con1082",
+                            "label": {
+                                "language": "en",
+                                "value": "Product Development"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1083",
+                            "label": {
+                                "language": "en",
+                                "value": "Quality assurance"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1084",
+                            "label": {
+                                "language": "en",
+                                "value": "Resilience of production"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1085",
+                            "label": {
+                                "language": "en",
+                                "value": "Retrofitting of AI"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con441",
                             "label": {
                                 "language": "en",
@@ -3791,6 +6242,16 @@
                             },
                             "definition": "This subsector includes the processing of an agricultural product, tobacco, into a form suitable for final consumption as well as the production of other chemical tobaco products.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/C.12",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1086",
+                            "label": {
+                                "language": "en",
+                                "value": "Zero Defect Manufacturing"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         }
                     ]
@@ -3816,6 +6277,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con850",
+                    "label": {
+                        "language": "en",
+                        "value": "Professional, scientific and technical activities"
+                    },
+                    "definition": "This sector includes specialised professional, scientific and technical activities. These activities require a high degree of training, and make specialised knowledge and skills available to users.",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con366",
                     "label": {
                         "language": "en",
@@ -3824,6 +6295,118 @@
                     "definition": "This sector includes acting as lessors, agents and/or brokers in one or more of the following: selling or buying real estate, rental real estate, providing other real estate services such as appraising real estate or acting as real estate escrow agents. Activities in this section may be carried out on own or leased property and may be done on a fee or contract basis. This section includes real estate property managers.",
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/L",
                     "elements": []
+                },
+                {
+                    "id": "con1130",
+                    "label": {
+                        "language": "en",
+                        "value": "Safety & Security"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": [
+                        {
+                            "id": "con1131",
+                            "label": {
+                                "language": "en",
+                                "value": "Biometrics"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1132",
+                            "label": {
+                                "language": "en",
+                                "value": "Equipment control"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1133",
+                            "label": {
+                                "language": "en",
+                                "value": "Workplace safety"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "con1026",
+                    "label": {
+                        "language": "en",
+                        "value": "Scientific research, design & engineering"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": [
+                        {
+                            "id": "con1138",
+                            "label": {
+                                "language": "en",
+                                "value": "Basic research"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1139",
+                            "label": {
+                                "language": "en",
+                                "value": "Building design & architecture"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1140",
+                            "label": {
+                                "language": "en",
+                                "value": "Design"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1141",
+                            "label": {
+                                "language": "en",
+                                "value": "Humanities & Computational Social Science"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1142",
+                            "label": {
+                                "language": "en",
+                                "value": "Software Engineering"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1143",
+                            "label": {
+                                "language": "en",
+                                "value": "Support for the production of systematic reviews"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        }
+                    ]
                 },
                 {
                     "id": "con444",
@@ -3876,12 +6459,192 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/H",
                     "elements": [
                         {
+                            "id": "con1125",
+                            "label": {
+                                "language": "en",
+                                "value": "Airport infrastructure"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1110",
+                            "label": {
+                                "language": "en",
+                                "value": "Assisted driving"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1111",
+                            "label": {
+                                "language": "en",
+                                "value": "Autonomous vehicles"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1112",
+                            "label": {
+                                "language": "en",
+                                "value": "Driver monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1113",
+                            "label": {
+                                "language": "en",
+                                "value": "Drone taxis"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1114",
+                            "label": {
+                                "language": "en",
+                                "value": "Ecosystem monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1115",
+                            "label": {
+                                "language": "en",
+                                "value": "Energy autonomous assets"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1116",
+                            "label": {
+                                "language": "en",
+                                "value": "Flight"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con482",
                             "label": {
                                 "language": "en",
                                 "value": "Maritime"
                             },
                             "definition": "Theindustry that deals with anything related to the ocean, sea, and rivers. Maritime includes the ships, ports, companies, and individuals that are involved in the industry..It followes a collection of laws, conventions, and treaties that were put together by international bodies, such as the International Maritime Organization (IMO), to regulate and resolve all aspects of maritime trade, enviromental disputes or accidents that occur in oceans, seas, rivers, and other waterways. Maritime shipping plays a pivotal role in thiw industry, while security is supported by maritime tracking that explois Artificial Intelligence methods and algorithms.",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1117",
+                            "label": {
+                                "language": "en",
+                                "value": "Mobility"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1123",
+                            "label": {
+                                "language": "en",
+                                "value": "Rail infrastructure"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1118",
+                            "label": {
+                                "language": "en",
+                                "value": "Reliable Confidence Measure"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1119",
+                            "label": {
+                                "language": "en",
+                                "value": "Road condition monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1124",
+                            "label": {
+                                "language": "en",
+                                "value": "Road infrastructure"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1120",
+                            "label": {
+                                "language": "en",
+                                "value": "Standardization & certification of AI"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1147",
+                            "label": {
+                                "language": "en",
+                                "value": "Time series & verification approaches"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1121",
+                            "label": {
+                                "language": "en",
+                                "value": "Traffic detection & management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1146",
+                            "label": {
+                                "language": "en",
+                                "value": "Transportation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1122",
+                            "label": {
+                                "language": "en",
+                                "value": "Urban mobility"
+                            },
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -3917,6 +6680,26 @@
                             "elements": []
                         },
                         {
+                            "id": "con1058",
+                            "label": {
+                                "language": "en",
+                                "value": "Water infrastructure"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1059",
+                            "label": {
+                                "language": "en",
+                                "value": "Water management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con469",
                             "label": {
                                 "language": "en",
@@ -3948,6 +6731,36 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O",
                     "elements": [
                         {
+                            "id": "con1126",
+                            "label": {
+                                "language": "en",
+                                "value": "Accessibility"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1127",
+                            "label": {
+                                "language": "en",
+                                "value": "Automated auditing of public services"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1134",
+                            "label": {
+                                "language": "en",
+                                "value": "Border control"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con069",
                             "label": {
                                 "language": "en",
@@ -3958,12 +6771,62 @@
                             "elements": []
                         },
                         {
+                            "id": "con1135",
+                            "label": {
+                                "language": "en",
+                                "value": "Crime detection and prevention"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con108",
                             "label": {
                                 "language": "en",
                                 "value": "Cybersecurity"
                             },
                             "definition": "Cybersecurity is how individuals and organisations reduce the risk of cyber attack. Cybersecurity's core function is to protect the devices we all use (smartphones, laptops, tablets and computers), and the services we access - both online and at work - from theft or damage. It's also about preventing unauthorised access to the vast amounts of personal information we store on these devices, and online.",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1136",
+                            "label": {
+                                "language": "en",
+                                "value": "Digital policing"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1128",
+                            "label": {
+                                "language": "en",
+                                "value": "Digital transformation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1137",
+                            "label": {
+                                "language": "en",
+                                "value": "Foreign information manipulation and interference detection"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1129",
+                            "label": {
+                                "language": "en",
+                                "value": "Reliable Statistics"
+                            },
+                            "definition": "",
                             "seeAlso": "",
                             "elements": []
                         }
@@ -3979,6 +6842,16 @@
                     "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A",
                     "elements": [
                         {
+                            "id": "con1027",
+                            "label": {
+                                "language": "en",
+                                "value": "Agribots"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
                             "id": "con013",
                             "label": {
                                 "language": "en",
@@ -3986,6 +6859,16 @@
                             },
                             "definition": "This subsector includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1028",
+                            "label": {
+                                "language": "en",
+                                "value": "Crop yield prediction"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         },
                         {
@@ -4006,6 +6889,76 @@
                             },
                             "definition": "This subsection includes the production of roundwood as well as the extraction and gathering of wild growing non-wood forest products. Besides the production of timber, forestry activities result in products that undergo little processing, such as firewood, charcoal and roundwood used in an unprocessed form (e.g. pit-props, pulpwood etc.). These activities can be carried out in natural or planted forests.",
                             "seeAlso": "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/A.02",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1029",
+                            "label": {
+                                "language": "en",
+                                "value": "Insect and plant disease detection"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1030",
+                            "label": {
+                                "language": "en",
+                                "value": "Livestock monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1031",
+                            "label": {
+                                "language": "en",
+                                "value": "Pest management"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1032",
+                            "label": {
+                                "language": "en",
+                                "value": "Precision agriculture"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1033",
+                            "label": {
+                                "language": "en",
+                                "value": "Price forecasting"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1034",
+                            "label": {
+                                "language": "en",
+                                "value": "Smart irrigation"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
+                            "elements": []
+                        },
+                        {
+                            "id": "con1035",
+                            "label": {
+                                "language": "en",
+                                "value": "Soil and crop monitoring"
+                            },
+                            "definition": "",
+                            "seeAlso": "",
                             "elements": []
                         }
                     ]
@@ -7300,6 +10253,16 @@
                     "elements": []
                 },
                 {
+                    "id": "con493",
+                    "label": {
+                        "language": "en",
+                        "value": "Message"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
                     "id": "con494",
                     "label": {
                         "language": "en",
@@ -7465,7 +10428,98 @@
                             },
                             "definition": "",
                             "seeAlso": "",
-                            "elements": []
+                            "elements": [
+                                {
+                                    "id": "con1087",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Administrative and organizational tasks automation"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1088",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Automated testing, grading, and assessment"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1089",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Gamification"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1091",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Intelligent tutoring systems"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1092",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Learning analytics"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1094",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Learning assistance"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1095",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Personalized learning"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1096",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Secure and decentralized learning"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                },
+                                {
+                                    "id": "con1097",
+                                    "label": {
+                                        "language": "en",
+                                        "value": "Virtual learning environments"
+                                    },
+                                    "definition": "",
+                                    "seeAlso": "",
+                                    "elements": []
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7727,6 +10781,16 @@
             "taxonomy_id": "scheme004",
             "taxonomy_name": "Research Area",
             "elements": [
+                {
+                    "id": "con868",
+                    "label": {
+                        "language": "en",
+                        "value": "AI Hardware & High-Performance Computing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
                 {
                     "id": "con020",
                     "label": {
@@ -8131,6 +11195,16 @@
                             "label": {
                                 "language": "en",
                                 "value": "Philosophy, Ethics and Religion"
+                            },
+                            "definition": "",
+                            "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
+                            "elements": []
+                        },
+                        {
+                            "id": "con849",
+                            "label": {
+                                "language": "en",
+                                "value": "Arts"
                             },
                             "definition": "",
                             "seeAlso": "https://wiki.eoscfuture.eu/display/PUBLIC/A.+v4.00+EOSC+Provider+Profile",
