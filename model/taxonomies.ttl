@@ -472,6 +472,10 @@ dct:medium rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://aiod.eu/data/schemas/ISOCodes
+:ISOCodes rdf:type owl:DatatypeProperty .
+
+
 ###  http://purl.org/dc/terms/alternative
 dct:alternative rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf dct:title .
@@ -752,6 +756,8 @@ rdfs:Class rdf:type owl:Class .
 :Abkhazian rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Language ;
+           :ISOCodes "ab" ,
+                     "abk" ;
            ns1:notation "con1201"@en ;
            rdfs:label "Abkhazian"@en .
 
@@ -934,6 +940,8 @@ rdfs:Class rdf:type owl:Class .
 :Afar rdf:type owl:NamedIndividual ,
                ns1:Concept ;
       ns1:inScheme :Language ;
+      :ISOCodes "aa" ,
+                "aar" ;
       ns1:notation "con1203"@en ;
       rdfs:label "Afar"@en .
 
@@ -959,6 +967,8 @@ rdfs:Class rdf:type owl:Class .
 :Afrikaans rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Language ;
+           :ISOCodes "af" ,
+                     "afr" ;
            ns1:notation "1204"@en ;
            rdfs:comment "Afrikaans"@en .
 
@@ -1088,6 +1098,8 @@ rdfs:Class rdf:type owl:Class .
 :Akan rdf:type owl:NamedIndividual ,
                ns1:Concept ;
       ns1:inScheme :Language ;
+      :ISOCodes "ak" ,
+                "aka" ;
       ns1:notation "con1205"@en ;
       rdfs:comment "Akan"@en .
 
@@ -1105,6 +1117,8 @@ rdfs:Class rdf:type owl:Class .
 :Albanian rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Language ;
+          :ISOCodes "sq" ,
+                    "sqi" ;
           ns1:notation "con1206"@en ;
           rdfs:comment "Albanian"@en .
 
@@ -1156,6 +1170,8 @@ rdfs:Class rdf:type owl:Class .
 :Amharic rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "am" ,
+                   "amh" ;
          ns1:notation "con1206"@en ;
          rdfs:comment "Amharic"@en .
 
@@ -1271,6 +1287,8 @@ rdfs:Class rdf:type owl:Class .
 :Arabic rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Language ;
+        :ISOCodes "ar" ,
+                  "ara" ;
         ns1:notation "con1207"@en ;
         rdfs:label "Arabic"@en .
 
@@ -1279,6 +1297,8 @@ rdfs:Class rdf:type owl:Class .
 :Aragonese rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Language ;
+           :ISOCodes "an" ,
+                     "arg" ;
            ns1:notation "con1208"@en ;
            rdfs:label "Aragonese"@en .
 
@@ -1321,6 +1341,8 @@ rdfs:Class rdf:type owl:Class .
 :Armenian rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Language ;
+          :ISOCodes "hy" ,
+                    "hye" ;
           ns1:notation "con1209"@en ;
           rdfs:comment "Armenian"@en .
 
@@ -1358,6 +1380,8 @@ rdfs:Class rdf:type owl:Class .
 :Assamese rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
           ns1:inScheme :Language ;
+          :ISOCodes "as" ,
+                    "asm" ;
           ns1:notation "con1210"@en ;
           rdfs:comment "Assamese"@en .
 
@@ -1665,6 +1689,8 @@ rdfs:Class rdf:type owl:Class .
 :Avaric rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Language ;
+        :ISOCodes "av" ,
+                  "ava" ;
         ns1:notation "con1211"@en ;
         rdfs:label "Avaric"@en .
 
@@ -1673,6 +1699,8 @@ rdfs:Class rdf:type owl:Class .
 :Avestan rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "ae" ,
+                   "ave" ;
          ns1:notation "con1211"@en ;
          rdfs:label "Avestan"@en .
 
@@ -1690,6 +1718,8 @@ rdfs:Class rdf:type owl:Class .
 :Aymara rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Language ;
+        :ISOCodes "ay" ,
+                  "aym" ;
         ns1:notation "con1212"@en ;
         rdfs:label "Aymara"@en .
 
@@ -1707,6 +1737,8 @@ rdfs:Class rdf:type owl:Class .
 :Azerbaijani rdf:type owl:NamedIndividual ,
                       ns1:Concept ;
              ns1:inScheme :Language ;
+             :ISOCodes "az" ,
+                       "aze" ;
              ns1:notation "con1213"@en ;
              rdfs:label "Azerbaijani"@en .
 
@@ -1733,6 +1765,8 @@ rdfs:Class rdf:type owl:Class .
 :Bambara rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "bam" ,
+                   "bm" ;
          ns1:notation "con1214"@en ;
          rdfs:label "Bambara"@en .
 
@@ -1759,6 +1793,8 @@ rdfs:Class rdf:type owl:Class .
 :Bashkir rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "ba" ,
+                   "bak" ;
          ns1:notation "con1215"@en ;
          rdfs:label "Bashkir"@en .
 
@@ -1788,6 +1824,8 @@ rdfs:Class rdf:type owl:Class .
 :Basque rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Language ;
+        :ISOCodes "eu" ,
+                  "eus" ;
         ns1:notation "con1216"@en ;
         rdfs:label "Basque"@en .
 
@@ -1871,6 +1909,8 @@ rdfs:Class rdf:type owl:Class .
 :Belarusian rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
             ns1:inScheme :Language ;
+            :ISOCodes "be" ,
+                      "bel" ;
             ns1:notation "con1217"@en ;
             rdfs:label "Belarusian"@en .
 
@@ -1905,6 +1945,8 @@ rdfs:Class rdf:type owl:Class .
 :Bengali rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "ben" ,
+                   "bn" ;
          ns1:notation "con1218"@en ;
          rdfs:label "Bengali"@en .
 
@@ -2006,6 +2048,8 @@ rdfs:Class rdf:type owl:Class .
 :Bislama rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "bi" ,
+                   "bis" ;
          ns1:notation "con1219"@en ;
          rdfs:label "Bislama"@en .
 
@@ -2050,6 +2094,8 @@ rdfs:Class rdf:type owl:Class .
 :Bosnian rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "bos" ,
+                   "bs" ;
          ns1:notation "con1220"@en ;
          rdfs:label "Bosnian"@en .
 
@@ -2101,6 +2147,8 @@ rdfs:Class rdf:type owl:Class .
 :Breton rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
         ns1:inScheme :Language ;
+        :ISOCodes "br" ,
+                  "bre" ;
         ns1:notation "con1221"@en ;
         rdfs:label "Breton"@en .
 
@@ -2178,6 +2226,8 @@ rdfs:Class rdf:type owl:Class .
 :Bulgarian rdf:type owl:NamedIndividual ,
                     ns1:Concept ;
            ns1:inScheme :Language ;
+           :ISOCodes "bg" ,
+                     "bul" ;
            ns1:notation "con1222"@en ;
            rdfs:label "Bulgarian"@en .
 
@@ -2195,6 +2245,8 @@ rdfs:Class rdf:type owl:Class .
 :Burmese rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "my" ,
+                   "mya" ;
          ns1:notation "con1223"@en ;
          rdfs:label "Burmese"@en .
 
@@ -2357,6 +2409,8 @@ rdfs:Class rdf:type owl:Class .
 :Catalan rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
          ns1:inScheme :Language ;
+         :ISOCodes "ca" ,
+                   "cat" ;
          ns1:notation "con1224"@en ;
          rdfs:label "Catalan"@en .
 
