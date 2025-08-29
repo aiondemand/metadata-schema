@@ -9493,6 +9493,522 @@
             ]
         },
         {
+            "taxonomy_id": "scheme023",
+            "taxonomy_name": "Educational Competency",
+            "elements": [
+                {
+                    "id": "con1188",
+                    "label": {
+                        "language": "en",
+                        "value": "Advanced"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1190",
+                    "label": {
+                        "language": "en",
+                        "value": "Beginner"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1189",
+                    "label": {
+                        "language": "en",
+                        "value": "Intermediate"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "scheme022",
+            "taxonomy_name": "Educational Level",
+            "elements": [
+                {
+                    "id": "con1199",
+                    "label": {
+                        "language": "en",
+                        "value": "Doctoral or equivalent level"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1192",
+                    "label": {
+                        "language": "en",
+                        "value": "Early childhood education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1194",
+                    "label": {
+                        "language": "en",
+                        "value": "Lower secondary education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1200",
+                    "label": {
+                        "language": "en",
+                        "value": "Not elsewhere classified"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1196",
+                    "label": {
+                        "language": "en",
+                        "value": "Post-secondary non-tertiary education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1193",
+                    "label": {
+                        "language": "en",
+                        "value": "Primary education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1197",
+                    "label": {
+                        "language": "en",
+                        "value": "Short-cycle tertiary education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1195",
+                    "label": {
+                        "language": "en",
+                        "value": "Upper secondary education"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1197",
+                    "label": {
+                        "language": "en",
+                        "value": "Bachelor\u2019s or equivalent level"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1198",
+                    "label": {
+                        "language": "en",
+                        "value": "Master\u2019s or equivalent level"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "schema017",
+            "taxonomy_name": "Event Mode",
+            "elements": [
+                {
+                    "id": "con1181",
+                    "label": {
+                        "language": "en",
+                        "value": "Hybrid"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1179",
+                    "label": {
+                        "language": "en",
+                        "value": "Physical"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1180",
+                    "label": {
+                        "language": "en",
+                        "value": "Virtual"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "schema018",
+            "taxonomy_name": "Event Status",
+            "elements": [
+                {
+                    "id": "con1185",
+                    "label": {
+                        "language": "en",
+                        "value": "Cancelled"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1182",
+                    "label": {
+                        "language": "en",
+                        "value": "Ongoing"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "None",
+                    "label": {
+                        "language": "en",
+                        "value": "Planned"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1184",
+                    "label": {
+                        "language": "en",
+                        "value": "Upcoming"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "schema021",
+            "taxonomy_name": "Language",
+            "elements": [
+                {
+                    "id": "con1201",
+                    "label": {
+                        "language": "en",
+                        "value": "Abkhazian"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1203",
+                    "label": {
+                        "language": "en",
+                        "value": "Afar"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "1204",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1205",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1206",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1206",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1207",
+                    "label": {
+                        "language": "en",
+                        "value": "Arabic"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1208",
+                    "label": {
+                        "language": "en",
+                        "value": "Aragonese"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1209",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1210",
+                    "label": {
+                        "language": "en",
+                        "value": "Unknown"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1211",
+                    "label": {
+                        "language": "en",
+                        "value": "Avaric"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1211",
+                    "label": {
+                        "language": "en",
+                        "value": "Avestan"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1212",
+                    "label": {
+                        "language": "en",
+                        "value": "Aymara"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1213",
+                    "label": {
+                        "language": "en",
+                        "value": "Azerbaijani"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1214",
+                    "label": {
+                        "language": "en",
+                        "value": "Bambara"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1215",
+                    "label": {
+                        "language": "en",
+                        "value": "Bashkir"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1216",
+                    "label": {
+                        "language": "en",
+                        "value": "Basque"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1217",
+                    "label": {
+                        "language": "en",
+                        "value": "Belarusian"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1218",
+                    "label": {
+                        "language": "en",
+                        "value": "Bengali"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1219",
+                    "label": {
+                        "language": "en",
+                        "value": "Bislama"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1220",
+                    "label": {
+                        "language": "en",
+                        "value": "Bosnian"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1221",
+                    "label": {
+                        "language": "en",
+                        "value": "Breton"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1222",
+                    "label": {
+                        "language": "en",
+                        "value": "Bulgarian"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1223",
+                    "label": {
+                        "language": "en",
+                        "value": "Burmese"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1224",
+                    "label": {
+                        "language": "en",
+                        "value": "Catalan"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "schema019",
+            "taxonomy_name": "Learning Mode",
+            "elements": [
+                {
+                    "id": "con1181",
+                    "label": {
+                        "language": "en",
+                        "value": "Hybrid"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1187",
+                    "label": {
+                        "language": "en",
+                        "value": "Offline"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1186",
+                    "label": {
+                        "language": "en",
+                        "value": "Online"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
             "taxonomy_id": "scheme008",
             "taxonomy_name": "Licence",
             "elements": [
@@ -10574,6 +11090,208 @@
                     "label": {
                         "language": "en",
                         "value": "N/A"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "scheme016",
+            "taxonomy_name": "Organisation Activity Type",
+            "elements": [
+                {
+                    "id": "con1175",
+                    "label": {
+                        "language": "en",
+                        "value": "Applied research"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1177",
+                    "label": {
+                        "language": "en",
+                        "value": "Consultancy"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1176",
+                    "label": {
+                        "language": "en",
+                        "value": "Educational activities"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1174",
+                    "label": {
+                        "language": "en",
+                        "value": "Fundamental research"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con317",
+                    "label": {
+                        "language": "en",
+                        "value": "Other"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1178",
+                    "label": {
+                        "language": "en",
+                        "value": "Product/solution development"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "taxonomy_id": "schema020",
+            "taxonomy_name": "Organisation Type",
+            "elements": [
+                {
+                    "id": "con1229",
+                    "label": {
+                        "language": "en",
+                        "value": "Consultant"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1231",
+                    "label": {
+                        "language": "en",
+                        "value": "Innovation Hub"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1233",
+                    "label": {
+                        "language": "en",
+                        "value": "Large Enterprise"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1227",
+                    "label": {
+                        "language": "en",
+                        "value": "Public Organisation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1234",
+                    "label": {
+                        "language": "en",
+                        "value": "Research and Technology Organisation"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1231",
+                    "label": {
+                        "language": "en",
+                        "value": "Research Hub"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1232",
+                    "label": {
+                        "language": "en",
+                        "value": "Research University"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1226",
+                    "label": {
+                        "language": "en",
+                        "value": "SME"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1228",
+                    "label": {
+                        "language": "en",
+                        "value": "Service Provider"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1226",
+                    "label": {
+                        "language": "en",
+                        "value": "Start-Up"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1227",
+                    "label": {
+                        "language": "en",
+                        "value": "Technology Provider"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1230",
+                    "label": {
+                        "language": "en",
+                        "value": "Training Provider"
+                    },
+                    "definition": "",
+                    "seeAlso": "",
+                    "elements": []
+                },
+                {
+                    "id": "con1235",
+                    "label": {
+                        "language": "en",
+                        "value": "University Of Applied Sciences"
                     },
                     "definition": "",
                     "seeAlso": "",
