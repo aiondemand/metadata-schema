@@ -748,6 +748,14 @@ rdfs:Class rdf:type owl:Class .
      rdfs:label "AUV"@en .
 
 
+###  http://aiod.eu/data/schemas/Abkhazian
+:Abkhazian rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
+           ns1:inScheme :Language ;
+           ns1:notation "con1201"@en ;
+           rdfs:label "Abkhazian"@en .
+
+
 ###  http://aiod.eu/data/schemas/Accessibility
 :Accessibility rdf:type owl:NamedIndividual ,
                         ns1:Concept ;
@@ -867,6 +875,14 @@ rdfs:Class rdf:type owl:Class .
                                            ns1:definition "This sector includes a variety of activities that support general business operations. (Employment activities, Office administrative, office support and other business support activities,Rental and leasing activities, Security and investigation activities, Services to buildings and landscape activities, Travel agency, tour operator and other reservation service and related activities)"@en .
 
 
+###  http://aiod.eu/data/schemas/Advanced
+:Advanced rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :EducationalCompetency ;
+          ns1:notation "con1188"@en ;
+          rdfs:label "Advanced"@en .
+
+
 ###  http://aiod.eu/data/schemas/AdversarialAgents
 :AdversarialAgents rdf:type owl:NamedIndividual ,
                             ns1:Concept ;
@@ -914,6 +930,14 @@ rdfs:Class rdf:type owl:Class .
                                                    rdfs:label "Advertisement development, production & distribution"@en .
 
 
+###  http://aiod.eu/data/schemas/Afar
+:Afar rdf:type owl:NamedIndividual ,
+               ns1:Concept ;
+      ns1:inScheme :Language ;
+      ns1:notation "con1203"@en ;
+      rdfs:label "Afar"@en .
+
+
 ###  http://aiod.eu/data/schemas/AffectiveComputing
 :AffectiveComputing rdf:type owl:NamedIndividual ,
                              ns1:Concept ;
@@ -929,6 +953,14 @@ rdfs:Class rdf:type owl:Class .
              ns1:notation "con597"@en ;
              <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
              rdfs:label "Afghanistan"@en .
+
+
+###  http://aiod.eu/data/schemas/Afrikaans
+:Afrikaans rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
+           ns1:inScheme :Language ;
+           ns1:notation "1204"@en ;
+           rdfs:comment "Afrikaans"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agent-BasedSimulation
@@ -1052,6 +1084,14 @@ rdfs:Class rdf:type owl:Class .
                        rdfs:label "Airport infrastructure"@en .
 
 
+###  http://aiod.eu/data/schemas/Akan
+:Akan rdf:type owl:NamedIndividual ,
+               ns1:Concept ;
+      ns1:inScheme :Language ;
+      ns1:notation "con1205"@en ;
+      rdfs:comment "Akan"@en .
+
+
 ###  http://aiod.eu/data/schemas/Albania
 :Albania rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
@@ -1059,6 +1099,14 @@ rdfs:Class rdf:type owl:Class .
          ns1:notation "con599"@en ;
          <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
          rdfs:label "Albania"@en .
+
+
+###  http://aiod.eu/data/schemas/Albanian
+:Albanian rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :Language ;
+          ns1:notation "con1206"@en ;
+          rdfs:comment "Albanian"@en .
 
 
 ###  http://aiod.eu/data/schemas/Algeria
@@ -1102,6 +1150,14 @@ rdfs:Class rdf:type owl:Class .
                ns1:notation "con601"@en ;
                <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
                rdfs:label "American Samoa"@en .
+
+
+###  http://aiod.eu/data/schemas/Amharic
+:Amharic rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1206"@en ;
+         rdfs:comment "Amharic"@en .
 
 
 ###  http://aiod.eu/data/schemas/AnalogicalReasoning
@@ -1196,11 +1252,35 @@ rdfs:Class rdf:type owl:Class .
              rdfs:label "Application"@en .
 
 
+###  http://aiod.eu/data/schemas/AppliedResearch
+:AppliedResearch rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
+                 ns1:inScheme :OrganisationActivityType ;
+                 ns1:notation "con1175"@en ;
+                 rdfs:label "Applied research"@en .
+
+
 ###  http://aiod.eu/data/schemas/Approach
 :Approach rdf:type owl:NamedIndividual ,
                    ns1:ConceptScheme ;
           ns1:notation "scheme006"@en ;
           rdfs:label "Approach"@en .
+
+
+###  http://aiod.eu/data/schemas/Arabic
+:Arabic rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :Language ;
+        ns1:notation "con1207"@en ;
+        rdfs:label "Arabic"@en .
+
+
+###  http://aiod.eu/data/schemas/Aragonese
+:Aragonese rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
+           ns1:inScheme :Language ;
+           ns1:notation "con1208"@en ;
+           rdfs:label "Aragonese"@en .
 
 
 ###  http://aiod.eu/data/schemas/Argentina
@@ -1237,6 +1317,14 @@ rdfs:Class rdf:type owl:Class .
          rdfs:label "Armenia"@en .
 
 
+###  http://aiod.eu/data/schemas/Armenian
+:Armenian rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :Language ;
+          ns1:notation "con1209"@en ;
+          rdfs:comment "Armenian"@en .
+
+
 ###  http://aiod.eu/data/schemas/ArtificialGeneralIntelligence
 :ArtificialGeneralIntelligence rdf:type owl:NamedIndividual ,
                                         ns1:Concept ;
@@ -1264,6 +1352,14 @@ rdfs:Class rdf:type owl:Class .
        ns1:notation "con609"@en ;
        <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
        rdfs:label "Aruba"@en .
+
+
+###  http://aiod.eu/data/schemas/Assamese
+:Assamese rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :Language ;
+          ns1:notation "con1210"@en ;
+          rdfs:comment "Assamese"@en .
 
 
 ###  http://aiod.eu/data/schemas/AssemblyComponentOptimization
@@ -1565,6 +1661,22 @@ rdfs:Class rdf:type owl:Class .
                     rdfs:label "Autonomous vehicles"@en .
 
 
+###  http://aiod.eu/data/schemas/Avaric
+:Avaric rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :Language ;
+        ns1:notation "con1211"@en ;
+        rdfs:label "Avaric"@en .
+
+
+###  http://aiod.eu/data/schemas/Avestan
+:Avestan rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1211"@en ;
+         rdfs:label "Avestan"@en .
+
+
 ###  http://aiod.eu/data/schemas/Awards
 :Awards rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
@@ -1574,6 +1686,14 @@ rdfs:Class rdf:type owl:Class .
         rdfs:label "Awards"@en .
 
 
+###  http://aiod.eu/data/schemas/Aymara
+:Aymara rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :Language ;
+        ns1:notation "con1212"@en ;
+        rdfs:label "Aymara"@en .
+
+
 ###  http://aiod.eu/data/schemas/Azerbaijan
 :Azerbaijan rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
@@ -1581,6 +1701,14 @@ rdfs:Class rdf:type owl:Class .
             ns1:notation "con612"@en ;
             <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
             rdfs:label "Azerbaijan"@en .
+
+
+###  http://aiod.eu/data/schemas/Azerbaijani
+:Azerbaijani rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
+             ns1:inScheme :Language ;
+             ns1:notation "con1213"@en ;
+             rdfs:label "Azerbaijani"@en .
 
 
 ###  http://aiod.eu/data/schemas/Bahamas
@@ -1601,6 +1729,14 @@ rdfs:Class rdf:type owl:Class .
          rdfs:label "Bahrain"@en .
 
 
+###  http://aiod.eu/data/schemas/Bambara
+:Bambara rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1214"@en ;
+         rdfs:label "Bambara"@en .
+
+
 ###  http://aiod.eu/data/schemas/Bangladesh
 :Bangladesh rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
@@ -1617,6 +1753,14 @@ rdfs:Class rdf:type owl:Class .
           ns1:notation "con616"@en ;
           <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
           rdfs:label "Barbados"@en .
+
+
+###  http://aiod.eu/data/schemas/Bashkir
+:Bashkir rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1215"@en ;
+         rdfs:label "Bashkir"@en .
 
 
 ###  http://aiod.eu/data/schemas/BasicMedicine
@@ -1640,6 +1784,14 @@ rdfs:Class rdf:type owl:Class .
                rdfs:label "Basic research"@en .
 
 
+###  http://aiod.eu/data/schemas/Basque
+:Basque rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :Language ;
+        ns1:notation "con1216"@en ;
+        rdfs:label "Basque"@en .
+
+
 ###  http://aiod.eu/data/schemas/BayesianLearning
 :BayesianLearning rdf:type owl:NamedIndividual ,
                            ns1:Concept ;
@@ -1656,6 +1808,14 @@ rdfs:Class rdf:type owl:Class .
                   ns1:inScheme :Approach ;
                   ns1:notation "con927"@en ;
                   rdfs:label "Bayesian Networks"@en .
+
+
+###  http://aiod.eu/data/schemas/Beginner
+:Beginner rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :EducationalCompetency ;
+          ns1:notation "con1190"@en ;
+          rdfs:label "Beginner"@en .
 
 
 ###  http://aiod.eu/data/schemas/BehaviorControl
@@ -1707,6 +1867,14 @@ rdfs:Class rdf:type owl:Class .
          rdfs:label "Belarus"@en .
 
 
+###  http://aiod.eu/data/schemas/Belarusian
+:Belarusian rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
+            ns1:inScheme :Language ;
+            ns1:notation "con1217"@en ;
+            rdfs:label "Belarusian"@en .
+
+
 ###  http://aiod.eu/data/schemas/Belgium
 :Belgium rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
@@ -1731,6 +1899,14 @@ rdfs:Class rdf:type owl:Class .
         ns1:notation "con619"@en ;
         <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
         rdfs:label "Belize"@en .
+
+
+###  http://aiod.eu/data/schemas/Bengali
+:Bengali rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1218"@en ;
+         rdfs:label "Bengali"@en .
 
 
 ###  http://aiod.eu/data/schemas/Benin
@@ -1826,6 +2002,14 @@ rdfs:Class rdf:type owl:Class .
                            rdfs:label "Biometrics, Face, Gesture & Pose"@en .
 
 
+###  http://aiod.eu/data/schemas/Bislama
+:Bislama rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1219"@en ;
+         rdfs:label "Bislama"@en .
+
+
 ###  http://aiod.eu/data/schemas/Bolivia
 :Bolivia rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
@@ -1860,6 +2044,14 @@ rdfs:Class rdf:type owl:Class .
                       ns1:notation "con625"@en ;
                       <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
                       rdfs:label "Bosnia and Herzegovina"@en .
+
+
+###  http://aiod.eu/data/schemas/Bosnian
+:Bosnian rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1220"@en ;
+         rdfs:label "Bosnian"@en .
 
 
 ###  http://aiod.eu/data/schemas/Botswana
@@ -1903,6 +2095,14 @@ rdfs:Class rdf:type owl:Class .
         ns1:notation "con628"@en ;
         <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
         rdfs:label "Brazil"@en .
+
+
+###  http://aiod.eu/data/schemas/Breton
+:Breton rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :Language ;
+        ns1:notation "con1221"@en ;
+        rdfs:label "Breton"@en .
 
 
 ###  http://aiod.eu/data/schemas/BritishIndianOceanTerritory
@@ -1974,6 +2174,14 @@ rdfs:Class rdf:type owl:Class .
           rdfs:label "Bulgaria"@en .
 
 
+###  http://aiod.eu/data/schemas/Bulgarian
+:Bulgarian rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
+           ns1:inScheme :Language ;
+           ns1:notation "con1222"@en ;
+           rdfs:label "Bulgarian"@en .
+
+
 ###  http://aiod.eu/data/schemas/BurkinaFaso
 :BurkinaFaso rdf:type owl:NamedIndividual ,
                       ns1:Concept ;
@@ -1981,6 +2189,14 @@ rdfs:Class rdf:type owl:Class .
              ns1:notation "con633"@en ;
              <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
              rdfs:label "Burkina Faso"@en .
+
+
+###  http://aiod.eu/data/schemas/Burmese
+:Burmese rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1223"@en ;
+         rdfs:label "Burmese"@en .
 
 
 ###  http://aiod.eu/data/schemas/Burundi
@@ -2097,6 +2313,14 @@ rdfs:Class rdf:type owl:Class .
         rdfs:label "Canada"@en .
 
 
+###  http://aiod.eu/data/schemas/Cancelled
+:Cancelled rdf:type owl:NamedIndividual ,
+                    ns1:Concept ;
+           ns1:inScheme :EventStatus ;
+           ns1:notation "con1185"@en ;
+           rdfs:label "Cancelled"@en .
+
+
 ###  http://aiod.eu/data/schemas/CandidatesPre-selectionScreening
 :CandidatesPre-selectionScreening rdf:type owl:NamedIndividual ,
                                            ns1:Concept ;
@@ -2127,6 +2351,14 @@ rdfs:Class rdf:type owl:Class .
                      <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
                      rdfs:label "Case-based Reasoning"@en ;
                      ns1:definition "The process of solving new problems based on the solutions of similar past problems."@en .
+
+
+###  http://aiod.eu/data/schemas/Catalan
+:Catalan rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :Language ;
+         ns1:notation "con1224"@en ;
+         rdfs:label "Catalan"@en .
 
 
 ###  http://aiod.eu/data/schemas/CausalInference
@@ -2708,6 +2940,22 @@ informal context."""@en .
               rdfs:label "Construction"@en ;
               rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/F"^^xsd:anyURI ;
               ns1:definition "This sector includes general construction and specialised construction activities for buildings and civil engineering works. It includes new work, repair, additions and alterations, the erection of prefabricated buildings or structures on the site and also construction of a temporary nature. General construction is the construction of entire dwellings, office buildings, stores and other public and utility buildings, farm buildings etc., or the construction of civil engineering works such as motorways, streets, bridges, tunnels, railways, airfields, harbours and other water projects, irrigation systems, sewerage systems, industrial facilities, pipelines and electric lines, sports facilities etc. This work can be carried out on own account or on a fee or contract basis. Portions of the work and sometimes even the whole practical work can be subcontracted out. A unit that carries the overall responsibility for a construction project is classified here.Also included is the repair of buildings and engineering works.This section includes the complete construction of buildings, the complete construction of civil engineering works, as well as specialised construction activities, if carried out only as a part of the construction process.The rental of construction equipment with operator is classified with the specific construction activity carried out with this equipment."@en .
+
+
+###  http://aiod.eu/data/schemas/Consultancy
+:Consultancy rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
+             ns1:inScheme :OrganisationActivityType ;
+             ns1:notation "con1177"@en ;
+             rdfs:label "Consultancy"@en .
+
+
+###  http://aiod.eu/data/schemas/Consultant
+:Consultant rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
+            ns1:inScheme :OrganisationType ;
+            ns1:notation "con1229"@en ;
+            rdfs:label "Consultant"@en .
 
 
 ###  http://aiod.eu/data/schemas/Consulting
@@ -3410,6 +3658,14 @@ informal context."""@en .
           rdfs:label "Djibouti"@en .
 
 
+###  http://aiod.eu/data/schemas/DoctoralorEquivalentLevel
+:DoctoralorEquivalentLevel rdf:type owl:NamedIndividual ,
+                                    ns1:Concept ;
+                           ns1:inScheme :EducationalLevel ;
+                           ns1:notation "con1199"@en ;
+                           rdfs:label "Doctoral or equivalent level"@en .
+
+
 ###  http://aiod.eu/data/schemas/DocumentAnalysisAndUnderstanding
 :DocumentAnalysisAndUnderstanding rdf:type owl:NamedIndividual ,
                                            ns1:Concept ;
@@ -3522,6 +3778,14 @@ informal context."""@en .
             rdfs:label "E-commerce"@en .
 
 
+###  http://aiod.eu/data/schemas/EarlyChildhoodEducation
+:EarlyChildhoodEducation rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
+                         ns1:inScheme :EducationalLevel ;
+                         ns1:notation "con1192"@en ;
+                         rdfs:label "Early childhood education"@en .
+
+
 ###  http://aiod.eu/data/schemas/EarlyDetection
 :EarlyDetection rdf:type owl:NamedIndividual ,
                          ns1:Concept ;
@@ -3588,6 +3852,28 @@ informal context."""@en .
                ns1:inScheme :Approach ;
                ns1:notation "con869"@en ;
                rdfs:label "Edge computing"@en .
+
+
+###  http://aiod.eu/data/schemas/EducationalActivities
+:EducationalActivities rdf:type owl:NamedIndividual ,
+                                ns1:Concept ;
+                       ns1:inScheme :OrganisationActivityType ;
+                       ns1:notation "con1176"@en ;
+                       rdfs:label "Educational activities"@en .
+
+
+###  http://aiod.eu/data/schemas/EducationalCompetency
+:EducationalCompetency rdf:type owl:NamedIndividual ,
+                                ns1:ConceptScheme ;
+                       ns1:notation "scheme023"@en ;
+                       rdfs:label "Educational Competency"@en .
+
+
+###  http://aiod.eu/data/schemas/EducationalLevel
+:EducationalLevel rdf:type owl:NamedIndividual ,
+                           ns1:ConceptScheme ;
+                  ns1:notation "scheme022"@en ;
+                  rdfs:label "Educational Level"@en .
 
 
 ###  http://aiod.eu/data/schemas/EducationalSciences
@@ -3879,6 +4165,20 @@ informal context."""@en .
                        rdfs:label "Evaluation and Analysis"@en .
 
 
+###  http://aiod.eu/data/schemas/EventMode
+:EventMode rdf:type owl:NamedIndividual ,
+                    ns1:ConceptScheme ;
+           ns1:notation "schema017"@en ;
+           rdfs:label "Event Mode"@en .
+
+
+###  http://aiod.eu/data/schemas/EventStatus
+:EventStatus rdf:type owl:NamedIndividual ,
+                      ns1:ConceptScheme ;
+             ns1:notation "schema018"@en ;
+             rdfs:label "Event Status"@en .
+
+
 ###  http://aiod.eu/data/schemas/EvidenceReasoning
 :EvidenceReasoning rdf:type owl:NamedIndividual ,
                             ns1:Concept ;
@@ -4141,6 +4441,14 @@ informal context."""@en .
                            ns1:notation "con680"@en ;
                            <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
                            rdfs:label "French Southern Territories"@en .
+
+
+###  http://aiod.eu/data/schemas/FundamentalResearch
+:FundamentalResearch rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
+                     ns1:inScheme :OrganisationActivityType ;
+                     ns1:notation "con1174"@en ;
+                     rdfs:label "Fundamental research"@en .
 
 
 ###  http://aiod.eu/data/schemas/Funding
@@ -4767,6 +5075,15 @@ informal context."""@en .
          rdfs:label "Hungary"@en .
 
 
+###  http://aiod.eu/data/schemas/Hybrid
+:Hybrid rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :EventMode ,
+                     :LearningMode ;
+        ns1:notation "con1181"@en ;
+        rdfs:label "Hybrid"@en .
+
+
 ###  http://aiod.eu/data/schemas/HyperparameterTuning
 :HyperparameterTuning rdf:type owl:NamedIndividual ,
                                ns1:Concept ;
@@ -5055,6 +5372,14 @@ informal context."""@en .
                  ns1:definition "The constructure industry that deals with physical and organizational structures and facilities (e.g. buildings, roads, power supplies) needed for the operation of a society or enterprise."@en .
 
 
+###  http://aiod.eu/data/schemas/InnovationHub
+:InnovationHub rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
+               ns1:inScheme :OrganisationType ;
+               ns1:notation "con1231"@en ;
+               rdfs:label "Innovation Hub"@en .
+
+
 ###  http://aiod.eu/data/schemas/InsectAndPlantDiseaseDetection
 :InsectAndPlantDiseaseDetection rdf:type owl:NamedIndividual ,
                                          ns1:Concept ;
@@ -5157,6 +5482,14 @@ informal context."""@en .
             ns1:inScheme :Approach ;
             ns1:notation "con1157"@en ;
             rdfs:label "Interfaces"@en .
+
+
+###  http://aiod.eu/data/schemas/Intermediate
+:Intermediate rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
+              ns1:inScheme :EducationalCompetency ;
+              ns1:notation "con1189"@en ;
+              rdfs:label "Intermediate"@en .
 
 
 ###  http://aiod.eu/data/schemas/InternalFraudDetection
@@ -5492,6 +5825,13 @@ informal context."""@en .
             rdfs:label "Kyrgyzstan"@en .
 
 
+###  http://aiod.eu/data/schemas/Language
+:Language rdf:type owl:NamedIndividual ,
+                   ns1:ConceptScheme ;
+          ns1:notation "schema021"@en ;
+          rdfs:label "Language"@en .
+
+
 ###  http://aiod.eu/data/schemas/LanguageAcquisition
 :LanguageAcquisition rdf:type owl:NamedIndividual ,
                               ns1:Concept ;
@@ -5545,6 +5885,14 @@ informal context."""@en .
                               ns1:notation "con720"@en ;
                               <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
                               rdfs:label "Lao People s Democratic Republic"@en .
+
+
+###  http://aiod.eu/data/schemas/LargeEnterprise
+:LargeEnterprise rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
+                 ns1:inScheme :OrganisationType ;
+                 ns1:notation "con1233"@en ;
+                 rdfs:label "Large Enterprise"@en .
 
 
 ###  http://aiod.eu/data/schemas/LargeLanguageModels
@@ -5620,6 +5968,13 @@ informal context."""@en .
                                    ns1:inScheme :Approach ;
                                    ns1:notation "con940"@en ;
                                    rdfs:label "Learning Human Values and Preferences"@en .
+
+
+###  http://aiod.eu/data/schemas/LearningMode
+:LearningMode rdf:type owl:NamedIndividual ,
+                       ns1:ConceptScheme ;
+              ns1:notation "schema019"@en ;
+              rdfs:label "Learning Mode"@en .
 
 
 ###  http://aiod.eu/data/schemas/LearningOnTheEdge
@@ -5861,6 +6216,14 @@ informal context."""@en .
                 ns1:notation "con258"@en ;
                 <http://purl.org/dc/elements/1.1/source> "Internal documentation and taxonomies derived from the Network of Excellence initiative (AI-focused EU networks)."@en ;
                 rdfs:label "Low Level Vision"@en .
+
+
+###  http://aiod.eu/data/schemas/LowerSecondaryEducation
+:LowerSecondaryEducation rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
+                         ns1:inScheme :EducationalLevel ;
+                         ns1:notation "con1194"@en ;
+                         rdfs:label "Lower secondary education"@en .
 
 
 ###  http://aiod.eu/data/schemas/Luxembourg
@@ -6922,6 +7285,14 @@ experience."""@en .
         rdfs:label "Norway"@en .
 
 
+###  http://aiod.eu/data/schemas/NotElsewhereClassified
+:NotElsewhereClassified rdf:type owl:NamedIndividual ,
+                                 ns1:Concept ;
+                        ns1:inScheme :EducationalLevel ;
+                        ns1:notation "con1200"@en ;
+                        rdfs:label "Not elsewhere classified"@en .
+
+
 ###  http://aiod.eu/data/schemas/Nuclear
 :Nuclear rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
@@ -6959,6 +7330,14 @@ experience."""@en .
                  ns1:definition "A technique that uses neural networks to localize and classify objects in images."@en .
 
 
+###  http://aiod.eu/data/schemas/Offline
+:Offline rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :LearningMode ;
+         ns1:notation "con1187"@en ;
+         rdfs:label "Offline"@en .
+
+
 ###  http://aiod.eu/data/schemas/OilGas
 :OilGas rdf:type owl:NamedIndividual ,
                  ns1:Concept ;
@@ -6976,6 +7355,22 @@ experience."""@en .
       ns1:notation "con764"@en ;
       <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
       rdfs:label "Oman"@en .
+
+
+###  http://aiod.eu/data/schemas/Ongoing
+:Ongoing rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :EventStatus ;
+         ns1:notation "con1182"@en ;
+         rdfs:label "Ongoing"@en .
+
+
+###  http://aiod.eu/data/schemas/Online
+:Online rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :LearningMode ;
+        ns1:notation "con1186"@en ;
+        rdfs:label "Online"@en .
 
 
 ###  http://aiod.eu/data/schemas/OnlineLearningAndBandits
@@ -7043,11 +7438,26 @@ experience."""@en .
                                       rdfs:label "Optimization of Spatio-temporal Systems"@en .
 
 
+###  http://aiod.eu/data/schemas/OrganisationActivityType
+:OrganisationActivityType rdf:type owl:NamedIndividual ,
+                                   ns1:ConceptScheme ;
+                          ns1:notation "scheme016"@en ;
+                          rdfs:label "Organisation Activity Type"@en .
+
+
+###  http://aiod.eu/data/schemas/OrganisationType
+:OrganisationType rdf:type owl:NamedIndividual ,
+                           ns1:ConceptScheme ;
+                  ns1:notation "schema020"@en ;
+                  rdfs:label "Organisation Type"@en .
+
+
 ###  http://aiod.eu/data/schemas/Other
 :Other rdf:type owl:NamedIndividual ,
                 ns1:Concept ;
        ns1:inScheme :BusinessSector ,
                     :Licence ,
+                    :OrganisationActivityType ,
                     :ScientificDomain ;
        ns1:notation "con317"@en ;
        rdfs:label "Other"@en .
@@ -7380,6 +7790,14 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
            rdfs:label "Phonology"@en .
 
 
+###  http://aiod.eu/data/schemas/Physical
+:Physical rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :EventMode ;
+          ns1:notation "con1179"@en ;
+          rdfs:label "Physical"@en .
+
+
 ###  http://aiod.eu/data/schemas/PhysicalComputing
 :PhysicalComputing rdf:type owl:NamedIndividual ,
                             ns1:Concept ;
@@ -7459,6 +7877,13 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
             ns1:inScheme :Approach ;
             ns1:notation "con1013"@en ;
             rdfs:label "Plan Repair"@en .
+
+
+###  http://aiod.eu/data/schemas/Planned
+:Planned rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :EventStatus ;
+         rdfs:label "Planned"@en .
 
 
 ###  http://aiod.eu/data/schemas/Planning
@@ -7548,6 +7973,14 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
           rdfs:label "Portugal"@en .
 
 
+###  http://aiod.eu/data/schemas/Post-secondarynon-tertiaryEducation
+:Post-secondarynon-tertiaryEducation rdf:type owl:NamedIndividual ,
+                                              ns1:Concept ;
+                                     ns1:inScheme :EducationalLevel ;
+                                     ns1:notation "con1196"@en ;
+                                     rdfs:label "Post-secondary non-tertiary education"@en .
+
+
 ###  http://aiod.eu/data/schemas/Pragmatics
 :Pragmatics rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
@@ -7610,6 +8043,14 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                    <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
                    rdfs:label "Price Optimisation"@en ;
                    ns1:definition "The use of mathematical analysis by a company to determine how customers will respond to different prices for its products and services."@en .
+
+
+###  http://aiod.eu/data/schemas/PrimaryEducation
+:PrimaryEducation rdf:type owl:NamedIndividual ,
+                           ns1:Concept ;
+                  ns1:inScheme :EducationalLevel ;
+                  ns1:notation "con1193"@en ;
+                  rdfs:label "Primary education"@en .
 
 
 ###  http://aiod.eu/data/schemas/Privacy
@@ -7820,6 +8261,14 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
                       rdfs:label "Public Administration"@en ;
                       rdfs:seeAlso "https://inspire.ec.europa.eu/codelist/EconomicActivityNACEValue/O.84.1"^^xsd:anyURI ;
                       ns1:definition "This group includes general administration (e.g. executive, legislative, financial administration etc. at all levels of government) and supervision in the field of social and economic life."@en .
+
+
+###  http://aiod.eu/data/schemas/PublicOrganisation
+:PublicOrganisation rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
+                    ns1:inScheme :OrganisationType ;
+                    ns1:notation "con1227"@en ;
+                    rdfs:label "Public Organisation"@en .
 
 
 ###  http://aiod.eu/data/schemas/Publication
@@ -8103,11 +8552,35 @@ acquires above human intelligence in Go."""@en .
                    rdfs:label "Republic of Moldova"@en .
 
 
+###  http://aiod.eu/data/schemas/ResearchAndTechnologyOrganisation
+:ResearchAndTechnologyOrganisation rdf:type owl:NamedIndividual ,
+                                            ns1:Concept ;
+                                   ns1:inScheme :OrganisationType ;
+                                   ns1:notation "con1234"@en ;
+                                   rdfs:label "Research and Technology Organisation"@en .
+
+
 ###  http://aiod.eu/data/schemas/ResearchArea
 :ResearchArea rdf:type owl:NamedIndividual ,
                        ns1:ConceptScheme ;
               ns1:notation "scheme004"@en ;
               rdfs:label "Research Area"@en .
+
+
+###  http://aiod.eu/data/schemas/ResearchHub
+:ResearchHub rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
+             ns1:inScheme :OrganisationType ;
+             ns1:notation "con1231"@en ;
+             rdfs:label "Research Hub"@en .
+
+
+###  http://aiod.eu/data/schemas/ResearchUniversity
+:ResearchUniversity rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
+                    ns1:inScheme :OrganisationType ;
+                    ns1:notation "con1232"@en ;
+                    rdfs:label "Research University"@en .
 
 
 ###  http://aiod.eu/data/schemas/ResilienceOfProduction
@@ -8304,6 +8777,14 @@ acquires above human intelligence in Go."""@en .
                     <http://purl.org/dc/elements/1.1/source> "EU Generative AI Mapping – Attributes, Definitions, and Taxonomies. Internal documentation used for classifying AI startups"@en ;
                     rdfs:label "SCM & Distribution"@en ;
                     ns1:definition "The part of supply chain management that deals with the efficient forward and reverse flow of goods, services, and related information"@en .
+
+
+###  http://aiod.eu/data/schemas/SME
+:SME rdf:type owl:NamedIndividual ,
+              ns1:Concept ;
+     ns1:inScheme :OrganisationType ;
+     ns1:notation "con1226"@en ;
+     rdfs:label "SME"@en .
 
 
 ###  http://aiod.eu/data/schemas/Safety
@@ -8659,6 +9140,14 @@ acquires above human intelligence in Go."""@en .
         rdfs:label "Serbia"@en .
 
 
+###  http://aiod.eu/data/schemas/ServiceProvider
+:ServiceProvider rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
+                 ns1:inScheme :OrganisationType ;
+                 ns1:notation "con1228"@en ;
+                 rdfs:label "Service Provider"@en .
+
+
 ###  http://aiod.eu/data/schemas/Sewerage
 :Sewerage rdf:type owl:NamedIndividual ,
                    ns1:Concept ;
@@ -8688,6 +9177,14 @@ acquires above human intelligence in Go."""@en .
                     <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
                     rdfs:label "Shipping Automation"@en ;
                     ns1:definition "The process of integrating software, technology, and infrastructure to streamline shipping"@en .
+
+
+###  http://aiod.eu/data/schemas/Short-cycleTertiaryEducation
+:Short-cycleTertiaryEducation rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
+                              ns1:inScheme :EducationalLevel ;
+                              ns1:notation "con1197"@en ;
+                              rdfs:label "Short-cycle tertiary education"@en .
 
 
 ###  http://aiod.eu/data/schemas/SierraLeone
@@ -9161,6 +9658,14 @@ acquires above human intelligence in Go."""@en .
                                      rdfs:label "Standardization & certification of AI"@en .
 
 
+###  http://aiod.eu/data/schemas/Start-Up
+:Start-Up rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :OrganisationType ;
+          ns1:notation "con1226"@en ;
+          rdfs:label "Start-Up"@en .
+
+
 ###  http://aiod.eu/data/schemas/StateEstimation
 :StateEstimation rdf:type owl:NamedIndividual ,
                           ns1:Concept ;
@@ -9408,6 +9913,14 @@ humans."""@en .
                        <http://purl.org/dc/elements/1.1/source> "Internal documentation and taxonomies derived from the Network of Excellence initiative (AI-focused EU networks)."@en ;
                        rdfs:label "Task and Motion Planning"@en ;
                        ns1:definition "The integrated process of operating in a combined discrete and continuous space to find a sequence of high-level, discrete actions and corresponding low-level, continuous paths to go from an initial state to a goal state."@en .
+
+
+###  http://aiod.eu/data/schemas/TechnologyProvider
+:TechnologyProvider rdf:type owl:NamedIndividual ,
+                             ns1:Concept ;
+                    ns1:inScheme :OrganisationType ;
+                    ns1:notation "con1227"@en ;
+                    rdfs:label "Technology Provider"@en .
 
 
 ###  http://aiod.eu/data/schemas/TechnologyTrust
@@ -9669,6 +10182,14 @@ humans."""@en .
                                rdfs:label "Traffic detection & management"@en .
 
 
+###  http://aiod.eu/data/schemas/Training_Provider
+:Training_Provider rdf:type owl:NamedIndividual ,
+                            ns1:Concept ;
+                   ns1:inScheme :OrganisationType ;
+                   ns1:notation "con1230"@en ;
+                   rdfs:label "Training Provider"@en .
+
+
 ###  http://aiod.eu/data/schemas/Transcription
 :Transcription rdf:type owl:NamedIndividual ,
                         ns1:Concept ;
@@ -9895,6 +10416,14 @@ humans."""@en .
                        rdfs:label "United States of America"@en .
 
 
+###  http://aiod.eu/data/schemas/UniversityOfAppliedSciences
+:UniversityOfAppliedSciences rdf:type owl:NamedIndividual ,
+                                      ns1:Concept ;
+                             ns1:inScheme :OrganisationType ;
+                             ns1:notation "con1235"@en ;
+                             rdfs:label "University Of Applied Sciences"@en .
+
+
 ###  http://aiod.eu/data/schemas/UnsupervisedLearning
 :UnsupervisedLearning rdf:type owl:NamedIndividual ,
                                ns1:Concept ;
@@ -9906,6 +10435,22 @@ humans."""@en .
                       rdfs:label "Unsupervised Learning"@en ;
                       ns1:definition """Helps finding previously unknown patterns in datasets without pre-existing
 labels. The objective is to discover the underlying data structure, for example, by grouping similar items to form clusters. Unsupervised learning does not require labelled data, but instead tries to learn by itself."""@en .
+
+
+###  http://aiod.eu/data/schemas/Upcoming
+:Upcoming rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :EventStatus ;
+          ns1:notation "con1184"@en ;
+          rdfs:label "Upcoming"@en .
+
+
+###  http://aiod.eu/data/schemas/UpperSecondaryEducation
+:UpperSecondaryEducation rdf:type owl:NamedIndividual ,
+                                  ns1:Concept ;
+                         ns1:inScheme :EducationalLevel ;
+                         ns1:notation "con1195"@en ;
+                         rdfs:label "Upper secondary education"@en .
 
 
 ###  http://aiod.eu/data/schemas/UrbanMobility
@@ -10071,6 +10616,14 @@ labels. The objective is to discover the underlying data structure, for example,
          ns1:notation "con840"@en ;
          <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
          rdfs:label "Viet Nam"@en .
+
+
+###  http://aiod.eu/data/schemas/Virtual
+:Virtual rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :EventMode ;
+         ns1:notation "con1180"@en ;
+         rdfs:label "Virtual"@en .
 
 
 ###  http://aiod.eu/data/schemas/VirtualEnvironment
@@ -11316,6 +11869,14 @@ labels. The objective is to discover the underlying data structure, for example,
                                                     ns1:definition "The use of robots to interact with objects in their environment, utilizing technologies like machine learning, sensors, and actuators to perform tasks such as grasping, moving, and assembling."@en .
 
 
+###  http://aiod.eu/data/schemas/Bachelor’sOrEquivalentLevel
+<http://aiod.eu/data/schemas/Bachelor’sOrEquivalentLevel> rdf:type owl:NamedIndividual ,
+                                                                   ns1:Concept ;
+                                                          ns1:inScheme :EducationalLevel ;
+                                                          ns1:notation "con1197"@en ;
+                                                          rdfs:label "Bachelor’s or equivalent level"@en .
+
+
 ###  http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries
 <http://aiod.eu/data/schemas/BusinessSector/AgricultureForestryFisheries> rdf:type owl:NamedIndividual ,
                                                                                    ns1:Concept ;
@@ -11387,6 +11948,14 @@ labels. The objective is to discover the underlying data structure, for example,
                                                       ns1:definition "A technique that reduces the size of data without losing its essential information or quality."@en .
 
 
+###  http://aiod.eu/data/schemas/Master’sorequivalentlevel
+<http://aiod.eu/data/schemas/Master’sorequivalentlevel> rdf:type owl:NamedIndividual ,
+                                                                 ns1:Concept ;
+                                                        ns1:inScheme :EducationalLevel ;
+                                                        ns1:notation "con1198"@en ;
+                                                        rdfs:label "Master’s or equivalent level"@en .
+
+
 ###  http://aiod.eu/data/schemas/Medical&HealthSciences
 <http://aiod.eu/data/schemas/Medical&HealthSciences> rdf:type owl:NamedIndividual ,
                                                               ns1:Concept ;
@@ -11438,6 +12007,14 @@ labels. The objective is to discover the underlying data structure, for example,
                                                      ns1:inScheme :NewsCategory ;
                                                      ns1:notation "con586"@en ;
                                                      rdfs:label "Education"@en .
+
+
+###  http://aiod.eu/data/schemas/Product/solutionDevelopment
+<http://aiod.eu/data/schemas/Product/solutionDevelopment> rdf:type owl:NamedIndividual ,
+                                                                   ns1:Concept ;
+                                                          ns1:inScheme :OrganisationActivityType ;
+                                                          ns1:notation "con1178"@en ;
+                                                          rdfs:label "Product/solution development"@en .
 
 
 ###  http://aiod.eu/data/schemas/R&DProcesses
