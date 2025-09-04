@@ -21,19 +21,6 @@
 }, {
   "@id" : "_:genid100",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://aiod.eu/data/AIResource"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://aiod.eu/data/invoked_by"
-  } ]
-}, {
-  "@id" : "_:genid101",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
   } ],
@@ -45,7 +32,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid102",
+  "@id" : "_:genid101",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://aiod.eu/data/Distribution"
@@ -58,7 +45,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid103",
+  "@id" : "_:genid102",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -71,7 +58,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid104",
+  "@id" : "_:genid103",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -84,7 +71,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid105",
+  "@id" : "_:genid104",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -97,7 +84,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid106",
+  "@id" : "_:genid105",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -561,19 +548,6 @@
 }, {
   "@id" : "_:genid87",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://aiod.eu/data/organisation_type"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ]
-}, {
-  "@id" : "_:genid88",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://aiod.eu/data/Organisation"
   } ],
@@ -585,7 +559,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid89",
+  "@id" : "_:genid88",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
@@ -598,7 +572,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid90",
+  "@id" : "_:genid89",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -611,7 +585,7 @@
     "@id" : "http://aiod.eu/data/includes_resource"
   } ]
 }, {
-  "@id" : "_:genid91",
+  "@id" : "_:genid90",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -624,7 +598,7 @@
     "@id" : "http://aiod.eu/data/provider"
   } ]
 }, {
-  "@id" : "_:genid92",
+  "@id" : "_:genid91",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -637,7 +611,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid93",
+  "@id" : "_:genid92",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
@@ -650,7 +624,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid94",
+  "@id" : "_:genid93",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -663,7 +637,7 @@
     "@id" : "http://aiod.eu/data/announced_in"
   } ]
 }, {
-  "@id" : "_:genid95",
+  "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -676,7 +650,7 @@
     "@id" : "http://aiod.eu/data/includes_step"
   } ]
 }, {
-  "@id" : "_:genid96",
+  "@id" : "_:genid95",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -689,7 +663,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid97",
+  "@id" : "_:genid96",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -702,7 +676,7 @@
     "@id" : "http://aiod.eu/data/entails_step"
   } ]
 }, {
-  "@id" : "_:genid98",
+  "@id" : "_:genid97",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -715,7 +689,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid99",
+  "@id" : "_:genid98",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -726,6 +700,19 @@
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://aiod.eu/data/includes_operation"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://aiod.eu/data/AIResource"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://aiod.eu/data/invoked_by"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/",
@@ -1295,6 +1282,26 @@
     "@id" : "http://aiod.eu/data/AIResource"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/EducationalCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Competency Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/EducationalLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/EducationalResource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1325,6 +1332,26 @@
     "@id" : "_:genid81"
   }, {
     "@id" : "_:genid82"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/EventMode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event Mode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/EventStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event Status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/Experiment",
@@ -1428,6 +1455,13 @@
     "@id" : "http://aiod.eu/data/Service"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/InvolvementLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Involvement Level"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/JobAnnouncement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1461,6 +1495,26 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/LearningMode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Learning Mode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/Library",
@@ -1559,6 +1613,16 @@
     "@id" : "http://aiod.eu/data/KnowledgeAsset"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/NetworkMembership",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Network Membership"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/NewsCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1635,14 +1699,35 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/Agent"
-  }, {
-    "@id" : "_:genid87"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Organisation"
   } ],
   "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
     "@id" : "http://www.w3.org/ns/org#FormalOrganization"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/OrganisationActivityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organisation Activity Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/AIoDConcept"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/OrganisationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organisation Type"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/OrganisationalNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://aiod.eu/data/Agent"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/Person",
@@ -1709,9 +1794,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/EcosystemResource"
   }, {
-    "@id" : "_:genid88"
+    "@id" : "_:genid87"
   }, {
-    "@id" : "_:genid89"
+    "@id" : "_:genid88"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Project"
@@ -1814,7 +1899,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIResource"
   }, {
-    "@id" : "_:genid90"
+    "@id" : "_:genid89"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/Risk",
@@ -1916,7 +2001,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/EcosystemResource"
   }, {
-    "@id" : "_:genid91"
+    "@id" : "_:genid90"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/Size",
@@ -1931,9 +2016,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIoDConcept"
   }, {
-    "@id" : "_:genid92"
+    "@id" : "_:genid91"
   }, {
-    "@id" : "_:genid93"
+    "@id" : "_:genid92"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "http://purl.org/dc/terms/SizeOrDuration"
@@ -2007,7 +2092,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIoDConcept"
   }, {
-    "@id" : "_:genid94"
+    "@id" : "_:genid93"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/TemperatureSensor",
@@ -2071,9 +2156,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
   }, {
-    "@id" : "_:genid95"
+    "@id" : "_:genid94"
   }, {
-    "@id" : "_:genid96"
+    "@id" : "_:genid95"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/WorkflowExecution",
@@ -2088,9 +2173,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
   }, {
-    "@id" : "_:genid97"
+    "@id" : "_:genid96"
   }, {
-    "@id" : "_:genid98"
+    "@id" : "_:genid97"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/WorkflowExecutionStep",
@@ -2105,9 +2190,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
   }, {
-    "@id" : "_:genid99"
+    "@id" : "_:genid98"
   }, {
-    "@id" : "_:genid100"
+    "@id" : "_:genid99"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/WorkflowStep",
@@ -2122,6 +2207,8 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://aiod.eu/data/AIAsset"
   }, {
+    "@id" : "_:genid100"
+  }, {
     "@id" : "_:genid101"
   }, {
     "@id" : "_:genid102"
@@ -2131,8 +2218,6 @@
     "@id" : "_:genid104"
   }, {
     "@id" : "_:genid105"
-  }, {
-    "@id" : "_:genid106"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/able_to_perform",
@@ -2931,6 +3016,19 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/current_event_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "current event status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/EventStatus"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/dataset_type",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3362,38 +3460,6 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 }, {
-  "@id" : "http://aiod.eu/data/event_mode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The way in which the event will be conducted."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://aiod.eu/data/Event"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "event mode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://aiod.eu/data/event_status",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The current status of the event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://aiod.eu/data/Event"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "event status"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
   "@id" : "http://aiod.eu/data/evidence",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3615,6 +3681,19 @@
     "@id" : "http://aiod.eu/data/ComputationalRequirement"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/has_activity_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has activity type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/OrganisationActivityType"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/has_computational_requirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3690,6 +3769,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/has_membership_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has membership in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/NetworkMembership"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/has_optional_equipment",
@@ -3806,6 +3898,15 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/in_network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/NetworkMembership"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/OrganisationalNetwork"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/includes_external_reference",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3900,6 +4001,45 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://aiod.eu/data/AIResource"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/involved_in_area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved in area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/InvolvementLevel"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/involvement_area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/InvolvementLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involvement area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/Expertise"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/involvement_level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "involvement level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/InvolvementLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/is_aggregated_component",
@@ -3997,10 +4137,7 @@
   } ]
 }, {
   "@id" : "http://aiod.eu/data/learning_mode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The delivery mode of the Asset."
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://aiod.eu/data/EducationalResource"
   } ],
@@ -4009,7 +4146,7 @@
     "@value" : "learning mode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://aiod.eu/data/LearningMode"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/legal_name",
@@ -4426,7 +4563,7 @@
   } ]
 }, {
   "@id" : "http://aiod.eu/data/organisation_type",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://aiod.eu/data/Organisation"
   } ],
@@ -4435,7 +4572,7 @@
     "@value" : "organisation type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://aiod.eu/data/OrganisationType"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/organiser",
@@ -4677,6 +4814,19 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/primary_language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Primary Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/Language"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/produced",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -4914,6 +5064,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/requires_competency_level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/EducationalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "required competency level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/EducationalCompetency"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/requires_solution_for",
@@ -5260,6 +5423,19 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/targets_educational_level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/EducationalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "targets educational level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/EducationalLevel"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/taught_by",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -5580,6 +5756,19 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
+  "@id" : "http://aiod.eu/data/uses_mode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses mode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://aiod.eu/data/EventMode"
+  } ]
+}, {
   "@id" : "http://aiod.eu/data/uses_model",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -5687,6 +5876,15 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://aiod.eu/data/with_network_role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://aiod.eu/data/NetworkMembership"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://aiod.eu/data/workflow_configuration",

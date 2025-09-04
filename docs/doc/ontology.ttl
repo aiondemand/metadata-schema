@@ -206,6 +206,13 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:label "creator"@en .
 
 
+###  http://aiod.eu/data/current_event_status
+:current_event_status rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Event ;
+                      rdfs:range :EventStatus ;
+                      rdfs:label "current event status"@en .
+
+
 ###  http://aiod.eu/data/datasheet
 :datasheet rdf:type owl:ObjectProperty ;
            rdfs:domain :Device ;
@@ -313,6 +320,13 @@ xsd:date rdf:type rdfs:Datatype .
                       rdfs:label "hardware requirement"@en .
 
 
+###  http://aiod.eu/data/has_activity_type
+:has_activity_type rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Organisation ;
+                   rdfs:range :OrganisationActivityType ;
+                   rdfs:label "has activity type"@en .
+
+
 ###  http://aiod.eu/data/has_computational_requirement
 :has_computational_requirement rdf:type owl:ObjectProperty ;
                                rdfs:domain :Distribution ;
@@ -340,6 +354,13 @@ xsd:date rdf:type rdfs:Datatype .
                      rdfs:label "has fixed equipment"@en .
 
 
+###  http://aiod.eu/data/has_membership_in
+:has_membership_in rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Organisation ;
+                   rdfs:range :NetworkMembership ;
+                   rdfs:label "has membership in"@en .
+
+
 ###  http://aiod.eu/data/has_optional_equipment
 :has_optional_equipment rdf:type owl:ObjectProperty ;
                         rdfs:domain :RoboticEquipment ;
@@ -362,6 +383,12 @@ xsd:date rdf:type rdfs:Datatype .
                       rdfs:range :PlatformAccount ;
                       rdfs:comment "Indicates the platform account associated with the agent."@en ;
                       rdfs:label "has platform account"@en .
+
+
+###  http://aiod.eu/data/in_network
+:in_network rdf:type owl:ObjectProperty ;
+            rdfs:domain :NetworkMembership ;
+            rdfs:range :OrganisationalNetwork .
 
 
 ###  http://aiod.eu/data/includes_media
@@ -404,12 +431,33 @@ xsd:date rdf:type rdfs:Datatype .
             rdfs:label "invoked by"@en .
 
 
+###  http://aiod.eu/data/involved_in_area
+:involved_in_area rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Organisation ;
+                  rdfs:range :InvolvementLevel ;
+                  rdfs:label "involved in area"@en .
+
+
+###  http://aiod.eu/data/involvement_area
+:involvement_area rdf:type owl:ObjectProperty ;
+                  rdfs:domain :InvolvementLevel ;
+                  rdfs:range :Expertise ;
+                  rdfs:label "involvement area"@en .
+
+
 ###  http://aiod.eu/data/issuer
 :issuer rdf:type owl:ObjectProperty ;
         rdfs:domain :JobAnnouncement ;
         rdfs:range :Organisation ;
         rdfs:comment "The Organisation posting the job." ;
         rdfs:label "issuer"@en .
+
+
+###  http://aiod.eu/data/learning_mode
+:learning_mode rdf:type owl:ObjectProperty ;
+               rdfs:domain :EducationalResource ;
+               rdfs:range :LearningMode ;
+               rdfs:label "learning mode"@en .
 
 
 ###  http://aiod.eu/data/location
@@ -467,6 +515,13 @@ xsd:date rdf:type rdfs:Datatype .
             rdfs:range :Organisation ;
             rdfs:comment "The Organisation which offers the Educational Asset." ;
             rdfs:label "offered by"@en .
+
+
+###  http://aiod.eu/data/organisation_type
+:organisation_type rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Organisation ;
+                   rdfs:range :OrganisationType ;
+                   rdfs:label "organisation type"@en .
 
 
 ###  http://aiod.eu/data/organiser
@@ -540,6 +595,13 @@ xsd:date rdf:type rdfs:Datatype .
                         rdfs:label "prerequisite knowledge"@en .
 
 
+###  http://aiod.eu/data/primary_language
+:primary_language rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Agent ;
+                  rdfs:range :Language ;
+                  rdfs:label "Primary Language"@en .
+
+
 ###  http://aiod.eu/data/produced
 :produced rdf:type owl:ObjectProperty ;
           rdfs:domain :Project ;
@@ -611,6 +673,13 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:range :Project ;
                  rdfs:comment "a Project whose activities are relevant to or associated with the given Event or News Item." ;
                  rdfs:label "project"@en .
+
+
+###  http://aiod.eu/data/requires_competency_level
+:requires_competency_level rdf:type owl:ObjectProperty ;
+                           rdfs:domain :EducationalResource ;
+                           rdfs:range :EducationalCompetency ;
+                           rdfs:label "required competency level"@en .
 
 
 ###  http://aiod.eu/data/requires_solution_for
@@ -689,6 +758,13 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:label "storage"@en .
 
 
+###  http://aiod.eu/data/targets_educational_level
+:targets_educational_level rdf:type owl:ObjectProperty ;
+                           rdfs:domain :EducationalResource ;
+                           rdfs:range :EducationalLevel ;
+                           rdfs:label "targets educational level"@en .
+
+
 ###  http://aiod.eu/data/taught_by
 :taught_by rdf:type owl:ObjectProperty ;
            rdfs:domain :EducationalResource ;
@@ -755,6 +831,13 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:range :Distribution ;
                    rdfs:comment "The specification of how data are distributed within the step." ;
                    rdfs:label "uses distribution"@en .
+
+
+###  http://aiod.eu/data/uses_mode
+:uses_mode rdf:type owl:ObjectProperty ;
+           rdfs:domain :Event ;
+           rdfs:range :EventMode ;
+           rdfs:label "uses mode"@en .
 
 
 ###  http://aiod.eu/data/uses_model
@@ -1261,24 +1344,6 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:label "eu contribution"@en .
 
 
-###  http://aiod.eu/data/event_mode
-:event_mode rdf:type owl:DatatypeProperty ,
-                     owl:FunctionalProperty ;
-            rdfs:domain :Event ;
-            rdfs:range xsd:string ;
-            rdfs:comment "The way in which the event will be conducted." ;
-            rdfs:label "event mode"@en .
-
-
-###  http://aiod.eu/data/event_status
-:event_status rdf:type owl:DatatypeProperty ,
-                       owl:FunctionalProperty ;
-              rdfs:domain :Event ;
-              rdfs:range xsd:string ;
-              rdfs:comment "The current status of the event." ;
-              rdfs:label "event status"@en .
-
-
 ###  http://aiod.eu/data/evidence
 :evidence rdf:type owl:DatatypeProperty ;
           rdfs:domain :SuccessStory ;
@@ -1421,6 +1486,13 @@ xsd:date rdf:type rdfs:Datatype .
                              rdfs:label "includes external reference"@en .
 
 
+###  http://aiod.eu/data/involvement_level
+:involvement_level rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :InvolvementLevel ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "involvement level"@en .
+
+
 ###  http://aiod.eu/data/is_aggregated_component
 :is_aggregated_component rdf:type owl:DatatypeProperty ;
                          rdfs:domain :ComputeComponent ;
@@ -1461,15 +1533,6 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:range xsd:decimal ;
           rdfs:comment "The latitude of a Location." ;
           rdfs:label "latitude"@en .
-
-
-###  http://aiod.eu/data/learning_mode
-:learning_mode rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty ;
-               rdfs:domain :EducationalResource ;
-               rdfs:range xsd:string ;
-               rdfs:comment "The delivery mode of the Asset." ;
-               rdfs:label "learning mode"@en .
 
 
 ###  http://aiod.eu/data/legal_name
@@ -1650,13 +1713,6 @@ xsd:date rdf:type rdfs:Datatype .
                          rdfs:range xsd:string ;
                          rdfs:comment "The skills, knowledge, experience that are desirable for an applicant to be considered." ;
                          rdfs:label "optional qualifications"@en .
-
-
-###  http://aiod.eu/data/organisation_type
-:organisation_type rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Organisation ;
-                   rdfs:range xsd:string ;
-                   rdfs:label "organisation type"@en .
 
 
 ###  http://aiod.eu/data/pid
@@ -2041,6 +2097,12 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:range xsd:integer ;
           rdfs:comment "The width of an Image in pixels." ;
           rdfs:label "width px"@en .
+
+
+###  http://aiod.eu/data/with_network_role
+:with_network_role rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :NetworkMembership ;
+                   rdfs:range xsd:string .
 
 
 ###  http://aiod.eu/data/workflow_configuration
@@ -2442,6 +2504,18 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:label "Ecosystem Resource"@en .
 
 
+###  http://aiod.eu/data/EducationalCompetency
+:EducationalCompetency rdf:type owl:Class ;
+                       rdfs:subClassOf :AIoDConcept ;
+                       rdfs:label "Educational Competency Level"@en .
+
+
+###  http://aiod.eu/data/EducationalLevel
+:EducationalLevel rdf:type owl:Class ;
+                  rdfs:subClassOf :AIoDConcept ;
+                  rdfs:label "Educational Level"@en .
+
+
 ###  http://aiod.eu/data/EducationalResource
 :EducationalResource rdf:type owl:Class ;
                      rdfs:subClassOf :EcosystemResource ,
@@ -2469,6 +2543,18 @@ xsd:date rdf:type rdfs:Datatype .
                        ] ;
        rdfs:comment "An event happening at a certain time and location, with a specific scope." ;
        rdfs:label "Event"@en .
+
+
+###  http://aiod.eu/data/EventMode
+:EventMode rdf:type owl:Class ;
+           rdfs:subClassOf :AIoDConcept ;
+           rdfs:label "Event Mode"@en .
+
+
+###  http://aiod.eu/data/EventStatus
+:EventStatus rdf:type owl:Class ;
+             rdfs:subClassOf :AIoDConcept ;
+             rdfs:label "Event Status"@en .
 
 
 ###  http://aiod.eu/data/Experiment
@@ -2526,6 +2612,11 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:label "Innovation Service"@en .
 
 
+###  http://aiod.eu/data/InvolvementLevel
+:InvolvementLevel rdf:type owl:Class ;
+                  rdfs:label "Involvement Level"@en .
+
+
 ###  http://aiod.eu/data/JobAnnouncement
 :JobAnnouncement rdf:type owl:Class ;
                  rdfs:subClassOf :NewsItem ,
@@ -2546,6 +2637,18 @@ xsd:date rdf:type rdfs:Datatype .
                 rdfs:subClassOf :AIAsset ;
                 rdfs:comment "An AI Asset used as an information item for other entities, such as assets and scientific areas." ;
                 rdfs:label "Knowledge Asset"@en .
+
+
+###  http://aiod.eu/data/Language
+:Language rdf:type owl:Class ;
+          rdfs:subClassOf :AIoDConcept ;
+          rdfs:label "Language"@en .
+
+
+###  http://aiod.eu/data/LearningMode
+:LearningMode rdf:type owl:Class ;
+              rdfs:subClassOf :AIoDConcept ;
+              rdfs:label "Learning Mode"@en .
 
 
 ###  http://aiod.eu/data/Library
@@ -2601,6 +2704,12 @@ xsd:date rdf:type rdfs:Datatype .
             rdfs:label "Multimedia"@en .
 
 
+###  http://aiod.eu/data/NetworkMembership
+:NetworkMembership rdf:type owl:Class ;
+                   rdfs:subClassOf :AIoDConcept ;
+                   rdfs:label "Network Membership"@en .
+
+
 ###  http://aiod.eu/data/NewsCategory
 :NewsCategory rdf:type owl:Class ;
               rdfs:subClassOf :AIoDConcept ;
@@ -2653,14 +2762,25 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://aiod.eu/data/Organisation
 :Organisation rdf:type owl:Class ;
               owl:equivalentClass <http://xmlns.com/foaf/0.1/Organisation> ;
-              rdfs:subClassOf :Agent ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :organisation_type ;
-                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                owl:onDataRange xsd:string
-                              ] ;
+              rdfs:subClassOf :Agent ;
               rdfs:comment "An association of people with a specific purpose." ;
               <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/ns/org#FormalOrganization> .
+
+
+###  http://aiod.eu/data/OrganisationActivityType
+:OrganisationActivityType rdf:type owl:Class ;
+                          rdfs:subClassOf :AIoDConcept ;
+                          rdfs:label "Organisation Activity Type"@en .
+
+
+###  http://aiod.eu/data/OrganisationType
+:OrganisationType rdf:type owl:Class ;
+                  rdfs:label "Organisation Type"@en .
+
+
+###  http://aiod.eu/data/OrganisationalNetwork
+:OrganisationalNetwork rdf:type owl:Class ;
+                       rdfs:subClassOf :Agent .
 
 
 ###  http://aiod.eu/data/Person
