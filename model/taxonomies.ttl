@@ -970,7 +970,7 @@ rdfs:Class rdf:type owl:Class .
            :ISOCodes "af" ,
                      "afr" ;
            ns1:notation "1204"@en ;
-           rdfs:comment "Afrikaans"@en .
+           rdfs:label "Afrikaans"@en .
 
 
 ###  http://aiod.eu/data/schemas/Agent-BasedSimulation
@@ -1101,7 +1101,7 @@ rdfs:Class rdf:type owl:Class .
       :ISOCodes "ak" ,
                 "aka" ;
       ns1:notation "con1205"@en ;
-      rdfs:comment "Akan"@en .
+      rdfs:label "Akan"@en .
 
 
 ###  http://aiod.eu/data/schemas/Albania
@@ -1120,7 +1120,7 @@ rdfs:Class rdf:type owl:Class .
           :ISOCodes "sq" ,
                     "sqi" ;
           ns1:notation "con1206"@en ;
-          rdfs:comment "Albanian"@en .
+          rdfs:label "Albanian"@en .
 
 
 ###  http://aiod.eu/data/schemas/Algeria
@@ -1173,7 +1173,7 @@ rdfs:Class rdf:type owl:Class .
          :ISOCodes "am" ,
                    "amh" ;
          ns1:notation "con1206"@en ;
-         rdfs:comment "Amharic"@en .
+         rdfs:label "Amharic"@en .
 
 
 ###  http://aiod.eu/data/schemas/AnalogicalReasoning
@@ -1344,7 +1344,7 @@ rdfs:Class rdf:type owl:Class .
           :ISOCodes "hy" ,
                     "hye" ;
           ns1:notation "con1209"@en ;
-          rdfs:comment "Armenian"@en .
+          rdfs:label "Armenian"@en .
 
 
 ###  http://aiod.eu/data/schemas/ArtificialGeneralIntelligence
@@ -1383,7 +1383,7 @@ rdfs:Class rdf:type owl:Class .
           :ISOCodes "as" ,
                     "asm" ;
           ns1:notation "con1210"@en ;
-          rdfs:comment "Assamese"@en .
+          rdfs:label "Assamese"@en .
 
 
 ###  http://aiod.eu/data/schemas/AssemblyComponentOptimization
@@ -4222,14 +4222,14 @@ informal context."""@en .
 ###  http://aiod.eu/data/schemas/EventMode
 :EventMode rdf:type owl:NamedIndividual ,
                     ns1:ConceptScheme ;
-           ns1:notation "schema017"@en ;
+           ns1:notation "scheme017"@en ;
            rdfs:label "Event Mode"@en .
 
 
 ###  http://aiod.eu/data/schemas/EventStatus
 :EventStatus rdf:type owl:NamedIndividual ,
                       ns1:ConceptScheme ;
-             ns1:notation "schema018"@en ;
+             ns1:notation "scheme018"@en ;
              rdfs:label "Event Status"@en .
 
 
@@ -4865,7 +4865,7 @@ informal context."""@en .
         ns1:inScheme :Country ;
         ns1:notation "con696"@en ;
         <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
-        rdfs:comment "Guyana"@en .
+        rdfs:label "Guyana"@en .
 
 
 ###  http://aiod.eu/data/schemas/HRIinManufacturingProcesses
@@ -4883,7 +4883,7 @@ informal context."""@en .
        ns1:inScheme :Country ;
        ns1:notation "con697"@en ;
        <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
-       rdfs:comment "Haiti"@en .
+       rdfs:label "Haiti"@en .
 
 
 ###  http://aiod.eu/data/schemas/HealthSciences
@@ -5882,7 +5882,7 @@ informal context."""@en .
 ###  http://aiod.eu/data/schemas/Language
 :Language rdf:type owl:NamedIndividual ,
                    ns1:ConceptScheme ;
-          ns1:notation "schema021"@en ;
+          ns1:notation "scheme021"@en ;
           rdfs:label "Language"@en .
 
 
@@ -6027,7 +6027,7 @@ informal context."""@en .
 ###  http://aiod.eu/data/schemas/LearningMode
 :LearningMode rdf:type owl:NamedIndividual ,
                        ns1:ConceptScheme ;
-              ns1:notation "schema019"@en ;
+              ns1:notation "scheme019"@en ;
               rdfs:label "Learning Mode"@en .
 
 
@@ -7502,7 +7502,7 @@ experience."""@en .
 ###  http://aiod.eu/data/schemas/OrganisationType
 :OrganisationType rdf:type owl:NamedIndividual ,
                            ns1:ConceptScheme ;
-                  ns1:notation "schema020"@en ;
+                  ns1:notation "scheme020"@en ;
                   rdfs:label "Organisation Type"@en .
 
 
@@ -7671,7 +7671,8 @@ experience."""@en .
 ###  http://aiod.eu/data/schemas/Parsing
 :Parsing rdf:type owl:NamedIndividual ,
                   ns1:Concept ;
-         ns1:inScheme :Approach .
+         ns1:inScheme :Approach ;
+         rdfs:label "Parsing"@en .
 
 
 ###  http://aiod.eu/data/schemas/PathPlanning
@@ -11469,7 +11470,7 @@ labels. The objective is to discover the underlying data structure, for example,
               ns1:Concept ;
      ns1:inScheme :Licence ;
      ns1:notation "con557"@en ;
-     ns1:definition "isc"@en .
+     rdfs:label "isc"@en .
 
 
 ###  http://aiod.eu/data/schemas/lecture_notes
@@ -11519,7 +11520,7 @@ labels. The objective is to discover the underlying data structure, for example,
                ns1:Concept ;
       ns1:inScheme :Licence ;
       ns1:notation "con546"@en ;
-      ns1:definition "lgpl"@en .
+      rdfs:label "lgpl"@en .
 
 
 ###  http://aiod.eu/data/schemas/lgpl-2.1
@@ -11551,7 +11552,7 @@ labels. The objective is to discover the underlying data structure, for example,
                  ns1:Concept ;
         ns1:inScheme :Licence ;
         ns1:notation "con504"@en ;
-        ns1:definition "llama2"@en .
+        rdfs:label "llama2"@en .
 
 
 ###  http://aiod.eu/data/schemas/llama3
@@ -13194,4 +13195,4 @@ dct:valid dct:description "Recommended practice is to describe the date, date/ti
           rdfs:label "Date Valid"@en .
 
 
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
