@@ -487,6 +487,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://aiod.eu/data/Dataset"/>
                     <rdf:Description rdf:about="http://aiod.eu/data/FundingOpportunity"/>
+                    <rdf:Description rdf:about="http://aiod.eu/data/Project"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -709,6 +710,16 @@
         <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
         <rdfs:comment>The Organisation posting the job.</rdfs:comment>
         <rdfs:label xml:lang="en">issuer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://aiod.eu/data/language -->
+
+
+    <owl:ObjectProperty rdf:about="http://aiod.eu/data/language">
+        <rdfs:domain rdf:resource="http://aiod.eu/data/Person"/>
+        <rdfs:range rdf:resource="http://aiod.eu/data/Language"/>
     </owl:ObjectProperty>
     
 
@@ -949,19 +960,6 @@
         <rdfs:range rdf:resource="http://aiod.eu/data/AIAsset"/>
         <rdfs:comment>An AI asset produced in the context of the project.</rdfs:comment>
         <rdfs:label xml:lang="en">produced</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://aiod.eu/data/project_funder -->
-
-
-    <owl:ObjectProperty rdf:about="http://aiod.eu/data/project_funder">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Project"/>
-        <rdfs:range rdf:resource="http://aiod.eu/data/Organisation"/>
-        <rdfs:comment xml:lang="en">The funding organisation for the project.</rdfs:comment>
-        <rdfs:label xml:lang="en">project funder</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2851,18 +2849,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>The location where the news item was originally published.</rdfs:comment>
         <rdfs:label xml:lang="en">source</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://aiod.eu/data/speak_languages -->
-
-
-    <owl:DatatypeProperty rdf:about="http://aiod.eu/data/speak_languages">
-        <rdfs:domain rdf:resource="http://aiod.eu/data/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>The language a Person knows.</rdfs:comment>
-        <rdfs:label xml:lang="en">speak languages</rdfs:label>
     </owl:DatatypeProperty>
     
 

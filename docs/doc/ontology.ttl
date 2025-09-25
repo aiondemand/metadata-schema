@@ -305,6 +305,7 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:domain [ rdf:type owl:Class ;
                       owl:unionOf ( :Dataset
                                     :FundingOpportunity
+                                    :Project
                                   )
                     ] ;
         rdfs:range :Agent ;
@@ -451,6 +452,12 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:range :Organisation ;
         rdfs:comment "The Organisation posting the job." ;
         rdfs:label "issuer"@en .
+
+
+###  http://aiod.eu/data/language
+:language rdf:type owl:ObjectProperty ;
+          rdfs:domain :Person ;
+          rdfs:range :Language .
 
 
 ###  http://aiod.eu/data/learning_mode
@@ -608,15 +615,6 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:range :AIAsset ;
           rdfs:comment "An AI asset produced in the context of the project." ;
           rdfs:label "produced"@en .
-
-
-###  http://aiod.eu/data/project_funder
-:project_funder rdf:type owl:ObjectProperty ,
-                         owl:FunctionalProperty ;
-                rdfs:domain :Project ;
-                rdfs:range :Organisation ;
-                rdfs:comment "The funding organisation for the project."@en ;
-                rdfs:label "project funder"@en .
 
 
 ###  http://aiod.eu/data/provider
@@ -1882,14 +1880,6 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:range xsd:anyURI ;
         rdfs:comment "The location where the news item was originally published." ;
         rdfs:label "source"@en .
-
-
-###  http://aiod.eu/data/speak_languages
-:speak_languages rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Person ;
-                 rdfs:range xsd:string ;
-                 rdfs:comment "The language a Person knows." ;
-                 rdfs:label "speak languages"@en .
 
 
 ###  http://aiod.eu/data/start_date
