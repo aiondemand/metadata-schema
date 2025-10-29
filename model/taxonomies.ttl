@@ -4523,13 +4523,13 @@ informal context."""@en .
          rdfs:label "Example"@en .
 
 
-###  http://aiod.eu/data/schemas/Expirements
-:Expirements rdf:type owl:NamedIndividual ,
+###  http://aiod.eu/data/schemas/Experiments
+:Experiments rdf:type owl:NamedIndividual ,
                       ns1:Concept ;
              ns1:broader :Development ;
              ns1:inScheme :NewsCategory ;
              ns1:notation "con590"@en ;
-             rdfs:label "Expirements"@en .
+             rdfs:label "Experiments"@en .
 
 
 ###  http://aiod.eu/data/schemas/Explainability

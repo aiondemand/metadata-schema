@@ -22,6 +22,7 @@
       padding-top: 20px;
       overflow-y: auto;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 10000;
     }
     .sidebar h2 {
       color: #fff;
@@ -54,117 +55,80 @@
       font-size: 0.9rem;
       color: #888;
     }
+    /* Prevent any nested wrappers from interfering */
+    .main .sidebar { display: none; }
   </style>
-</head>
-<body>
-
-<div class="sidebar">
-  <h2>Taxonomies</h2>
-  <a href="Actuation.html">Actuation</a>
-  <a href="Approach.html">Approach</a>
-  <a href="Business_Function.html">Business Function</a>
-  <a href="Business_Problem.html">Business Problem</a>
-  <a href="Business_Sector.html">Business Sector</a>
-  <a href="Country.html">Country</a>
-  <a href="Licence.html">Licence</a>
-  <a href="MIMEtype.html">MIMEtype</a>
-  <a href="News_Category.html">News Category</a>
-  <a href="Number_of_Employees.html">Number of Employees</a>
-  <a href="Publication.html">Publication</a>
-  <a href="Research_Area.html">Research Area</a>
-  <a href="Robot_type.html">Robot type</a>
-  <a href="Scientific_Domain.html">Scientific Domain</a>
-  <a href="Turnover.html">Turnover</a>
-</div>
-
-<div class="main">
-  <h1>Approach</h1>
   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Approach</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 280px;
-      height: 100%;
-      background-color: #1f2532;
-      padding-top: 20px;
-      overflow-y: auto;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    }
-    .sidebar h2 {
-      color: #fff;
-      font-size: 1.3rem;
-      padding: 0 20px;
-      margin-bottom: 10px;
-    }
-    .sidebar a {
-      display: block;
-      color: #c2c9d6;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-bottom: 1px solid #2d3344;
-    }
-    .sidebar a:hover {
-      background-color: #2a3242;
-      color: #fff;
-    }
-    .main {
-      margin-left: 280px;
-      padding: 30px;
-    }
-    .main h1 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #1f2532;
-    }
-    .footer {
-      margin-top: 60px;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
 </head>
 <body>
 
 <div class="sidebar">
-  <h2>Taxonomies</h2>
+  <a href="index.html" style="text-decoration: none; color: inherit;">
+        <h2 style="margin-bottom: 10px;">Taxonomies</h2>
+  </a>
+  <a href="AI_Paradigm.html">AI Paradigm</a>
   <a href="Actuation.html">Actuation</a>
   <a href="Approach.html">Approach</a>
   <a href="Business_Function.html">Business Function</a>
   <a href="Business_Problem.html">Business Problem</a>
   <a href="Business_Sector.html">Business Sector</a>
   <a href="Country.html">Country</a>
+  <a href="Educational_Competency.html">Educational Competency</a>
+  <a href="Educational_Level.html">Educational Level</a>
+  <a href="Event_Mode.html">Event Mode</a>
+  <a href="Event_Status.html">Event Status</a>
+  <a href="Language.html">Language</a>
+  <a href="Learning_Mode.html">Learning Mode</a>
   <a href="Licence.html">Licence</a>
   <a href="MIMEtype.html">MIMEtype</a>
   <a href="News_Category.html">News Category</a>
   <a href="Number_of_Employees.html">Number of Employees</a>
+  <a href="Organisation_Activity_Type.html">Organisation Activity Type</a>
+  <a href="Organisation_Type.html">Organisation Type</a>
   <a href="Publication.html">Publication</a>
   <a href="Research_Area.html">Research Area</a>
   <a href="Robot_type.html">Robot type</a>
   <a href="Scientific_Domain.html">Scientific Domain</a>
   <a href="Turnover.html">Turnover</a>
-</div>
+  </div>
 
 <div class="main">
   <h1>Approach</h1>
+  <div class="sidebar">
+  <h2>Taxonomies</h2>
+  <a href="AI_Paradigm.html">AI Paradigm</a>
+  <a href="Actuation.html">Actuation</a>
+  <a href="Approach.html">Approach</a>
+  <a href="Business_Function.html">Business Function</a>
+  <a href="Business_Problem.html">Business Problem</a>
+  <a href="Business_Sector.html">Business Sector</a>
+  <a href="Country.html">Country</a>
+  <a href="Educational_Competency.html">Educational Competency</a>
+  <a href="Educational_Level.html">Educational Level</a>
+  <a href="Event_Mode.html">Event Mode</a>
+  <a href="Event_Status.html">Event Status</a>
+  <a href="Language.html">Language</a>
+  <a href="Learning_Mode.html">Learning Mode</a>
+  <a href="Licence.html">Licence</a>
+  <a href="MIMEtype.html">MIMEtype</a>
+  <a href="News_Category.html">News Category</a>
+  <a href="Number_of_Employees.html">Number of Employees</a>
+  <a href="Organisation_Activity_Type.html">Organisation Activity Type</a>
+  <a href="Organisation_Type.html">Organisation Type</a>
+  <a href="Publication.html">Publication</a>
+  <a href="Research_Area.html">Research Area</a>
+  <a href="Robot_type.html">Robot type</a>
+  <a href="Scientific_Domain.html">Scientific Domain</a>
+  <a href="Turnover.html">Turnover</a>
+  </div>
+
+<div class="main">
+  
   <html><head>
-<title></title>
+<title>Approach</title>
 <style>body { font-family: sans-serif; padding: 1em; } .concept { margin-bottom: 1em; }</style>
 </head><body>
-<h2>The specific point of view employed to implement a solution.</h2>
+
 <div class='concept'>
 <h3>3D Computer Vision</h3>
 <p><strong>Definition:</strong> A specific area of computer science that is concerned with the acquisition, processing, and analysis of three-dimensional visual data.</p>
@@ -195,6 +159,12 @@
 <p><strong>Definition:</strong> The implications of artificial intelligence on knowledge theory.</p>
 </div>
 <div class='concept'>
+<h3>AI and Jobs/Labor</h3>
+</div>
+<div class='concept'>
+<h3>AI and Law, Justice, Regulation &amp; Governance</h3>
+</div>
+<div class='concept'>
 <h3>Accountability</h3>
 <p><strong>Definition:</strong> A method that requires the development, deployment and utilisation of systems in a manner that facilitates the identification and attribution of responsibility for adverse outcomes to the relevant parties.</p>
 </div>
@@ -203,12 +173,24 @@
 <p><strong>Definition:</strong> Acoustic monitoring is a system that employs sound sensors to detect and analyse sounds and vibrations in the surrounding environment.</p>
 </div>
 <div class='concept'>
+<h3>Action</h3>
+</div>
+<div class='concept'>
 <h3>Active Learning</h3>
 <p><strong>Definition:</strong> A special case of machine learning in which a learning algorithm can interactively query a human user (or some other information source), to label new data points with the desired outputs.</p>
 </div>
 <div class='concept'>
 <h3>Activity Analysis</h3>
 <p><strong>Definition:</strong> The process of analysing video or sequence data with the objective of detecting, recognising and interpreting human activities or behaviours.</p>
+</div>
+<div class='concept'>
+<h3>Activity Recognition</h3>
+</div>
+<div class='concept'>
+<h3>Adaptive Behavior</h3>
+</div>
+<div class='concept'>
+<h3>Adversarial Agents</h3>
 </div>
 <div class='concept'>
 <h3>Adversarial Attacks</h3>
@@ -220,12 +202,54 @@
 <p><strong>Broader:</strong> Machine Learning</p>
 </div>
 <div class='concept'>
+<h3>Adversarial Search</h3>
+</div>
+<div class='concept'>
+<h3>Affective Computing</h3>
+</div>
+<div class='concept'>
+<h3>Agent Collaboration</h3>
+</div>
+<div class='concept'>
+<h3>Agent Communication</h3>
+</div>
+<div class='concept'>
+<h3>Agent Coordination</h3>
+</div>
+<div class='concept'>
+<h3>Agent-Based Simulation</h3>
+</div>
+<div class='concept'>
+<h3>Agent/AI Theories</h3>
+</div>
+<div class='concept'>
+<h3>Agents</h3>
+</div>
+<div class='concept'>
+<h3>Agreement</h3>
+</div>
+<div class='concept'>
+<h3>Algorithm Configuration</h3>
+</div>
+<div class='concept'>
+<h3>Algorithm Portfolios</h3>
+</div>
+<div class='concept'>
+<h3>Analogical Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Analytics Platform</h3>
 <p><strong>Definition:</strong> A unified solution that integrates a range of technologies, providing support for enterprise needs throughout the entire analytics lifecycle.</p>
 </div>
 <div class='concept'>
 <h3>Anomaly Detection</h3>
 <p><strong>Definition:</strong> The identification of rare items, events or observations which deviate significantly from the majority of the data and do not conform to a well defined notion of normal behavior.</p>
+</div>
+<div class='concept'>
+<h3>Argument Mining</h3>
+</div>
+<div class='concept'>
+<h3>Argumentation</h3>
 </div>
 <div class='concept'>
 <h3>Artficial Neural Nets</h3>
@@ -236,8 +260,17 @@
 <p><strong>Definition:</strong> Aen type of artificial intelligence (AI) that matches or surpasses human cognitive capabilities across a wide range of cognitive tasks.</p>
 </div>
 <div class='concept'>
+<h3>Association analysis</h3>
+</div>
+<div class='concept'>
+<h3>Associative memories</h3>
+</div>
+<div class='concept'>
 <h3>Attacks and Defence</h3>
 <p><strong>Definition:</strong> Techniques related to securing machine learning systems against malicious inputs designed to compromise them</p>
+</div>
+<div class='concept'>
+<h3>Auctions and Market-Based Systems</h3>
 </div>
 <div class='concept'>
 <h3>Audio Processing</h3>
@@ -265,8 +298,14 @@
 <p><strong>Definition:</strong> The process of automating the tasks of applying machine learning to real-world problems.</p>
 </div>
 <div class='concept'>
+<h3>Autonomous Characters</h3>
+</div>
+<div class='concept'>
 <h3>Bayesian Learning</h3>
 <p><strong>Definition:</strong> An approach that employs Bayesian statistics to enhance the predictive and decision-making capabilities of models.</p>
+</div>
+<div class='concept'>
+<h3>Bayesian Networks</h3>
 </div>
 <div class='concept'>
 <h3>Behavior Control</h3>
@@ -285,12 +324,27 @@
 <p><strong>Definition:</strong> How people&#x27;s strategic decision-making behavior is shaped by social preferences, social utility and other psychological factors.</p>
 </div>
 <div class='concept'>
+<h3>Belief Change</h3>
+</div>
+<div class='concept'>
+<h3>Bias</h3>
+</div>
+<div class='concept'>
 <h3>Big Data</h3>
 <p><strong>Definition:</strong> Large and diverse datasets that are huge in volume and also rapidly grow in size over time.</p>
 </div>
 <div class='concept'>
 <h3>Bio-inspired Learning</h3>
 <p><strong>Definition:</strong> A field of study which seeks to solve computer science problems using models of biology</p>
+</div>
+<div class='concept'>
+<h3>Biometrics, Face, Gesture &amp; Pose</h3>
+</div>
+<div class='concept'>
+<h3>Brain modeling</h3>
+</div>
+<div class='concept'>
+<h3>Brain-Sensing and Analysis</h3>
 </div>
 <div class='concept'>
 <h3>Business Intelligence</h3>
@@ -309,8 +363,17 @@
 <p><strong>Definition:</strong> A discipline to formalize the pursuit of identifying, modeling, and quantifying causal relationships.</p>
 </div>
 <div class='concept'>
+<h3>Causal inference</h3>
+</div>
+<div class='concept'>
+<h3>Causality</h3>
+</div>
+<div class='concept'>
 <h3>Central Processing Unit</h3>
 <p><strong>Definition:</strong> The invisible manager inside the computer where data input is transformed into information output.</p>
+</div>
+<div class='concept'>
+<h3>Chunking</h3>
 </div>
 <div class='concept'>
 <h3>Classical Planning</h3>
@@ -324,8 +387,17 @@
 <p><strong>Definition:</strong> The task of grouping a set of objects in such a way that objects in the same group  are more similar to each other than to those in other groups.</p>
 </div>
 <div class='concept'>
+<h3>Cognition Modeling</h3>
+</div>
+<div class='concept'>
+<h3>Cognitive Architectures</h3>
+</div>
+<div class='concept'>
 <h3>Cognitive Robotics</h3>
 <p><strong>Definition:</strong> A subfield of robotics concerned with endowing a robot with intelligent behavior by providing it with a processing architecture that will allow it to learn and reason about how to behave in response to complex goals in a complex world.</p>
+</div>
+<div class='concept'>
+<h3>Cognitive Systems</h3>
 </div>
 <div class='concept'>
 <h3>Colision Avoidance</h3>
@@ -352,6 +424,9 @@
 <p><strong>Definition:</strong> A technique that reduces the size of data without losing its essential information or quality.</p>
 </div>
 <div class='concept'>
+<h3>Computational Complexity of Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Computational Creativity</h3>
 <p><strong>Definition:</strong> A multidisciplinary endeavour that is located at the intersection of the fields of artificial intelligence, cognitive psychology, philosophy, and the arts</p>
 </div>
@@ -368,17 +443,47 @@
 <p><strong>Definition:</strong> The running of a mathematical model on a computer, the model being designed to represent the behaviour of, or the outcome of, a real-world or physical system.</p>
 </div>
 <div class='concept'>
+<h3>Computer Audition</h3>
+</div>
+<div class='concept'>
 <h3>Computer Vision</h3>
 <p><strong>Definition:</strong> A field that deals with enabling computers to derive information from images, videos and other inputs.</p>
 <p><strong>Broader:</strong> Perception</p>
+</div>
+<div class='concept'>
+<h3>Conceptual Reasoning</h3>
+</div>
+<div class='concept'>
+<h3>Consciousness and Philosophy of Mind</h3>
+</div>
+<div class='concept'>
+<h3>Constraint Learning and Acquisition</h3>
+</div>
+<div class='concept'>
+<h3>Constraint Optimization</h3>
+</div>
+<div class='concept'>
+<h3>Constraint Programming</h3>
 </div>
 <div class='concept'>
 <h3>Constraint Satisfaction</h3>
 <p><strong>Definition:</strong> The process of finding a solution through a set of constraints that impose conditions the variables must satisfy.</p>
 </div>
 <div class='concept'>
+<h3>Control of High-Dimensional Systems</h3>
+</div>
+<div class='concept'>
+<h3>Convex optimization</h3>
+</div>
+<div class='concept'>
 <h3>Cooperative Game Theory</h3>
 <p><strong>Definition:</strong> A branch of game theory that focuses on studying ways to sustain cooperation among agents who are willing to work together.</p>
+</div>
+<div class='concept'>
+<h3>Coordination and Collaboration</h3>
+</div>
+<div class='concept'>
+<h3>Correlation analysis</h3>
 </div>
 <div class='concept'>
 <h3>Creativity Planning</h3>
@@ -392,8 +497,20 @@
 <p><strong>Definition:</strong> The science of analyzing raw data in order to make conclusions about that information.</p>
 </div>
 <div class='concept'>
+<h3>Data Compression</h3>
+</div>
+<div class='concept'>
+<h3>Data Stream Mining</h3>
+</div>
+<div class='concept'>
 <h3>Data Streams</h3>
 <p><strong>Definition:</strong> The transmission of a sequence of digitally encoded signals to convey information.</p>
+</div>
+<div class='concept'>
+<h3>Data Summarization</h3>
+</div>
+<div class='concept'>
+<h3>Data Visualization</h3>
 </div>
 <div class='concept'>
 <h3>Decision Analytics</h3>
@@ -402,6 +519,9 @@
 <div class='concept'>
 <h3>Decision Support</h3>
 <p><strong>Definition:</strong> A computerized program used to support determinations, judgments, and courses of action in an organization or a business.</p>
+</div>
+<div class='concept'>
+<h3>Decision Theory</h3>
 </div>
 <div class='concept'>
 <h3>Deep Generative Models</h3>
@@ -420,8 +540,17 @@
 <p><strong>Definition:</strong> A class of machine learning algorithms similar to the artificial neural network and aims to mimic the information processing of the brain.</p>
 </div>
 <div class='concept'>
+<h3>Derivative-free optimization</h3>
+</div>
+<div class='concept'>
+<h3>Description Logics</h3>
+</div>
+<div class='concept'>
 <h3>Deterministic Planning</h3>
 <p><strong>Definition:</strong> The process of finding a sequence of actions to achieve a goal.</p>
+</div>
+<div class='concept'>
+<h3>Diagnosis and Abductive Reasoning</h3>
 </div>
 <div class='concept'>
 <h3>Dialogue System</h3>
@@ -432,6 +561,15 @@
 <p><strong>Definition:</strong> The transformation of data from a high-dimensional space into a low-dimensional space so that the low-dimensional representation retains some meaningful properties of the original data.</p>
 </div>
 <div class='concept'>
+<h3>Discourse</h3>
+</div>
+<div class='concept'>
+<h3>Dissimilarity (distance) metrics</h3>
+</div>
+<div class='concept'>
+<h3>Distributed CSP</h3>
+</div>
+<div class='concept'>
 <h3>Distributed Computing</h3>
 <p><strong>Definition:</strong> The method of making multiple computers work together to solve a common problem.</p>
 </div>
@@ -440,8 +578,20 @@
 <p><strong>Definition:</strong> Multinode machine learning algorithms and systems that are designed to improve performance, increase accuracy, and scale to larger input data sizes.</p>
 </div>
 <div class='concept'>
+<h3>Distributed Optimization</h3>
+</div>
+<div class='concept'>
 <h3>Distributed Planning</h3>
 <p><strong>Definition:</strong> The problem of finding a course of action that will help a set of agents in a given initial conguration to collectively satisfy certain desired behavioral constraints.</p>
+</div>
+<div class='concept'>
+<h3>Distributed Problem Solving</h3>
+</div>
+<div class='concept'>
+<h3>Distributed Search</h3>
+</div>
+<div class='concept'>
+<h3>Distributed Systems</h3>
 </div>
 <div class='concept'>
 <h3>Document Analysis and Understanding</h3>
@@ -452,8 +602,17 @@
 <p><strong>Definition:</strong> Domain adaptation is the ability to apply an algorithm trained in one or more &quot;source domains&quot; to a different (but related) &quot;target domain&quot;.</p>
 </div>
 <div class='concept'>
+<h3>Edge computing</h3>
+</div>
+<div class='concept'>
 <h3>Electronic Personhood</h3>
 <p><strong>Definition:</strong> The potential legal status of the most sophisticated autonomous robots so that they may have &quot;specific rights and obligations</p>
+</div>
+<div class='concept'>
+<h3>Embedded computing</h3>
+</div>
+<div class='concept'>
+<h3>Emergent Behavior</h3>
 </div>
 <div class='concept'>
 <h3>Emotional Intelligence</h3>
@@ -467,8 +626,17 @@
 <h3>Equilibrium</h3>
 </div>
 <div class='concept'>
+<h3>Equity</h3>
+</div>
+<div class='concept'>
+<h3>Evaluation and Analysis</h3>
+</div>
+<div class='concept'>
 <h3>Evidence Reasoning</h3>
 <p><strong>Definition:</strong> A critical framework in AI systems that enables machines to make informed decisions based on evidence.</p>
+</div>
+<div class='concept'>
+<h3>Evolutionary Computation</h3>
 </div>
 <div class='concept'>
 <h3>Evolutionary Learning</h3>
@@ -510,12 +678,24 @@
 <p><strong>Definition:</strong> A model that is trained on vast datasets so it can be applied across a wide range of use cases.</p>
 </div>
 <div class='concept'>
+<h3>Frame Semantics</h3>
+</div>
+<div class='concept'>
 <h3>Fuzzy Logic</h3>
 <p><strong>Definition:</strong> A form of many-valued logic in which the truth values of variables may be any real number between 0 and 1</p>
 </div>
 <div class='concept'>
+<h3>Fuzzy rule-based systems</h3>
+</div>
+<div class='concept'>
 <h3>Game Theory</h3>
 <p><strong>Definition:</strong> Branch of applied mathematics that provides tools for analyzing situations in which parties, called players, make decisions that are interdependent.</p>
+</div>
+<div class='concept'>
+<h3>Games</h3>
+</div>
+<div class='concept'>
+<h3>Generation</h3>
 </div>
 <div class='concept'>
 <h3>Generative Models</h3>
@@ -528,6 +708,12 @@
 <div class='concept'>
 <h3>Geometric Deep Learning</h3>
 <p><strong>Definition:</strong> An approach that invovles encoding a geometric understanding of data as an inductive bias in deep learning models to give them a helping hand.</p>
+</div>
+<div class='concept'>
+<h3>Geometric Reasoning</h3>
+</div>
+<div class='concept'>
+<h3>Gradient-based optimization</h3>
 </div>
 <div class='concept'>
 <h3>Grammar Induction</h3>
@@ -549,6 +735,9 @@
 <p><strong>Definition:</strong> The application of machine learning to graphs specifically for predictive and prescriptive tasks.</p>
 </div>
 <div class='concept'>
+<h3>Graphical Model</h3>
+</div>
+<div class='concept'>
 <h3>Graphical User Interface</h3>
 <p><strong>Definition:</strong> A type of user interface through which users interact with electronic devices via visual indicator representations.</p>
 </div>
@@ -561,12 +750,21 @@
 <p><strong>Definition:</strong> An approach to problem-solving using approximate methods or shortcuts to produce practical solutions.</p>
 </div>
 <div class='concept'>
+<h3>Heuristic Search</h3>
+</div>
+<div class='concept'>
+<h3>High-performance computing</h3>
+</div>
+<div class='concept'>
 <h3>Human Computation</h3>
 <p><strong>Definition:</strong> A technique in which a machine performs its function by outsourcing certain steps to humans, usually as microwork.</p>
 </div>
 <div class='concept'>
 <h3>Human Factors</h3>
 <p><strong>Definition:</strong> A multidisciplinary field focused on understanding the interactions among humans and other elements of a system</p>
+</div>
+<div class='concept'>
+<h3>Human agency and oversight</h3>
 </div>
 <div class='concept'>
 <h3>Human-AI Interaction</h3>
@@ -669,6 +867,9 @@
 <p><strong>Definition:</strong> A software component of an intelligent system that applies logical rules to the knowledge base to deduce new information.</p>
 </div>
 <div class='concept'>
+<h3>Information Extraction</h3>
+</div>
+<div class='concept'>
 <h3>Information Retrieval</h3>
 <p><strong>Definition:</strong> The task of identifying and retrieving information system resources that are relevant to an information need.</p>
 </div>
@@ -699,8 +900,12 @@
 <h3>Interactive Learning</h3>
 </div>
 <div class='concept'>
+<h3>Interfaces</h3>
+</div>
+<div class='concept'>
 <h3>Internet of Things</h3>
 <p><strong>Definition:</strong> The network of physical objects that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.</p>
+<p><strong>Broader:</strong> Information Technology</p>
 </div>
 <div class='concept'>
 <h3>Interpretability</h3>
@@ -711,6 +916,15 @@
 <p><strong>Definition:</strong> Creating models designed to capture the causal relationships within data, allowing them to predict the outcomes of interventions.</p>
 </div>
 <div class='concept'>
+<h3>Introspection</h3>
+</div>
+<div class='concept'>
+<h3>Inverse Reinforcement Learning</h3>
+</div>
+<div class='concept'>
+<h3>Justice</h3>
+</div>
+<div class='concept'>
 <h3>Kernel Methods</h3>
 <p><strong>Definition:</strong> A class of machine learning algorithms to study general types of relations in data sets, such as classifications, clusters and correlations.</p>
 </div>
@@ -719,8 +933,20 @@
 <p><strong>Definition:</strong> The process of extracting, structuring, and organizing knowledge from one or more sources, and its transfer to the knowledge base and sometimes to the inference engine.</p>
 </div>
 <div class='concept'>
+<h3>Knowledge Base Completion</h3>
+</div>
+<div class='concept'>
+<h3>Knowledge Capture</h3>
+</div>
+<div class='concept'>
+<h3>Knowledge Engineering</h3>
+</div>
+<div class='concept'>
 <h3>Knowledge Graphs</h3>
 <p><strong>Definition:</strong> A knowledge base that uses a graph-structured data model or topology to represent and operate on data.</p>
+</div>
+<div class='concept'>
+<h3>Knowledge Management</h3>
 </div>
 <div class='concept'>
 <h3>Knowledge Represantation Languages</h3>
@@ -736,8 +962,20 @@
 <p><strong>Definition:</strong> The process by which humans acquire the capacity to perceive and comprehend language.</p>
 </div>
 <div class='concept'>
+<h3>Language Grounding</h3>
+</div>
+<div class='concept'>
+<h3>Language Learning</h3>
+</div>
+<div class='concept'>
+<h3>Language and Vision</h3>
+</div>
+<div class='concept'>
 <h3>Large Language Models</h3>
 <p><strong>Definition:</strong> A type of computational model designed for natural language processing tasks such as language generation.</p>
+</div>
+<div class='concept'>
+<h3>Learning Human Values and Preferences</h3>
 </div>
 <div class='concept'>
 <h3>Learning Preferences</h3>
@@ -745,6 +983,9 @@
 <div class='concept'>
 <h3>Learning Theory</h3>
 <p><strong>Definition:</strong> A subfield of artificial intelligence devoted to studying the design and analysis of machine learning algorithms.</p>
+</div>
+<div class='concept'>
+<h3>Learning from scarce data</h3>
 </div>
 <div class='concept'>
 <h3>Learning on the Edge</h3>
@@ -776,6 +1017,19 @@
 <div class='concept'>
 <h3>Linked Open Data</h3>
 <p><strong>Definition:</strong> A set of best practices for publishing and linking data on the web, so that it can be easily accessed and reused by machines and humans alike.</p>
+</div>
+<div class='concept'>
+<h3>Livestock monitoring</h3>
+<p><strong>Broader:</strong> Agriculture, forestry, fisheries</p>
+</div>
+<div class='concept'>
+<h3>Local Search</h3>
+</div>
+<div class='concept'>
+<h3>Localization, Mapping, and Navigation</h3>
+</div>
+<div class='concept'>
+<h3>Logic Programming</h3>
 </div>
 <div class='concept'>
 <h3>Low Level Vision</h3>
@@ -811,6 +1065,9 @@ experience.</p>
 <p><strong>Definition:</strong> The use of robots to interact with objects in their environment, utilizing technologies like machine learning, sensors, and actuators to perform tasks such as grasping, moving, and assembling.</p>
 </div>
 <div class='concept'>
+<h3>Matrix &amp; Tensor Methods</h3>
+</div>
+<div class='concept'>
 <h3>Mechanism Desing</h3>
 </div>
 <div class='concept'>
@@ -822,8 +1079,32 @@ experience.</p>
 <p><strong>Definition:</strong> Tool for visualizing the internal organs of the body and its diseases.</p>
 </div>
 <div class='concept'>
+<h3>Memory Retrieval</h3>
+</div>
+<div class='concept'>
+<h3>Memory Storage</h3>
+</div>
+<div class='concept'>
 <h3>Meta Learning</h3>
 <p><strong>Definition:</strong> A subfield of machine learning where automatic learning algorithms are applied to metadata about machine learning experiments.</p>
+</div>
+<div class='concept'>
+<h3>Meta-Cognition</h3>
+</div>
+<div class='concept'>
+<h3>Metaheuristics</h3>
+</div>
+<div class='concept'>
+<h3>Metareasoning</h3>
+</div>
+<div class='concept'>
+<h3>Mixed Discrete/Continuous Optimization</h3>
+</div>
+<div class='concept'>
+<h3>Mixed Discrete/Continuous Planning</h3>
+</div>
+<div class='concept'>
+<h3>Mixed Discrete/Continuous Search</h3>
 </div>
 <div class='concept'>
 <h3>Mixed Reality</h3>
@@ -834,8 +1115,20 @@ experience.</p>
 <p><strong>Definition:</strong> A set of algorithms that aim to reduce the size and memory requirements of neural networks without significantly impacting their accuracy.</p>
 </div>
 <div class='concept'>
+<h3>Model-Based Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Model-based Planning</h3>
 <p><strong>Definition:</strong> A method where systems use internal models to simulate and evaluate future actions before executing them in the real world.</p>
+</div>
+<div class='concept'>
+<h3>Modeling other Agents</h3>
+</div>
+<div class='concept'>
+<h3>Morality and Value-based AI</h3>
+</div>
+<div class='concept'>
+<h3>Morphology</h3>
 </div>
 <div class='concept'>
 <h3>Motion and Tracking</h3>
@@ -872,6 +1165,15 @@ experience.</p>
 <p><strong>Definition:</strong> A class of machine learning techniques that aims to exploit information from multiple, often complementary, views of the same data.</p>
 </div>
 <div class='concept'>
+<h3>Multiagent Learning</h3>
+</div>
+<div class='concept'>
+<h3>Multiagent Systems under Uncertainty</h3>
+</div>
+<div class='concept'>
+<h3>Multilinguality</h3>
+</div>
+<div class='concept'>
 <h3>Multimedia Data Mining</h3>
 <p><strong>Definition:</strong> The process of extracting valuable information and insights from multimedia sources</p>
 </div>
@@ -900,6 +1202,9 @@ experience.</p>
 <p><strong>Definition:</strong> Automated process of converting music audio into a corresponding musical notation</p>
 </div>
 <div class='concept'>
+<h3>Musical knowledge</h3>
+</div>
+<div class='concept'>
 <h3>Name Entity Recognition</h3>
 <p><strong>Definition:</strong> A task of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.</p>
 </div>
@@ -921,8 +1226,23 @@ experience.</p>
 <p><strong>Definition:</strong> A subset of natural language processing in artificial intelligence that deals with machine reading comprehension.</p>
 </div>
 <div class='concept'>
+<h3>Natural intelligence</h3>
+</div>
+<div class='concept'>
+<h3>Negotiation</h3>
+</div>
+<div class='concept'>
+<h3>Negotiation and Contract-Based Systems</h3>
+</div>
+<div class='concept'>
 <h3>Non-Iterative Learning</h3>
 <p><strong>Definition:</strong> Algorithms that can reach a solution or finalize a model without the need for iterative optimization processes.</p>
+</div>
+<div class='concept'>
+<h3>Non-convex optimization</h3>
+</div>
+<div class='concept'>
+<h3>Nonmonotonic Reasoning</h3>
 </div>
 <div class='concept'>
 <h3>Object Categorization</h3>
@@ -940,12 +1260,27 @@ experience.</p>
 <p><strong>Definition:</strong> A representation, formal naming, and definitions of the categories, properties, and relations between the concepts, data, or entities that pertain to one, many, or all domains of discourse.</p>
 </div>
 <div class='concept'>
+<h3>Ontology Induction from text</h3>
+</div>
+<div class='concept'>
 <h3>Optimisation</h3>
 <p><strong>Broader:</strong> Planning</p>
 </div>
 <div class='concept'>
+<h3>Optimization of Spatio-temporal Systems</h3>
+</div>
+<div class='concept'>
 <h3>Outlier Detection</h3>
 <p><strong>Definition:</strong> The process of detecting outliers, or a data point that is far away from the average</p>
+</div>
+<div class='concept'>
+<h3>Parallel Systems</h3>
+</div>
+<div class='concept'>
+<h3>Parsing</h3>
+</div>
+<div class='concept'>
+<h3>Path Planning</h3>
 </div>
 <div class='concept'>
 <h3>Pattern Mining</h3>
@@ -956,7 +1291,14 @@ experience.</p>
 <p><strong>Definition:</strong> Advanced software programs that use artificial intelligence to perform daily personal tasks.</p>
 </div>
 <div class='concept'>
+<h3>Pest management</h3>
+<p><strong>Broader:</strong> Agriculture, forestry, fisheries</p>
+</div>
+<div class='concept'>
 <h3>Philosophical Foundations of AI</h3>
+</div>
+<div class='concept'>
+<h3>Phonology</h3>
 </div>
 <div class='concept'>
 <h3>Physical Computing</h3>
@@ -966,12 +1308,36 @@ experience.</p>
 <h3>Physics-based Vision</h3>
 </div>
 <div class='concept'>
+<h3>Plan Execution</h3>
+</div>
+<div class='concept'>
+<h3>Plan Monitoring</h3>
+</div>
+<div class='concept'>
+<h3>Plan Recognition</h3>
+</div>
+<div class='concept'>
+<h3>Plan Repair</h3>
+</div>
+<div class='concept'>
 <h3>Planning and Scheduling</h3>
 <p><strong>Broader:</strong> Planning</p>
 </div>
 <div class='concept'>
+<h3>Planning under Uncertainty</h3>
+</div>
+<div class='concept'>
+<h3>Planning with Markov Models (MDPs, POMDPs)</h3>
+</div>
+<div class='concept'>
 <h3>Platform as a Service</h3>
 <p><strong>Definition:</strong> A cloud computing service model where users provision, instantiate, run and manage a modular bundle of a computing platform and applications, without the complexity of building and maintaining the infrastructure associated with developing and launching application(s), and to allow developers to create, develop, and package such software bundles</p>
+</div>
+<div class='concept'>
+<h3>Pragmatics</h3>
+</div>
+<div class='concept'>
+<h3>Preferences</h3>
 </div>
 <div class='concept'>
 <h3>Privacy</h3>
@@ -981,12 +1347,18 @@ experience.</p>
 <p><strong>Definition:</strong> A set of techniques and methodologies in machine learning that are designed to protect the privacy and confidentiality of the data used during the training and inference phases of model development.</p>
 </div>
 <div class='concept'>
+<h3>Probabilistic Inference</h3>
+</div>
+<div class='concept'>
 <h3>Probabilistic Methods</h3>
 <p><strong>Definition:</strong> A nonconstructive method used for proving the existence of a prescribed kind of mathematical object.</p>
 </div>
 <div class='concept'>
 <h3>Probabilistic Planning</h3>
 <p><strong>Definition:</strong> An extension of nondeterministic planning with information on the probabilities of nondeterministic events.</p>
+</div>
+<div class='concept'>
+<h3>Probabilistic Programming</h3>
 </div>
 <div class='concept'>
 <h3>Procedural Content Generation</h3>
@@ -1000,8 +1372,17 @@ experience.</p>
 <p><strong>Definition:</strong> Algorithms that represent categories or classes through one or more prototypical examples rather than by a decision boundary or a set of rules.</p>
 </div>
 <div class='concept'>
+<h3>Psycholinguistics</h3>
+</div>
+<div class='concept'>
+<h3>Qualitative Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Quantum Machine Learning</h3>
 <p><strong>Definition:</strong> The integration of quantum algorithms within machine learning programs.</p>
+</div>
+<div class='concept'>
+<h3>Quantum computing</h3>
 </div>
 <div class='concept'>
 <h3>Question Answering</h3>
@@ -1009,6 +1390,9 @@ experience.</p>
 </div>
 <div class='concept'>
 <h3>Rankings</h3>
+</div>
+<div class='concept'>
+<h3>Reasoning with Beliefs</h3>
 </div>
 <div class='concept'>
 <h3>Recommender Systems</h3>
@@ -1029,6 +1413,12 @@ acquires above human intelligence in Go.</p>
 </div>
 <div class='concept'>
 <h3>Relational Learning</h3>
+</div>
+<div class='concept'>
+<h3>Relational Probabilistic Models</h3>
+</div>
+<div class='concept'>
+<h3>Replanning</h3>
 </div>
 <div class='concept'>
 <h3>Representation Learning</h3>
@@ -1054,7 +1444,19 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> A method in computer science that utilizes expert systems with rule sets to infer and add information not explicitly stated in a model.</p>
 </div>
 <div class='concept'>
+<h3>Runtime Modeling</h3>
+</div>
+<div class='concept'>
 <h3>Safety</h3>
+</div>
+<div class='concept'>
+<h3>Sampling Search</h3>
+</div>
+<div class='concept'>
+<h3>Satisfiability</h3>
+</div>
+<div class='concept'>
+<h3>Scalability</h3>
 </div>
 <div class='concept'>
 <h3>Scalability of ML Systems</h3>
@@ -1072,6 +1474,9 @@ acquires above human intelligence in Go.</p>
 <h3>Scheduling under Uncertainty</h3>
 </div>
 <div class='concept'>
+<h3>Search</h3>
+</div>
+<div class='concept'>
 <h3>Segmentation</h3>
 <p><strong>Definition:</strong> Partitioning an image into distinct regions, enabling targeted analysis of specific areas.</p>
 </div>
@@ -1084,6 +1489,9 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> A vision for linking data across webpages, applications and files.</p>
 </div>
 <div class='concept'>
+<h3>Semantic networks</h3>
+</div>
+<div class='concept'>
 <h3>Semi-supervised Learning</h3>
 <p><strong>Definition:</strong> A category between supervised and unsupervised learning, where the data contains both labelled and unlabelled data.</p>
 <p><strong>Broader:</strong> Machine Learning</p>
@@ -1093,16 +1501,43 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> A process by which data from several different sensors are &quot;fused&quot; to compute something more than could be determined by any one sensor alone.</p>
 </div>
 <div class='concept'>
+<h3>Sentence-level semantics</h3>
+</div>
+<div class='concept'>
 <h3>Sentiment Analysis</h3>
 <p><strong>Definition:</strong> The process of analyzing digital text to determine if the emotional tone of the message is positive, negative, or neutral.</p>
+</div>
+<div class='concept'>
+<h3>Sequential Decision Making</h3>
+</div>
+<div class='concept'>
+<h3>Similarity-based learning</h3>
+</div>
+<div class='concept'>
+<h3>Simulated anealing</h3>
+</div>
+<div class='concept'>
+<h3>Simulating Humans</h3>
+</div>
+<div class='concept'>
+<h3>Simulation-based Search</h3>
 </div>
 <div class='concept'>
 <h3>Situation Awareness</h3>
 <p><strong>Definition:</strong> The capability of robotic systems to perceive, comprehend, and project the elements of the environment around them to make informed decisions and take appropriate actions.</p>
 </div>
 <div class='concept'>
+<h3>Social Choice / Voting</h3>
+</div>
+<div class='concept'>
+<h3>Social Cognition and Interaction</h3>
+</div>
+<div class='concept'>
 <h3>Social Network Analysis</h3>
 <p><strong>Definition:</strong> The process of investigating social structures through the use of networks and graph theory.</p>
+</div>
+<div class='concept'>
+<h3>Solvers and Tools</h3>
 </div>
 <div class='concept'>
 <h3>Sound Generation</h3>
@@ -1128,6 +1563,9 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> The process of discovering hidden patterns and relationships in geospatial data.</p>
 </div>
 <div class='concept'>
+<h3>Spatial Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Spatio-Temporal Data Mining</h3>
 <p><strong>Definition:</strong> The process of discovering useful patterns from the dynamic interplay between space and time.</p>
 </div>
@@ -1137,6 +1575,18 @@ acquires above human intelligence in Go.</p>
 </div>
 <div class='concept'>
 <h3>Speech Transmition</h3>
+</div>
+<div class='concept'>
+<h3>Speech analysis</h3>
+</div>
+<div class='concept'>
+<h3>Speech and Multimodality</h3>
+</div>
+<div class='concept'>
+<h3>Speech synthesis</h3>
+</div>
+<div class='concept'>
+<h3>Speech to text</h3>
 </div>
 <div class='concept'>
 <h3>Spoken Language Processing</h3>
@@ -1151,6 +1601,12 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> Probabilistic models that can predict the next word in the sequence given the words that precede it.</p>
 </div>
 <div class='concept'>
+<h3>Stochastic Models</h3>
+</div>
+<div class='concept'>
+<h3>Stochastic Optimization</h3>
+</div>
+<div class='concept'>
 <h3>Storytelling</h3>
 </div>
 <div class='concept'>
@@ -1158,8 +1614,14 @@ acquires above human intelligence in Go.</p>
 <p><strong>Definition:</strong> A form of AI that replicates human functions, such as reasoning, planning and problem-solving.</p>
 </div>
 <div class='concept'>
+<h3>Structural Learning</h3>
+</div>
+<div class='concept'>
 <h3>Style Transfer</h3>
 <p><strong>Definition:</strong> A technique in computer vision and graphics that involves generating a new image by combining the content of one image with the style of another image.</p>
+</div>
+<div class='concept'>
+<h3>Summarization</h3>
 </div>
 <div class='concept'>
 <h3>Supervised Learning</h3>
@@ -1175,6 +1637,9 @@ humans.</p>
 <h3>Symbolic Representation</h3>
 </div>
 <div class='concept'>
+<h3>Tagging</h3>
+</div>
+<div class='concept'>
 <h3>Task and Motion Planning</h3>
 <p><strong>Definition:</strong> The integrated process of operating in a combined discrete and continuous space to find a sequence of high-level, discrete actions and corresponding low-level, continuous paths to go from an initial state to a goal state.</p>
 </div>
@@ -1186,7 +1651,31 @@ humans.</p>
 <h3>Temporal Planning</h3>
 </div>
 <div class='concept'>
+<h3>Temporal Reasoning</h3>
+</div>
+<div class='concept'>
 <h3>Tensor Process Unit</h3>
+</div>
+<div class='concept'>
+<h3>Text Classification</h3>
+</div>
+<div class='concept'>
+<h3>Text Mining</h3>
+</div>
+<div class='concept'>
+<h3>Text analysis</h3>
+</div>
+<div class='concept'>
+<h3>Text generation</h3>
+</div>
+<div class='concept'>
+<h3>Text to speech</h3>
+</div>
+<div class='concept'>
+<h3>Textual Inference</h3>
+</div>
+<div class='concept'>
+<h3>Theorem Proving</h3>
 </div>
 <div class='concept'>
 <h3>Time-Series</h3>
@@ -1217,6 +1706,12 @@ labels. The objective is to discover the underlying data structure, for example,
 <p><strong>Broader:</strong> Machine Learning</p>
 </div>
 <div class='concept'>
+<h3>User Modeling</h3>
+</div>
+<div class='concept'>
+<h3>Video Coding</h3>
+</div>
+<div class='concept'>
 <h3>Video Enhancement</h3>
 <p><strong>Definition:</strong> The process of improving the visual quality of video content through various digital techniques.</p>
 </div>
@@ -1240,34 +1735,49 @@ labels. The objective is to discover the underlying data structure, for example,
 <h3>Video Understanding</h3>
 </div>
 <div class='concept'>
+<h3>Video compression</h3>
+</div>
+<div class='concept'>
 <h3>Virtual Enviroment</h3>
 <p><strong>Definition:</strong> A networked application that allows a user to interact with both the computing environment and the work of other users.</p>
+</div>
+<div class='concept'>
+<h3>Virtual Humans</h3>
 </div>
 <div class='concept'>
 <h3>Virtual Reality</h3>
 <p><strong>Definition:</strong> A simulated experience that employs 3D near-eye displays and pose tracking to give the user an immersive feel of a virtual world.</p>
 </div>
 <div class='concept'>
+<h3>Vision</h3>
+</div>
+<div class='concept'>
 <h3>Visual Data Mining</h3>
 <p><strong>Definition:</strong> The combination of traditional data mining techniques with data visualization tools to visually analyze patterns of interest.</p>
+</div>
+<div class='concept'>
+<h3>Visual reasoning</h3>
 </div>
 <div class='concept'>
 <h3>Weak Artificial Intelligence</h3>
 <p><strong>Definition:</strong> A type of artificial intelligence that is limited to a specific or narrow area.</p>
 </div>
 <div class='concept'>
+<h3>Web Personalization</h3>
+</div>
+<div class='concept'>
+<h3>Web Search</h3>
+</div>
+<div class='concept'>
+<h3>Web-based QA</h3>
+</div>
+<div class='concept'>
+<h3>Word Segmentation</h3>
+</div>
+<div class='concept'>
 <h3>Zero-shot Learning</h3>
 <p><strong>Definition:</strong> A machine learning scenario in which an AI model is trained to recognize and categorize objects or concepts without having seen any examples of those categories or concepts beforehand.</p>
 </div>
-</body></html>
-  <div class="footer">
-    Part of the AIoD Knowledge Base – All rights reserved.
-  </div>
-</div>
-
-</body>
-</html>
-
   <div class="footer">
     Part of the AIoD Knowledge Base – All rights reserved.
   </div>

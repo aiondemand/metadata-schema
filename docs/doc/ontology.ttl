@@ -284,6 +284,13 @@ xsd:date rdf:type rdfs:Datatype .
        rdfs:label "faces"@en .
 
 
+###  http://aiod.eu/data/falls_under_paradigm
+:falls_under_paradigm rdf:type owl:ObjectProperty ;
+                      rdfs:domain :AIResource ;
+                      rdfs:range :AIParadigm ;
+                      rdfs:label "falls under paradigm"@en .
+
+
 ###  http://aiod.eu/data/follows
 :follows rdf:type owl:ObjectProperty ;
          rdfs:domain :Operation ;
@@ -472,6 +479,13 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:domain :AIResource ;
           rdfs:range :Location ;
           rdfs:label "location"@en .
+
+
+###  http://aiod.eu/data/logo
+:logo rdf:type owl:ObjectProperty ;
+      rdfs:domain :AIResource ;
+      rdfs:range :Image ;
+      rdfs:label "Logo"@en .
 
 
 ###  http://aiod.eu/data/media
@@ -1404,6 +1418,13 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:label "funding call"@en .
 
 
+###  http://aiod.eu/data/funding_link
+:funding_link rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Project ;
+              rdfs:range xsd:anyURI ;
+              rdfs:label "Funding Link"@en .
+
+
 ###  http://aiod.eu/data/funding_opportunity_type
 :funding_opportunity_type rdf:type owl:DatatypeProperty ;
                           rdfs:domain :FundingOpportunity ;
@@ -1466,6 +1487,13 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:range xsd:integer ;
            rdfs:comment "The height of an Image in pixels." ;
            rdfs:label "height px"@en .
+
+
+###  http://aiod.eu/data/honorific
+:honorific rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Person ;
+           rdfs:range xsd:string ;
+           rdfs:label "Honorific Title"@en .
 
 
 ###  http://aiod.eu/data/identifier
@@ -1936,6 +1964,13 @@ xsd:date rdf:type rdfs:Datatype .
                      rdfs:label "submission platform"@en .
 
 
+###  http://aiod.eu/data/subtitle
+:subtitle rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Project ;
+          rdfs:range xsd:string ;
+          rdfs:label "subtitle"@en .
+
+
 ###  http://aiod.eu/data/support_languages
 :support_languages rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Service ;
@@ -2167,6 +2202,12 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:subClassOf :AIResource ;
          rdfs:comment "An accessible and usable asset pertaining to AI research and applications." ;
          rdfs:label "AI Asset"@en .
+
+
+###  http://aiod.eu/data/AIParadigm
+:AIParadigm rdf:type owl:Class ;
+            rdfs:subClassOf :AIoDConcept ;
+            rdfs:label "AI Paradigm"@en .
 
 
 ###  http://aiod.eu/data/AIResource

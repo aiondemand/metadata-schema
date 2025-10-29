@@ -1,11 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>SKOS Taxonomy Index</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Custom Ontospy-like CSS -->
   <style>
     body {
       margin: 0;
@@ -13,7 +12,6 @@
       background-color: #f9f9f9;
       color: #333;
     }
-
     .sidebar {
       position: fixed;
       top: 0;
@@ -24,15 +22,14 @@
       padding-top: 20px;
       overflow-y: auto;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 10000;
     }
-
     .sidebar h2 {
       color: #fff;
       font-size: 1.3rem;
       padding: 0 20px;
       margin-bottom: 10px;
     }
-
     .sidebar a {
       display: block;
       color: #c2c9d6;
@@ -40,57 +37,64 @@
       text-decoration: none;
       border-bottom: 1px solid #2d3344;
     }
-
     .sidebar a:hover {
       background-color: #2a3242;
       color: #fff;
     }
-
     .main {
       margin-left: 280px;
       padding: 30px;
     }
-
     .main h1 {
       font-size: 2rem;
       margin-bottom: 20px;
       color: #1f2532;
     }
-
     .footer {
       margin-top: 60px;
       font-size: 0.9rem;
       color: #888;
     }
+    /* Prevent any nested wrappers from interfering */
+    .main .sidebar { display: none; }
   </style>
+  
 </head>
 <body>
 
 <div class="sidebar">
-    <a href="index.html" style="text-decoration: none; color: inherit;">
+  <a href="index.html" style="text-decoration: none; color: inherit;">
         <h2 style="margin-bottom: 10px;">Taxonomies</h2>
-      </a>
+  </a>
+  <a href="AI_Paradigm.html">AI Paradigm</a>
   <a href="Actuation.html">Actuation</a>
   <a href="Approach.html">Approach</a>
   <a href="Business_Function.html">Business Function</a>
   <a href="Business_Problem.html">Business Problem</a>
   <a href="Business_Sector.html">Business Sector</a>
   <a href="Country.html">Country</a>
+  <a href="Educational_Competency.html">Educational Competency</a>
+  <a href="Educational_Level.html">Educational Level</a>
+  <a href="Event_Mode.html">Event Mode</a>
+  <a href="Event_Status.html">Event Status</a>
+  <a href="Language.html">Language</a>
+  <a href="Learning_Mode.html">Learning Mode</a>
   <a href="Licence.html">Licence</a>
   <a href="MIMEtype.html">MIMEtype</a>
   <a href="News_Category.html">News Category</a>
   <a href="Number_of_Employees.html">Number of Employees</a>
+  <a href="Organisation_Activity_Type.html">Organisation Activity Type</a>
+  <a href="Organisation_Type.html">Organisation Type</a>
   <a href="Publication.html">Publication</a>
   <a href="Research_Area.html">Research Area</a>
   <a href="Robot_type.html">Robot type</a>
   <a href="Scientific_Domain.html">Scientific Domain</a>
   <a href="Turnover.html">Turnover</a>
-</div>
+  </div>
 
 <div class="main">
   <h1>Welcome to the AIoD Taxonomies</h1>
-  <p>Explore the available concept schemes using the navigation panel on the left. Each scheme offers curated SKOS concepts relevant to AI development, adoption, and innovation.</p>
-
+<p>Explore the available concept schemes using the navigation panel on the left. Each scheme offers curated SKOS concepts relevant to AI development, adoption, and innovation.</p>
   <div class="footer">
     Part of the AIoD Knowledge Base – All rights reserved.
   </div>

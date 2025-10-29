@@ -22,6 +22,7 @@
       padding-top: 20px;
       overflow-y: auto;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 10000;
     }
     .sidebar h2 {
       color: #fff;
@@ -54,119 +55,80 @@
       font-size: 0.9rem;
       color: #888;
     }
+    /* Prevent any nested wrappers from interfering */
+    .main .sidebar { display: none; }
   </style>
-</head>
-<body>
-
-<div class="sidebar">
-  <h2>Taxonomies</h2>
-  <a href="Actuation.html">Actuation</a>
-  <a href="Approach.html">Approach</a>
-  <a href="Business_Function.html">Business Function</a>
-  <a href="Business_Problem.html">Business Problem</a>
-  <a href="Business_Sector.html">Business Sector</a>
-  <a href="Country.html">Country</a>
-  <a href="Licence.html">Licence</a>
-  <a href="MIMEtype.html">MIMEtype</a>
-  <a href="News_Category.html">News Category</a>
-  <a href="Number_of_Employees.html">Number of Employees</a>
-  <a href="Publication.html">Publication</a>
-  <a href="Research_Area.html">Research Area</a>
-  <a href="Robot_type.html">Robot type</a>
-  <a href="Scientific_Domain.html">Scientific Domain</a>
-  <a href="Turnover.html">Turnover</a>
-</div>
-
-<div class="main">
-  <h1>Business Function</h1>
   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Business Function</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 280px;
-      height: 100%;
-      background-color: #1f2532;
-      padding-top: 20px;
-      overflow-y: auto;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    }
-    .sidebar h2 {
-      color: #fff;
-      font-size: 1.3rem;
-      padding: 0 20px;
-      margin-bottom: 10px;
-    }
-    .sidebar a {
-      display: block;
-      color: #c2c9d6;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-bottom: 1px solid #2d3344;
-    }
-    .sidebar a:hover {
-      background-color: #2a3242;
-      color: #fff;
-    }
-    .main {
-      margin-left: 280px;
-      padding: 30px;
-    }
-    .main h1 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #1f2532;
-    }
-    .footer {
-      margin-top: 60px;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
 </head>
 <body>
 
 <div class="sidebar">
   <a href="index.html" style="text-decoration: none; color: inherit;">
-    <h2 style="margin-bottom: 10px;">Taxonomies</h2>
+        <h2 style="margin-bottom: 10px;">Taxonomies</h2>
   </a>
+  <a href="AI_Paradigm.html">AI Paradigm</a>
   <a href="Actuation.html">Actuation</a>
   <a href="Approach.html">Approach</a>
   <a href="Business_Function.html">Business Function</a>
   <a href="Business_Problem.html">Business Problem</a>
   <a href="Business_Sector.html">Business Sector</a>
   <a href="Country.html">Country</a>
+  <a href="Educational_Competency.html">Educational Competency</a>
+  <a href="Educational_Level.html">Educational Level</a>
+  <a href="Event_Mode.html">Event Mode</a>
+  <a href="Event_Status.html">Event Status</a>
+  <a href="Language.html">Language</a>
+  <a href="Learning_Mode.html">Learning Mode</a>
   <a href="Licence.html">Licence</a>
   <a href="MIMEtype.html">MIMEtype</a>
   <a href="News_Category.html">News Category</a>
   <a href="Number_of_Employees.html">Number of Employees</a>
+  <a href="Organisation_Activity_Type.html">Organisation Activity Type</a>
+  <a href="Organisation_Type.html">Organisation Type</a>
   <a href="Publication.html">Publication</a>
   <a href="Research_Area.html">Research Area</a>
   <a href="Robot_type.html">Robot type</a>
   <a href="Scientific_Domain.html">Scientific Domain</a>
   <a href="Turnover.html">Turnover</a>
-</div>
+  </div>
 
 <div class="main">
   <h1>Business Function</h1>
+  <div class="sidebar">
+  <h2>Taxonomies</h2>
+  <a href="AI_Paradigm.html">AI Paradigm</a>
+  <a href="Actuation.html">Actuation</a>
+  <a href="Approach.html">Approach</a>
+  <a href="Business_Function.html">Business Function</a>
+  <a href="Business_Problem.html">Business Problem</a>
+  <a href="Business_Sector.html">Business Sector</a>
+  <a href="Country.html">Country</a>
+  <a href="Educational_Competency.html">Educational Competency</a>
+  <a href="Educational_Level.html">Educational Level</a>
+  <a href="Event_Mode.html">Event Mode</a>
+  <a href="Event_Status.html">Event Status</a>
+  <a href="Language.html">Language</a>
+  <a href="Learning_Mode.html">Learning Mode</a>
+  <a href="Licence.html">Licence</a>
+  <a href="MIMEtype.html">MIMEtype</a>
+  <a href="News_Category.html">News Category</a>
+  <a href="Number_of_Employees.html">Number of Employees</a>
+  <a href="Organisation_Activity_Type.html">Organisation Activity Type</a>
+  <a href="Organisation_Type.html">Organisation Type</a>
+  <a href="Publication.html">Publication</a>
+  <a href="Research_Area.html">Research Area</a>
+  <a href="Robot_type.html">Robot type</a>
+  <a href="Scientific_Domain.html">Scientific Domain</a>
+  <a href="Turnover.html">Turnover</a>
+  </div>
+
+<div class="main">
+  
   <html><head>
 <title>Business Function</title>
 <style>body { font-family: sans-serif; padding: 1em; } .concept { margin-bottom: 1em; }</style>
 </head><body>
-<h2>The area of operations within a business.</h2>
+
 <div class='concept'>
 <h3>Accounting and Finance</h3>
 <p><strong>Definition:</strong> Accounting deals with record-keeping and reporting decisions for your company&#x27;s finances. Finance helps to analyze all the data to make important decisions about how best to direct the organization.</p>
@@ -180,8 +142,16 @@
 <p><strong>Definition:</strong> Departments focused on handling a broad spectrum of aspects related to managing people and attracting, selecting, and hiring candidates for open positions within the organization.</p>
 </div>
 <div class='concept'>
+<h3>Legal &amp; Compliance</h3>
+<p><strong>Definition:</strong> The part of a company that understands the laws and also implements systems and processes to adhere to them consistently.</p>
+</div>
+<div class='concept'>
 <h3>Marketing</h3>
 <p><strong>Definition:</strong> The strategies and processes that generate persuasive prospects to buy a product or service</p>
+</div>
+<div class='concept'>
+<h3>Operations</h3>
+<p><strong>Definition:</strong> Activities for strategically and date to date management of company’s resources for making its processes</p>
 </div>
 <div class='concept'>
 <h3>Production</h3>
@@ -203,15 +173,6 @@
 <h3>Sales</h3>
 <p><strong>Definition:</strong> All activities and processes involved in selling products or services. It includes prospecting, engaging with potential customers, managing sales teams, and closing deals.</p>
 </div>
-</body></html>
-  <div class="footer">
-    Part of the AIoD Knowledge Base – All rights reserved.
-  </div>
-</div>
-
-</body>
-</html>
-
   <div class="footer">
     Part of the AIoD Knowledge Base – All rights reserved.
   </div>
