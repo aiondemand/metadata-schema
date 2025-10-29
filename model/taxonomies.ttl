@@ -1432,6 +1432,14 @@ rdfs:Class rdf:type owl:Class .
                  rdfs:label "Assistive Living"@en .
 
 
+###  http://aiod.eu/data/schemas/Association
+:Association rdf:type owl:NamedIndividual ,
+                      ns1:Concept ;
+             ns1:inScheme :OrganisationType ;
+             ns1:notation "con1380"@en ;
+             rdfs:label "Association"@en .
+
+
 ###  http://aiod.eu/data/schemas/AssociationAnalysis
 :AssociationAnalysis rdf:type owl:NamedIndividual ,
                               ns1:Concept ;
@@ -2479,6 +2487,14 @@ rdfs:Class rdf:type owl:Class .
                        ns1:definition "The invisible manager inside the computer where data input is transformed into information output."@en .
 
 
+###  http://aiod.eu/data/schemas/Centre
+:Centre rdf:type owl:NamedIndividual ,
+                 ns1:Concept ;
+        ns1:inScheme :OrganisationType ;
+        ns1:notation "con1381"@en ;
+        rdfs:label "Centre"@en .
+
+
 ###  http://aiod.eu/data/schemas/Chad
 :Chad rdf:type owl:NamedIndividual ,
                ns1:Concept ;
@@ -2884,6 +2900,14 @@ informal context."""@en .
          rdfs:label "Comoros"@en .
 
 
+###  http://aiod.eu/data/schemas/Company
+:Company rdf:type owl:NamedIndividual ,
+                  ns1:Concept ;
+         ns1:inScheme :OrganisationType ;
+         ns1:notation "con1382"@en ;
+         rdfs:label "Company"@en .
+
+
 ###  http://aiod.eu/data/schemas/CompetitiveLandscapeMonitoring
 :CompetitiveLandscapeMonitoring rdf:type owl:NamedIndividual ,
                                          ns1:Concept ;
@@ -3053,6 +3077,14 @@ informal context."""@en .
                         <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
                         rdfs:label "Constraint Satisfaction"@en ;
                         ns1:definition "The process of finding a solution through a set of constraints that impose conditions the variables must satisfy."@en .
+
+
+###  http://aiod.eu/data/schemas/ConstraintsAndSatisfiability
+:ConstraintsAndSatisfiability rdf:type owl:NamedIndividual ,
+                                       ns1:Concept ;
+                              ns1:inScheme :ResearchArea ;
+                              ns1:notation "con1385"@en ;
+                              rdfs:label "Constraints and satisfiability"@en .
 
 
 ###  http://aiod.eu/data/schemas/Construction
@@ -4066,6 +4098,14 @@ informal context."""@en .
                ns1:inScheme :Approach ;
                ns1:notation "con869"@en ;
                rdfs:label "Edge computing"@en .
+
+
+###  http://aiod.eu/data/schemas/EducationInstitution
+:EducationInstitution rdf:type owl:NamedIndividual ,
+                               ns1:Concept ;
+                      ns1:inScheme :OrganisationType ;
+                      ns1:notation "con1383"@en ;
+                      rdfs:label "Education Institution"@en .
 
 
 ###  http://aiod.eu/data/schemas/EducationalActivities
@@ -9659,6 +9699,14 @@ acquires above human intelligence in Go."""@en .
              rdfs:label "Research Hub"@en .
 
 
+###  http://aiod.eu/data/schemas/ResearchInstitution
+:ResearchInstitution rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
+                     ns1:inScheme :OrganisationType ;
+                     ns1:notation "con1384"@en ;
+                     rdfs:label "Research Institution"@en .
+
+
 ###  http://aiod.eu/data/schemas/ResearchUniversity
 :ResearchUniversity rdf:type owl:NamedIndividual ,
                              ns1:Concept ;
@@ -12664,6 +12712,14 @@ labels. The objective is to discover the underlying data structure, for example,
               rdfs:label "bsd-2-clause"@en .
 
 
+###  http://aiod.eu/data/schemas/bsd-2-clause-patent
+:bsd-2-clause-patent rdf:type owl:NamedIndividual ,
+                              ns1:Concept ;
+                     ns1:inScheme :Licence ;
+                     ns1:notation "con1388"@en ;
+                     rdfs:label "bsd-2-clause-patent"@en .
+
+
 ###  http://aiod.eu/data/schemas/bsd-3-clause
 :bsd-3-clause rdf:type owl:NamedIndividual ,
                        ns1:Concept ;
@@ -12830,6 +12886,14 @@ labels. The objective is to discover the underlying data structure, for example,
          ns1:inScheme :Licence ;
          ns1:notation "con519"@en ;
          rdfs:label "cc0-1.0"@en .
+
+
+###  http://aiod.eu/data/schemas/cddl-1.0
+:cddl-1.0 rdf:type owl:NamedIndividual ,
+                   ns1:Concept ;
+          ns1:inScheme :Licence ;
+          ns1:notation "con1386"@en ;
+          rdfs:label "cddl-1.0"@en .
 
 
 ###  http://aiod.eu/data/schemas/cdla-permissive-1.0
