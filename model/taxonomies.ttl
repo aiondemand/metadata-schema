@@ -707,6 +707,13 @@ rdfs:Class rdf:type owl:Class .
                                         rdfs:label "AI Hardware & High-Performance Computing"@en .
 
 
+###  http://aiod.eu/data/schemas/AIParadigm
+:AIParadigm rdf:type owl:NamedIndividual ,
+                     ns1:ConceptScheme ;
+            ns1:notation "scheme024"@en ;
+            rdfs:label "AI Paradigm"@en .
+
+
 ###  http://aiod.eu/data/schemas/AIServices
 :AIServices rdf:type owl:NamedIndividual ,
                      ns1:Concept ;
@@ -2820,6 +2827,14 @@ rdfs:Class rdf:type owl:Class .
                    ns1:definition "An advanced driver-assistance system designed to prevent or reduce the severity of a collision."@en .
 
 
+###  http://aiod.eu/data/schemas/CollaborativeAI
+:CollaborativeAI rdf:type owl:NamedIndividual ,
+                          ns1:Concept ;
+                 ns1:inScheme :AIParadigm ;
+                 ns1:notation "con1389"@en ;
+                 rdfs:label "Collaborative AI"@en .
+
+
 ###  http://aiod.eu/data/schemas/CollaborativeRobotics
 :CollaborativeRobotics rdf:type owl:NamedIndividual ,
                                 ns1:Concept ;
@@ -4527,6 +4542,14 @@ informal context."""@en .
                 ns1:definition "The concept that a machine learning model and its output can be explained in a way that makes sense to a human at an acceptable level."@en .
 
 
+###  http://aiod.eu/data/schemas/ExplainableAI
+:ExplainableAI rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
+               ns1:inScheme :AIParadigm ;
+               ns1:notation "con1390"@en ;
+               rdfs:label "Explainable AI"@en .
+
+
 ###  http://aiod.eu/data/schemas/ExtremeClassification
 :ExtremeClassification rdf:type owl:NamedIndividual ,
                                 ns1:Concept ;
@@ -5931,6 +5954,14 @@ informal context."""@en .
                    <http://purl.org/dc/elements/1.1/source> "Samoili, S., López Cobo, M., Delipetrev, B., Martínez-Plumed, F., Gómez, E., and De Prato, G. (2021). AI Watch: Defining Artificial Intelligence 2.0. EUR 30873 EN, Publications Office of the European Union."@en ;
                    rdfs:label "Inspection of Tasks"@en ;
                    ns1:definition "A process for identifying and addressing problems and ensuring that operations run properly."@en .
+
+
+###  http://aiod.eu/data/schemas/IntegrativeAI
+:IntegrativeAI rdf:type owl:NamedIndividual ,
+                        ns1:Concept ;
+               ns1:inScheme :AIParadigm ;
+               ns1:notation "con1391"@en ;
+               rdfs:label "Integrative AI"@en .
 
 
 ###  http://aiod.eu/data/schemas/IntelligenceSoftware
@@ -8880,6 +8911,14 @@ hearing, manipulation. etc., being vision and hearing the most developed areas i
           ns1:inScheme :EventMode ;
           ns1:notation "con1179"@en ;
           rdfs:label "Physical"@en .
+
+
+###  http://aiod.eu/data/schemas/PhysicalAI
+:PhysicalAI rdf:type owl:NamedIndividual ,
+                     ns1:Concept ;
+            ns1:inScheme :AIParadigm ;
+            ns1:notation "con1392"@en ;
+            rdfs:label "Physical AI"@en .
 
 
 ###  http://aiod.eu/data/schemas/PhysicalComputing
@@ -12084,6 +12123,14 @@ labels. The objective is to discover the underlying data structure, for example,
            ns1:notation "con839"@en ;
            <http://purl.org/dc/elements/1.1/source> "United Nations Statistics Division. Standard country or area codes for statistical use (M49 classification)"@en ;
            rdfs:label "Bolivarian Republic of Venezuela"@en .
+
+
+###  http://aiod.eu/data/schemas/VerifiableAI
+:VerifiableAI rdf:type owl:NamedIndividual ,
+                       ns1:Concept ;
+              ns1:inScheme :AIParadigm ;
+              ns1:notation "con1393"@en ;
+              rdfs:label "Verifiable AI"@en .
 
 
 ###  http://aiod.eu/data/schemas/VeterinarySciences

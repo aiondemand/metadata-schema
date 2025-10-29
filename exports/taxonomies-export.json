@@ -1,6 +1,62 @@
 {
   "aiod_taxonomies": [
     {
+      "taxonomy_id": "scheme024",
+      "taxonomy_name": "AI Paradigm",
+      "elements": [
+        {
+          "id": "con1389",
+          "label": {
+            "language": "en",
+            "value": "Collaborative AI"
+          },
+          "definition": "",
+          "seeAlso": "",
+          "elements": []
+        },
+        {
+          "id": "con1390",
+          "label": {
+            "language": "en",
+            "value": "Explainable AI"
+          },
+          "definition": "",
+          "seeAlso": "",
+          "elements": []
+        },
+        {
+          "id": "con1391",
+          "label": {
+            "language": "en",
+            "value": "Integrative AI"
+          },
+          "definition": "",
+          "seeAlso": "",
+          "elements": []
+        },
+        {
+          "id": "con1392",
+          "label": {
+            "language": "en",
+            "value": "Physical AI"
+          },
+          "definition": "",
+          "seeAlso": "",
+          "elements": []
+        },
+        {
+          "id": "con1393",
+          "label": {
+            "language": "en",
+            "value": "Verifiable AI"
+          },
+          "definition": "",
+          "seeAlso": "",
+          "elements": []
+        }
+      ]
+    },
+    {
       "taxonomy_id": "scheme015",
       "taxonomy_name": "Actuation",
       "elements": [
